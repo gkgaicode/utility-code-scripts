@@ -1,0 +1,5968 @@
+WEBVTT
+
+1
+00:00:04.121 --> 00:00:08.721
+Sunny Savita: I hope, guys, I am audible. Yeah, good evening to all of you.
+
+
+2
+00:00:09.271 --> 00:00:11.831
+Sunny Savita: Good evening to everyone, let's begin.
+
+
+3
+00:00:12.311 --> 00:00:16.090
+Sunny Savita: Just give me a moment, I am going to open the dashboard.
+
+
+4
+00:00:16.751 --> 00:00:20.021
+Sunny Savita: And, then I'll give you the quick recap.
+
+
+5
+00:00:20.291 --> 00:00:29.250
+Sunny Savita: And after that, I will start with the session. So, can you see my, can you see, guys, can you see my dashboard? If it is visible, please let me know in the chat.
+
+
+6
+00:00:35.051 --> 00:00:40.651
+Sunny Savita: Yeah. Hi, everyone. I hope everyone is doing well.
+
+
+7
+00:00:42.571 --> 00:01:00.890
+Sunny Savita: Okay, great. So, guys, so far, we have completed, 12 sessions, right? I think 11 sessions. So, the first, 3 sessions, basically, it was just an induction and the introduction session. So, we have completed 10 to 11 sessions. So, in the previous class, basically, we were talking about a transformer.
+
+
+8
+00:01:01.081 --> 00:01:04.060
+Sunny Savita: And, if you will go and check with the resources…
+
+
+9
+00:01:04.151 --> 00:01:15.731
+Sunny Savita: So, here, all the resources and all, everything is updated, okay? Now, apart from that, guys, we have given you one GitHub link also, so you can, sorry, I have given you one GitHub link also.
+
+
+10
+00:01:15.731 --> 00:01:27.730
+Sunny Savita: I created one specific repository for all the resources and all. So this is the repository. You can download, you can check out all the class-wise resources over here, okay?
+
+
+11
+00:01:27.731 --> 00:01:40.321
+Sunny Savita: So all the class files sources I updated over here, you can check out. So, if you're a new joinee, if you have joined this class first time, okay, whoever has joined this class first time, then please go and check out with the dashboard.
+
+
+12
+00:01:40.321 --> 00:01:51.900
+Sunny Savita: Right? And over the dashboard, guys, you will find out all the recorded session, along with the resources. And here is one, repository, right? And this repository, basically, you will get inside the,
+
+
+13
+00:01:51.901 --> 00:02:07.150
+Sunny Savita: This repository, basically this repository link, you will get it over the dashboard also. So, once you will go through with the dashboard now, here you will get it. Let me check, it would be here. If it is not here, I already share inside the multiple classes.
+
+
+14
+00:02:07.341 --> 00:02:14.470
+Sunny Savita: Even I'm sharing over here. Or else, if you will check out with the Sunny Savita GitHub, you will get it over there, okay? Once you will Google.
+
+
+15
+00:02:14.621 --> 00:02:15.870
+Sunny Savita: Got it, guys?
+
+
+16
+00:02:15.991 --> 00:02:21.990
+Sunny Savita: Just, let me know, in the chat if you got this link, so that we can start with the session.
+
+
+17
+00:02:22.291 --> 00:02:23.371
+Sunny Savita: Okay.
+
+
+18
+00:02:26.711 --> 00:02:44.260
+Sunny Savita: Great. So, may I know in the previous class, what we were talking about? Just give me quick, just let me know in the chat, guys. Just give me quick, recap of the previous session, that what we have discussed in the previous class, and then I'll, start with today's session, okay?
+
+
+19
+00:02:44.501 --> 00:03:00.150
+Sunny Savita: So, we have completed the, positional encoding, right? And now we are into the, self-attention part. So, we are discussing the transformer, transformer architecture. So, I think two more classes is required for that, today's class and tomorrow's class.
+
+
+20
+00:03:00.211 --> 00:03:15.531
+Sunny Savita: And after that, guys, we are going to be complete that, okay? We are going to be complete the transformer architecture, and we are going to be into the other topic of the generative AI, okay? So we'll understand about the APIs, right? How we can access the different, different models from the API.
+
+
+21
+00:03:15.531 --> 00:03:33.740
+Sunny Savita: And then, we'll see the fine-turing technique, rack technique, agentic technique, MCP guardrails, evaluation, and then we are going to create a project, okay? And then we'll see the cloud-specific tech, cloud-specific technique, we'll see the cloud AI, so many things we are going to discuss in the going forward session.
+
+
+22
+00:03:33.741 --> 00:03:50.681
+Sunny Savita: Now, this transformer, actually, we are learning for the interview perspective, okay? Just to clear our fundamental, if someone is going to be asking any question, regard… related to the LLM architecture, related to the transformer, so that, at least, you can, you can answer, okay?
+
+
+23
+00:03:50.681 --> 00:04:03.130
+Sunny Savita: Now, guys, I have seen, inside the chat, a few people were asking about the, few people, basically, they were asking about the notes they are not able to download inside, they are not able to download from the GitHub, basically.
+
+
+24
+00:04:03.131 --> 00:04:16.300
+Sunny Savita: So, guys, if you're not able to download the, if you're… let's say, if you have opened this notes, right? Let me show you one of the notes. Let's say, if you have opened this folder, and inside this particular folder, if you have opened this handwritten notes, right?
+
+
+25
+00:04:16.321 --> 00:04:30.221
+Sunny Savita: Let's say it is not being opened, and it is showing you some error, render block or something like that, right? No need to worry. You just need to download these notes. Once you will download, guys, it will be available inside your system, and it will be working fine.
+
+
+26
+00:04:30.221 --> 00:04:51.820
+Sunny Savita: Because sometimes what happened now, if you are going to be open these notes over the GitHub, basically, right? So it is working over the server, so sometime it is, giving you some issues, some render block or something like that. So the best option is, you can clone this repository, you can download these notes inside your local, it will be visible inside your system. Making sense to all of you? Yes or no?
+
+
+27
+00:04:52.141 --> 00:04:55.580
+Sunny Savita: Please let me know in the chat, so that we can proceed.
+
+
+28
+00:04:57.061 --> 00:05:01.401
+Sunny Savita: Tell me, guys, everything is perfect, everything is fine so far?
+
+
+29
+00:05:01.861 --> 00:05:03.780
+Sunny Savita: Just give me quick thumbs up.
+
+
+30
+00:05:04.951 --> 00:05:06.551
+Sunny Savita: Oh, okay.
+
+
+31
+00:05:06.881 --> 00:05:10.961
+Sunny Savita: If you have already cloned, that is a good thing. That is a good thing.
+
+
+32
+00:05:11.101 --> 00:05:22.681
+Sunny Savita: Sir, after covering the gen diffusion… no, that is… that we are not going to be covered, because it is, out of the scope, okay? No one is going to be asking you that, and even we are not going to be used that, okay, directly.
+
+
+33
+00:05:24.491 --> 00:05:25.501
+Sunny Savita: Great.
+
+
+34
+00:05:25.571 --> 00:05:34.681
+Sunny Savita: No, guys, one more thing, one more update. Guys, can I skip today's doubt session, because I was, traveling for the entire day.
+
+
+35
+00:05:34.681 --> 00:05:46.201
+Sunny Savita: I just reached out home, I think, like, one hour back only, so feeling, like, a little tired and all. So, I'm just skipping today's doubt session. I'll take some,
+
+
+36
+00:05:46.201 --> 00:05:49.141
+Sunny Savita: I'll take some rest, okay, after the class.
+
+
+37
+00:05:49.211 --> 00:05:57.030
+Sunny Savita: And tomorrow, I will continue the doubt session. Is it fine? No, today, class, I will, no, I'm not going to cancel the class.
+
+
+38
+00:05:57.311 --> 00:06:05.750
+Sunny Savita: So, class, I will continue, but yeah. Doubt session, guys, can I skip that, so that I can take some rest and,
+
+
+39
+00:06:06.061 --> 00:06:08.541
+Sunny Savita: And tomorrow, guys, I'll continue that, okay?
+
+
+40
+00:06:09.911 --> 00:06:10.821
+Sunny Savita: Okay.
+
+
+41
+00:06:11.311 --> 00:06:26.541
+Sunny Savita: Because, for the entire day, I was traveling from, like, 10 o'clock itself, and I just reached home around 6.30, actually. So I thought to, like, cancel the class, but I thought, no, I'm not going to cancel that. Let's, continue the class.
+
+
+42
+00:06:26.651 --> 00:06:29.340
+Sunny Savita: Okay, I will not take the, doubt session.
+
+
+43
+00:06:29.481 --> 00:06:30.251
+Sunny Savita: Okay.
+
+
+44
+00:06:32.311 --> 00:06:33.640
+Sunny Savita: Yeah, okay, fine.
+
+
+45
+00:06:34.141 --> 00:06:44.580
+Sunny Savita: So, let's, let's begin. And, let me revise, the thing, basically, whatever thing we have covered so far. And after that, guys, I'll, discuss the self-attention part, okay?
+
+
+46
+00:06:44.771 --> 00:06:50.371
+Sunny Savita: Now, so you guys, we're talking about the transformer, so we have…
+
+
+47
+00:06:51.561 --> 00:07:04.431
+Sunny Savita: Yeah, I will take slowly, okay? I will explain you this part slowly, don't worry. So, guys, if we're talking about a transformer, so we have already understood, the different, different, component of the transformer, okay?
+
+
+48
+00:07:04.431 --> 00:07:17.571
+Sunny Savita: So, let me write over here, this is the same notes, basically. Inside these notes only, I'm going to be cover-up, okay? I'm going to be right, all the things. So, if we're talking about transformer, guys.
+
+
+49
+00:07:18.061 --> 00:07:26.370
+Sunny Savita: So, we have a different, different component of the transformer. May I know, guys, the first, component of the transformer? Please, guys, let me know in the chat.
+
+
+50
+00:07:27.131 --> 00:07:32.841
+Sunny Savita: The first component of the transformer is called the encoder.
+
+
+51
+00:07:34.301 --> 00:07:35.221
+Sunny Savita: Right?
+
+
+52
+00:07:35.501 --> 00:07:41.251
+Sunny Savita: encoder. And the second component of the transformer is called the decoder.
+
+
+53
+00:07:44.141 --> 00:07:50.250
+Sunny Savita: Okay, so we understood about the encoder side, we have already gone through with the encoder side.
+
+
+54
+00:07:50.431 --> 00:07:54.800
+Sunny Savita: And we understood, how the data is flowing inside the encoder.
+
+
+55
+00:07:55.481 --> 00:07:56.411
+Sunny Savita: How?
+
+
+56
+00:07:56.881 --> 00:07:57.801
+Sunny Savita: Duh.
+
+
+57
+00:07:59.241 --> 00:08:00.281
+Sunny Savita: data.
+
+
+58
+00:08:02.531 --> 00:08:06.331
+Sunny Savita: flaws, In… encoder.
+
+
+59
+00:08:06.711 --> 00:08:20.621
+Sunny Savita: Now, guys, when we were, deep diving into the encoder, right, so when we were deep diving into the encoder site, so we have encountered the different, different components. The first component, basically, it was the positional encoding.
+
+
+60
+00:08:22.991 --> 00:08:24.191
+Sunny Savita: Okay.
+
+
+61
+00:08:24.451 --> 00:08:26.361
+Sunny Savita: positional and coding.
+
+
+62
+00:08:27.531 --> 00:08:31.760
+Sunny Savita: The second component is called the, guys, what is the second component?
+
+
+63
+00:08:32.411 --> 00:08:35.991
+Sunny Savita: The second component is called the… Self-attention.
+
+
+64
+00:08:38.571 --> 00:08:39.521
+Sunny Savita: Okay?
+
+
+65
+00:08:40.061 --> 00:08:42.941
+Sunny Savita: Now, guys, we are going to be extending the self-attention.
+
+
+66
+00:08:43.981 --> 00:08:46.041
+Sunny Savita: So, we have one more name.
+
+
+67
+00:08:46.341 --> 00:08:53.230
+Sunny Savita: which comes inside the research paper, that is called multi-head self-attention, okay? I'm just giving you the recap.
+
+
+68
+00:08:53.381 --> 00:09:01.621
+Sunny Savita: of the terms and the terminology, and then I'll come to the self-attention part, okay? Now, then the third thing is called the
+
+
+69
+00:09:02.061 --> 00:09:04.021
+Sunny Savita: Layer normalization.
+
+
+70
+00:09:05.791 --> 00:09:06.851
+Sunny Savita: layer.
+
+
+71
+00:09:07.021 --> 00:09:08.361
+Sunny Savita: normalization.
+
+
+72
+00:09:09.321 --> 00:09:10.191
+Sunny Savita: Okay.
+
+
+73
+00:09:10.721 --> 00:09:22.741
+Sunny Savita: layer normalization, basically, it was a part of the encoder. So, positional encoding, self-attention, multi-added self-attention, layer normalization, so these all are the part of the encoder.
+
+
+74
+00:09:23.051 --> 00:09:29.430
+Sunny Savita: Okay? And we already understood about the positional coding, like, what is a positional coding, and how does it work?
+
+
+75
+00:09:29.581 --> 00:09:35.811
+Sunny Savita: Now, we have understood some more things, so I've given you the idea behind the, neural network.
+
+
+76
+00:09:36.821 --> 00:09:37.710
+Sunny Savita: Okay.
+
+
+77
+00:09:38.061 --> 00:09:39.491
+Sunny Savita: neural network.
+
+
+78
+00:09:39.700 --> 00:09:44.021
+Sunny Savita: And I hope so you have already covered this neural network from the prerequisite.
+
+
+79
+00:09:44.131 --> 00:09:47.071
+Sunny Savita: Then the fifth one was the residual connection.
+
+
+80
+00:09:48.471 --> 00:09:51.861
+Sunny Savita: The fifth one, basically, it was the residual connection.
+
+
+81
+00:09:52.901 --> 00:09:58.131
+Sunny Savita: So, we have already understood this residual connection and neural network conceptually.
+
+
+82
+00:09:59.151 --> 00:10:00.011
+Sunny Savita: Okay?
+
+
+83
+00:10:00.321 --> 00:10:06.370
+Sunny Savita: We are, and we understood, like, why the neural network is there, why the residual connection is there.
+
+
+84
+00:10:06.841 --> 00:10:12.451
+Sunny Savita: Now guys, see, this concept, Sorry, guys.
+
+
+85
+00:10:12.961 --> 00:10:13.991
+Sunny Savita: Yeah.
+
+
+86
+00:10:17.071 --> 00:10:24.880
+Sunny Savita: Okay. So, guys, this, neural network, actually, it is also called the full, fully connected neural network, okay?
+
+
+87
+00:10:24.981 --> 00:10:27.540
+Sunny Savita: Fully feed-forward neural network.
+
+
+88
+00:10:27.931 --> 00:10:33.510
+Sunny Savita: Now, over here, guys, if we're talking about this particular concept, position and coding, we have already covered.
+
+
+89
+00:10:33.711 --> 00:10:49.780
+Sunny Savita: Because this thing we are going to see in detail. Okay, mathematically, we are, looking into this concept in a detail. Then, guys, self-attention concept. I already given you the overview of this particular concept in the previous session. Today, I will again explain you this part.
+
+
+90
+00:10:50.101 --> 00:10:55.880
+Sunny Savita: Okay? And then, guys, layer normalization, it's a pending one, so we'll come into this part.
+
+
+91
+00:10:56.231 --> 00:10:56.931
+Sunny Savita: Right?
+
+
+92
+00:10:57.261 --> 00:11:12.940
+Sunny Savita: Now, over here, guys, we're talking about the decoder side. So, decoder side also, we have couple of concepts. So, the decoder side, basically, will understand the two more, two important concepts. The first, basically, flow of the data, okay? Data flow in decoder.
+
+
+93
+00:11:13.221 --> 00:11:14.291
+Sunny Savita: Data.
+
+
+94
+00:11:14.511 --> 00:11:16.871
+Sunny Savita: Pillow in decoder.
+
+
+95
+00:11:17.701 --> 00:11:20.001
+Sunny Savita: Dataflow in decoder side.
+
+
+96
+00:11:21.241 --> 00:11:24.190
+Sunny Savita: Then, we'll see the next concept.
+
+
+97
+00:11:24.341 --> 00:11:27.011
+Sunny Savita: Which is going to be a cross attention.
+
+
+98
+00:11:27.921 --> 00:11:28.811
+Sunny Savita: Okay?
+
+
+99
+00:11:29.401 --> 00:11:30.761
+Sunny Savita: cross attention.
+
+
+100
+00:11:30.971 --> 00:11:34.610
+Sunny Savita: Then, we have one more concept that is called the mask attention.
+
+
+101
+00:11:36.271 --> 00:11:38.000
+Sunny Savita: Right? Mask attention.
+
+
+102
+00:11:38.411 --> 00:11:55.830
+Sunny Savita: So, these many things are there, guys, if we're talking about the transformer. So, as of now, we are into the attention side. So, we are going to be discussing the attention. So, we'll discuss about the self-attention, we'll, give you the, I will give you the idea what is the multi-self-attention, and then cross-attention and mass self-attention.
+
+
+103
+00:11:55.881 --> 00:12:10.151
+Sunny Savita: And after that, guys, we'll, look into the layer normalization, and then end-to-end data flow from the encoder to decoder. So if I'm going to be summarized that what all things is pending, so first, guys, in today's session, we'll talk about the self-attention.
+
+
+104
+00:12:11.391 --> 00:12:12.331
+Sunny Savita: Okay?
+
+
+105
+00:12:12.701 --> 00:12:24.181
+Sunny Savita: Then the extended variant of the self-attention, like, multi-headed one, then we'll talk about the cross-attention, mass self-attention, okay? Then the next one, basically, layer normalization.
+
+
+106
+00:12:25.151 --> 00:12:27.041
+Sunny Savita: near normalization.
+
+
+107
+00:12:27.561 --> 00:12:34.421
+Sunny Savita: And after that, guys, we'll understand the end-to-end data flow, end-to-end, end-to-end.
+
+
+108
+00:12:35.191 --> 00:12:36.581
+Sunny Savita: data flow.
+
+
+109
+00:12:38.241 --> 00:12:40.361
+Sunny Savita: In encoder and decoder.
+
+
+110
+00:12:41.521 --> 00:12:42.411
+Sunny Savita: Okay.
+
+
+111
+00:12:42.611 --> 00:12:44.230
+Sunny Savita: Encoder and decoder.
+
+
+112
+00:12:44.351 --> 00:12:52.130
+Sunny Savita: So your… all the concepts, your all the concept of the transformer is going to be clarified. So, I think it will take 2 more classes.
+
+
+113
+00:12:52.321 --> 00:12:53.031
+Sunny Savita: Right?
+
+
+114
+00:12:53.111 --> 00:13:04.710
+Sunny Savita: two more classes, within two more classes, or two to three classes, you can assume. And after that, guys, we are going to be entered into the, after that, we are going to be entered into the core concept of the Gen AI.
+
+
+115
+00:13:04.711 --> 00:13:13.621
+Sunny Savita: Right? Like, APIs, we'll understand about the fine-tuning, racks, and all. Racks, agents, and the different, different project, basically, will do.
+
+
+116
+00:13:13.901 --> 00:13:24.081
+Sunny Savita: Okay? So we'll focus over the core part of the generative AI. Now, guys, if we're talking about, now if we're talking about, basically this transformer, right?
+
+
+117
+00:13:24.691 --> 00:13:40.490
+Sunny Savita: Now, all the LLM architecture, basically, it is based on this transformer architecture. So, you no need to study all the LLM architecture, because there are so many LLMs, and the fundamental… the fundamental of this LLM architecture is nothing, it is a…
+
+
+118
+00:13:40.881 --> 00:13:54.580
+Sunny Savita: the fundamental of all the LLM architecture is nothing, it is a transformer only. So if you are going to be learned the transformer, if you are going to be understand the transformer in detail, I think that will be, that would be fine for all of you, okay?
+
+
+119
+00:13:54.581 --> 00:14:11.990
+Sunny Savita: So no need to be, like, go through with each and every LLM architecture. I'll show you a couple of LLM architecture, which is similar to the transformer only. It means every LLM architecture, actually, it is similar to the transformer. So if you are going to be understand the LLM architecture, then you know… sorry, if you are, if you are able to understand the transformer architecture.
+
+
+120
+00:14:11.991 --> 00:14:15.411
+Sunny Savita: Now, no need to go through with each and every LLM architecture.
+
+
+121
+00:14:15.561 --> 00:14:30.540
+Sunny Savita: Right? Now, guys, over here, we're talking about the self-attention, okay? So let me revise that part. So, I think I already covered one portion of the self-attention. How many of you, you joined my previous session? May I know in the chat, guys?
+
+
+122
+00:14:32.091 --> 00:14:34.951
+Sunny Savita: How many of you, you joined my previous session?
+
+
+123
+00:14:35.911 --> 00:14:42.110
+Sunny Savita: So there I discuss the, there I discuss one portion of the self-attention. Yes or no?
+
+
+124
+00:14:46.911 --> 00:14:57.531
+Sunny Savita: Okay, so now, let me, explain you that part again. So guys, if we're talking about, let's say, what I have, how the self-attention works, let me write over here.
+
+
+125
+00:14:57.741 --> 00:15:01.740
+Sunny Savita: So, I can, write the heading, the self-attention.
+
+
+126
+00:15:01.901 --> 00:15:06.870
+Sunny Savita: Okay, again, I can, explain you from the starting of the sentence.
+
+
+127
+00:15:10.181 --> 00:15:14.460
+Sunny Savita: Now, guys, see, if you have a sentence, the sentence could be anything.
+
+
+128
+00:15:14.631 --> 00:15:19.151
+Sunny Savita: Let's say the sentence is… money.
+
+
+129
+00:15:20.671 --> 00:15:21.631
+Sunny Savita: Bang.
+
+
+130
+00:15:22.121 --> 00:15:26.461
+Sunny Savita: grow, right? So this is what, guys, this is your sentence.
+
+
+131
+00:15:28.501 --> 00:15:31.671
+Sunny Savita: Or this is your data, whatever you can say.
+
+
+132
+00:15:32.061 --> 00:15:44.881
+Sunny Savita: Now, guys, let's say if this particular data, okay, let's say this particular data is being processed via transformer architecture, so how it will happen? So, first, guys, you will break down it into the multiple tokens.
+
+
+133
+00:15:46.421 --> 00:15:47.321
+Sunny Savita: Okay.
+
+
+134
+00:15:48.271 --> 00:15:51.440
+Sunny Savita: So the first, token is going to be, let's say, money.
+
+
+135
+00:15:52.171 --> 00:15:54.951
+Sunny Savita: The second token is going to be, let's say, bank.
+
+
+136
+00:15:55.691 --> 00:15:58.490
+Sunny Savita: And the third token, let's say, is going to be GROW.
+
+
+137
+00:15:59.251 --> 00:16:00.781
+Sunny Savita: So, you have 3 tokens.
+
+
+138
+00:16:01.301 --> 00:16:02.061
+Sunny Savita: Right?
+
+
+139
+00:16:02.281 --> 00:16:04.361
+Sunny Savita: Now, after that, guys, what will happen?
+
+
+140
+00:16:04.931 --> 00:16:06.010
+Sunny Savita: After that.
+
+
+141
+00:16:06.201 --> 00:16:11.131
+Sunny Savita: You are going to be… you are going to be create an embedding of each and every token.
+
+
+142
+00:16:11.521 --> 00:16:14.520
+Sunny Savita: So here, you will get the embedding of the money token.
+
+
+143
+00:16:15.121 --> 00:16:18.051
+Sunny Savita: You will get an embedding of the bank token.
+
+
+144
+00:16:19.551 --> 00:16:24.661
+Sunny Savita: Okay? And then, you will get an embedding of the… GrowToken.
+
+
+145
+00:16:25.301 --> 00:16:29.961
+Sunny Savita: Now, guys, after that, what I'll do, I'll, connect this embedding.
+
+
+146
+00:16:30.201 --> 00:16:33.311
+Sunny Savita: With the positional encoded vector, okay?
+
+
+147
+00:16:33.531 --> 00:16:35.620
+Sunny Savita: So here, my positional encoding.
+
+
+148
+00:16:35.951 --> 00:16:44.450
+Sunny Savita: So I will connect this, vector, I will append… sorry, I will, do the… I will do the addition with the positional-coded vector.
+
+
+149
+00:16:44.701 --> 00:16:59.290
+Sunny Savita: After this particular stage, right? So, let's say we have this embedding, and after that, what we are doing, guys, we are going to be connect… we are going to be, like, we are going to be at the positional encoded vector. Now, whatever vector we are getting, the final vector, so let's say this is my final vector.
+
+
+150
+00:17:00.061 --> 00:17:02.970
+Sunny Savita: Okay? This is my final vector.
+
+
+151
+00:17:04.601 --> 00:17:08.040
+Sunny Savita: This is my final vector, right? So let's say the vector is E-Money.
+
+
+152
+00:17:09.141 --> 00:17:11.671
+Sunny Savita: After the position encoding, this is my vector.
+
+
+153
+00:17:12.241 --> 00:17:22.321
+Sunny Savita: Because in Transformer, every data flows in terms of the… in terms of vector only, correct? Now, here is what? Here is my eBank. Now, this is what? This is my vector, guys. This one.
+
+
+154
+00:17:22.921 --> 00:17:26.060
+Sunny Savita: Now, here is what, guys? Here is my E grow, right?
+
+
+155
+00:17:26.661 --> 00:17:28.661
+Sunny Savita: So this is the vector, guys, this one.
+
+
+156
+00:17:29.441 --> 00:17:38.590
+Sunny Savita: So, I have 3 vectors now. Now, tell me, guys, from where this vector will pass. So, this vector, basically, it's going to be passed from the self-attention layer.
+
+
+157
+00:17:39.701 --> 00:17:46.011
+Sunny Savita: This particular vector is being passed from where? From the Self-attention layer.
+
+
+158
+00:17:46.391 --> 00:17:48.501
+Sunny Savita: So here is what? Here is mine.
+
+
+159
+00:17:48.961 --> 00:17:51.011
+Sunny Savita: Self-attention.
+
+
+160
+00:17:52.701 --> 00:17:53.571
+Sunny Savita: Leah.
+
+
+161
+00:17:56.901 --> 00:18:07.150
+Sunny Savita: Here is what, guys? Here is my self-attention layer. Now, after the self-attention, guys, means once the self… once it will pass from the self-attention, I'll be getting my final vector.
+
+
+162
+00:18:07.521 --> 00:18:08.351
+Sunny Savita: Okay.
+
+
+163
+00:18:08.531 --> 00:18:13.161
+Sunny Savita: I'll be getting what? I'll be getting my final vector. So that's it, this is my final vector, this one.
+
+
+164
+00:18:14.091 --> 00:18:16.351
+Sunny Savita: This is my final vector, guys, this one.
+
+
+165
+00:18:17.121 --> 00:18:21.171
+Sunny Savita: And guys, this vector only, it's called… what is this, guys? Tell me.
+
+
+166
+00:18:21.301 --> 00:18:24.321
+Sunny Savita: It is only called the contextual embedding.
+
+
+167
+00:18:24.471 --> 00:18:28.800
+Sunny Savita: Okay? So let's say this is what? This is my… Maniga vector.
+
+
+168
+00:18:29.201 --> 00:18:30.601
+Sunny Savita: This is what, this is mine.
+
+
+169
+00:18:30.761 --> 00:18:44.200
+Sunny Savita: Venka vector, okay? I am representing it with Y, and let's say this next vector, actually, it's my Groka vector. Now, this particular vector only, this particular vector only, this particular vector only, it is called the
+
+
+170
+00:18:44.411 --> 00:18:50.230
+Sunny Savita: Contextual embedding, right? So this is what guys tell me, this is my contextual embedding.
+
+
+171
+00:18:50.471 --> 00:18:57.020
+Sunny Savita: This is what guys tell me, this is my contextual embedding. Or it is also called the context vector.
+
+
+172
+00:18:59.551 --> 00:19:02.511
+Sunny Savita: Now, we have to decode, now we have to understand.
+
+
+173
+00:19:02.851 --> 00:19:05.691
+Sunny Savita: Like, what is happening inside this self-attention layer?
+
+
+174
+00:19:06.161 --> 00:19:08.321
+Sunny Savita: We're talking about the self-attention.
+
+
+175
+00:19:08.521 --> 00:19:24.480
+Sunny Savita: Now, what is happening over here? Okay, how the data is being processed inside this self-attention. So, guys, here, the first of all, guys, this data, basically, it is being, this data, basically, it is being, this data, basically, it is being passed in parallel.
+
+
+176
+00:19:24.541 --> 00:19:43.120
+Sunny Savita: So, I will discuss that architecture also, I will discuss that flow also, how the data is being passed parallelly inside the self-attention architecture. Oh, sorry, inside the transformer architecture, okay? Now, guys, if we're talking about the self-attention, so the self-attention, basically, it is working based on this particular formula.
+
+
+177
+00:19:43.181 --> 00:19:55.941
+Sunny Savita: So let me show you the formula, guys, now from where the formula will come. So, here is the formula. So, if I'm going to be open, the transformer research paper, so just a second, let me open that.
+
+
+178
+00:19:56.951 --> 00:20:00.521
+Sunny Savita: I already shared the transformer research paper, right, with all of you.
+
+
+179
+00:20:02.071 --> 00:20:05.801
+Sunny Savita: Yes, so this is the formula, guys. Can you see this particular formula?
+
+
+180
+00:20:06.001 --> 00:20:07.600
+Sunny Savita: This is the formula, guys.
+
+
+181
+00:20:07.901 --> 00:20:15.651
+Sunny Savita: Is it visible to all of you? So let me take this particular formula, and then what I'll do, guys, I'll try to explain to you that what is happening.
+
+
+182
+00:20:15.841 --> 00:20:29.150
+Sunny Savita: And now, how they are going to be find out the contextual vector. So, tell me, guys, the idea and the agenda is clear. So, what is the idea, and what is the agenda behind the self-attention? So, we're talking about the self-attention, guys.
+
+
+183
+00:20:30.291 --> 00:20:33.591
+Sunny Savita: Now, tell me, guys, what is the core idea behind this self-attention?
+
+
+184
+00:20:33.701 --> 00:20:36.081
+Sunny Savita: So, we're talking about the self-attention.
+
+
+185
+00:20:39.561 --> 00:20:43.701
+Sunny Savita: So the core idea behind the self-attention is nothing.
+
+
+186
+00:20:44.261 --> 00:20:48.931
+Sunny Savita: To find out the… contextual.
+
+
+187
+00:20:50.701 --> 00:20:54.151
+Sunny Savita: To find out the… contextual.
+
+
+188
+00:20:54.401 --> 00:20:55.481
+Sunny Savita: vector.
+
+
+189
+00:20:55.591 --> 00:20:56.501
+Sunny Savita: Okay?
+
+
+190
+00:20:56.641 --> 00:21:01.620
+Sunny Savita: or you can say, to find out the contextual embedding. So let me write over here.
+
+
+191
+00:21:01.941 --> 00:21:11.891
+Sunny Savita: to find out the contextual vector, or you can say to find out the contextual embedding. So this is the main idea behind the self-attention, and it is working based on this particular formula.
+
+
+192
+00:21:12.141 --> 00:21:17.451
+Sunny Savita: Making sense to all of you? Till here, the problem statement is clear. Tell me yes or no.
+
+
+193
+00:21:17.641 --> 00:21:33.901
+Sunny Savita: Till here, the problem statement is clear. Okay. Now, guys, what I'll do, I will explain you this entire self-attention concept with one single sentence, okay? With one single sentence. So, let's say, here is my sentence. What is my sentence, guys?
+
+
+194
+00:21:34.411 --> 00:21:36.060
+Sunny Savita: This is my sentence.
+
+
+195
+00:21:38.101 --> 00:21:39.121
+Sunny Savita: money.
+
+
+196
+00:21:40.891 --> 00:21:41.961
+Sunny Savita: Bank.
+
+
+197
+00:21:42.471 --> 00:21:43.361
+Sunny Savita: Group.
+
+
+198
+00:21:43.831 --> 00:21:44.731
+Sunny Savita: Okay?
+
+
+199
+00:21:45.321 --> 00:21:54.011
+Sunny Savita: So, we'll see how this sentence, how the sentence How this sentence
+
+
+200
+00:21:55.161 --> 00:21:58.231
+Sunny Savita: Is being passed, is being processed.
+
+
+201
+00:21:59.221 --> 00:22:02.231
+Sunny Savita: How this sentence is being processed.
+
+
+202
+00:22:03.471 --> 00:22:09.221
+Sunny Savita: How the sentence is being processed using Self-attention block.
+
+
+203
+00:22:13.891 --> 00:22:18.330
+Sunny Savita: Got it, guys? Now, tell me, what is the definition of the self-attention?
+
+
+204
+00:22:18.461 --> 00:22:28.500
+Sunny Savita: What is the definition of the self-attention? So, in the previous class only, I discussed the definition of the self-attention. So, if you will check out with my previous class notes, there, basically, you will get
+
+
+205
+00:22:29.021 --> 00:22:46.830
+Sunny Savita: And now, guys, just bear this theory for two more classes, and after that, guys, we are going to be a deep dive into the practical and the other concept, okay? So, no need to worry about that. So, guys, if we're talking about the self-attention, I think I discussed the definition of the self-attention in the previous class itself, okay?
+
+
+206
+00:22:46.891 --> 00:22:53.580
+Sunny Savita: So, did I mention the definition over here? I think… no. I think it is in the different notes, maybe.
+
+
+207
+00:22:53.691 --> 00:22:59.260
+Sunny Savita: So, let me open that particular notes, or I think I capped somewhere inside the notepad.
+
+
+208
+00:22:59.441 --> 00:23:01.301
+Sunny Savita: Just a second, guys, okay?
+
+
+209
+00:23:11.431 --> 00:23:12.521
+Sunny Savita: Yeah.
+
+
+210
+00:23:12.901 --> 00:23:21.641
+Sunny Savita: So the definition, basically, I capped inside the different notes, different other notes. Let me open that. I think people are asking about it.
+
+
+211
+00:23:22.051 --> 00:23:35.010
+Sunny Savita: So, this is the previous one, and this is the next one. See, guys, everything I kept inside the notes itself. So, if you are, like, if you are not able to, like, revise your concept, right, just by looking into the class.
+
+
+212
+00:23:35.011 --> 00:23:51.900
+Sunny Savita: So, please look into the notes as well, okay? Side by side, you can open the notes as well. So, see, guys, this is the definition of the self-attention, okay? So, here I, explain to you that what is a self-attention with the diagram itself. So, what is a self-attention, guys? So, relation of the word with the other word in the sentence.
+
+
+213
+00:23:51.901 --> 00:24:06.210
+Sunny Savita: What we are going to be find out inside the self-attention? We are going to be find out the relation of the word with the other words inside the given sentence. Okay? So the complete self-attention, concept, you will get it over here, means at least the definition and all.
+
+
+214
+00:24:06.241 --> 00:24:16.760
+Sunny Savita: And today, guys, we are going to be deep dive into that. I think in the previous to previous class, I already explained this part, okay? So you can look into this session again, right after the class.
+
+
+215
+00:24:16.901 --> 00:24:21.711
+Sunny Savita: Now, guys, what I'm going to do here… so,
+
+
+216
+00:24:21.971 --> 00:24:32.760
+Sunny Savita: with this particular, with this particular, basically, sentence, I'm going to be explaining you. So what is our… what is our, like, definition? The definition of this, self-attention is nothing.
+
+
+217
+00:24:33.021 --> 00:24:36.371
+Sunny Savita: Find out the relation, Fine.
+
+
+218
+00:24:36.831 --> 00:24:37.851
+Sunny Savita: out.
+
+
+219
+00:24:38.801 --> 00:24:40.221
+Sunny Savita: the relation.
+
+
+220
+00:24:42.701 --> 00:24:53.101
+Sunny Savita: Find out the relation of… each word with… other word.
+
+
+221
+00:24:54.861 --> 00:24:55.791
+Sunny Savita: Okay.
+
+
+222
+00:24:56.081 --> 00:25:05.621
+Sunny Savita: So, this is the simplest definition of the self-attention. Now, let me explain you how does it work, and what's the meaning of it. So, we're talking about, let's say, this money.
+
+
+223
+00:25:07.631 --> 00:25:09.791
+Sunny Savita: How this money will be represented?
+
+
+224
+00:25:10.381 --> 00:25:18.960
+Sunny Savita: how this contextual embedding of the money will be represented. It will be represented like this. Let's say we have a weights over here. This is my… this is my weights.
+
+
+225
+00:25:19.281 --> 00:25:22.930
+Sunny Savita: Okay? Now, here is what? Here is my E of money.
+
+
+226
+00:25:23.861 --> 00:25:27.231
+Sunny Savita: plus… W12.
+
+
+227
+00:25:27.691 --> 00:25:29.561
+Sunny Savita: W1 to multiply.
+
+
+228
+00:25:30.241 --> 00:25:31.971
+Sunny Savita: W12 multiply.
+
+
+229
+00:25:32.581 --> 00:25:34.211
+Sunny Savita: E of Bank.
+
+
+230
+00:25:35.291 --> 00:25:38.611
+Sunny Savita: plus… W12.
+
+
+231
+00:25:39.211 --> 00:25:40.790
+Sunny Savita: E of GROW.
+
+
+232
+00:25:41.431 --> 00:25:45.661
+Sunny Savita: Okay. Then, guys, we're talking about the embedding of the band.
+
+
+233
+00:25:45.791 --> 00:25:47.541
+Sunny Savita: So, how it will look like?
+
+
+234
+00:25:47.921 --> 00:25:52.501
+Sunny Savita: So, it will look like this only. So, W12, W21.
+
+
+235
+00:25:52.701 --> 00:25:54.701
+Sunny Savita: Then, E of money.
+
+
+236
+00:25:55.941 --> 00:25:56.811
+Sunny Savita: Plus?
+
+
+237
+00:25:57.641 --> 00:26:00.340
+Sunny Savita: W22, multiply.
+
+
+238
+00:26:01.021 --> 00:26:02.591
+Sunny Savita: E of Bank.
+
+
+239
+00:26:03.691 --> 00:26:08.460
+Sunny Savita: plus W2… W23E of Groh.
+
+
+240
+00:26:08.631 --> 00:26:17.090
+Sunny Savita: Okay. Now here, guys, we're talking about the next word. So, what is a contextual embedding of this grow? So, W31.
+
+
+241
+00:26:17.561 --> 00:26:18.841
+Sunny Savita: Multiply.
+
+
+242
+00:26:19.431 --> 00:26:25.431
+Sunny Savita: E of money, E of money, Okay.
+
+
+243
+00:26:26.331 --> 00:26:32.611
+Sunny Savita: E of what? E of money, plus W32, multiply.
+
+
+244
+00:26:33.451 --> 00:26:36.791
+Sunny Savita: E of Bank, Plus?
+
+
+245
+00:26:37.050 --> 00:26:38.681
+Sunny Savita: W33.
+
+
+246
+00:26:39.101 --> 00:26:40.530
+Sunny Savita: E of Gro.
+
+
+247
+00:26:41.280 --> 00:26:59.411
+Sunny Savita: Right? So after that, guys, what I'll get, if this data is being processed, if this thing is being processed, this information is being processed, I'll be getting what? I'll be getting the contextual embedding. Right? Now, here, guys, let me explain to you that what is happening under the hood, okay? You'll understand that part.
+
+
+248
+00:26:59.451 --> 00:27:09.340
+Sunny Savita: So, what I'm doing, guys, I'm going to be explaining over here. See? Just focus now, okay? Just focus for 2 more minutes. So, what is happening, guys? See.
+
+
+249
+00:27:09.451 --> 00:27:14.400
+Sunny Savita: Let's say we have this word. What is a word, guys? The word is money, okay?
+
+
+250
+00:27:14.581 --> 00:27:16.720
+Sunny Savita: I have this money world.
+
+
+251
+00:27:20.311 --> 00:27:23.151
+Sunny Savita: And then I have this another word, let's say bank.
+
+
+252
+00:27:25.171 --> 00:27:27.511
+Sunny Savita: Then we have another word, let's say grow.
+
+
+253
+00:27:28.651 --> 00:27:33.600
+Sunny Savita: Okay? So how this word actually is being processed, let me explain you that.
+
+
+254
+00:27:33.771 --> 00:27:35.790
+Sunny Savita: So, first, what will happen, guys? See?
+
+
+255
+00:27:36.311 --> 00:27:38.051
+Sunny Savita: First, I'll be having…
+
+
+256
+00:27:38.371 --> 00:27:43.160
+Sunny Savita: What I'll be having, guys, tell me, see. Here you can see, this is the bed, guys, this one.
+
+
+257
+00:27:43.821 --> 00:27:45.431
+Sunny Savita: There's W11.
+
+
+258
+00:27:45.541 --> 00:27:47.071
+Sunny Savita: This is the weight, actually.
+
+
+259
+00:27:47.171 --> 00:27:49.471
+Sunny Savita: W12… okay?
+
+
+260
+00:27:49.581 --> 00:27:56.701
+Sunny Savita: W13. So this weights is nothing. This weight, actually, it is a similarity score.
+
+
+261
+00:27:57.051 --> 00:27:57.931
+Sunny Savita: Okay?
+
+
+262
+00:27:58.201 --> 00:28:02.621
+Sunny Savita: It is a… Similarity, score.
+
+
+263
+00:28:03.541 --> 00:28:14.991
+Sunny Savita: These weights are nothing, these weights are actually, it's a similarity score. Now, how we get this similarity score? Let me explain you that. So here, first, what will happen? We'll be having a vector of the E-Money.
+
+
+264
+00:28:16.621 --> 00:28:18.760
+Sunny Savita: So let's say this is my first vector.
+
+
+265
+00:28:21.881 --> 00:28:22.841
+Sunny Savita: eel.
+
+
+266
+00:28:23.521 --> 00:28:30.691
+Sunny Savita: money, okay? I'm betting off money. What I'll do, guys, I'll do the dot product between e-money and e-money.
+
+
+267
+00:28:33.751 --> 00:28:51.710
+Sunny Savita: Getting my point, guys? Yes or no? Now, here, guys, what I'll be having… I'll be having a… see, what is my first word? My first word is a money, right? So this W11 is nothing, it is a similarity score between E money and e-money, okay? Then what will happen, guys? Tell me. Then here, I'll be having another one.
+
+
+268
+00:28:52.571 --> 00:28:56.560
+Sunny Savita: This is what… this is my vector, right? Same vector. E-Money.
+
+
+269
+00:28:57.771 --> 00:29:05.340
+Sunny Savita: this E money, this time, I'm going to be… perform the dot product of it between with the e-bank, okay?
+
+
+270
+00:29:05.941 --> 00:29:07.001
+Sunny Savita: eBank.
+
+
+271
+00:29:07.551 --> 00:29:09.521
+Sunny Savita: So this is what… this is my e-bank.
+
+
+272
+00:29:09.861 --> 00:29:13.670
+Sunny Savita: Now, over here, guys, see, we have E-Money, the same vector.
+
+
+273
+00:29:14.401 --> 00:29:20.180
+Sunny Savita: Now, this particular vector, this particular vector, I'm going to be multiply with what? I'm going to be multiply with the
+
+
+274
+00:29:20.371 --> 00:29:24.570
+Sunny Savita: E. What, what, what, guys? What would be the next one? E, grow.
+
+
+275
+00:29:25.741 --> 00:29:35.141
+Sunny Savita: So, this is nothing, this one, actually, these weights are nothing, it is a similarity score. Getting my point, guys? Tell me yes or no. Now, what will happen, see?
+
+
+276
+00:29:35.231 --> 00:29:46.220
+Sunny Savita: This value, this particular value, okay, this particular value, basically, it will be passed this value, let's say I'm getting some value. So what is my value? S11
+
+
+277
+00:29:46.611 --> 00:29:47.991
+Sunny Savita: as
+
+
+278
+00:29:48.171 --> 00:29:55.160
+Sunny Savita: as 1, 3. This is the value, right? Now, this particular value will be passed from where? This particular value will be passed from the softmax.
+
+
+279
+00:29:56.111 --> 00:29:58.490
+Sunny Savita: soft max layer, okay?
+
+
+280
+00:29:59.081 --> 00:30:00.570
+Sunny Savita: soft max layer.
+
+
+281
+00:30:04.291 --> 00:30:10.241
+Sunny Savita: softmax layer, right? Now, after passing it from the soft max, what will happen, guys? This value will become…
+
+
+282
+00:30:10.861 --> 00:30:11.841
+Sunny Savita: Let's say.
+
+
+283
+00:30:12.181 --> 00:30:16.480
+Sunny Savita: This, this value basically is what? This value is W11.
+
+
+284
+00:30:16.661 --> 00:30:18.201
+Sunny Savita: W12.
+
+
+285
+00:30:18.221 --> 00:30:37.981
+Sunny Savita: and W13. Getting my point? So this value you are seeing, this W11, W12, W13, you are getting after when? So you have this E-embed, e-money vector, you are going to be multiplied with every other vector, okay, you are going to be find out the similarity, and you are passing it from the softmax layer, and you are getting this W11, W12, and W13.
+
+
+286
+00:30:38.021 --> 00:30:47.531
+Sunny Savita: Now, this value, this value, this W11, W12, W13, you are going to be multiplier With what? This e-money.
+
+
+287
+00:30:49.811 --> 00:30:50.960
+Sunny Savita: Okay, this one.
+
+
+288
+00:30:52.291 --> 00:30:55.891
+Sunny Savita: This one. This is what? This is the e-bank, okay?
+
+
+289
+00:30:56.711 --> 00:30:59.071
+Sunny Savita: eBank. This is what? This is an e-bank.
+
+
+290
+00:30:59.731 --> 00:31:03.500
+Sunny Savita: Then this is what, guys, tell me, this is eGro. Okay, this is what?
+
+
+291
+00:31:03.791 --> 00:31:09.781
+Sunny Savita: This is… equal. Okay. Now, after that, guys, what will happen? See?
+
+
+292
+00:31:10.271 --> 00:31:22.191
+Sunny Savita: this value after the multiplication. After the multiplication, okay, what you will do, you will perform the addition operation over here, and whatever the final value you will get, whatever final value you will get it over here.
+
+
+293
+00:31:22.431 --> 00:31:27.811
+Sunny Savita: This is nothing. This is going to be your… contextual vector.
+
+
+294
+00:31:28.601 --> 00:31:43.201
+Sunny Savita: This is only going to be your contextual vector of the money. Getting my point? So, like this, this entire process is working. Like this, this entire process is working. Now, let me explain with the bank also. So, we're talking about the bank, guys. Let me write it over here.
+
+
+295
+00:31:43.281 --> 00:31:49.370
+Sunny Savita: Don't worry, guys, again, I will show you that. If you're not able to get in a single shot, we'll discuss that, okay, later on also.
+
+
+296
+00:31:49.981 --> 00:31:55.780
+Sunny Savita: Now, over here, what I'm doing… so this is my another word. So, let me draw the line, first of all, in between.
+
+
+297
+00:31:56.221 --> 00:31:57.481
+Sunny Savita: Just a second.
+
+
+298
+00:31:58.221 --> 00:32:00.341
+Sunny Savita: So, this is the line.
+
+
+299
+00:32:01.271 --> 00:32:02.261
+Sunny Savita: This one.
+
+
+300
+00:32:02.701 --> 00:32:03.531
+Sunny Savita: Okay.
+
+
+301
+00:32:03.841 --> 00:32:10.910
+Sunny Savita: So here, what I can write, I can write the bank. So what I have to do? My aim, basically, to find out a contextual vector.
+
+
+302
+00:32:11.701 --> 00:32:22.110
+Sunny Savita: My aim, basically, to find out a contextual vector of this bank, okay? In a similar way, basically, we are going to find out with a grow as well. So let me do one thing. Let me draw one more line.
+
+
+303
+00:32:22.261 --> 00:32:24.891
+Sunny Savita: So I'll show you with the grow, okay?
+
+
+304
+00:32:25.811 --> 00:32:28.451
+Sunny Savita: So, here is what? Here is one more line.
+
+
+305
+00:32:28.761 --> 00:32:35.500
+Sunny Savita: Now, let's understand with the bank. Guys, focus over here. So, first, what we have to do, guys, we have to find out these weights, this one.
+
+
+306
+00:32:35.611 --> 00:32:46.100
+Sunny Savita: this particular weights. Okay, W1, W21, W2, W22, and W23. So, how these weights basically are coming? These weights basically are coming.
+
+
+307
+00:32:46.101 --> 00:32:58.570
+Sunny Savita: What will be the dimension of the bank? It depends, basically. It depends on your embedding model. Got it? Mantai? Now, here, guys, first, what we have to do, we have to find out this weight. Now, what is this weight, guys? It's nothing, it is a similarity score.
+
+
+308
+00:32:58.651 --> 00:32:59.551
+Sunny Savita: This one.
+
+
+309
+00:33:00.041 --> 00:33:05.070
+Sunny Savita: This weights are nothing, it is a similarity score. So, how to get the similarity score? Tell me.
+
+
+310
+00:33:05.271 --> 00:33:10.160
+Sunny Savita: I told you to get a similarity score with a dot product, I explained this part, yes or no.
+
+
+311
+00:33:10.881 --> 00:33:12.051
+Sunny Savita: With a dot product.
+
+
+312
+00:33:13.261 --> 00:33:22.731
+Sunny Savita: So what I will do, guys, I will perform the dot product, okay? Between what? Between this bank, right? So here is what? Here is my bank vector.
+
+
+313
+00:33:23.351 --> 00:33:26.431
+Sunny Savita: This is what is my bank vector, eBank.
+
+
+314
+00:33:26.631 --> 00:33:31.550
+Sunny Savita: Okay? Now, it will perform the dot product with every other vector.
+
+
+315
+00:33:32.611 --> 00:33:34.351
+Sunny Savita: With every other vector.
+
+
+316
+00:33:35.601 --> 00:33:36.461
+Sunny Savita: Okay.
+
+
+317
+00:33:36.761 --> 00:33:40.981
+Sunny Savita: with every other vector. So let's say this is my other vector, the every other vector.
+
+
+318
+00:33:41.301 --> 00:33:42.721
+Sunny Savita: What is this one, guys?
+
+
+319
+00:33:43.141 --> 00:33:45.241
+Sunny Savita: This is nothing, this is my e-money.
+
+
+320
+00:33:46.581 --> 00:33:47.861
+Sunny Savita: Then this is what?
+
+
+321
+00:33:50.021 --> 00:33:51.420
+Sunny Savita: This is my eBay.
+
+
+322
+00:33:52.971 --> 00:33:55.271
+Sunny Savita: Okay, and this is what?
+
+
+323
+00:33:55.631 --> 00:33:56.661
+Sunny Savita: This is mine?
+
+
+324
+00:33:56.991 --> 00:33:57.971
+Sunny Savita: Igro.
+
+
+325
+00:33:59.771 --> 00:34:06.150
+Sunny Savita: Right? Now, what will happen, guys? Tell me. This particular value will, I will be getting the output of this value.
+
+
+326
+00:34:06.781 --> 00:34:09.731
+Sunny Savita: So, let's say, as of now, this is S21.
+
+
+327
+00:34:10.031 --> 00:34:17.361
+Sunny Savita: as 22 and as 2, 3. Now, this value, basically, I'm passing from where? I'm passing it from the softmax layer.
+
+
+328
+00:34:17.731 --> 00:34:23.521
+Sunny Savita: Now, why we are passing it from the softwax layer? So that we can perform the normalization of this value, okay?
+
+
+329
+00:34:24.021 --> 00:34:31.091
+Sunny Savita: So, this is not a layer normalization, it's just a normalization of these weights, right? So, this is what, this is my softmax layer.
+
+
+330
+00:34:33.531 --> 00:34:52.651
+Sunny Savita: soft max layer. Now, what will happen, guys? So, I will be getting the value. So, here is what? Here is my W11, W21, W11. Here is… sorry, W21, actually. This is what? This is my W21, this is my W22, and this is what? W23. Now, what will happen, guys? Tell me.
+
+
+331
+00:34:53.001 --> 00:34:56.150
+Sunny Savita: So after that, this value actually is going to be multiplied.
+
+
+332
+00:34:56.591 --> 00:35:03.651
+Sunny Savita: This value, actually, it's going to be multiplied with what? This value, actually, it's going to be multiplied with this E of money.
+
+
+333
+00:35:04.491 --> 00:35:05.391
+Sunny Savita: Okay?
+
+
+334
+00:35:05.511 --> 00:35:09.870
+Sunny Savita: This value, actually, it's going to be multiplied with what? E of bank.
+
+
+335
+00:35:10.381 --> 00:35:15.531
+Sunny Savita: And this value, actually, it's going to be multiplied with what? E of… grow.
+
+
+336
+00:35:16.261 --> 00:35:26.190
+Sunny Savita: Getting my point? Now, after that, guys, after what we'll do, we are going to be added, we are going to be added. Now, after that only, we'll be getting this buy money.
+
+
+337
+00:35:26.361 --> 00:35:27.291
+Sunny Savita: This one.
+
+
+338
+00:35:27.541 --> 00:35:31.831
+Sunny Savita: Sorry, not buy money, actually, it's a Y Bank, okay?
+
+
+339
+00:35:32.341 --> 00:35:39.241
+Sunny Savita: Why? Bang. So, it is what? It is a contextual embedding. This, this, this, basically, this we are getting now, it is a…
+
+
+340
+00:35:39.551 --> 00:35:41.921
+Sunny Savita: Contextual embedding.
+
+
+341
+00:35:42.351 --> 00:35:48.931
+Sunny Savita: Or, you can say contextual vector. So, this is what guys tell me, this is a contextual embedding.
+
+
+342
+00:35:49.371 --> 00:35:51.361
+Sunny Savita: Or it is a contextual vector.
+
+
+343
+00:35:51.541 --> 00:35:59.580
+Sunny Savita: Let me do the same thing with this, another word also. So let's say we have another word. The word is going to be what? The word is going to be GROW.
+
+
+344
+00:36:00.011 --> 00:36:01.821
+Sunny Savita: So I can write it over here.
+
+
+345
+00:36:02.401 --> 00:36:07.691
+Sunny Savita: The word is going to be grow. So what will happen, guys? Tell me. First, I will be finding the…
+
+
+346
+00:36:07.821 --> 00:36:10.040
+Sunny Savita: First, I'll be finding out this score.
+
+
+347
+00:36:10.151 --> 00:36:15.391
+Sunny Savita: Can anyone tell me what is this score? Tell me, tell me fast, what is this score, guys? Tell me.
+
+
+348
+00:36:15.661 --> 00:36:19.350
+Sunny Savita: So this scores are nothing, this score is nothing, it is a…
+
+
+349
+00:36:20.701 --> 00:36:34.501
+Sunny Savita: Tell me, this score is nothing, it is just a similarity score. Okay, similarity score. Now, how we are going to be get… how we are… will be getting this similarity score? So, this grow, actually, this grow.
+
+
+350
+00:36:35.061 --> 00:36:36.801
+Sunny Savita: It's going to be…
+
+
+351
+00:36:37.151 --> 00:36:43.071
+Sunny Savita: this grow, guys, it's going to be perform the dot product, so this is what, this is my eGrow.
+
+
+352
+00:36:43.671 --> 00:36:45.821
+Sunny Savita: This is what? This is my E.
+
+
+353
+00:36:46.001 --> 00:36:47.001
+Sunny Savita: grow.
+
+
+354
+00:36:47.221 --> 00:36:49.261
+Sunny Savita: And this is what? This is my ego.
+
+
+355
+00:36:49.631 --> 00:36:55.700
+Sunny Savita: It's going to be perform the dot product With every other.
+
+
+356
+00:36:55.931 --> 00:37:00.120
+Sunny Savita: vector, okay? So this is what… this is my e-money.
+
+
+357
+00:37:00.421 --> 00:37:03.461
+Sunny Savita: Now, this is what, tell me, guys, this is my e-bank.
+
+
+358
+00:37:04.501 --> 00:37:06.561
+Sunny Savita: Okay, and this is what? This is what?
+
+
+359
+00:37:06.911 --> 00:37:09.140
+Sunny Savita: This is my EOF grow.
+
+
+360
+00:37:09.681 --> 00:37:10.601
+Sunny Savita: Okay.
+
+
+361
+00:37:11.041 --> 00:37:17.251
+Sunny Savita: Then what will happen, guys? Tell me what I'll be getting over here. I will be getting the weights, some weights.
+
+
+362
+00:37:19.611 --> 00:37:22.400
+Sunny Savita: Okay, so this is what, let's say, as 31…
+
+
+363
+00:37:22.521 --> 00:37:31.460
+Sunny Savita: This is as 3-2, this is as 3-3. Now, what I'll be doing, guys, tell me this particular waits, I'll be passing from where?
+
+
+364
+00:37:31.631 --> 00:37:34.961
+Sunny Savita: I'll be passing from the… Softmax.
+
+
+365
+00:37:36.991 --> 00:37:38.541
+Sunny Savita: Soft mix layer.
+
+
+366
+00:37:38.791 --> 00:37:43.520
+Sunny Savita: Okay? So after passing it from the soft max layer, what will happen, guys?
+
+
+367
+00:37:43.811 --> 00:37:48.261
+Sunny Savita: I'll be getting weights this W31.
+
+
+368
+00:37:48.371 --> 00:38:00.570
+Sunny Savita: W32W33. Now, this particular weight, basically, it's going to be multiply. This particular weight, basically, it's going to be multiply with what?
+
+
+369
+00:38:00.911 --> 00:38:02.531
+Sunny Savita: E of money.
+
+
+370
+00:38:04.181 --> 00:38:07.590
+Sunny Savita: This is going to be multiplied with the E of bank.
+
+
+371
+00:38:08.001 --> 00:38:11.761
+Sunny Savita: And this is going to be multiplied with what? E of grow.
+
+
+372
+00:38:12.271 --> 00:38:20.471
+Sunny Savita: Now, after that, guys, what we'll do, we are going to find out the addition of it, we will perform the addition of it, and whatever final vector we'll be getting.
+
+
+373
+00:38:21.041 --> 00:38:24.371
+Sunny Savita: Now, this is going to be what? This is going to be a Y of grow.
+
+
+374
+00:38:24.971 --> 00:38:26.680
+Sunny Savita: And this is what? This is mine.
+
+
+375
+00:38:27.481 --> 00:38:29.301
+Sunny Savita: contextual vector.
+
+
+376
+00:38:34.841 --> 00:38:40.871
+Sunny Savita: Tell me, guys, is it clear to all of you? Are you able to understand this process or not, this one?
+
+
+377
+00:38:41.101 --> 00:38:52.121
+Sunny Savita: So, this is a process, basically, which is happening inside the self-attention layer, right? Now, here is one thing. You will be… you must be thinking, Sunny, mother, what is this?
+
+
+378
+00:38:52.321 --> 00:39:09.751
+Sunny Savita: You must be thinking over here, Sunny, what is this? That this vector, this vector, this E-Money is also over here, E money is also over here, okay, then E-Money is also over here, E-Bank is also over here. I mean, same vector, why it is coming multiple times.
+
+
+379
+00:39:09.941 --> 00:39:14.080
+Sunny Savita: Same vector, why it is coming multiple times in the multiple places.
+
+
+380
+00:39:14.521 --> 00:39:24.660
+Sunny Savita: Right? Same vector, white is coming multiple times, and the multiple places. So, here only, the key, and key, here only, see.
+
+
+381
+00:39:24.921 --> 00:39:30.721
+Sunny Savita: Same vector, Same vector.
+
+
+382
+00:39:31.381 --> 00:39:33.081
+Sunny Savita: Multiple times.
+
+
+383
+00:39:34.251 --> 00:39:35.691
+Sunny Savita: Same vector.
+
+
+384
+00:39:36.031 --> 00:39:38.301
+Sunny Savita: Multi per times.
+
+
+385
+00:39:38.511 --> 00:39:39.461
+Sunny Savita: Okay.
+
+
+386
+00:39:40.301 --> 00:39:42.460
+Sunny Savita: Same vector multiple times.
+
+
+387
+00:39:42.631 --> 00:39:44.331
+Sunny Savita: This is confusing.
+
+
+388
+00:39:46.511 --> 00:39:48.150
+Sunny Savita: This is confusing.
+
+
+389
+00:39:48.681 --> 00:39:56.680
+Sunny Savita: Now, here we need to understand, see, same vector is coming multiple times, and this concept is confusing. So that's where this query
+
+
+390
+00:39:57.691 --> 00:40:05.081
+Sunny Savita: key… Okay? Key and value concept comes into the picture.
+
+
+391
+00:40:06.771 --> 00:40:11.720
+Sunny Savita: Okay, so one vector could be transformed in a multiple way.
+
+
+392
+00:40:12.111 --> 00:40:15.861
+Sunny Savita: So let's say we have the vector of this E of money.
+
+
+393
+00:40:18.661 --> 00:40:22.701
+Sunny Savita: Now, this particular vector could be the Q.
+
+
+394
+00:40:22.811 --> 00:40:28.251
+Sunny Savita: This particular vector could be the K, and this particular vector could be the V.
+
+
+395
+00:40:30.001 --> 00:40:36.900
+Sunny Savita: Getting my point, guys? Tell me yes or no. So here, basically, the concept of the transformation comes.
+
+
+396
+00:40:37.111 --> 00:40:39.151
+Sunny Savita: We are going to be transformed.
+
+
+397
+00:40:39.281 --> 00:40:43.801
+Sunny Savita: One vector, so that it can behave into the multiple ways.
+
+
+398
+00:40:44.621 --> 00:40:46.641
+Sunny Savita: Q, K, and V.
+
+
+399
+00:40:48.611 --> 00:40:49.481
+Sunny Savita: Tell me.
+
+
+400
+00:40:51.871 --> 00:40:52.751
+Sunny Savita: Yes?
+
+
+401
+00:40:54.141 --> 00:41:01.011
+Sunny Savita: Amita Singh, one suggestion, can we not understand easily and fast it if we have a ready diagram?
+
+
+402
+00:41:01.201 --> 00:41:17.671
+Sunny Savita: No, Amit, I'll give you the ready diagram also. First, let me explain the process, okay? Amit? Let me do it in my way. Guys, you are able to understand, correct? Yes or no? If you are… whatever I have written over the blackboard, you are able to get it, correct? Okay. I will explain you Q, K, B, and all, everything I'll discuss.
+
+
+403
+00:41:17.861 --> 00:41:24.461
+Sunny Savita: Now, over here, Now, over here, guys, see, what I'm doing… C.
+
+
+404
+00:41:24.881 --> 00:41:28.730
+Sunny Savita: You have confusion in this particular, in this particular process.
+
+
+405
+00:41:29.361 --> 00:41:48.621
+Sunny Savita: You have confusion in this particular process, let me explain you one more time. See, I already discussed in the previous session, I already given you the quick, overview of it, see how it is happening. Let me explain you one… let me explain you this one more time, okay? I will just take 2 more minutes, so that, this thing could be clear.
+
+
+406
+00:41:48.951 --> 00:41:52.920
+Sunny Savita: So, what is the thing, guys? Let's say, guys, here…
+
+
+407
+00:41:53.321 --> 00:42:00.310
+Sunny Savita: I had the word? Okay, I had the sentence. What is my sentence, guys, tell me? What is my sentence? Can anyone tell the sentence?
+
+
+408
+00:42:01.891 --> 00:42:05.261
+Sunny Savita: My sentence is… Money…
+
+
+409
+00:42:06.081 --> 00:42:12.581
+Sunny Savita: Grow, money, bank, grow, right? This is my sentence. You can write any sentence, whatever you wanted to write.
+
+
+410
+00:42:14.531 --> 00:42:20.991
+Sunny Savita: Now, mira task, what is my task? I wanted to find out the contextual embedding of it.
+
+
+411
+00:42:21.201 --> 00:42:24.791
+Sunny Savita: Kese find karangi? How we will find the contextual embedding? Tell me.
+
+
+412
+00:42:25.031 --> 00:42:26.830
+Sunny Savita: Using the self-attention.
+
+
+413
+00:42:28.261 --> 00:42:33.161
+Sunny Savita: How to perform the self-attention? Alright, sir, this is a question. How to perform the self-attention?
+
+
+414
+00:42:33.581 --> 00:42:34.531
+Sunny Savita: No.
+
+
+415
+00:42:35.231 --> 00:42:36.251
+Sunny Savita: No, see.
+
+
+416
+00:42:37.311 --> 00:42:39.031
+Sunny Savita: This is my bank, right?
+
+
+417
+00:42:40.851 --> 00:42:43.380
+Sunny Savita: I have to find the contextual embedding of it.
+
+
+418
+00:42:43.801 --> 00:42:49.161
+Sunny Savita: How we will find that? What is a self… sorry, what is a contextual embedding? What is a self-attention?
+
+
+419
+00:42:49.621 --> 00:42:54.191
+Sunny Savita: Map this word, Map this word.
+
+
+420
+00:42:54.741 --> 00:42:57.321
+Sunny Savita: In context of, other word.
+
+
+421
+00:43:04.381 --> 00:43:08.941
+Sunny Savita: Is it right or not? Tell me, guys. Is it right or not? Tell me.
+
+
+422
+00:43:09.501 --> 00:43:17.480
+Sunny Savita: Tell me, tell me, tell me, tell me, tell me fast, guys. I'm waiting for your reply. Yes? Kese garage, how we will do that? See?
+
+
+423
+00:43:17.591 --> 00:43:19.081
+Sunny Savita: Here, I have a bait.
+
+
+424
+00:43:19.351 --> 00:43:20.581
+Sunny Savita: So this is my weight.
+
+
+425
+00:43:21.011 --> 00:43:27.350
+Sunny Savita: W11 multiply. Kese multiply. How we are going to be multiply?
+
+
+426
+00:43:27.491 --> 00:43:29.091
+Sunny Savita: E of money.
+
+
+427
+00:43:29.411 --> 00:43:36.351
+Sunny Savita: Then… W12, multiply. E of… Bang.
+
+
+428
+00:43:36.881 --> 00:43:43.291
+Sunny Savita: Then… W13 multiply E of cro.
+
+
+429
+00:43:43.991 --> 00:43:45.831
+Sunny Savita: This equation is clear.
+
+
+430
+00:43:46.621 --> 00:43:49.030
+Sunny Savita: This equation is clear, tell me yes or no.
+
+
+431
+00:43:50.051 --> 00:43:50.941
+Sunny Savita: Yes?
+
+
+432
+00:43:51.371 --> 00:43:56.390
+Sunny Savita: Okay. Now, over here, guys, see, we have this W11.
+
+
+433
+00:43:57.151 --> 00:43:58.451
+Sunny Savita: W12.
+
+
+434
+00:43:58.681 --> 00:43:59.981
+Sunny Savita: W13.
+
+
+435
+00:44:00.201 --> 00:44:02.580
+Sunny Savita: What is this? What is this?
+
+
+436
+00:44:02.771 --> 00:44:06.500
+Sunny Savita: It is a… Similarity score.
+
+
+437
+00:44:09.881 --> 00:44:15.411
+Sunny Savita: How to find out the similarity score using the dot product.
+
+
+438
+00:44:16.451 --> 00:44:29.261
+Sunny Savita: Can we do the dot product to find out this W11? What will happen, guys? Tell me. This E of bank, here I can write, guys, what I can write. This E of bank, let's say this is my vector.
+
+
+439
+00:44:32.281 --> 00:44:35.310
+Sunny Savita: E of bang, let's say this is my vector.
+
+
+440
+00:44:37.871 --> 00:44:42.810
+Sunny Savita: There's E of Bank, Alright, so this is my vector, right?
+
+
+441
+00:44:42.941 --> 00:44:46.611
+Sunny Savita: It's going to perform the multiplication
+
+
+442
+00:44:46.881 --> 00:44:58.450
+Sunny Savita: It's going to perform the multiplication with every other vector. So what I'll do, guys, is going to be perform the dot product with every other vector. So what I'll do, here I'll write…
+
+
+443
+00:44:58.581 --> 00:45:01.771
+Sunny Savita: E off… Money.
+
+
+444
+00:45:01.901 --> 00:45:07.981
+Sunny Savita: Here, guys, tell me what will be there, what is a vector, E off…
+
+
+445
+00:45:08.461 --> 00:45:15.681
+Sunny Savita: Bang. Now here, guys, tell me what is a vector, which vector I'll be keeping over here, here.
+
+
+446
+00:45:16.401 --> 00:45:18.301
+Sunny Savita: E of gromo?
+
+
+447
+00:45:19.411 --> 00:45:28.700
+Sunny Savita: Tell me, yes or no? This is clear or no? Yes or no. So this is what? This is my similarity score, this is what? This is my similarity score.
+
+
+448
+00:45:29.111 --> 00:45:35.560
+Sunny Savita: Okay, this is what? This is my similarity score. Now, see, I'm getting a similarity score…
+
+
+449
+00:45:36.621 --> 00:45:38.751
+Sunny Savita: This is my final similarity score.
+
+
+450
+00:45:39.811 --> 00:45:41.691
+Sunny Savita: Here's my final similarity score.
+
+
+451
+00:45:41.961 --> 00:45:45.281
+Sunny Savita: No, this is not my final similarity score.
+
+
+452
+00:45:45.651 --> 00:45:51.430
+Sunny Savita: It's gonna normalize me to karnapalaga, we'll normalize this thing, na, so we'll use the softmax function for that.
+
+
+453
+00:45:52.871 --> 00:45:59.420
+Sunny Savita: softmax function to normalize it. So, we are passing it from that softmax function. Now, what is a softmax?
+
+
+454
+00:45:59.651 --> 00:46:06.041
+Sunny Savita: So, we're talking about a softmax, guys. Let me write it over here. The formula of the softmax, okay.
+
+
+455
+00:46:06.421 --> 00:46:08.901
+Sunny Savita: So the formula of the softmax is going to be…
+
+
+456
+00:46:09.071 --> 00:46:11.740
+Sunny Savita: First, I can write the soft mix over here.
+
+
+457
+00:46:11.931 --> 00:46:13.131
+Sunny Savita: soft mix.
+
+
+458
+00:46:13.351 --> 00:46:16.941
+Sunny Savita: So here is what? Here is my softmax layer.
+
+
+459
+00:46:17.641 --> 00:46:29.730
+Sunny Savita: Now, what will happen inside the softmax? I'll be getting the W1, W2, and W3. So this is the formula of the softmax, okay? I can write it over here with a different color. So this is my W1.
+
+
+460
+00:46:29.881 --> 00:46:31.750
+Sunny Savita: What will be the W1, guys?
+
+
+461
+00:46:32.301 --> 00:46:42.171
+Sunny Savita: E of SC1 divided by E of SC1 plus E of SC2 plus E of SC3.
+
+
+462
+00:46:42.511 --> 00:46:48.960
+Sunny Savita: Now, we're talking about a W2. So, this is a softmax function, guys, okay? E of SE2…
+
+
+463
+00:46:49.441 --> 00:46:56.810
+Sunny Savita: E of SC1… E means exponential, right? E of SC2 and E of SC3.
+
+
+464
+00:46:56.981 --> 00:47:03.431
+Sunny Savita: Exponential value calculator, right? Then, this is my E of SC3,
+
+
+465
+00:47:04.251 --> 00:47:14.971
+Sunny Savita: then E of SC1, exponential value, right? So here, I'll write SC1, E of SC2… E of SC3.
+
+
+466
+00:47:15.821 --> 00:47:17.661
+Sunny Savita: There's a DIC value, this one.
+
+
+467
+00:47:17.791 --> 00:47:18.521
+Sunny Savita: Right
+
+
+468
+00:47:18.651 --> 00:47:34.031
+Sunny Savita: Now, here, what I got, guys, I got is W1, W2, and W3, this is my W1, this is my W2, this is my W3. Now, this value, W1W3, this is going to be multiplied… this is what… this is my weights, guys, okay? This is W1.
+
+
+469
+00:47:34.411 --> 00:47:35.801
+Sunny Savita: W2…
+
+
+470
+00:47:35.941 --> 00:47:44.951
+Sunny Savita: and W3, guys. This particular value is going to be multiplied with what? Tell me, guys. So here, this is going to be multiplied with E of money.
+
+
+471
+00:47:46.791 --> 00:47:52.041
+Sunny Savita: There's going to be multiply with what? There's going to be multiply with E of bank.
+
+
+472
+00:47:52.831 --> 00:47:58.291
+Sunny Savita: And this is going to be multiplied with what? This is going to be multiplied with E of grow.
+
+
+473
+00:47:58.631 --> 00:48:09.850
+Sunny Savita: What I'll be getting, guys, tell me, after the addition, I'll add, okay, I'll add. So here only, I'll be getting my final vector, final contextual vector.
+
+
+474
+00:48:10.201 --> 00:48:14.471
+Sunny Savita: So this is going to be a final contextual vector.
+
+
+475
+00:48:14.941 --> 00:48:24.320
+Sunny Savita: E of what? E of bank. And this is only what? This is only my… Contactual vector.
+
+
+476
+00:48:27.451 --> 00:48:37.001
+Sunny Savita: Understood, guys, yes or no? Yes, SoftMax, basically, we have used it for the, this one, they have used it for the normalization, okay?
+
+
+477
+00:48:37.571 --> 00:48:47.060
+Sunny Savita: Now, guys, tell me this entire process is clear. Now, over here, we need to understand how this one vector is behaving, how this one vector actually is coming…
+
+
+478
+00:48:50.321 --> 00:48:58.380
+Sunny Savita: process with this particular formula, this particular formula, C. You understood this one, this QKT, this is the similarities score, this one.
+
+
+479
+00:48:59.851 --> 00:49:03.330
+Sunny Savita: This one is a similarity is a core.
+
+
+480
+00:49:04.271 --> 00:49:14.231
+Sunny Savita: Actually, again, they are going to be… divide the similarity score whether it's DK. Under root DK, I will tell you what is this DK. You are… they are passing it from the softmax, and they are going to be multiplied with a V.
+
+
+481
+00:49:14.451 --> 00:49:17.350
+Sunny Savita: So here, if I can show you, see, this one.
+
+
+482
+00:49:17.781 --> 00:49:20.111
+Sunny Savita: This particular value, this is a Q,
+
+
+483
+00:49:21.271 --> 00:49:28.161
+Sunny Savita: This is what? Let me tell you that. Let me, again come to this one. This is what… this is the queue.
+
+
+484
+00:49:28.581 --> 00:49:38.831
+Sunny Savita: This is K… Okay, so we are going to be multiplying this Q and K, right? So Q… dot…
+
+
+485
+00:49:39.031 --> 00:49:50.321
+Sunny Savita: K… this one. Then we are passing this particular value from the softmax. So, softmax… SoftMax.
+
+
+486
+00:49:51.971 --> 00:49:54.001
+Sunny Savita: Softmax Q.
+
+
+487
+00:49:54.431 --> 00:49:55.401
+Sunny Savita: K…
+
+
+488
+00:49:55.721 --> 00:50:10.851
+Sunny Savita: They are again normalizing it with this particular value, DK. I'll tell you what is this, it's a dimension, nothing else. Then they are going to be multiplying this particular value with a value, actually. QKV. This is a V, actually, this one. So what is a V, guys? This is a V, this one.
+
+
+489
+00:50:11.111 --> 00:50:21.261
+Sunny Savita: This, this W1 is nothing, this W1, actually, W1, W2, and W3, these particular weights, we are getting. It is a multiplication of this Q, K, T,
+
+
+490
+00:50:21.541 --> 00:50:24.621
+Sunny Savita: divided by… DK…
+
+
+491
+00:50:24.871 --> 00:50:39.231
+Sunny Savita: This value, basically, we are getting after the softmax, this one, and then they are going to be multiplied with this one. This is the V. This is why? This is what? This is the V, actually. So this is the complete self-attention. This is the complete self-attention.
+
+
+492
+00:50:39.271 --> 00:50:47.731
+Sunny Savita: Getting my point, guys? Yes or no? So, here is a formula, guys, which you can see. So, I have derived this formula in front of you, this particular formula.
+
+
+493
+00:50:48.231 --> 00:50:52.480
+Sunny Savita: Okay, so QKV, this is the QK.
+
+
+494
+00:50:52.741 --> 00:51:07.961
+Sunny Savita: Okay, QK, they are, we are how we are getting this W1 value. QK, okay, we are going to be multiplying this, we are going to be finding out a dot product, we are going to be normalize it with this DK. Again, one more level of normalization with the softmax, and we are going to be multiplied with this value.
+
+
+495
+00:51:08.281 --> 00:51:23.421
+Sunny Savita: Now, over here, one question, how this one vector behaving in a multiple roles? Let's say we are talking… taking this vector, E money, so how it could be Q, how it could be K, and how it could be V. And how, basically, we are getting it.
+
+
+496
+00:51:24.251 --> 00:51:28.620
+Sunny Savita: So we need to understand this Q, K, and V concept.
+
+
+497
+00:51:30.851 --> 00:51:33.641
+Sunny Savita: Making sense to all of you, tell me yes or no.
+
+
+498
+00:51:39.381 --> 00:51:40.801
+Sunny Savita: Tell me, guys, fast.
+
+
+499
+00:51:42.491 --> 00:51:43.901
+Sunny Savita: Yes or no?
+
+
+500
+00:51:46.241 --> 00:51:56.850
+Sunny Savita: So, can someone answer to clarify? Yes, Nitis, you can ask your doubt, maybe what you can do, you can, leave inside the committee chat, I'll check over there, okay? Don't worry.
+
+
+501
+00:51:58.311 --> 00:52:02.540
+Sunny Savita: It is called the transpose, actually.
+
+
+502
+00:52:02.661 --> 00:52:09.300
+Sunny Savita: Okay? It is called the transpose. So if I'm… let's say here is what? Here is my one vector.
+
+
+503
+00:52:09.741 --> 00:52:18.420
+Sunny Savita: how I can write the transpose of this vector? So, let's say this is the row vector. If I'm going to be convert the transpose into… if I'm going to be convert…
+
+
+504
+00:52:18.581 --> 00:52:24.560
+Sunny Savita: this vector into the column vector, okay? If I'm going to find out the transpose of it, so it will become the column vector.
+
+
+505
+00:52:26.091 --> 00:52:35.451
+Sunny Savita: So let's say this is my A vector. If I have to show the transpose of it, so it is going to become the 80, like this. So whenever we perform the dot product, dot product.
+
+
+506
+00:52:36.131 --> 00:52:40.691
+Sunny Savita: So, one vector should be the horizontal, horizontal.
+
+
+507
+00:52:41.501 --> 00:52:43.610
+Sunny Savita: And one vector should be the vertical.
+
+
+508
+00:52:43.981 --> 00:52:45.301
+Sunny Savita: Okay, vertical.
+
+
+509
+00:52:46.181 --> 00:52:50.621
+Sunny Savita: That's it. So let's say if we have this A vector, let's say this is an E money vector.
+
+
+510
+00:52:51.151 --> 00:52:58.950
+Sunny Savita: If I have to find out the transpose of it, so it's going to become like this, okay? The column… it's going to become a column vector.
+
+
+511
+00:52:59.461 --> 00:53:19.050
+Sunny Savita: Getting my point, guys? So, here we have, let's say, E money. If we are going to be finding out the transpose of it, transpose of it, let me highlight in a correct way. If I'm going to be highlight the transpose of it, so it's going to be become what? It's going to be become E money of this T. We can highlight it like this, that's it. Nothing else.
+
+
+512
+00:53:24.811 --> 00:53:32.830
+Sunny Savita: What is a DK? I'll come to that, okay? I'll explain you. Nothing, it is just the one value they capped, actually, just to normalize the thing, nothing else.
+
+
+513
+00:53:35.741 --> 00:53:42.861
+Sunny Savita: So, if you are clear till here, let me know, guys. I will explain the concept of this Q, K, and V.
+
+
+514
+00:53:43.181 --> 00:53:48.621
+Sunny Savita: Tell me how many people are able to understand till here. At least, oh…
+
+
+515
+00:53:48.991 --> 00:53:52.150
+Sunny Savita: 80 to… 70% to 80%, okay?
+
+
+516
+00:53:53.241 --> 00:53:55.790
+Sunny Savita: So while they came up with this approach.
+
+
+517
+00:53:57.471 --> 00:54:01.361
+Sunny Savita: Just mail to them, okay? Just mail to the Google Brain team, they will answer.
+
+
+518
+00:54:04.501 --> 00:54:10.710
+Sunny Savita: Because we cannot come with this approach, no? Because we are not doing a… we are not a research mindset. We don't have that.
+
+
+519
+00:54:12.101 --> 00:54:14.330
+Sunny Savita: Actually, it is a result of the research.
+
+
+520
+00:54:16.381 --> 00:54:25.101
+Sunny Savita: they did, they spent time, they find out some, outcome of it, then again they did it, they tweaked the value of it. It's all about the mathematics, right?
+
+
+521
+00:54:28.791 --> 00:54:29.541
+Sunny Savita: Yeah.
+
+
+522
+00:54:29.801 --> 00:54:36.021
+Sunny Savita: Actually, today, Yashi's not there, he's busy with some other session, so tomorrow he will be available, right?
+
+
+523
+00:54:39.071 --> 00:54:48.940
+Sunny Savita: Right. So, guys, are you clear till here? I think most of the people are clear. Now, we have to understand the concept of the Q, K, and V, this one.
+
+
+524
+00:54:50.451 --> 00:54:55.170
+Sunny Savita: Okay, so let's take a dinner break, and after that, I'll explain you. Is it fine to all of you?
+
+
+525
+00:54:55.331 --> 00:54:57.900
+Sunny Savita: We can understand that after the break, guys.
+
+
+526
+00:54:58.311 --> 00:55:04.850
+Sunny Savita: And, we can understand this, entire, self-attention again, one more time, because,
+
+
+527
+00:55:05.051 --> 00:55:09.010
+Sunny Savita: In the first class itself, I shared one blog with all of you, let me show you that.
+
+
+528
+00:55:11.001 --> 00:55:12.011
+Sunny Savita: This one.
+
+
+529
+00:55:13.031 --> 00:55:17.711
+Sunny Savita: So, I can quickly give you the walkthrough of this as well. It is doing the same thing.
+
+
+530
+00:55:18.111 --> 00:55:18.901
+Sunny Savita: Okay.
+
+
+531
+00:55:20.251 --> 00:55:21.141
+Sunny Savita: This one.
+
+
+532
+00:55:21.851 --> 00:55:23.651
+Sunny Savita: Yeah, this is true, Riaj.
+
+
+533
+00:55:24.601 --> 00:55:31.890
+Sunny Savita: Fine, guys, so let's do one thing, let's take a break, of the 18 minutes, okay, and after that, I'll start again.
+
+
+534
+00:55:32.081 --> 00:55:34.001
+Sunny Savita: Let's take a quick dinner break, okay?
+
+
+535
+00:55:36.151 --> 00:55:40.340
+Sunny Savita: Yeah. Q gave you alla conceptado, okay? I'll explain it there.
+
+
+536
+00:55:47.481 --> 00:55:50.290
+Sunny Savita: Okay, guys, so let's take a break, and after that, we'll start.
+
+
+537
+00:55:50.651 --> 00:55:51.401
+Sunny Savita: Thank.
+
+
+538
+01:14:29.561 --> 01:14:35.330
+Sunny Savita: Okay, guys, so can we start again? Just give me a quick thumbs up, so that we can start.
+
+
+539
+01:14:47.181 --> 01:14:49.731
+Sunny Savita: Great, so let's begin, let's start.
+
+
+540
+01:14:51.351 --> 01:14:54.540
+Sunny Savita: Let me check if anyone having any sort of a doubt there.
+
+
+541
+01:15:07.321 --> 01:15:12.360
+Sunny Savita: Okay, all the common doubts and all, so it will be clarified, right? So once I'll,
+
+
+542
+01:15:13.371 --> 01:15:15.921
+Sunny Savita: Once I'll explain to the…
+
+
+543
+01:15:15.981 --> 01:15:28.201
+Sunny Savita: this QKVN, QKNV concept, so this will be clarified, right? And don't be stuck in this transpose and all, right? As of now, it is not required, so just, folk… just,
+
+
+544
+01:15:28.201 --> 01:15:43.831
+Sunny Savita: Just think that we are doing a dot product, okay? Don't be, like, think about this transpose, this, that, and all. Because in that case, again, we'll have to, like, understand about the metrics, then metrics operations, okay? Then metrics transpose. It is just a simple dot product.
+
+
+545
+01:15:44.061 --> 01:16:02.280
+Sunny Savita: Okay? Now, whenever we perform the dot product, so how we showcase the metrics is, so one matrix would be the original one, and second would be the vertical one, right? In that way, basically, we show. But if we're talking about the definition of the transpose, so we are going to be converting a row vector into the column vector, so that is called the transpose of that, right?
+
+
+546
+01:16:02.281 --> 01:16:11.431
+Sunny Savita: But no need to worry about the transpose and all, we just need to understand the concept, okay? That here we are doing a dot product. If you know how to do the dot product, then that is fine.
+
+
+547
+01:16:12.071 --> 01:16:13.230
+Sunny Savita: Getting my point?
+
+
+548
+01:16:13.521 --> 01:16:14.331
+Sunny Savita: Okay.
+
+
+549
+01:16:14.611 --> 01:16:26.960
+Sunny Savita: Now, next thing is the Q, K, and V. Now, why we need to understand this Q, K, and V? Because the entire concept, the entire attention concept, actually, it is based on that only.
+
+
+550
+01:16:27.151 --> 01:16:32.160
+Sunny Savita: Understood, guys. Now, how it is based on that? Let's, look over there.
+
+
+551
+01:16:32.331 --> 01:16:33.971
+Sunny Savita: So, guys, see.
+
+
+552
+01:16:34.121 --> 01:16:36.401
+Sunny Savita: Heel.
+
+
+553
+01:16:36.541 --> 01:16:42.591
+Sunny Savita: If we're talking about… We're talking about the Q, K, and B, right?
+
+
+554
+01:16:42.691 --> 01:16:45.840
+Sunny Savita: So, how I can start? Let me write over here.
+
+
+555
+01:16:47.831 --> 01:16:52.831
+Sunny Savita: So, my sentence, basically, it was the… money.
+
+
+556
+01:16:55.151 --> 01:16:56.261
+Sunny Savita: Bank.
+
+
+557
+01:16:57.831 --> 01:16:58.751
+Sunny Savita: grow.
+
+
+558
+01:17:01.951 --> 01:17:06.641
+Sunny Savita: Now, can you tell me how we… how we get the embedding of that word?
+
+
+559
+01:17:07.371 --> 01:17:09.770
+Sunny Savita: So, let's say I have 3 tokens.
+
+
+560
+01:17:10.431 --> 01:17:13.030
+Sunny Savita: The first token is going to be money.
+
+
+561
+01:17:14.401 --> 01:17:16.580
+Sunny Savita: The second is going to be bank.
+
+
+562
+01:17:17.141 --> 01:17:19.090
+Sunny Savita: And the third is going to be grow.
+
+
+563
+01:17:20.081 --> 01:17:26.181
+Sunny Savita: So we pass this particular word to the model, that is going to be my work-to-back model, word-to-back lookup, actually.
+
+
+564
+01:17:26.361 --> 01:17:27.880
+Sunny Savita: what to backlookup.
+
+
+565
+01:17:28.191 --> 01:17:33.251
+Sunny Savita: Okay? It is not a pre-trained model, it is not a trained model, just a word-to-back lookup.
+
+
+566
+01:17:33.401 --> 01:17:36.621
+Sunny Savita: So after that only, we get our embedding, right? This one.
+
+
+567
+01:17:37.141 --> 01:17:39.491
+Sunny Savita: So we get our embeddings.
+
+
+568
+01:17:41.351 --> 01:17:42.261
+Sunny Savita: Okay.
+
+
+569
+01:17:42.541 --> 01:17:44.611
+Sunny Savita: This is what is my e-money.
+
+
+570
+01:17:44.921 --> 01:17:46.531
+Sunny Savita: This is what? This is mine.
+
+
+571
+01:17:48.141 --> 01:17:49.341
+Sunny Savita: eBank?
+
+
+572
+01:17:49.921 --> 01:17:50.781
+Sunny Savita: Okay.
+
+
+573
+01:17:51.701 --> 01:18:01.021
+Sunny Savita: This dimension could be anything. This dimension, actually, it is completely depend on this word-to-back model. Now, here is what? Here is my E of grow.
+
+
+574
+01:18:01.731 --> 01:18:14.681
+Sunny Savita: Now, this thing, you are going to be added with a positional encoded. You are going to be added with a positional encoding. You are going to be added with a positional encoded vector. So, let's say this is a positional encoded vector.
+
+
+575
+01:18:14.981 --> 01:18:17.141
+Sunny Savita: This is going to be a same dimension.
+
+
+576
+01:18:17.341 --> 01:18:18.221
+Sunny Savita: Okay.
+
+
+577
+01:18:18.821 --> 01:18:20.950
+Sunny Savita: There's going to be a same dimension.
+
+
+578
+01:18:23.121 --> 01:18:25.650
+Sunny Savita: This is what is my Puishna encoded vector.
+
+
+579
+01:18:26.271 --> 01:18:29.241
+Sunny Savita: Just to sustain the sequence of the data.
+
+
+580
+01:18:30.541 --> 01:18:34.701
+Sunny Savita: Now, here, whatever vector I'll be getting, let's say this is what is my final vector.
+
+
+581
+01:18:34.891 --> 01:18:35.831
+Sunny Savita: This one?
+
+
+582
+01:18:36.141 --> 01:18:38.541
+Sunny Savita: E of… Money.
+
+
+583
+01:18:38.761 --> 01:18:39.541
+Sunny Savita: Right?
+
+
+584
+01:18:39.761 --> 01:18:43.060
+Sunny Savita: Now, here is what, here is what, here is E of Bank.
+
+
+585
+01:18:44.071 --> 01:18:46.071
+Sunny Savita: Now, here is what? E of go.
+
+
+586
+01:18:46.671 --> 01:18:58.540
+Sunny Savita: Now, this particular vector only, let's say this E money only, it's being processed, okay? This e-bank, eGrow, this particular vector is being processed by the self-attention.
+
+
+587
+01:18:58.961 --> 01:19:00.491
+Sunny Savita: Right? Self-attention.
+
+
+588
+01:19:00.611 --> 01:19:05.421
+Sunny Savita: Now, here the quotient comes, basically. The question is very, very simple over here.
+
+
+589
+01:19:05.611 --> 01:19:14.381
+Sunny Savita: The caution says, The question says, let's say we have this particular vector, this e-money vector, Right?
+
+
+590
+01:19:14.701 --> 01:19:17.220
+Sunny Savita: Let's say we have this e-money vector.
+
+
+591
+01:19:18.831 --> 01:19:32.461
+Sunny Savita: how, basically, it is coming at the multiple places, right? How it is coming at the multiple places. So, if you will look into this particular flow, this flow, so, see, I…
+
+
+592
+01:19:32.541 --> 01:19:40.181
+Sunny Savita: If you will look into this particular flow, this one, money, right? This one. So, e-money is over here, E-Money is over here, right?
+
+
+593
+01:19:40.491 --> 01:19:43.690
+Sunny Savita: Then E-Money is here. E-Money is here.
+
+
+594
+01:19:44.271 --> 01:19:57.640
+Sunny Savita: Then, this is the e-money, this is EGRO, right? E-Money, e-money, e-money, e-bank, e-bank, e-money, eGrow, right? This is what, this is the similarities score, right? Then again, once I'll scroll down now, over here also, e-money.
+
+
+595
+01:19:57.841 --> 01:20:03.701
+Sunny Savita: Now, eBank, right? Then EGROW. Now, here you will think, Sunny, it is the same vector.
+
+
+596
+01:20:03.861 --> 01:20:11.501
+Sunny Savita: It is the same vector. Means, if you will look over here inside this particular process, this e-money, e-bank.
+
+
+597
+01:20:11.501 --> 01:20:24.240
+Sunny Savita: and eGrow, right? So we are going to be using it for the similarity score, we are going to be finding out the similarity score with that. Then after that, whatever weights we are getting, right? Then again, we are going to be multiplying this weight with the same vector.
+
+
+598
+01:20:24.241 --> 01:20:35.881
+Sunny Savita: Okay, so here, you will ask to me, Suni, is it a same vector, which we are using again and again? So I would say no, it is not a same vector, okay? It is a transform vector.
+
+
+599
+01:20:36.041 --> 01:20:42.041
+Sunny Savita: It is a transform vector. So let's say, if I can write… if I can take an example of this E-Money.
+
+
+600
+01:20:43.231 --> 01:20:45.841
+Sunny Savita: If I can take example of this E-Money.
+
+
+601
+01:20:46.781 --> 01:20:50.030
+Sunny Savita: So, we are going to be transform this vector in this three-way.
+
+
+602
+01:20:50.191 --> 01:20:52.351
+Sunny Savita: The first vector is called the Q.
+
+
+603
+01:20:53.171 --> 01:20:55.841
+Sunny Savita: The second vector is called a K.
+
+
+604
+01:20:56.321 --> 01:21:06.771
+Sunny Savita: Then, third vector is called a V, right? So it is E money, QAE money, right? Then here, K…
+
+
+605
+01:21:07.801 --> 01:21:10.180
+Sunny Savita: E-money, right? Embedding of money.
+
+
+606
+01:21:10.521 --> 01:21:18.231
+Sunny Savita: then V… E of money, right? So, Q… K and V.
+
+
+607
+01:21:18.621 --> 01:21:30.731
+Sunny Savita: Right? Q, K, and V. Now, this is the core concept of the self-attention. Now, how we are doing that? We'll understand that. Actually, we are going to be multiplying this E money, E money, E money with the weight value.
+
+
+608
+01:21:30.731 --> 01:21:40.681
+Sunny Savita: Okay, we are going to be multiplying this particular thing, this E money, right, with a weight value. So, we are having 3 weights over here. The first weight, basically.
+
+
+609
+01:21:40.921 --> 01:21:52.061
+Sunny Savita: The first weight, actually, it's called a WQ. The second weight is called the… this is going to be a weight matrix, actually. The second weight matrix, it's going to be a WK.
+
+
+610
+01:21:52.321 --> 01:21:55.711
+Sunny Savita: And the third weight matrix, actually, it's going to be a W.
+
+
+611
+01:21:56.561 --> 01:21:57.471
+Sunny Savita: V.
+
+
+612
+01:21:57.721 --> 01:22:02.720
+Sunny Savita: So, we are going to be multiplying this E money with this weight matrix says.
+
+
+613
+01:22:02.891 --> 01:22:09.441
+Sunny Savita: Okay, and whatever transform vector we get, whatever transform vector we get, so this is our transform vector, this one.
+
+
+614
+01:22:10.291 --> 01:22:20.621
+Sunny Savita: Getting my point, guys? Yes or no? But what is the concept behind it? What is the concept behind it? Now, we're talking about this weight value, guys, so this is only our learnable parameter, this one.
+
+
+615
+01:22:20.931 --> 01:22:25.110
+Sunny Savita: This is only our learnable parameter inside the transformer architecture.
+
+
+616
+01:22:25.371 --> 01:22:35.471
+Sunny Savita: learnable parameter. Inside where? Inside the transformer architecture. Now, how this weight value is going to be decided? So, it's a random weight value.
+
+
+617
+01:22:36.911 --> 01:22:46.250
+Sunny Savita: random weight value. So, initially, we randomly initialize this weight value, and then, inside the learning process, this weight value is going to be learned.
+
+
+618
+01:22:46.601 --> 01:22:52.321
+Sunny Savita: Inside the learning process, this weight value is going to be adjust, this weight value is going to be learned, this one.
+
+
+619
+01:22:53.131 --> 01:22:55.341
+Sunny Savita: Getting my point, guys? Yes or no?
+
+
+620
+01:22:55.611 --> 01:23:03.301
+Sunny Savita: You will get it, right? Now, what is the concept behind it? What is the concept behind this QKNB? Now, why we are doing it?
+
+
+621
+01:23:03.301 --> 01:23:16.490
+Sunny Savita: Let's understand that, first of all, with one analogy, okay? And how this is happening, what kind of transformation is happening, okay? Let's understand with one analogy. So here, guys, I'm going to be explaining that particular thing with one
+
+
+622
+01:23:16.901 --> 01:23:18.761
+Sunny Savita: analogy, okay?
+
+
+623
+01:23:19.041 --> 01:23:31.281
+Sunny Savita: Now, just think over here, guys, see? There is… there is you, right? You means you could be anything, you could be, you could be, like, any person, right? Let's say it's me, okay?
+
+
+624
+01:23:31.731 --> 01:23:33.451
+Sunny Savita: I can write my name.
+
+
+625
+01:23:34.751 --> 01:23:36.950
+Sunny Savita: I can write my name, let's say Sunny.
+
+
+626
+01:23:37.941 --> 01:23:39.001
+Sunny Savita: Okay.
+
+
+627
+01:23:39.151 --> 01:23:40.151
+Sunny Savita: Sunny.
+
+
+628
+01:23:40.701 --> 01:23:41.731
+Sunny Savita: So…
+
+
+629
+01:23:41.851 --> 01:23:50.411
+Sunny Savita: Sunny Neh, what Sunny is doing, Sunny is writing their information, Sunny is writing his information inside one diary.
+
+
+630
+01:23:51.321 --> 01:23:52.121
+Sunny Savita: Right?
+
+
+631
+01:23:52.611 --> 01:23:54.201
+Sunny Savita: So, this is my diary.
+
+
+632
+01:23:55.331 --> 01:23:57.850
+Sunny Savita: D, A, I, R, Y.
+
+
+633
+01:23:58.461 --> 01:24:06.200
+Sunny Savita: And inside this particular diary, I'm writing my information. So, what I'm writing, guys, let's say I'm writing my name…
+
+
+634
+01:24:07.611 --> 01:24:11.371
+Sunny Savita: my DOB… Right?
+
+
+635
+01:24:11.621 --> 01:24:22.531
+Sunny Savita: my address… my phone number… Okay, my skill set… Okay.
+
+
+636
+01:24:22.761 --> 01:24:26.611
+Sunny Savita: my skill set, or what kind of job I want, right?
+
+
+637
+01:24:26.801 --> 01:24:34.061
+Sunny Savita: the job I want, my job… requirements… Right? My life…
+
+
+638
+01:24:35.081 --> 01:24:50.461
+Sunny Savita: my… what I can write, guys. My life, my name, whatever, basically, whatever, right? Whatever information is about me, the personal information, I can write inside this particular diary. Till here everything is… till here everything is clear, guys, tell me yes or no.
+
+
+639
+01:24:50.771 --> 01:25:04.631
+Sunny Savita: Tell me yes. So, over here, guys, see, over here, let's say there is a Sunny, and Sunny is writing his information inside one diary, okay? Inside one document, or you can say it's a document.
+
+
+640
+01:25:04.821 --> 01:25:05.781
+Sunny Savita: No.
+
+
+641
+01:25:06.061 --> 01:25:10.511
+Sunny Savita: Sunny… what Sunny wants, actually, Sunny wants to search a job.
+
+
+642
+01:25:10.871 --> 01:25:11.831
+Sunny Savita: Okay.
+
+
+643
+01:25:12.051 --> 01:25:16.271
+Sunny Savita: Sunny, want to… search a job.
+
+
+644
+01:25:16.831 --> 01:25:25.070
+Sunny Savita: This is the aim of the Sunny. Sunny, Sunika MK, what is the Sunny's aim? Tell me. What is the Sunny's aim? Sunny's aim…
+
+
+645
+01:25:25.391 --> 01:25:27.651
+Sunny Savita: To search a job.
+
+
+646
+01:25:28.161 --> 01:25:30.711
+Sunny Savita: Right? So where he will search a job.
+
+
+647
+01:25:30.951 --> 01:25:35.241
+Sunny Savita: So, he will search a job over the… LinkedIn, let's suppose.
+
+
+648
+01:25:35.391 --> 01:25:36.191
+Sunny Savita: Okay.
+
+
+649
+01:25:36.581 --> 01:25:37.581
+Sunny Savita: Lunden.
+
+
+650
+01:25:38.371 --> 01:25:42.721
+Sunny Savita: Now, to search a job over the LinkedIn, guys, what is required? Tell me.
+
+
+651
+01:25:42.901 --> 01:25:46.850
+Sunny Savita: So here, First, I'll have to create a profile.
+
+
+652
+01:25:48.501 --> 01:25:49.961
+Sunny Savita: Tell me yes or no.
+
+
+653
+01:25:50.531 --> 01:25:54.680
+Sunny Savita: Tell me. Now, inside the profile, what all information would be there?
+
+
+654
+01:25:54.941 --> 01:26:02.160
+Sunny Savita: what all information would be there inside the profile? Tell me. So inside the profile, Sunny's name would be there.
+
+
+655
+01:26:02.881 --> 01:26:05.411
+Sunny Savita: Sunny's DOB would be there.
+
+
+656
+01:26:05.751 --> 01:26:10.720
+Sunny Savita: Sunny's address would be there, or let's say the phone number would be there.
+
+
+657
+01:26:11.591 --> 01:26:15.260
+Sunny Savita: So this is what… this is the profile of the Sunny.
+
+
+658
+01:26:15.651 --> 01:26:18.781
+Sunny Savita: Now, what Sunny wants, actually, Sunny wants to search.
+
+
+659
+01:26:20.441 --> 01:26:23.520
+Sunny Savita: Now, what Sunny want to search? Sunny want to search job.
+
+
+660
+01:26:24.781 --> 01:26:26.060
+Sunny Savita: So here…
+
+
+661
+01:26:26.261 --> 01:26:35.121
+Sunny Savita: for the job, guys, for the searching a job, right? So what is required? Sunny… sunny guy's skill set, right? Sunny's skill set is required.
+
+
+662
+01:26:35.251 --> 01:26:37.481
+Sunny Savita: So, a skill set is required.
+
+
+663
+01:26:37.981 --> 01:26:40.330
+Sunny Savita: Sunny's experience is required.
+
+
+664
+01:26:40.671 --> 01:26:42.281
+Sunny Savita: Tell me yes or no, guys.
+
+
+665
+01:26:42.981 --> 01:26:43.871
+Sunny Savita: Tell me.
+
+
+666
+01:26:44.101 --> 01:26:55.181
+Sunny Savita: Sunny's skill set is required. Here I can write. Sunny's skill set is required. Sunny's, what is required? Sunny's experience is required.
+
+
+667
+01:26:55.801 --> 01:26:56.741
+Sunny Savita: Okay.
+
+
+668
+01:26:56.971 --> 01:26:57.921
+Sunny Savita: This one.
+
+
+669
+01:26:58.341 --> 01:27:04.950
+Sunny Savita: Now, if we're talking about match, right? So, what we'll get, guys? Tell me what I'll get? I'll get a match job.
+
+
+670
+01:27:05.781 --> 01:27:11.030
+Sunny Savita: Matching jobs, right? I'll be getting what? I'll be getting a matching job.
+
+
+671
+01:27:12.241 --> 01:27:31.751
+Sunny Savita: After I will perform the search over the LinkedIn, right? So I will be getting a matching job. So what Sunny want to be, like, what Sunny want to be, like, become? Let's say Sunny want to become a Gen AI engineer, Sunny want to become a data scientist, or ML engineer, something like this. Now, tell me, guys, what is this? This one?
+
+
+672
+01:27:32.551 --> 01:27:33.521
+Sunny Savita: This one.
+
+
+673
+01:27:33.671 --> 01:27:34.790
+Sunny Savita: What is this?
+
+
+674
+01:27:36.261 --> 01:27:38.451
+Sunny Savita: Is this a information?
+
+
+675
+01:27:40.571 --> 01:27:45.800
+Sunny Savita: It is an information which is being provided by the Sunny at the different, different places.
+
+
+676
+01:27:47.141 --> 01:27:48.041
+Sunny Savita: Tell me.
+
+
+677
+01:27:48.421 --> 01:27:53.061
+Sunny Savita: Is this an information? What does this, guys, tell me? What is this?
+
+
+678
+01:27:53.231 --> 01:28:04.051
+Sunny Savita: So, this is the information which is being provided by the Sunni at the different, different places, yes or no? So, I can write over here, it's a information
+
+
+679
+01:28:04.391 --> 01:28:08.800
+Sunny Savita: Which is providing… which is… which is being provided.
+
+
+680
+01:28:09.861 --> 01:28:14.831
+Sunny Savita: which is being provided by Sunny, provided by Sunny.
+
+
+681
+01:28:15.441 --> 01:28:17.900
+Sunny Savita: At different places.
+
+
+682
+01:28:19.211 --> 01:28:21.721
+Sunny Savita: at different places.
+
+
+683
+01:28:22.211 --> 01:28:27.880
+Sunny Savita: Making sense to all of you, yes or no? Now, just tell me over here, guys. Tell me over here.
+
+
+684
+01:28:28.261 --> 01:28:31.621
+Sunny Savita: This one. What is this? What is this? This one?
+
+
+685
+01:28:32.281 --> 01:28:34.331
+Sunny Savita: Just tell me what. What is this, guys?
+
+
+686
+01:28:35.511 --> 01:28:39.351
+Sunny Savita: It is also an information about Sunny.
+
+
+687
+01:28:40.221 --> 01:28:50.360
+Sunny Savita: This is also information about Sunny, this is also a information about Sunny, and this is, again, information about the Sunny.
+
+
+688
+01:28:50.871 --> 01:28:52.021
+Sunny Savita: Yes or no?
+
+
+689
+01:28:52.161 --> 01:28:58.951
+Sunny Savita: Now, over here… now, over here, guys, now over here, you can see, this information.
+
+
+690
+01:28:59.131 --> 01:29:02.641
+Sunny Savita: Okay? This information, actually, it is a…
+
+
+691
+01:29:02.791 --> 01:29:07.871
+Sunny Savita: transformed version of it. See, this is the complete information, the detailed information.
+
+
+692
+01:29:08.961 --> 01:29:10.511
+Sunny Savita: Detailed information.
+
+
+693
+01:29:10.611 --> 01:29:13.941
+Sunny Savita: And now, what is this? It's a transformed version of it.
+
+
+694
+01:29:16.041 --> 01:29:25.471
+Sunny Savita: transformed version of it. Now, this is what… this is the detail information. This diary is actually… this diary, actually, it's a detail information, this diary.
+
+
+695
+01:29:26.071 --> 01:29:31.181
+Sunny Savita: But this one, again, it is a… transform version.
+
+
+696
+01:29:31.911 --> 01:29:47.780
+Sunny Savita: transform information, right? Means, whatever is required for this particular profile, whatever is required for that particular profile, I'm just transforming from my document. I'm getting from my document. Tell me, yes or no.
+
+
+697
+01:29:48.071 --> 01:29:49.510
+Sunny Savita: Is it true or not?
+
+
+698
+01:29:49.631 --> 01:30:01.360
+Sunny Savita: So, whatever is required, whatever is required, guys, whatever is required from my… for this particular profile, I'm just taking from my document, I'm transforming it from my document.
+
+
+699
+01:30:02.491 --> 01:30:24.051
+Sunny Savita: inside a diary, I have the entire information, the detailed information. Now, a skill set is also, transform information, okay, experience and all. Now, this matching job, basically, whatever I'm getting, this one, Gen AI, DS, or ML Engineer, right? I want this kind of job I have written inside my document. I'm getting this particular thing. So, this is also what? This is also one sort of a information.
+
+
+700
+01:30:24.141 --> 01:30:27.460
+Sunny Savita: Now, just think over here, just think this as a e-money.
+
+
+701
+01:30:28.311 --> 01:30:31.581
+Sunny Savita: embedding of money. This particular information is an e-money.
+
+
+702
+01:30:32.171 --> 01:30:35.320
+Sunny Savita: So, here is also E-Money, this one.
+
+
+703
+01:30:35.701 --> 01:30:38.611
+Sunny Savita: But this is the transformed version of the e-money.
+
+
+704
+01:30:40.851 --> 01:30:42.640
+Sunny Savita: Now, this is also an e-money.
+
+
+705
+01:30:43.351 --> 01:30:46.001
+Sunny Savita: This is the transformed version of the e-money.
+
+
+706
+01:30:47.481 --> 01:30:49.231
+Sunny Savita: This is also an Imani.
+
+
+707
+01:30:49.481 --> 01:30:52.780
+Sunny Savita: And this is what, guys, this is a transformed version of the e-money.
+
+
+708
+01:30:53.271 --> 01:31:02.950
+Sunny Savita: what I wanted to say over here, I have one information, and this particular information is a transformed version of my entire information, of my detailed information.
+
+
+709
+01:31:03.091 --> 01:31:08.471
+Sunny Savita: So, in the same way, guys, this e-money, basically, it could be represented into the multiple ways.
+
+
+710
+01:31:08.881 --> 01:31:13.690
+Sunny Savita: Getting my point, yes or no? So, if I'm going to be summarize this entire thing.
+
+
+711
+01:31:13.951 --> 01:31:17.531
+Sunny Savita: Let's say I have a complete information.
+
+
+712
+01:31:18.841 --> 01:31:22.111
+Sunny Savita: I have my complete information, let me write over here.
+
+
+713
+01:31:23.101 --> 01:31:26.991
+Sunny Savita: I have my… Complete.
+
+
+714
+01:31:28.361 --> 01:31:30.021
+Sunny Savita: information.
+
+
+715
+01:31:32.041 --> 01:31:39.501
+Sunny Savita: Now, this particular information… I can transform… in my profile.
+
+
+716
+01:31:42.001 --> 01:31:47.761
+Sunny Savita: Okay? I can transform this particular information In Mayo?
+
+
+717
+01:31:48.121 --> 01:31:49.560
+Sunny Savita: What was the next thing?
+
+
+718
+01:31:50.381 --> 01:31:52.651
+Sunny Savita: Search, right? Search.
+
+
+719
+01:31:53.611 --> 01:31:55.921
+Sunny Savita: According to the search, I can transform.
+
+
+720
+01:31:56.101 --> 01:32:00.770
+Sunny Savita: Now, this particular information, I can transform according to the match.
+
+
+721
+01:32:00.871 --> 01:32:17.961
+Sunny Savita: So, profile, for that, the different information will be required. For search, the different information will be required, and whatever match I will be getting here, the different information would be there, but the entire information, basically, it will be a transformed version of my complete information.
+
+
+722
+01:32:18.321 --> 01:32:24.241
+Sunny Savita: Getting my point, guys? Yes or no? Now, if we're talking about, if we're talking about this e-money.
+
+
+723
+01:32:24.811 --> 01:32:35.491
+Sunny Savita: Okay, this e-money. So this e-money, basically, embedding of money I can get as a… Q of E-Money.
+
+
+724
+01:32:36.031 --> 01:32:40.061
+Sunny Savita: I can get as a… Q, K of E money.
+
+
+725
+01:32:40.871 --> 01:32:43.921
+Sunny Savita: I can get as a B of E-Money.
+
+
+726
+01:32:44.901 --> 01:32:51.140
+Sunny Savita: Now, how I will be getting… so this particular thing, I'm going to be multiplier with the metrics.
+
+
+727
+01:32:51.911 --> 01:32:54.241
+Sunny Savita: This is what? This is my weight matrix.
+
+
+728
+01:32:55.111 --> 01:33:01.911
+Sunny Savita: So here, this is my Q weights, okay? This is what is my Q weights. Now, one more weights.
+
+
+729
+01:33:02.451 --> 01:33:06.901
+Sunny Savita: This is what, this is my… K weights.
+
+
+730
+01:33:07.231 --> 01:33:09.230
+Sunny Savita: Okay, this is called a cake.
+
+
+731
+01:33:09.801 --> 01:33:12.491
+Sunny Savita: Right? Now, here is what? Here is mine.
+
+
+732
+01:33:13.071 --> 01:33:14.321
+Sunny Savita: V weights.
+
+
+733
+01:33:14.691 --> 01:33:15.791
+Sunny Savita: This is what?
+
+
+734
+01:33:15.971 --> 01:33:17.660
+Sunny Savita: This is my V weights.
+
+
+735
+01:33:19.301 --> 01:33:27.341
+Sunny Savita: Okay, so after multiplying it, guys, what I'll be getting… I'll be getting this Q, K, and V.
+
+
+736
+01:33:27.601 --> 01:33:29.270
+Sunny Savita: Now, over here, guys, see?
+
+
+737
+01:33:29.571 --> 01:33:34.891
+Sunny Savita: This weights, this particular weights, actually, if we're talking about this weights.
+
+
+738
+01:33:35.351 --> 01:33:40.300
+Sunny Savita: So this is only a learnable parameter inside the transformer architecture.
+
+
+739
+01:33:40.681 --> 01:33:42.651
+Sunny Savita: learnable parameter.
+
+
+740
+01:33:43.741 --> 01:33:48.171
+Sunny Savita: So, initially, we initialize these particular weights randomly.
+
+
+741
+01:33:48.481 --> 01:33:52.571
+Sunny Savita: We initially, we initialize this weight randomly.
+
+
+742
+01:33:53.331 --> 01:33:57.521
+Sunny Savita: But, by the epoch, by the time, okay.
+
+
+743
+01:33:57.981 --> 01:34:08.641
+Sunny Savita: In a… when we perform the learning, right? Initially, we initialize this way randomly, but when we perform the learning, learning means what? Multiple epoch.
+
+
+744
+01:34:09.031 --> 01:34:25.750
+Sunny Savita: multiple epochs. Forward propagation plus backward propagation, because it's a supervised learning, right? Then this weights, actually, this weights actually is going to be trained. This weight, actually, it's going to be trained.
+
+
+745
+01:34:26.431 --> 01:34:29.190
+Sunny Savita: Getting my point, guys, yes or no? Tell me.
+
+
+746
+01:34:29.391 --> 01:34:32.711
+Sunny Savita: So with that, actually, we will be getting this queue.
+
+
+747
+01:34:33.381 --> 01:34:36.261
+Sunny Savita: K… and V.
+
+
+748
+01:34:36.491 --> 01:34:43.181
+Sunny Savita: So, Q and K, right? This one. We are going to be multiplying this thing. Query.
+
+
+749
+01:34:43.531 --> 01:34:47.521
+Sunny Savita: Query, and key. We are going to be multiplier.
+
+
+750
+01:34:48.311 --> 01:34:49.171
+Sunny Savita: Right?
+
+
+751
+01:34:49.531 --> 01:35:00.281
+Sunny Savita: query and key, we are going to be multiply. This, from this, basically, we are getting a weight value. Now, this weight value, we are going to be multiply with this value vector, this one.
+
+
+752
+01:35:00.851 --> 01:35:16.270
+Sunny Savita: And finally, whatever we'll be getting, finally, whatever we'll be getting, that will be our final, embedding, contextual embedding. Tell me, yes or no? Is it getting clear? Yes, I'll summarize that. Okay, don't worry. So…
+
+
+753
+01:35:16.471 --> 01:35:17.571
+Sunny Savita: Tell me, guys.
+
+
+754
+01:35:17.761 --> 01:35:24.720
+Sunny Savita: Is it clear to all of you? What is this Q, K, and V? This is nothing, it is a learnable parameter.
+
+
+755
+01:35:25.061 --> 01:35:30.881
+Sunny Savita: Okay? Now, let me show you this entire thing in a one single go, how this looks like.
+
+
+756
+01:35:31.041 --> 01:35:39.001
+Sunny Savita: So if I'm going to be showing you this entire thing in single go, now let's do it over here. So guys, first, what I'll be having, tell me.
+
+
+757
+01:35:39.121 --> 01:35:44.251
+Sunny Savita: So here, we are having… 3 vector.
+
+
+758
+01:35:45.471 --> 01:35:46.381
+Sunny Savita: Okay.
+
+
+759
+01:35:47.361 --> 01:35:48.881
+Sunny Savita: This 3-vector.
+
+
+760
+01:35:49.141 --> 01:35:53.971
+Sunny Savita: What does this 3-vector, guys, tell me? E of… Money.
+
+
+761
+01:35:54.231 --> 01:35:56.671
+Sunny Savita: E of… Bang.
+
+
+762
+01:35:56.931 --> 01:35:59.550
+Sunny Savita: Then, E of, grow.
+
+
+763
+01:36:00.111 --> 01:36:05.670
+Sunny Savita: Right? Now, this 3-vector, basically, What I'll be getting, guys, tell me.
+
+
+764
+01:36:06.411 --> 01:36:11.200
+Sunny Savita: So this 3-vector, I'm going to be multiplier with these 3 different, different metrics.
+
+
+765
+01:36:11.361 --> 01:36:20.050
+Sunny Savita: So, first metrics is going to be… W… tell me, guys, WQ.
+
+
+766
+01:36:20.601 --> 01:36:23.340
+Sunny Savita: So the second matrix is going to be what?
+
+
+767
+01:36:23.531 --> 01:36:25.261
+Sunny Savita: To the second matrix.
+
+
+768
+01:36:25.461 --> 01:36:29.580
+Sunny Savita: Every vector, guys, every vector will be having this particular process, okay?
+
+
+769
+01:36:30.211 --> 01:36:33.891
+Sunny Savita: Then the second vector is going to be WK.
+
+
+770
+01:36:34.621 --> 01:36:39.071
+Sunny Savita: Then the third matrix is going to be what, so let me design the third matrix over here.
+
+
+771
+01:36:39.401 --> 01:36:41.890
+Sunny Savita: The third matrix is going to be what?
+
+
+772
+01:36:42.171 --> 01:36:44.700
+Sunny Savita: The third matrix is going to be W.
+
+
+773
+01:36:45.511 --> 01:36:46.341
+Sunny Savita: V.
+
+
+774
+01:36:46.651 --> 01:36:55.150
+Sunny Savita: What I'll be getting after this one, guys, after this one, I'll be getting… See here, let me write.
+
+
+775
+01:36:55.361 --> 01:37:03.801
+Sunny Savita: After this one, I'll be getting… Q of… Money?
+
+
+776
+01:37:04.401 --> 01:37:08.461
+Sunny Savita: then Q of… Bank?
+
+
+777
+01:37:08.671 --> 01:37:12.400
+Sunny Savita: then Q of… grow, right?
+
+
+778
+01:37:12.521 --> 01:37:19.551
+Sunny Savita: What I'll be getting is… I'll be getting this only, right? So let me… Again, draw it over here.
+
+
+779
+01:37:19.721 --> 01:37:35.430
+Sunny Savita: So, in this particular manner, the entire process will be happen. Like this only, it's going to be happen in a parallel, it will be performed a parallel operation now. So, in this way, basically, it will do that. So, K of money, let me write it over here.
+
+
+780
+01:37:36.361 --> 01:37:37.651
+Sunny Savita: K of what?
+
+
+781
+01:37:37.971 --> 01:37:40.241
+Sunny Savita: Okay, of money.
+
+
+782
+01:37:40.361 --> 01:37:43.321
+Sunny Savita: then K of… Bang.
+
+
+783
+01:37:43.501 --> 01:37:46.161
+Sunny Savita: then K of… grow.
+
+
+784
+01:37:46.571 --> 01:37:55.350
+Sunny Savita: Okay? Then, guys, what will happen? So, we are going to be… we are getting… what we'll be getting? We are… we are going to be perform the dot product of it.
+
+
+785
+01:37:55.651 --> 01:38:00.430
+Sunny Savita: We are going to be perform the dot product of it. So you'll be getting a metrics over here.
+
+
+786
+01:38:01.641 --> 01:38:05.320
+Sunny Savita: We'll be getting a matrix over here. This is going to be a weight matrix.
+
+
+787
+01:38:06.061 --> 01:38:06.981
+Sunny Savita: Okay.
+
+
+788
+01:38:07.401 --> 01:38:21.550
+Sunny Savita: This is going to be a weight matrix. So here, we'll be having as 1, as 1, 2, as 1, 3. Then, as 2, 1, S22 as 2, 3, then as 3, 1, as 3, 2,
+
+
+789
+01:38:22.031 --> 01:38:23.790
+Sunny Savita: And as 3-3.
+
+
+790
+01:38:23.971 --> 01:38:28.721
+Sunny Savita: Now, this particular thing will be passed from where? Will be passed from the softmax function.
+
+
+791
+01:38:30.971 --> 01:38:31.871
+Sunny Savita: Okay.
+
+
+792
+01:38:32.121 --> 01:38:37.341
+Sunny Savita: Now, over here, guys, along with the softmax, we'll divide this particular value with one more.
+
+
+793
+01:38:37.441 --> 01:38:40.221
+Sunny Savita: With one more thing, that's going to be a DK.
+
+
+794
+01:38:40.321 --> 01:38:43.610
+Sunny Savita: Okay? And we'll be taking a under root of that.
+
+
+795
+01:38:43.861 --> 01:38:52.730
+Sunny Savita: Okay? We'll be taking an under root of that, of this value. Now, whatever final value we'll be getting over here, so this is going to be a final value, this one.
+
+
+796
+01:38:53.581 --> 01:38:55.610
+Sunny Savita: This is going to be our final value.
+
+
+797
+01:38:55.941 --> 01:39:07.751
+Sunny Savita: So whatever final value we'll be getting, so this is what? This is my W11, W12, W13, W21, W22, W23.
+
+
+798
+01:39:08.311 --> 01:39:09.181
+Sunny Savita: Okay.
+
+
+799
+01:39:09.401 --> 01:39:10.871
+Sunny Savita: W23.
+
+
+800
+01:39:11.881 --> 01:39:23.471
+Sunny Savita: Now here, W31, W32, Sorry, guys, let me rewrite this again. W32 and W33.
+
+
+801
+01:39:23.571 --> 01:39:29.700
+Sunny Savita: Now, this particular value, basically, here I'll be getting a vector, right? So I'll be getting a vector.
+
+
+802
+01:39:30.031 --> 01:39:34.670
+Sunny Savita: So this is going to be my one more vector. Let me draw the vector over here, this one.
+
+
+803
+01:39:34.931 --> 01:39:38.111
+Sunny Savita: This is going to be what? This is going to be my one more vector.
+
+
+804
+01:39:38.281 --> 01:39:44.540
+Sunny Savita: This vector is called a value vector, okay? So, value of money…
+
+
+805
+01:39:45.041 --> 01:39:47.850
+Sunny Savita: Value of what value of bank?
+
+
+806
+01:39:48.171 --> 01:39:51.471
+Sunny Savita: Value of what? Value of the grow.
+
+
+807
+01:39:51.881 --> 01:39:56.101
+Sunny Savita: Now, we will be performing the dot product between this one.
+
+
+808
+01:39:57.801 --> 01:40:13.530
+Sunny Savita: Okay, we'll be performing a dot product, means the final multiplication between this one, and whatever vector we'll be getting after this one, this one, this is only going to be what? This is only going to be my contextual vector. So let me draw the contextual vector over here.
+
+
+809
+01:40:13.751 --> 01:40:21.370
+Sunny Savita: So this is only going to be what? My contextual vector. So I'll be having 3 vectors now, Y of money.
+
+
+810
+01:40:21.981 --> 01:40:24.330
+Sunny Savita: Why off? Bank.
+
+
+811
+01:40:24.991 --> 01:40:34.001
+Sunny Savita: And by off… grow. So this vector only is called the… contextual…
+
+
+812
+01:40:34.141 --> 01:40:44.441
+Sunny Savita: vector. And inside the… inside where, guys? Inside the self-attention, guys, this layer, actually, it is called the learnable
+
+
+813
+01:40:45.021 --> 01:40:47.640
+Sunny Savita: Or… trainable layer.
+
+
+814
+01:40:52.491 --> 01:40:55.781
+Sunny Savita: Making sense to all of you, tell me, guys, yes or no.
+
+
+815
+01:40:56.141 --> 01:40:58.871
+Sunny Savita: If you will say, yes, I'll,
+
+
+816
+01:40:58.981 --> 01:41:06.561
+Sunny Savita: like, I'll think that, yes, you are able to understand that, okay? So this layer only is called the learnable layer.
+
+
+817
+01:41:07.661 --> 01:41:09.851
+Sunny Savita: Only one person is saying…
+
+
+818
+01:41:10.891 --> 01:41:28.930
+Sunny Savita: No. See, if you are, not able to get, I think, in that case, the revision is required, maybe. So this is the complete process, guys. This is a complete process which is happening inside the… this is the complete process which is happening inside the attention layer.
+
+
+819
+01:41:29.321 --> 01:41:36.331
+Sunny Savita: What will be the size of the matrixes? It depends, actually. It is a hyperparameter, the size of the matrixes and all, okay?
+
+
+820
+01:41:38.881 --> 01:41:54.610
+Sunny Savita: Getting my point, guys? So, you can think, see, we are getting this Q of money, K of Q of Bank, Q of grow, k of money, k of bank, k of grow, right? It is just a transform vector. The same information, actually, it is being transformed at the multiple places.
+
+
+821
+01:41:55.571 --> 01:42:13.301
+Sunny Savita: Okay, over here, I have explained you, let's say, sunika profile, sunika profile, teenika information, teen web mein transform kia ja sektai. Profile banana ja sekta hai, search ni kala ja sektai, match get kiya sektai, right? So, the same information of the suni can get in a three different way.
+
+
+822
+01:42:13.561 --> 01:42:16.241
+Sunny Savita: Three different ways, at the three different places.
+
+
+823
+01:42:16.681 --> 01:42:25.651
+Sunny Savita: Right? But… Overall, the information sheet. Overall, basically, the information is coming from the my complete information, na?
+
+
+824
+01:42:25.671 --> 01:42:37.401
+Sunny Savita: In a same way, basically, this particular vector, E money vector, we are transforming it into the different, different vector, Q, Q, E money, okay, this is called my Q, K, and V vector.
+
+
+825
+01:42:37.401 --> 01:42:46.090
+Sunny Savita: Now, what is the meaning of this Q&K? We are going to be, use the, key. With that, actually, we are going to be perform the query, okay?
+
+
+826
+01:42:46.091 --> 01:42:50.571
+Sunny Savita: Now, whatever value we are getting, so that we are going to be multiplied with the value, that's it.
+
+
+827
+01:42:50.761 --> 01:42:54.221
+Sunny Savita: So, like this only, our entire calculation is happening.
+
+
+828
+01:42:54.761 --> 01:42:59.640
+Sunny Savita: I think you are able to get it. And in this particular manner, in this particular manner.
+
+
+829
+01:42:59.761 --> 01:43:12.430
+Sunny Savita: This is running in a parallel. In this particular manner, this is running in a parallel. Now, tell me, guys, how many people are able to understand this particular process, the parallel process which I have shown over here, this one.
+
+
+830
+01:43:14.061 --> 01:43:21.891
+Sunny Savita: I think many of you, right? I think 99% people are able to get it. If someone is not able to get, guys, you can check out the session.
+
+
+831
+01:43:22.141 --> 01:43:39.920
+Sunny Savita: Okay? Means, again, you can go through with it. But if you have any sort of a doubt, you can ask me. Don't worry, guys, I'll be reply. Means, I'll be clarifying all the doubts. I'm not going to take, any doubt session today, guys, because in the starting of the session, I mentioned, like, I am,
+
+
+832
+01:43:40.001 --> 01:43:47.920
+Sunny Savita: I traveled, so feeling, like, a bit uneasy, so I will just conclude this session, okay? Tomorrow I'll take a doubt session, right?
+
+
+833
+01:43:48.321 --> 01:43:54.400
+Sunny Savita: Learnable parameter means the parameter which is going to be trained. Okay, and trainable parameter means what?
+
+
+834
+01:43:54.401 --> 01:44:11.931
+Sunny Savita: the parameter, basically, which is… sorry, learnable and variable parameter means what? So, during the training, whatever parameter is going to be learned. Hyperparameter is a different one, right? Now, don't worry, guys, in the next class, what I'll do, I prepared one document for all of you. I will share the document with all the definition and all, okay?
+
+
+835
+01:44:12.011 --> 01:44:24.591
+Sunny Savita: So, I prepared one document, related to this transformer. There, I summarized this entire thing in a single document itself. Okay, and in the next class, I'll share the document. So, let me show you how that looks like.
+
+
+836
+01:44:34.261 --> 01:44:38.360
+Sunny Savita: Okay, so guys, I created this kind of documentation for all of you.
+
+
+837
+01:44:38.531 --> 01:44:52.970
+Sunny Savita: So, I'll share the documentation with all of you, okay? So, you can go through with it, and you can revise the concept of the transformer from there itself, at the single go, okay? In single go, you can,
+
+
+838
+01:44:53.001 --> 01:44:58.861
+Sunny Savita: In a single go, basically, you can, basically revise the entire concept of the transformer.
+
+
+839
+01:44:59.281 --> 01:45:04.520
+Sunny Savita: Okay, so I hope till here everything is fine, everything is clear.
+
+
+840
+01:45:05.061 --> 01:45:14.801
+Sunny Savita: I'll share that. In the next class, I will share that, because it is, like, incomplete right now. I will complete in, I will complete that today, and then in the next class, I'll share that.
+
+
+841
+01:45:15.291 --> 01:45:16.041
+Sunny Savita: Luke?
+
+
+842
+01:45:26.871 --> 01:45:29.081
+Sunny Savita: Yeah, it is the same thing, correct.
+
+
+843
+01:45:34.941 --> 01:45:47.211
+Sunny Savita: Okay, so guys, over here, we need to be understand couple of things. So just, check out with the research paper. Okay, so I'm going to be open the research paper. And now, over here, guys, you can see.
+
+
+844
+01:45:48.421 --> 01:45:52.281
+Sunny Savita: This attention formula is visible to all of you, this one.
+
+
+845
+01:45:55.591 --> 01:45:57.641
+Sunny Savita: So this is the attention formula.
+
+
+846
+01:45:57.941 --> 01:46:05.151
+Sunny Savita: Now, over here, inside this particular formula, you can see, we have this queue, K, and V.
+
+
+847
+01:46:05.351 --> 01:46:10.511
+Sunny Savita: So this Q, K, and V, this thing is clear. Tell me yes or no.
+
+
+848
+01:46:10.701 --> 01:46:11.751
+Sunny Savita: This one.
+
+
+849
+01:46:12.101 --> 01:46:15.561
+Sunny Savita: Now, we are passing this thing from via SoftMax.
+
+
+850
+01:46:16.501 --> 01:46:29.320
+Sunny Savita: Okay? But along with that, guys, we are going to be divided with the DK, okay? Now, what is this DK? Under root DK? We'll understand that part. So, guys, if you remember,
+
+
+851
+01:46:29.431 --> 01:46:33.531
+Sunny Savita: I have shared this blog with all of you in the first session itself, this one.
+
+
+852
+01:46:34.131 --> 01:46:35.271
+Sunny Savita: Yes or no?
+
+
+853
+01:46:39.331 --> 01:46:40.231
+Sunny Savita: Tell me?
+
+
+854
+01:46:44.381 --> 01:46:48.660
+Sunny Savita: Okay? Now, over here, guys, inside this particular block, you can see…
+
+
+855
+01:46:48.991 --> 01:46:57.751
+Sunny Savita: So, let's… let's understand with this particular block that are we learning the same thing? Are we… and did we understand the same thing or not?
+
+
+856
+01:46:58.311 --> 01:47:01.320
+Sunny Savita: So… This is what, this is my word.
+
+
+857
+01:47:04.761 --> 01:47:06.101
+Sunny Savita: Thinking machine.
+
+
+858
+01:47:06.711 --> 01:47:10.531
+Sunny Savita: Can you see, guys, inside the sentence, how many words we have?
+
+
+859
+01:47:11.071 --> 01:47:13.401
+Sunny Savita: Word 1, and Word 2.
+
+
+860
+01:47:13.961 --> 01:47:15.410
+Sunny Savita: How many words we have?
+
+
+861
+01:47:16.911 --> 01:47:18.521
+Sunny Savita: We have two words.
+
+
+862
+01:47:19.141 --> 01:47:25.950
+Sunny Savita: Okay? This one. Now, what we are going to do over here, tell me guys, we are going to be converting to the embedding.
+
+
+863
+01:47:27.911 --> 01:47:29.381
+Sunny Savita: Word embedding.
+
+
+864
+01:47:32.681 --> 01:47:35.811
+Sunny Savita: This is clear to all of you, tell me yes or no.
+
+
+865
+01:47:36.151 --> 01:47:37.411
+Sunny Savita: Is it clear?
+
+
+866
+01:47:37.901 --> 01:47:47.831
+Sunny Savita: Now, after that, guys, if you will look into that, so here is what, here is my embedding, means after the position encoding and all the final embedding we are getting. Now, this one, X1,
+
+
+867
+01:47:48.271 --> 01:47:50.440
+Sunny Savita: It's going to be multiplied with this one.
+
+
+868
+01:47:50.901 --> 01:47:56.440
+Sunny Savita: X2 also is going to be multiplied with this 2. Then what I'm getting, I'm getting this Q1 vector.
+
+
+869
+01:48:00.711 --> 01:48:06.210
+Sunny Savita: Okay? Then the X2, X1, I'm going to be multiplier with WQ.
+
+
+870
+01:48:06.341 --> 01:48:12.781
+Sunny Savita: And then X2 also, I'm going to be multiplied with this, W, sorry, WK, okay? So this is my query.
+
+
+871
+01:48:13.821 --> 01:48:15.361
+Sunny Savita: This is my key.
+
+
+872
+01:48:16.281 --> 01:48:18.251
+Sunny Savita: And this is what? This is my value.
+
+
+873
+01:48:19.861 --> 01:48:22.071
+Sunny Savita: Now, the same vector, X1,
+
+
+874
+01:48:22.221 --> 01:48:32.941
+Sunny Savita: I'm going to be multiplied with this WV, and this X2, I'm going to be multiplied with this WV. Now, this is only called my learnable or trainable parameter.
+
+
+875
+01:48:40.601 --> 01:48:44.920
+Sunny Savita: Okay? It is a weight, actually. Weights inside the self-attention.
+
+
+876
+01:48:47.231 --> 01:48:52.380
+Sunny Savita: Is it clear to all of you? Tell me yes or no. So what I'll be getting, I'll be getting this K1.
+
+
+877
+01:48:53.511 --> 01:48:54.501
+Sunny Savita: K2?
+
+
+878
+01:48:55.471 --> 01:48:56.521
+Sunny Savita: V1.
+
+
+879
+01:48:56.721 --> 01:48:57.781
+Sunny Savita: and B2.
+
+
+880
+01:48:59.091 --> 01:49:00.601
+Sunny Savita: This thing is clear.
+
+
+881
+01:49:00.701 --> 01:49:04.871
+Sunny Savita: If you will look into my diagram, see this particular diagram, you will get that.
+
+
+882
+01:49:05.371 --> 01:49:07.720
+Sunny Savita: Look into the end-to-end diagram, this one.
+
+
+883
+01:49:09.361 --> 01:49:10.821
+Sunny Savita: This particular diagram.
+
+
+884
+01:49:11.541 --> 01:49:16.350
+Sunny Savita: So here is what? Here is the e-money eBank eGrow. It's going to be multiplied with this.
+
+
+885
+01:49:16.631 --> 01:49:19.090
+Sunny Savita: And we are getting this vector.
+
+
+886
+01:49:21.191 --> 01:49:22.061
+Sunny Savita: Okay.
+
+
+887
+01:49:22.431 --> 01:49:25.341
+Sunny Savita: Now, over here, guys, after that, what will happen? See?
+
+
+888
+01:49:25.551 --> 01:49:28.310
+Sunny Savita: This is the score we are getting.
+
+
+889
+01:49:29.141 --> 01:49:32.101
+Sunny Savita: We are going to be multiplying this Q1 and K1.
+
+
+890
+01:49:32.461 --> 01:49:33.601
+Sunny Savita: dot product.
+
+
+891
+01:49:35.311 --> 01:49:36.751
+Sunny Savita: Similarity score.
+
+
+892
+01:49:40.181 --> 01:49:42.341
+Sunny Savita: They're going to be multiplying this two things.
+
+
+893
+01:49:42.851 --> 01:49:45.731
+Sunny Savita: And what we are getting? We are getting this value.
+
+
+894
+01:49:47.191 --> 01:49:50.021
+Sunny Savita: Tell me, is it clear to all of you, this one?
+
+
+895
+01:49:52.381 --> 01:49:53.311
+Sunny Savita: Yes?
+
+
+896
+01:49:53.701 --> 01:49:54.621
+Sunny Savita: Okay.
+
+
+897
+01:49:56.501 --> 01:49:58.740
+Sunny Savita: Now, after that, guys, what will happen?
+
+
+898
+01:50:00.861 --> 01:50:02.361
+Sunny Savita: Now, after that, guys, see.
+
+
+899
+01:50:03.001 --> 01:50:15.740
+Sunny Savita: This is going to be divided by something. This particular value, this S1. Okay, this is my similarity score 1, this is my similarity score 2. Now, this particular value actually is going to be divided by something. This is root DK.
+
+
+900
+01:50:15.931 --> 01:50:22.671
+Sunny Savita: So inside the research paper, basically, they have taken the value of this root, DK, it was the 8.
+
+
+901
+01:50:23.031 --> 01:50:28.640
+Sunny Savita: Because they were taking the 512 dimension, and I think the 512 dimension route was the 8.
+
+
+902
+01:50:28.751 --> 01:50:35.761
+Sunny Savita: Okay? So the value, basically, of 8, value of the root decay was the 8 inside the original research paper.
+
+
+903
+01:50:36.051 --> 01:50:38.830
+Sunny Savita: So they have divided this particular value with this.
+
+
+904
+01:50:39.181 --> 01:50:42.731
+Sunny Savita: And after that, they are passing it from the softmax, softmax layer.
+
+
+905
+01:50:44.061 --> 01:50:47.221
+Sunny Savita: Tell me, is it clear to all of you? Tell me this thing is clear.
+
+
+906
+01:50:49.081 --> 01:50:50.790
+Sunny Savita: Is this thing clear or not?
+
+
+907
+01:50:51.031 --> 01:50:54.461
+Sunny Savita: So, what do we have… what we are having… So here.
+
+
+908
+01:50:55.161 --> 01:51:00.911
+Sunny Savita: Yeah, sorry, 64, correct. So if we will… if you will look over here, guys, so we have the thinking.
+
+
+909
+01:51:01.311 --> 01:51:02.301
+Sunny Savita: machine.
+
+
+910
+01:51:02.511 --> 01:51:03.871
+Sunny Savita: This is the embedding.
+
+
+911
+01:51:05.021 --> 01:51:06.420
+Sunny Savita: We got Q1.
+
+
+912
+01:51:06.551 --> 01:51:07.511
+Sunny Savita: Q2.
+
+
+913
+01:51:07.971 --> 01:51:08.921
+Sunny Savita: K1?
+
+
+914
+01:51:09.281 --> 01:51:10.261
+Sunny Savita: K2.
+
+
+915
+01:51:10.481 --> 01:51:11.461
+Sunny Savita: V1.
+
+
+916
+01:51:11.641 --> 01:51:12.541
+Sunny Savita: V2.
+
+
+917
+01:51:12.851 --> 01:51:16.120
+Sunny Savita: Now, how we got it? We are going to be multiply with this.
+
+
+918
+01:51:16.571 --> 01:51:17.761
+Sunny Savita: WQ.
+
+
+919
+01:51:19.111 --> 01:51:20.411
+Sunny Savita: WK.
+
+
+920
+01:51:21.451 --> 01:51:24.351
+Sunny Savita: and WV. This is my weights.
+
+
+921
+01:51:27.651 --> 01:51:33.740
+Sunny Savita: Okay. Now, after that, guys, we are going to be multiplying this Q1K1, this one, similar T-score.
+
+
+922
+01:51:34.381 --> 01:51:36.451
+Sunny Savita: Now, we are getting our SC1.
+
+
+923
+01:51:36.821 --> 01:51:37.921
+Sunny Savita: as C2.
+
+
+924
+01:51:38.331 --> 01:51:42.271
+Sunny Savita: Now, over here, guys, we are going to be divided with this particular value with what?
+
+
+925
+01:51:43.401 --> 01:51:44.621
+Sunny Savita: So, root decay.
+
+
+926
+01:51:49.501 --> 01:51:52.480
+Sunny Savita: So, in the original research paper, the value was 8.
+
+
+927
+01:51:52.661 --> 01:51:53.501
+Sunny Savita: Okay.
+
+
+928
+01:51:54.231 --> 01:51:59.190
+Sunny Savita: Now, we are passing this value, we are passing it this particular value from the softmax layer.
+
+
+929
+01:51:59.461 --> 01:52:01.120
+Sunny Savita: And we are getting this value.
+
+
+930
+01:52:04.211 --> 01:52:06.541
+Sunny Savita: Clear till here, everything is clear, guys.
+
+
+931
+01:52:06.771 --> 01:52:11.470
+Sunny Savita: Tell me yes or no. Now, after that, guys, what will happen? Let's see.
+
+
+932
+01:52:11.861 --> 01:52:13.521
+Sunny Savita: After that, what will happen?
+
+
+933
+01:52:13.811 --> 01:52:20.421
+Sunny Savita: So this value… SoftMax Value, This value, softmax value.
+
+
+934
+01:52:20.671 --> 01:52:22.921
+Sunny Savita: We are going to be multiplied with value.
+
+
+935
+01:52:23.881 --> 01:52:24.701
+Sunny Savita: Okay.
+
+
+936
+01:52:25.121 --> 01:52:28.841
+Sunny Savita: This particular value, we are going to be multiplied with this value vector.
+
+
+937
+01:52:31.631 --> 01:52:33.430
+Sunny Savita: value vector. This one.
+
+
+938
+01:52:37.461 --> 01:52:40.180
+Sunny Savita: And after that, we are getting this JET1 and Jet 2.
+
+
+939
+01:52:40.421 --> 01:52:42.761
+Sunny Savita: And this is only what? This is only Maya?
+
+
+940
+01:52:43.661 --> 01:52:45.491
+Sunny Savita: Contextual vector.
+
+
+941
+01:52:51.181 --> 01:52:55.300
+Sunny Savita: Tell me, guys, is this entire process is clear now, how the attention is working?
+
+
+942
+01:52:59.201 --> 01:53:00.141
+Sunny Savita: Yes?
+
+
+943
+01:53:02.951 --> 01:53:04.091
+Sunny Savita: Clear or not?
+
+
+944
+01:53:06.091 --> 01:53:09.251
+Sunny Savita: See, this is the entire formula, guys. Over here, you can see.
+
+
+945
+01:53:09.611 --> 01:53:11.511
+Sunny Savita: This is the entire formula.
+
+
+946
+01:53:13.331 --> 01:53:18.331
+Sunny Savita: Now, what I'm doing, guys, I'm giving you this particular link, so that you can also read it from your end.
+
+
+947
+01:53:18.821 --> 01:53:25.561
+Sunny Savita: Now, why under root DK and all? I'm coming to that part, okay? Just give me a few minutes. First, open this blog and check it over here.
+
+
+948
+01:53:36.481 --> 01:53:38.761
+Sunny Savita: Guys, 2 minutes of water break, okay?
+
+
+949
+01:55:00.841 --> 01:55:03.881
+Sunny Savita: Okay, guys, so did you open this, blog?
+
+
+950
+01:55:14.021 --> 01:55:17.710
+Sunny Savita: I hope you have seen this blog, have opened that.
+
+
+951
+01:55:25.331 --> 01:55:31.341
+Sunny Savita: In this blog, last but one, they are multiplying V of Money.
+
+
+952
+01:55:32.681 --> 01:55:34.581
+Sunny Savita: Learnable parameter.
+
+
+953
+01:55:35.711 --> 01:55:37.621
+Sunny Savita: Where is a learnable parameter?
+
+
+954
+01:55:41.161 --> 01:55:45.581
+Sunny Savita: Yeah, we basically, we all… we will also multiply with the weight matrix, no?
+
+
+955
+01:55:48.551 --> 01:55:52.421
+Sunny Savita: That is, yeah, here it is, see? I already explained you.
+
+
+956
+01:55:52.651 --> 01:55:57.031
+Sunny Savita: We have this X, this is my weight matrix, and we are getting this B vector, that's it.
+
+
+957
+01:55:57.321 --> 01:56:10.250
+Sunny Savita: Now, guys, just, read over here. So, step by step, guys, you can read it. Now, I think many of you, you were asking to me, Sunny, what is the meaning of this, root DK?
+
+
+958
+01:56:10.671 --> 01:56:11.571
+Sunny Savita: This one.
+
+
+959
+01:56:12.161 --> 01:56:13.920
+Sunny Savita: Under root DK.
+
+
+960
+01:56:14.571 --> 01:56:17.081
+Sunny Savita: So the value of it, it was the 8.
+
+
+961
+01:56:17.891 --> 01:56:19.061
+Sunny Savita: Yes or no?
+
+
+962
+01:56:21.971 --> 01:56:24.661
+Sunny Savita: Now, they have given the explanation of it over here.
+
+
+963
+01:56:28.111 --> 01:56:33.210
+Sunny Savita: So, the third and fourth step are divided. Divide the score by 8.
+
+
+964
+01:56:33.731 --> 01:56:36.741
+Sunny Savita: The square root of the dimension of the key vector.
+
+
+965
+01:56:37.391 --> 01:56:40.240
+Sunny Savita: Use in the paper, that was a 64.
+
+
+966
+01:56:40.911 --> 01:56:41.811
+Sunny Savita: Okay.
+
+
+967
+01:56:42.031 --> 01:56:48.651
+Sunny Savita: So, what is this, guys? So, it is nothing. The key vector which we are getting… this key vector.
+
+
+968
+01:56:50.091 --> 01:56:55.791
+Sunny Savita: Right? This key vector. So the dimension of that, it was the 64.
+
+
+969
+01:56:55.961 --> 01:57:15.440
+Sunny Savita: This leads to having more stable gradient. This could be the possible value here, but it is the default. The past result through a softmax operation. SoftMax normalize the score so that they will always, get a positive and edit a proven, meaning it is giving the normalized number. So we're talking about these… if we're talking about
+
+
+970
+01:57:15.901 --> 01:57:22.440
+Sunny Savita: this root DK. Okay, so inside the research paper also, they have mentioned about the same. Let me, show you.
+
+
+971
+01:57:22.731 --> 01:57:23.701
+Sunny Savita: That part.
+
+
+972
+01:57:24.081 --> 01:57:27.591
+Sunny Savita: So, if I'm going to be right, DK.
+
+
+973
+01:57:27.961 --> 01:57:38.330
+Sunny Savita: Okay, now see over here. So we call, we call our, particular attention skill.product, right? Just read this particular paragraph, guys. Do it fast.
+
+
+974
+01:57:39.331 --> 01:57:45.180
+Sunny Savita: So what they are saying, they are saying, we call our particular attention, it's a scale.product attention.
+
+
+975
+01:57:45.311 --> 01:57:49.341
+Sunny Savita: The input consists of queries and keys of the dimension of DK.
+
+
+976
+01:57:49.581 --> 01:57:59.740
+Sunny Savita: means whatever query and the key vector they have, the dimension of that particular vector, the dimension of that is going to be DK. And the value dimension is going to be dv.
+
+
+977
+01:57:59.931 --> 01:58:17.391
+Sunny Savita: Okay, means the dimension would be the same one, D only. Now, we compute the dot product of the query with all key, divide it by each with this dimension, and apply a soft mix function to obtain the weights on the value. Cutting my point, guys? Yes or no? See over here. What they are saying.
+
+
+978
+01:58:17.751 --> 01:58:24.871
+Sunny Savita: They are saying… We call our particular attention is scale.product.
+
+
+979
+01:58:25.601 --> 01:58:27.950
+Sunny Savita: So, they are going to be perform the dot product.
+
+
+980
+01:58:28.601 --> 01:58:29.471
+Sunny Savita: Q.
+
+
+981
+01:58:30.291 --> 01:58:32.701
+Sunny Savita: And then… Okay.
+
+
+982
+01:58:34.331 --> 01:58:37.071
+Sunny Savita: Is it a dot product? Tell me yes or no.
+
+
+983
+01:58:38.021 --> 01:58:40.311
+Sunny Savita: But this is not a skill dot product.
+
+
+984
+01:58:40.971 --> 01:58:47.491
+Sunny Savita: This is not a skill dot product, so what they are doing… the dimension of this particular vector was the…
+
+
+985
+01:58:47.701 --> 01:58:50.191
+Sunny Savita: How much was the dimension, guys? DK.
+
+
+986
+01:58:50.711 --> 01:58:55.821
+Sunny Savita: In original research paper, the dimension was the 64, okay? They consider.
+
+
+987
+01:58:56.151 --> 01:58:56.921
+Sunny Savita: Right?
+
+
+988
+01:58:57.121 --> 01:59:01.911
+Sunny Savita: So the dimension, basically, the dimension was a DK, okay, DK is what?
+
+
+989
+01:59:02.211 --> 01:59:04.971
+Sunny Savita: Dimension of the vector.
+
+
+990
+01:59:05.871 --> 01:59:07.740
+Sunny Savita: Dimension of the vector.
+
+
+991
+01:59:09.091 --> 01:59:17.141
+Sunny Savita: So, what they have done to make this dot product is a scale dot product, is scale.product.
+
+
+992
+01:59:17.861 --> 01:59:28.081
+Sunny Savita: To regularize the value of this scale dot product… to regularize the value of this dot product between a range, okay, to scale this dot product, they have used two things.
+
+
+993
+01:59:28.221 --> 01:59:31.231
+Sunny Savita: The first thing, basically, they have divided with the dimension.
+
+
+994
+01:59:34.091 --> 01:59:40.380
+Sunny Savita: And the second is basically for what? Second is basically they have performed this… they have passed it from the softmax function.
+
+
+995
+01:59:40.501 --> 01:59:43.621
+Sunny Savita: Now, why they are doing it? So that training could be stable.
+
+
+996
+01:59:46.121 --> 01:59:48.191
+Sunny Savita: So the training could be stable.
+
+
+997
+01:59:50.521 --> 01:59:54.450
+Sunny Savita: Making sense to all of you guys, tell me yes or no. Is it getting clear?
+
+
+998
+01:59:56.781 --> 01:59:57.911
+Sunny Savita: Tell me yes.
+
+
+999
+01:59:58.021 --> 01:59:58.921
+Sunny Savita: Or no.
+
+
+1000
+02:00:01.161 --> 02:00:01.981
+Sunny Savita: Nose?
+
+
+1001
+02:00:02.891 --> 02:00:05.151
+Sunny Savita: How many people are able to understand it?
+
+
+1002
+02:00:05.531 --> 02:00:11.870
+Sunny Savita: that it is a skill.product, right? Now, just go over here and read it from scratch, this one.
+
+
+1003
+02:00:13.971 --> 02:00:18.931
+Sunny Savita: Once you will read it from scratch now, you will understand everything, guys, from this particular blog now.
+
+
+1004
+02:00:19.201 --> 02:00:21.531
+Sunny Savita: So, just start it from here.
+
+
+1005
+02:00:21.641 --> 02:00:22.521
+Sunny Savita: This one.
+
+
+1006
+02:00:24.481 --> 02:00:25.481
+Sunny Savita: This one.
+
+
+1007
+02:00:25.771 --> 02:00:28.120
+Sunny Savita: Bringing the tensor into the picture.
+
+
+1008
+02:00:28.711 --> 02:00:45.320
+Sunny Savita: Okay? Bringing the tension into the picture. Now, we have seen the major component of the model. Let's start look at the various vector and tensors, how they flow between the component, turn into the input of train model, into the output, okay? So, this is my first vector.
+
+
+1009
+02:00:45.501 --> 02:00:47.990
+Sunny Savita: Second vector, and the third vector.
+
+
+1010
+02:00:48.221 --> 02:00:51.470
+Sunny Savita: Now, initially, what is the dimension of this particular vector?
+
+
+1011
+02:00:52.561 --> 02:00:59.330
+Sunny Savita: Initially, what is the dimension of this particular vector? After the word 2 back? The dimension of each vector was the 512.
+
+
+1012
+02:01:01.441 --> 02:01:04.420
+Sunny Savita: Okay? 512 was the dimension.
+
+
+1013
+02:01:04.671 --> 02:01:10.421
+Sunny Savita: Now, after that, what we have done, so we have multiplied this particular vector, let's say this is what?
+
+
+1014
+02:01:10.601 --> 02:01:13.431
+Sunny Savita: This is my vector, right? Thinking machine.
+
+
+1015
+02:01:13.551 --> 02:01:17.510
+Sunny Savita: So, here I can, see, this was a dimension.
+
+
+1016
+02:01:18.481 --> 02:01:20.241
+Sunny Savita: 5, 1, 2.
+
+
+1017
+02:01:20.561 --> 02:01:21.911
+Sunny Savita: 512.
+
+
+1018
+02:01:22.041 --> 02:01:27.251
+Sunny Savita: Now, we have multiplied this dimension, this 512, with this particular weight matrix.
+
+
+1019
+02:01:27.791 --> 02:01:30.720
+Sunny Savita: 512 dimension with this particular weight matrix.
+
+
+1020
+02:01:31.421 --> 02:01:35.661
+Sunny Savita: With this particular weight matrix. So what we got? We got this particular query and key.
+
+
+1021
+02:01:37.201 --> 02:01:40.780
+Sunny Savita: Now, what's the dimension of this particular vector? Can anyone tell me?
+
+
+1022
+02:01:41.171 --> 02:01:45.921
+Sunny Savita: The dimension for this particular vector was the… 64.
+
+
+1023
+02:01:50.251 --> 02:01:51.211
+Sunny Savita: Okay.
+
+
+1024
+02:01:51.431 --> 02:01:54.831
+Sunny Savita: Now, dimension for this particular vector was a 64.
+
+
+1025
+02:01:55.221 --> 02:01:59.821
+Sunny Savita: Now, after the 64 guys, See, we are getting a dot product.
+
+
+1026
+02:02:00.591 --> 02:02:03.111
+Sunny Savita: We are getting a dot product of it, tell me.
+
+
+1027
+02:02:03.451 --> 02:02:05.381
+Sunny Savita: Are we getting a dot product off it?
+
+
+1028
+02:02:06.011 --> 02:02:07.691
+Sunny Savita: This one, dot product.
+
+
+1029
+02:02:09.131 --> 02:02:10.011
+Sunny Savita: This one.
+
+
+1030
+02:02:10.371 --> 02:02:13.161
+Sunny Savita: No, no, this one. This one.
+
+
+1031
+02:02:13.321 --> 02:02:16.990
+Sunny Savita: This dot product, right? This dot product, this one.
+
+
+1032
+02:02:17.971 --> 02:02:19.671
+Sunny Savita: It is a scaled one.
+
+
+1033
+02:02:20.661 --> 02:02:25.031
+Sunny Savita: Scaled means the value would be inside some range, let's say 0 to 1.
+
+
+1034
+02:02:25.731 --> 02:02:27.321
+Sunny Savita: Is it a scaled one?
+
+
+1035
+02:02:27.431 --> 02:02:28.371
+Sunny Savita: No.
+
+
+1036
+02:02:29.341 --> 02:02:35.821
+Sunny Savita: It is not a scaled one. So for scaling it, guys, what we are doing… For scaling it.
+
+
+1037
+02:02:35.931 --> 02:02:37.880
+Sunny Savita: What we are doing, guys, tell me.
+
+
+1038
+02:02:38.331 --> 02:02:42.340
+Sunny Savita: For scaling it, here you can see they are going to be perform two things.
+
+
+1039
+02:02:42.711 --> 02:02:46.010
+Sunny Savita: The first, basically, they are going to be divided by the dimension.
+
+
+1040
+02:02:48.491 --> 02:02:49.751
+Sunny Savita: dimension.
+
+
+1041
+02:02:51.061 --> 02:03:01.071
+Sunny Savita: Then, they are passing it from the softmax. So this is the stage first, this is the stage 2. Now, why they are doing it, tell me, so that they can get a normalized value.
+
+
+1042
+02:03:01.771 --> 02:03:04.141
+Sunny Savita: They can get a scaled value.
+
+
+1043
+02:03:06.391 --> 02:03:08.041
+Sunny Savita: A scaled value.
+
+
+1044
+02:03:08.321 --> 02:03:11.600
+Sunny Savita: Okay, so that the training could be stable.
+
+
+1045
+02:03:14.031 --> 02:03:15.031
+Sunny Savita: Training.
+
+
+1046
+02:03:16.121 --> 02:03:18.801
+Sunny Savita: could be… stable.
+
+
+1047
+02:03:21.891 --> 02:03:24.880
+Sunny Savita: Making sense to all of you guys, tell me yes or no.
+
+
+1048
+02:03:25.951 --> 02:03:28.710
+Sunny Savita: Tell me, tell me, tell me fast, yes or no.
+
+
+1049
+02:03:38.191 --> 02:03:39.421
+Sunny Savita: Tell me, yes?
+
+
+1050
+02:03:45.921 --> 02:03:48.160
+Sunny Savita: How many people are able to understand now?
+
+
+1051
+02:03:52.441 --> 02:03:56.731
+Sunny Savita: If you are still not able to get, then I think you need to be revised it, okay?
+
+
+1052
+02:04:01.841 --> 02:04:02.671
+Sunny Savita: Okay.
+
+
+1053
+02:04:03.041 --> 02:04:12.041
+Sunny Savita: Now, someone is asking, not understood, divided by 8 alone. Okay. So, see guys, if we're talking about Steve.
+
+
+1054
+02:04:13.421 --> 02:04:18.691
+Sunny Savita: You understand… do you understand the matrix multiplication or not? Tell me fast.
+
+
+1055
+02:04:18.871 --> 02:04:20.751
+Sunny Savita: Metrics multiplication.
+
+
+1056
+02:04:21.521 --> 02:04:32.711
+Sunny Savita: Okay. Can I explain you this, one thing? So let's say, here is the word, right? Again, I'm going to be, giving you one example, just the way it is. Let's say here is a money.
+
+
+1057
+02:04:34.251 --> 02:04:43.101
+Sunny Savita: Let's say this is the e-money, embedding of money. What is the dimension of it? Can you even tell me? In the original research paper, what was the dimension of it?
+
+
+1058
+02:04:46.271 --> 02:04:48.591
+Sunny Savita: How was the dimension? 512.
+
+
+1059
+02:04:49.531 --> 02:04:57.950
+Sunny Savita: Now, what I'm doing, guys, this particular dimension, this 512, okay, how I can write the dimension of that? Tell me. Can I write like this? 1 cross?
+
+
+1060
+02:04:58.741 --> 02:04:59.771
+Sunny Savita: 512.
+
+
+1061
+02:05:01.281 --> 02:05:05.541
+Sunny Savita: Is it fine to all of you? Tell me yes or no? Tell me yes or no?
+
+
+1062
+02:05:05.701 --> 02:05:06.581
+Sunny Savita: Tell me.
+
+
+1063
+02:05:06.801 --> 02:05:12.451
+Sunny Savita: So, I have to convert it into the… I have convert into the… I have convert this into the…
+
+
+1064
+02:05:12.761 --> 02:05:14.771
+Sunny Savita: query of e-money.
+
+
+1065
+02:05:16.101 --> 02:05:21.050
+Sunny Savita: K of E money, and value of e-money.
+
+
+1066
+02:05:21.901 --> 02:05:24.271
+Sunny Savita: And inside the original research paper.
+
+
+1067
+02:05:24.741 --> 02:05:26.831
+Sunny Savita: What's the dimension of this vector?
+
+
+1068
+02:05:28.321 --> 02:05:31.771
+Sunny Savita: What's the dimension of this vector inside the original research paper?
+
+
+1069
+02:05:32.591 --> 02:05:36.611
+Sunny Savita: Tell me, guys, just now I told you, no? What's the dimension of this vector?
+
+
+1070
+02:05:39.781 --> 02:05:43.321
+Sunny Savita: 64th, 64th the dimension, huh?
+
+
+1071
+02:05:43.491 --> 02:05:45.791
+Sunny Savita: 64, the dimension of this vector.
+
+
+1072
+02:05:48.191 --> 02:05:58.331
+Sunny Savita: Ucha. Now tell me, guys. With which vector… with which… with which… okay. With which metrics we can multiply this vector so that we can get this dimension?
+
+
+1073
+02:05:58.601 --> 02:06:04.321
+Sunny Savita: Kia hoga vector. Kia hoga weight us ka, ka hoga size ush metrics ka, tell me.
+
+
+1074
+02:06:04.941 --> 02:06:10.601
+Sunny Savita: So let's say this is what, this is my… WQ.
+
+
+1075
+02:06:11.771 --> 02:06:12.951
+Sunny Savita: This is Maya.
+
+
+1076
+02:06:13.881 --> 02:06:15.091
+Sunny Savita: WK.
+
+
+1077
+02:06:16.221 --> 02:06:18.360
+Sunny Savita: And this is what? This is my WV.
+
+
+1078
+02:06:19.311 --> 02:06:21.901
+Sunny Savita: What would be the size? Tell me, tell me, tell me.
+
+
+1079
+02:06:22.361 --> 02:06:23.670
+Sunny Savita: Tell me, guys, fast.
+
+
+1080
+02:06:23.861 --> 02:06:31.841
+Sunny Savita: So the size could be… the size would be… 51264. 51264.
+
+
+1081
+02:06:31.971 --> 02:06:34.071
+Sunny Savita: 51264.
+
+
+1082
+02:06:34.221 --> 02:06:38.060
+Sunny Savita: So this is the dimension of the W.
+
+
+1083
+02:06:38.521 --> 02:06:39.351
+Sunny Savita: Q.
+
+
+1084
+02:06:39.721 --> 02:06:47.661
+Sunny Savita: WK, and WV. If you have learned a little bit mathematics now, you know about this mathematical operation.
+
+
+1085
+02:06:47.831 --> 02:06:56.891
+Sunny Savita: So this… this is what? This is row column is going to be multiplied. Now, what is the size of this particular… what is the size of this particular vector? Tell me, guys.
+
+
+1086
+02:06:59.911 --> 02:07:04.280
+Sunny Savita: As simple as that, right? Very basic metrics operation.
+
+
+1087
+02:07:04.571 --> 02:07:07.271
+Sunny Savita: Very basic, basic metrics propagation.
+
+
+1088
+02:07:07.441 --> 02:07:11.591
+Sunny Savita: Right? Very basic, basic metrics operations over here.
+
+
+1089
+02:07:12.471 --> 02:07:13.541
+Sunny Savita: Basic.
+
+
+1090
+02:07:13.811 --> 02:07:15.031
+Sunny Savita: metrics.
+
+
+1091
+02:07:16.131 --> 02:07:17.301
+Sunny Savita: operation.
+
+
+1092
+02:07:21.791 --> 02:07:25.360
+Sunny Savita: Tell me, is it clear to all of you, yes or no?
+
+
+1093
+02:07:25.591 --> 02:07:28.210
+Sunny Savita: Is it getting clear to all of you? Yes?
+
+
+1094
+02:07:28.861 --> 02:07:31.221
+Sunny Savita: Now, we are getting the 64.
+
+
+1095
+02:07:32.691 --> 02:07:34.921
+Sunny Savita: Okay, 64 of this queue.
+
+
+1096
+02:07:35.041 --> 02:07:36.341
+Sunny Savita: E-Money.
+
+
+1097
+02:07:38.021 --> 02:07:40.111
+Sunny Savita: K. E. Money.
+
+
+1098
+02:07:41.251 --> 02:07:45.660
+Sunny Savita: If I will perform the dot product, I'll be getting some value of it. Tell me yes or no.
+
+
+1099
+02:07:45.981 --> 02:07:50.850
+Sunny Savita: So is this a nor… is this a normalized value? Is this a normalized value? No.
+
+
+1100
+02:07:51.401 --> 02:07:55.400
+Sunny Savita: How we will be getting a normalized value? So, value…
+
+
+1101
+02:07:55.631 --> 02:08:01.001
+Sunny Savita: divided by dimension. Dimension of K, right? Anything you can write.
+
+
+1102
+02:08:01.101 --> 02:08:08.730
+Sunny Savita: So, I will be getting a sum value, right? Some normalized value. Now, this particular value, again, whatever value I will be getting.
+
+
+1103
+02:08:08.881 --> 02:08:15.560
+Sunny Savita: value dash dash, right? So this particular value, I'm passing it from the softmax function.
+
+
+1104
+02:08:16.261 --> 02:08:19.250
+Sunny Savita: And then, finally, I will be getting what?
+
+
+1105
+02:08:19.351 --> 02:08:22.241
+Sunny Savita: Finally, I'll be getting a normalized value.
+
+
+1106
+02:08:23.141 --> 02:08:26.661
+Sunny Savita: self-attention.
+
+
+1107
+02:08:27.871 --> 02:08:28.790
+Sunny Savita: Tell me.
+
+
+1108
+02:08:30.471 --> 02:08:32.671
+Sunny Savita: Now it is clear, now how it is working.
+
+
+1109
+02:08:33.071 --> 02:08:34.380
+Sunny Savita: Tell me yes or no.
+
+
+1110
+02:08:36.411 --> 02:08:37.251
+Sunny Savita: Yes?
+
+
+1111
+02:08:37.521 --> 02:08:39.781
+Sunny Savita: How many people are able to understand now?
+
+
+1112
+02:08:40.891 --> 02:08:43.161
+Sunny Savita: Is the explanation clear to all of you?
+
+
+1113
+02:08:46.021 --> 02:08:52.070
+Sunny Savita: Okay? Now guys, tomorrow, we are going to be complete, this, chapter.
+
+
+1114
+02:08:52.191 --> 02:09:06.871
+Sunny Savita: So, usually, I take 5 sessions for the transformer, and every batch, actually. So, tomorrow, we are going to be complete. So, tomorrow I will explain the multi-attention, cross and the mass self-attention, and the barking of the decoder.
+
+
+1115
+02:09:07.461 --> 02:09:08.371
+Sunny Savita: Okay.
+
+
+1116
+02:09:08.480 --> 02:09:12.910
+Sunny Savita: DK is not a hyperparameter, no, it's a dimension. Dimension, actually.
+
+
+1117
+02:09:15.400 --> 02:09:17.951
+Sunny Savita: It is a dimension of the vector.
+
+
+1118
+02:09:18.141 --> 02:09:21.951
+Sunny Savita: dimension of either of the K, Q or V.
+
+
+1119
+02:09:22.691 --> 02:09:32.941
+Sunny Savita: Okay, the dimension would be same of every vector, right? So the D of K is going to be what? How much? 64. 64 kanda root kithna oga, 8.
+
+
+1120
+02:09:33.391 --> 02:09:35.781
+Sunny Savita: And because of that only, this head over here.
+
+
+1121
+02:09:36.381 --> 02:09:37.851
+Sunny Savita: It's going to be 8.
+
+
+1122
+02:09:38.181 --> 02:09:41.711
+Sunny Savita: This one. You can follow this particular blog, it's a very good blog.
+
+
+1123
+02:09:41.851 --> 02:09:43.251
+Sunny Savita: or the transformer.
+
+
+1124
+02:09:48.331 --> 02:10:02.560
+Sunny Savita: Okay? Yes, this, this diagram also, you can just look into it for the better understanding, right? Whatever I have explained now, you will get it over here. You will get everything over here as well, right? Inside this,
+
+
+1125
+02:10:02.961 --> 02:10:12.200
+Sunny Savita: two blocks, and the two… and the… sorry, inside there's two blocks, right? First is… first is this one, and the second, basically, which I shared just now, along with a diagram.
+
+
+1126
+02:10:12.331 --> 02:10:13.201
+Sunny Savita: Got it.
+
+
+1127
+02:10:13.871 --> 02:10:24.420
+Sunny Savita: Sir, how we are going to know the dimension value, it is fixed for the model? Yes, no, in the research paper, whatever dimension they have suggested, they have mentioned. I'm just taking example of that, sir.
+
+
+1128
+02:10:25.111 --> 02:10:27.491
+Sunny Savita: See, if I'm searching 512 now.
+
+
+1129
+02:10:27.961 --> 02:10:29.791
+Sunny Savita: What is the dimension? Tell me.
+
+
+1130
+02:10:30.891 --> 02:10:36.220
+Sunny Savita: Tell me, tell me, tell me, guys. 512 dimension, if I'm going to be searched, let's say 64.
+
+
+1131
+02:10:37.001 --> 02:10:38.861
+Sunny Savita: C. What's the dimension?
+
+
+1132
+02:10:39.721 --> 02:10:47.331
+Sunny Savita: After this, after the matrix multiplication, it is 64. Now, let's see if I'm going to be search 8 over here.
+
+
+1133
+02:10:47.881 --> 02:10:49.480
+Sunny Savita: Okay, so, C.
+
+
+1134
+02:10:49.881 --> 02:10:53.751
+Sunny Savita: You will get 8 also at some places, just check.
+
+
+1135
+02:10:54.391 --> 02:10:56.261
+Sunny Savita: So many answers there, no?
+
+
+1136
+02:10:56.441 --> 02:10:59.720
+Sunny Savita: Insert the skill.product, you will get that, okay?
+
+
+1137
+02:11:04.581 --> 02:11:11.080
+Sunny Savita: Just check out the skill.product part, you will get the 8 over there. It is a value of the under root 64.
+
+
+1138
+02:11:12.320 --> 02:11:18.740
+Sunny Savita: Okay, so likewise, guys, you can navigate to this entire research paper, and you can understand it. See, over here they have explained you.
+
+
+1139
+02:11:20.560 --> 02:11:24.980
+Sunny Savita: everything. So, 6 encoder was there, 512 was a dimension.
+
+
+1140
+02:11:25.240 --> 02:11:34.131
+Sunny Savita: Okay, then H8 stack is there. DK, the dimension is this 64 over here. DV dimension, again, 64. Okay.
+
+
+1141
+02:11:34.351 --> 02:11:43.471
+Sunny Savita: Everything is going to be multiplied after that they are getting. So, every sort of a value they have mentioned inside this research paper, you can just go through. I have explained you in a simplest way.
+
+
+1142
+02:11:43.961 --> 02:12:01.610
+Sunny Savita: So today, guys, we understood the self-attention. Now, tell me how many people are able to understand the self-attention. Now, we have, two to three more small, small concepts of the self-attention. One, basically, the basic understanding of the multi-attention.
+
+
+1143
+02:12:02.240 --> 02:12:09.031
+Sunny Savita: What is this? A very basic concept. This is a very simple and the smallest concept. Then the cross-attention and the…
+
+
+1144
+02:12:09.361 --> 02:12:22.330
+Sunny Savita: Basically, this one. Mask self-attention, okay? Again, this is a complementary thing. Then, one very basic topic, nail normalization. Again, it will take 15 minutes only.
+
+
+1145
+02:12:22.881 --> 02:12:33.741
+Sunny Savita: And after that, guys, the end-to-end working of the encoder-decoder. So I think in tomorrow's session, we are going to be complete this transformer chapter, guys. Okay?
+
+
+1146
+02:12:34.021 --> 02:12:38.871
+Sunny Savita: In tomorrow's session, guys, we are going to be complete this transformer chapter.
+
+
+1147
+02:12:39.241 --> 02:12:42.130
+Sunny Savita: So, how the D model dimension is determined?
+
+
+1148
+02:12:42.411 --> 02:12:50.250
+Sunny Savita: See, we don't determine that, right? See, it is coming with some calculation. Let's say my initial dimension was 512.
+
+
+1149
+02:12:50.521 --> 02:12:57.561
+Sunny Savita: So, I will multiply with some weight matrices. Now, this random weight metric size, actually, it's going to be decide the…
+
+
+1150
+02:12:57.661 --> 02:13:00.481
+Sunny Savita: Dimension of this particular vector.
+
+
+1151
+02:13:00.751 --> 02:13:06.011
+Sunny Savita: So, let's say, in your case, you've taken 512 into 100.
+
+
+1152
+02:13:06.391 --> 02:13:09.150
+Sunny Savita: So this vector's dimension would be the 100.
+
+
+1153
+02:13:09.521 --> 02:13:17.200
+Sunny Savita: 1 cross 100, getting my point. So inside the original research paper, they took 512, multiply 64.
+
+
+1154
+02:13:17.421 --> 02:13:25.700
+Sunny Savita: And because of that only, this dimension was what? This dimension was a 64. This is a random weight matrix. You can take anything.
+
+
+1155
+02:13:28.181 --> 02:13:29.171
+Sunny Savita: Anything.
+
+
+1156
+02:13:31.551 --> 02:13:38.101
+Sunny Savita: Okay? It's a hyperparameter. This weight matrix is actually… it's a hyperparameter, right?
+
+
+1157
+02:13:38.281 --> 02:13:45.591
+Sunny Savita: Sorry, the size of the weight matrix is actually… it's a hyperparameter, and this weight matrix itself is called the learnable parameter.
+
+
+1158
+02:13:45.731 --> 02:13:46.391
+Sunny Savita: Bye.
+
+
+1159
+02:13:48.181 --> 02:13:55.941
+Sunny Savita: Okay, so how's the explanation, guys? If you would, like to rate out of 10, then how much you would, like,
+
+
+1160
+02:13:56.101 --> 02:13:57.931
+Sunny Savita: How much you would rate?
+
+
+1161
+02:13:58.281 --> 02:14:00.041
+Sunny Savita: Just give the honest number.
+
+
+1162
+02:14:00.191 --> 02:14:02.711
+Sunny Savita: Okay, I just want the honest number.
+
+
+1163
+02:14:03.251 --> 02:14:12.201
+Sunny Savita: Badiatha, it was okay. If someone, like, found that, okay, it is a typical, again, like, I need to go through with it, then go through with it.
+
+
+1164
+02:14:12.721 --> 02:14:31.280
+Sunny Savita: Understand again. Understand again with my session only, go through with this entire notes and all. And tomorrow, guys, I'll be sharing the final detail, final summary of this transformer. We are going to be wrap up this chapter, okay? So, in general, in my batches, in my classes, I take 5 to 6 sessions for the transformer alone.
+
+
+1165
+02:14:31.331 --> 02:14:46.700
+Sunny Savita: And, yeah, I think, within, like, within a class itself, we can cover the remaining concept, because I think now the core and all everything is clear. So, will you be, will you be able to explain this concept to everyone now, if anyone is going to be asked you in an interview?
+
+
+1166
+02:14:51.861 --> 02:14:57.690
+Sunny Savita: Okay, tell me, what is a query key and value? I'm just asking to everyone. Tell me.
+
+
+1167
+02:14:57.811 --> 02:15:04.270
+Sunny Savita: If you… if someone is going to be asked you the definition of the query vector.
+
+
+1168
+02:15:05.041 --> 02:15:08.770
+Sunny Savita: K vector and the value vector, what it is, tell me.
+
+
+1169
+02:15:12.911 --> 02:15:20.971
+Sunny Savita: Correct. It is a transform vector of the embedding, which we are getting after the multiplication of the wage.
+
+
+1170
+02:15:26.251 --> 02:15:27.091
+Sunny Savita: Okay.
+
+
+1171
+02:15:27.471 --> 02:15:34.681
+Sunny Savita: Now, why we are doing it, how we are doing it, so everything I explained to you, you can, again, go through with this entire session, you can understand.
+
+
+1172
+02:15:35.991 --> 02:15:38.580
+Sunny Savita: And tomorrow, I will give you the final summary.
+
+
+1173
+02:15:44.041 --> 02:15:45.321
+Sunny Savita: final dock.
+
+
+1174
+02:15:46.621 --> 02:15:48.761
+Sunny Savita: everything I'll mention over there, okay?
+
+
+1175
+02:15:52.071 --> 02:15:52.901
+Sunny Savita: Fight.
+
+
+1176
+02:15:55.411 --> 02:16:00.651
+Sunny Savita: Okay, so I'm providing you these particular notes, guys. You can, revise the concept from here itself.
+
+
+1177
+02:16:28.741 --> 02:16:34.771
+Sunny Savita: Okay, now guys, I will push this entire notes over the…
+
+
+1178
+02:16:37.091 --> 02:16:41.591
+Sunny Savita: over the GitHub, you can directly take it from there itself, okay? Wait.
+
+
+1179
+02:18:00.151 --> 02:18:04.941
+Sunny Savita: Okay, guys, so I pushed this entire notes over the GitHub, you can take it from there itself.
+
+
+1180
+02:18:06.301 --> 02:18:10.940
+Sunny Savita: So just open my GitHub, and check with this particular.
+
+
+1181
+02:18:11.181 --> 02:18:11.991
+Sunny Savita: folder.
+
+
+1182
+02:18:12.251 --> 02:18:14.420
+Sunny Savita: And see, this is the entire nodes.
+
+
+1183
+02:18:14.611 --> 02:18:17.511
+Sunny Savita: Notes is here, okay?
+
+
+1184
+02:18:17.981 --> 02:18:20.070
+Sunny Savita: So I'm sharing a link of this GitHub.
+
+
+1185
+02:18:20.651 --> 02:18:22.060
+Sunny Savita: Please keep it with you.
+
+
+1186
+02:18:26.801 --> 02:18:31.180
+Sunny Savita: Otherwise, if you have any sort of a doubt at all, just keep it with you. Tomorrow, I will.
+
+
+1187
+02:18:31.461 --> 02:18:33.241
+Sunny Savita: Take the doubts, okay?
+
+
+1188
+02:18:34.161 --> 02:18:39.911
+Sunny Savita: So today, I'm not, going to be, continuing the doubt session. I'm taking a rest for one day.
+
+
+1189
+02:18:40.131 --> 02:18:45.461
+Sunny Savita: And then, tomorrow, guys, I'll be continuing that. Is it fine to all of you? Yes or no?
+
+
+1190
+02:18:46.431 --> 02:18:52.010
+Sunny Savita: So, just keep it with you, tomorrow you can ask. So, the today's task is basically…
+
+
+1191
+02:18:52.111 --> 02:19:06.460
+Sunny Savita: Just to revise the session. Just to revise this session. And guys, tomorrow, we are going to be… wrap up this chapter, and then, from the next week onwards, we are going to be start with the API fine-tuning and all, okay?
+
+
+1192
+02:19:07.521 --> 02:19:16.910
+Sunny Savita: Fine, guys, so thank you, thank you very much. I'll see you in the next class. If you have any doubt, write in the community chat, or you can ask me in the next class. Thank you, bye-bye.
+
+
+1193
+02:19:17.171 --> 02:19:18.340
+Sunny Savita: Take care, guys.
+
+
+

@@ -1,0 +1,5 @@
+Break : 01:24:30 - 01:47:30
+Class end : 02:52:00
+Doubts : 02:56:00
+
+Sarvam AI pre-trained its flagship models (such as Sarvam 30B and 105B) from scratch rather than just fine-tuning existing systems

@@ -1,0 +1,3276 @@
+[Sunny] 20:08:41
+Hey, hello everyone, I'm Audible. Can you please confirm in the chat?
+
+[Sunny] 20:08:53
+Okay, so let's start with the session. Let's start with the class.
+
+[Sunny] 20:08:57
+Give me a moment, guys.
+
+[Sunny] 20:09:02
+Just allow me a minute, okay?
+
+[Sunny] 20:09:19
+Okay, guys, can you see my Zoom screen? Is it visible to all of you? Can you please confirm in the chat?
+
+[Sunny] 20:09:28
+And I think I am also visible, correct?
+
+[Sunny] 20:09:35
+Just give me a quick thumbs up so that I can start with the session.
+
+[Sunny] 20:09:39
+Yeah, good evening, good evening to all of you. Let's, begin, let's start with the class.
+
+[Sunny] 20:09:45
+Mmm… great.
+
+[Sunny] 20:10:01
+Because I think all the resources and all, everything is updated. Can you please confirm in the chat?
+
+[Sunny] 20:10:09
+And even I share the solution of the assignment. Have you checked with the solution of the assignment?
+
+[Sunny] 20:10:19
+So, this is all the recording, you can check out all the recordings over here, and I think all the recording and the resources, everything is up to date over here.
+
+[Sunny] 20:10:27
+So, if you will go and check out the last class, so inside the last class resource section, you will find out all the resources of the previous class.
+
+[Sunny] 20:10:38
+Got it.
+
+[Sunny] 20:10:40
+Sonya is asking where the solution is shared. I already shared over the GitHub. If you're not checking with my GitHub, I think you are missing then
+
+[Sunny] 20:10:50
+Please check out with the, with this repository. Full stack generative AI Bootcamp 1.
+
+[Sunny] 20:10:58
+This repository is completely dedicated to all the resources, okay?
+
+[Sunny] 20:11:03
+all the class-related resources
+
+[Sunny] 20:11:08
+Here is a solution
+
+[Sunny] 20:11:10
+Sonya? See?
+
+[Sunny] 20:11:13
+Someone is saying, I'm not audible. Guys, can you please confirm if I'm audible or not?
+
+[Sunny] 20:11:19
+I think I am audible, correct?
+
+[Sunny] 20:11:21
+Okay.
+
+[Sunny] 20:11:22
+So, guys, here Rahul is with me. Rahul, you are there
+
+[Sunny] 20:11:29
+If you can hear me, then
+
+[Rahul ops] 20:11:30
+Yes, yes, I'm
+
+[Sunny] 20:11:33
+Your voice is, like, bit low,
+
+[Rahul ops] 20:11:35
+Hello, hello
+
+[Sunny] 20:11:37
+Can you speak loudly, Rahul? Hello? I'm audible.
+
+[Rahul ops] 20:11:39
+Yeah, sure, sure, just wait
+
+[Sunny] 20:11:41
+Yeah
+
+[Sunny] 20:11:46
+Okay, guys, so we have something for all of you. So, Rahul will announce something
+
+[Sunny] 20:11:52
+So, he's here for providing you some information. So yeah, Rahul, if your mics is… mic is fixed, then you can go ahead now.
+
+[Rahul ops] 20:11:57
+Yeah.
+
+[Rahul ops] 20:11:58
+Yes.
+
+[Rahul ops] 20:12:01
+Yes, I am audible
+
+[Sunny] 20:12:03
+Yeah, you are audible, but I think it's still a bit low. Guys, everyone able to hear Rahul?
+
+[Sunny] 20:12:10
+Can you please confirm in the chat if you can hear Rahul?
+
+[Rahul ops] 20:12:15
+Yes
+
+[Sunny] 20:12:16
+Yeah, now it is perfect, yeah, Rav, you can go ahead.
+
+[Rahul ops] 20:12:17
+Hi, everyone.
+
+[Rahul ops] 20:12:19
+Hi, everyone. So myself, Rahul, actually, I'm looking ops at Krishnake Academy. So I am here to give you something like excitement news like we have received some
+
+[Rahul ops] 20:12:32
+like, job requirement from Walmart, and I guess I would receive an, like, job description and all detail over mail also.
+
+[Rahul ops] 20:12:44
+And I am also sharing, wait, hold on
+
+[Rahul ops] 20:12:47
+Like, I'm also sharing a Google Form link over the chat, so please go through all the details and make sure to fill out all the field as it is mandatory. Okay, so make sure to fill out all the field
+
+[Rahul ops] 20:13:02
+Okay? It's basically based on Bangalore, India, okay?
+
+[Rahul ops] 20:13:08
+You can fill out the form, all the description has been mentioned over the
+
+[Rahul ops] 20:13:14
+like, from Google form itself, okay? So please
+
+[Sunny] 20:13:17
+So, guys, you are able to see the Google form, correct?
+
+[Rahul ops] 20:13:23
+No, it's basically remote job, okay? So, first of all, you should go and fill all the details. After that, you will receive a callback, okay? According to your sort listed profile, okay? So you will receive a callback
+
+[Rahul ops] 20:13:40
+from Walmart, and then your interview process will start.
+
+[Rahul ops] 20:13:45
+Like, prayer, no experience, I'd be happy, just they have, like, they have, demanded, like, some skill set that is already mentioned over in the form
+
+[Rahul ops] 20:13:55
+Okay, so you can go through all the, like, skill set that they want, and if you fulfill all the requirements or all the skill set that it mentioned over the Google Sheet, Google form, then you can apply
+
+[Rahul ops] 20:14:15
+Yes, yes, it's all tech. Okay, guys, so… and please make sure to fill out as soon as possible. The link is also available on your mail
+
+[Rahul ops] 20:14:24
+And as well as on community. So, make sure to fill out as soon as possible. It might be an hour or in like an hour, it might get logged, okay? So please
+
+[Rahul ops] 20:14:42
+fill out as soon as possible
+
+[Rahul ops] 20:14:43
+Okay? Okay, guys, thank you. Over to you.
+
+[Sunny] 20:14:48
+Yeah, thank you, Rahul. So guys, you got it, correct? You can fill out this form. Actually, we have a requirement from the Walmart.
+
+[Sunny] 20:14:57
+And related to that, only Rahul has shared this form. So you can fill out this form, and here is a complete JD. So in JD, I think there is not a much thing, right? So they are looking for the good coding skill, SQL, Python, leveraging AI exposure to AI
+
+[Sunny] 20:15:12
+And good analytical skill, okay? Analytical skill means what? So you can evaluate the problem statement, you can understand the business requirement, you can interpret that, okay? You have a good exposure of the analytical tool, analytical tool over the different different clouds and all. Okay, so that is, if you know all those things, then definitely you can
+
+[Sunny] 20:15:34
+apply, okay? So, you just need to fill your form, email address, phone number, and for which role you are applying, right? So, you need to mention that also. Now, data science manager, so this person, basically, see, if you are applying for this particular person, for this particular job role.
+
+[Sunny] 20:15:49
+Means they are expecting more AI over here, right? Manager analytics, basically. So here they are asking for the techno functional kind of role. Okay, so you should be good with your
+
+[Sunny] 20:16:03
+with your representation skill, analytical tool, right? You should be able to interpret the business use case and all, and you would be the… you will be the bridge, basically, between the main development team and the business, okay? And advanced analytics, again, it is, like, the extended role of this manager analytics only
+
+[Sunny] 20:16:23
+Getting my point, guys? So, you just need to be, like, focused on this skill set. If you are good to go with all this skill set, then you can apply via this form. Got it, guys? Even I shared this form inside the, inside your committee chat also, you can check it over there
+
+[Sunny] 20:16:38
+Got it?
+
+[Sunny] 20:16:46
+Can you start the class, all this detail people will go through?
+
+[Sunny] 20:16:49
+Okay.
+
+[Sunny] 20:16:52
+I think you are in, like, very hurry, correct? Bhaskar?
+
+[Sunny] 20:16:58
+See, people will have a doubt, right? So, people are asking in the chat. That's why I'm explaining, right?
+
+[Sunny] 20:17:05
+Great, guys. So, let's begin, let's start, and, how many of you joined my previous session, guys?
+
+[Sunny] 20:17:15
+And yeah, so you will get, basically this kind of drive and all, everything from our end on a regular basis, from the different, different companies, guys, okay? So, not only this one, by end of this course, basically, from so many different, different companies, so be ready, okay, be ready with your skill set and all everything
+
+[Sunny] 20:17:34
+And if you have experienced, your prior experience, right, you have to mention that also inside your resume. Along with that, on top of it, you have to be mentioned this AI-related skills. Getting my point, guys? So both
+
+[Sunny] 20:17:49
+like, both thing is important. If you have any prior experience, you can mention that also.
+
+[Sunny] 20:17:55
+Good?
+
+[Sunny] 20:17:57
+Just fill out the form, you will get all the information, how many interview rounds would be there, and what they are going to be asked, and all, everything, basically. Okay?
+
+[Sunny] 20:18:07
+So, guys, in the previous class, we were talking about the transformer. I think I started with the transformer, so how many of you joined the previous session? I think already see one session is already there with respect to the transformer. You can check out over there.
+
+[Sunny] 20:18:22
+If you are new joining, then first check out the previous session, previous classes, and then guys you can join this current live session also. So, so far I took around 10 session, okay, 9 to 10 session
+
+[Sunny] 20:18:38
+So, there, basically we discuss about the encoding, embedding, and the transformer. Okay, embedding, encoding, I taught you in very depth so that we can understand so that basically we can utilize this embedding and encoding role in our rack chapter also
+
+[Sunny] 20:18:53
+Because there, it is going to be… play a very crucial role, right? Now, we are into the transformer, and yes, this is going to be a second session of the transformer, right? So let's begin, let's start, and let me give you the quick recap
+
+[Sunny] 20:19:09
+So, all the notes and all everything is there over the dashboard itself, if… sorry, over the dashboard and inside the GitHub repository also. So let me show you the previous class handwritten notes. So here is the handwritten note, guys.
+
+[Sunny] 20:19:22
+You will get, like, the complete detail, whatever I taught in the session, inside this notes itself, okay?
+
+[Sunny] 20:19:29
+So see, this is the complete nodes. So, if you wanted to start with the transformer, you can go ahead with these particular nodes. Now we'll deep dive into the architecture. First, we'll try to understand the encoder part of that.
+
+[Sunny] 20:19:44
+And then we'll discuss about the different other concept of the transformer. And even I will show you in terms of coding also, right? And right after this chapter, guys, I will move to the fine-tuning part. Now, guys, here, basically you will get all the handwritten notes. Now, each and every link basically I mentioned inside the notion
+
+[Sunny] 20:20:05
+So, I given you over here, right? So this is the entire link, all the link, basically, which I shared throughout my session.
+
+[Sunny] 20:20:14
+Now guys, one more thing. So, in the previous section, I discussed about the Mesh API. Yes or no? So, have you gone through with this Mesh API?
+
+[Sunny] 20:20:24
+Have you used any LLM through this mesh API?
+
+[Sunny] 20:20:29
+If you haven't used, guys, please check out this Mesh API. Even we can use it in our solution. So going forward, we are going to be build an application using the RAC concept, using the agent concept. So there basically we can read the model using this mesh API. Okay
+
+[Sunny] 20:20:44
+And, I will share one code also, so that you will get some discount as well, if you are purchasing any model, anything from here, from the Mesh API. So after the break, guys, I will share all those details, right? But guys, if you haven't used, please check out the Smash API
+
+[Sunny] 20:21:01
+And, even I shared one Google form with all of you, so please write your feedback inside the Google form, so that we can share with their respective team, okay? So, we got one collaboration, actually. So they have asked some feedback
+
+[Sunny] 20:21:17
+Right? So they told us, like, how the student is feeling, like, either this is good or not, or what is the speed of the execution. Okay, if you are using this mesh API, then, definitely you can write those feedback inside the Google form
+
+[Sunny] 20:21:34
+I shared that Google Form inside the community chat you can check out over there. Got it, guys? So all this detail, everything is there inside the GitHub only. Now, let's start with the transformer
+
+[Sunny] 20:21:45
+So this is going to be a second class of the transformer, and now
+
+[Sunny] 20:21:50
+We'll deep dive into that. So, I hope, guys, my screen is visible to all of you. Can you please confirm in the chat, if you can see my blackboard?
+
+[Sunny] 20:22:02
+Yes, Satis, don't worry, I'll come to that, okay? Please.
+
+[Sunny] 20:22:06
+So, over here, guys? You can see, so, we are going to be discuss, what we are going to be discussing the encoder side of the transformer, okay? So let's discuss one by one each and every component of this transformer
+
+[Sunny] 20:22:22
+So we are learning this transformer for the interview perspective, so I'll tell you whatever thing they might ask you from the transformer. And along with that, guys, we can understand the fundamental of the large language model, because this transformer, actually, it is a base, it is a fundamental architecture of all the large language model. Got it
+
+[Sunny] 20:22:43
+Great, guys. So, if we are talking about a transformer, right, so this is the original architecture of the transformer, and if I can show you the research paper of that, so just a second, I can show you that
+
+[Sunny] 20:22:54
+And I hope, guys, you have gone through, you have gone through with the JLMR blog. I shared in the previous class how many of you you have seen that blog
+
+[Sunny] 20:23:06
+Have you gone through with the research paper, and even I have shown you how to interpret this research paper. Just simply provide this research paper to the cloud or to the ChatGPT. It will summarize for all of you.
+
+[Sunny] 20:23:17
+Yes
+
+[Sunny] 20:23:18
+Okay. So, if you haven't gone through, guys, you can go through with those, blog and research paper, just for the additional information. But don't worry, guys, I'll discuss each and everything over here itself, okay?
+
+[Sunny] 20:23:32
+So this is the original research paper of the transformer, and here guys you can see, so this is the architecture which they introduced. So inside this architecture, we have some important concept to understand which people might ask you in an interview, right?
+
+[Sunny] 20:23:47
+So we are going to be decode all those concept over here inside this particular class. So first I'll start from the first guys I will start from the encoder only.
+
+[Sunny] 20:23:59
+So, here is the architecture. So, inside this particular architecture, on the one side, on one side, we have an encoder, and on the other side, we have a decoder. So can anyone tell me what is an encoder side and what is a decoder side?
+
+[Sunny] 20:24:12
+You can mention inside the chat. So this is the word, this is the encoder side, guys.
+
+[Sunny] 20:24:18
+Okay, this one. And this is going to be what? This is going to be a decoder side, right-hand side
+
+[Sunny] 20:24:24
+This is going to be a decoder side. Now, what is interview question they might ask you. They might ask you. So I'll discuss those as well. Okay. And
+
+[Sunny] 20:24:36
+Now, first, we'll go through with the encoder side.
+
+[Sunny] 20:24:40
+So, first guys, what I'll do, I'll explain you over here. I'll write over here, I'll draw over here. So we're talking about the transformer. So just guys see, I'm drawing over here, okay? So we're talking about, we're talking about what transformers. So we have
+
+[Sunny] 20:24:56
+two side of that
+
+[Sunny] 20:24:58
+Right? The first side of the transformer is called the encoder
+
+[Sunny] 20:25:02
+And the second side of the transformer, which is called
+
+[Sunny] 20:25:07
+Decoder guys, okay
+
+[Sunny] 20:25:09
+So, what I have over here, we have an encoder, and we have a decoder. So first we'll start from the encoder itself. Okay, first I'll explain to you the encoder part only. So let me write over here. So this is going to be what, guys.
+
+[Sunny] 20:25:22
+This is going to be encoder, okay? You can revise this concept from this particular notes only later on.
+
+[Sunny] 20:25:31
+And
+
+[Sunny] 20:25:33
+quarter
+
+[Sunny] 20:25:36
+Now, we're talking about the other side, so this is called the
+
+[Sunny] 20:25:42
+Decoder, okay? Now, one question to all of you guys, so, if we're talking about the original architecture of the transformer, so for which problem statement this transformer architecture was trained
+
+[Sunny] 20:25:55
+May I know in the chat for which problem statement they have trained this, transformer architecture? If we're talking about the original research paper. So they have trained this particular architecture for the machine translation in the previous class only I discussed that right now guys.
+
+[Sunny] 20:26:10
+May I know, so I think in the previous class also, I discussed one thing. If we're talking about the encoder, so we can have multiple encoder and decoder, correct?
+
+[Sunny] 20:26:20
+So over here, what I can do, I can draw the extended version of it. So let me draw the extended version of this particular architecture. So we're talking about the transformer, right? So here is a
+
+[Sunny] 20:26:36
+Extended version of it. So, there could be multiple encoder and decoder. Now, guys, may I know how many encoders they have used inside the original research paper?
+
+[Sunny] 20:26:45
+How many encoder and decoder they have used inside the original research paper. So they have used six encoders. So let me write over here. So they have used the six encoder. So one
+
+[Sunny] 20:26:59
+3
+
+[Sunny] 20:27:01
+1, 2, 3…
+
+[Sunny] 20:27:03
+4
+
+[Sunny] 20:27:04
+5
+
+[Sunny] 20:27:05
+And 6, okay
+
+[Sunny] 20:27:07
+So we were having six encoder inside the transformer. And we're talking about the decoder side. So they have used 6 decoder right 6 decoder. Now, guys, how many encoder and decoder we can take? How many encoder and decoder we can consider
+
+[Sunny] 20:27:23
+We can consider as many as encoder and recorder
+
+[Sunny] 20:27:27
+We can consider as many as encoder and decoder, right? So this is what the white one basically is going to be an encoder. Let me highlight over here
+
+[Sunny] 20:27:38
+The white one, basically, it's going to be what? It's going to be an encoder, and the yellow one, basically, it's going to be what? It's going to be a decoder. So I can again highlight over here
+
+[Sunny] 20:27:49
+So, you can utilize these notes again, just to revise the concept, okay? It will help you whenever you are appearing in an interview. You can revise this concept
+
+[Sunny] 20:27:59
+You can revise this concept, using this particular nodes. So, this is going to be what guys this is going to be an encoder. Let me write over here
+
+[Sunny] 20:28:10
+encoder
+
+[Sunny] 20:28:11
+And this is going to be what? This is going to be a decoder
+
+[Sunny] 20:28:15
+Now, we're talking about stack of encoder or stack of the decoder. Let me write over here
+
+[Sunny] 20:28:22
+If we're talking about
+
+[Sunny] 20:28:24
+stack
+
+[Sunny] 20:28:26
+of encoder
+
+[Sunny] 20:28:28
+Or, stack of decoder
+
+[Sunny] 20:28:32
+or stack of decoder
+
+[Sunny] 20:28:36
+Correct, guys?
+
+[Sunny] 20:28:37
+So, this is what… this is the hyperparameter.
+
+[Sunny] 20:28:41
+So this is what guys tell me, this is the
+
+[Sunny] 20:28:44
+Hyperparameter
+
+[Sunny] 20:28:45
+Now, hyperparameter means what? Hyperparameter means
+
+[Sunny] 20:28:51
+Hyperparameter means what, guys? Hyperparameter means we can choose as many as value. It's a… as many as value, okay? So as many as value means, it's an experimental value.
+
+[Sunny] 20:29:04
+Right? Hyperparameter means what? It's
+
+[Sunny] 20:29:08
+experimental value.
+
+[Sunny] 20:29:10
+It is what, guys? Tell me.
+
+[Sunny] 20:29:12
+It is
+
+[Sunny] 20:29:16
+Experimental
+
+[Sunny] 20:29:20
+Value
+
+[Sunny] 20:29:21
+Getting my point, guys? Yes or no. So I capped, so what I did, guys, I capped the explanation about it. Let me show you one of the slides, and I can, even explain you that particular thing, right? So over here, guys, I kept the explanation about this particular concept. So let me copy this particular information
+
+[Sunny] 20:29:40
+And I can, basically keep it over there, okay? And we can understand why, basically, they took the stack of the encoder, and why they took the stack of the encoder and the decoder.
+
+[Sunny] 20:29:53
+So, I hope, guys, this slide is visible to all of you. Tell me yes or no
+
+[Sunny] 20:29:59
+Is it visible to all of you? Can you please confirm in the chat if you can see this particular slide? So over here, guys, see what I was explaining you, I was explaining you we were taking encoder blog, right? 6 encoder block or six decoder block. Now how basically it looks like, let me show you that so what I can do, I can add on one more page over here
+
+[Sunny] 20:30:19
+Inside the note itself, and then I can explain you that part, okay? How, basically, it looks like, actually. So.
+
+[Sunny] 20:30:27
+So, over here, what I can do, this is the page, just a second.
+
+[Sunny] 20:30:32
+I can add on one more new page
+
+[Sunny] 20:30:37
+Yeah, so I can add on one more new page, and I can explain you how this thing looks like. So, this is the transformer architecture, guys. Okay, I'm just going to be copy this architecture over here, this one
+
+[Sunny] 20:30:47
+Right? So I'm just going to be copy this architecture over here. Now see, from here, you can see this is the encoder part, okay? So I'm just going to be take an encoder part
+
+[Sunny] 20:30:57
+So, this is a one encoder. This encoder which you can see over here, this is a one encoder, okay? So here, it's going to be a stack of the encoder whenever they are going to be process the data from the encoder. So it's going to be a stack of the encoder. So let me take this particular encoder
+
+[Sunny] 20:31:13
+And let me show you the stack, means how this information might be processed, okay? So over here, this is the architecture, and this is the encoder. Let me stack the encoder. So, what I'm going to do, guys, I'm just going to be
+
+[Sunny] 20:31:29
+And it's creating a stack of the encoder. So this is what… this is my first encoder, means the information is coming from here, then this is the second one, okay? This is what, this is the second one, now this is the third one
+
+[Sunny] 20:31:42
+Right? This is the third one. Now, over here, I can create one more. This is the fourth one. We can create as many as a stack of the encoder, okay? So this is going to be a… this is going to be what? This is going to be a fifth one, and over here, I can create a sixth one also. Let me create one more. So this is going to be a sixth one
+
+[Sunny] 20:32:00
+So whenever we are processing a data, guys, right, so whenever we are processing our data, so it's not going to be a single encoder, it's going to be a stack of the encoder. And in the original research paper, basically, they took the 6 encoder, okay? So this is going to be first, this is going to be second, this is going to be third, this is going to be fourth, this is going to be fifth, and this is going to be sixth
+
+[Sunny] 20:32:21
+Getting my point, guys? Yes or no? I'll come to the encoder, okay? I will explain to you the detail of the encoder. I'll discuss that, right? So, over here, guys, all this encoder was the identical, right? Now, why 6, guys? Because it is an experimental value. We can take as many as value
+
+[Sunny] 20:32:37
+The 6 basically it's an experimental value, right? So whenever we are passing any sort of an input from here, whenever we are passing any sort of an input from here, okay, so let's say we are passing input from this particular encoder, this one
+
+[Sunny] 20:32:53
+What we are passing, guys, we are passing the import from this particular encoder
+
+[Sunny] 20:32:59
+Now, what we are getting, guys, we are getting an output, okay? The data is being processed
+
+[Sunny] 20:33:06
+the database is being processed, and from this particular stack, from this particular encoder, what we are getting, we are getting output
+
+[Sunny] 20:33:13
+We can have as many as encoder, okay, as many as encoder, basically, we can keep inside our architecture. So I kept the explanation of it. Just wait for some time. So here is 123
+
+[Sunny] 20:33:27
+Then 4, then 5, and then 6. The 6 value, basically, it is coming from where? It is coming from the research paper, right? It is coming from the research paper. And now, whatever encoder you are seeing over here, whatever encoder you are seeing over here, it is all an identical encoder
+
+[Sunny] 20:33:44
+What is the meaning of the identical
+
+[Sunny] 20:33:46
+Can anybody tell me what is the meaning of the identical? Identical is nothing. Identical, basically, it is the same one, okay?
+
+[Sunny] 20:33:55
+Identical means what? Same architecture, same encoder. Getting my point, guys, right? Now over here, the question comes right over here, the question comes, why
+
+[Sunny] 20:34:07
+Why the stack of the… why the stack of the
+
+[Sunny] 20:34:14
+By the stack of the encoder
+
+[Sunny] 20:34:17
+Or decoder, okay? Why basically they were considering… why, basically, they were considering the stack of the encoder and decoder. Don't worry, guys, we'll understand the working of the encoder in a very, very detail, right? So why, basically the stack of the encoder and decoder, and this is the question
+
+[Sunny] 20:34:35
+So over here, I've given you the explanation of this particular question, and I think you can see the slide. So just focus on this slide, right? Just focus on this slide. So what I mentioned, why 6 encoder blocks? Again, it is not fixed, right? It is a hyperparameter value
+
+[Sunny] 20:34:52
+It is what? It is a hyper
+
+[Sunny] 20:34:55
+parameter
+
+[Sunny] 20:34:57
+Hyperparameter value. Hyperparameter value means what it is a experimental value.
+
+[Sunny] 20:35:07
+It is an experimental value, right? So from paper, basically, from the original transformer paper inside the original transformer paper, they have used six layer of the encoder and six layer of the decoder. Now, what is the reason behind it? Why this stack is important
+
+[Sunny] 20:35:22
+As I given you the question, but why this mistake? Why?
+
+[Sunny] 20:35:27
+The stack, why the stack is important.
+
+[Sunny] 20:35:30
+Okay? Why the stake is important? So here is the reason guys because this stack is important. It's going to be captured the deeper relationship inside the data. It's going to be understand the longer context. Okay, and it's going to be built the hierarchical meaning
+
+[Sunny] 20:35:47
+Getting my point, guys. So the sentence, the data basically which we are providing, the data could be very, very long
+
+[Sunny] 20:35:53
+Okay
+
+[Sunny] 20:35:55
+The detect, basically, it could be very, very long to decode the data to understand the data or to capture the longer context or the deeper relationship, deeper relationship of the data, the deeper relationship of the data
+
+[Sunny] 20:36:09
+Right? Deeper relationship inside the data, we use the stack. Stack means what multiple encoder are multiple decoder
+
+[Sunny] 20:36:17
+multiple
+
+[Sunny] 20:36:19
+multiple
+
+[Sunny] 20:36:21
+encoder
+
+[Sunny] 20:36:22
+multiple encoder, and
+
+[Sunny] 20:36:25
+Multiple
+
+[Sunny] 20:36:26
+decoder.
+
+[Sunny] 20:36:28
+multiple encoder and multiple decoder. Now, how this encoder and decoder have been arranged, can anyone tell me? It is arranged vertically
+
+[Sunny] 20:36:38
+This is… this encoder and decoder arrange vertically. Getting my point? And this is called the stack, right? Now we're talking about the modern model. Now guys tell me guys, this all the model, it based on the transformer architecture
+
+[Sunny] 20:36:52
+Can anyone tell me yes or no? Because all the model are based on the transformer architecture. Yes, this all the model. Basically, it is based on the transformer architecture. So we're talking about the bird guys right? You know about the bird model. So inside the bird model, how many layers was there of the encoder and decoder? See?
+
+[Sunny] 20:37:11
+12 layers. If we're talking about the bird large, 24 layer. If we're talking about the GPT model, so they're 12 to 96 basically
+
+[Sunny] 20:37:20
+And whatever model you are seeing, the Lama model, Mistral model, okay? So there guys, this stack is going to be a deeper
+
+[Sunny] 20:37:31
+This stack is going to be a deeper
+
+[Sunny] 20:37:34
+This is stack is going to be a deeper. So if someone is going to be asked you in an interview, if someone is going to be asked in an interview, how many encoder and decoder they have used, what was the stack of the encoder and decoder? So you can say in the original research paper, they have used six
+
+[Sunny] 20:37:50
+But in the modern LLM, guys, in the modern LLM, it could be anything, okay? Between 12 to 100, and even more than that. And what is the reason of that? The reason, basically, is this one. It's going to be captured in a deeper understanding, deeper relation of the data. It's going to be understand the longer context
+
+[Sunny] 20:38:07
+Again, it's going to be built a hierarchical meaning, right? Now, over here, guys, I written one example
+
+[Sunny] 20:38:14
+Just read out this particular example, and with that, guys, your understanding will be a bit more clear, and even you can explain this particular thing, even you can explain this particular thing inside the interview. If we're talking about the GPT model, so inside the GPT model, they have used a decoder part of the transformer
+
+[Sunny] 20:38:31
+decoder part of the transformer
+
+[Sunny] 20:38:34
+decoder part of what? Decoder part of the transformer. So can we not create a stack of the decoder? Can we not keep the multiple decoder
+
+[Sunny] 20:38:43
+You can keep the multiple decoder also, no, right? So similar to the encoder, we can keep the multiple decoder as well, okay? So we can keep the multiple decoder also. So here you can see, I cap the 6 encoder. Now, similar to that, it could be a multiple decoder also, in the same way
+
+[Sunny] 20:39:01
+Right? If we're talking about the GPT model, guys, so let me talk… let me show you over here how basically they cap, the 96. So this is the decoder, guys, this is the decoder, this one
+
+[Sunny] 20:39:11
+Okay, this is what? This is the decoder part. So they kept the 96 decoder
+
+[Sunny] 20:39:17
+They capped how many decoder? 96 decoder they capped, okay? So I'm just going to be what?
+
+[Sunny] 20:39:24
+I'm just going to be copy and paste this decoder over here
+
+[Sunny] 20:39:28
+Just a second, where it's going to be copy
+
+[Sunny] 20:39:33
+Okay, I copied
+
+[Sunny] 20:39:37
+It's not coming… just a second, guys. Okay, I'm keeping that thing also, so that you can understand. And don't worry, guys, we are going to be… understand the working of the decoder in a detail, right? So just give me a moment. I'm coming to that part. I will explain the working of the decoder as well
+
+[Sunny] 20:39:53
+So this is what, guys, this is a decoder. Now, there could be a 96 decoder. Okay, how many decoder could be? There could be 96 such decoder, okay
+
+[Sunny] 20:40:03
+Again, I can import
+
+[Sunny] 20:40:05
+So, here, what I'm going to do, I'm going to be insert this particular image one more time
+
+[Sunny] 20:40:10
+Okay, so like this
+
+[Sunny] 20:40:13
+How many decoder would be there, guys? Insert the GPT model we're talking about. So there would be
+
+[Sunny] 20:40:19
+96 such decoder, okay? 96 such decoders, so I can keep like this
+
+[Sunny] 20:40:26
+And with that
+
+[Sunny] 20:40:28
+I think this thing is also going to be clear. So if I'm going to be highlighted, so there could be 96 such decoder making sense to all of you, yes or no. So this is the first and the foremost thing which we need to understand from this particular
+
+[Sunny] 20:40:45
+From this particular research paper, from the Transformer research paper, okay, so over here guys, I explain you how many encoder and decoder was there
+
+[Sunny] 20:40:54
+This is the… okay, let me revise all the thing. So, this is the original architecture of the transformer, okay? This is the original architecture of the transformer. So here, basically, inside this particular architecture, they have represented the encoder and decoder, but we can keep the multiple stack of the encoder and decoder, okay? This could be any sort of a number
+
+[Sunny] 20:41:14
+Right now over here, guys, what I did, I created this architecture there. Basically, we were having the encoder and decoder. Now, we're talking about the original research paper, so there basically we were having 6 encoder in the 6 decoder, right? Now, over here, guys, I mentioned why multiple stack of the encoder and decoder. So this is the reason, basically, just to capture the relationship, understand the longer contextes of the data
+
+[Sunny] 20:41:36
+And build the hierarchical meaning, means just to capture the longer, context, longer meaning of the data. So over here, I've given you one example, and I think with this particular example, you can understand. So let's say my information is being passed from the first layer, from the first encoder
+
+[Sunny] 20:41:53
+It is understanding the basic relationship between the board. Now, if it is going to be passed from the layer 3, layer 2 to layer 3, so it's under… it is able to understand the phrase's meaning. Now let's say my data is being passed from the 6th layer, right? So it is able to understand the sentence understanding
+
+[Sunny] 20:42:09
+And if my data is being passed from the layer 12, right? So it is getting a deeper context understanding of the data. So using the multiple layer, multiple stack of the encoder and decoder, we are going to be captured the deeper context of the data. So is this thing clear to all of you? Yes or no
+
+[Sunny] 20:42:25
+Tell me. So, this is one of the interview questions, that's why I have discussed all these things. If someone is going to be asking you this thing in an interview, you can explain in the same way. Getting my point? Yes or no? Tell me
+
+[Sunny] 20:42:37
+Is it getting clear to all of you? If it is getting killer, you can let me know in the chat, so that I can proceed further, okay?
+
+[Sunny] 20:42:46
+Great, guys. Now, over here, what I did, if we're talking about the transformer architecture, okay, so over here, what I did, see, I told you, everything basically it's going to be first I'm going to be start from where first I'm going to be start from the encoder side
+
+[Sunny] 20:43:02
+Okay, first I'm going to be start from where. First I'm going to be start from the encoder side. So let's say, guys, this is my encoder. Okay, now we have to understand what is happening inside this encoder.
+
+[Sunny] 20:43:14
+What is there inside this encoder, right? So what is there inside this encoder? First, we need to understand that part. With that actually are most of the concept is going to be clear. So let me write over here
+
+[Sunny] 20:43:28
+Encoder, and will decode each and everything of this encoder, okay?
+
+[Sunny] 20:43:33
+And
+
+[Sunny] 20:43:34
+quarter.
+
+[Sunny] 20:43:35
+This one
+
+[Sunny] 20:43:37
+So guys, if we're talking about this encoder, I think in the previous session only, I told you this encoder is going to be content to thing. Can you tell me guys on a high level, this encoder is going to be content two thing
+
+[Sunny] 20:43:49
+The first thing is going to be what? The first thing is going to be what. The first thing is going to be a self-attention, okay? And the second thing is going to be what. The second thing is going to be nothing. It is going to be a feed-forward neural network, right? So let me draw over here
+
+[Sunny] 20:44:04
+So, we're talking about this encoder, there's going to be content two thing. The first thing is going to be what guys the first thing is going to be a self-attention
+
+[Sunny] 20:44:14
+And the second thing is going to be what, the second thing is going to be a feed forward neural network. So we need to be, we need to understand this encoder in a detail now. We need to understand that what is happening over here
+
+[Sunny] 20:44:25
+So here, what we have, so we're talking about design coders. So, the first thing is going to be
+
+[Sunny] 20:44:32
+self-attention
+
+[Sunny] 20:44:34
+Okay? And
+
+[Sunny] 20:44:37
+The second thing is going to be a feed forward network
+
+[Sunny] 20:44:42
+What is this feed-forward network? Can anyone tell me? This feedforward network is nothing, it is a neural network
+
+[Sunny] 20:44:50
+It is what? It is a neural network. And if we're talking about the self-attention, what is the self-attention guys
+
+[Sunny] 20:44:57
+What is the cell potential? So self attention is nothing, it is just a way to finding out the
+
+[Sunny] 20:45:06
+Reliance of the world, basically, right? It is just a way of finding out which word is relying on which one, right? So I will explain you this thing, how basically this thing is going to be worked, right? It is a way to finding out the semantic meaning between the words, right?
+
+[Sunny] 20:45:22
+So this cell potential it is working on this QKNB, but before that, guys, we have to decode, we have to understand this encoder in a detail, right? Means how it is processing the data, what is happening from starting to end, then only we will be able to understand each and everything
+
+[Sunny] 20:45:39
+Right? But our main aim to understand this
+
+[Sunny] 20:45:43
+Cell potential only and along with the cell potential, guys, we are going to be understand one more part that's going to be what that's going to be a positional encoding
+
+[Sunny] 20:45:50
+That's going to be what, guys? Tell me, that's going to be a positional encoding. Getting my point? Tell me. So, can I summarize all this thing, and then I'll come to the working of the encoder and decoder. So we have started from where guys, we have started from the transformer, this one now if we're talking about the transformer. So here we have two part of it
+
+[Sunny] 20:46:09
+First is going to be an encoder and decoder. Now, if you will look into this, if you will look into this particular architecture very carefully, so you will find out one thing over here. So just look over here, this NX. Can anyone tell me what is the meaning of this NX
+
+[Sunny] 20:46:25
+What is the meaning of this annex, guys? Tell me.
+
+[Sunny] 20:46:27
+What is the meaning of this annex?
+
+[Sunny] 20:46:30
+So annexed means what if we're talking about if we're talking about this annex guys. So this is nothing. It is
+
+[Sunny] 20:46:38
+is tech, okay? It is what? It is a stack of the
+
+[Sunny] 20:46:44
+encoder
+
+[Sunny] 20:46:46
+And… decoder
+
+[Sunny] 20:46:49
+It is going to be a stack of the encoder and decoder
+
+[Sunny] 20:46:52
+Now, tell me, guys, is this thing clear? Why to keep? Is this thing clear? Why to keep
+
+[Sunny] 20:46:59
+Why to keep multiple encoder and decoder
+
+[Sunny] 20:47:02
+Tell me, multiple encoder and decoder. I think you can explain this thing in an interview also. Okay, if someone is going to be asked you. You just need to be explained with this 3 to 4 points, whatever I mention over there. But you will get more about it, okay?
+
+[Sunny] 20:47:17
+So over here, I think this thing is clear. Now, everything is going to be start from where? Everything is going to be start from this encoder and this decoder only, right? So we have to understand the working of it, how this encoder is working, and how this decoder is working, right? So we need to understand this thing
+
+[Sunny] 20:47:34
+So I started from the encoder. Now, tell me, guys, if we're talking about the encoder. So what is the main part of the encoder self attention and the feet forward neural network. So this is 2 main part of the encoder. This is only going to be process the information
+
+[Sunny] 20:47:51
+This is only going to be process the information, right? But we have to see the end-to-end working of the encoder.
+
+[Sunny] 20:47:57
+So now we are going to be moved to the end-to-end working of the encoder. So are you ready for that, guys? Tell me yes or no. Are you ready for that for this end-to-end working of the encoder? Just let me know in the chat if you are ready for that. So tell me guys, how is the session so far
+
+[Sunny] 20:48:40
+Okay.
+
+[Sunny] 20:48:41
+No.
+
+[Sunny] 20:48:43
+Guys
+
+[Sunny] 20:48:45
+Let's, do one thing
+
+[Sunny] 20:48:47
+Let's take a fresh page, and let me explain you over there itself.
+
+[Sunny] 20:49:08
+Okay.
+
+[Sunny] 20:49:11
+So let's suppose, we have one sentence. I'm going to be right one sentence over here
+
+[Sunny] 20:49:18
+My sentence is going to be what, guys? Let's say I'm writing over here.
+
+[Sunny] 20:49:23
+How
+
+[Sunny] 20:49:27
+You.
+
+[Sunny] 20:49:28
+Now, how this sentence is being processed using the encoder. Using the encoder, using the encoder part of Word
+
+[Sunny] 20:49:38
+Using the encoder part of the transformer. Okay
+
+[Sunny] 20:49:43
+Sir, what is, again, proper sequence is going to be very bizarre. No, we are going in a sequence only SP, okay? Please, understand. If you are finding difficulty, so watch out this session again after the, like, live session, you can go through with the video again, okay?
+
+[Sunny] 20:50:00
+This is one of… one and only suggestion. Now, the first thing, what will happen, guys? Tell me
+
+[Sunny] 20:50:06
+What will happen? I'm just asking to everyone, guys, what will happen at the first place. If we wanted to process this particular sentence using the transformer, so the first thing is going to be what, guys? The first thing is going to be a token. So let's say this is my tokenization layer. Let me draw the
+
+[Sunny] 20:50:24
+Toke, Naijan Leah
+
+[Sunny] 20:50:27
+This one.
+
+[Sunny] 20:50:27
+So this is what, guys, this is my Tokay, Nigation layer.
+
+[Sunny] 20:50:31
+So, from here, my data is going to be passed
+
+[Sunny] 20:50:35
+Okay.
+
+[Sunny] 20:50:38
+So, my data is going to be passed from here.
+
+[Sunny] 20:50:42
+Okay.
+
+[Sunny] 20:50:45
+9
+
+[Sunny] 20:50:47
+Jason.
+
+[Sunny] 20:50:51
+So, after that, guys, what we'll get, we'll get a token out of this particular
+
+[Sunny] 20:50:57
+will get a token, will get a token of this particular words, okay?
+
+[Sunny] 20:51:01
+So, here we'll be having one token, then we will be having another token, then we have another token. How many tokens would be there?
+
+[Sunny] 20:51:08
+So we would be having 3 tokens, okay? So let me write over here
+
+[Sunny] 20:51:12
+How many tokens we have
+
+[Sunny] 20:51:14
+We have
+
+[Sunny] 20:51:15
+Three tokens, okay? So this is going to be first token, this is going to be next token, and then this is going to be a
+
+[Sunny] 20:51:23
+Next.
+
+[Sunny] 20:51:24
+So what I can write over here, guys, I can write, this is what, this is my how
+
+[Sunny] 20:51:29
+Right?
+
+[Sunny] 20:51:31
+This is what this is my R
+
+[Sunny] 20:51:34
+And this is what? This is my U, right? Now, after that, guys, what will happen? Tell me. This token will be converted into where? This token will be converted into the… which layer
+
+[Sunny] 20:51:44
+Can you even tell me. This token will be converted into the embedding, right? So the next layer is going to be what guys the next layer
+
+[Sunny] 20:51:58
+The next layer is going to be
+
+[Sunny] 20:52:00
+embedding layer
+
+[Sunny] 20:52:01
+So, from this embedding layer only, my data is going to be passed
+
+[Sunny] 20:52:07
+Okay.
+
+[Sunny] 20:52:07
+So I can write over here
+
+[Sunny] 20:52:10
+The next layer is going to be what
+
+[Sunny] 20:52:13
+embedding layer
+
+[Sunny] 20:52:17
+Okay.
+
+[Sunny] 20:52:19
+embedding layer.
+
+[Sunny] 20:52:21
+Now, what will be the dimension of this embedding? You can have any sort of a dimension. What if we're talking about the original research paper, so the dimension basically of this particular model was the
+
+[Sunny] 20:52:32
+512 right and if we're talking about this embedding layer, guys, right? If we're talking about this embedding layer, so it's a word-to-back model
+
+[Sunny] 20:52:40
+This is what, guys, tell me. This is the word to back model. So let me create a new page, and there, basically, I can explain you that part.
+
+[Sunny] 20:52:47
+So I kept that particular explanation, we're talking about the embedding layer. So it's going to be a pre-trained model, or it is going to be directly going to be generate the… it is directly going to be generate what or it is directly going to be generate the embedding. So I kept that particular explanation over here, let me
+
+[Sunny] 20:53:06
+Keep it, right? So we're talking about the embedding layer, guys, see
+
+[Sunny] 20:53:11
+So, first, we would be having text. So, over here you can see the text
+
+[Sunny] 20:53:15
+Now, the text, basically, it's going to be passed to the tokenization layer. Then it is going to be passed to the embedding layer.
+
+[Sunny] 20:53:22
+So, we're talking about the embed and layer, guys. So this is a word-to-back model
+
+[Sunny] 20:53:28
+This is what? This is a word-to-back model. But guys, this word-to-back model, actually, it is not a pre-trained model, right? So over here, I written an explanation. The embedding layer is essentially similar to the word to back model
+
+[Sunny] 20:53:41
+The only difference is, it is not a pre-trained model right means this particular model is not being trained on any it is not being trained on any data right? We just have a model from that particular model, whatever embedding we are getting, we are just going to be consumed that particular embedding
+
+[Sunny] 20:53:58
+We are just going to be consumed that particular embedding. So whenever we are talking about any model, guys, if we're talking about the V2 back, let me basically tell you something. If we're talking about the VirtuBack model. Now, tell me, guys, this V2Beck model
+
+[Sunny] 20:54:13
+It is a neural network-based model
+
+[Sunny] 20:54:15
+Tell me yes or no
+
+[Sunny] 20:54:17
+It is a neural network-based model, this virtual back model
+
+[Sunny] 20:54:22
+Are we talking about this neural network-based word-to-back model. So how many phases was there of this particular model?
+
+[Sunny] 20:54:28
+How many phases of this particular model? The first phase was the training of the model
+
+[Sunny] 20:54:37
+The first phase was the training of the model, and the second phase of the model is called, guys, tell me what is the second phase of the model
+
+[Sunny] 20:54:45
+Second phase of the model is called the inferencing
+
+[Sunny] 20:54:49
+Okay.
+
+[Sunny] 20:54:52
+Inferencing
+
+[Sunny] 20:54:53
+Now, what is the meaning of the inferencing, guys? If we're talking about the inferencing
+
+[Sunny] 20:54:58
+So the meaning of the inferencing is going to be prediction
+
+[Sunny] 20:55:03
+Okay.
+
+[Sunny] 20:55:04
+Are we talking about the Google guys
+
+[Sunny] 20:55:07
+If we're talking about the Google
+
+[Sunny] 20:55:10
+So, Google has already trained one model for all of us
+
+[Sunny] 20:55:16
+Google has already trained one model for all of us
+
+[Sunny] 20:55:19
+And the model, basically, they have trained on Google News data. Tell me yes or no
+
+[Sunny] 20:55:26
+Yes or no. And we were doing the inferencing using that particular model. What we were doing, guys, tell me. We were doing the inferencing using that particular model. So whatever model have been trained by the Google
+
+[Sunny] 20:55:38
+Right? So it was a pre-trained model. It was the
+
+[Sunny] 20:55:42
+pre-trained model
+
+[Sunny] 20:55:44
+And we were using that particular model, we were using that particular pre-trained model
+
+[Sunny] 20:55:50
+For what guys tell me, for the prediction
+
+[Sunny] 20:55:54
+For what guys tell me, for the prediction. Now, can you tell me what was the dimension of that particular, what was the dimension of that particular word? We were talking about the prediction. So we are getting the 300 dimension.
+
+[Sunny] 20:56:08
+Right? Now, on the other hand, guys, on the other hand, you'll be talking about the other one. So, did we train our own custom model?
+
+[Sunny] 20:56:18
+Did we train our own custom model? Yes or no? Now, what was the dimension of that particular model?
+
+[Sunny] 20:56:25
+So we capped 150, right? But we can keep anything, whatever we wanted to keep, we can keep any sort of a dimension of that particular model. Now, you can give this particular model to anyone
+
+[Sunny] 20:56:35
+You can save this particular model, and you can give it to anyone. Tell me. So if you're passing this model to anyone, if you are passing this model to anyone, so this will be called the pre-trained model
+
+[Sunny] 20:56:46
+Let's say if you are giving this particular model to anyone
+
+[Sunny] 20:56:51
+If you are giving this custom model to anyone, so this will be called the pre-trained model, and that person, basically, that person
+
+[Sunny] 20:56:57
+That person will be using your model for what? For the prediction only
+
+[Sunny] 20:57:03
+Tell me yes or no.
+
+[Sunny] 20:57:05
+So, in a similar way, guys, Google has done, Google has trained the model on a very huge amount of data over the Google News data. Okay, they perform the training and then that pre-trained model we were using for our prediction
+
+[Sunny] 20:57:20
+We were giving the word to this particular model, and that particular word is being converted into that three-dimension of the embedding.
+
+[Sunny] 20:57:28
+Tell me, guys, is this thing clear to all of you? Yes or no?
+
+[Sunny] 20:57:33
+Tell me. Now, over here, just read out this particular sentence. So, the embedding layer is essentially similar to the V2B model. The only difference, it is not a pre-trained model. So what is the meaning of it, guys? Tell me.
+
+[Sunny] 20:57:46
+What is the meaning of this particular term? It is not a pre-trained model. Means this particular model is not being trained by someone.
+
+[Sunny] 20:57:54
+This particular model, it is not trained by someone, right? Means it is a model and it is giving the embedding, right? Means you can think and you can think in such a way that it is just it is a model in a training phase only
+
+[Sunny] 20:58:08
+Means, we are just passing a word to the model, and it is generating an embedding. Means, it is not trained on some data earlier. It is not trained on some data, right? We just have that particular model. We just have that particular model, and it is giving us that it is giving us an embedding
+
+[Sunny] 20:58:25
+In training, we used… we do the same thing, na?
+
+[Sunny] 20:58:27
+Are you getting my point? What I'm trying to say over here? It is not a pre-trained model.
+
+[Sunny] 20:58:36
+Getting my point, guys. Yah peg were 2 bag jasa model here. Here we have a word-to-back kind of model, but that model is not being by, it is not being trained by someone. It is just a model which is giving us an embedding. Making sense to all of you. Yes or no?
+
+[Sunny] 20:58:50
+Is it getting clear to all of you now? Yes. So here I kept the same explanation. You can, like, again, go through with it, and you can understand. Now over here guys
+
+[Sunny] 20:59:03
+Not clear about the dimension. Dimension is nothing. Dimension I discuss in a very detail in the previous class, Sandhi. Please check out over there, okay? I'm not going to repeat the same part over here.
+
+[Sunny] 20:59:13
+Okay, so we just had a model. So let's say this is my model guys. This is my model. One, two, three, four, five. Let's say this is the input layer
+
+[Sunny] 20:59:22
+The input is coming
+
+[Sunny] 20:59:24
+It is going through the embedding, the hidden embedding one
+
+[Sunny] 20:59:29
+Sorry, it is going through the, hidden layer, basically. This is my hidden layer
+
+[Sunny] 20:59:33
+Okay? And it is predicting the output. So this is predicting the output, something like this
+
+[Sunny] 20:59:39
+So this one basically here, they cap this kind of model, the neural network
+
+[Sunny] 20:59:44
+Which is… which was giving us the embedding
+
+[Sunny] 20:59:49
+Which was giving us the embedding, this one. But guys, this model, actually, it's not a pre-trained model
+
+[Sunny] 20:59:56
+It's not a pre-trained model. No.
+
+[Sunny] 20:59:59
+It is not a pre-trained model. No, right? It is just a model means someone capped this model, I can write the model what model name I can give. Okay, let's say this is the
+
+[Sunny] 21:00:11
+Neural network alpha model. Okay, just don't write like this, otherwise you will again confused. This is the model, okay? Neural network model. So they kept this particular model as it is over here, which is giving us the embedding.
+
+[Sunny] 21:00:23
+Getting my point, guys, so is this embedding layer is clear to all of you
+
+[Sunny] 21:00:29
+Tell me.
+
+[Sunny] 21:00:31
+Anything, Manish, right?
+
+[Sunny] 21:00:34
+For the bigger data set, we use the escape gram and for the smaller data set we can use the CBO. Now over here guys see if we're talking about the embedding layer, right? So after the embedding layer, what we will be getting, can anyone tell me after the embedding layer, we will be getting the embedding
+
+[Sunny] 21:00:49
+Okay, embedding off
+
+[Sunny] 21:00:52
+3 watts. So, I'm bidding a watt, embedding of the 3 words. So how many words we have? We have a 3 words. So let me create the embedding of that. So this is the embedding of the first word. This is the embedding of the second word, and this is the embedding of the third word. Okay
+
+[Sunny] 21:01:07
+Now, over here, I can
+
+[Sunny] 21:01:09
+Draw that. So, this is fine
+
+[Sunny] 21:01:12
+This one is going to be what? This is going to be embedding, okay? Now, can I write a name of this embedding? So let's say my embedding name is going to be E1.
+
+[Sunny] 21:01:21
+Right? So over here, I'm saying this is my E1, this is my E2, this is going to be what this is going to be my E3. Till here, everything is clear. Tell me, whenever any sentence will be passed, so how it is being processed
+
+[Sunny] 21:01:38
+Guys, please, don't ask this type of question, don't ask this type of stupid question, it is always 5-12 dimension. I've shown you the custom model, right?
+
+[Sunny] 21:01:48
+The dimension could be anything. Inside the research paper, inside the research paper, they have mentioned 512 dimension in their practical. But if you are creating, if I am creating, if
+
+[Sunny] 21:02:00
+Elon Musk is creating, or if Mark Jugal is creating, so they have a freedom to keep any sort of a dimension of their model over here.
+
+[Sunny] 21:02:09
+Understand, guys, okay? Please, be mature. If you are at this stage now
+
+[Sunny] 21:02:13
+Getting my point?
+
+[Sunny] 21:02:14
+Okay, so we are getting an embedding over here. Now, after that, guys, what is going to be our next thing? Can anyone tell me
+
+[Sunny] 21:02:21
+What's going to be next thing? The next thing is going to be
+
+[Sunny] 21:02:25
+The next thing is going to be… tell me, positional encoding. You are right, guys. So the next thing is going to be what? The next thing is going to be
+
+[Sunny] 21:02:36
+positional encoding. So, over here, what I'll do, guys, I'll add the positional encoding vector, right? So this is what… this is my positional encoded vector. I'll explain what is a positional encoding and how it is being performed.
+
+[Sunny] 21:02:50
+What is this even E2 and E3? It's an embedding, na, Lokesh. Embedding a value, embedding mane is kubolya even, getting my point
+
+[Sunny] 21:03:01
+Right? So this is going to be what, guys, this is going to be a positional encoding. P1
+
+[Sunny] 21:03:07
+P2 and
+
+[Sunny] 21:03:09
+P3. Getting my point? So, after that, guys, what will happen? See
+
+[Sunny] 21:03:15
+Now, this particular data, whatever data we'll be getting from here
+
+[Sunny] 21:03:20
+whatever data we'll be getting from here, this one
+
+[Sunny] 21:03:23
+This particular data will be passed via
+
+[Sunny] 21:03:27
+This particular data will be passed where, guys, tell me this particular data. Okay, let me show you this particular data as a vector. So this is going to be what this is going to be a vector, the final vector. Okay?
+
+[Sunny] 21:03:37
+So here is my vector. This is one vector, this is the second vector, and this is going to be what? This is going to be a third vector
+
+[Sunny] 21:03:45
+This is going to be what this is going to be a third vector
+
+[Sunny] 21:03:48
+Now, what I'm doing guys, I'm just going to be show you as a vector. This is a vector. This is the vector. So I'm keeping a name of this particular vector. Let's say I'm saying X1.
+
+[Sunny] 21:04:01
+X2, and X3. I'm just giving a name to this one. Now, tell me, guys, this vector is a how. Yes or no? It's a how right? This is my how word how
+
+[Sunny] 21:04:12
+Right? Now, here is what, here is my R.
+
+[Sunny] 21:04:16
+Right? And this is what… this is my U
+
+[Sunny] 21:04:18
+Getting my point, guys? So how are you? This is my 3 vector now. So this layer is which one, guys? We're talking about this particular layer, let me write over here. This is going to be a positional encoding.
+
+[Sunny] 21:04:35
+encoding
+
+[Sunny] 21:04:37
+Okay.
+
+[Sunny] 21:04:38
+And this is what, guys, this is what, this is my embedded vector which I'm getting after which I'm getting from where guys which I'm getting from the embedded layer. Okay, this is going to be what this is going to be my
+
+[Sunny] 21:04:51
+embedded
+
+[Sunny] 21:04:53
+Vector.
+
+[Sunny] 21:04:55
+Understood. I hope, till here, everything is fine, everything is clear. Now this X1, X2, and X3, this particular vector now actually is going to be passed well
+
+[Sunny] 21:05:07
+This particular vector is actually going to be passed inside the
+
+[Sunny] 21:05:12
+Tell me, guys, where this particular thing is going to be passed. This particular thing is going to be passed to the multi-head attention, okay? So over here, what I can do, I can draw one more box, and this particular box is going to be what?
+
+[Sunny] 21:05:27
+This particular box is going to be multi-head attention. So let me write over here
+
+[Sunny] 21:05:32
+This is going to be
+
+[Sunny] 21:05:34
+multi-head, self-attention
+
+[Sunny] 21:05:37
+Leah
+
+[Sunny] 21:05:39
+multi-head
+
+[Sunny] 21:05:41
+self-attention
+
+[Sunny] 21:05:43
+Leo, okay? Now, after that, guys, what will happen? See? I will pass my vector from this multi-head cell potential layer, and we need to understand that how this thing is working. So I will explain to you how this multi-head self attention is working okay
+
+[Sunny] 21:05:57
+I will discuss this multi-head cell potential in detail. If you wanted to know about the formula of this multi-head cell potential layer. So, this is the formula of the multi-head cell potential. Here you can see this one.
+
+[Sunny] 21:06:08
+So how this formula is being derived, what is the purpose behind this particular formula? Okay, this is a like formula of the attention.
+
+[Sunny] 21:06:15
+And, if we are going to be applying this thing multiple times, so this… that is called the multi… multi-edited self-attention. So here we have to be like, we have to understand the Q, K, and V concept. Then we are going to be understand that. Yes, Samita will understand the positional encoding. Don't worry, don't worry, don't worry, okay? Be happy.
+
+[Sunny] 21:06:37
+We'll understand about the position encoding. I'll explain you in detail. Getting my point? As of now, I'm just explaining the flow, flow of the data, okay? Now, after that, guys, what will happen? So this particular from the multi-edit self-attention layer again will get a vector. So let me draw the vector
+
+[Sunny] 21:06:53
+Now, this particular vector actually, it's going to be a conceptual vector
+
+[Sunny] 21:06:58
+Okay?
+
+[Sunny] 21:07:00
+So this particular vector is going to be what? This particular vector is going to be a
+
+[Sunny] 21:07:08
+contextual vector, this one, Z1, I can write some name of it, I'll write that, don't worry
+
+[Sunny] 21:07:14
+So this particular vector I'll be getting
+
+[Sunny] 21:07:16
+Okay, so this is going to be what guys, this is going to be what this is going to be my contextual vector
+
+[Sunny] 21:07:25
+Okay, so this is going to be what? This is going to be, let's say, Z1. I'm just writing a name of it. This is my Z one. This is my Z2. And this is my Z3.
+
+[Sunny] 21:07:33
+Getting my point? Now, over here, we have one more thing. So, over here, you will get one more concept that is called the residual connection. So I will explain to you what is this residual connection also, right? So this vector, this particular vector, it will come as it is from here
+
+[Sunny] 21:07:49
+Right?
+
+[Sunny] 21:07:50
+It will come as it is from here. This one, this particular vector, and it will be added
+
+[Sunny] 21:07:57
+Right? It will be added to this J1, J2, and J3. We are going to add this particular value as it is to this J12 and J3. We'll understand that why this thing is happening. I'll explain that part. So over here this vector will come and this vector
+
+[Sunny] 21:08:14
+Let me put the arrow over here.
+
+[Sunny] 21:08:16
+And this particular vector will be added over here.
+
+[Sunny] 21:08:20
+This particular vector will be added over here. So let me add this particular vector. So here we have a plus
+
+[Sunny] 21:08:27
+Okay, so here we'll perform the addition operation, addition operation
+
+[Sunny] 21:08:32
+So this is what… this is my vector, the same vector X1, X1, X3. So let me draw this particular thing over here
+
+[Sunny] 21:08:39
+As of now, I'm just explaining to you guys how this data is being processed, okay? We'll deep dive the concept multi-edit attention and the positional encoding both
+
+[Sunny] 21:08:48
+So this is the same vector, X
+
+[Sunny] 21:08:51
+X2 and X3. So let me write a name over here. So this is going to be what
+
+[Sunny] 21:08:55
+This is going to be X
+
+[Sunny] 21:08:58
+X2 and X3.
+
+[Sunny] 21:09:01
+Now, after the addition, guys, okay, after the addition, whatever final vector will get, whatever final vector will get, so let me again show you. See, this is the data is being passed. Okay, so, here, what will happen
+
+[Sunny] 21:09:16
+See, here is my
+
+[Sunny] 21:09:19
+After the addition, whatever vector will get. So that vector basically again will be passed from one more layer. So let me rename this particular vector
+
+[Sunny] 21:09:27
+What I can do, guys, I can, draw it one more time. Just a second. So this is going to be my new vector, this one. So this, I can write a different name for it. Just a second
+
+[Sunny] 21:09:39
+This particular vector, right?
+
+[Sunny] 21:09:42
+This is… now, what name I can write? I can give J1-J2-, okay? So this is what, this is my vector, which I will get after the addition. So this is going to be what, let's say, this is going to be what, this is going to be my Z1 dash
+
+[Sunny] 21:09:55
+J2 dash, okay, and jet 3 dash. Now, this vector, again, will be passed from one more layer. Can anyone tell me what is going to be that particular layer? If we're talking about that layer, so that layer is called the layer normalization layer.
+
+[Sunny] 21:10:09
+Okay, layer normalization. So here we are going to be normalize the data, actually. So the next layer is going to be what the next layer is going to be a layer normalization.
+
+[Sunny] 21:10:22
+layer normalization. So let me write over here
+
+[Sunny] 21:10:25
+This is going to be what
+
+[Sunny] 21:10:27
+This is going to be near
+
+[Sunny] 21:10:30
+normalization. Getting my point? Now, after that, whatever vector will get, okay? See, guys, like this, the encoder is working, the complete encoder. You are underestimating the encoder. Now, did you understand how this chat GPT this GPT model is able to sustain the longer context
+
+[Sunny] 21:10:47
+Like this, only it is able to sustain the longer context. It's a very powerful model. Okay, it is passing the data from the multiple places, from the multiple layers, actually. So whatever vector will get over here, let me draw one more box, and
+
+[Sunny] 21:11:02
+This vector will be called what
+
+[Sunny] 21:11:05
+This vector will be called the norm vector. So normalization means what we'll discuss that. What is the meaning of the normalization? First of all, let me show you the flow, how the data is being flow, okay? So this is going to be what? This is going to be my
+
+[Sunny] 21:11:20
+Norm backed up, so I can write over here, Z1, norm.
+
+[Sunny] 21:11:25
+Z2-norm, okay? This is going to be what, guys? This is going to be my norm vector
+
+[Sunny] 21:11:32
+Then, Z3 does NOM
+
+[Sunny] 21:11:34
+Now, this particular data, guys, it will be stack as a metric. See, this particular data will be stack as a metrics. Okay, because ultimately it's a metrics. Ultimately, guys, what it is, it is a matrix, right?
+
+[Sunny] 21:11:50
+means whatever data we were getting, it was passing parallelly, okay? So this data, how this data will look like this data will look like this. Let me show you. Combinely how this data will look like. So over here, I can show you the data. See, this is the data, guys, this one
+
+[Sunny] 21:12:07
+This is what? This is the data, okay? So this is my data where we have a three vector
+
+[Sunny] 21:12:14
+Getting my point. Now, this particular data, now this particular data further will pass to the
+
+[Sunny] 21:12:22
+Neural network
+
+[Sunny] 21:12:25
+Which is called
+
+[Sunny] 21:12:28
+F, F, and then feedforward neural network. Can you getting my point, guys? Yes or no? Tell me, till here everything is getting clear to all of you how this encoder is processing the data. So in this particular way, encoder is processing the data till the
+
+[Sunny] 21:12:43
+Neural network. I hope it is visible to all of you, this one
+
+[Sunny] 21:12:50
+I haven't explained anything over here, normalization and all, we'll discuss that, okay? We'll discuss that particular part. So like this, guys, the data is being passed from where from the neural network. Now this data, okay, let me
+
+[Sunny] 21:13:05
+Keep it over here. So after that, guys, what will happen? This data will be passed to the neural network, right? So let me… let me complete this particular architecture. So this… I'm going to be continue over here, guys, okay? Just focus. I'm going to be continue over here.
+
+[Sunny] 21:13:21
+Just a second, guys. I'm just going to be continue on the other side, because I don't have a space over there. I don't have a space, so I'm going to be continue over here.
+
+[Sunny] 21:13:30
+So this is my data, guys. I got my final data. So let me draw my final data over here. This is my final data, this one. So this particular data
+
+[Sunny] 21:13:40
+this particular data, guys
+
+[Sunny] 21:13:42
+Okay, where it is being passed. This particular data is being passed to the neural network.
+
+[Sunny] 21:13:50
+So, let me pass this data to the neural network. Do you know about the neural network? I think you know, right? So let's suppose this is my neural network. Let me draw it
+
+[Sunny] 21:14:00
+So here, guys, this is the neural network. Okay, this one
+
+[Sunny] 21:14:04
+This is going to be what? This is going to be a neurons. Let me draw by myself. I think I can draw it
+
+[Sunny] 21:14:10
+So, this particular data
+
+[Sunny] 21:14:14
+is being passed to the neural network
+
+[Sunny] 21:14:19
+Okay? Like this. This one
+
+[Sunny] 21:14:22
+And this is going to be what, guys? This is going to be a fully connected neural network. I'll tell you the dimension and all, everything. So this is going to be what? This is going to be a fully connected neural network, okay? Now, whatever… see, after processing, right, whatever data is being processed from the neural network right
+
+[Sunny] 21:14:40
+Whatever output we'll get from here. So let's suppose this is my output. What I'll be getting, guys, I'll be getting my output from here.
+
+[Sunny] 21:14:48
+This one. Okay, so I'll be getting my output over here. Now, the dimension is going to be same
+
+[Sunny] 21:14:56
+The dimension is going to be same of this particular network, okay? I'll tell you what is the dimension and all, everything I'll come. Now, this is the data, basically, okay? So, I can show you this particular data like this
+
+[Sunny] 21:15:07
+Just to explain you one more thing. So this is what… what I'm getting, guys, over here. I'm getting this Y1, Y2 and Y3.
+
+[Sunny] 21:15:14
+This is my Y1, okay, this is my Y2, and this is what this is my Y3. Let me write over here. This is going to be what this is going to be Y1. This is going to be what? Y2 and this is going to be what Y3, right? Now what will happen after this one? So this is what? This is my vector guys. See, I'm getting this particular vector
+
+[Sunny] 21:15:33
+Let me draw it over here. So I'm getting what? I'm getting this particular vector, y1, y2, and Y3. Okay, so over here, what will happen, guys? See, this is my Y1.
+
+[Sunny] 21:15:46
+Y2 and Y3. I'm just giving the name of it. I'm just giving a name to this one, Y1, Y2, and Y3, right? Then after that, guys, what will happen? Then again, what will happen, guys? Over here, again, the residual connection will be performed. Again, the residual connection will be performed. From where? From here to
+
+[Sunny] 21:16:03
+There, okay? Then this information, this particular information, this rad information, this particular information, again, will be passed to this Y1, Y2, and Y3. So let me mention over here
+
+[Sunny] 21:16:15
+The… let me mention over here what
+
+[Sunny] 21:16:17
+The residual connection, so this particular information, this particular information, again, will be passed, so I'm just going to take a same color so that you can understand this particular information again will be passed over here
+
+[Sunny] 21:16:33
+This information, okay? Now, why residual connection and all? Everything I kept with me, guys, don't worry, I'll explain you that part. So this is what… this is the same information which will be passed over here. I'm just going to be… show you with the arrow now. So this is the information, okay?
+
+[Sunny] 21:16:48
+So what will happen, guys? See, the addition operation will happen over here.
+
+[Sunny] 21:16:53
+I will explain you why this information is being passed, what is the meaning of the residual connection. Each and everything will understand. As of now, we are just understanding the working of the encoder. How this encoder is processing the data. It is a working of the single encoder, okay?
+
+[Sunny] 21:17:09
+So, this is the same vector
+
+[Sunny] 21:17:16
+This is the same vector
+
+[Sunny] 21:17:20
+This one
+
+[Sunny] 21:17:21
+And this one. Now, guys, after that, whatever, right, after that, whatever information we'll get, right? So let me write over here. So this is going to be information. I can take the information from here
+
+[Sunny] 21:17:35
+Guys, just give me a moment, I'm going to be completed. So this particular information, basically, what I can say, this particular information is the
+
+[Sunny] 21:17:45
+Why one does, why one y2 and Y3, okay? Y1 does, Y2 does, and Y3 does. So, let me give the different name to this one
+
+[Sunny] 21:17:52
+So this is going to be a information, okay? Y1-Y2- and Y3 dash. Then again, it will be passed to one more layer. This is called the layer normalization. This everything, guys, everything they have mentioned inside the transformer encoder architecture. Even I will compare
+
+[Sunny] 21:18:09
+Right? Now, again, this particular information will be passed to the layer normalization. And after that, whatever in… after that, guys, whatever, right, after that, whatever vector we'll be getting, right? So let me mention the vector over here
+
+[Sunny] 21:18:22
+And this is going to be a vector. See, this is my layer normalization layer. And after that, whatever vector we'll be getting. So this is going to be a norm vector, right? This norm vector basically finally will be passing to the decoder
+
+[Sunny] 21:18:37
+Right? Or if we have a multiple stack of the encoder, then this particular information is being passed to the next encoder layer. So let me mention over here, and this is going to be an AND of the encoder process. So let me
+
+[Sunny] 21:18:51
+mentioned over here. This is the same guy. This is the same information, okay, which we are passing to the neural network. Now, I can give the name to this one. So, this is going to be, let's say, Y1-Y2-
+
+[Sunny] 21:19:05
+Y1 dash, Y2- and Y3 dash. I can write like this, just give me a moment. And this transformer architecture, guys, it's a tricky architecture. It's not an easy architecture, right? That's why the entire AI is running on top of this one
+
+[Sunny] 21:19:21
+So Y2 dash and Y3 dash. Now, this is going to be what, guys, this is going to be my layer normalization
+
+[Sunny] 21:19:30
+Okay
+
+[Sunny] 21:19:33
+Layer normalization. And after that, whatever vector we'll be getting, the final vector, basically, which I can say the final vector. So this is going to be what
+
+[Sunny] 21:19:43
+This is going to be my final vector. This one, this one, and this one.
+
+[Sunny] 21:19:48
+So let me draw over here this one, this one, and this one. So this is called Y1 norm, okay? Y1 dash
+
+[Sunny] 21:19:58
+Norm
+
+[Sunny] 21:19:59
+This is called Y2-norm
+
+[Sunny] 21:20:02
+Norm is what? Normalized vector. Normalized vector means what? We are just going to be suppress the value of it, okay? And then, it's going to be
+
+[Sunny] 21:20:12
+Y3 dash? No
+
+[Sunny] 21:20:13
+So this particular information, now this particular information, okay, if we have a single encoder
+
+[Sunny] 21:20:22
+If we have a single encoder
+
+[Sunny] 21:20:25
+Then this particular information is being passed to the decoder.
+
+[Sunny] 21:20:31
+If we have a multiple encoder
+
+[Sunny] 21:20:35
+If we have a multiple encoder
+
+[Sunny] 21:20:38
+Okay.
+
+[Sunny] 21:20:40
+So this particular information, this bi1 norm, Y2 norm, and Y3 norm, it is being passed to the
+
+[Sunny] 21:20:47
+Next encoder block
+
+[Sunny] 21:20:52
+Making sense to all of you guys, tell me.
+
+[Sunny] 21:20:55
+So, did you understand how this encoder is processing the entire data?
+
+[Sunny] 21:21:01
+This is a way, like this, the encoder is processing the entire data. Maybe you are not getting it as of now, but once you will go through with it, you will understand. This is, like, really complex one. It is not an easy one, guys
+
+[Sunny] 21:21:15
+Right?
+
+[Sunny] 21:21:16
+And that's why, guys, no one touch this transformer architecture. Even you will get a very few explanation of the transformer, even over the internet. Okay
+
+[Sunny] 21:21:25
+So, tell me, in single go, are you able to understand, how the data is being processed through this encoder?
+
+[Sunny] 21:21:34
+We'll decode each and every concept of it, what is a positional encoding, what is a multi area attention, okay, what is a layer
+
+[Sunny] 21:21:42
+understand this part, will understand the different, different part of it, okay
+
+[Sunny] 21:21:47
+If you are, keep… if you are getting hard as of now, but, guys, if you will revise it, or once I'll give you the explanation of it again, means once I will explain you this entire thing again, you will understand, okay? Maybe your understanding will be
+
+[Sunny] 21:22:02
+Bit more clear over here
+
+[Sunny] 21:22:05
+Tell me, guys.
+
+[Sunny] 21:22:08
+So we'll take a revision of it. We'll take a revision of it. So let me explain you entire thing, let me give you the quick recap of each and everything now.
+
+[Sunny] 21:22:17
+So, just a second, guys, I'm giving you the recap of each and everything, right? So, guys, did you… Okay. Have you seen the, architecture of the… sorry, have you seen that, encoder-decoder architecture from the original transformer research paper
+
+[Sunny] 21:22:34
+Tell me this was the original research paper, okay? This was the architecture from the original research paper
+
+[Sunny] 21:22:44
+This was the architecture from the original research paper
+
+[Sunny] 21:22:48
+So, inside this particular architecture, how many block we have? Tell me, guys, how many block we have? We have an encoder block, and we have a
+
+[Sunny] 21:22:58
+decoder block over here. This one is going to be a decoder block, right? So we're talking about the encoder. So the first thing basically which I explained you about the encoder
+
+[Sunny] 21:23:07
+Can you tell me, guys, can we take a multiple stack of the encoder
+
+[Sunny] 21:23:13
+Can we take a multiple stack of the encoder
+
+[Sunny] 21:23:18
+multiple stack of the encoder
+
+[Sunny] 21:23:22
+Okay.
+
+[Sunny] 21:23:24
+So, where that thing is… where that thing have been highlighted, so that this thing have been highlighted over here. If you will check over here, this annex
+
+[Sunny] 21:23:33
+This annex
+
+[Sunny] 21:23:36
+Now, we're talking about the encoder
+
+[Sunny] 21:23:40
+We're talking about the encoder, so did you understand
+
+[Sunny] 21:23:45
+How this encoder is processing the data? Tell me, guys, do you understand how this encoder is processing the data
+
+[Sunny] 21:23:54
+Now, where you will understand that, where you understood that. So, here only you will understand that. See this one? Here is the architecture, this one
+
+[Sunny] 21:24:04
+The process of the encoder, how the encoder is processing the data. Now, here we have so many questions in our mind. Are we talking about the encoder.
+
+[Sunny] 21:24:14
+So many questions are there
+
+[Sunny] 21:24:17
+The first question, basically, what is attention layer and how it is working.
+
+[Sunny] 21:24:25
+Yes or no, tell me, guys.
+
+[Sunny] 21:24:28
+What is a
+
+[Sunny] 21:24:30
+Positional encoding
+
+[Sunny] 21:24:33
+And how it is working. This is the first question.
+
+[Sunny] 21:24:37
+Yes, question number one
+
+[Sunny] 21:24:39
+Question number 2 is, what is an attention layer
+
+[Sunny] 21:24:44
+What is the attention layer? Or what is the self-attention?
+
+[Sunny] 21:24:48
+This is
+
+[Sunny] 21:24:50
+Quotient number
+
+[Sunny] 21:24:53
+Right?
+
+[Sunny] 21:24:54
+The third question, basically, what is a layer normalization
+
+[Sunny] 21:25:01
+What is earlier normalization? This is a quotient number three
+
+[Sunny] 21:25:06
+The fourth question, basically
+
+[Sunny] 21:25:10
+What is our residual connection?
+
+[Sunny] 21:25:15
+What is a residual connection?
+
+[Sunny] 21:25:20
+This is what, this is question number four
+
+[Sunny] 21:25:23
+Okay, and why they used it?
+
+[Sunny] 21:25:31
+The next question, basically.
+
+[Sunny] 21:25:33
+Why they used
+
+[Sunny] 21:25:38
+Why they used
+
+[Sunny] 21:25:43
+Why they use neural network.
+
+[Sunny] 21:25:46
+Okay, so this is question number 6, or this is question number 5. Do we have all this question from the encoder guides? Tell me yes or no
+
+[Sunny] 21:26:01
+Yes?
+
+[Sunny] 21:26:02
+So now we'll clarify all this question, right? So going forward, we'll clarify all this question. What is a positional encoding? How does it working? What is our tension? How does it working layer normalization? Why the residual connection was there, and why they have used the neural network inside this particular architecture
+
+[Sunny] 21:26:23
+So, guys, are you able to connect the dot now of this transformer architecture? How's the explanation so far? This architecture, basically, it will keep you on track, this one.
+
+[Sunny] 21:26:33
+This architecture, this particular flow, it will keep you on track. I'll give you the quick revision of it, okay? This particular slide, basically, it will keep you on track. This one
+
+[Sunny] 21:26:45
+Yes, vector normalization, nail normalization is safe. Correct, Rakeshi. It is right.
+
+[Sunny] 21:26:52
+Okay, so fine guys, just let's take a break. Let's take a deep breath now, and then again, I'll give you the quick revision of it.
+
+[Sunny] 21:27:00
+And finally, guys, we'll deep dive into each and every question, okay?
+
+[Sunny] 21:27:05
+I will understand each and everything.
+
+[Sunny] 21:27:07
+Okay
+
+[Sunny] 21:27:10
+Perfect. Okay.
+
+[Sunny] 21:27:15
+Thank you. I'll start the session after 15 minutes. Okay, let's start after 18 minutes.
+
+[Sunny] 21:27:30
+Yes, guys, transformer is difficult, actually. It is a difficult architecture, okay? You will have to be adapted. But yeah, I'm breaking as much as possible. I'm breaking into the concepts. I'm breaking all this concept.
+
+[Sunny] 21:27:41
+So maybe if you are not able to understand in this class, just revise this session or just go through with the notes, you will be able to understand.
+
+[Sunny] 21:27:53
+Fine. Thank you, guys.
+
+[Sunny] 21:47:12
+Okay, guys, can we start now?
+
+[Sunny] 21:47:26
+Great.
+
+[Sunny] 21:47:30
+Please call the tokenizer. Yes, that part will come, na, later on also, that part will come, Rehaj, okay? Don't worry, when I will explain the hugging face and all na, that part will come, okay?
+
+[Sunny] 21:47:41
+Yeah.
+
+[Sunny] 21:47:43
+I hope everyone is there. Please let me know in the chat, guys, if you are there, so that we can start with the class.
+
+[Sunny] 21:47:52
+Just, give me quick thumbs up.
+
+[Sunny] 21:48:09
+Okay, let's begin. So, guys, before starting with the concept, let me share the
+
+[Sunny] 21:48:16
+Just a second, okay? Wait.
+
+[Sunny] 21:48:37
+So, guys, as I share the detail of the Smash API,
+
+[Sunny] 21:48:41
+I think I shared the link as well, correct?
+
+[Sunny] 21:48:44
+See, if you will go and check with this HTTPS slash meshapi.ai, no?
+
+[Sunny] 21:48:51
+With this particular link, so we'll get all the models and all. Don't worry, in the next module, we are going to be understand like how to read a model from the different different API. Okay, so once you will get the understanding now how to read a model from the different APIs like Grog API
+
+[Sunny] 21:49:07
+Or from the OpenAI API, Google Gemini API, open router, right? So you can load the model from anywhere
+
+[Sunny] 21:49:15
+Right? From any sort of an API. So mesh API is one of them. So he's our collaborator actually. So he is giving us some free credits as well
+
+[Sunny] 21:49:25
+So, how to avail that pre-credit? Here we have documented all those things. See, just check out over here. I'll share this document with all of you. So what you have to do, guys, see, if you will go and check with this mesh API, meshapi.ai
+
+[Sunny] 21:49:40
+And just check out with their, document
+
+[Sunny] 21:49:44
+Now, just go and check out with the models, right? Available models. Now, over here, you will get some model freely, right? So, couple of models are freely available, and some model are the paid one
+
+[Sunny] 21:49:56
+Okay.
+
+[Sunny] 21:49:58
+See, this model are the paid one. So the good model, basically, and the huge model, right, which is having a good reasoning capability, those are the paid one. But if you wanted to access this model freely, so we are giving you some free credits as well. So how to avail those free credit? So here is a complete information of it
+
+[Sunny] 21:50:15
+Inside this particular document
+
+[Sunny] 21:50:18
+So you can check it out, and you can avail, those free credits, okay? You just need to be… use this Krish, 0125
+
+[Sunny] 21:50:27
+01250 coupon code. Once you will use that, you will not be charged anything, okay? While you are purchasing the API credit, you will not be charged anything if you are going to be used this particular credit. And you can utilize any sort of a model from here, from this particular API.
+
+[Sunny] 21:50:44
+Getting my point? So, I'm sharing all this detail, I'm sharing this document inside the chat
+
+[Sunny] 21:50:49
+Please, go and check over there, okay? I'm putting this particular link inside the chat itself. And even I will provide you inside my notes as well.
+
+[Sunny] 21:50:58
+So, give me a moment, guys, I'm keeping it over here.
+
+[Sunny] 21:51:03
+So, once I'll, sorry, once you got it, please let me know. You can mention
+
+[Sunny] 21:51:08
+inside the chat itself, okay?
+
+[Sunny] 21:51:16
+Just check out with this link.
+
+[Sunny] 21:51:29
+Got it, guys. Give me a quick thumbs up if you got it then.
+
+[Sunny] 21:51:39
+I shared in the committee chat
+
+[Sunny] 21:51:45
+Okay, I'm sharing inside this chat as well. Wait.
+
+[Sunny] 21:52:01
+Okay? Can we start now, if you got it, then, can we start again?
+
+[Sunny] 21:52:14
+Okay, later on you can, later in… later on you can understand all this document and all everything
+
+[Sunny] 21:52:21
+And you can read out this entire document, and how to configure this mesh API. You can understand that as well. Got it?
+
+[Sunny] 21:52:35
+Okay, perfect. So, let's, begin, with our architecture that's, going to be a transformer.
+
+[Sunny] 21:52:42
+So, I hope, guys, whatever concept I have explained you with respect to the transformer, all those concepts are clear.
+
+[Sunny] 21:52:50
+So, now let me give you the quick, let me explain the quick definition, and then we'll deep dive into each one of them.
+
+[Sunny] 21:52:58
+So we're talking about the encoder, okay? So let me write over here
+
+[Sunny] 21:53:06
+And
+
+[Sunny] 21:53:07
+quarter.
+
+[Sunny] 21:53:09
+So first, guys, what we'll do, we'll take a recap, actually
+
+[Sunny] 21:53:14
+How the data is being processed inside the encoder, okay?
+
+[Sunny] 21:53:19
+Let me give you the quick recap of it. Now, we're talking about the concept, so there are several concepts which we need to understand
+
+[Sunny] 21:53:27
+The first concept is going to be a positional encoding
+
+[Sunny] 21:53:31
+Okay?
+
+[Sunny] 21:53:34
+positional encoding. The second concept is going to be
+
+[Sunny] 21:53:40
+self-attention
+
+[Sunny] 21:53:41
+Right?
+
+[Sunny] 21:53:45
+self-attention
+
+[Sunny] 21:53:47
+The third concept is going to be a layer normalization or normalization
+
+[Sunny] 21:53:55
+Okay?
+
+[Sunny] 21:53:58
+The next concept, the next question is going to be, why
+
+[Sunny] 21:54:05
+residual connection
+
+[Sunny] 21:54:09
+Okay.
+
+[Sunny] 21:54:11
+And this next concept is going to be why
+
+[Sunny] 21:54:15
+Neural network.
+
+[Sunny] 21:54:20
+Right, I think these are many questions were there. Question 1, 2, 3.
+
+[Sunny] 21:54:26
+4, 5, right? So this 5 question was there.
+
+[Sunny] 21:54:29
+Now, over here, guys, if we're talking about this particular concept, this particular concept
+
+[Sunny] 21:54:34
+So this concept, actually, we can understand mathematically
+
+[Sunny] 21:54:42
+Okay.
+
+[Sunny] 21:54:44
+So, mathematically, I can explain you how these things works, so maybe, today, I'll give you the high-level overview
+
+[Sunny] 21:54:55
+Level overview
+
+[Sunny] 21:54:59
+Okay, what is the meaning of it? What's the meaning of the positional encoding, and why it is being used?
+
+[Sunny] 21:55:03
+What's the meaning of the layer normalization and why it is being used? And I think self attention introduction I already given you in my previous class, but again, I'll give you the high level overview. And then we'll deep dive into the mathematics.
+
+[Sunny] 21:55:16
+Now, there's two things, actually, it's pretty easy
+
+[Sunny] 21:55:19
+So, this I will explain you today, okay? Here, mathematics is not required. We just need to be answered this thing… two things, two question, why this thing is being used. So we need to understand these two things conceptually
+
+[Sunny] 21:55:37
+Understood.
+
+[Sunny] 21:55:39
+Yes or no?
+
+[Sunny] 21:55:42
+No, mathematical explanation, is not being asked in an interview, right? They will not ask you in an interview. You just need to be understand for your deeper understanding, okay? You just need… we just need to go through with it for the deeper understanding. That's it.
+
+[Sunny] 21:55:56
+So this thing, conceptually, there's two points we need to be
+
+[Sunny] 21:56:00
+understand conceptually and this 3 point basically will take a high-level overview in today's session, and then maybe tomorrow we can understand that mathematically, okay? So one or two more class for the transformer guys
+
+[Sunny] 21:56:11
+And I hope you are enjoying this transformer with me. So, I took the aim just to complete it within 4-5 classes, and I think that would be sufficient. Okay, then we'll move to the other concept like fine-tuning
+
+[Sunny] 21:56:23
+how to load a model from the APIs, okay? RAG and the agentic concept
+
+[Sunny] 21:56:28
+So, guys, if we're talking about the encoder, let's take a recap of it. And, guys, one more thing, after encoder will understand about the decoder also.
+
+[Sunny] 21:56:36
+So inside the decoder, we're talking about the decoder, so it is working in the same way, like encoder is working.
+
+[Sunny] 21:56:42
+But there is some other concept which we need to understand. We're talking about the decoder, so inside the decoder, they discuss, they talked about one particular concept
+
+[Sunny] 21:56:54
+The concert, basically, it is called the cross-attention
+
+[Sunny] 21:56:56
+Okay.
+
+[Sunny] 21:56:58
+Cross attention. And sometimes people are asking this question in an interview, what is a cross attention, how it is working
+
+[Sunny] 21:57:05
+Right? So we'll understand the cross-attention, how it is, working inside the decoder side
+
+[Sunny] 21:57:10
+Okay, so we'll look into that as well.
+
+[Sunny] 21:57:15
+Now, over here, guys, talking about the encoder, so let's take a recap of it, let's go through with this particular architecture one more time, so that we'll get a better clarity right
+
+[Sunny] 21:57:25
+So I hope my architecture is visible. So, are you ready again to understand about it? And then I'll give you the high-level overview of all those things.
+
+[Sunny] 21:57:33
+So guys, if we're talking about
+
+[Sunny] 21:57:37
+Just a second.
+
+[Sunny] 21:57:48
+Just… just give me a moment, guys, okay?
+
+[Sunny] 21:57:53
+Where we are going to discuss about the decoder. Maybe in the next to next class, Dhruv, we'll discuss about the decoder.
+
+[Sunny] 21:58:00
+Got it?
+
+[Sunny] 21:58:03
+Okay, so guys, we're talking about, the encoder, right? How it is working, let's take a quick recap
+
+[Sunny] 21:58:10
+So this is what, guys, this is my data.
+
+[Sunny] 21:58:12
+Okay? This is my data.
+
+[Sunny] 21:58:16
+And this is what, this is my sentence. Anything you can say, right? This is my phrase, this is my data, this is my sentence. So first, what we will do, we'll divide the data into the tokens. Now, tokens is nothing, it is a word actually
+
+[Sunny] 21:58:27
+So this is what? This is my words.
+
+[Sunny] 21:58:30
+Right? Every company, every different, different company, basically, they have trained their own tokenizer
+
+[Sunny] 21:58:37
+Right, so they have trained their own tokenizer. So we can use the tokenizer from the different, different places, right? From the different, different models. Okay, so I will show you that once I'll come to the hugging phase. Hugging Face is having a different, different tokenizer. So, with respect to every model, guys, you will get a tokenizer, okay? So we'll understand the tokenization concept
+
+[Sunny] 21:58:58
+when I will teach you the hugging face. Getting my point?
+
+[Sunny] 21:59:01
+Okay, so token is actually not a word, it is a less than a word. Yeah, it is a verbal explanation of the token, Ronald, right? I know that it is a less than what, okay?
+
+[Sunny] 21:59:11
+Means, they have trained their own algorithm to convert the data into the tokens. So it could be one, 3x4 of the word, it could be 75% of the word, right? Great. Now, over here, guys, this is word, this is my word to back model
+
+[Sunny] 21:59:28
+Okay.
+
+[Sunny] 21:59:29
+This is my word-to-back model. So, is it a pre-trained model, this one?
+
+[Sunny] 21:59:34
+Is it a pre-trained model?
+
+[Sunny] 21:59:37
+No, it is not a pre-trained model, okay? Just a lookup, right? So it is just a lookup, okay? Just a model, basically. It is going to be convert my data into the embedding
+
+[Sunny] 21:59:48
+Now, after… once my token will be passed from here, from this particular model
+
+[Sunny] 21:59:53
+Will I be getting this E1, E2, and E3? Tell me guys
+
+[Sunny] 21:59:57
+Will I be getting this E2, E1, E2, and E3?
+
+[Sunny] 21:59:59
+So, I'll be getting this E1, E2, and E3. So this is what this is my embedded vector
+
+[Sunny] 22:00:05
+Now, can you tell me what is the size of this embedded vector
+
+[Sunny] 22:00:09
+If we're talking about the original research paper, if we're talking about the original research paper, so the size of this embedded vector is going to be 512.
+
+[Sunny] 22:00:18
+Okay. Now, over here, guys, we have a positional encoding layer
+
+[Sunny] 22:00:23
+additional encoding layer. So, first understand the meaning of this positional encoding, and tomorrow, guys, I will explain you the mathematically, okay? So, I have one mathematical derivation also of this positional encoding.
+
+[Sunny] 22:00:35
+So if you will go into… if you will go and check, if you will go and check the research paper of the transformer, so there they have explained the concept of the positional encoding. Okay
+
+[Sunny] 22:00:46
+Now, over here, guys, you can see, let me scroll down. See, this is the attention
+
+[Sunny] 22:00:52
+And using this particular formula, basically, they are going to be generate the positional encoding
+
+[Sunny] 22:00:57
+Can you see this formula? Yes or no? Is it visible to all of you? This one
+
+[Sunny] 22:01:02
+So using this particular formula only, they are going to be generate the positional encoding. So they just created, they just created basically one paragraph to explain about the positional encoding
+
+[Sunny] 22:01:13
+But guys, just by reading this particular paragraph, you will face a difficulty, okay, to understand about the position encoding. So I will give you one very basic example, okay? With that, you can understand. But I can explain you on a high level what is the meaning of it, okay? So let's understand on a high level what is a positional encoding
+
+[Sunny] 22:01:31
+Now, before that, let me explain you one more concept, okay, about the vector. It is a very simple concept, let me write over here.
+
+[Sunny] 22:01:38
+So you need to be understand the difference between the concatenation and the adhesion, right?
+
+[Sunny] 22:01:44
+concatenation
+
+[Sunny] 22:01:49
+And addition.
+
+[Sunny] 22:01:54
+So let's suppose, guys, we have two vector
+
+[Sunny] 22:01:58
+This is my first vector
+
+[Sunny] 22:02:02
+And this is my second vector
+
+[Sunny] 22:02:08
+Now, over here, guys, see
+
+[Sunny] 22:02:10
+If we are saying 123456. If I'm saying I'm going to perform the concatenation, so what I'm doing, guys, tell me
+
+[Sunny] 22:02:17
+So, we are going to be conquet the vector. Okay, what is the meaning of the concatenation? See?
+
+[Sunny] 22:02:23
+The final vector will become like this. It will append the vector, okay? So this vector will be appended over here. So one
+
+[Sunny] 22:02:33
+2
+
+[Sunny] 22:02:35
+3
+
+[Sunny] 22:02:37
+5
+
+[Sunny] 22:02:38
+6, 7. So this is what… this is the concave vector
+
+[Sunny] 22:02:41
+This is what guys tell me. This is called the concatenation operation
+
+[Sunny] 22:02:47
+concatenation operation, okay? Sorry for the, like, wrong spelling, but I think you are able to understand what I'm trying to say.
+
+[Sunny] 22:02:54
+Okay, so it is appending the vector.
+
+[Sunny] 22:02:59
+Appending the vector
+
+[Sunny] 22:03:04
+Now, on the other hand, we are talking about the addition, guys, so what is the meaning of addition? Addition means, basically, we are going to be at two vector, okay? One vector and the two vector. So what will be the final vector over here? We're talking about the addition
+
+[Sunny] 22:03:17
+Tell me, guys. So, on an element level, or on a positional level, guys, we are going to be at the vector. So, 5 plus 1 is going to be 6. 6 plus 2 is going to be 8, and 7 and 3 is going to be 10
+
+[Sunny] 22:03:31
+So this is going to be what? This is going to be adaptive vector
+
+[Sunny] 22:03:36
+Additive vector, okay? Edit tip vector.
+
+[Sunny] 22:03:39
+Tell me, is it carrier to all of you, yes or no? What is the meaning of the concatenation, and what is the meaning of the addition? So if I'm saying addition, guys, addition means we are going to be add the vector
+
+[Sunny] 22:03:50
+Okay.
+
+[Sunny] 22:03:52
+We are going to be at 2 vector
+
+[Sunny] 22:03:56
+Now, if we're talking about the concatenation, concatenation means what concatenation means we are
+
+[Sunny] 22:04:02
+Appending to vector, okay?
+
+[Sunny] 22:04:05
+We are appending the vector
+
+[Sunny] 22:04:07
+Bhagwanda says, no. What else I can explain over here, Bhagwandaji, huh?
+
+[Sunny] 22:04:13
+or a concatenation means appending, addition means addition.
+
+[Sunny] 22:04:17
+2 plus 2 means what? 4. And 2 plus 2, right? If I'm going to be concatenate, so it's going to be 22.
+
+[Sunny] 22:04:25
+Simple.
+
+[Sunny] 22:04:27
+This is the addition, and this is the concatenation, right?
+
+[Sunny] 22:04:31
+Is it clear now? Tell me. Yes or no, guys?
+
+[Sunny] 22:04:35
+I think you are able to understand, okay? Simple and straightforward, that's it.
+
+[Sunny] 22:04:40
+Now, over here, guys
+
+[Sunny] 22:04:48
+Okay, so I was… I was trying to explain you the positional encoding on a high level, on a, basically, some, high level, basically, okay? So, let me do it over here. I can do it over here
+
+[Sunny] 22:04:58
+So, I'm writing one sentence. The sentence is going to be maybe very easy, very simple, a very straightforward sentence. So here I am going to write
+
+[Sunny] 22:05:10
+Sunny
+
+[Sunny] 22:05:11
+Okay, just focus over the sentence, guys. Sunny
+
+[Sunny] 22:05:16
+Sunny
+
+[Sunny] 22:05:17
+is taking
+
+[Sunny] 22:05:19
+Sunny is taking
+
+[Sunny] 22:05:22
+GenAI class
+
+[Sunny] 22:05:25
+GenAI class
+
+[Sunny] 22:05:27
+and teaching
+
+[Sunny] 22:05:29
+Siri is taking denya class and teaching
+
+[Sunny] 22:05:34
+Transformer. So this is what… this is my sentence, guys.
+
+[Sunny] 22:05:39
+Right? Now over here inside this particular sentence
+
+[Sunny] 22:05:42
+Tell me, guys.
+
+[Sunny] 22:05:45
+This word sequence is met this word sequence is important or not
+
+[Sunny] 22:05:51
+This word sequence
+
+[Sunny] 22:05:54
+What sequence is important or not?
+
+[Sunny] 22:05:58
+Tell me. If I'm going to be right, the same sentence like this, if I'm going to be right, the same sentence like this
+
+[Sunny] 22:06:07
+Sunny
+
+[Sunny] 22:06:09
+is
+
+[Sunny] 22:06:11
+Gen AI taking
+
+[Sunny] 22:06:16
+Teaching
+
+[Sunny] 22:06:18
+And
+
+[Sunny] 22:06:20
+Transformer
+
+[Sunny] 22:06:22
+Now, tell me, guys, here the meaning is going to be change.
+
+[Sunny] 22:06:27
+hear the meaning
+
+[Sunny] 22:06:30
+is
+
+[Sunny] 22:06:31
+going to be changed
+
+[Sunny] 22:06:35
+And this is not a correct sentence. This is not a meaningful sentence.
+
+[Sunny] 22:06:41
+This is not a meaningful sentence.
+
+[Sunny] 22:06:43
+So guys, did you understand what I'm trying to say over here? Did you understand what I'm trying to say over here? Tell me. So I'm trying to say over here, here you can see this particular sentence. If I'm passing the data to the model
+
+[Sunny] 22:06:57
+If I'm passing our data to the model, then position matter
+
+[Sunny] 22:07:03
+If I am passing data
+
+[Sunny] 22:07:06
+Okay, if I am passing data
+
+[Sunny] 22:07:11
+If I'm passing data to the model
+
+[Sunny] 22:07:17
+Then
+
+[Sunny] 22:07:21
+Position matter.
+
+[Sunny] 22:07:23
+Is this line true or not?
+
+[Sunny] 22:07:28
+Is this line true or not? Right? Now, to rescue this thing, to rescue this thing, we are going to be use the positional encoding. Now, over here, guys, tell me if we're talking about the model. So what is our model? Which model we are using over here? Can anyone tell me
+
+[Sunny] 22:07:44
+Which model we are talking about? We are talking about the
+
+[Sunny] 22:07:49
+Transformer
+
+[Sunny] 22:07:50
+And guys, if we talking about the transformer, so how to pass the data to the transformer?
+
+[Sunny] 22:07:57
+How we pass data to the transformer
+
+[Sunny] 22:08:00
+Tell me, guys. Tell me, tell me, tell me, how we pass data to…
+
+[Sunny] 22:08:05
+Transformer. So, the question is very, very simple
+
+[Sunny] 22:08:10
+The question… sorry, the question is very, very straightforward, how we pass the data to the transformer. We pay, we pass the data to the transformer
+
+[Sunny] 22:08:18
+In a parallel manner
+
+[Sunny] 22:08:22
+First day, I explained you that
+
+[Sunny] 22:08:24
+If we're talking about the LSTM model, how we were passing data to the LSTM model, tell me guys
+
+[Sunny] 22:08:33
+sequential order.
+
+[Sunny] 22:08:35
+So, in the sequential order, automatically we are going to be preserved the end goal… automatically, we are going to be preserved the position
+
+[Sunny] 22:08:45
+Automatically, we are going to be preserved the position. Tell me, guys, if we're talking about the sequentially, automatically, we preserve
+
+[Sunny] 22:08:58
+We preserve the position
+
+[Sunny] 22:09:03
+Automatically, we preserve the position inside the sequential order which we are passing to the LSTM. But what was the drawback, guys? The drawback, basically, the drawback, basically, the drawback, basically, what was the drawback?
+
+[Sunny] 22:09:19
+The architecture was the slow
+
+[Sunny] 22:09:21
+And we cannot pass
+
+[Sunny] 22:09:24
+We cannot pass
+
+[Sunny] 22:09:26
+Lots of data
+
+[Sunny] 22:09:30
+lots of data
+
+[Sunny] 22:09:35
+So, guys, can we train this LSTM model on a huge amount of data? Tell me, tell me, tell me fast. Can we train this LSTM model on a huge amount
+
+[Sunny] 22:09:47
+That's why community rejected this model.
+
+[Sunny] 22:09:52
+That's why community rejected that model. Then, who came into the rescue? Tell me, who came into the rescue? This transformer came into the rescue.
+
+[Sunny] 22:10:01
+The transformer guy is how we are passing data, we are passing data parallelly
+
+[Sunny] 22:10:07
+But if we are passing data parallelly, then we'll have to preserve the sequence of the data
+
+[Sunny] 22:10:13
+We'll have to preserve the sequence of the data now. Otherwise, this kind of blunder will happen, this kind of blunder will happen.
+
+[Sunny] 22:10:20
+This kind of problem will happen
+
+[Sunny] 22:10:26
+And for that only, guys, what we use… tell me what we use. For this only, we use the
+
+[Sunny] 22:10:35
+Potional and coding.
+
+[Sunny] 22:10:45
+For this only, what we do, guys, we use the positional encoding, making sense
+
+[Sunny] 22:10:56
+Correct?
+
+[Sunny] 22:10:58
+So
+
+[Sunny] 22:10:59
+We were passing data parallel, but we have to maintain the sequence, and for maintaining that sequence, guys, what we are doing, we are going to use the positional encoding, which is going to be define the position of the word
+
+[Sunny] 22:11:11
+Right? Great, guys. Now, let's go back to the architecture over here, and let's understand that again. So we were into this particular stage
+
+[Sunny] 22:11:21
+Okay. We were onto this particular stage, guys, position and coding. Now, which operation we are performing over here?
+
+[Sunny] 22:11:30
+We are doing an addition over here, right? So after that, guys, what will happen? Well, we are getting this particular vector. Now, this is going to be my actual data.
+
+[Sunny] 22:11:39
+This is going to be what, guys? Tell me. This is going to be my actual data. And now this particular data only we are going to be feed this final vector we are going to be feed to the self potential layer. Okay
+
+[Sunny] 22:11:51
+So this particular, this particular, basically, vector only, we are going to be phi to the self-attention layer. Let me write over here
+
+[Sunny] 22:12:01
+This data only, this particular data only.
+
+[Sunny] 22:12:07
+This
+
+[Sunny] 22:12:08
+Data only
+
+[Sunny] 22:12:10
+We pass
+
+[Sunny] 22:12:14
+to the
+
+[Sunny] 22:12:15
+self-attention.
+
+[Sunny] 22:12:17
+Now, what this self-attention is doing? Tell me.
+
+[Sunny] 22:12:21
+What the self-attention is doing. So self-attention basically it is trying to do the word mapping, okay? Means it is trying to find out the word level relation
+
+[Sunny] 22:12:30
+Alright? Which word is depending on which one?
+
+[Sunny] 22:12:33
+So here you can see I kept one example for the high level explanation. I think this I explained in my previous class also. Guys, did I explain this to you in a previous session?
+
+[Sunny] 22:12:44
+Tell me yes or no.
+
+[Sunny] 22:12:46
+So I explained you this particular example in the previous class. So this is my first sentence
+
+[Sunny] 22:12:51
+Sorry, this is my sentence, actually, this is my sentence
+
+[Sunny] 22:12:56
+Okay, and this is my same sentence.
+
+[Sunny] 22:13:00
+So, we are trying to check, we are trying to check this it, actually, it is belonging to which word?
+
+[Sunny] 22:13:07
+What we are checking, guys, tell me, we are checking this it is belonging to which what
+
+[Sunny] 22:13:11
+Okay, so we are checking this word is belong to which word inside the given sentence. And this is where this self-attention is trying to help us.
+
+[Sunny] 22:13:21
+This is where the self-attention is trying to help us
+
+[Sunny] 22:13:25
+This is where a self-attention is trying to help us
+
+[Sunny] 22:13:28
+Okay, so guys, how this thing is being happened, we'll understand in our tomorrow session, in a detail, okay, on a mathematical level, we'll drive that formula. The formula, basically, which I've shown you, this is the formula of the cell potential. So this is a theoretical explanation of the high level overview of the cell potential
+
+[Sunny] 22:13:46
+So I explain you… I explained this thing with one example. So this is my first sentence. I think in the previous session also I explained you that okay now over here guys, this one
+
+[Sunny] 22:13:58
+Deepak is asking how positional encoding is done in parallel processing to maintain order. Deepak, jih, DJ session, may
+
+[Sunny] 22:14:06
+See, this one. What I written over here.
+
+[Sunny] 22:14:11
+I already return a high-level overview in today's session
+
+[Sunny] 22:14:15
+And mathematical explanation in tomorrow's class.
+
+[Sunny] 22:14:19
+Right? Mathematical explanation, tomorrow's class. Then why you are asking this thing?
+
+[Sunny] 22:14:24
+Tomorrow, I will explain you that thing, na
+
+[Sunny] 22:14:27
+Already are written over here
+
+[Sunny] 22:14:29
+Huh?
+
+[Sunny] 22:14:32
+Okay, so guys, over here, you can see, we're talking about the self-attention, so here I clearly mentioned with one example. So this is my sentence one, money bank growth. So if I wanted to represent money, how I will represent it
+
+[Sunny] 22:14:45
+I will represent like this. W1 money, W2 Bank, W3 Grow. Then bank, W1 money, W2 Bank, W3 Grow. Then Grow, W1 money, W2 Bank, W3 Grow. So from where this W1, W2, W2, W3,
+
+[Sunny] 22:15:01
+From where this thing is coming, guys, tell me.
+
+[Sunny] 22:15:03
+This thing is coming using the self-attention formula
+
+[Sunny] 22:15:09
+This thing is coming from the self-attention formula
+
+[Sunny] 22:15:14
+Okay, and guys, this W1, W2, W3 is not a static one, it's going to be changed according to the context. So we are talking about the money
+
+[Sunny] 22:15:23
+So, with respect to that, the W1, W2, W3 will be different. If we're talking about this bank, so with respect to that, this W1, W2, W3 will be different. If we're talking about this grow with respect to that W1, WT, W2 and W3 will be different
+
+[Sunny] 22:15:39
+Okay, what is this W1, W2, W3? It's a weight value. It's a weight value.
+
+[Sunny] 22:15:46
+weight value. Got it, Ruchi? So, over here, this W1, W2, W3 is going to be changed according to the… according to where, according to this particular context, according to this particular word. Likewise, only, we are going to be check which word depend on which particular other word.
+
+[Sunny] 22:16:02
+So, we're talking about this, it over here, how we will represent it, guys, tell me if we're talking about this it, so we'll represent this it like this. W1, the…
+
+[Sunny] 22:16:13
+9 plus W2, Animal
+
+[Sunny] 22:16:21
+whatever word would be there, W and D dash. Okay, so likewise this it is going to be represent, and this word is going to be defined. This weight is going to be defined this weight is going to be defined this weights actually is going to be defined
+
+[Sunny] 22:16:37
+Which word is playing a more importance? So, over here, can you answer one thing? Guys, if we're talking about this it. So, which weight would be higher over here?
+
+[Sunny] 22:16:47
+Just by reading this particular example, which weight would be higher over here? Animal weight is going to be higher
+
+[Sunny] 22:16:55
+And how we will drive this thing, we are going to be drive this thing using this self-attention formula, and this is what self-attention is doing
+
+[Sunny] 22:17:05
+This is what self-attention is doing, making sense to all of you guys. See, here I written one more sentence. River bank flows
+
+[Sunny] 22:17:14
+River Bank Flow, so how we will represent River? Like this. How we will represent bank? Like this. How we will represent flow? Like this.
+
+[Sunny] 22:17:22
+Now, guys, tell me, this W1, W2, W3, this varied value is going to be adjust
+
+[Sunny] 22:17:29
+According to the context of the sentence, tell me yes or no.
+
+[Sunny] 22:17:35
+into the context of the sentence, yes. So this is only a self-attention and this is the formula of it. This is a formula of the self-attention. So tomorrow we can
+
+[Sunny] 22:17:48
+Now, tell me on a high level, position encoding in the self-attention is clear to all of you. On a high level, I am asking
+
+[Sunny] 22:17:59
+Tell me.
+
+[Sunny] 22:18:01
+Yes? So, on a high level, this thing is clear. If still you have a doubt, you can ask me in a doubt session
+
+[Sunny] 22:18:07
+Or basically, you can go through, or you can one more time go through with this entire session. You will understand that part, okay? You will understand that part. Now, over here, guys, the layer normalization. Okay, so tomorrow only we'll discuss about this near normalization. I'm not talking about it as of now
+
+[Sunny] 22:18:22
+This one, this layer normalization, right? Now this three thing is clear means this layer normalization we'll discuss in the next class. And this two thing, position encoding and the self attention is already
+
+[Sunny] 22:18:35
+Klier, on a high level, okay? Mathematically, we'll put more effort into tomorrow's session.
+
+[Sunny] 22:18:40
+But over here, guys, we have two questions still. Why residual connection and why neural network? And before that, we need to understand what is a residual connection. So let's understand that part, guys. So can we understand that part? Can we again go back to the architecture? This is my architecture, guys
+
+[Sunny] 22:18:56
+And guys, the same architecture, you can compare with the actual encoder part
+
+[Sunny] 22:19:02
+The actual encoder architecture, this one, this I shown you, this one inside this particular architecture, this one. Just focus over here. See what we are having. Let me show you. We have an input over here. This is the input
+
+[Sunny] 22:19:13
+Then, we have an embedding layer. Then we have a positional encoding. Then this data we are passing to the multi-retention. Then this is a residual connection. Then this is a normalization layer. Okay, addition, see, they are mentioning the addition, they are not mentioning the concatenation
+
+[Sunny] 22:19:30
+Then we are passing it to the feedforward network. Then this is the residual connection. Then again, we are adding the normalization, getting my point. So the same thing, basically, whatever I draw
+
+[Sunny] 22:19:42
+I draw from here itself, from here itself
+
+[Sunny] 22:19:47
+Making sense
+
+[Sunny] 22:19:54
+Okay.
+
+[Sunny] 22:20:02
+Great, guys. Normalization concert will understand the next class, okay? So, guys, till here everything is fine. I think this particular data is being passed to the self potential, yeah. Now, after passing from the self-attention layer, what is happening, guys? So over here you can see this J12 and J3 is being generated
+
+[Sunny] 22:20:20
+This particular vector is being generated, J1, J2, and J3 vector is being generated.
+
+[Sunny] 22:20:26
+Now, this is what… this is only my contextual embedding.
+
+[Sunny] 22:20:32
+So this is what, guys, this is my contextual embedding.
+
+[Sunny] 22:20:37
+Okay? The, so time, have you learned the short time building? So time building, guys, tell me.
+
+[Sunny] 22:20:45
+Sorta embedding, actually, it comes from here itself. The soda embedding model, which I've shown you, na
+
+[Sunny] 22:20:50
+Are you OpenAI embedding model, Gemini embedding model I showed you, na, state-of-the-art model. So it comes from here only, right? Actually, it is not the output of the multi-art attention layer, it is an output of the encoder, complete encoder block. So we can say this actually this is the SOTA embedding one Y12 Y1 norm, y3 norm
+
+[Sunny] 22:21:07
+Okay, so it normalizes, means it will be again passed to the softmax layer, and then only whatever output will be getting, final one. So that is going to be my… that is going to be what? That is going to be my embedding one, right? So this embedding, actually, it comes from here itself, from this particular architecture only
+
+[Sunny] 22:21:23
+Right? Now, over here, guys, you can see, so this particular data, JD1, JAT2, JAT3, we are getting, and now inside this J12, Jet 3, we are again adding this X1, X2, and X3. This identical information.
+
+[Sunny] 22:21:39
+And…
+
+[Sunny] 22:21:41
+This identical information we are adding over here. So, to add this identical information at this particular stage only, it is only called the residual connection.
+
+[Sunny] 22:21:49
+It is only called the residual connection. Okay, so what is this residual connection? Let me explain you that let me come to that particular part right so I can explain you over here this residual connection. Guys, I will take 10 more minutes and I can do that
+
+[Sunny] 22:22:07
+So we're talking about the
+
+[Sunny] 22:22:10
+Residual connection
+
+[Sunny] 22:22:11
+So, this is not a
+
+[Sunny] 22:22:15
+New concept.
+
+[Sunny] 22:22:19
+Okay. So, this residual connection is also called the escape connection.
+
+[Sunny] 22:22:26
+Have you heard this particular term? Escape connection anywhere
+
+[Sunny] 22:22:31
+Actually, there's a residual connection term, it is coming from the ResNet.
+
+[Sunny] 22:22:36
+Anyone knows about the ResNet?
+
+[Sunny] 22:22:40
+Actually, it is the architecture of the CNN, one of the architecture of the CNN.
+
+[Sunny] 22:22:45
+If you don't know about it, it is fine, okay? If you don't know about it, it is fine.
+
+[Sunny] 22:22:52
+If you don't know about it, it is fine. No need to put effort on top of it, but yeah, this term, actually, it is coming from there itself. Even I can show you the research paper also. So, if you will go and check with a Google, na
+
+[Sunny] 22:23:04
+Just right over here, ResNet research paper, okay?
+
+[Sunny] 22:23:10
+ResNet Research paper. This one. So, once you will write this ResNet research paper, actually
+
+[Sunny] 22:23:17
+You will get it over there. This, residual connection concept. So, first time, this particular concept is introduced in 2015. Now, tell me when this transformer paper have been released.
+
+[Sunny] 22:23:30
+If we're talking about the transformer paper, and which year it had been released. It is released in 2017 or 18.
+
+[Sunny] 22:23:38
+So, after 2 years, basically, this paper has been released. So, this concept, actually, they took from this particular research paper. So what is the title of this research paper, guys? The title of the research paper is the deep residual learning for the image recognition
+
+[Sunny] 22:23:53
+So whenever we are going to be create a deep network, so we keep some information identical. So the information is not going to be lost
+
+[Sunny] 22:24:03
+Information is not going to be lost
+
+[Sunny] 22:24:06
+Getting my point. So, if you wanted to understand about this residual connection and all, means just to get some general knowledge and all, okay, just to get some knowledge about it, the CNN architecture and all, you can check out over here. So see, this is the residual connection, this one. This was a residual connection
+
+[Sunny] 22:24:24
+Okay. So the same concept, basically, same concept, basically, they have introduced inside the transformer architecture over here.
+
+[Sunny] 22:24:32
+If you will look into the transformer architecture, so inside the transformer architecture also, they have used the same thing. Can you see guys this one?
+
+[Sunny] 22:24:41
+Can you see, guys, this one? Is it visible?
+
+[Sunny] 22:24:45
+So this is only called the residual connection. Now what it is, guys, what it is, and why it is metal, why it matters. Let me explain you that part also over here. So we're talking about the residual connection. So this is also called the
+
+[Sunny] 22:25:01
+So this is also called the escape connection, okay, and why we are doing it? So this connection, basically, we are going to be create
+
+[Sunny] 22:25:08
+To keep
+
+[Sunny] 22:25:11
+the information
+
+[Sunny] 22:25:14
+To keep
+
+[Sunny] 22:25:15
+the information
+
+[Sunny] 22:25:18
+To keep the information as it is
+
+[Sunny] 22:25:23
+To keep the information as it is, okay? Or to keep
+
+[Sunny] 22:25:29
+The identical information
+
+[Sunny] 22:25:35
+To keep the identical information. What is the meaning of it? Why we are doing it? Let me tell you that. So, guys, here, let's say, I can give you a basic example, then I kept one slide. With this particular slide, I can explain you that part.
+
+[Sunny] 22:25:48
+So let's say here I am writing what I'm writing guys, I'm giving a very basic example. Okay, let's understand with this particular analogy.
+
+[Sunny] 22:25:56
+So guys, let's say here is a sunny.
+
+[Sunny] 22:26:02
+Right?
+
+[Sunny] 22:26:02
+Now, guys, what is the meaning of Sunny? Can anyone tell me?
+
+[Sunny] 22:26:07
+Let's say I wanted to interpret this sunny. What is the meaning of sunny? Can anyone tell me? Sunny.
+
+[Sunny] 22:26:15
+Sunny. Sunny ka meaning kiahua. Sunny, let's say, sunlight.
+
+[Sunny] 22:26:21
+Someone is saying hero. Oh, great. So sunny is what? Sunny is a sunlight. Take away, sunny cones, sunny sunlight
+
+[Sunny] 22:26:33
+sunlight ko to sani bolt in a sunny day, right? Okay, let's say I'm writing dhup over here.
+
+[Sunny] 22:26:40
+2.
+
+[Sunny] 22:26:41
+Right? Let's say I'm writing bright over here, bright.
+
+[Sunny] 22:26:45
+Bright.
+
+[Sunny] 22:26:46
+Right?
+
+[Sunny] 22:26:47
+Now, guys, now guys just look into this world, right? It is a bright, right? This bright
+
+[Sunny] 22:26:59
+Here, what we have. This is a bright, right?
+
+[Sunny] 22:27:03
+Sunny, do we have Sunny over here? Where is Sunny?
+
+[Sunny] 22:27:06
+We have Bright over here. So we have transformed this world. We have transformed this world
+
+[Sunny] 22:27:13
+We have transformed the information
+
+[Sunny] 22:27:17
+We are… we are doing a transformation of the information, and the information… see, meaning is fine, meaning is same
+
+[Sunny] 22:27:24
+But guys.
+
+[Sunny] 22:27:26
+Actually, whenever we are looking into this information, then the initial… some initial essence is going to be
+
+[Sunny] 22:27:34
+Like, overlook, right? You're not able to find out some initial essence. So what we are doing, so keep this information intact, this bright information intact, what we are doing, we are saying sunny, bright
+
+[Sunny] 22:27:47
+Now, tell me, guys. Now it is making more sense.
+
+[Sunny] 22:27:50
+Now, this bright is making more sense, means sunny is bright.
+
+[Sunny] 22:27:55
+Sunny is bright.
+
+[Sunny] 22:27:58
+Getting my point, yes or no. Did you understood or not? Tell me.
+
+[Sunny] 22:28:03
+Let me explain you one more time, okay? Let's understand it one more time.
+
+[Sunny] 22:28:07
+So, what I wanted to say over here, I wanted to say… see
+
+[Sunny] 22:28:15
+Igbar or samjadita, okay? Don't worry, guys. Again, I'm explaining you that part
+
+[Sunny] 22:28:20
+let's say we have a sunny
+
+[Sunny] 22:28:24
+I am transforming this word, Sunny. Okay, let's say Sunny is what? Sunlight.
+
+[Sunny] 22:28:31
+Again, I transform this data, okay? So Sunny become dhu
+
+[Sunny] 22:28:36
+Again, I transform this data. So, Sunny become bright
+
+[Sunny] 22:28:41
+I'm able to understand sunny meaning is bright, but maybe at this point of time, what I'm thinking, the initial information is being loose
+
+[Sunny] 22:28:51
+If I'm able to do something, if I'm able to do something like this, if I'm going to be connect this Sunny with this bright, if I'm writing like this
+
+[Sunny] 22:29:03
+bright, plus sunny
+
+[Sunny] 22:29:04
+Or sunny bright
+
+[Sunny] 22:29:06
+Tell me guys
+
+[Sunny] 22:29:08
+Now, this time it was making more sense or this time it is making more sense.
+
+[Sunny] 22:29:15
+First time
+
+[Sunny] 22:29:17
+or second time, at which time it is making more sense are a bataansea time pejada batar aye
+
+[Sunny] 22:29:23
+concert time.
+
+[Sunny] 22:29:26
+Bright, sunny bright, right? Sunny bright, right?
+
+[Sunny] 22:29:29
+The same thing we are doing over here, the same thing we are doing over here. We are keeping the information intact actually
+
+[Sunny] 22:29:37
+We are keeping the information intact using this residual connection. What is happening?
+
+[Sunny] 22:29:45
+Here, here, the transform vector is coming from the multi-retention. Now this vector is not going to be lose the context in a longer run. So what we are doing, you know guys, again, we are going to be add this vector, this original vector inside this transform vector
+
+[Sunny] 22:30:03
+And we are getting this particular vector, this vector
+
+[Sunny] 22:30:08
+Understood, what is the meaning of the residual connection?
+
+[Sunny] 22:30:12
+At a residual connection, Kuchenneker, right? Identical information requires. Matlab, Puraniwali information ko utah, yaha pe chipka dia ja sa ki information luza nao.
+
+[Sunny] 22:30:22
+Matlab Sani dhu Bangaya. Sani become dhup, right? Sani is dhup over here. Over here, sorry, sunny is bright over here. But how we will understand bright was the sunny
+
+[Sunny] 22:30:34
+So, we have added these two things, that's it. So, mathematically, we are just doing a addition of the vector
+
+[Sunny] 22:30:42
+Mathematically, we are just doing addition of the vector
+
+[Sunny] 22:30:47
+Understood, guys, tell me, yes or no. So here I return this particular slide, just read it, this particular slide.
+
+[Sunny] 22:30:56
+So, wire residual connection is used? So deep neural network suffers from vanishing gradient issue means the weight is going to be negligible. Weights are not going to be update
+
+[Sunny] 22:31:09
+Weights are not going to be update
+
+[Sunny] 22:31:12
+Okay? Baits are not going to be updated, means the vector is not going to be trans… means the vector information is going to be loose. Training become unstable. Information getting lost.
+
+[Sunny] 22:31:22
+What is the solution? The solution is the residual connection
+
+[Sunny] 22:31:26
+Instead of learning completely new transformation, what we are doing model learns a small improvement over the input. So if you will look over here, if you will look into the encoder, so what we are doing, guys, tell me. So this was my input
+
+[Sunny] 22:31:42
+X1, X2, X3, so over here, we have transformed this vector using the self-attention, and on top of it, again, we are going to be at the same vector. And this particular information, this particular information, we are passing further
+
+[Sunny] 22:31:59
+So, we will be intacting, okay? We are not going to be lose the info.
+
+[Sunny] 22:32:10
+Understood, tell me, yes or no? Is it getting clear to all of you?
+
+[Sunny] 22:32:15
+So here only I return the same explanation, this one
+
+[Sunny] 22:32:19
+Okay, so why it is going to be helped? So, mathematically, we are going to be understand, so better gradient flow. Okay, we are not going to be lose the information weights are going to be updated properly. Faster training prevent information loss.
+
+[Sunny] 22:32:33
+And enable deep staking. And because of this type of thing only, guys, we are able to create a deep network
+
+[Sunny] 22:32:42
+Deco guys see over here. What is the research paper name? If you will look into the residual research paper name, what is the name of it? Tell me
+
+[Sunny] 22:32:50
+Deep residual learning from the image recognition
+
+[Sunny] 22:32:54
+So, because of this kind of concept only, we are able to create a deep network. We are able to create a deep network because of this kind of concept only.
+
+[Sunny] 22:33:05
+It is able to retain the better context, correct.
+
+[Sunny] 22:33:17
+Got it, guys. Why we… basically, we were using the residual connection
+
+[Sunny] 22:33:42
+How is the explanation so far?
+
+[Sunny] 22:34:05
+I think each and every terminology is going to be clear. I told you, Naga, guys, just be with me, everything will be clarified with respect to the transformer and all, okay?
+
+[Sunny] 22:34:15
+Now, guys, the next question, basically, why the feed-forward neural network?
+
+[Sunny] 22:34:19
+So let's see what is happening again, if you will look into this particular flow, basically.
+
+[Sunny] 22:34:28
+So, if you will look into this particular flow, then what is happening?
+
+[Sunny] 22:34:32
+The information, this particular information, basically is going to be passed, okay? So this particular information, J1 norm, J2 norm, and jet3 norm, whatever I'm getting, after the layer normalization
+
+[Sunny] 22:34:43
+So this will be passed to the neural network over here.
+
+[Sunny] 22:34:48
+Now, here is what, here is what, here is the, data from the neural network
+
+[Sunny] 22:34:53
+And then again, this particular data, the residual connection, again, we are performing the residual connection over here. I think you know why we are doing that
+
+[Sunny] 22:35:00
+Okay. And after that, guys, what will happen? We are passing the data from the layer normalization
+
+[Sunny] 22:35:07
+And then we are getting this Y1 norm
+
+[Sunny] 22:35:10
+Y2 and Y3 norm. So, this is my final vector, final data
+
+[Sunny] 22:35:15
+Which we are getting from the encoder.
+
+[Sunny] 22:35:17
+Okay, now over here, guys, if you will see, so we are using a neural network over here
+
+[Sunny] 22:35:22
+So why this feed-forward neural network is there? I kept the reason over here
+
+[Sunny] 22:35:27
+So Fiat… see, we're talking about the self-attention, so what it is doing, it's going to be learn the information across the token, meaning it is trying to find out the word level relation
+
+[Sunny] 22:35:41
+Tell me, yes or no, guys. If we're talking about the self-attention, so it is trying to find out the word level relation. So what this feed forward neural network is doing, so it's going to be processed that data, okay, it's going to be processed the data independently. Each token is
+
+[Sunny] 22:35:58
+is being processed from this particular network. There's a feed-forward network, guys, okay? Just a mathematical equation of that. And this is the architecture of the feedforward network inside the original research paper
+
+[Sunny] 22:36:11
+Original research paper
+
+[Sunny] 22:36:14
+Okay? So this is… this is representing to the input layer
+
+[Sunny] 22:36:21
+This is representative to the hidden layer
+
+[Sunny] 22:36:23
+And this is representing to the output layer. So, input layer is there
+
+[Sunny] 22:36:28
+The dimension of the input layer was the 512, then dimension of the hedal layer was the 2048
+
+[Sunny] 22:36:35
+And then, dimension of the output layer, okay? So this particular layer, the dimension was this particular layer. This was the 512, means 512 dimension vector was being passed over here
+
+[Sunny] 22:36:48
+Okay, then this is 2048
+
+[Sunny] 22:36:52
+And this is again 50512 basically
+
+[Sunny] 22:36:56
+Okay.
+
+[Sunny] 22:36:57
+So this was a dimension. Now, why basically we were doing that, so that we can learn the complex pattern from the data. Again, we can decode the information from the vector, from the data
+
+[Sunny] 22:37:08
+Okay
+
+[Sunny] 22:37:09
+Again, we can decode the information, decode the information from the data
+
+[Sunny] 22:37:16
+Right? Just a second, guys. Again, we can, decode the information from the data
+
+[Sunny] 22:37:23
+Or, we can add some non-linearity, right? Nonlinear pattern inside the data. Means we can capture some non-linear behavior of the data
+
+[Sunny] 22:37:32
+Getting my point. So just to learn some more complex pattern from the data, after the self-attention, they have used this particular neural network
+
+[Sunny] 22:37:46
+Understood, guys, yes or no?
+
+[Sunny] 22:37:48
+So the data is being passed from the neural network, and they were trying to be decode the data more and more, and they were trying to find some nonlinear pattern from the data. I can explain you that see
+
+[Sunny] 22:38:02
+If we're talking about the data
+
+[Sunny] 22:38:05
+So
+
+[Sunny] 22:38:07
+How could we be the data guys? See, the data could be like this. Let's say this is the data which I'm drawing. Okay, this is just an example guys, this one
+
+[Sunny] 22:38:16
+This is just an example, okay? This is the data.
+
+[Sunny] 22:38:20
+Now, if we have a linear model, so how the linear model looks like, this is a linear model, guys.
+
+[Sunny] 22:38:26
+Okay, so this linear model actually
+
+[Sunny] 22:38:31
+Linear model. Have you learned the linear regression?
+
+[Sunny] 22:38:36
+Linear regression.
+
+[Sunny] 22:38:38
+So it's my linear regression, right?
+
+[Sunny] 22:38:41
+So we create a best fit line over here. Now, we're talking about the neural network. So the neural network will not be like this
+
+[Sunny] 22:38:49
+Okay.
+
+[Sunny] 22:38:51
+The neural network will not be like this, and that's why, guys, neural network is performing well
+
+[Sunny] 22:38:57
+On top of this
+
+[Sunny] 22:38:59
+regression model. So let's say this is my data, right? This is my data. So how the neural network would be the neural network would be like this
+
+[Sunny] 22:39:09
+So this is what… this is my neural network
+
+[Sunny] 22:39:12
+So, neural network add nonlinearity neural network capture the nonlinear pattern from the data
+
+[Sunny] 22:39:23
+non-linear pattern
+
+[Sunny] 22:39:26
+From the data.
+
+[Sunny] 22:39:30
+It captured the complex pattern from the data
+
+[Sunny] 22:39:38
+It is going to be captured the complex pattern from the data
+
+[Sunny] 22:39:43
+On the other hand, if we're talking about the linear model, so it's a state forward. It's not going to be captured the complex pattern, right? So just to capture this complex pattern of the data
+
+[Sunny] 22:39:54
+After the self-attention, after the self-attention, after the self-attention
+
+[Sunny] 22:40:03
+Okay. After the self-attention means the world-level attention
+
+[Sunny] 22:40:09
+word level attention
+
+[Sunny] 22:40:11
+Further, if we wanted to capture the more complex pattern from the data
+
+[Sunny] 22:40:17
+more complex pattern from the data
+
+[Sunny] 22:40:20
+more complex pattern from the data. For that, guys, they have used the neural network
+
+[Sunny] 22:40:27
+The idea is very, very simple to decode information more
+
+[Sunny] 22:40:33
+To decode information more
+
+[Sunny] 22:40:40
+Understood, guys, yes or no, tell me, how is the explanation so far? Did you understand all this concept?
+
+[Sunny] 22:40:46
+Why this, that, and all
+
+[Sunny] 22:40:48
+So will you revise all this thing?
+
+[Sunny] 22:40:51
+Okay, so this is the encoder explanation, encoder explanation, guys.
+
+[Sunny] 22:40:56
+Okay, now over here, guys, these many things we have to be discussed. I return over here. So, conceptually, I have explained you this thing. If someone is going to be asked in an interview, please explain that in a same way. They will not ask you anything more. This concept you understand on a high level. So did you understand this concept on a high level, guys? Tell me yes or no
+
+[Sunny] 22:41:18
+Now, again, we'll deep dive into this particular concept, and tomorrow, again, I will take one more session about the transformer and next to next week, guys, we'll understand the component of the decoder, and then I'll share the code with you, and then I'm going to be wrap up this transformer.
+
+[Sunny] 22:41:34
+Okay? And then we'll… we are going to be, then, guys, we are going to be entering our actual generative AI, modern generative AI route that's going to be a LLM
+
+[Sunny] 22:41:46
+large language model will understand how to access the LLM using the API, how to perform the fine tuning and all everything will understand
+
+[Sunny] 22:41:56
+Okay.
+
+[Sunny] 22:42:01
+Great, fine, thank you guys, I think we are done for today's, we are done, I think, with today's session.
+
+[Sunny] 22:42:07
+So, I hope you liked the explanation and all everything. So, tell me, guys, how much you would like to rate, if you have any sort of a doubt, you can ask me in a doubt session, okay?
+
+[Sunny] 22:42:18
+Yes, Vishnu, I'll check that, and I'll reply to you. Don't worry.
+
+[Sunny] 22:42:22
+Vishnuvarda. Okay
+
+[Sunny] 22:42:30
+Okay.
+
+[Sunny] 22:42:31
+Fine, guys, so it's your time now, it's your turn, please try to revise all this concept, and after that, again, we'll meet inside the next session. If you don't have any doubt, guys, you can drop the session. Okay
+
+[Sunny] 22:42:49
+Yeah, I'm pushing the co… I'm pushing all the, basically notes and all everything. Just a second.
+

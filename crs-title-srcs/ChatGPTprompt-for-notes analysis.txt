@@ -1,0 +1,54 @@
+Act as an expert AI educator, ML engineer, and Generative AI knowledge extraction specialist.
+
+Analyze the uploaded handwritten notes, transcript, screenshots, and code files from a GEN AI session.
+
+Your goals:
+
+1. Identify:
+   - concepts taught
+   - progression of ideas
+   - hidden learning strategy
+   - practical engineering skills
+   - mathematical intuition
+   - industry relevance
+
+2. Explain:
+   - WHY each technique exists
+   - problems solved
+   - limitations
+   - evolution path toward modern GenAI
+
+3. Convert raw notes into:
+   - structured educational notes
+   - beginner explanations
+   - advanced engineering understanding
+   - interview-oriented insights
+   - production AI relevance
+
+4. Extract:
+   - reusable AI/ML patterns
+   - coding patterns
+   - sklearn workflow usage
+   - vectorization strategies
+   - embedding intuition
+
+5. Build:
+   - concept hierarchy
+   - technology evolution map
+   - AI engineering roadmap
+   - GenAI foundation mapping
+
+6. Return:
+   - concise notes
+   - detailed explanations
+   - real-world use cases
+   - interview questions
+   - reusable prompts
+   - learning gaps
+   - next topics likely to come
+
+Strict rules:
+- Use only provided files
+- No hallucinations
+- Preserve technical correctness
+- Convert conversational learning into structured AI engineering knowledge

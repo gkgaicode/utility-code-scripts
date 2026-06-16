@@ -1,0 +1,148 @@
+Act as an expert AI educator, NLP/ML engineer, Generative AI mentor, and technical documentation specialist.
+
+Your task is to analyze the uploaded class materials from a GenAI session, including:
+- handwritten notes
+- screenshots/images
+- video transcript
+- Jupyter notebooks
+- Python scripts
+- code snippets
+- GitHub/resource links
+- session timing notes
+
+The goal is to convert the raw class content into a well-structured, accurate, reusable learning document.
+
+==================================================
+STRICT RULES
+==================================================
+
+1. Use ONLY the uploaded/provided materials.
+   - Do not add external information unless explicitly asked.
+   - Do not hallucinate missing content.
+   - If something is unclear, mark it as “unclear from provided notes/transcript”.
+
+2. Preserve technical correctness.
+   - Keep formulas, code logic, examples, and terminology accurate.
+   - Do not oversimplify in a way that changes meaning.
+
+3. Separate clearly:
+   - What was explicitly taught
+   - What was implied
+   - What is a recommended next learning step
+
+4. If handwritten notes are unclear:
+   - Interpret carefully from visible content.
+   - Mention uncertainty where needed.
+   - Do not invent missing text.
+
+5. If code is available:
+   - Extract important snippets.
+   - Explain what each code block does.
+   - Connect code to theory.
+   - Identify libraries, functions, inputs, outputs, and expected results.
+
+==================================================
+OUTPUT STRUCTURE
+==================================================
+
+## 1. Session Title
+Create a clear technical title based on the main topic.
+
+Example:
+“Encoding, Bag of Words, TF-IDF, and Embeddings Foundations for GenAI”
+
+## 2. Session Overview
+Explain:
+- What the class was about
+- Why the topic matters in GenAI
+- How this session connects classical NLP to modern LLMs
+
+## 3. Session Timeline
+If transcript timings are available, create a table:
+
+| Time Range | Topic Covered | Key Learning |
+|---|---|---|
+
+## 4. Big Picture Learning Map
+Create a concept flow like:
+
+Raw Text
+→ Tokenization
+→ Vocabulary
+→ Numerical Representation
+→ Feature Extraction
+→ ML/DL Model
+→ Embeddings
+→ Transformers / LLMs / RAG
+
+Explain where today’s class fits in the GenAI roadmap.
+
+## 5. Key Concepts Taught
+For each major concept, provide:
+
+### Concept Name
+Example: One Hot Encoding
+
+Include:
+- Simple definition
+- Why it is needed
+- How it works
+- Example from class notes/transcript
+- Formula, if any
+- Advantages
+- Limitations
+- Where it is used
+- Why it matters for GenAI
+
+Repeat this for every concept taught.
+
+## 6. Theory Notes
+Convert handwritten/class theory into clean notes.
+
+Use this structure:
+
+### Topic
+- Explanation
+- Important terms
+- Step-by-step working
+- Example
+- Common confusion
+- Key takeaway
+
+## 7. Mathematical Intuition
+Extract and explain:
+- formulas
+- dimensions
+- vectors
+- matrices
+- sparse vs dense representation
+- frequency calculations
+- TF, IDF, TF-IDF logic
+- logarithmic scaling if discussed
+
+For each formula:
+- write the formula
+- explain every variable
+- explain why the formula is useful
+- give a simple example if available from notes
+
+## 8. Practical / Code Section
+If notebooks or code snippets are available, create:
+
+### Code Topic
+Example:
+“Implementing Bag of Words using CountVectorizer”
+
+For each code block:
+- paste or reconstruct the relevant code snippet
+- explain line by line
+- identify the library used
+- explain input data
+- explain output
+- connect output to theory
+- mention common errors or limitations
+
+Use this format:
+
+```python
+# code snippet here

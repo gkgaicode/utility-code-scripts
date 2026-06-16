@@ -1,0 +1,3 @@
+00:10:00: Session_start
+1:29:00 to 1:45:00 => break
+02:40:00 : Class finish 

@@ -1,0 +1,3 @@
+Explanation on Self attention, Multi headed self-attention and Layer normalisation
+Break starts : 01:30:00 - 01:50:00
+Class Finish : 02:38:00

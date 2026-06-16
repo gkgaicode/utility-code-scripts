@@ -1,0 +1,10 @@
+Resource: https://github.com/sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0/tree/main/Class-04-04-Apr 
+
+Class Start : 00:06:00
+00:06:00 - 00:42:15 One hot encoding theory
+00:42:15 - 01:18:50 One hot encoding practical
+01:18:50 - 01:39:00 Break 
+01:39:15 - 01:57:20 Bag of words Theory
+01:57:20 - 02:33:00 Bag of words Practical
+02:36:00 Session closed 
+Doubts

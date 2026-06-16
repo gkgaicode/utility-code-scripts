@@ -1,0 +1,9 @@
+ https://github.com/sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0/tree/main/Class-05-05-Apr 
+
+class starts : 00:04:00
+00:04:00 : 01:16:53-=TF-IDF Theory and practical
+01:17:00 - 01:33:00 Break
+01:33:00 - 02:25:00 Word2Vec Theory
+02:25:00 - 02:36:00 Assignment Questions discussion
+02:38:00- 02:43:00 Break 
+02:41:00 - end Doubts

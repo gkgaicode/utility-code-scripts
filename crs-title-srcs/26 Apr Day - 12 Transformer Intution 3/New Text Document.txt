@@ -1,0 +1,6 @@
+
+One of the best explanations of Positional encoding.
+
+Break : 01:22:30-01:42:45
+Class finish : 02:25:00
+Doubts : 02:35:00

@@ -1,0 +1,20 @@
+
+18 Apr Day - 9 SOTA Embedding model
+
+---------------
+
+
+1:10 to 1:28 break
+
+
+
+Had an ```error related to PyTorch DLL initialization failure on Windows``` using a CPU when trying to import SentenceTransformer.
+Finally worked for me using conda. Might be helpful for someone
+```conda create -n env python=3.11```
+```conda activate env```
+Install PyTorch via conda.
+```conda install pytorch==2.2.2 torchvision==0.17.2 cpuonly -c pytorch```
+Then install the other packages in requirements.txt
+
+
+please attach requirement.txt file also in github
