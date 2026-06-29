@@ -1,0 +1,1 @@
+Fine-tuning practical: Open-AI file upload - 43:43 >> fine-tuning - 56:28 >> fine-tuning job creation - 01:04 >> Break-over - 01:39 >> Fine-tuning completed - 01:42:20 >> Inferencing start - 01:44 >> LORA - 02:01:30

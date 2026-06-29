@@ -1,0 +1,5783 @@
+WEBVTT
+
+1
+00:00:05.522 --> 00:00:10.062
+Sunny: Hello everyone, I'm Audible. Can you please confirm in the chat?
+
+
+2
+00:00:11.882 --> 00:00:16.501
+Sunny: So let's begin with the class. I hope you can hear me.
+
+
+3
+00:00:17.482 --> 00:00:21.732
+Sunny: So, good evening to all of you. Let's, begin with the session.
+
+
+4
+00:00:22.842 --> 00:00:25.112
+Sunny: Can you see my screen?
+
+
+5
+00:00:35.532 --> 00:00:36.842
+Sunny: Okay, great.
+
+
+6
+00:00:59.322 --> 00:01:03.482
+Sunny: Perfect. So, let's, begin, let's, start with the session.
+
+
+7
+00:01:03.592 --> 00:01:12.331
+Sunny: So, guys, in the previous class, I think we were talking about the, LoRa, right? So, what we have discussed in the previous session.
+
+
+8
+00:01:12.872 --> 00:01:14.571
+Sunny: Can anyone tell me in the chat?
+
+
+9
+00:01:17.522 --> 00:01:23.002
+Sunny: multi-model fine-tuning. Right. So in the previous class, basically, we were talking about the…
+
+
+10
+00:01:23.192 --> 00:01:36.301
+Sunny: multi-model fine-tuning. Now, in today's class, guys, we'll discuss a couple of more techniques of the fine-tuning. So, we'll focus over the GPT model, okay? We'll see how, basically, we can,
+
+
+11
+00:01:36.302 --> 00:01:48.022
+Sunny: fine-tune the OpenAI-based model, and then I will, explain you some theoretical stuff, okay? Some theoretical point. And, guys, one more thing is pending. RLHF is also pending.
+
+
+12
+00:01:48.082 --> 00:01:57.021
+Sunny: So, if time will permit to me, then I will discuss in today's class, otherwise I will discuss in the next class. Got it?
+
+
+13
+00:02:02.182 --> 00:02:03.012
+Sunny: Great.
+
+
+14
+00:02:06.022 --> 00:02:18.191
+Sunny: yeah, vision-based fine-tuning that we have already discussed in our previous session. So, let me check out with all the resources and the videos as well. So, video is updated, correct?
+
+
+15
+00:02:18.692 --> 00:02:21.161
+Sunny: Have you checked with the dashboard?
+
+
+16
+00:02:31.522 --> 00:02:39.882
+Sunny: Yes, so video is here, I can see the video and the resource you will get inside the GitHub.
+
+
+17
+00:02:44.722 --> 00:02:58.821
+Sunny: So, here is the resources, and here is a video. So, don't worry, guys, this, all the resources, these all the resources, it will be available under the resource section also. Got it?
+
+
+18
+00:02:58.822 --> 00:03:10.381
+Sunny: Great. So, can we start, give me quick confirmation so that I can start with the session, and we can discuss, the different, technique of the fine-tuning.
+
+
+19
+00:03:10.752 --> 00:03:18.572
+Sunny: I just want a quick confirmation in the chat. If everyone is there, please let me know so that we can start.
+
+
+20
+00:03:23.812 --> 00:03:31.281
+Sunny: What class was taken on? This is still not updated. Okay, Dinesh, I will do that. I will do it after this class. Okay, after the session.
+
+
+21
+00:03:41.642 --> 00:03:43.582
+Sunny: Yeah, good morning, good evening.
+
+
+22
+00:03:50.242 --> 00:03:51.132
+Sunny: Good.
+
+
+23
+00:03:52.072 --> 00:03:57.992
+Sunny: So, first of all, guys, what I will do, I will create a new collab notebook.
+
+
+24
+00:03:58.472 --> 00:04:05.491
+Sunny: So, inside that notebook only, I will write my further code, okay? I will create a new notebook.
+
+
+25
+00:04:05.792 --> 00:04:09.102
+Sunny: So, let me create one more folder here.
+
+
+26
+00:04:11.342 --> 00:04:15.581
+Sunny: So, this is what? This is class 26.
+
+
+27
+00:04:20.302 --> 00:04:23.021
+Sunny: And the date is 21st of June.
+
+
+28
+00:04:43.632 --> 00:04:55.101
+Sunny: Yeah. So, guys, I will keep the entire code and all everything inside this particular folder, okay? So I will update in some time. I will update the code, the latest code, in some time. Got it?
+
+
+29
+00:05:00.082 --> 00:05:00.862
+Sunny: Okay.
+
+
+30
+00:05:01.512 --> 00:05:05.442
+Sunny: So, let's, do one thing. Let's,
+
+
+31
+00:05:06.612 --> 00:05:14.862
+Sunny: let's create a new notebook, okay? And there only I will write the entire code and all. So, just give me a moment, guys.
+
+
+32
+00:05:41.102 --> 00:05:41.972
+Sunny: Okay.
+
+
+33
+00:05:42.532 --> 00:05:46.501
+Sunny: So, here I'm going to open my collab, and then I will create a new notebook.
+
+
+34
+00:05:54.952 --> 00:06:00.292
+Sunny: I will share this notebook so that, in the runtime only, you can follow to me. Got it, Mohan?
+
+
+35
+00:06:04.272 --> 00:06:09.302
+Sunny: Yes, prompting, will be the part of the, RAG chapter.
+
+
+36
+00:06:10.702 --> 00:06:11.912
+Sunny: Got it, Tanil?
+
+
+37
+00:06:13.722 --> 00:06:16.152
+Sunny: So, let me write a name over here.
+
+
+38
+00:06:18.042 --> 00:06:20.691
+Sunny: Custom, okay, GPT.
+
+
+39
+00:06:23.092 --> 00:06:23.942
+Sunny: Fine.
+
+
+40
+00:06:24.432 --> 00:06:25.332
+Sunny: Tuning.
+
+
+41
+00:06:26.852 --> 00:06:36.992
+Sunny: Okay, so I hope this is clear. Now what I can do, I can connect with the GPU. So now tell me, guys, for this GPT fine-tuning, do we require GPU?
+
+
+42
+00:06:40.612 --> 00:06:48.652
+Sunny: So, for this fine-tuning, we don't require GPU, because this GPT fine-tuning, we are not going to perform on our own server.
+
+
+43
+00:06:50.332 --> 00:07:08.072
+Sunny: Got it? So this GPT fine-tuning, we are not going to perform on our own server, means over the Google collab, right, over here. So this fine-tuning will be directly performed over the OpenAI server. We just have to provide some command to that. We just have to provide some command to the OpenAI,
+
+
+44
+00:07:08.172 --> 00:07:14.252
+Sunny: And we can directly perform the fine-tuning, we can directly create our own custom GPT. Got it?
+
+
+45
+00:07:17.942 --> 00:07:18.842
+Sunny: Okay.
+
+
+46
+00:07:19.212 --> 00:07:31.461
+Sunny: Sunny, whatever we have studied till now, is that enough, or apart from this to revise, can you give us some money percentage? We need Python? Yes, Python should be good. Excel and Tableau, this is not required. Ashwini.
+
+
+47
+00:07:31.592 --> 00:07:36.251
+Sunny: So for the AI role, for the genitive AI role, that is not required. Okay?
+
+
+48
+00:07:39.612 --> 00:07:45.112
+Sunny: New batch, I think it has already started, Sagar, so it has started from today onwards.
+
+
+49
+00:07:45.402 --> 00:07:56.342
+Sunny: Okay? From 16th, I don't think so there is any new batch in this month. Maybe next month you can check out, okay? All the detail you will get over the krishnayak.in website.
+
+
+50
+00:08:07.392 --> 00:08:13.431
+Sunny: Great. So, guys, for this fine-tuning, actually, you required the OpenAI key.
+
+
+51
+00:08:13.522 --> 00:08:27.482
+Sunny: Without OpenAI key, you cannot perform this, GPT fine-tuning. Got it? So, if you have OpenAI key, then only you can perform the GPT fine-tuning. So, did we generate the OpenAI key in the previous classes?
+
+
+52
+00:08:32.732 --> 00:08:49.322
+Sunny: So, did we generate any API key in the previous classes? I think we generated the API key, right? OpenAI API key. So, I'm going to use the same API key, okay? I'm going to use the OpenAI API key for this GPT fine-tuning.
+
+
+53
+00:08:49.442 --> 00:08:56.642
+Sunny: If you don't have that, if you cannot generate it, if you don't want to spend the money, right, you can escape this GPT fine-tuning.
+
+
+54
+00:08:57.002 --> 00:09:05.131
+Sunny: But I will give you some idea that how you can create your own custom GPT, okay? How you can train that GPT model. Got it?
+
+
+55
+00:09:07.542 --> 00:09:08.382
+Sunny: Indeed.
+
+
+56
+00:09:09.402 --> 00:09:25.152
+Sunny: SQL, again, in-depth SQL is not required. It is required for the data science role, for the ML role, for the generative AI, you don't need to be, like, master of the SQL, okay? In one of the interviews, they're going to be asked according to the requirement, then,
+
+
+57
+00:09:25.152 --> 00:09:32.661
+Sunny: It might be, but again, there is, like, very less chances anyone will ask the SQL in the genitive AI interview. Got it?
+
+
+58
+00:09:34.502 --> 00:09:51.261
+Sunny: Great. So this OpenAI, basically, it's a closed source model. So let's begin, let's start, let's discuss everything from the starting itself. So if everyone is ready, just give me a quick thumbs up, and even I can share this notebook, so that we can, start with our class, okay?
+
+
+59
+00:09:51.542 --> 00:09:56.042
+Sunny: So, copying this link and pasting it inside the chat itself.
+
+
+60
+00:09:56.602 --> 00:10:16.101
+Sunny: So guys, please take the link, please open the link I given you inside the chat, okay? And let me connect with the GPU or CPU. So here, I don't require the GPU, because we are not going to perform this fine-tuning over our server, so we'll be doing over the OpenAI server itself, right?
+
+
+61
+00:10:16.102 --> 00:10:24.561
+Sunny: So, let me connect with the CPU itself. Now, here I can check whether everything is working fine or not. So, let me write all. Okay.
+
+
+62
+00:10:28.312 --> 00:10:32.231
+Sunny: Yes, you can perform this spectacle in the local as well.
+
+
+63
+00:10:35.312 --> 00:10:41.902
+Sunny: Yeah, you can use the local model using Ola Maharti, that is possible. I already discussed that part in the previous classes.
+
+
+64
+00:10:44.342 --> 00:10:49.391
+Sunny: Right? So guys, open your Google and write the GPT fine-tuning over there.
+
+
+65
+00:10:49.522 --> 00:11:08.381
+Sunny: So, right, OpenAI, GPT, GPT, fine-tuning, OpenAI. So, you will get some article from the OpenAI itself, that how you can perform the fine-tuning, okay? So, it is saying fine-tuning now available for the GPT 4.0. Not for the GPT 4.0, it is available for some other model as well.
+
+
+66
+00:11:08.422 --> 00:11:11.151
+Sunny: But it is not available for all the models.
+
+
+67
+00:11:11.722 --> 00:11:21.141
+Sunny: It is not available for all the models. It is available for a couple of models, okay? So, guys, do one thing, just to go through with their,
+
+
+68
+00:11:21.142 --> 00:11:38.911
+Sunny: basically, pages, right? The official pages. There, they have given you most of the detail. Okay, which model you can fine-tune, what will be the cost of the fine-tuning, everything, basically, they have given over there itself. So, this is, one of the article. Let's see what information they have given over here.
+
+
+69
+00:11:38.912 --> 00:11:54.462
+Sunny: So, they have, discussed about what the fine-tuning one see. So, updated, OpenAI binding down fine-tuning platform. The platform is no longer accessible as new user, but existing user for fine-tuned platform will be available.
+
+
+70
+00:11:54.512 --> 00:11:57.542
+Sunny: Create training jobs for the coming month, right?
+
+
+71
+00:11:57.542 --> 00:12:19.932
+Sunny: So, all the fine-tuned model will remain available for the inference until their base model are deprecated. So, they are saying, they are not supporting the fine-tuning for the new model, right? But for the existing user, you can perform the fine-tuning. You can do, that knowledge, change, right, inside the model. You can create your own custom GPT model. Custom GPT means what?
+
+
+72
+00:12:19.932 --> 00:12:27.382
+Sunny: Whatever model they are providing, on top of that, you can add on your own knowledge. So that is a meaning of the fine-tuning, correct?
+
+
+73
+00:12:28.272 --> 00:12:53.222
+Sunny: That is a meaning of the fine-tuning. So, can we do using the Azure Foundry? Yes. If it is, there using, from the Azure Foundry, you can perform from there as well, because in the companies, we are using the Azure Foundry, right? We are using the AWS Bedrock, we are using Azure Foundry. If Azure Foundry is supporting the fine-tuning of the GPT model, or any other model, right, you can do from there as well.
+
+
+74
+00:12:53.222 --> 00:13:17.311
+Sunny: Getting my point? But the process would be the similar one. There also, you are going to be configuring the model, generating the API key, right? And then you are going to be installed their Python SDK, and then, basically, you can perform the fine-tuning. So, the process is not going to be changed, okay? The process is going to be similar, like this only, but yeah, the platform will be different.
+
+
+75
+00:13:17.442 --> 00:13:35.462
+Sunny: Because Azure Cloud Foundry is a managed services from… managed service from the Azure itself. And in the industry, basically, instead of using this OpenAI directly, we are preferring that Azure Foundry or the AWS Bedrock. I think AWS Bedrock is not supporting the GPT fine-tuning, or any kind of fine-tuning.
+
+
+76
+00:13:35.462 --> 00:13:41.701
+Sunny: But it is giving a versatile support for the, RAG system and for the agentic system, okay?
+
+
+77
+00:13:41.832 --> 00:13:55.192
+Sunny: Great, guys. So, you can see over here, so today we are launching fine-tuning for the GPT-40 model, requested feature from the developer, okay? So, this is the detail, guys. Here you can see model customization is available, so just, check out with this hyperlink.
+
+
+78
+00:13:55.302 --> 00:14:20.132
+Sunny: you will get some more detail about it. Okay, so how, basically, you will get that fine-tuned model, or something like that. So, you can directly visit the OpenAI website as well. There also, you will, get… what you will get, guys, there also, basically, you will get the, fine-tuned, fine, fine-tuning related information. And after the fine-tuning, your model will be listed over there, right? So, let me log in with one of the, mail
+
+
+79
+00:14:20.132 --> 00:14:25.432
+Sunny: So, what I can do, guys, I can log in in the different browser. So, just a second.
+
+
+80
+00:14:25.432 --> 00:14:28.442
+Sunny: I'm going to log in in the different browser.
+
+
+81
+00:14:29.352 --> 00:14:33.181
+Sunny: So, here, guys, I logged in. Now, see?
+
+
+82
+00:14:34.082 --> 00:14:41.201
+Sunny: In the left-hand side, you will get the detail of the fine-tuning. See, over here, I, performed the fine-tuning in my…
+
+
+83
+00:14:41.772 --> 00:15:04.021
+Sunny: previous classes, and when I was practicing, actually. So, at that time, we have done that. Now, here, you can see we are winding down the fine-tuning platform over the coming months. Learn about the specific timeline here. So, let's see whether we can fine-tune in today's class or not, okay? Because here you can see some message from the OpenAI side. So, they are saying, basically, fine-tuning is,
+
+
+84
+00:15:04.022 --> 00:15:18.121
+Sunny: not available for some time. Okay, for the new user, if someone is getting, if someone is onboarding, right, if someone is trying to fine-tuning as a new user, for that, the fine-tuning is not available. Let me check whether I can do it or not.
+
+
+85
+00:15:18.122 --> 00:15:18.952
+Sunny: Right?
+
+
+86
+00:15:18.952 --> 00:15:42.412
+Sunny: So, I did it inside this year only. Now, here you can see, in the first month of January, I did it right. Then I tried multiple times. So, this is my one of the ID, okay? Here, I performed the fine-tuning. In my other ID also, I did that fine-tuning. Getting my point, guys? So, you can see the model, basically, on which model, on whichever model I have performed the fine-tuning. So, I have used this GPT-4.1
+
+
+87
+00:15:42.412 --> 00:16:01.122
+Sunny: Right? I have used the GPT 4.0, I have used this GPT 3.5 Turbo, right? So these many models I have used for the fine-tuning. Getting my point? Yes or no? So you can see the complete detail, we'll do the fine-tuning over here as well, over the dashboard itself. Making sense to all of you? Tell me yes or no, is it getting clear?
+
+
+88
+00:16:01.792 --> 00:16:05.652
+Sunny: Now, I can directly search supporting model.
+
+
+89
+00:16:05.992 --> 00:16:07.422
+Sunny: Supporting.
+
+
+90
+00:16:09.422 --> 00:16:18.221
+Sunny: OpenAI model for fine-tuning. So, if you will search like this, you will get the supported model also, that water model is being supported.
+
+
+91
+00:16:18.222 --> 00:16:31.262
+Sunny: So GPT 4.0, GPT-4.1, GPT 3.5, so this particular model, you can utilize it, you can utilize for the fine-tuning, okay? You can directly check out. I think they have given you the list.
+
+
+92
+00:16:31.262 --> 00:16:40.622
+Sunny: So, they have given the list, GPT 4.1, GPT 4.1 Mini, GPT 4.1 Nano, so this particular model, you can fine-tune.
+
+
+93
+00:16:40.622 --> 00:17:05.402
+Sunny: Right? So you can, basically fine-tune. So, they have… they are providing you the various articles and all, and you can go through with this particular article, and you can gather some information about the fine-tuning. But again, this is not a very frequent practice, even in the industry, what I have seen. So, most of the people, basically, are not following this particular approach. Okay, some companies are doing it.
+
+
+94
+00:17:05.402 --> 00:17:16.712
+Sunny: I work in one of the use cases where I try to perform the fine-tuning with some structured data set, but again, we haven't used it very extensively. We just kept it for the proof of concept, okay?
+
+
+95
+00:17:16.712 --> 00:17:26.261
+Sunny: So, yeah, again, this is one of the practice, but again, it is not being performed very frequently in the industry. So, making sense to all of you? Yes or no?
+
+
+96
+00:17:26.642 --> 00:17:44.612
+Sunny: you can, go through with the different, different, article. So they have, like, given everything, in terms of their documentation, right? Find during dashboard, model name, and even the pricing and all everything, right? So you can directly check out over there. If I'm going to be check out over here, see if I'm going to be search,
+
+
+97
+00:17:45.332 --> 00:17:48.121
+Sunny: Price, fine-tuning.
+
+
+98
+00:17:49.002 --> 00:17:57.611
+Sunny: OpenAI price, okay? Pricing. So you will get the blog related to the pricing as well. See, cost of the using fine-tuning model.
+
+
+99
+00:17:57.612 --> 00:18:16.001
+Sunny: So, once you will open this one, right? So, I'm searching in front of you. See, I haven't opened anything, basically by myself. I'm just doing in front of you, like, I'm doing it first time, right? So, you can see the… this is the blog website. Let me check out with the different other website, maybe they have given.
+
+
+100
+00:18:16.202 --> 00:18:22.481
+Sunny: OpenAI API pricing, even the fine-tuning pricing also, they have provided, okay?
+
+
+101
+00:18:22.682 --> 00:18:27.062
+Sunny: So, this is the API pricing, multimodals.
+
+
+102
+00:18:27.322 --> 00:18:43.872
+Sunny: tools, somewhere here itself, they have provided the pricing for the fine-tuning as well. Or I can check out in the different browser, directly I can Google. So, let me write over here, OpenAI API fine-tuning Pricing, okay?
+
+
+103
+00:18:44.192 --> 00:18:46.941
+Sunny: So, cost of the fine-tuned model…
+
+
+104
+00:18:48.182 --> 00:18:50.072
+Sunny: Again, this is a blog, guys.
+
+
+105
+00:18:50.922 --> 00:18:56.562
+Sunny: this, community blog from the, OpenAI itself, okay? Model optimization.
+
+
+106
+00:18:57.552 --> 00:19:00.711
+Sunny: Just a second from the model.
+
+
+107
+00:19:00.952 --> 00:19:03.992
+Sunny: Although I described fine-tune model specific task.
+
+
+108
+00:19:05.132 --> 00:19:12.942
+Sunny: SFT fine-tuning. See, these many models are available for the fine-tuning, so if you are going to be perform the SFT fine-tuning.
+
+
+109
+00:19:15.032 --> 00:19:26.281
+Sunny: Yeah, so this is the detail about the SFT, fine-tune, right? How to prepare the data and all, everything, basically, they have provided over here. Now, pricing-wise, let me check out over here.
+
+
+110
+00:19:27.632 --> 00:19:34.852
+Sunny: So, this is the… pricing. So, this is the pricing, basically, of what? It is a pricing of the…
+
+
+111
+00:19:36.972 --> 00:19:39.062
+Sunny: It is a pricing of the API.
+
+
+112
+00:19:39.632 --> 00:19:52.081
+Sunny: Yeah, so guys, here you can see the pricing of the fine-tuning as well, okay? So, as I told you now, somewhere, basically, they have listed the pricing of the fine-tuning as well. So, can you see over here?
+
+
+113
+00:19:53.142 --> 00:20:07.112
+Sunny: These are the model which is available for the fine-tuning. So, the training price, input token, cache input, and the output, right? So, they are listing the pricing of each and every model. So, these many models are available for the fine-tuning.
+
+
+114
+00:20:07.392 --> 00:20:24.032
+Sunny: And, you can see the pricing of it. Getting my point? So, 04 Mini, 04 Mini, GPT… 04 Mini, 04 Mini, okay, different, version. GPT 4.1, GPT 4.1 Mini, Nano 4.0, 4.0 Mini, 3.5 Turbo. This is the legacy now, right?
+
+
+115
+00:20:24.032 --> 00:20:31.442
+Sunny: DaVinci model and the WebEdge model. So, these three models are the legacy one, and this model basically are available for the fine-tuning.
+
+
+116
+00:20:31.442 --> 00:20:53.882
+Sunny: Making sense to all of you, how to basically navigate this entire documentation and all, how to search it over the Google, directly, right over the Google, whatever you wanted to search. You wanted to search the model, just search. You wanted to search the pricing? Just search about that, right? You wanted to search what? You wanted to search about the fine-tuning dashboard, fine-tune, where you will get your model and all, playground and all everything.
+
+
+117
+00:20:53.882 --> 00:21:02.251
+Sunny: just search about it, right? So, everything you will get out, everything you will get over the, official website only.
+
+
+118
+00:21:02.422 --> 00:21:07.241
+Sunny: Making sense? If it is clear, you can give me quick thumbs up, okay?
+
+
+119
+00:21:11.522 --> 00:21:23.992
+Sunny: tell me, guys, fast, if this, thing is clear. So, just, give me quick thumbs up so that I can proceed with the different other concept, okay? I can, discuss some theoretical points as well.
+
+
+120
+00:21:27.662 --> 00:21:28.542
+Sunny: Galileo?
+
+
+121
+00:21:31.652 --> 00:21:47.762
+Sunny: What is the input, cache input, and the output? Input is nothing, the input which you are providing to the model, the prompt, okay? The input prompt. Cache input, basically, it is not, again, hitting the model with the same prompt, okay? In the cache memory, it is saving the prompt, right?
+
+
+122
+00:21:47.762 --> 00:21:59.141
+Sunny: The next one is an output prompt, so what output is being generated by the model, right? So, input, cache input, and output. Three thing we have. The training is a different one.
+
+
+123
+00:21:59.782 --> 00:22:16.971
+Sunny: Training pricing is a different one. It varies model to model. So we can test out with this particular model, it is a small one, it will not take much money. So I can check out with this particular model whether it is available for the fine-tuning or not. But if you are doing it in your real time in your company, right, you can pick up the other model as well. But again.
+
+
+124
+00:22:16.972 --> 00:22:40.302
+Sunny: they have written the disclaimer over the website, the fine-tuning services will stop until the next notice, right? So maybe they are not supporting fine-tuning as of now. But yeah, I can quickly show you within R itself, so that you will get some, understanding, okay? If someone is going to ask you an interview, or if you have to apply it for somewhere, if you have to be applied somewhere in some use cases.
+
+
+125
+00:22:40.302 --> 00:22:45.642
+Sunny: then at least you can refer this lecture. So this lecture, actually, basically, it is just for the gender knowledge.
+
+
+126
+00:22:45.962 --> 00:22:52.351
+Sunny: It is for what? It is for the general knowledge, and it is for the more additional knowledge. Making sense? Getting my point, guys?
+
+
+127
+00:22:53.282 --> 00:23:01.692
+Sunny: Great. So, now, guys, here is the couple of things, couple of points. Let me discuss, those, theoretical points, okay?
+
+
+128
+00:23:08.962 --> 00:23:15.962
+Sunny: So guys, if we're talking about the fine-tuning, so we are going to be flow. Okay, so we are going to be following a specific flow.
+
+
+129
+00:23:16.082 --> 00:23:21.271
+Sunny: So, here I return that specific flow. Let me paste over the blackboard itself.
+
+
+130
+00:23:21.322 --> 00:23:37.701
+Sunny: So, this is the notes, or different notes about the LoRa and all, so I need to discuss those, theoretical points as well. I'll come to that, okay? First, let me complete this, GPT fine-tuning. So, guys, here is a complete flow, as you can see. Is it visible to all of you? Tell me.
+
+
+131
+00:23:37.902 --> 00:23:55.011
+Sunny: So, first, guys, what we will be doing, so we are going to be install the OpenAI SDK. So, if you are going to be perform the same fine-tuning with the Azure Cloud Foundry, more or less, you are going to follow the same kind of step over there as well, right? Then we are going to set the API key.
+
+
+132
+00:23:55.012 --> 00:24:08.252
+Sunny: Right? Then we are going to be create the OpenAI client. Then, we are going to be check the base model, means my model is working or not. Right? Then, guys, we are going to be load the training data, so I'll show you how to create a training data for this fine-tuning.
+
+
+133
+00:24:08.912 --> 00:24:28.171
+Sunny: Then, guys, I'm going to upload the training data over the OpenAI platform, over the OpenAI server. After that, guys, I will create a fine-tuning job, okay? And then, guys, I will check the fine-tuned model, and then we'll inference that model, okay? We'll inference using that model. So, these are some steps, which I have to write in the form of coding.
+
+
+134
+00:24:28.812 --> 00:24:31.451
+Sunny: Is it clear? All the steps are clear.
+
+
+135
+00:24:31.952 --> 00:24:32.772
+Sunny: Tell me.
+
+
+136
+00:24:36.762 --> 00:24:47.021
+Sunny: Yeah, AWS SageMaker will discuss. So, in the upcoming classes, guys, I will show you one practical project using the AWS SageMaker, okay?
+
+
+137
+00:24:47.022 --> 00:24:59.692
+Sunny: Azure Cloud Foundry, see, we are not going to be using Azure much inside this course, because they are, basically, we have a little more restriction, and even they are not providing many more services in the free tire, okay? But, yeah.
+
+
+138
+00:24:59.692 --> 00:25:13.751
+Sunny: I will try to show you some deployment using the Azure. If you want to set up the Cloud Foundry and all, if you want to set up from your end, I can help you in that, okay? Or at the end, basically, I can show you one deployment with the Azure, right? So…
+
+
+139
+00:25:13.752 --> 00:25:36.742
+Sunny: AWS SageMaker, definitely I'll discuss. I kept one project, and Azure Cloud Foundry, basically, I can show you one deployment and all with, with that, but at the end, we'll discuss onto it, right? But here, guys, I'm showing you with the OpenAI one, so you can follow the similar kind of strategy and all inside any cloud platform. See, cloud is nothing. It's just,
+
+
+140
+00:25:36.742 --> 00:25:43.852
+Sunny: one of the, like, different server, okay, where we need to make a configuration according to the platform, that's it. Nothing else. Got it?
+
+
+141
+00:25:43.902 --> 00:25:45.012
+Sunny: Great.
+
+
+142
+00:25:45.232 --> 00:25:47.741
+Sunny: Now, what I'm doing, guys, so here.
+
+
+143
+00:25:48.132 --> 00:26:07.331
+Sunny: You can see. So, this is all the points. Now, why fine-tuning is needed? Okay, so first of all, let me show you the data, that what kind of data we are using for the fine-tuning, and then I will give you that answer that why this, custom fine-tuning is required for the GPD model. Actually, the answer is going to be same.
+
+
+144
+00:26:07.632 --> 00:26:27.421
+Sunny: Answer is going to be same means what? So, why we have fine-tuned the previous model? So that we can tweak the knowledge according to our domain, okay? So, for that only, we are going to be fine-tuning this GPT model also. So, first, I'll show you the data. So, just, give me a moment, let me open the data, guys. I already capped inside the folder. Wait, okay?
+
+
+145
+00:26:28.911 --> 00:26:33.552
+Sunny: So, here is the data. Where is the data?
+
+
+146
+00:26:43.042 --> 00:26:47.631
+Sunny: I'm… even I'm pushing the data over the GitHub also, so directly you can download from there.
+
+
+147
+00:26:51.742 --> 00:26:57.262
+Sunny: Okay, so guys, here is the data, as you can see. I kept it inside the same folder, now let me open it.
+
+
+148
+00:26:59.192 --> 00:27:06.371
+Sunny: Is it visible to all of you? Now, can you tell me, guys, in which format the data is available? In which format this data is available?
+
+
+149
+00:27:09.402 --> 00:27:10.301
+Sunny: This one.
+
+
+150
+00:27:14.632 --> 00:27:17.792
+Sunny: So this data, actually, it is available in the JSNL format.
+
+
+151
+00:27:17.972 --> 00:27:25.271
+Sunny: Okay? It is a JSNL format, right? Now, this is the CHED, this is the OpenAI-specific format.
+
+
+152
+00:27:25.812 --> 00:27:42.961
+Sunny: This is the OpenAI-specific format where we have the entire conversation. So, let me zoom in the screen so that you will get in a better way, okay? So, just a second, let me zoom in the screen. Now, just, look into one of the, data points, right? So, here you can see we have message.
+
+
+153
+00:27:43.032 --> 00:27:52.041
+Sunny: And then inside the message key, we have a role. So one is a system, next is what, next is a user, and another one is what? Another one is the assistant.
+
+
+154
+00:27:52.182 --> 00:27:55.521
+Sunny: Okay? So, we are having 3 roles over here.
+
+
+155
+00:27:55.792 --> 00:28:11.101
+Sunny: The first is going to be a system, the another is going to be what, another is going to be a user, and the third is going to be what? Third is going to be assistant. So, assistant is nothing, it is just a, basically output of the… it is just the output of what, it is just the output of the model.
+
+
+156
+00:28:11.522 --> 00:28:28.251
+Sunny: Getting my point, guys? So, in this three, in the… in this particular format, we have to create a data, okay? Now, I hope this is clear to all of you. So, this, particular data, I'm going to be used for what? I'm going to be used for the fine-tuning.
+
+
+157
+00:28:28.482 --> 00:28:36.822
+Sunny: Got it, guys? Yes or no? So if you are going to fine-tune inside your organization, so in the same format, actually, you will have to prepare a data.
+
+
+158
+00:28:37.452 --> 00:28:38.612
+Sunny: Understood?
+
+
+159
+00:28:39.402 --> 00:28:40.902
+Sunny: Is it getting killer?
+
+
+160
+00:28:41.132 --> 00:28:56.761
+Sunny: If this part is clear, then give me a quick thumbs up, okay? I think the data format, see, it is not similar to the Alpaca format. There we have, instruction, input, and output. Here, basically, we have the system.
+
+
+161
+00:28:56.782 --> 00:29:05.151
+Sunny: then we have the user, and then we have an assistant, okay? So in this particular format, the data is available.
+
+
+162
+00:29:05.212 --> 00:29:11.562
+Sunny: Got it? How to create this kind of format? So, you can create this kind of a format programmatically.
+
+
+163
+00:29:11.722 --> 00:29:26.692
+Sunny: Right? So you will be having the raw data, you can, basically write the program, you can write the code, you can decide what will come inside the system role, what will come inside the user question, and what will be the output of the AI.
+
+
+164
+00:29:26.692 --> 00:29:42.262
+Sunny: So, on top of that, data, on top of this data only, you will be training the model further. Now, tell me, guys, this problem statement, this particular data is related to which, domain, or it is related to which problem statement?
+
+
+165
+00:29:42.502 --> 00:29:52.301
+Sunny: So, can I say that this data actually is belonging to the customer support, right? It is belonging to the smartphone customer support. Tell me yes or no.
+
+
+166
+00:29:52.942 --> 00:30:03.682
+Sunny: If you are looking into this data carefully, so this data, it is, similar to the smartphone customer support. So, user is asking something, and then AI is replying accordingly.
+
+
+167
+00:30:04.012 --> 00:30:12.732
+Sunny: Okay? AI is replying accordingly. Okay? Now, I hope, this, data is clear. Now.
+
+
+168
+00:30:13.092 --> 00:30:30.202
+Sunny: Let's do one thing. Let me give you this particular data so that, you can open it inside your system. Now, whenever we are going to perform this GPT fine-tuning, guys, right? So, at least you should have 10 data rows. Okay, this is the bare minimum requirement for the GPT fine-tuning.
+
+
+169
+00:30:30.202 --> 00:30:36.191
+Sunny: If you have, below the 10 rows, in that case, OpenAI will give you the error.
+
+
+170
+00:30:36.192 --> 00:30:46.771
+Sunny: it will say, at least you should keep 10 JSNL rows. So in my dataset, you can see how many data rows we have, how many rows we have, you can see inside my data point, inside my file.
+
+
+171
+00:30:46.832 --> 00:30:50.012
+Sunny: So, I have 10 rows, okay?
+
+
+172
+00:30:50.472 --> 00:31:00.342
+Sunny: I hope this is also clear. So, let me give you this data so that you can look into it. So, give me a moment, guys, I am pushing it over the GitHub. Wait.
+
+
+173
+00:31:11.682 --> 00:31:15.211
+Sunny: So, guys, I pushed the data over the GitHub, you can take it from there, okay?
+
+
+174
+00:31:23.412 --> 00:31:35.172
+Sunny: So, what is a few-short prompting? What is a, like, zero-shot prompting? So, that we'll discuss in the next chapter, Adit. So, I capped one specific class for this particular concept only. We'll discuss in the detail.
+
+
+175
+00:31:35.312 --> 00:31:36.342
+Sunny: Okay.
+
+
+176
+00:31:40.982 --> 00:31:51.422
+Sunny: Great. So, I hope this is clear to all of you. Now, let's do one thing. Let's understand few more theoretical points, okay? And after that, basically, I will start with the fine-tuning.
+
+
+177
+00:31:51.472 --> 00:32:07.581
+Sunny: So, before, coming to the fine-tuning, guys, let me even test the model, whether, I'm able to access the GPT model or not. Okay, so I will test it inside the collab itself. Now, guys, just focus onto this point. Now, see over here. So, what I have written.
+
+
+178
+00:32:07.712 --> 00:32:26.721
+Sunny: just focus onto this one. So, why fine-tuning is needed? Why this GPT fine-tuning is needed? So, guys, here I written some explanation. With this particular explanation, you will get some idea. See, before fine-tuning, the base model is a general-purpose model. Tell me yes or no. So, whatever base model we have.
+
+
+179
+00:32:26.922 --> 00:32:40.991
+Sunny: So, those are the general purpose model. So, what is the meaning of the general purpose model? So, it can answer anything over the generic question, okay? Now, it can answer many questions, but it may not follow our company-specific style.
+
+
+180
+00:32:40.992 --> 00:33:00.682
+Sunny: rules, tone, domain behavior, and the consistency. So, guys, if my model is not able to follow my company-specific style, rules, tone, right, and the domain behavior, in that case, fine-tuning is required. So, this is the generic definition of the fine-tuning, as we already know.
+
+
+181
+00:33:00.782 --> 00:33:02.912
+Sunny: Tell me, guys, do we know about it?
+
+
+182
+00:33:04.302 --> 00:33:18.671
+Sunny: I think we know, right? So, for example, suppose we are building a smartphone customer support bot for our company. Now, we want a model, the model basically answers only smartphone-related queries.
+
+
+183
+00:33:18.742 --> 00:33:31.771
+Sunny: Be friendly on the concise, right? Be friendly on the concise. Avoid unrelated topics, and follow company-specific support style. So, in that case, what we can do, in that case, basically, we can prepare our own data set.
+
+
+184
+00:33:32.282 --> 00:33:37.821
+Sunny: And on top of that particular dataset, we can fine-tune our model, okay?
+
+
+185
+00:33:38.082 --> 00:33:56.962
+Sunny: The another approach, basically, instead of taking the knowledge of the model, we can take help… we can take a help of the RAC pipeline as well. So that is also possible, so that we'll understand in the upcoming chapter, okay? So, here, guys, you can see, so we can try to do this, we can try to do this using prompting.
+
+
+186
+00:33:57.212 --> 00:34:16.442
+Sunny: But if the behavior must be repeated again and again, right, across many examples, fine-tuning can make the model learns that behavior more consistently. So, if I wanted to permanently tweak the knowledge of the model, right, in that case, I can opt this fine-tuning.
+
+
+187
+00:34:16.442 --> 00:34:26.551
+Sunny: If my environment is supporting that, if my management is supporting that, right? So, I can do that. But again, this is not a very frequent practice inside the
+
+
+188
+00:34:26.802 --> 00:34:40.511
+Sunny: industry. Getting my point, guys? Yes or no? So, I hope this entire thing is getting clear to all of you. That's why we need to perform this fine-tuning. Tell me, guys, this paragraph or this, slide is clear.
+
+
+189
+00:34:40.682 --> 00:34:45.711
+Sunny: If it is clear, just, give me quick thumbs up so that I can proceed, okay?
+
+
+190
+00:34:47.392 --> 00:34:56.481
+Sunny: Why it is not a frequent practice? Because, this, we have, will have to be performed again and again, right? And it is, like, more money-consuming process.
+
+
+191
+00:34:56.492 --> 00:35:12.431
+Sunny: Okay? We'll have to prepare the data pipeline, and the training, basically, it's a more money-consuming process. If you will look into the pricing of the model, so you will understand that why we should not, perform it very frequently, right? So I think I've shown you the pricing of the model. See, here is it.
+
+
+192
+00:35:12.532 --> 00:35:27.481
+Sunny: $100 per hour. So, we have, we have a very huge data set. So, definitely, I will, first, take a, like, permission from my management, whether I can spend this much of a pound or not.
+
+
+193
+00:35:27.762 --> 00:35:32.201
+Sunny: Right? And, again, after this training, again, if the new data is coming.
+
+
+194
+00:35:32.662 --> 00:35:38.492
+Sunny: Again, the new data is coming, right, Swati? So, in that case, we'll have to perform the training.
+
+
+195
+00:35:38.612 --> 00:35:53.842
+Sunny: So, training, actually, it's a periodic cycle. So, will have to be performed, maybe daily… on a daily basis, on a weekly basis, on a monthly basis. So, this might not be very frequent practice. Got it?
+
+
+196
+00:35:54.582 --> 00:36:10.601
+Sunny: Yeah. So, let's do one thing, guys. Let's see how we can perform the fine-tuning. Now, before that, I would like to… I would like to explain you a couple of more things. Now, first of all, tell me if this part is clear. If this is clear, tell me, guys, first.
+
+
+197
+00:36:11.792 --> 00:36:28.612
+Sunny: If this part is clear, just give me quick thumbs up. Very easy, to understand, okay? I written it in very simple definition, so anyone can understand it, just by reading this entire thing. Now, a couple of more things I have to,
+
+
+198
+00:36:28.902 --> 00:36:31.652
+Sunny: basically clarify over here, okay?
+
+
+199
+00:36:31.862 --> 00:36:34.802
+Sunny: So, just give me a moment, guys.
+
+
+200
+00:36:39.262 --> 00:36:49.202
+Sunny: So let me discuss about the system message, and the user message, and the assistant as well. So you will get a… you will get some clarity about that as well.
+
+
+201
+00:36:51.702 --> 00:36:56.332
+Sunny: Give me a moment, guys, I capped some definition related to that as well.
+
+
+202
+00:37:01.592 --> 00:37:09.481
+Sunny: Okay. So, guys, here you can see this is the definition of the system message, okay?
+
+
+203
+00:37:10.182 --> 00:37:25.602
+Sunny: System message, user message, and the model, basically. So, just read out this particular point. So, we have the three different roles. If you will look into the data side, so how many roles we have, so we have a 3 different roles. The first is going to be a system.
+
+
+204
+00:37:25.702 --> 00:37:31.712
+Sunny: Okay? Where we are providing the instruction and the behavior. So it is a permanent setting of the model.
+
+
+205
+00:37:33.772 --> 00:37:45.731
+Sunny: What it is, guys, tell me. So, it is a permanent behavior setting of the model. Now, what is a user, guys? So, it is a user question. And what is assistant? Assistant, basically, it's a model answer. So, why is system message needed?
+
+
+206
+00:37:45.732 --> 00:37:56.142
+Sunny: many people having this particular question, and even you have asked me in the previous classes also, okay? So, let me clarify over here. The system message actually control the model behavior.
+
+
+207
+00:37:56.882 --> 00:38:02.551
+Sunny: Control what? Control the model behavior. So this is the example. Let's say you are writing, you are a helpful assistant.
+
+
+208
+00:38:02.712 --> 00:38:11.441
+Sunny: means the model should behave like a helpful assistant. Now, instead of that, instead of the helpful assistant, if you're going to be right, you are a medical assistant.
+
+
+209
+00:38:12.702 --> 00:38:13.782
+Sunny: URL?
+
+
+210
+00:38:14.532 --> 00:38:16.312
+Sunny: Medical assistant.
+
+
+211
+00:38:18.402 --> 00:38:25.241
+Sunny: So, in that case, model will behave like a medical assistant, okay? If you are saying you are a financial assistant.
+
+
+212
+00:38:26.262 --> 00:38:29.672
+Sunny: If you're a… financial assistant.
+
+
+213
+00:38:29.782 --> 00:38:46.102
+Sunny: So, in that case, model will behave like a financial assistant, right? So what happens if we remove the system message? The model still can answer, but it will lose the behavior control. So, if you want some behavioral setting of the model, the permanent setting throughout the conversation.
+
+
+214
+00:38:46.102 --> 00:38:54.312
+Sunny: In that case, you can define the system message, but again, it is not a mandatory one. Making sense to all of you? Tell me, is this particular
+
+
+215
+00:38:54.432 --> 00:39:10.311
+Sunny: If this part is clear, you can give me a quick thumbs up, so that I can proceed further, okay? So this, couple of points, I had to discuss, and I given you some theoretical explanation around to this one. Now we'll, move to the practical, right?
+
+
+216
+00:39:13.282 --> 00:39:16.871
+Sunny: Yeah, correct. It is a prompt only. You are right, Ashwini.
+
+
+217
+00:39:18.182 --> 00:39:28.191
+Sunny: Can you give the example? Yes, definitely I'll, I can give the example. So, let me open the same dataset, and, here…
+
+
+218
+00:39:29.532 --> 00:39:34.522
+Sunny: Basically, I can take any one, data point.
+
+
+219
+00:39:34.882 --> 00:39:37.192
+Sunny: And I'm keeping it over the Blackboard itself.
+
+
+220
+00:39:37.352 --> 00:39:40.641
+Sunny: So, just give me a second. See, this is the example.
+
+
+221
+00:39:40.762 --> 00:39:43.811
+Sunny: Now, inside this example, can you see the system message?
+
+
+222
+00:39:44.352 --> 00:39:49.012
+Sunny: So what we are saying inside the system, so we are saying, you're a customer support agent.
+
+
+223
+00:39:49.642 --> 00:40:08.002
+Sunny: You are a customer support assistant, okay, for the smartphone company. You are a friendly, concise, and provide only factual answer related to the smartphones. So, this is what, this is the behavioral setting of the model. Now, here you can see the role. Role is a user. So, user is asking, can I use the same app in Android and the iPhone?
+
+
+224
+00:40:08.002 --> 00:40:12.832
+Sunny: Now, what model should reply? Model saying, not all the apps are available on both platforms.
+
+
+225
+00:40:12.832 --> 00:40:17.381
+Sunny: Some apps are exclusively to either Android or iOS, depending on the mobile store.
+
+
+226
+00:40:17.382 --> 00:40:25.062
+Sunny: Okay? Mobile, my app is stored. So, this is one of the example, and I hope this is also clear.
+
+
+227
+00:40:25.252 --> 00:40:26.392
+Sunny: Is it clear?
+
+
+228
+00:40:28.322 --> 00:40:32.961
+Sunny: Okay, now guys, let me show you the final pipeline that what we'll be getting.
+
+
+229
+00:40:33.082 --> 00:40:38.231
+Sunny: So, this is going to be a final pipeline. At the end, what result I will be getting.
+
+
+230
+00:40:38.342 --> 00:40:42.252
+Sunny: So let me keep that also, just a second.
+
+
+231
+00:40:43.722 --> 00:40:46.202
+Sunny: I can keep it over here.
+
+
+232
+00:40:49.302 --> 00:41:07.231
+Sunny: So, I hope this is visible to all of you. Tell me yes or no. So, first, guys, we are having general GPT model. Now, we are going to be trained the general GPT model on our training example, okay? We are going to be create the fine during job, and what we'll be getting, we'll be getting the custom GPT model, okay?
+
+
+233
+00:41:07.442 --> 00:41:12.111
+Sunny: And after that, guys, I will be, I can ask the domain specific.
+
+
+234
+00:41:12.112 --> 00:41:28.331
+Sunny: answer, I can ask a basic domain-specific question to that custom model. So we are having the general GPT model, we are going to be trained it on some example, we are going to be create a fine-tuning job, we'll be getting the custom GPT model, and then we can ask the domain-specific questions.
+
+
+235
+00:41:28.332 --> 00:41:29.641
+Sunny: Is it clear, guys?
+
+
+236
+00:41:29.642 --> 00:41:36.061
+Sunny: If this theoretical point is, if these theoretical points are clear, I can proceed with the practical one.
+
+
+237
+00:41:36.702 --> 00:41:37.982
+Sunny: Just let me know.
+
+
+238
+00:41:38.172 --> 00:41:42.651
+Sunny: I will not take much time, I'll quickly show you how you can perform the fine-tuning of it.
+
+
+239
+00:41:46.002 --> 00:41:52.371
+Sunny: Yeah, internally, GPT will do that. We no need to explicitly mention about the LoRa and QLORA.
+
+
+240
+00:41:57.672 --> 00:42:03.202
+Sunny: what pattern it will understand. Data-related pattern, no? What we do inside the training Bhavior.
+
+
+241
+00:42:03.812 --> 00:42:08.972
+Sunny: whatever we have learned in the fine-tuning so far, I think your basics are not clear, right?
+
+
+242
+00:42:09.542 --> 00:42:13.842
+Sunny: What pattern means? It will understand the pattern related to the data only, correct?
+
+
+243
+00:42:17.752 --> 00:42:24.171
+Sunny: When the trending example is huge, it is possible to keep in any dB? Yes, definitely. We can keep the data anywhere.
+
+
+244
+00:42:25.702 --> 00:42:32.312
+Sunny: Okay, it's not like that we are just going to be keep the data in the physical file, right? We'll have to keep it in the JSNL format.
+
+
+245
+00:42:32.482 --> 00:42:38.982
+Sunny: But, you will have… you can keep the data anywhere, and then you can export in a JSNL format. That is completely fine.
+
+
+246
+00:42:43.802 --> 00:42:48.382
+Sunny: Why we need to give the same system message again, because it is belonging to per
+
+
+247
+00:42:48.562 --> 00:42:54.501
+Sunny: Example, okay? It is belonging to… it is belonging to per conversation, Mohan.
+
+
+248
+00:42:57.382 --> 00:42:58.172
+Sunny: Got it?
+
+
+249
+00:43:00.362 --> 00:43:01.292
+Sunny: Great.
+
+
+250
+00:43:01.682 --> 00:43:08.321
+Sunny: So, guys, now let's do one thing. How to evaluate the FT? So, evaluation actually altogether is a different thing.
+
+
+251
+00:43:08.572 --> 00:43:21.692
+Sunny: Evaluation, again, it's a very subjective thing, okay? So, again, we'll deep dive into the evaluation and all, as we will go ahead. Got it? So, now here, see, let's do one thing. Let me access some model.
+
+
+252
+00:43:21.842 --> 00:43:28.931
+Sunny: So, I'm going to again open my Google Collab file, and let's perform some practical over here.
+
+
+253
+00:43:33.112 --> 00:43:35.312
+Sunny: Just give me a moment, wait.
+
+
+254
+00:43:39.492 --> 00:43:50.511
+Sunny: So, first of all, what we required? So, we required the OpenAI Python SDK. So, you know, right, about this OpenAI Python SDK. So, let me install it, pip install.
+
+
+255
+00:43:50.752 --> 00:43:52.072
+Sunny: OpenAI.
+
+
+256
+00:43:55.412 --> 00:43:59.272
+Sunny: So it's getting installed, guys. It will take some time.
+
+
+257
+00:44:14.442 --> 00:44:19.451
+Sunny: Okay, so my OpenAI Python SDK is, there. Now, what I will do, guys…
+
+
+258
+00:44:19.772 --> 00:44:23.691
+Sunny: First, I'll read the key, OpenAI API key, from here.
+
+
+259
+00:44:23.902 --> 00:44:30.081
+Sunny: So here, guys, you can see this is the OpenAPI key, which I capped. Now let me enable it, and this is the code for accessing the secret.
+
+
+260
+00:44:30.402 --> 00:44:35.882
+Sunny: So what I will do, I'll copy this code, and I'll keep it over here, inside this cell.
+
+
+261
+00:44:36.352 --> 00:44:42.171
+Sunny: Now I will provide the secret name, so let me take the correct secret name.
+
+
+262
+00:44:46.282 --> 00:44:48.372
+Sunny: Let me keep it inside the variable.
+
+
+263
+00:44:49.072 --> 00:44:52.221
+Sunny: So, here, what I'm doing… can anyone tell me?
+
+
+264
+00:44:52.462 --> 00:45:05.212
+Sunny: So, here we are just going to be read the OpenAI secret, okay? OpenAI key. Now, after that, guys, what I will do, so I will set it as an environment variable. So let me set it as a environment variable.
+
+
+265
+00:45:30.892 --> 00:45:45.472
+Sunny: Okay? So, guys, what we have done over here, so we have set this, OpenAI API key as an environment variable, right? Now what I'll do, guys, I will create a client. So, let me create a client. Just give me a second. I'm going to create a client.
+
+
+266
+00:45:55.522 --> 00:46:08.072
+Sunny: Okay? Now, I will create an object of this particular class, this OpenAI class. So, here, guys, I'm going to be create a class… object for the OpenAI class, CLIENT. Got it?
+
+
+267
+00:46:08.252 --> 00:46:14.781
+Sunny: Now, see, guys, I'm able to create the object of this OpenAI class. Now, what I'll do, guys, I will call the ChatCompletion API.
+
+
+268
+00:46:15.022 --> 00:46:19.231
+Sunny: So, I will take this client, and I'll call.
+
+
+269
+00:46:19.452 --> 00:46:20.322
+Sunny: Chad.
+
+
+270
+00:46:21.502 --> 00:46:22.862
+Sunny: completion.
+
+
+271
+00:46:24.502 --> 00:46:27.131
+Sunny: Okay? Dot. Create.
+
+
+272
+00:46:27.662 --> 00:46:40.351
+Sunny: Now, guys, here, what I will do, I will be passing my model-related detail. So, whichever model I'm going to be use. So, here, guys, I'm going to be use, which model, guys, I can use? Can anyone tell me which is a more suitable model?
+
+
+273
+00:46:40.422 --> 00:46:48.382
+Sunny: So, just by looking into the price, so which model I can use. So, can I use this, GPT 4.1 Nano?
+
+
+274
+00:46:48.672 --> 00:47:02.232
+Sunny: this model, I think it is a less one, right? So it is taking a less money while I'm training the data on top of it, right? So I'm using this particular model, so let me take the model name from here, and then I'm going to paste it over here.
+
+
+275
+00:47:03.902 --> 00:47:10.922
+Sunny: Okay, so this is my model name, guys. Now I can provide my message also. So this is my message. As you can see, I can write any sort of a message.
+
+
+276
+00:47:11.032 --> 00:47:16.272
+Sunny: Just to test my API key, whether it is working or not. So, I think I need to…
+
+
+277
+00:47:17.362 --> 00:47:20.112
+Sunny: Put one more.
+
+
+278
+00:47:21.622 --> 00:47:34.831
+Sunny: Square bracket, right? So this is fine, guys, now I think my chat completion method is ready. So what I can do, I can keep this response inside one variable. So here I can write the response.
+
+
+279
+00:47:35.132 --> 00:47:35.992
+Sunny: Okay.
+
+
+280
+00:47:36.492 --> 00:47:38.162
+Sunny: Then, guys, if I will call it.
+
+
+281
+00:47:38.532 --> 00:47:54.141
+Sunny: if I have money inside my account, inside my OpenAI account, then I will be able to call it, okay? I will be able to call the OpenAI API. So, let me check the response. So, here what I will do, guys, I will check out with the response. So, just a second, let me take this response. Let me paste it over here.
+
+
+282
+00:47:54.322 --> 00:48:01.642
+Sunny: So, this is the response, guys. Now, from this response, if I wanted to get an answer, so what I'll do, guys, I will simply call the
+
+
+283
+00:48:01.922 --> 00:48:05.991
+Sunny: what I'll do, guys, I will simply call the choice on top of it, okay?
+
+
+284
+00:48:06.112 --> 00:48:17.021
+Sunny: Then, from the choice, guys, I will call the first parameter, and here, from here, guys, I will call the message, right? M-E-S-S-A-G-E. Then I will call the content.
+
+
+285
+00:48:17.132 --> 00:48:18.012
+Sunny: Okay.
+
+
+286
+00:48:18.252 --> 00:48:22.232
+Sunny: So, once I'll do it, guys, now see, this is my final response.
+
+
+287
+00:48:22.912 --> 00:48:24.101
+Sunny: Are you getting?
+
+
+288
+00:48:24.742 --> 00:48:42.502
+Sunny: I think I already shown this, kind of example in the previous class, how to call the OpenAI model. So, we are able to call the OpenAI model, now the same model will fine-tune. So, tell me, guys, still here, everything is fine, everything is clear. Any doubts so far?
+
+
+289
+00:48:42.842 --> 00:48:45.721
+Sunny: I don't think so you should have any sort of a doubt.
+
+
+290
+00:48:49.502 --> 00:48:50.372
+Sunny: Yes?
+
+
+291
+00:48:52.152 --> 00:48:53.112
+Sunny: Or no.
+
+
+292
+00:48:54.002 --> 00:48:55.422
+Sunny: Is it getting clear?
+
+
+293
+00:48:58.482 --> 00:49:04.212
+Sunny: So far, it is clear, right? You don't have any sort of a doubt. We are just going to be called the model.
+
+
+294
+00:49:04.482 --> 00:49:10.832
+Sunny: So, are you enjoying the session? Yes or no? Are you learning everything, guys? Whatever I'm teaching over here?
+
+
+295
+00:49:10.982 --> 00:49:17.921
+Sunny: Now the next part will come, right? Now the next part will come. There, actually, we need to fine-tune the model.
+
+
+296
+00:49:18.042 --> 00:49:23.702
+Sunny: So, for the fine-tuning, the very first thing which is required… tell me, guys, what is required for the fine-tuning.
+
+
+297
+00:49:28.672 --> 00:49:42.332
+Sunny: We required what? We required the data, okay? Very good. So, we are going to be upload the data over here, so let me upload the data. I kept the data inside this folder, okay?
+
+
+298
+00:49:42.762 --> 00:49:44.091
+Sunny: So, let me…
+
+
+299
+00:49:44.452 --> 00:49:51.862
+Sunny: upload the data. So I have the data, now I can check out, whether I have the data or not, means I can simply
+
+
+300
+00:49:52.112 --> 00:50:08.711
+Sunny: read out this file. So, this is a JSON file, so I will import the JSON module first, then I'll open this file, so with open. Now, here, what I'll do, guys, I will write the path of the file, okay? I will mention the path of the file. So, copying the path, pasting it over here.
+
+
+301
+00:50:10.332 --> 00:50:26.981
+Sunny: Now, guys, here I am, writing this R, because I'm going to be reading a… I'm going to be reading the file. Now, here I'm going to be mention the encoding format also. So, it's a UTF-8, okay? So, it's a encoded, encoding format.
+
+
+302
+00:50:27.992 --> 00:50:33.331
+Sunny: for reading the data. Now, I'm going to be open this file, so I will open this file.
+
+
+303
+00:50:33.552 --> 00:50:38.242
+Sunny: Now, what I will do, so here, guys, I will be reading this particular data line by line.
+
+
+304
+00:50:38.352 --> 00:50:45.352
+Sunny: So I'm iterating on top of the file data, okay? So, I will write the for loop, so for line in.
+
+
+305
+00:50:45.632 --> 00:51:02.441
+Sunny: file, okay, and then I will load this particular data using the JSON object, okay? So JSON.loads, and here I am passing what? Here I am passing my line. Got it, guys? I hope this code snippet is clear, so this is just for reading the data.
+
+
+306
+00:51:03.212 --> 00:51:09.631
+Sunny: Okay, so once I'll run it, guys, so inside this particular variable, inside the data variable, I'll be getting my data.
+
+
+307
+00:51:09.932 --> 00:51:12.901
+Sunny: So tell me, are we able to get the data over here?
+
+
+308
+00:51:14.722 --> 00:51:16.922
+Sunny: Are we able to get a data over here?
+
+
+309
+00:51:17.292 --> 00:51:26.501
+Sunny: So, this is my data inside the list. Now, this particular data I will be providing for the fine-tuning. So, is this part clear?
+
+
+310
+00:51:33.482 --> 00:51:39.351
+Sunny: You can even check out the first row, you can simply write over here data and zero. Now see, this is the first row.
+
+
+311
+00:51:39.602 --> 00:51:44.811
+Sunny: You can check out the second row as well, so just write data 1, you will be getting the second row.
+
+
+312
+00:51:45.092 --> 00:51:45.912
+Sunny: Okay?
+
+
+313
+00:51:46.082 --> 00:51:56.791
+Sunny: So, likewise, you can check out the different, different rows. Now, if you wanted to check out the length of the data, simply you can print the length of the data. Now, see how many examples you have.
+
+
+314
+00:51:58.252 --> 00:52:00.671
+Sunny: So, you have 3 examples.
+
+
+315
+00:52:01.032 --> 00:52:15.271
+Sunny: Okay? Sorry, 10 examples. Now, let's say if you wanted to iterate, if you wanted to, like, check out, right, message, content, and all with respect to any one row, let's say I wanted to check out with this particular row. So, what I can do, guys, I can simply take a message key from here.
+
+
+316
+00:52:16.502 --> 00:52:17.322
+Sunny: Okay?
+
+
+317
+00:52:17.522 --> 00:52:21.921
+Sunny: So I can simply take the messages key from here, and then I can iterate on top of it.
+
+
+318
+00:52:22.132 --> 00:52:26.622
+Sunny: So let's say I'm iterating on top of it, so for message in.
+
+
+319
+00:52:26.742 --> 00:52:41.371
+Sunny: It's a simple Python, guys, whatever I'm writing so far, just to navigate to the data. So I will print the message, so what I'll be getting, guys? See, I'm getting the message, okay? So the spelling of the print is wrong, so here you can see.
+
+
+320
+00:52:41.592 --> 00:52:51.371
+Sunny: Role, this is the role. Role is a system, here is a content. Now, role is a user, and the role is an assistant, okay? So all the three lines, you are able to see separately.
+
+
+321
+00:52:52.472 --> 00:52:55.212
+Sunny: Tell me, guys, is it getting clear to all of you?
+
+
+322
+00:52:55.972 --> 00:52:57.582
+Sunny: If this part is clear.
+
+
+323
+00:53:02.102 --> 00:53:02.912
+Sunny: Okay.
+
+
+324
+00:53:03.042 --> 00:53:13.391
+Sunny: It's very easy to understand. Once, I'll, go through the… sorry, once I'll give you the code, even you can navigate to this, small, small code snippet.
+
+
+325
+00:53:14.262 --> 00:53:20.072
+Sunny: Right? So in some time, even, I will provide you this code, I will upload it over the GitHub.
+
+
+326
+00:53:20.302 --> 00:53:36.672
+Sunny: So, you can look into it, in the meantime, right? In the, like, when I will give you the break time, na? In that meantime, you can check out the code. Got it? So, here you can see, we are able to load the data. Now, how, basically, I will…
+
+
+327
+00:53:36.672 --> 00:53:44.112
+Sunny: perform the fine-tuning over here. So, for performing the fine-tuning, guys, I will have to…
+
+
+328
+00:53:44.112 --> 00:53:52.742
+Sunny: call some more method, okay? Some more specific method, I will have to call over here. For what, guys? For the fine-tuning.
+
+
+329
+00:53:52.752 --> 00:54:02.222
+Sunny: So, let me call out those specific methods over here. So, first of all, guys, I will have to upload the file.
+
+
+330
+00:54:02.262 --> 00:54:07.282
+Sunny: I will have to upload the file where I will have to upload the file over the…
+
+
+331
+00:54:07.422 --> 00:54:19.301
+Sunny: basically, OpenAI platform, okay? So, what I can do, guys, I can, simply, call the method, right? Everything I can do using the client object itself.
+
+
+332
+00:54:19.662 --> 00:54:28.722
+Sunny: Right? So, instead of using fine-tuning, can we directly use System Prom in this case? No or no, I didn't get your question, what you are asking.
+
+
+333
+00:54:30.542 --> 00:54:41.362
+Sunny: So, whatever question you have, even we can discuss in the doubt session. And Yash is also there in the backend, so he's also replying to your, questions, okay? So, if anything is specific.
+
+
+334
+00:54:41.392 --> 00:54:51.542
+Sunny: just let me know in the doubt session. And, if we're talking about the fine-tuning, so one thing, one more thing, guys. What kind of fine-tuning it is? It is a SFT fine-tuning.
+
+
+335
+00:54:51.752 --> 00:54:56.141
+Sunny: Or it is a preference alignment, what kind of fine-tuning it is? Tell me.
+
+
+336
+00:54:58.332 --> 00:55:10.382
+Sunny: So, it is a SFT fine-tuning. Whether, whether the path will be there or not, so it is a call of the OpenAI. So, we don't have direct control on top of that, okay?
+
+
+337
+00:55:10.382 --> 00:55:18.902
+Sunny: So we don't have direct control on top of that. Everything will be decided by the OpenAI platform only. So here, what I will do, guys, I will call that client.
+
+
+338
+00:55:19.042 --> 00:55:23.891
+Sunny: Okay, now just focus. Within two lines only, I'm going to conclude this fine-tuning.
+
+
+339
+00:55:24.132 --> 00:55:27.642
+Sunny: So… Here, guys, I will,
+
+
+340
+00:55:27.762 --> 00:55:34.811
+Sunny: call the client. Now, this client actually is having so many parameters, so many methods.
+
+
+341
+00:55:35.272 --> 00:55:46.672
+Sunny: So, here it is having one, specific, method, right? Files. Now, what I will do, guys, I will call this file. Now, inside this file, we have one more method, that is a create one. So, I will call this create.
+
+
+342
+00:55:46.882 --> 00:55:49.702
+Sunny: Now, here, guys, what I will do, I will provide my data.
+
+
+343
+00:55:49.882 --> 00:55:56.171
+Sunny: Okay? So here is my data, and the purpose, I will mention the purpose also. So what is the purpose, guys?
+
+
+344
+00:55:56.862 --> 00:56:01.742
+Sunny: the purpose is going to be a fine-tuning. So tell me, guys, is this line clear or not?
+
+
+345
+00:56:19.942 --> 00:56:39.891
+Sunny: Very, very easy to understand. If you are able to understand, this particular pipe, this particular, if you are able to understand this particular line, I think, you can understand that, this line, basically, using this line, we are going to be… upload that data, okay? Using this code snippet, we are going to be upload the data.
+
+
+346
+00:56:40.082 --> 00:56:58.301
+Sunny: Now, what are other, basically, purpose we have? So, you can simply navigate… sorry, you can simply hover the mouse on top of this create method, okay? So, once you will hover the mouse, you will get the complete detail of this method. So, see, here, we have the purpose, maybe, you can check out.
+
+
+347
+00:56:58.492 --> 00:57:15.502
+Sunny: Or you can see the intended purpose of the uploaded file, one of those. So, here you can see the different, different purpose. Assistant is the… batch is the… okay, used in Assistant API, used in a batch API, used for the fine-tuning, image, used for the vision fine-tuning.
+
+
+348
+00:57:15.502 --> 00:57:22.921
+Sunny: flexible file type of any purpose, for the evaluation purpose. So, different, different purposes we have.
+
+
+349
+00:57:23.002 --> 00:57:25.322
+Sunny: Getting my point? Yes or no?
+
+
+350
+00:57:25.502 --> 00:57:37.301
+Sunny: So, someone was asking in the chat, so I just shown over here. You just need to hover your mouse on top of this method, and you will get the complete detail of this particular method, okay?
+
+
+351
+00:57:37.302 --> 00:57:46.172
+Sunny: Now, what is the meaning of this RB, guys? RB is nothing, it is a read and byte. Okay, so we are reading… so they are reading this particular file in a byte, mode.
+
+
+352
+00:57:46.392 --> 00:57:47.182
+Sunny: Right?
+
+
+353
+00:57:50.502 --> 00:58:10.311
+Sunny: Okay. Now, what I'll do, guys, so simply I will upload the file, I'll simply create a client. Now, see, once I upload the file, I am getting this response. So, file object has created. So, this is a unique ID is being created. Okay, this is the size of the file. It is created at this particular time. This is the file name. Okay, object is this one.
+
+
+354
+00:58:10.312 --> 00:58:17.282
+Sunny: sorry, object file. Purpose is a fine-tuning. Sorry, status is a proceed one.
+
+
+355
+00:58:17.282 --> 00:58:36.221
+Sunny: So it is proceed, expire at none, okay? Status detail is none. So, it is, replying back this, detail. Okay, so this file, actually, it is uploaded via… this file, actually, it is uploaded over the OpenAI platform. Now, can you check all the files? Can you check what all files, basically, are there, whatever file you have uploaded?
+
+
+356
+00:58:36.232 --> 00:58:39.671
+Sunny: So for that, what you will do, guys, you will simply call this method.
+
+
+357
+00:58:43.622 --> 00:58:44.602
+Sunny: grind.
+
+
+358
+00:58:46.022 --> 00:58:47.112
+Sunny: files.
+
+
+359
+00:58:47.492 --> 00:58:59.322
+Sunny: dot list, okay? So once you will call this particular method, what you will get, you will get the error, because the client spelling is not correct, or whatsoever.
+
+
+360
+00:58:59.982 --> 00:59:02.522
+Sunny: C-L-I-E-N-T.
+
+
+361
+00:59:02.802 --> 00:59:12.621
+Sunny: So, let me check why I'm getting the error. Client is not defined. This is a client, no? Okay, I think client… I returned the different spelling of the client.
+
+
+362
+00:59:12.942 --> 00:59:17.821
+Sunny: So, this is the client, right? So, this is the spelling, basically, which I return.
+
+
+363
+00:59:17.962 --> 00:59:30.532
+Sunny: Just a second, let me write it. So, see, guys, this is all the files. So, before this class also, I have uploaded the different files. Okay, so it is showing me all the file object.
+
+
+364
+00:59:30.902 --> 00:59:45.512
+Sunny: It is showing me what? It is showing me? All the file object. I can even, basically iterate on top of it. So, simply what I can do, I can take this particular code, and here I can run the for loop on top of it. So, let me copy this code.
+
+
+365
+00:59:46.082 --> 00:59:52.262
+Sunny: It is very easy to iterate on top of it. So, here is the code. Now, I will write 4.
+
+
+366
+00:59:52.702 --> 00:59:58.262
+Sunny: Then here is file, then in, okay? Now what I'll do, guys, so first I'll print the…
+
+
+367
+00:59:58.682 --> 01:00:09.772
+Sunny: file ID, so file.id, okay? And then, guys, what I will do, I will print the file purpose. So, here, basically, is what? File.
+
+
+368
+01:00:09.902 --> 01:00:11.402
+Sunny: purpose, okay?
+
+
+369
+01:00:11.932 --> 01:00:29.102
+Sunny: Maybe in your case, you will just get a single file. And then, guys, I will print the file also. So, let me print the file also. So, here is the file. So, let me segregate this entire thing. So, here what I'm doing, I'm just going to be segregated.
+
+
+370
+01:00:29.352 --> 01:00:33.782
+Sunny: Let me segregate this entire thing with the print itself.
+
+
+371
+01:00:35.162 --> 01:00:41.482
+Sunny: Okay, so let me iterate on top of this file, let's see. So, these many files I have uploaded so far.
+
+
+372
+01:00:41.841 --> 01:00:43.562
+Sunny: Where? Over the…
+
+
+373
+01:00:43.892 --> 01:01:01.832
+Sunny: These many files I have uploaded so far over the OpenAI platform. So, which is… which one is my latest one? Can anyone tell me which one is my latest one? You can check out the ID of my one. So, it is, MIR13. So, MIR13. This is the latest one, guys, this one.
+
+
+374
+01:01:02.202 --> 01:01:04.482
+Sunny: So, which I uploaded recently.
+
+
+375
+01:01:04.921 --> 01:01:14.951
+Sunny: Okay? Which I uploaded recently. Maybe in your case, you will get only one file, but I did this process multiple times, so see, I have the multiple file object.
+
+
+376
+01:01:15.522 --> 01:01:20.692
+Sunny: This part is clear. If this part is clear, please let me know so that I can proceed.
+
+
+377
+01:01:24.282 --> 01:01:25.192
+Sunny: Yes?
+
+
+378
+01:01:28.801 --> 01:01:48.662
+Sunny: No, before doing this one, Abhishek, you will have to take a permission of the management, because you cannot upload that data directly over the, this one, OpenAI, okay? Or else, just check out with the Cloud Foundry if you can do the fine-tuning from there itself, inside the manage environment. Got it?
+
+
+379
+01:01:52.301 --> 01:01:57.141
+Sunny: Why do we need to upload the data on the other platform? For the fine-tuning, na, Sergei?
+
+
+380
+01:01:57.711 --> 01:02:01.781
+Sunny: Fine-tuning, for the fine-tuning, we'll have to do it, right, MK?
+
+
+381
+01:02:04.212 --> 01:02:10.362
+Sunny: But again, for doing it now, you will have to take up permission of your management. Got it?
+
+
+382
+01:02:22.412 --> 01:02:26.181
+Sunny: Fine, so now I hope this is clear out.
+
+
+383
+01:02:26.282 --> 01:02:34.841
+Sunny: So, tell me, guys, is this part clear? We just have uploaded the data. Now I have to create the fine-tuned job. That's it, guys. We just have two methods for the fine-tuning.
+
+
+384
+01:02:35.162 --> 01:02:46.672
+Sunny: We just have what? We just have two methods for the fine-tuning. Now, let me do one thing, and don't worry, guys, even at the end, I will show you how you can perform the fine-tuning with the Vertex AI.
+
+
+385
+01:02:46.672 --> 01:02:55.742
+Sunny: I have one recorded video, I can share that video with all of you, and even the solution also, so you can look into that, okay?
+
+
+386
+01:02:55.882 --> 01:02:59.842
+Sunny: And, even… Using the Cloud Foundry, you can do it.
+
+
+387
+01:03:00.192 --> 01:03:17.962
+Sunny: If you want that particular code, I can provide you, but for that, you require the Cloud Foundry access, okay, the Azure Cloud Foundry access. Now, let's do one thing, guys, let's create a fine-tuned job. So, for that, I will have to call one more method.
+
+
+388
+01:03:27.002 --> 01:03:42.481
+Sunny: So, guys, I'm going to be called one more method. So, this is my client. Let me take the client, just a second. Here is my client. Now, what I will do, guys, so I will simply, call one more method, just a second. What is the spelling of that?
+
+
+389
+01:03:42.912 --> 01:03:45.881
+Sunny: I think I need to copy this one, this client.
+
+
+390
+01:03:46.222 --> 01:03:53.822
+Sunny: So, let me mention the client over here, this particular variable, why I'm not able to copy and paste? CLI NET.
+
+
+391
+01:03:54.022 --> 01:04:09.751
+Sunny: So, clientet. I think it is lagging. Maybe multiple people are accessing this link now? That's why it is lagging, okay? So, client, client. Now, what I will do, guys, I will simply call one more method on top of it, that's a fine-tuning.
+
+
+392
+01:04:09.942 --> 01:04:25.521
+Sunny: Now, I will call one more method that's going to be a job. Okay, and then what I will do, guys, I will call the create. That's it, guys. One more method is required for creating a fine-tuning job. Now, here, guys, I will be, passing some parameters. So, the first parameter is going to be what?
+
+
+393
+01:04:25.712 --> 01:04:29.612
+Sunny: First parameter is going to be training underscore file.
+
+
+394
+01:04:29.762 --> 01:04:30.592
+Sunny: Okay.
+
+
+395
+01:04:31.012 --> 01:04:35.652
+Sunny: So, this is my first parameter. Now, the second parameter is going to be what?
+
+
+396
+01:04:35.792 --> 01:04:40.912
+Sunny: The second parameter is going to be model, which model I wanted to fine-tune, okay?
+
+
+397
+01:04:41.252 --> 01:04:55.452
+Sunny: Now, the next parameter is going to be a suffix name. Do you want to provide any specific suffix, just to identify your model as a separate one, right? So, just to identify your model as a unique one.
+
+
+398
+01:04:55.452 --> 01:05:04.241
+Sunny: You can provide any suffix value, right? And then you can provide some hyperparameter also. So here, basically, I have one more parameter that's going to be a method.
+
+
+399
+01:05:04.382 --> 01:05:10.502
+Sunny: So these, many things I can mention inside the job, while I'm going to be creating the fine-tuning job.
+
+
+400
+01:05:10.552 --> 01:05:29.192
+Sunny: Now, here, guys, which, file ID is required? So, if you will look over here, so this is my file ID, this one. So, I required this particular file ID. I will simply copy this file ID, and I'll pass it over here, okay? So, on top of this particular data, I'm going to be perform the fine-tuning. Then, guys, here is what, here is my model.
+
+
+401
+01:05:29.272 --> 01:05:43.661
+Sunny: So this model, I'm going to be fine-tuned. Now I'm writing one specific… one, different name, so that I can, identify my model, okay, as a unique model. So I'm writing over here, GenAI Bootcamp. You can write any custom suffix, so GenAI,
+
+
+402
+01:05:44.032 --> 01:05:45.792
+Sunny: Bootcamp, live.
+
+
+403
+01:05:46.312 --> 01:05:59.712
+Sunny: Okay, so GenAI Bootcamp Live. Now, inside the method, basically, I can provide some hyperparameter. So, what kind of fine-tuning it is? It is a supervised fine-tuning, because we have an input in the output column. So, I'll mention that.
+
+
+404
+01:06:01.322 --> 01:06:02.292
+Sunny: It is a…
+
+
+405
+01:06:02.662 --> 01:06:18.141
+Sunny: supervised fine tuning. Now, guys, inside the supervised fine-tuning, what all parameter is required? Now I'm going to be mentioned that also. So here, guys, I will be mentioning the hyperparameter, so I'll write over here, supervised
+
+
+406
+01:06:18.842 --> 01:06:19.762
+Sunny: Okay.
+
+
+407
+01:06:19.992 --> 01:06:25.771
+Sunny: supervised. Now, inside the supervised, what I will do, I will mention one more, key.
+
+
+408
+01:06:25.912 --> 01:06:30.491
+Sunny: The key, basically, it's going to be a hyperparameter, okay?
+
+
+409
+01:06:30.602 --> 01:06:38.862
+Sunny: So, let me copy and paste so that you can get the better idea. Just a second, guys, I'm going to be copy and paste this, method.
+
+
+410
+01:06:39.512 --> 01:06:42.222
+Sunny: So… Wait, okay.
+
+
+411
+01:06:42.882 --> 01:06:44.231
+Sunny: This is Maya.
+
+
+412
+01:06:44.282 --> 01:06:47.002
+Sunny: method, guys. This one. I already done it.
+
+
+413
+01:06:47.052 --> 01:07:00.512
+Sunny: Now, here, this batch size is not required, because I just have, 10 data points, okay? Epochs, for how many epochs you want it to run. Now, suffix name, again, I will have to provide, and this is my client. CLI NET.
+
+
+414
+01:07:00.512 --> 01:07:14.791
+Sunny: Now, here, guys, I will have to provide the correct training file ID, so the ID, basically, which is assigned by the GPT, okay? By the OpenAI, basically. So this particular ID, I will have to provide over here. So, this is my file ID. Let me keep this file ID.
+
+
+415
+01:07:15.132 --> 01:07:24.482
+Sunny: And I can write my suffix name again. So, what was my suffix name? Any name you can write, just to identify your model, okay? So, Gen AI Bootcamp.
+
+
+416
+01:07:26.292 --> 01:07:27.232
+Sunny: Live?
+
+
+417
+01:07:27.342 --> 01:07:28.252
+Sunny: class.
+
+
+418
+01:07:29.522 --> 01:07:48.052
+Sunny: So, I hope, guys, is it, this is clear. So, this method I'm going to be called client.fineetuning.job, create, I'm going to be create the fine-tuning job. Here, I'm passing my data, here I am passing by model, here I am passing my suffix name, unique name, okay? So, this suffix name will be associated with this model.
+
+
+419
+01:07:48.052 --> 01:07:55.442
+Sunny: And now this is what, guys? This is my method. Okay, so inside the method, we are passing the hyperparameter, and we are telling what kind of fine-tuning it is.
+
+
+420
+01:07:55.442 --> 01:08:11.541
+Sunny: Now, inside the hyperparameter, we are passing the number of epoch, and we are passing the learning rate also. So, this learning rate, basically, it will help, to model while it is training the model, while it is updating the weights of the model using the optimizer, okay?
+
+
+421
+01:08:11.722 --> 01:08:29.141
+Sunny: So, see, guys, the training job has created. Now, can you check with this training job? Can you look into this training job? Yes, definitely you can do. So, once you will go through with the dashboard, so once you will open the dashboard, guys, so this is the dashboard. Now, let me refresh this dashboard.
+
+
+422
+01:08:29.142 --> 01:08:33.712
+Sunny: So once I will refresh this dashboard, so here only, your job will be listed.
+
+
+423
+01:08:34.412 --> 01:08:38.601
+Sunny: Okay, so let me check whether the job is there. See you guys, this is the job.
+
+
+424
+01:08:39.332 --> 01:08:40.751
+Sunny: But it is showing failure.
+
+
+425
+01:08:41.092 --> 01:08:48.512
+Sunny: I think, due to the internal error. See, guys, I think it is not supporting the fine-tuning as of now, as they have written this message.
+
+
+426
+01:08:48.512 --> 01:09:03.081
+Sunny: So, can you see, is it clear to all of you? See, the job is listed over here. This is our job, which I created just now. So, once the fine-tuning will be completed, here it will showcase the path, the fine-tuned model is there, and then I can utilize this fine-tuned model.
+
+
+427
+01:09:03.082 --> 01:09:09.602
+Sunny: You can see the complete detail of the fine-tuned model over here as well. So, as of now, it is showing the error.
+
+
+428
+01:09:09.602 --> 01:09:18.381
+Sunny: But, because of some internal reason, I don't know what is that internal reason. So, custom… okay, this is the… this is the one now. Here, you can see.
+
+
+429
+01:09:18.432 --> 01:09:25.261
+Sunny: The file form… okay, it is showing a file fell to the file formatter in the training file, invalid file format, example.
+
+
+430
+01:09:25.602 --> 01:09:41.672
+Sunny: First, the last mention must be the form, the assistant. Okay, I think I see, this is the error, basically. Sorry, sorry, sorry, it's my bad. I clicked on the different, job, actually, but this is our job. So, it is showing some error. Now, why it is showing the error?
+
+
+431
+01:09:41.672 --> 01:09:46.431
+Sunny: Because it is saying inside the example 1, the last message must be from the assistant.
+
+
+432
+01:09:46.682 --> 01:10:00.081
+Sunny: So I think that this, message, assistant message should be there. So if you will check out with the data, you will find out maybe the assistant message is not there, inside my data point. Can we check now?
+
+
+433
+01:10:00.832 --> 01:10:05.392
+Sunny: Yeah, so I think the assistant message is not there inside the first row.
+
+
+434
+01:10:06.572 --> 01:10:18.851
+Sunny: Yeah, inside the first row, the assistant message is not there. And because of that, it is showing me the error. So, is it fine, guys, to all of you, how to create the fine-tuning job in the OpenAI API?
+
+
+435
+01:10:18.962 --> 01:10:21.881
+Sunny: Tell me, is this part getting clear to all of you?
+
+
+436
+01:10:22.052 --> 01:10:28.741
+Sunny: It's very easy, nothing is there, we just have to call to… we just have to call to method, right?
+
+
+437
+01:10:29.072 --> 01:10:44.262
+Sunny: Where the message is missing, Swatiji, just check out over here. We have the system message, we have the user message, but where is the assistant message? So, it is a… it is boiling the format of the data, actually.
+
+
+438
+01:10:44.842 --> 01:10:55.752
+Sunny: Because of that, it is giving me the error. So let me do one thing, guys. Let me complete this data. I think, the updated data I have at one place, let me keep it over here.
+
+
+439
+01:10:57.002 --> 01:11:02.252
+Sunny: So, just give me a moment, and then, basically I can create the fine-tuned job.
+
+
+440
+01:11:03.162 --> 01:11:08.601
+Sunny: So, how is this fine-tuning one? Tell me, is it a, like, really easy one or not?
+
+
+441
+01:11:09.442 --> 01:11:14.192
+Sunny: I hope everyone understood how to fine-tune the GPT model.
+
+
+442
+01:11:15.162 --> 01:11:18.312
+Sunny: I think this is the updated data, let me copy it.
+
+
+443
+01:11:21.762 --> 01:11:26.911
+Sunny: And then I can paste it over here. So, do we have the system message?
+
+
+444
+01:11:27.472 --> 01:11:46.992
+Sunny: Yeah, so assistant message is over here. Guys, see, assistant message is over here. So you can write the script and all, everything, just to basically verify this data, whether it is having all the key or not, okay? Whether it is following the complete format. If you are violating the format in that case, there's, this will generate the error.
+
+
+445
+01:11:46.992 --> 01:11:53.092
+Sunny: OpenAI will give you the error, right? So, let me save it, and then, again, I can keep it over there.
+
+
+446
+01:11:53.582 --> 01:12:00.582
+Sunny: So, just give me a moment, guys, I can keep the data. So, here is the data, I can delete this one first.
+
+
+447
+01:12:02.372 --> 01:12:06.141
+Sunny: Delete the data, and then uploading the data again.
+
+
+448
+01:12:08.462 --> 01:12:11.072
+Sunny: So I'm uploading the complete data.
+
+
+449
+01:12:13.112 --> 01:12:17.911
+Sunny: This is the real time only, no? In the real time also, you will be doing, like, this only. Sushant?
+
+
+450
+01:12:19.282 --> 01:12:27.301
+Sunny: I've shown you the real customer support example. If you're working with any customer support example, you are doing like that only, right?
+
+
+451
+01:12:29.252 --> 01:12:33.862
+Sunny: This is the one and only format for the OpenAI fine-tuning.
+
+
+452
+01:12:34.002 --> 01:12:46.592
+Sunny: Bhagavan Dasji, clear. If you're going to be violate this format, you will not be able to fine-tune. Even they have listed over the documentation itself. If you are doing a SFT supervised fine-tuning, you will have to follow this particular format.
+
+
+453
+01:12:46.712 --> 01:12:47.502
+Sunny: Got it?
+
+
+454
+01:12:47.952 --> 01:12:54.701
+Sunny: So, just a second, guys, let me again create a job, this fine-tuning job. Let me read the data first.
+
+
+455
+01:12:55.072 --> 01:13:00.861
+Sunny: So, this is clear, let me check out the first row, whether the assistant is there. Yeah, assistant is there.
+
+
+456
+01:13:01.052 --> 01:13:04.982
+Sunny: Everything is perfect, now I can do one thing, guys.
+
+
+457
+01:13:05.162 --> 01:13:09.292
+Sunny: I can rename this file, let me rename this file, let's say I'm writing.
+
+
+458
+01:13:09.412 --> 01:13:11.732
+Sunny: Customer support data, okay?
+
+
+459
+01:13:12.332 --> 01:13:22.802
+Sunny: customer underscore support underscore data, right? So, this is my file name, now let me copy the path, and let me paste it over here.
+
+
+460
+01:13:24.272 --> 01:13:27.481
+Sunny: And then, guys, I can create one more.
+
+
+461
+01:13:27.712 --> 01:13:32.542
+Sunny: I can upload my file one more time. See, the different IDs are also… the different IDs assigned?
+
+
+462
+01:13:32.582 --> 01:13:52.301
+Sunny: The different hash keys assigned now. Now let me list all the files. So, see my all the file? Now, if I will run it, see, at the first place, I'll be getting the latest one. So, this is my latest file. As you can see, customer support JSON. Now, I can take this file ID, this particular file ID, and I can mention this file ID inside my job.
+
+
+463
+01:13:52.302 --> 01:14:04.621
+Sunny: So this is the job, guys, and I can keep it over here. That's it. So this is fine, this is the model, this is the suffix, this is the method, and now everything is fine. Let me create a fine-tuning job.
+
+
+464
+01:14:05.552 --> 01:14:12.671
+Sunny: Why? What is this doing? Invariate methods of hyper, extra input are parameter, type, invariant number, pharma, hyperparameter, code none.
+
+
+465
+01:14:13.182 --> 01:14:14.272
+Sunny: What is this?
+
+
+466
+01:14:16.852 --> 01:14:21.082
+Sunny: Training file is there, model is there, suffix is there, client fine-tuning job.
+
+
+467
+01:14:21.542 --> 01:14:27.762
+Sunny: Spelling, client fine-tuning job creator, hyperparameter spelling.
+
+
+468
+01:14:29.372 --> 01:14:34.731
+Sunny: Okay, okay, got it, got it, got it, guys. So this is a… there is a spelling mistake, let me keep the…
+
+
+469
+01:14:34.842 --> 01:14:36.342
+Sunny: Correct spelling, okay?
+
+
+470
+01:14:36.842 --> 01:14:37.852
+Sunny: Wait.
+
+
+471
+01:14:38.462 --> 01:14:42.812
+Sunny: So, here, I think by mistake, I changed it.
+
+
+472
+01:14:43.052 --> 01:14:46.052
+Sunny: This is the correct spelling, hyperparameter.
+
+
+473
+01:14:46.502 --> 01:14:56.212
+Sunny: Fine, guys, so the job is created, and even I can check out this particular job over the dashboard. So once I will open the dashboard, so… and if I will refresh it, no?
+
+
+474
+01:14:58.532 --> 01:15:10.092
+Sunny: So, you will find out the new fine-tuning job. See, guys, it is validating the file. So, the first place, it is validating the file. If the file validation is going to be wrong, in that case, it will not, perform the fine-tuning further.
+
+
+475
+01:15:10.542 --> 01:15:20.022
+Sunny: You can see the complete detail of the fine-tuning over here. So once the model will be ready, it will showcase the model is ready, and then we can perform the inferencing out of it.
+
+
+476
+01:15:20.152 --> 01:15:21.162
+Sunny: Okay.
+
+
+477
+01:15:24.572 --> 01:15:29.571
+Sunny: So, tell me, did you understand this entire thing? This entire process?
+
+
+478
+01:15:30.692 --> 01:15:38.252
+Sunny: So let it complete, and after the break, guys, I will, what I'll do, guys, I will show you the inferencing part.
+
+
+479
+01:15:38.742 --> 01:15:40.702
+Sunny: So, how's the session so far?
+
+
+480
+01:15:48.102 --> 01:15:53.841
+Sunny: Yes, paid version of the API is required. Without that, you cannot perform the fine-tuning.
+
+
+481
+01:16:00.442 --> 01:16:10.271
+Sunny: Last mein ke error tha sar j. So, last me error tha main hyperparameter ka spelling, galat litat. I written the wrong spelling of the hyperparameter, okay?
+
+
+482
+01:16:13.102 --> 01:16:28.592
+Sunny: You can check out Shobik, here they have given you the different, different model, okay? See, it is all about the supervised fine-tuning, vision fine-tuning, the different, different fine-tuning, all type of fine-tuning, basically, they are supporting.
+
+
+483
+01:16:28.702 --> 01:16:43.401
+Sunny: So, with respect to which fine-tuning, you have to create what kind of data, right? So, you will get it over here. Let's say you wanted to perform the supervised fine-tuning. Just open this article, so you will get the detail over here. See, in this particular format, you have to prepare a data.
+
+
+484
+01:16:43.402 --> 01:16:58.612
+Sunny: Now, guys, let's say you wanted to perform the vision fine-tuning, okay? Open this article and see the data format, what kind of data. See, in this particular format, you will have to create a data for the vision fine-tuning. So, this is also being supported by the OpenAI.
+
+
+485
+01:16:58.762 --> 01:17:06.442
+Sunny: Let's say you have to perform the DPO. So, just open this and see the data format. See, this is the data format for the DPO. Got it?
+
+
+486
+01:17:06.532 --> 01:17:23.201
+Sunny: I think someone, one person was also asking the different, different data format. So, according to fine-tuning, basically, you can do the data formatting, and I think four types of fine-tuning they are providing. SFT, vision fine-tuning, DPO, and the reinforcement tuning.
+
+
+487
+01:17:23.622 --> 01:17:26.942
+Sunny: So I can keep this link inside the same notebook, it will…
+
+
+488
+01:17:27.062 --> 01:17:32.041
+Sunny: Really help you while you are navigating to this document, okay?
+
+
+489
+01:17:32.252 --> 01:17:33.402
+Sunny: This is the link.
+
+
+490
+01:17:35.262 --> 01:17:40.392
+Sunny: Let me check out of the dashboard. See, the fine-tuning is in a progress, it will take some time. So…
+
+
+491
+01:17:40.932 --> 01:17:41.952
+Sunny: let it.
+
+
+492
+01:17:42.392 --> 01:17:43.312
+Sunny: Complete.
+
+
+493
+01:17:43.592 --> 01:17:47.052
+Sunny: So, putting a timer, guys, quick dinner break.
+
+
+494
+01:17:47.222 --> 01:17:51.631
+Sunny: 20 minutes of dinner break, let's enjoy the dinner, okay?
+
+
+495
+01:17:51.742 --> 01:17:56.401
+Sunny: And then, we'll see you after 20 minutes. Thank you, bye-bye. Take care, guys.
+
+
+496
+01:17:58.872 --> 01:18:00.802
+Sunny: I'll see you after the break, okay?
+
+
+497
+01:38:47.262 --> 01:38:54.291
+Sunny: Okay, guys, can we start with the session again? If everyone is there, please let me know in the chat.
+
+
+498
+01:38:55.772 --> 01:39:01.761
+Sunny: So, still, you can see my fine-tuning is in process. See here.
+
+
+499
+01:39:02.552 --> 01:39:07.262
+Sunny: It takes time, actually. You can refresh your dashboard and check it again.
+
+
+500
+01:39:08.442 --> 01:39:11.442
+Sunny: See, still this, fine-tuning in progress.
+
+
+501
+01:39:11.652 --> 01:39:15.081
+Sunny: And this isn't, this is a knot in my hand.
+
+
+502
+01:39:15.652 --> 01:39:24.102
+Sunny: Okay, you, basically, whenever this, GPT is returning to… sorry, whenever this OpenAI is returning to me the model, then only I can use it.
+
+
+503
+01:39:24.732 --> 01:39:30.011
+Sunny: So, once it will be completed, the status will be done. Got it?
+
+
+504
+01:39:30.162 --> 01:39:34.751
+Sunny: Yeah, it is taking time, longer time. Because a model will be very huge, no?
+
+
+505
+01:39:35.012 --> 01:39:39.551
+Sunny: The model would be very huge, and we are using the GPD model, don't forget that.
+
+
+506
+01:39:39.702 --> 01:39:46.241
+Sunny: So, it's going to be a huge one. Even you can create a fine-tuning job from here as well, see? This one.
+
+
+507
+01:39:46.502 --> 01:39:53.431
+Sunny: So, whatever we have done via programming now, via Python SDK, the same thing you can do using the create app as well.
+
+
+508
+01:39:54.462 --> 01:40:05.812
+Sunny: So, just click on the create, and, you can select the method of the fine-tuning, model, suffix, seed, training data you can upload directly. Okay, validation data also you can upload.
+
+
+509
+01:40:06.072 --> 01:40:11.551
+Sunny: And, here is the parameter. So, this, particular parameter you can select.
+
+
+510
+01:40:11.682 --> 01:40:16.752
+Sunny: So whatever we have done using the Python SDK, you can directly do it from here as well.
+
+
+511
+01:40:18.072 --> 01:40:23.132
+Sunny: Cost-wise, you can check out the cost here. See, this is the cost of the models.
+
+
+512
+01:40:24.912 --> 01:40:28.291
+Sunny: So… in which one? I think they are.
+
+
+513
+01:40:31.172 --> 01:40:44.702
+Sunny: There, here is a cost. So, training, $1.5 for 1 hour. If it is running for the… if it is running for 1 hour, this much is going to be a cost. Then for the input one, so 0.20…
+
+
+514
+01:40:44.832 --> 01:40:50.041
+Sunny: dollar. Again, it is for some million of tokens, some number of token, right?
+
+
+515
+01:40:50.202 --> 01:40:52.442
+Sunny: So you can read out the detail over here.
+
+
+516
+01:40:54.962 --> 01:41:04.171
+Sunny: I think somewhere they have mentioned the detail, like, how much is… how much is this one for, how much token, right? Input token. Then this is for the output token, okay?
+
+
+517
+01:41:04.172 --> 01:41:10.841
+Sunny: So I will not get much, basically, amount over here, because the training is not going to be run at 4 hour.
+
+
+518
+01:41:10.842 --> 01:41:25.142
+Sunny: So, for the training, you can think it is, like, just half an hour, half dollar, right? So, half dollar means 45 rupees, 45 to 50 rupees, and then input and output again. So, I will not get more than 70 to 80 rupees, okay, my entire bill for this testing.
+
+
+519
+01:41:25.202 --> 01:41:41.272
+Sunny: For this, demonstration, for the learning, actually. Okay? So around 7 to 80 rupees I will get. You can calculate like this. Or, OpenAI is also providing you one code snippet. You can integrate that code snippet inside your, like, inside your…
+
+
+520
+01:41:41.272 --> 01:41:58.291
+Sunny: inside your project, and then, basically you can calculate the cost on an ad hoc basis. So, whatever input and output you are going to be generate, right, and for how many hours you are going to be trained the model. So, everything you can co… you can basically estimate using that code also.
+
+
+521
+01:41:58.312 --> 01:41:59.232
+Sunny: Got it?
+
+
+522
+01:41:59.592 --> 01:42:07.012
+Sunny: Good. So, I hope this is clear. Now, let me again check whether this is running or not.
+
+
+523
+01:42:07.312 --> 01:42:15.722
+Sunny: It is still running. So what I can do, guys, I can show you the inferencing code now, and then… it's okay. Now this is succeed.
+
+
+524
+01:42:15.862 --> 01:42:22.341
+Sunny: Can you see, guys? It is succeed. So, can anyone tell me how much time it took for the fine-tuning?
+
+
+525
+01:42:22.822 --> 01:42:27.251
+Sunny: So, it took around, 25 minutes, if I'm not wrong.
+
+
+526
+01:42:27.782 --> 01:42:42.612
+Sunny: So, 20… 20 minutes of the dinner break, and 5 more minutes it has acquired, so around 25 to 30 minutes it has consumed for the fine-tuning. So, let's do one thing, let's try to perform the,
+
+
+527
+01:42:42.852 --> 01:43:02.722
+Sunny: let's try to perform what? Perform the inferencing. So, directly here also, you can do the inferencing, so they are providing the playground. So, here also, you can, test this model, okay? Just open this playground, and you can test it. Now, one more thing, guys. Credit-wise, yes, I can check the credit, what is my uses.
+
+
+528
+01:43:06.272 --> 01:43:09.142
+Sunny: So, here is my users, guys, see this one.
+
+
+529
+01:43:12.242 --> 01:43:17.002
+Sunny: I think it is, less than $0.1.
+
+
+530
+01:43:19.462 --> 01:43:23.012
+Sunny: And, in total, it has US60 token.
+
+
+531
+01:43:24.292 --> 01:43:28.641
+Sunny: So, I can check out over here with this bar, right?
+
+
+532
+01:43:28.812 --> 01:43:43.662
+Sunny: So, it is around, less than 0.1, so not, very much. I think, if it is 0.1, means 10 to 20 rupees, just for this, training, actually. Got it? So, we have very less data, I just show you for the demonstration and all, right?
+
+
+533
+01:43:43.892 --> 01:43:58.431
+Sunny: Yes, I've given my credit card detail, actually. I, added my credit card over here. The spend category, inside the spend category, also, you can check out. So just navigate to this dashboard, you will get… see, this is the model now, which I'm using, this one.
+
+
+534
+01:43:58.932 --> 01:44:03.872
+Sunny: 21st June, no? So, it is showing the input and the output.
+
+
+535
+01:44:04.382 --> 01:44:12.242
+Sunny: But it's not showing the training detail, but this is what I'm assuming as our final one, final training one. Got it?
+
+
+536
+01:44:12.282 --> 01:44:27.072
+Sunny: Now, let's do one thing, let's do the inferencing. So, here I'm doing the inferencing now. So, first, guys, what I will do, I will take this client.fineetuning.job, right? So, let me list all the job.
+
+
+537
+01:44:27.072 --> 01:44:35.951
+Sunny: Let me check, do we have the fine-tune model or not? So, using this particular method, I can list the job. Grind.fineetune.job.list, right?
+
+
+538
+01:44:37.812 --> 01:44:40.011
+Sunny: So, client, and now C.
+
+
+539
+01:44:40.272 --> 01:44:44.662
+Sunny: you will get the fine-tuned model. So, this is my fine-tuned model, this one.
+
+
+540
+01:44:44.692 --> 01:45:00.521
+Sunny: FTGPT, this, this, this, and this is the suffix, actually, which is added. Now, I will take this particular model, and I will perform the inferencing. So, for that, guys, what I will do, I will simply take the same message, okay?
+
+
+541
+01:45:00.562 --> 01:45:08.151
+Sunny: Now, instead of the model, I will write my model name. So let me remove this model. This is my earlier model, fine-tuned model.
+
+
+542
+01:45:08.202 --> 01:45:13.552
+Sunny: So, this is my model name now. As you can see, this one. So, I'll copy this name.
+
+
+543
+01:45:13.632 --> 01:45:15.981
+Sunny: I'll copy what? I'll copy this name.
+
+
+544
+01:45:16.122 --> 01:45:19.482
+Sunny: this particular name, and I will paste it over here.
+
+
+545
+01:45:20.982 --> 01:45:35.412
+Sunny: Okay, and then let me correct the client spelling also, because I return it wrong only. You can write the correct spelling of the client. This is the spelling, okay? So, client.chatCompletion create, this is my model, and here is the…
+
+
+546
+01:45:35.412 --> 01:45:43.611
+Sunny: message. So this is the role. Role, I think you know, right? And here is the role system, I think you know, right? Role user, this is my message.
+
+
+547
+01:45:43.622 --> 01:45:55.142
+Sunny: So I'm asking a message from my… sorry, I'm asking the question from my data itself, okay, just to check whether it is responding good or not, with respect to this, domain-specific question, right?
+
+
+548
+01:45:55.162 --> 01:45:57.892
+Sunny: So, let me run it, guys. This is the…
+
+
+549
+01:45:57.942 --> 01:45:59.971
+Sunny: Here, basically, I'll get a response.
+
+
+550
+01:46:05.422 --> 01:46:13.002
+Sunny: And I can keep this response inside the variable. So, just a second, I can keep it inside the variable, that's going to be my answer.
+
+
+551
+01:46:14.622 --> 01:46:20.032
+Sunny: Okay, now I can get the final response from here. So, let me do one thing.
+
+
+552
+01:46:20.322 --> 01:46:26.682
+Sunny: Let me get my final message. So, just a second, guys, I can get my final message.
+
+
+553
+01:46:27.872 --> 01:46:32.201
+Sunny: First, let me check whether it is working or not, whether this fine-tuned model is working or not.
+
+
+554
+01:46:36.982 --> 01:46:44.121
+Sunny: You will get the detail over here, itself, over the… basically, their dashboard only, Oslo.
+
+
+555
+01:46:44.602 --> 01:46:49.391
+Sunny: So, it completely depends on the data, how much data you are providing, and
+
+
+556
+01:46:49.812 --> 01:47:08.302
+Sunny: data, if the data is huge, then it… it will take some more… some more time. If you're adding 20 more rows, maybe it will take 1 hour. If you are adding 50 to 100 rows, then it might take 2 to 3 hours, okay? GPT models are the huge ones, so they have trained this GPT model on a very huge amount of data, and for the very longer time.
+
+
+557
+01:47:08.412 --> 01:47:18.651
+Sunny: So, they have trained it for the… they have trained it for months, actually. You know, GPT-3, it is trained for one and a half months, for two months.
+
+
+558
+01:47:18.652 --> 01:47:28.542
+Sunny: Right? So it is not like that they just trained this entire model within a day, no. They have used a cluster of GPU, and they have trained it with, like, for the months only.
+
+
+559
+01:47:28.602 --> 01:47:33.481
+Sunny: Let me check out with a Google directly, so if I'm writing over the Google, just to cross-check it.
+
+
+560
+01:47:34.032 --> 01:47:39.922
+Sunny: for how many days GPT-5 model?
+
+
+561
+01:47:40.842 --> 01:47:41.702
+Sunny: Pray.
+
+
+562
+01:47:42.122 --> 01:47:42.952
+Sunny: Okay.
+
+
+563
+01:47:43.402 --> 01:47:55.922
+Sunny: So, simply, I can check it, guys. This… this is just our general knowledge, right? It's a fact. So, see, guys, what they have written. So, I'm getting a summary from my… from the Jimny itself. So…
+
+
+564
+01:47:56.292 --> 01:48:00.802
+Sunny: Check the estimated time. 2 to 3 months, they have trained this GPT model.
+
+
+565
+01:48:03.712 --> 01:48:05.762
+Sunny: Getting my point? Yes or no.
+
+
+566
+01:48:06.452 --> 01:48:09.802
+Sunny: 2 to 3 months, just for that unsupervised pre-training.
+
+
+567
+01:48:11.052 --> 01:48:11.912
+Sunny: Okay.
+
+
+568
+01:48:13.232 --> 01:48:26.462
+Sunny: Great. Now, I hope this is clear. See, I'm getting my answer as well. Most, you know, can one-year limited warranty over manufactured? Can you specify model warranty? Okay. It's asking some more details. So, this is the answer which I'm getting. Now, let me show you the final answer. Here is the…
+
+
+569
+01:48:26.462 --> 01:48:34.042
+Sunny: answer, this one. Got it? You can pick up any sort of a question from the dataset itself, and just to cross-check, basically, you can,
+
+
+570
+01:48:34.042 --> 01:48:41.062
+Sunny: ask the same question, whether it is giving you the right answer or not. So, in front of you only take a question from the data only.
+
+
+571
+01:48:41.192 --> 01:48:45.281
+Sunny: So, this is my data. Now, let's do one thing.
+
+
+572
+01:48:45.772 --> 01:48:50.901
+Sunny: Okay, this is the question which I'm asking from my model. Okay, this one, this particular question.
+
+
+573
+01:48:51.102 --> 01:49:06.602
+Sunny: Let's see what model will reply from this question. So, here is the question. Can I use the same apps on Android and iPhone? If you will look into the training, guys, so, in the training, this is… sorry, in the training data, this is the answer.
+
+
+574
+01:49:07.532 --> 01:49:21.431
+Sunny: Okay, now let's see how this GPT model, the custom GPT model, is dealing with this particular question, will match with our ground truth. So, this is our ground truth, this one. Okay? So, let me mention it over here. This is my ground truth.
+
+
+575
+01:49:23.892 --> 01:49:26.161
+Sunny: This is my ground truth.
+
+
+576
+01:49:26.582 --> 01:49:27.502
+Sunny: Got it?
+
+
+577
+01:49:29.152 --> 01:49:34.812
+Sunny: Now, let's run it. So this is my ground truth, and let's check out what I will be getting here.
+
+
+578
+01:49:37.162 --> 01:49:38.662
+Sunny: Let's see the answer.
+
+
+579
+01:49:39.852 --> 01:49:42.461
+Sunny: So this is the generated answer.
+
+
+580
+01:49:42.882 --> 01:49:43.722
+Sunny: Okay.
+
+
+581
+01:49:44.642 --> 01:49:50.032
+Sunny: So, this… This is a… model.
+
+
+582
+01:49:51.352 --> 01:49:53.572
+Sunny: generated answer.
+
+
+583
+01:49:54.082 --> 01:49:56.442
+Sunny: After fine-tuning.
+
+
+584
+01:49:57.862 --> 01:50:06.872
+Sunny: Okay, now this is the model-generated answer of the Find URLC. Apps need to be downloaded separately for Google Play or Android App Store, compatibly depend on the developer.
+
+
+585
+01:50:06.952 --> 01:50:21.861
+Sunny: So, answer is somewhere around the same, okay? Based… it is following the same context, right? But you can provide the more context. Now, if I'm going to be asked the same question from the base model, now let's see what kind of… what kind of response I'm getting.
+
+
+586
+01:50:21.932 --> 01:50:27.522
+Sunny: So, here, guys, I'm going to be asked the same question with a general-purpose model.
+
+
+587
+01:50:27.662 --> 01:50:30.561
+Sunny: So, here is my general purpose model, this one.
+
+
+588
+01:50:32.462 --> 01:50:36.022
+Sunny: Okay, so I'm… Putting this quotient over here.
+
+
+589
+01:50:36.882 --> 01:50:47.011
+Sunny: Let me put in the next different cell. So, this is the question, guys. So, here is the question, let me put this particular question for the general… to the general purpose model.
+
+
+590
+01:50:47.832 --> 01:50:50.181
+Sunny: And let's see the final answer.
+
+
+591
+01:50:50.322 --> 01:50:56.042
+Sunny: Okay, and I think I will have to tweak the system message also, so let me tweak the… Sis…
+
+
+592
+01:53:10.092 --> 01:53:15.391
+Sunny: Yeah, guys, I think I was dropped from the meeting. Can you hear me now? I'm audible again?
+
+
+593
+01:53:15.632 --> 01:53:23.022
+Sunny: Sorry, actually, there was some issue with my network, and I hope I am, again, audible, correct?
+
+
+594
+01:53:23.842 --> 01:53:26.732
+Sunny: Just to give me a moment, I'm sharing my screen again.
+
+
+595
+01:53:28.122 --> 01:53:30.361
+Sunny: Can you hear me, guys? Am I…
+
+
+596
+01:53:32.052 --> 01:53:33.681
+Sunny: Am I audible to all of you?
+
+
+597
+01:53:35.002 --> 01:53:43.481
+Sunny: Okay, great, thank you. Sorry, guys, there was some problem with my internet connection, so I just, changed the connection.
+
+
+598
+01:53:46.982 --> 01:53:47.832
+Sunny: Great.
+
+
+599
+01:53:48.212 --> 01:53:53.811
+Sunny: So, let's, do one thing. Let's, do one thing, guys, let's,
+
+
+600
+01:53:54.232 --> 01:53:59.111
+Sunny: look into the response, okay, from here, and then I can check out the response.
+
+
+601
+01:54:00.032 --> 01:54:06.931
+Sunny: So, this is the response without training. This is the response from the journal purpose model.
+
+
+602
+01:54:07.152 --> 01:54:13.311
+Sunny: So, give me a moment, I can, keep it over here, so that you can look into all the three responses.
+
+
+603
+01:54:15.422 --> 01:54:18.941
+Sunny: You are able to understand the entire context, no? Yes or no?
+
+
+604
+01:54:23.302 --> 01:54:26.762
+Sunny: response… from the journal.
+
+
+605
+01:54:28.182 --> 01:54:29.842
+Sunny: purpose model.
+
+
+606
+01:54:30.662 --> 01:54:43.551
+Sunny: Okay, so you can compare the result. So, many apps are available on the browser, however, some apps might be exclusive on one platform in different version. It's best to check the app available with the Google Play Store and the Apple Play Store, right?
+
+
+607
+01:54:43.552 --> 01:55:01.792
+Sunny: So, it is giving more or less the same answer. General purpose model also is able to provide the answer, okay? Because we have set the system message. So, based on this POC, based on this evaluation only, you will have to decide that whether the fine-tuning is required or not. Making sense? Yes or no?
+
+
+608
+01:55:02.062 --> 01:55:20.552
+Sunny: Tell me. So, this kind of evaluation, you will have to do with your model. You will have to check with your ground truth, you will have to generate the output from the fine-tuned model, and then you will have to look into the response from the base model as well. And once you will collect this entire, once, basically.
+
+
+609
+01:55:20.552 --> 01:55:38.882
+Sunny: You will collect this entire data and all, you will collect this entire responses and all, and then you will make a final conclusion whether the fine-tuning is required or not. Making sense? Tell me yes or no. So this fine-tuning part is clear to all of you, how to perform this API-based fine-tuning.
+
+
+610
+01:55:40.302 --> 01:55:59.642
+Sunny: If it is clear, just let me know the chat so that we can proceed with a different concept. Now, how much topic are remaining in the fine-tuning? Only one topic. RLHF topic is remaining, so that I can discuss in the next class. So, tell me, how was the session so far? Did you like this session, fine-tuning with this GPT model?
+
+
+611
+01:55:59.772 --> 01:56:15.721
+Sunny: If you like it, I think, we are good to go. I can provide you this entire notebook, GPD fine-tuned, so you can take a reference of this notebook. I don't know whether you are going to do it or not in your organization, but again, it is just for your general knowledge, okay?
+
+
+612
+01:56:15.932 --> 01:56:20.012
+Sunny: So, giving you this particular notebook.
+
+
+613
+01:56:24.972 --> 01:56:34.002
+Sunny: Sir, assignment ka melega, melega, last topic, when I'll, complete the last topic, no? You will get that, okay? Don't worry.
+
+
+614
+01:56:36.452 --> 01:56:41.192
+Sunny: Because the module should be completed, no? If the module is completed, then I think,
+
+
+615
+01:56:41.612 --> 01:56:43.362
+Sunny: We are good to go, okay?
+
+
+616
+01:56:43.662 --> 01:56:48.241
+Sunny: Only one more class is required to me to complete this module.
+
+
+617
+01:56:48.392 --> 01:57:04.422
+Sunny: Actually, I extended for 2 more classes, otherwise I could have finished it in the last week itself, but many people were saying, sir, can you showcase this MBISN fine-tuning and GPT-1 also in the last class, so I included this as well. Got it?
+
+
+618
+01:57:34.442 --> 01:57:37.522
+Sunny: So guys, I've given you the updated code, you can check out with the…
+
+
+619
+01:57:38.472 --> 01:57:42.802
+Sunny: you can check out the GitHub itself. So, the co- updated code is available over the GitHub.
+
+
+620
+01:57:44.332 --> 01:57:48.012
+Sunny: Okay, so let me open the GitHub and let me show you the final code.
+
+
+621
+01:57:49.772 --> 01:57:57.681
+Sunny: This is the one, now let me refresh it. So once you got the code, the updated code, just give me a quick thumbs up in the chat so that I can understand.
+
+
+622
+01:57:59.122 --> 01:58:01.822
+Sunny: See, this is the one, this is the code, guys, this one.
+
+
+623
+01:58:04.202 --> 01:58:05.002
+Sunny: Okay.
+
+
+624
+01:58:10.722 --> 01:58:27.362
+Sunny: So, let's do one thing. Now, let's, basically start some theoretical concept. So, let me again go back to the board, the blackboard. Okay, and I'm writing some more points over here. Now, again, the final one, guys, everything is clear, whatever we have discussed in today's session, tell me yes or no.
+
+
+625
+01:58:30.482 --> 01:58:42.041
+Sunny: Yeah, there, actually, we were training the open source model. This, find… this GPT model, actually, it is not an open source model. It is a closed source model, so the approach is also different over here.
+
+
+626
+01:58:44.902 --> 01:58:51.152
+Sunny: Great. So, if we're talking about the fine-tuning now, only a couple of topics are the remaining one.
+
+
+627
+01:58:51.462 --> 01:58:58.722
+Sunny: So I can, write the topics over here. So, we have to understand the LoRa
+
+
+628
+01:58:58.942 --> 01:59:03.412
+Sunny: basically how it is working, what is the concept behind the LoRa.
+
+
+629
+01:59:03.672 --> 01:59:09.892
+Sunny: Then, we need to understand about the RLHF also. So, how to implement this RLHF.
+
+
+630
+01:59:10.082 --> 01:59:15.462
+Sunny: Using the code, it is very easy, okay? So, I will show you via Hugging Face.
+
+
+631
+01:59:15.982 --> 01:59:33.862
+Sunny: And even it is available in the onslaught also, so using the onslaught as well, we can do it. Then the DPO. So, little theory about the RLHF and the DPO, whatever is required for the interview perspective, so that I will discuss in the next Saturday's session.
+
+
+632
+01:59:36.422 --> 01:59:37.432
+Sunny: Okay.
+
+
+633
+01:59:37.552 --> 01:59:48.572
+Sunny: So one more class is required for this particular topic, RLHF and the DPO, and even I can show you the practical, along with the theory. Okay, now this topic is remaining.
+
+
+634
+01:59:48.722 --> 01:59:53.602
+Sunny: Now, from the Sunday onwards, we are going to… is start…
+
+
+635
+01:59:54.622 --> 01:59:59.011
+Sunny: We are going to be start what, guys? So, we are going to be startup rack chapter.
+
+
+636
+01:59:59.462 --> 02:00:05.471
+Sunny: So this, prompting and all, everything, is going to be part of the rag only. So this is going to be a very…
+
+
+637
+02:00:05.992 --> 02:00:15.771
+Sunny: important topic, okay? Then, LoRa is remaining, so let's, do one thing, guys. Let's, discuss about the LoRa, how this LoRa is working.
+
+
+638
+02:00:16.042 --> 02:00:28.601
+Sunny: So we have one more day, Saturday, basically, so we can discuss this concert in the next class. If the Laura is not going to be completed in today's class, again, I can, discuss in the Saturday session. Got it?
+
+
+639
+02:00:28.702 --> 02:00:41.512
+Sunny: So, let's begin, let's start, let's, understand about the LoRa. So, can we start, guys? Just, let me know in the chat. If you are ready, then I can explain you this entire, theory and all about the LoRa, okay?
+
+
+640
+02:00:43.202 --> 02:00:49.441
+Sunny: So, I capped the entire notes over here itself, so you will get in a better way.
+
+
+641
+02:00:49.562 --> 02:00:50.242
+Sunny: Luke?
+
+
+642
+02:01:06.192 --> 02:01:08.342
+Sunny: Just, just give me a moment, guys, okay, wait.
+
+
+643
+02:01:22.482 --> 02:01:24.142
+Sunny: Okay, so, guys…
+
+
+644
+02:01:24.322 --> 02:01:39.022
+Sunny: See, if we're talking about the LLM training, so how many stages we have in the LLM training can't even tell me. I think this entire thing we have already discussed. But again, let me give you the quick revision of that. So, how many stages we have in the LLM training?
+
+
+645
+02:01:39.412 --> 02:01:41.312
+Sunny: We have the first stage.
+
+
+646
+02:01:41.562 --> 02:01:59.321
+Sunny: which is called the pre-training. We have the second stage, which is called the instruction tuning. And we have the third stage, which is called the preference alignment. And on top of it, we can perform our own custom fine-tuning, right? So this is the last stage, where we can perform our own custom fine-tuning.
+
+
+647
+02:01:59.342 --> 02:02:02.212
+Sunny: So we can perform any sort of a fine-tuning over here.
+
+
+648
+02:02:02.442 --> 02:02:14.882
+Sunny: So we can perform the SFP training, we can perform the non-instruction training, okay, that is called the continuous pre-training, and even we can perform the preference tuning. So let me create one more arrow over here.
+
+
+649
+02:02:15.302 --> 02:02:21.872
+Sunny: So even we can perform the non-instruction tuning. So this entire thing we have already learned.
+
+
+650
+02:02:22.372 --> 02:02:25.022
+Sunny: Yes or no? Did we learn this entire thing?
+
+
+651
+02:02:29.682 --> 02:02:30.762
+Sunny: Custom.
+
+
+652
+02:02:32.102 --> 02:02:33.202
+Sunny: pre-trading.
+
+
+653
+02:02:33.822 --> 02:02:34.722
+Sunny: Okay.
+
+
+654
+02:02:35.082 --> 02:02:40.581
+Sunny: So, custom pre-training also we can do. Where it gone? Just a second.
+
+
+655
+02:02:42.432 --> 02:02:43.652
+Sunny: Custom.
+
+
+656
+02:02:43.942 --> 02:02:44.832
+Sunny: But do you?
+
+
+657
+02:02:46.712 --> 02:02:47.582
+Sunny: Training.
+
+
+658
+02:02:47.802 --> 02:02:48.602
+Sunny: Okay.
+
+
+659
+02:02:50.162 --> 02:02:53.482
+Sunny: So, I can keep this custom pre-training over here.
+
+
+660
+02:02:53.812 --> 02:03:04.811
+Sunny: So we can perform the custom pre-training, we can perform the SFT, and we can perform the preference tuning. So, we can pick up the model from any of the stage, and we can do any sort of a tuning, right?
+
+
+661
+02:03:04.812 --> 02:03:14.671
+Sunny: Now, guys, one more thing. Whenever we were talking about the fine-tuning, so we were doing the full fine-tuning, or we were doing the, LoRa fine-tuning, what kind of fine-tuning we were doing.
+
+
+662
+02:03:14.932 --> 02:03:26.512
+Sunny: So, we were doing the LoRa fine-tuning, we were not doing the full fine-tuning, right? So, full fine-tuning, actually, it is not possible, and it will take lots of resources.
+
+
+663
+02:03:26.512 --> 02:03:40.961
+Sunny: If we are doing a full fine-tuning, if we are going to train all the parameter of the model. Okay? Now, guys, this is some of the example, model example, as you can see over here. So, this is… this is what, guys, this is the
+
+
+664
+02:03:41.602 --> 02:03:46.371
+Sunny: basically, normal model, okay? Non-instruction model, or this is a base model.
+
+
+665
+02:03:47.012 --> 02:03:49.522
+Sunny: You can say, this is what? This is the base model.
+
+
+666
+02:03:50.042 --> 02:03:53.051
+Sunny: Now, this is what, guys, this is the instruction-tuned model.
+
+
+667
+02:03:54.502 --> 02:03:55.402
+Sunny: Okay.
+
+
+668
+02:03:55.612 --> 02:04:01.181
+Sunny: So, this is the instruction-tuned model. This model, guys, it is a preference-tuned model.
+
+
+669
+02:04:02.242 --> 02:04:14.222
+Sunny: So many models will get over the Hugging Face Hub. You can directly take some model from there, and you can utilize it, or you can further fine-tune that. Got it? And even we have trained our own custom model.
+
+
+670
+02:04:15.052 --> 02:04:17.722
+Sunny: If you will look into my previous, session.
+
+
+671
+02:04:18.022 --> 02:04:21.022
+Sunny: So we have trained our own custom model.
+
+
+672
+02:04:22.312 --> 02:04:27.321
+Sunny: With respect to… with respect to… All three stages.
+
+
+673
+02:04:28.072 --> 02:04:29.271
+Sunny: Yes or no?
+
+
+674
+02:04:30.182 --> 02:04:32.371
+Sunny: Tell me, guys, yes or no?
+
+
+675
+02:04:32.622 --> 02:04:36.271
+Sunny: I think we have trained it, and even I've shown you the example.
+
+
+676
+02:04:36.362 --> 02:04:51.082
+Sunny: the complete code and all session, everything is available over the, dashboard, okay? You can check out there. Now, guys, here we're talking about the fine-tuning one. So, we have a… two methods of the fine-tuning, right?
+
+
+677
+02:04:51.082 --> 02:04:57.822
+Sunny: So the first is called the full parameter fine-tuning, and the second is called what? Parameter efficient fine-tuning.
+
+
+678
+02:04:58.672 --> 02:05:03.601
+Sunny: So, in the full parameter fine-tuning, basically, we are going to be updating all the weights of the model.
+
+
+679
+02:05:03.872 --> 02:05:04.682
+Sunny: Right?
+
+
+680
+02:05:04.812 --> 02:05:16.011
+Sunny: We are going to be what? We are going to be updating all the weights of the model. The weight matrices are very, very large. So, let's say we are saying 7 billion model, that means we have a 7 billion weights.
+
+
+681
+02:05:16.072 --> 02:05:26.482
+Sunny: Okay? If we are saying 13 billion model, so that means we have 13 billion weights, right? And all the model… all the weights get updated repeatedly for the multiple epoch.
+
+
+682
+02:05:26.682 --> 02:05:40.782
+Sunny: Right? So this particular weight, all the weight is going to be updated for the multiple epoch. Now, this is going to be take a lot of memory, right? And it's going to be take a large GPU cluster, and the training is going to be very, very expensive.
+
+
+683
+02:05:40.822 --> 02:05:47.962
+Sunny: If we are going to be training all the baits, let's say 7 billion bait, 13 billion bait, let's say we are training the 18 billion bait, 20 billion bait.
+
+
+684
+02:05:48.462 --> 02:05:50.502
+Sunny: In that case, guys, the…
+
+
+685
+02:05:50.722 --> 02:06:09.462
+Sunny: training is going to be very, very expensive. So, which approach we are taking? So, we are taking the parameter efficient fine-tuning. So, it is not going to be updated all the weights, okay? It's going to be freeze the original weight. It's going to be, it's going to be, like, train… some additional weights.
+
+
+686
+02:06:11.272 --> 02:06:17.251
+Sunny: Making sense to all of you, tell me yes or no. So this is what we are doing inside the LoRa.
+
+
+687
+02:06:18.162 --> 02:06:33.431
+Sunny: Already I discussed this theoretical point, it is just the kind of revision which I'm providing you through this slide. So, whenever we wanted to achieve the PEFT, guys, so the LoRa, actually, it's one of the techniques for achieving the PEFT, okay? LoRa means what? Low rank adaption.
+
+
+688
+02:06:33.522 --> 02:06:43.011
+Sunny: And, we're talking about the QLORA, what is a QLORA? Quantized lowering adaption. Okay, so I will discuss what is the meaning of the quantization over here, this one.
+
+
+689
+02:06:43.012 --> 02:07:00.872
+Sunny: Now, we have other techniques also of the PEPs, which is not very famous, okay? It's just an infamous technique, like DORA, weight decomposition, low-rank adaption, okay? It is somehow the updated version of the LoRa, but yeah, again, in the industry, LoRa is being used very, heavily, okay?
+
+
+690
+02:07:00.912 --> 02:07:08.562
+Sunny: preference tuning, right? Prom tuning, bit fit, IA3, so these are some older and the other technique for achieving the path.
+
+
+691
+02:07:08.752 --> 02:07:15.042
+Sunny: But this Laura and DOLA, actually, this particular technique, Laura and DORA, Along with the contigation.
+
+
+692
+02:07:15.442 --> 02:07:18.332
+Sunny: It is being used a lot in the industry.
+
+
+693
+02:07:18.732 --> 02:07:19.592
+Sunny: Okay.
+
+
+694
+02:07:20.032 --> 02:07:26.431
+Sunny: And I would, specifically say this LoRa. Actually, it is being used a lot in the LLM fine-tuning.
+
+
+695
+02:07:26.902 --> 02:07:29.442
+Sunny: In the LLM, fine-tuning.
+
+
+696
+02:07:29.862 --> 02:07:31.082
+Sunny: Got it, guys?
+
+
+697
+02:07:31.282 --> 02:07:45.552
+Sunny: Is it getting clear? Right? So, over here, you can see, I mentioned one more point. So, LoRa trains small row… low-rank metrics instead of the full weight, okay? It's going to be updated only few parameter.
+
+
+698
+02:07:45.892 --> 02:08:01.191
+Sunny: For the multiple epoch. So what we are… what we are achieving in the LoRa, we are achieving the less memory, faster training, lower cost, and the EG customization. And we are enabling fine-tuning even on the single GPU, even on the consumer hardware.
+
+
+699
+02:08:01.732 --> 02:08:03.912
+Sunny: And the performance will almost same.
+
+
+700
+02:08:04.062 --> 02:08:10.602
+Sunny: Okay? Now, I have shown you all the practical, that's why I have shown you all the practical in the starting of the stage.
+
+
+701
+02:08:10.932 --> 02:08:16.731
+Sunny: Okay? So that you can relate the entire thing. So guys, tell me as many as adapter we can trade.
+
+
+702
+02:08:17.262 --> 02:08:32.312
+Sunny: as many as load adapter we can train, right? And if we are going to be using the unslot, so even we can train on a very huge amount of data as well, because Unsloth will provide us some more optimization on top of the raw hugging phase. Getting my point.
+
+
+703
+02:08:32.312 --> 02:08:44.221
+Sunny: So, LoRa, basically, it is providing us the less memory, faster training, lower cost, and the easy customization. And we have done the… so many LoRa… we have trained, like, so many LoRa adapter.
+
+
+704
+02:08:44.222 --> 02:09:03.431
+Sunny: throughout our practical. So, is this part clear? Is this slide clear? It's very, like, self-explanatory notes. Once you will go through with these entire notes, everything is going to be clear. So, instead of writing by myself everything, I return it in a summarized point, so that later on also, you can revise this entire thing.
+
+
+705
+02:09:03.992 --> 02:09:06.701
+Sunny: Clear, guys, tell me yes or no.
+
+
+706
+02:09:07.722 --> 02:09:23.411
+Sunny: Okay. So, this is fine. Now, here you can see this is the architecture of the transformer. Now, what is being updated over here inside the transformer? Okay, so I will show you that, I will discuss that, but let's discuss couple of more points related to the LoRa.
+
+
+707
+02:09:23.412 --> 02:09:29.901
+Sunny: So, I just want quick thumbs up from all of you, so that I can understand whether you're getting this two-slide or not.
+
+
+708
+02:09:29.962 --> 02:09:36.351
+Sunny: One is the… one is the LLM training pipeline, and the second is the… second is this, particular differences.
+
+
+709
+02:09:44.232 --> 02:10:01.161
+Sunny: Okay. Now, let's do one thing, guys. Let's first understand about the weights. So, do you know about the weights? Are you familiar about the weights? Tell me, yes or a row. So, first, let's start with the neural network, and let's understand this weights concept.
+
+
+710
+02:10:01.322 --> 02:10:06.901
+Sunny: With respect to the neural network, okay? So, guys, what is a weight?
+
+
+711
+02:10:07.722 --> 02:10:11.342
+Sunny: The weight is nothing, the weight is the importance score.
+
+
+712
+02:10:11.451 --> 02:10:18.852
+Sunny: Right? If we're talking about the neural network, so in the neural network, these weights are saying which feature is the important one.
+
+
+713
+02:10:19.031 --> 02:10:23.602
+Sunny: I will give you more example. With that, the idea will be more clear. Got it?
+
+
+714
+02:10:24.041 --> 02:10:29.841
+Sunny: So, guys, this is the example of the neural network. This is what? This is my neural network.
+
+
+715
+02:10:29.982 --> 02:10:42.371
+Sunny: Okay? Now, inside this neural network, you can see we have an input. So this is what, this is my input. Now, along with every input, this weights is associated, this weight. Now, we are doing a summation.
+
+
+716
+02:10:42.662 --> 02:10:59.962
+Sunny: And after that, this will pass it to the activation function, and then we are going to be calculate the Y prediction, right? Then here, we are adding the bias value also, okay? So this is what, this is my weights, guys. Now, what is this weights? So, it is nothing, it is my importance score.
+
+
+717
+02:11:00.922 --> 02:11:07.841
+Sunny: Importance is score. Importance is score means what? So, it is deciding, basically, which feature is an important one.
+
+
+718
+02:11:07.842 --> 02:11:25.921
+Sunny: If we are giving more weight to the W1, then X1 is important. If we are giving more weight to the X2, then the X2 is the important one, okay? So weights are nothing, it is just telling the importance of the feature, okay? Now, here, guys, you can see, we're talking about the weight, see, just look into this particular neural network.
+
+
+719
+02:11:25.972 --> 02:11:30.882
+Sunny: Now, just tell me over here how many inputs we have. Can anyone tell me how many inputs we have?
+
+
+720
+02:11:34.451 --> 02:11:40.962
+Sunny: We have two inputs, right? And it's going to be connected with how many neurons? So let's say this is the hidden neuron, how many neurons we have?
+
+
+721
+02:11:41.242 --> 02:11:46.822
+Sunny: We have two neurons. So, we're talking about the weight matrices, so how many weights you would be having?
+
+
+722
+02:11:47.652 --> 02:11:50.111
+Sunny: How many weights we would be having over here.
+
+
+723
+02:11:50.441 --> 02:11:57.321
+Sunny: If we're talking about the weights, how many weights we would be having? We are having 4 weights. So, can you see the weight metrics, this one?
+
+
+724
+02:11:58.122 --> 02:12:00.222
+Sunny: Can you see the weight metrics over here?
+
+
+725
+02:12:00.782 --> 02:12:13.932
+Sunny: Is it visible to all of you, this weight matrix? So, W1, W2, W3, and W1WW11, W12, W21, W22, right? So, this is what, guys, tell me, this is the weight matrix, okay?
+
+
+726
+02:12:14.042 --> 02:12:32.302
+Sunny: So, now let me do one thing, let me show you this particular example. Let's say on X1, we are passing 2, and on X2, we are passing 3, right? So, let's say here we are passing 2, and here we are passing 3. Now, let's say weight 1 and weight 2. So here, you can see, weight 11, so this is what? This is, let's say, 0.5.
+
+
+727
+02:12:32.832 --> 02:12:34.161
+Sunny: And this,
+
+
+728
+02:12:35.232 --> 02:12:48.462
+Sunny: Just a second. This weight is 0.5, and this weight is what? 1.0. Now, tell me, guys, which feature is the important one, more important, this feature or this feature? If we're talking about the weight, guys, so which feature is the important one?
+
+
+729
+02:12:49.032 --> 02:12:51.271
+Sunny: this X1 feature or X2 feature?
+
+
+730
+02:12:52.022 --> 02:12:53.981
+Sunny: Where we are passing more weight.
+
+
+731
+02:12:54.532 --> 02:12:58.992
+Sunny: So, we're talking about the importance, guys, so this X2 feature is the important one.
+
+
+732
+02:12:59.412 --> 02:13:08.671
+Sunny: Okay? This X2 feature is an important one, because here we have a more weight compared to this one. This is just 0.15, and this is what? This is 1.0.
+
+
+733
+02:13:08.862 --> 02:13:28.852
+Sunny: Right? So, getting my point, guys, so weights are nothing. Weights are the importance score inside the neural network, right? Now, here you can see. So, whenever we are talking about the training, guys, in the training, I think you already know what is happening. So, we're talking about the neural network perspective, or transformer perspective.
+
+
+734
+02:13:28.912 --> 02:13:32.972
+Sunny: So, everywhere this, training pipeline is going to be saved.
+
+
+735
+02:13:33.452 --> 02:13:34.292
+Sunny: Okay.
+
+
+736
+02:13:34.762 --> 02:13:40.012
+Sunny: everywhere this training pipeline is going to be same. So here, first, we have a forward propagation.
+
+
+737
+02:13:40.492 --> 02:13:45.451
+Sunny: There, we'll be going the right direction, and here we are going to be calculating the loss.
+
+
+738
+02:13:45.622 --> 02:13:51.112
+Sunny: Then we are coming into the backward propagation. So here we are using the optimizer.
+
+
+739
+02:13:51.912 --> 02:13:52.702
+Sunny: Bike?
+
+
+740
+02:13:53.102 --> 02:13:56.332
+Sunny: And while we are using the optimizer in that case.
+
+
+741
+02:13:56.482 --> 02:13:59.812
+Sunny: These weights and the biases are going to be updated.
+
+
+742
+02:14:00.512 --> 02:14:01.782
+Sunny: the speeds.
+
+
+743
+02:14:02.222 --> 02:14:03.142
+Sunny: And…
+
+
+744
+02:14:03.582 --> 02:14:11.911
+Sunny: biases are going to be updated, okay? So, using the parameter only, we are going to be adjust this weights and biases.
+
+
+745
+02:14:12.232 --> 02:14:16.882
+Sunny: Initially, we are going to be… initialize these weights and biases randomly.
+
+
+746
+02:14:19.282 --> 02:14:22.502
+Sunny: Randomly. But as we perform the training.
+
+
+747
+02:14:24.512 --> 02:14:27.251
+Sunny: So these weights and biases are going to be aligned.
+
+
+748
+02:14:28.042 --> 02:14:32.752
+Sunny: In such a way that loss is going to be a… Minimum one.
+
+
+749
+02:14:33.012 --> 02:14:39.061
+Sunny: The loss, basically, it's going to be a minimum one, and this is the core idea behind the supervised learning.
+
+
+750
+02:14:40.602 --> 02:14:41.532
+Sunny: Okay.
+
+
+751
+02:14:41.552 --> 02:15:00.142
+Sunny: supervised learning. So here, guys, what I have written, I have written the training process, and I think you are familiar with this entire training process. So, here, basically, you will find out that this weights, actually, it's a very important part. Means the entire deep learning, machine learning, AI, basically, it is relying on this weight itself.
+
+
+752
+02:15:00.142 --> 02:15:14.581
+Sunny: So, you understood the weight with respect to this neural network. Now, I will explain to you this weight, basically, with respect to the transformer, and then I'll come to the LoRa, basically, how the LoRa, basically, is decomposing the weight into the smaller matrices, okay?
+
+
+753
+02:15:14.582 --> 02:15:22.542
+Sunny: Now, let me give you one more example with respect to the importance score. So, here I kept one very basic analogy, and with that, you can easily understand.
+
+
+754
+02:15:22.542 --> 02:15:33.671
+Sunny: the importance of the weight, okay? Now, guys, let's say we are going to be, cook one burger, right? So, in the burger, as you can see over here, so we are having a different, different thing.
+
+
+755
+02:15:33.742 --> 02:15:39.462
+Sunny: We have a patty, we have a cheese, we have a sauce, we have a bun, correct? Now…
+
+
+756
+02:15:39.952 --> 02:15:54.611
+Sunny: See, and at the end, what we'll be getting, we'll be getting a test, right? So, here, for getting a taste, right? We are cooking a burger, and if we want to enhance the test, so tell me, guys, which part should be the very good? Where I need to provide a more weight.
+
+
+757
+02:15:55.162 --> 02:15:59.622
+Sunny: We are working on the taste side, we are going to be coca burger, right?
+
+
+758
+02:16:00.672 --> 02:16:20.122
+Sunny: If we are crafting a burger, if we are cooking a burger, if we are working on the test taste side, so where I need to provide a more weighty? So, petty for sure, there should be a more weightage. Cheese part, sauce side also, and bun, right? If the petty is good, right, let's say it's a veg patty, non-veg petty, ag pati, right? So, according to that.
+
+
+759
+02:16:20.252 --> 02:16:27.312
+Sunny: So according to that, the test is going to be, different, okay? So the petty, basically, it's having a more weightage.
+
+
+760
+02:16:27.572 --> 02:16:32.091
+Sunny: So this is what… this is my inputs, actually. This is what? This is my inputs.
+
+
+761
+02:16:32.602 --> 02:16:35.961
+Sunny: This is what, guys, this is my inputs, okay?
+
+
+762
+02:16:36.152 --> 02:16:39.211
+Sunny: This is what is my input, and this is what is my weights.
+
+
+763
+02:16:39.422 --> 02:16:41.271
+Sunny: This is what? This is my weights.
+
+
+764
+02:16:42.042 --> 02:16:42.872
+Sunny: Okay.
+
+
+765
+02:16:43.072 --> 02:16:48.352
+Sunny: weight. Now, this weights are nothing, this weight's actually the importance score.
+
+
+766
+02:16:48.922 --> 02:16:52.331
+Sunny: This weight is nothing. It is an importance score.
+
+
+767
+02:16:52.812 --> 02:16:58.491
+Sunny: Which is playing an important role for calculating the final taste value. This is my output.
+
+
+768
+02:16:59.292 --> 02:17:05.502
+Sunny: So, did you understand the concept of the weight, with this, clear analogy, with the simplest analogy?
+
+
+769
+02:17:05.782 --> 02:17:09.201
+Sunny: Is it, clear to all of you? Tell me yes or no.
+
+
+770
+02:17:11.242 --> 02:17:12.122
+Sunny: Tell me.
+
+
+771
+02:17:21.662 --> 02:17:23.582
+Sunny: Is it getting cleared, all of you?
+
+
+772
+02:17:24.732 --> 02:17:29.361
+Sunny: Okay, if this, example is clear, just give me a quick thumbs up.
+
+
+773
+02:17:33.762 --> 02:17:34.672
+Sunny: Great.
+
+
+774
+02:17:39.502 --> 02:17:46.972
+Sunny: So I hope this part is clear, and I hope so you are not hungry till this stage.
+
+
+775
+02:17:47.132 --> 02:17:51.761
+Sunny: Because you had a good dinner, correct? So, I've given you sufficient amount of time.
+
+
+776
+02:17:52.132 --> 02:17:55.801
+Sunny: Yesterday, someone was saying, sir, give me 5 minutes, I'll have a dinner.
+
+
+777
+02:17:56.502 --> 02:18:04.941
+Sunny: Great. So, I hope, guys, this example is clear. Now, let's do one thing. Let's understand a couple of more things.
+
+
+778
+02:18:05.062 --> 02:18:19.991
+Sunny: So, you understood the weight concept with respect to the neural network. Now, where these weights are going to be lie inside the transformer. So, I think we have already seen the transformer architecture. I took the 5-6 session on top of the transformer itself.
+
+
+779
+02:18:20.072 --> 02:18:26.182
+Sunny: So, this is the transformer architecture. Now, the way it's actually, it is going to be lie over here. So…
+
+
+780
+02:18:26.452 --> 02:18:34.861
+Sunny: This is the Q weight, this is the K weight, query weight, and this is the value weight. Okay? So the weight actually lies inside the attention layer.
+
+
+781
+02:18:36.412 --> 02:18:45.261
+Sunny: Inside where? Inside the attention layer. And the weights, actually, it is lie inside the feed-forward network also, there. This one.
+
+
+782
+02:18:45.492 --> 02:19:00.341
+Sunny: So this is nothing, this is the neural network only, no? So inside the neural network, obviously, we are having weights, and inside the attention layer also, we are having weights. So did you understand where the weights lies inside the, transformer architecture?
+
+
+783
+02:19:00.432 --> 02:19:17.352
+Sunny: Tell me first, is this part clear? So, this query key and value are the weight matrices, okay? Now, this is the explanation. So, linear layer, W, Q, W, K, WV are the weights. So, these all are the weight metrics.
+
+
+784
+02:19:17.352 --> 02:19:29.121
+Sunny: Attention weights are the most important one, which decide which word is important for the another word, right? So, we're talking about the attention weight. So, what it is doing, guys, tell me…
+
+
+785
+02:19:29.582 --> 02:19:31.441
+Sunny: So we are checking attention.
+
+
+786
+02:19:32.362 --> 02:19:35.252
+Sunny: Right? We are checking what? We are checking of self-attention.
+
+
+787
+02:19:35.832 --> 02:19:38.011
+Sunny: Now, what is our meaning of the self-attention?
+
+
+788
+02:19:38.692 --> 02:19:47.772
+Sunny: What is the meaning of the self-attention? So, self-attention is nothing. We are checking which word is I important for the another word. Let's say if I'm writing over here, I…
+
+
+789
+02:19:48.232 --> 02:19:49.352
+Sunny: love?
+
+
+790
+02:19:49.772 --> 02:19:51.112
+Sunny: machine.
+
+
+791
+02:19:52.682 --> 02:19:54.892
+Sunny: Machine learning.
+
+
+792
+02:19:56.702 --> 02:20:02.102
+Sunny: Now, here I am also writing IE Love… machine?
+
+
+793
+02:20:03.002 --> 02:20:04.042
+Sunny: Learning.
+
+
+794
+02:20:04.842 --> 02:20:08.242
+Sunny: Now, tell me, guys, if we're talking about the love, right?
+
+
+795
+02:20:08.442 --> 02:20:10.191
+Sunny: If we're talking about the law.
+
+
+796
+02:20:10.852 --> 02:20:18.682
+Sunny: So this love with respect to what? This love, actually, it is with respect to the machine learning, right? So we will be having more weight.
+
+
+797
+02:20:18.982 --> 02:20:20.952
+Sunny: We will be having the more weight.
+
+
+798
+02:20:21.252 --> 02:20:39.242
+Sunny: This love, actually, it is having a more weight with respect to this machine learning. Actually, it is a single word, so this machine learning, with respect to this machine learning, it will be having a more word. More weightage, okay? So this importance, actually, it is equal to the attention weight. I already discussed the complete transformer architecture in a very detailed.
+
+
+799
+02:20:39.242 --> 02:20:55.501
+Sunny: I've shown you, like, how to calculate the attention weight and all everything. If you forgot, then you can check out with my previous session, you will get that, right? So, tell me, guys, did you understand what this, where these weights are lying inside the transformer architecture?
+
+
+800
+02:20:55.502 --> 02:21:03.532
+Sunny: And what is the meaning of this weight inside the transformer architecture? Specifically, I'm talking about the attention weights. If this part is clear.
+
+
+801
+02:21:03.902 --> 02:21:09.442
+Sunny: just give me a quick thumbs up so that I can proceed with a different concept, okay?
+
+
+802
+02:21:11.782 --> 02:21:12.682
+Sunny: Great.
+
+
+803
+02:21:13.112 --> 02:21:15.362
+Sunny: Okay, so this slide is also clear.
+
+
+804
+02:21:15.522 --> 02:21:28.991
+Sunny: Now, I hope guys still hear everything is fine. So, tell me, is this, slides are the valuable one? Are you learning so many things over here? Give me one minute so that I can, have a water, okay? Until you can write in the chat.
+
+
+805
+02:21:47.452 --> 02:21:48.272
+Sunny: Okay.
+
+
+806
+02:21:48.812 --> 02:21:55.702
+Sunny: So, everyone is able to understand. Don't worry, guys, I will end the class within 10 minutes, and rest of the thing we can understand in the next class.
+
+
+807
+02:21:56.462 --> 02:21:59.012
+Sunny: Now, if we're talking about the deep learning.
+
+
+808
+02:21:59.502 --> 02:22:02.102
+Sunny: If we're talking about what? If we're talking about the…
+
+
+809
+02:22:02.412 --> 02:22:06.842
+Sunny: Deep learning, guys. So, indirectly, we can say it is a metrics game.
+
+
+810
+02:22:07.402 --> 02:22:13.112
+Sunny: Right? It is what? It is a metric scheme. Let's say we're talking about the output. So, output is nothing, it's a…
+
+
+811
+02:22:13.172 --> 02:22:19.251
+Sunny: Basically, multiplication of the input, multiplication of the input and weight, and then we are adding the wires.
+
+
+812
+02:22:19.272 --> 02:22:34.422
+Sunny: So, input is a vector, weight is a matrix says, and output, basically, it's going to be a transform vector. Right? So, if we're talking about a deep learning, or entire AI, it is nothing in the backend, basically. Specifically, I'm talking about deep learning. So, it's a game of the metrics.
+
+
+813
+02:22:37.072 --> 02:22:41.151
+Sunny: Okay? Now, here you can see images are the metrics one.
+
+
+814
+02:22:41.432 --> 02:22:45.631
+Sunny: Video are the 3D metrics. Text embedding, again.
+
+
+815
+02:22:45.782 --> 02:22:47.822
+Sunny: Word means we are…
+
+
+816
+02:22:47.932 --> 02:23:02.662
+Sunny: We are… this is the metrics, right? 1D metrics, column metrics, row metrics, something like that. If we're talking about the attention weight, again, QKV is nothing, it's a matrixes one, right? So, guys, if we're talking about the deep learning, so it's all about the metrics.
+
+
+817
+02:23:02.762 --> 02:23:07.412
+Sunny: Right? So, we'll have to understand the concept of the metrics first.
+
+
+818
+02:23:07.552 --> 02:23:15.042
+Sunny: Right? We'll have to understand the concept of the matrix. Now, tell me, if we're talking about the neural network, let me write over here.
+
+
+819
+02:23:16.202 --> 02:23:18.961
+Sunny: neural network, if we're talking about a transformer.
+
+
+820
+02:23:20.162 --> 02:23:22.742
+Sunny: So, how we are going to showcase the weight?
+
+
+821
+02:23:24.102 --> 02:23:26.161
+Sunny: How we are going to showcase the weights.
+
+
+822
+02:23:27.262 --> 02:23:32.931
+Sunny: We are going to showcase the way it in the form of matrixes, Tell me yes or no.
+
+
+823
+02:23:37.902 --> 02:23:56.522
+Sunny: Yes, guys, yes or no, tell me. So, we are going to be showcase the weight in the form of metrics, okay? So, whatever we are doing inside the deep learning, whatever we are doing inside the deep learning, that is nothing that is around the metrics only. And specifically, these weights are nothing, it is a metrics, basically.
+
+
+824
+02:23:56.582 --> 02:24:12.191
+Sunny: So, let's understand about the matrix, what is a matrix, and let's understand about the rank in the matrix. So, guys, here you can see, what are the differences between the scalar vector and the matrices. So, this is the scalar number.
+
+
+825
+02:24:12.192 --> 02:24:23.102
+Sunny: Right? This is what? This is the scalar number. This is the vector, basically. Okay? This is the metrics. So metrics isn't a thing, it is a table of the number, okay? It is a grid, basically.
+
+
+826
+02:24:23.202 --> 02:24:28.041
+Sunny: Right? Or, if we can say matrix is nothing, it's a collection of the vectors also.
+
+
+827
+02:24:28.262 --> 02:24:32.772
+Sunny: And if we're talking about the vector, so it's nothing, it's a special case of the matrix.
+
+
+828
+02:24:32.882 --> 02:24:41.152
+Sunny: row metrics, or the column metrics, right? So, here you can see, this is one of the metrics. Now, this is called the
+
+
+829
+02:24:41.152 --> 02:24:56.662
+Sunny: square metrics, okay? 2 cross 2 metrics, where we have 2 rows in the 2 column. Got it? Now, I can show you a few more examples. So, this is a rectangular metric, so 3 cross 2 or 2 cross 3. So, here we have 3 rows, 1, 2, and 3.
+
+
+830
+02:24:56.712 --> 02:25:16.472
+Sunny: 3 rows and 2 column. Now, this is what? This is 2 rows and the 3 column, okay? So, this is my 3 column, 1, 2, and 3. Now, here we have 2 columns, 1 and 2. So, this is the example of the metrics. Now, here you can see the generic form of the matrix, M cross N. So, I hope this is also clear.
+
+
+831
+02:25:16.472 --> 02:25:32.982
+Sunny: Because this thing I already discussed in the previous classes, I hope so, you are able to understand it very clearly. So this is my row matrix, as you can see, this is my row matrix, and this is my column metrics, right? Now tell me, guys, the metrics slide is clear, it is very easy to understand.
+
+
+832
+02:25:32.982 --> 02:25:42.872
+Sunny: And even I already covered this entire thing in the previous classes also. So if you're following to me from very first session, then I think this is just a piece of cake for you.
+
+
+833
+02:25:42.892 --> 02:26:02.832
+Sunny: And, easily you can understand this entire slide. Now, coming to the next part. What is a rank? This is an important question, and the entire LoRa concept, actually, it is dependent on the rank concept only. So, if we are able to understand the rank concept, then I think we can easily understand about the LoRa, okay?
+
+
+834
+02:26:02.982 --> 02:26:09.351
+Sunny: So, guys, tell me, should I cover it, right now? Because we'll have to understand the rank.
+
+
+835
+02:26:09.462 --> 02:26:12.712
+Sunny: So, this has come up some more slides, basically.
+
+
+836
+02:26:13.052 --> 02:26:16.352
+Sunny: And, after that, what we can do…
+
+
+837
+02:26:16.532 --> 02:26:20.062
+Sunny: We can… I can show you one LoRa one, okay?
+
+
+838
+02:26:23.772 --> 02:26:25.692
+Sunny: Next class or this class?
+
+
+839
+02:26:27.802 --> 02:26:38.061
+Sunny: No, I will not cover on a high level. Again, the people will say, sir, I'm not getting, or something like that. Either I will cover it completely, or I will, not cover it, okay?
+
+
+840
+02:26:38.372 --> 02:26:43.871
+Sunny: So, what I can do, guys, I can give you this entire notes, so at least you can learn
+
+
+841
+02:26:44.262 --> 02:26:47.211
+Sunny: You can understand from the rank itself, okay?
+
+
+842
+02:26:47.532 --> 02:26:59.551
+Sunny: you can, read out from the rank, right? Because still we have 10 to 15 more pages, so that I can explain the complete concept of the LoRa, and even the QLoRa.
+
+
+843
+02:26:59.612 --> 02:27:11.061
+Sunny: And even the RLHF also would be there over here, so I'll conclude the RLHF also over here itself, right? So, let's do one thing, guys. Let's discuss this entire thing in the next class.
+
+
+844
+02:27:11.432 --> 02:27:18.561
+Sunny: Because it will take, maybe more than half an hour, if I'm going to be concluded… conclude this part today.
+
+
+845
+02:27:18.662 --> 02:27:25.812
+Sunny: Then it would be around, 11.15. So, what's this, guys? Can we discuss in the next class?
+
+
+846
+02:27:30.202 --> 02:27:40.452
+Sunny: Is it fine to all of you? See, I'm taking a, like, a vote from the majority of you, right? So don't tell me, sir, you escaped… sorry, you didn't cover it today, or…
+
+
+847
+02:27:40.652 --> 02:27:47.361
+Sunny: you are, you can, but you didn't. It will again take 30-35 minutes, so if you are ready to invest, I can do.
+
+
+848
+02:27:51.532 --> 02:27:54.701
+Sunny: Okay, fine, so I'll go in the next class then, fine.
+
+
+849
+02:27:55.592 --> 02:28:06.071
+Sunny: So, okay, guys, I think only few concepts are the remaining in the fine-tuning, and we can quickly discuss. Inside the same notes, actually, I can keep the notes for the RLHF.
+
+
+850
+02:28:06.402 --> 02:28:09.381
+Sunny: And for the TP also, so this 2-1.
+
+
+851
+02:28:09.602 --> 02:28:12.961
+Sunny: So we can cover it quickly within, like, 1 hour.
+
+
+852
+02:28:13.542 --> 02:28:18.151
+Sunny: And then in rest 1 hour, I can… Show you the coding.
+
+
+853
+02:28:19.242 --> 02:28:20.392
+Sunny: Okay?
+
+
+854
+02:28:21.432 --> 02:28:31.471
+Sunny: in rest one hour, basically, I can show you the coding also. So, we'll, complete our fine-tuning chapter in the next class, in the next Saturday's session.
+
+
+855
+02:28:31.652 --> 02:28:38.732
+Sunny: And then finally, we'll start with the rack. Okay, in Sunday's class, we'll start the introduction of the rack.
+
+
+856
+02:28:39.222 --> 02:28:46.882
+Sunny: So let me check how many total sessions I took for the fine-tuning. I think similar kind of session I will be taking for the RAG also.
+
+
+857
+02:28:47.062 --> 02:28:49.702
+Sunny: So, let me just count all the sessions.
+
+
+858
+02:28:52.222 --> 02:29:01.442
+Sunny: So, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Okay, I think 10 sessions, 10 sessions means what? 1 month, right?
+
+
+859
+02:29:01.472 --> 02:29:14.712
+Sunny: So, one month I took for the fine-tuning, and that's enough amount of time. So, one month, again, will spend on the rag, one more month I'll spend on the agents, and then one more month will spend on the…
+
+
+860
+02:29:14.752 --> 02:29:27.421
+Sunny: project side, okay? So, I think within, 20 to 30 classes, we are going to be complete our majority of the syllabus, I think 90 to 95% of syllabus, okay?
+
+
+861
+02:29:27.472 --> 02:29:28.412
+Sunny: Good.
+
+
+862
+02:29:28.712 --> 02:29:33.631
+Sunny: So, fine, I hope this is clear to all of you. Now let me give you these entire notes.
+
+
+863
+02:29:36.292 --> 02:29:39.131
+Sunny: Just a second, guys, I'm giving you this entire notes.
+
+
+864
+02:30:07.952 --> 02:30:08.762
+Sunny: Okay.
+
+
+865
+02:30:09.602 --> 02:30:15.572
+Sunny: So, Laura, I kept it over here. You can go through with this entire notes, then, in the next class, we can.
+
+
+866
+02:30:15.672 --> 02:30:20.382
+Sunny: go through with all the slides. Okay, it will be with me, don't worry, I can save it over here.
+
+
+867
+02:30:22.022 --> 02:30:27.481
+Sunny: So, just check out with the folder, this is the notes.
+
+
+868
+02:30:30.722 --> 02:30:38.612
+Sunny: Fine, so guys, now let me conclude it after committing the resources. So, git add dot.
+
+
+869
+02:30:42.912 --> 02:30:44.642
+Sunny: Okay, commit.
+
+
+870
+02:30:46.462 --> 02:30:50.021
+Sunny: iPhone M code updated.
+
+
+871
+02:30:50.872 --> 02:30:52.861
+Sunny: And then good. Push.
+
+
+872
+02:30:53.082 --> 02:30:59.782
+Sunny: So I updated the code over the GitHub, guys. Along with the notes, you can check it out that.
+
+
+873
+02:31:01.152 --> 02:31:04.762
+Sunny: And once you got it, just give me the quick confirmation.
+
+
+874
+02:31:05.712 --> 02:31:11.912
+Sunny: Yeah, assignment also, I'll give you the next class, because we are going to be complete all the topic now, so I'll give you the next class.
+
+
+875
+02:31:13.672 --> 02:31:17.291
+Sunny: Even in the previous batch, also, I took around, 10 to…
+
+
+876
+02:31:18.032 --> 02:31:21.712
+Sunny: like, AI to 10 session, just for the fine-tuning.
+
+
+877
+02:31:28.782 --> 02:31:36.662
+Sunny: Now, guys, one more thing, if you haven't completed the survey so far, please complete this survey, okay?
+
+
+878
+02:31:37.222 --> 02:31:41.082
+Sunny: So, just a second, let me… provide you the…
+
+
+879
+02:31:41.382 --> 02:31:45.051
+Sunny: link for that. I think Rahul has already provided you in the chat.
+
+
+880
+02:31:46.032 --> 02:31:50.782
+Sunny: So, just go through with the chat, okay? Just a second, let me open it for you.
+
+
+881
+02:32:02.742 --> 02:32:06.681
+Sunny: Yeah, guys, so this is the link, please complete the survey.
+
+
+882
+02:32:07.492 --> 02:32:14.431
+Sunny: Today's the last day, because this, report will directly go to our team, okay?
+
+
+883
+02:32:14.802 --> 02:32:18.782
+Sunny: If you haven't completed, then otherwise, you can escape it, right?
+
+
+884
+02:32:18.902 --> 02:32:27.152
+Sunny: Fine, guys, so thank you, take care, bye-bye. I'll see you in the next class, and there, we'll be concluding, this particular chapter.
+
+
+885
+02:32:27.262 --> 02:32:32.411
+Sunny: If you have any doubt, then be there. I will, take your doubts now, right?
+
+
+886
+02:32:32.672 --> 02:32:35.532
+Sunny: Thank you, guys. Bye. Take care, okay? Thank you.
+
+
+887
+02:32:35.972 --> 02:32:39.182
+Sunny: Putting a timer for 3 minutes, and then we'll start the doubt session.
+
+
+888
+02:36:01.672 --> 02:36:07.561
+Sunny: Okay, guys, so let's start with a doubt session. If you have any doubt, you can raise the hand.
+
+
+889
+02:36:08.122 --> 02:36:09.492
+Sunny: Give me a moment.
+
+
+890
+02:36:14.312 --> 02:36:16.102
+Sunny: I can unmute you.
+
+
+891
+02:36:21.132 --> 02:36:23.781
+Sunny: Yeah, so first, Sushant, please go ahead with the doubt.
+
+
+892
+02:36:27.232 --> 02:36:28.972
+Sushant Bhattacharya: Yeah, hey, Sunny.
+
+
+893
+02:36:29.462 --> 02:36:47.621
+Sushant Bhattacharya: Yeah, actually, just ask the question on chat. Actually, basically, it's regarding the interview and all. So, actually, I'm preparing for this Gen AI engineer tool. So, basically, what I learned, whatever we learned for now.
+
+
+894
+02:36:47.622 --> 02:36:55.252
+Sushant Bhattacharya: So, Gen AI… so that is enough for a gen engineer role, or Agent AI role, because I have an experience of…
+
+
+895
+02:36:55.252 --> 02:36:59.012
+Sushant Bhattacharya: to allow 13 years of experience into the Angular and React development.
+
+
+896
+02:36:59.012 --> 02:37:08.132
+Sushant Bhattacharya: But nowadays, the Gen AI is into the market, so what amount of years we put into the Gen AI?
+
+
+897
+02:37:09.222 --> 02:37:10.102
+Sushant Bhattacharya: And so, can I…
+
+
+898
+02:37:10.102 --> 02:37:11.352
+Sunny: Oh, excuse me, can I…
+
+
+899
+02:37:11.352 --> 02:37:14.382
+Sushant Bhattacharya: Go through, right now in the… for interview.
+
+
+900
+02:37:14.942 --> 02:37:28.411
+Sunny: Yeah, if you are saying genre, so in that, couple of more topics, is required. Okay. Okay, so we just completed, the fine-tuning and the fundamentals of the, this LLMs, right?
+
+
+901
+02:37:28.412 --> 02:37:28.982
+Sushant Bhattacharya: Oh, okay.
+
+
+902
+02:37:28.982 --> 02:37:33.701
+Sunny: Apart from that, RAG agent tech, right? So this application is also required.
+
+
+903
+02:37:33.702 --> 02:37:34.092
+Sushant Bhattacharya: Word.
+
+
+904
+02:37:34.092 --> 02:37:58.802
+Sunny: So, after, spending 3 to 4 more months, you can, appear in the interview, right? So, just give some more time, 3 to 4 months, but let's say if you wanted to attend the interview right now, so you can prepare the interview question. I shared the interview question in the GitHub itself, so just check out over there. Just prepare those interview questions, and after that, you will get some idea what kind
+
+
+905
+02:37:58.802 --> 02:38:00.991
+Sunny: kind of question people might ask,
+
+
+906
+02:38:00.992 --> 02:38:05.871
+Sunny: with respect to RAG, agents, and other, type of project, and, then…
+
+
+907
+02:38:05.942 --> 02:38:08.761
+Sunny: Basically, you can prepare accordingly, got it?
+
+
+908
+02:38:08.762 --> 02:38:14.991
+Sushant Bhattacharya: And in this, we… it means apply for both the roles, no? Gen AI Engineer or Agentic AI, both?
+
+
+909
+02:38:15.642 --> 02:38:16.782
+Sunny: Yeah, correct, both roles.
+
+
+910
+02:38:16.782 --> 02:38:30.411
+Sushant Bhattacharya: And the Python knowledge, I don't have much knowledge, only basic knowledge I have, so is it enough, or some little more knowledge, like FastAPI and all, so…
+
+
+911
+02:38:31.342 --> 02:38:38.931
+Sunny: Python, basically, see, Python is required. This is, like, this is the harsh truth.
+
+
+912
+02:38:39.962 --> 02:38:57.761
+Sunny: So, I would suggest you, if you are preparing in for the AI, GenAI role, so be good in a Python, at least the core Python, and the module required for the Gen AI perspective, and the development side. So, for the development side, you should learn the APIs thing.
+
+
+913
+02:38:57.762 --> 02:39:08.432
+Sunny: You should learn the core Python, the data structure of the Python, dictionary list and all, and then, the file handling concept, exception handling, classes, object, okay?
+
+
+914
+02:39:08.432 --> 02:39:09.782
+Sushant Bhattacharya: Okay. Okay.
+
+
+915
+02:39:09.892 --> 02:39:12.071
+Sunny: As learn as much as Python.
+
+
+916
+02:39:12.072 --> 02:39:31.561
+Sushant Bhattacharya: Okay, so in that, both are covered, no? Means front-end also, is it covered? Means, like, front-end, how we implement, like, full-stack, means how we can, we can say that we are a full stack in this Gen AI. Means, is there any required front-end, like, Angular or React, is anything required?
+
+
+917
+02:39:32.372 --> 02:39:42.782
+Sunny: Huh, front-end, if we're talking about the front end now. So, generally, we don't develop the front end as a Gen AI engineer. Okay. Got it? For that, we would be having the…
+
+
+918
+02:39:42.782 --> 02:39:58.551
+Sunny: front-end engineers. So, as a GenA engineer, you don't need to spend time on the Angular, on the TypeScript, and the other kind of framework. You just focus on the backend side, and how we… basically, we can expose that code using the APIs, right?
+
+
+919
+02:39:58.552 --> 02:39:59.002
+Sushant Bhattacharya: Oh, goodness.
+
+
+920
+02:39:59.002 --> 02:40:07.112
+Sunny: if we are able to test it over the local host, via JSON object, okay, quickly, or by a Postman API, I think that would be enough.
+
+
+921
+02:40:07.132 --> 02:40:20.352
+Sunny: I was just by creating a basic API using the Streamlit, right, our basic HTML UI, that is enough, but you don't need to be, very good in the, basically, this, UI-related skills.
+
+
+922
+02:40:20.352 --> 02:40:22.641
+Sushant Bhattacharya: Fast API is required, right? Fast API.
+
+
+923
+02:40:22.642 --> 02:40:25.191
+Sunny: Huh, fast API is required. Correct.
+
+
+924
+02:40:25.272 --> 02:40:32.782
+Sushant Bhattacharya: And for the deployment, we learn here, in the course, we learn about the deployment, like AWS or any Azure.
+
+
+925
+02:40:32.782 --> 02:40:34.762
+Sunny: That will, that will, huh.
+
+
+926
+02:40:34.762 --> 02:40:43.872
+Sushant Bhattacharya: Yeah. Okay. Okay, then I can, for now, we can, take that, your interview questions and preparing, start preparing for that.
+
+
+927
+02:40:44.312 --> 02:40:46.151
+Sunny: Haha, correct, correct.
+
+
+928
+02:40:46.152 --> 02:40:48.112
+Sushant Bhattacharya: Focused. Thanks, thanks, thanks, sir.
+
+
+929
+02:40:48.592 --> 02:40:50.562
+Sunny: Okay, thank you, sir. Thanks.
+
+
+930
+02:40:52.452 --> 02:40:59.092
+Sunny: Okay, next doubt is just a second, let me unmute the next person.
+
+
+931
+02:41:01.192 --> 02:41:03.361
+Sunny: So, Bhagwandas, what's your doubt?
+
+
+932
+02:41:05.602 --> 02:41:16.282
+bhagwandas armani: Yeah, actually, I've put it in the chat. Actually, I wanted to have some personal time, maybe, like, not more than 20-30 minutes, but I cannot ask my question in the public, so…
+
+
+933
+02:41:16.522 --> 02:41:19.341
+bhagwandas armani: Can I be able to have someone connect with you?
+
+
+934
+02:41:20.212 --> 02:41:35.142
+Sunny: You can connect, but let me check when I will be able to. So just, do one thing, let me… Surge, drop me a mail, okay, or do one thing right in the comedy chat, in the weekdays.
+
+
+935
+02:41:35.522 --> 02:41:42.781
+Sunny: On Tuesday or Wednesday, you can ping me, so I can connect, after the office time, right? So, after 8 or 9 o'clock.
+
+
+936
+02:41:42.782 --> 02:41:46.422
+bhagwandas armani: Okay, fine, that's fine. Not more than 15, 20 minutes, actually.
+
+
+937
+02:41:46.422 --> 02:41:54.971
+Sunny: Yeah, yeah, that's fine, okay? So just drop me a mail or mention in the committee chair, so that I can, pick up you, okay? I can share the meeting link.
+
+
+938
+02:41:55.822 --> 02:41:56.722
+bhagwandas armani: Yep.
+
+
+939
+02:41:58.832 --> 02:42:04.502
+Sunny: Okay, Bhagwandas is done now. Ashish… What's your doubt?
+
+
+940
+02:42:19.162 --> 02:42:23.362
+Sunny: Okay, Hashes is not having any doubt… Ragu, what's the doubt, Raghu?
+
+
+941
+02:42:28.602 --> 02:42:31.712
+Sunny: Swati, Raghu, anyone is there, guys, please go ahead.
+
+
+942
+02:42:32.082 --> 02:42:34.382
+SWATI DORGE: Yeah, I'm here. Can I go first?
+
+
+943
+02:42:34.662 --> 02:42:36.142
+Sunny: Yeah, Swati, you can go.
+
+
+944
+02:42:36.572 --> 02:42:42.371
+SWATI DORGE: Thank you, and Naki, so much for these sessions. It's… I'm really enjoying it. I have joined only today.
+
+
+945
+02:42:42.612 --> 02:42:52.782
+SWATI DORGE: So I'll catch up through the recordings. My first question is, can you please give me more scenarios where to use fine-tuning versus rags?
+
+
+946
+02:42:54.512 --> 02:43:03.962
+Sunny: So, scenario by, see, once you will learn that concept of the rag, okay, so by yourself only, you can identify, correct?
+
+
+947
+02:43:04.102 --> 02:43:10.882
+Sunny: But see, whenever we have to connect our LLM model with any external data source.
+
+
+948
+02:43:10.882 --> 02:43:27.772
+SWATI DORGE: Sorry to interrupt, but to be honest, I'm already doing one course, and I did not find it, find any value in that course, because it's all wipe coding and very quick material given. So, that is where I'm back to Krishnaik Academy. Okay.
+
+
+949
+02:43:28.062 --> 02:43:29.002
+Sunny: So is this.
+
+
+950
+02:43:29.002 --> 02:43:36.592
+SWATI DORGE: I got fascinated with the, you know, bigger university certifications and all, and that is not at all helpful.
+
+
+951
+02:43:37.002 --> 02:43:37.532
+Sunny: So that's.
+
+
+952
+02:43:37.532 --> 02:43:49.522
+SWATI DORGE: That's the reason I'm thinking, like, so I do have a basic idea about rags and fine-tuning, so maybe you can go ahead, give me one or two examples, and then I'll start relating.
+
+
+953
+02:43:51.022 --> 02:44:05.961
+Sunny: Okay, so see, whenever we have to tweak the knowledge, okay, of any LLM, right, in that case, we go for the fine-tuning, where, basically we do the training of the model, right? And whenever we have to connect our LLM with the external data sources.
+
+
+954
+02:44:05.962 --> 02:44:28.341
+Sunny: And we have to, like, not… we are not going to be tweak… yeah, we are not going to be tweak the knowledge of the model. We are just going to be using a few-shot prompting. In that case, we follow the rack pipeline. Now, in which scenario, we can do that. See, if we have a good reasoning-based model, now… nowadays, basically, we have a very good reasoning-based model, so we're talking about a GPT
+
+
+955
+02:44:28.342 --> 02:44:29.822
+Sunny: 5 model, right?
+
+
+956
+02:44:29.822 --> 02:44:43.851
+Sunny: Opus, Cloud Opus model, SONAT model, Grok model, right? So, these are very good reasoning-based models. So, even though this model is not being trained on any dataset, but still, we are giving some example to this model, and we are asking, okay, can you
+
+
+957
+02:44:43.852 --> 02:44:51.662
+Sunny: extract the output from this particular example. Can you tell me, something from this particular dataset? So, yeah, it is able to do that.
+
+
+958
+02:44:51.662 --> 02:44:57.661
+Sunny: Getting my point. So here, for this… this particular model is already trained on a vast amount of data set.
+
+
+959
+02:44:57.752 --> 02:44:59.292
+Sunny: Okay, and the reasoning.
+
+
+960
+02:44:59.292 --> 02:45:00.182
+SWATI DORGE: Why would we…
+
+
+961
+02:45:00.182 --> 02:45:09.922
+Sunny: Yeah, yeah, let me complete. Let me complete. So, here, basically, we don't require the fine-tuning, right? So, most of the use cases, we can solve it by a rag itself.
+
+
+962
+02:45:09.922 --> 02:45:32.362
+Sunny: Now, where the fine-tuning is required, so let's say tomorrow, one very big company, right? Any pharma company, any FMCG company, right? So they wanted to host their own model on their own server. They are saying, okay, for the smallest small task, for some task, basically, we will not be relying on some… on this, this one GPT model and the cloud model. We'll be using our in-house, application, okay?
+
+
+963
+02:45:32.362 --> 02:45:48.032
+Sunny: So, even though… even I was a part of this kind of team in my… one of the projects, so I was working for one of the platforms on one company, right? So, that was a pharma company, and I cannot disclose this platform name, but yeah, the platform name was the XYZAT, you can assume it, right?
+
+
+964
+02:45:48.032 --> 02:46:12.871
+Sunny: So there, basically, we have trained some model for their internal tasks, so there, they can do the basic Q&A, okay, they can host the model in their… they have hosted the model in their own server, and we can directly utilize it. If those model is not performing well, then we will go for the reasoning-based model, good reasoning-based model, and we will be applying the intensive REC technique over there. Getting my point, right? So, till some extent, some companies are doing fine-tuning for hosting their
+
+
+965
+02:46:12.872 --> 02:46:29.622
+Sunny: model, their domain-specific model on their own server. There, the fine-tuning is required. If you wanted to permanently tweak the knowledge of the model, right, and on top of it, if I wanted to build a rack, in that case, also, we are doing fine-tuning, but again, this is, this can be done by the good company only, right?
+
+
+966
+02:46:29.622 --> 02:46:48.831
+Sunny: If there are, like, self-claimed company, we have created our own model, we have our own model, so they are just nothing, they are just a fine-tuned model. In that case, also, people are doing fine-tuning. So again, this fine-tuning, having a variety of scenario, okay? The more realistic scenario, which I told, most of the company wanted to host it their own model.
+
+
+967
+02:46:49.272 --> 02:46:49.912
+SWATI DORGE: So they are…
+
+
+968
+02:46:49.912 --> 02:46:58.422
+Sunny: are doing it. Otherwise, most of the thing, it could be done with some good reasoning-based model with a few-shot prompting technique. Understood.
+
+
+969
+02:46:58.422 --> 02:46:59.332
+SWATI DORGE: Yep, yep.
+
+
+970
+02:46:59.332 --> 02:46:59.892
+Sunny: Yo?
+
+
+971
+02:47:01.382 --> 02:47:09.241
+SWATI DORGE: Another thing, I mean, just a quick thing, like, if you can have your email ID, not that we'll bother too much, but,
+
+
+972
+02:47:09.882 --> 02:47:15.121
+SWATI DORGE: any project-oriented questions, I feel it will be good to get your guidance if that's possible.
+
+
+973
+02:47:15.612 --> 02:47:19.462
+Sunny: Yeah, yeah, definitely, you can ask. I can provide you that.
+
+
+974
+02:47:20.482 --> 02:47:21.642
+Sunny: Whoa.
+
+
+975
+02:47:21.802 --> 02:47:25.821
+Sunny: I mentioned in the chat, just pick it out from there, okay?
+
+
+976
+02:47:25.822 --> 02:47:44.822
+SWATI DORGE: I'll take a note. Thank you so much. I'm really happy with this in our sessions. I had attended your session long back. I was not very excited with your training when I compared with Krish, but now you're doing fantastic. I mean, I like today's session. Thank you so much.
+
+
+977
+02:47:44.982 --> 02:47:46.962
+Sunny: Yeah, thank you, ma'am. Yeah.
+
+
+978
+02:47:46.962 --> 02:47:47.492
+SWATI DORGE: Right.
+
+
+979
+02:47:47.492 --> 02:47:48.032
+Sunny: Bye.
+
+
+980
+02:47:49.082 --> 02:47:52.782
+Sunny: Okay, now the next Ashish.
+
+
+981
+02:47:52.782 --> 02:47:53.732
+Raghu P R: It's…
+
+
+982
+02:47:53.732 --> 02:47:55.302
+Sunny: Yeah, Ashish, please go ahead.
+
+
+983
+02:47:55.302 --> 02:48:04.881
+Ashish Jain: Sir, actually, I dropped the mail to you. It's regarding a IJP in my company, right? And they are asking for a prototype in terms of transaction monitoring.
+
+
+984
+02:48:06.032 --> 02:48:10.102
+Sunny: I think I replied your mail, right? Agent Tikwan, I remember.
+
+
+985
+02:48:10.102 --> 02:48:11.661
+Ashish Jain: Give your reply, sir.
+
+
+986
+02:48:11.662 --> 02:48:21.501
+Sunny: Okay, okay, okay. What is your mail? Let me check it again. Because I replied couple of mail last weekend. Sorry, last weekdays.
+
+
+987
+02:48:22.012 --> 02:48:24.481
+Ashish Jain: I, I, I dropped you a mail yesterday only, sir.
+
+
+988
+02:48:25.822 --> 02:48:31.681
+Sunny: Okay, yeah, I remember your name, you asking something about your agentic, project.
+
+
+989
+02:48:32.142 --> 02:48:33.012
+Ashish Jain: No, 10.
+
+
+990
+02:48:35.022 --> 02:48:39.082
+Ashish Jain: So they actually wanted using Amazon Bedrock, and
+
+
+991
+02:48:39.512 --> 02:48:46.372
+Ashish Jain: I am… I'm trying to, like, with your sessions, I'm trying to see agentic AI here and there. I have… I am… I have reached the length…
+
+
+992
+02:48:46.372 --> 02:48:53.602
+Sunny: I have… I have recorded one series on Bedrock, so just check out that. I can provide you the link.
+
+
+993
+02:48:54.202 --> 02:49:04.962
+Sunny: It is not on my YouTube channel, but it is a different one. So, I took some session on this Bedrock. I created a complete end-to-end reg using our Bedrock open search and all.
+
+
+994
+02:49:05.142 --> 02:49:10.161
+Sunny: So, just a second, I'm providing you those, videos, okay, wait.
+
+
+995
+02:49:10.452 --> 02:49:22.401
+Ashish Jain: Okay, and sir, like, just want to know, like, how shall I go? Like, I don't have any idea around transaction monitoring, I want to switch integrated finance domain, but my core is the marketing domain. I know…
+
+
+996
+02:49:22.522 --> 02:49:24.322
+Ashish Jain: I know my team, like.
+
+
+997
+02:49:24.322 --> 02:49:32.492
+Sunny: So, I would suggest you just connect with one SME, right, who is having a knowledge in this specific domain, right?
+
+
+998
+02:49:32.682 --> 02:49:40.361
+Sunny: that person can help you in a better way. So, if you have any connect, any contact, any friend, right? So, which can help you in this specific domain knowledge.
+
+
+999
+02:49:40.632 --> 02:49:43.232
+Sunny: I think, that would be great.
+
+
+1000
+02:49:43.672 --> 02:49:48.881
+Ashish Jain: But I just want to understand, like, domain knowledge is necessary to build an agent API.
+
+
+1001
+02:49:49.112 --> 02:50:00.401
+Sunny: No, no, no, no, it is, specifically required for any business use case, okay? So, if you are building it for any business, any client, there this, short-term domain knowledge is required.
+
+
+1002
+02:50:00.552 --> 02:50:03.581
+Sunny: Or, otherwise it is not. Got it?
+
+
+1003
+02:50:03.872 --> 02:50:08.592
+Ashish Jain: So, is there a way that I can just simply develop the prototype, like, you.
+
+
+1004
+02:50:08.592 --> 02:50:24.381
+Sunny: You can take a help of any AI assistant that will help you. Cloud or ChatGPT are doing very good nowadays in terms of development, even with the domain-specific applications, so I would suggest you take a subscription of the Cloud Code or Codex, right?
+
+
+1005
+02:50:24.462 --> 02:50:32.072
+Sunny: There, provide some, detailed context, about your project, and, definitely it will help you.
+
+
+1006
+02:50:32.842 --> 02:50:38.651
+Ashish Jain: I actually took it up to Pilot because my organization is using it, but now I'm finding it.
+
+
+1007
+02:50:38.652 --> 02:50:55.062
+Sunny: You can, personally vot it, in your local… it means in your personal system, you can practice out, practice it out, okay, with a cloud code or, directly with the cloud chat, so it will give you the good experience, and, even it can develop the end-to-end solution also, okay?
+
+
+1008
+02:50:55.262 --> 02:50:57.892
+Ashish Jain: Okay, okay, I replied. Thank you.
+
+
+1009
+02:50:59.442 --> 02:51:05.092
+Sunny: Okay, Ashis is done now… Guys, give me a moment, okay?
+
+
+1010
+02:51:05.652 --> 02:51:07.771
+Sunny: Raghu, give me a minute.
+
+
+1011
+02:51:08.432 --> 02:51:09.032
+Raghu P R: So true.
+
+
+1012
+02:51:52.732 --> 02:51:54.702
+Sunny: Yarogu, please go ahead with the talk.
+
+
+1013
+02:51:57.632 --> 02:51:59.112
+Raghu P R: I transitioned team.
+
+
+1014
+02:52:01.772 --> 02:52:05.711
+Sunny: Your voice is not clear. Raghur, can you speak, clearly?
+
+
+1015
+02:52:06.492 --> 02:52:08.011
+Raghu P R: What is monetization?
+
+
+1016
+02:52:10.742 --> 02:52:12.692
+Sunny: What is… sorry, I didn't get…
+
+
+1017
+02:52:13.462 --> 02:52:14.722
+Raghu P R: quantity is issued.
+
+
+1018
+02:52:15.222 --> 02:52:15.902
+Raghu P R: Totally.
+
+
+1019
+02:52:15.902 --> 02:52:18.902
+Sunny: Quant digestion I'll discuss in the next class, okay?
+
+
+1020
+02:52:19.662 --> 02:52:31.502
+Raghu P R: So, today, when, when you were discussing about OpenA SDK, I just saw that destination was in that. Can you explain a little bit of that, what is escalation?
+
+
+1021
+02:52:31.632 --> 02:52:34.342
+Raghu P R: Are you going to explain in upcoming classes?
+
+
+1022
+02:52:34.842 --> 02:52:36.431
+Raghu P R: I will skew this, I'll try this.
+
+
+1023
+02:52:37.922 --> 02:52:38.772
+Sunny: Yeah, distillation.
+
+
+1024
+02:52:38.772 --> 02:52:40.602
+Raghu P R: There's nothing, just to, like,
+
+
+1025
+02:52:40.602 --> 02:52:43.531
+Sunny: Apply the knowledge from one model to the another model.
+
+
+1026
+02:52:44.152 --> 02:53:01.952
+Sunny: So… that is called the distillation. Again, it is, like, not being used very frequently, it is being used while we are training any big LLM, okay? So we can distalize the knowledge from one model to another model, and some companies are restricting that, some companies are enabling that, okay?
+
+
+1027
+02:53:03.042 --> 02:53:09.682
+Raghu P R: Okay, sir. And also, another thing, are you going to expand the rank concept in Laura in the next Saturday?
+
+
+1028
+02:53:10.502 --> 02:53:11.742
+Sunny: Yeah, yeah, I will discuss correctly.
+
+
+1029
+02:53:14.612 --> 02:53:20.592
+Raghu P R: I would basically, like, until I was using cloud chart plus CLI,
+
+
+1030
+02:53:20.892 --> 02:53:33.422
+Raghu P R: But because of the usage limits, so I just wanted to, you know, upgrade from, like, cloud to deep-seq before, so I wanted to buy an API,
+
+
+1031
+02:53:33.712 --> 02:53:40.922
+Raghu P R: And, put it in some arbitration. It was just, like, how we use parallel, right? Like, lots here, like, codex.
+
+
+1032
+02:53:41.852 --> 02:53:44.551
+Raghu P R: the same way, I just wanted to, you know…
+
+
+1033
+02:53:44.702 --> 02:53:49.262
+Raghu P R: use some agent and put DeepSync before APEC in that.
+
+
+1034
+02:53:49.422 --> 02:53:56.751
+Raghu P R: And I wanted to use that one. Have you… I just wanted to know, have you used that deep-seq flash model? Is that good for coding at all?
+
+
+1035
+02:53:58.302 --> 02:54:07.412
+Sunny: Deep-seq model, just check out their benchmark, whether it is doing good in the coding or not, okay? I haven't used that, so I cannot say anything about it.
+
+
+1036
+02:54:09.262 --> 02:54:15.191
+Raghu P R: Because the cloud is, like, hitting usage limits again and again for me.
+
+
+1037
+02:54:16.272 --> 02:54:17.411
+Raghu P R: I couldn't have my phone.
+
+
+1038
+02:54:17.972 --> 02:54:19.801
+Raghu P R: Take my own credits, that's my goal.
+
+
+1039
+02:54:20.542 --> 02:54:24.751
+Sunny: Okay. Yeah, if you have a credit, then you can test it out, you can check it out, that, okay?
+
+
+1040
+02:54:25.352 --> 02:54:26.862
+Raghu P R: Cheers. Yeah.
+
+
+1041
+02:54:30.842 --> 02:54:39.191
+Sunny: why companies are restricting the distillation? See, it is restricting the distillation because it can copy their model behavior knowledge, right?
+
+
+1042
+02:54:39.542 --> 02:54:41.782
+Sunny: Into the… into their model.
+
+
+1043
+02:54:42.202 --> 02:54:51.421
+Sunny: And can create a cheaper model, cheaper model, right? So it can misuse their knowledge. That's why some companies are restricting, like Claude and the GPT-1.
+
+
+1044
+02:54:51.522 --> 02:54:52.962
+Sunny: Got it? Swati?
+
+
+1045
+02:54:54.802 --> 02:54:55.572
+Sunny: Yeah.
+
+
+1046
+02:54:56.232 --> 02:55:00.162
+Sunny: So, Muthuram, what's your doubt? Please go ahead with the doubt.
+
+
+1047
+02:55:02.202 --> 02:55:27.151
+Muthuraman K: Yeah, hi, Sunny. This is Mutho. Myself, I'm having around 10 plus years of experience in a data engineering field, okay? Currently I'm working as a GCP data engineer. So, my doubt is that how should… how do I create, current time working with a banking domain? So, I want to… let us assume that you are currently, we are working with our own farm on the desert, and we are completing our development and all. So, in case if I… in an interview, if I want to make a profile, how should
+
+
+1048
+02:55:27.152 --> 02:55:30.822
+Muthuraman K: should I convert my current project into the Just wanna run through.
+
+
+1049
+02:55:30.822 --> 02:55:39.292
+Muthuraman K: Engineer role. Is this possible we will get any banking or, financial data sets to, train ourselves, to, or practice ourself?
+
+
+1050
+02:55:39.832 --> 02:55:41.561
+Muthuraman K: Because currently I work at high school.
+
+
+1051
+02:55:42.162 --> 02:55:43.292
+Sunny: Yeah, yeah, corporate.
+
+
+1052
+02:55:43.832 --> 02:56:03.072
+Sunny: So, what you can do now, you can mention your current domain-specific project only, current domain project only in the resume, okay? And that project you can showcase as a Gen AI project. So, first, do some Gen AI project, 223 GenAI project, get some understanding how the RAG-based agent-based projects are working.
+
+
+1053
+02:56:03.352 --> 02:56:03.722
+Muthuraman K: Okay.
+
+
+1054
+02:56:03.722 --> 02:56:07.572
+Sunny: convert into your domain a specific project, okay?
+
+
+1055
+02:56:08.002 --> 02:56:20.981
+Muthuraman K: Okay, so in that case means, like, currently I'm working in a migration project, so here means any… so here, should, should I add any year-related use cases, or completely, should I change into the JNA, or any use case analysis kind of things?
+
+
+1056
+02:56:21.342 --> 02:56:46.301
+Sunny: Yeah, so migration use case, basically, it's, like, a bit difficult to convert into the complete GenAI, right? But where specifically the Gen AI model can be used over there will have to be identified. So you can say I was part of that module, and I implemented the Gen AI. But let's say if you're not able to fit this migration into the GenAI, right? GenAI into the migration project. Yeah, so you can showcase some, project from scratch only. You can say
+
+
+1057
+02:56:46.302 --> 02:56:51.831
+Sunny: I have, I was moving… I've been into this, data engineering from past 8 years.
+
+
+1058
+02:56:51.832 --> 02:57:01.172
+Sunny: A7 to 8 tier. From past one year, I'm working towards the generative AI, and I implemented this, this, this use cases. Something like that, you can tweak your work. Got it?
+
+
+1059
+02:57:01.172 --> 02:57:26.092
+Muthuraman K: Okay, okay. Also, for interview point of support, will you provide any case, because most interviews, they are experting, really, we are working on a current project, skills that we are working on. So, they are experting live day-to-day use cases, and what is the issues you are… the kind of scenarios only they are asking to test, really, the candidate is working in a specific tech stack or not. So, will you, while in interview discussion, will you provide that kind of… will you clarify those kind of answers, or we will get,
+
+
+1060
+02:57:26.092 --> 02:57:28.982
+Muthuraman K: How the interview preparation will go.
+
+
+1061
+02:57:30.252 --> 02:57:43.422
+Sunny: Yeah, I can… I have already provided the interview question. If you're going to be solved those questions, you will understand so many things. But at the end, again, after discussing the project and all, we'll discuss about the interview question and all, okay? Don't worry.
+
+
+1062
+02:57:43.422 --> 02:57:45.922
+Muthuraman K: Yeah, yeah, okay, yeah, got it, Sonny.
+
+
+1063
+02:57:45.922 --> 02:57:46.932
+Sunny: Yeah? Okay.
+
+
+1064
+02:57:46.932 --> 02:57:48.292
+Muthuraman K: Okay, yeah, thank you, thank you so much.
+
+
+1065
+02:57:48.292 --> 02:57:48.892
+Sunny: Bye.
+
+
+1066
+02:57:49.202 --> 02:57:50.291
+Sunny: Bye. Thank you.
+
+
+1067
+02:57:51.662 --> 02:57:56.461
+Sunny: Okay, so it is already done, maturang. Now, unmold, what's your doubt?
+
+
+1068
+02:57:57.672 --> 02:57:58.562
+Sunny: I'm old.
+
+
+1069
+02:57:59.982 --> 02:58:01.652
+amoljamkar: Hello? Hello, am I audible?
+
+
+1070
+02:58:02.082 --> 02:58:02.972
+Sunny: Yes.
+
+
+1071
+02:58:03.332 --> 02:58:06.672
+amoljamkar: Yeah, so my, my question was that,
+
+
+1072
+02:58:07.002 --> 02:58:25.041
+amoljamkar: We, in… like you mentioned, that, only the, field format layer and the attention layers have, the, the weights, right? But we also have the linear layer, right? The decoder even, that should have the, learned weights, right?
+
+
+1073
+02:58:25.562 --> 02:58:38.332
+amoljamkar: Because I tried to check, but then somewhere I'm seeing that there is some concept called weight tying, or something is involved, and they link the same linear matrix to the embedding their matrix. I mean, I searched on ChatGPT,
+
+
+1074
+02:58:38.632 --> 02:58:41.202
+amoljamkar: Whether there are weights in the…
+
+
+1075
+02:58:41.202 --> 02:58:48.132
+Sunny: So, those weights layer only are the linear layer. I don't know which linear layer you're talking about.
+
+
+1076
+02:58:48.132 --> 02:58:51.822
+amoljamkar: layer after the… in the decoder, before the softmax is applied.
+
+
+1077
+02:58:52.752 --> 02:58:54.181
+Sunny: Okay, that is just a projection.
+
+
+1078
+02:58:54.182 --> 02:58:54.782
+amoljamkar: converts.
+
+
+1079
+02:58:54.942 --> 02:59:09.572
+Sunny: No, no, that is just a projection, actually. See, we have the decoder block. In the decoder block, what we have, self-attention weights, feed-forward network, right, and then layer normalization parameter, then embedding, or that is a LM head, right?
+
+
+1080
+02:59:09.632 --> 02:59:15.482
+Sunny: So, see, attention and feed-forward layer contain most of the important learning metrics.
+
+
+1081
+02:59:15.632 --> 02:59:16.282
+Sunny: Okay.
+
+
+1082
+02:59:16.282 --> 02:59:16.932
+amoljamkar: Yes.
+
+
+1083
+02:59:16.932 --> 02:59:29.882
+Sunny: But apart from that, basically, we're talking about, so some of the projection layers also there. So, Q, K, V, O, up, down, gate, right? So, here, basically, see, this,
+
+
+1084
+02:59:31.192 --> 02:59:50.421
+Sunny: down, gate, up, right? So, these are the projection layer, and it's being used after… it is being used after the feed-forward layer itself, okay? So, yeah, these are the ones, and even we have mentioned it while we were configuring the LoRa. Got it? So, in the next class, I can point it out that where, you can locate it in the architecture.
+
+
+1085
+02:59:50.492 --> 02:59:52.562
+Sunny: So, let's discuss there, okay?
+
+
+1086
+02:59:53.332 --> 03:00:11.162
+amoljamkar: Okay, okay. And the second question was there, so in terms of ranks, so, actually, I have the AI Pro subscription, so my question was, like, is it that the Ultimate AIG bootcamp, which was held, in November last year, it has… it will, since it is a longer duration of, 5 seconds?
+
+
+1087
+03:00:11.232 --> 03:00:16.971
+amoljamkar: It will be covering the rag most in-depth in all of the courses in Frischae Academy.
+
+
+1088
+03:00:16.972 --> 03:00:29.331
+Sunny: Yeah, we have a dedicated… no, we have a dedicated course of the reg, so it held, like, in the November itself, and it is completed now. So, again, it will be launched this year again.
+
+
+1089
+03:00:29.372 --> 03:00:37.232
+Sunny: After, maybe, this advanced batch, so you can join that if you're willing. Otherwise, if you have an EI Pro subscription.
+
+
+1090
+03:00:37.332 --> 03:00:43.382
+Sunny: And simultaneously, you can complete that rag batch also, because the recording is there inside that subscription, okay?
+
+
+1091
+03:00:43.692 --> 03:00:48.641
+amoljamkar: Okay, so I, so I think it should have the most in-depth, latest, RAG,
+
+
+1092
+03:00:48.642 --> 03:00:53.911
+Sunny: Correct, correct. More knowledge, more framework, more use cases about the rack, okay?
+
+
+1093
+03:00:53.912 --> 03:00:58.292
+amoljamkar: Okay, because 5 months we are doing, the same, WAC concept in debt, okay?
+
+
+1094
+03:00:58.292 --> 03:00:59.582
+Sunny: Got it, got it, got it.
+
+
+1095
+03:00:59.582 --> 03:01:14.391
+amoljamkar: And the final question was, like, so I had some… I learned, full-stack web development, but I… but it utilized the traditional, mod stack, that is, and, I don't have much knowledge of the…
+
+
+1096
+03:01:14.392 --> 03:01:20.062
+amoljamkar: Of the React. So, do you recommend learning, frameworks like React and,
+
+
+1097
+03:01:20.122 --> 03:01:26.201
+amoljamkar: for, like, front-end bits. I have the backend knowledge, I did some past API, and then…
+
+
+1098
+03:01:26.592 --> 03:01:31.801
+Sunny: No, see, those… those framework is not required to us, actually, okay?
+
+
+1099
+03:01:31.802 --> 03:01:32.232
+amoljamkar: Yep.
+
+
+1100
+03:01:32.232 --> 03:01:32.602
+Sunny: You can…
+
+
+1101
+03:01:32.602 --> 03:01:34.042
+amoljamkar: Yeah, I think that's right.
+
+
+1102
+03:01:34.042 --> 03:01:35.592
+Sunny: Yeah, you can skip.
+
+
+1103
+03:01:35.592 --> 03:01:50.272
+amoljamkar: Okay, my intention was that before we come to the, like, agentic AI implementation, I should be ready for… I should be having easy to understand the concepts involved in the… so, in that terms, I was asking whether,
+
+
+1104
+03:01:50.302 --> 03:01:55.872
+amoljamkar: Before we come to the multi-agent and A-agent space, in a couple of months, then…
+
+
+1105
+03:01:56.092 --> 03:02:04.311
+amoljamkar: should I learn something, regarding the full stack, with some particular… apart from the traditional one stack, which we have?
+
+
+1106
+03:02:05.252 --> 03:02:08.482
+Sunny: No, no, no, it is not connected with iGenTech AI, so…
+
+
+1107
+03:02:08.682 --> 03:02:14.861
+Sunny: you can… you can escape it, feel free, okay? It is not required for the Agentech AI. Got it?
+
+
+1108
+03:02:14.862 --> 03:02:20.172
+amoljamkar: Okay, means at most the backend is fine, if we just learn the backend of Fast API…
+
+
+1109
+03:02:20.172 --> 03:02:25.581
+Sunny: Just be good in the Pythonic concept, okay? I will not limit Python, or…
+
+
+1110
+03:02:25.742 --> 03:02:38.721
+Sunny: this API and the other backend-related concept, okay? So just learn it by your own. AgentIt is a separate one. It's just one of the layer, it's just one of the module of the entire application, that's it, okay?
+
+
+1111
+03:02:39.282 --> 03:02:54.672
+amoljamkar: Okay, and, and I… actually, actually, I have some other, courses, actually, so do you, do you recommend learning from, like, models like Pydactic or something in-depth, or just the high level, that, they kind of restrict the data types, even that is
+
+
+1112
+03:02:54.912 --> 03:02:58.171
+amoljamkar: fine for the eagentic implementation.
+
+
+1113
+03:02:59.432 --> 03:03:04.712
+Sunny: Learn in depth, these modules are the important one, even you will be using time also, yeah.
+
+
+1114
+03:03:04.712 --> 03:03:06.702
+amoljamkar: You may not miss the pedantic one.
+
+
+1115
+03:03:06.702 --> 03:03:08.031
+Sunny: Got it, right.
+
+
+1116
+03:03:08.032 --> 03:03:11.762
+amoljamkar: Okay, okay. Fine, okay, thanks, thanks. Yeah, thanks, Patrick.
+
+
+1117
+03:03:12.002 --> 03:03:12.882
+Sunny: Thank you, sir.
+
+
+1118
+03:03:14.802 --> 03:03:20.591
+Sunny: Okay, no… Next question is, Nitin, what's your doubt? Uday, Nitin, anyone is there?
+
+
+1119
+03:03:21.652 --> 03:03:22.851
+Uday: I'm gonna go next, Sonny.
+
+
+1120
+03:03:23.492 --> 03:03:24.602
+Sunny: Yeah, you can go.
+
+
+1121
+03:03:25.192 --> 03:03:33.051
+Uday: So, today's class for fine-tuning, we had input 5. Basically, we had a user, a system, and a system, meaning, like, system is the question.
+
+
+1122
+03:03:33.502 --> 03:03:40.981
+Uday: The output is assisted, right? Which basically means two questions here. One is, like, how do you handle situations when system is not
+
+
+1123
+03:03:41.462 --> 03:03:43.331
+Uday: Defined, not in the input form.
+
+
+1124
+03:03:45.062 --> 03:03:53.391
+Sunny: So you can leave that empty one, okay? If you're giving the empty string over there, that will also be fine. Got it?
+
+
+1125
+03:03:54.392 --> 03:04:03.511
+Uday: So, the example being, like, you know, if you have something like a moving value, like a stock price, weather indicators, you know, things, right? Somebody says today, what is weather today in Noida?
+
+
+1126
+03:04:04.022 --> 03:04:10.231
+Uday: The system will not know because, like, it is not defined in this input or in the output assistant part code here.
+
+
+1127
+03:04:10.732 --> 03:04:19.892
+Uday: How do the system still respond back when they say, give me today's weather and data, it tells exactly what is the hot weather, right? How does it know without the assistant being fully populated?
+
+
+1128
+03:04:21.092 --> 03:04:38.751
+Sunny: So here, for this type of use cases, we don't do the fine-tuning, actually. So, we can simply create our, this agentic pipeline, where we can, keep this, real-time information in one of the tools, and we can give that access, to the LLM, okay? We can connect the tool as a connector to the LLM.
+
+
+1129
+03:04:38.762 --> 03:04:47.112
+Sunny: LLM will fetch the… means that application, the pipeline will fetch the information in real time via that tool, and it will generate the answer, okay?
+
+
+1130
+03:04:48.132 --> 03:04:50.531
+Uday: So, like, a rack pipeline, talking to it.
+
+
+1131
+03:04:50.532 --> 03:04:58.142
+Sunny: Agent-type pipeline, rack pipeline. So this is being designed for this particular use cases only. Training is not for that, okay?
+
+
+1132
+03:04:58.912 --> 03:05:01.971
+Uday: So, training is mostly for static data, predefined.
+
+
+1133
+03:05:01.972 --> 03:05:15.452
+Sunny: Correct, correct. Static data, for the consistent knowledge, for the, basically, to teach the model on some general data of the enterprise general data, right? So, for that only, we have fine-tuning, correct?
+
+
+1134
+03:05:16.312 --> 03:05:17.751
+Uday: I got it, thanks, something.
+
+
+1135
+03:05:17.952 --> 03:05:18.632
+Uday: Bye.
+
+
+1136
+03:05:21.102 --> 03:05:23.011
+Sunny: Okay, Nathan, what's your doubt?
+
+
+1137
+03:05:23.692 --> 03:05:24.922
+Sunny: Nitin Kushwa.
+
+
+1138
+03:05:27.502 --> 03:05:33.752
+Nitin Kushawaha: Hey, Sunny, thanks for taking my question. I just wanted to know one thing, this new…
+
+
+1139
+03:05:34.092 --> 03:05:43.591
+Nitin Kushawaha: codes, 3.0 agentK specialization with AgentOps. So, is it applicable to us, or, like, I'm just wondering, like, shall I take it, or, like…
+
+
+1140
+03:05:43.752 --> 03:05:46.461
+Nitin Kushawaha: Our current course will cover all those things.
+
+
+1141
+03:05:47.142 --> 03:06:00.752
+Sunny: You can take… see, our course is also having the Agent AKI module, because it is a part of the Gen AI only, right? But we have launched it as a separate batch, because we are launching it from the… from past two years.
+
+
+1142
+03:06:01.372 --> 03:06:01.922
+Nitin Kushawaha: Right?
+
+
+1143
+03:06:01.922 --> 03:06:11.642
+Sunny: So, this is our third batch, this Agentikai 3.0, and this Genentative AI bootcamp, again, this is our third batch, second batch, actually, right? So, here, also, we are covering the Agentica stuff.
+
+
+1144
+03:06:11.642 --> 03:06:26.222
+Sunny: But there, actually, we can give you, like, some more framework-related idea, we can focus more on the agent tech-related use cases. So that's a specialization in Agent Tech AI, got it? So simultaneously, you can learn from that batch also. There is no harm in that. Got it?
+
+
+1145
+03:06:26.852 --> 03:06:32.961
+Nitin Kushawaha: Okay, and, like, for, like, real-world, like, job perspective, both are necessary to be, like.
+
+
+1146
+03:06:33.152 --> 03:06:34.152
+Sunny: Got it, got it.
+
+
+1147
+03:06:34.152 --> 03:06:36.582
+Nitin Kushawaha: We're targeting, like, big tech companies.
+
+
+1148
+03:06:37.052 --> 03:06:51.812
+Sunny: Yes, yes. Because in the companies right now, if you will look into every company entry, every GCCs, every enterprises, every product-based company, or whatever company, so they are mainly focusing on designing the agentic systems, right?
+
+
+1149
+03:06:51.812 --> 03:07:05.042
+Sunny: At the end, they wanted to design the, the well, basically was agentic, multi-agentic system. So, definitely, this agentic, module or agentic course will help you in your career. Got it?
+
+
+1150
+03:07:05.622 --> 03:07:07.122
+Nitin Kushawaha: Got it. Thank you so much, Sunny.
+
+
+1151
+03:07:07.272 --> 03:07:08.552
+Sunny: Yeah, thank you.
+
+
+1152
+03:07:09.732 --> 03:07:14.062
+Sunny: Okay, Nathan is done now.
+
+
+1153
+03:07:14.352 --> 03:07:22.962
+Sunny: I think there is no such… no more doubt. So, fine guys, I think I… like, I took all the doubts today.
+
+
+1154
+03:07:23.132 --> 03:07:30.172
+Sunny: And now, in the next class, guys, we'll complete this fine-tuning module, and we'll move to the next module, right?
+
+
+1155
+03:07:30.482 --> 03:07:41.352
+Sunny: So, thank you guys, thank you, bye-bye, take care. If you have any such doubt, just let me know via my mail, or you can write in the company chat also. So, I'll look over there whenever I'll get a time.
+
+
+1156
+03:07:41.622 --> 03:07:44.892
+Sunny: So thank you, bye, take care. I'll see you in the next class. Good night.
+
+
+
