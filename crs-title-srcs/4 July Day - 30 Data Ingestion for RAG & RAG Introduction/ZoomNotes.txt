@@ -1,0 +1,940 @@
+Okay, guys, so let's, start with the class. I hope now I am audible to all of you, yes or no?
+Okay, great. So, just give me a moment, guys. I'm going to start the session.
+And my voice is audible
+Guys, there is no such eco
+Someone is saying there's a
+Okay, now it is fine, now it is perfect.
+Great, thank you guys. So let's, begin, let's start with the class. Sorry for the delay, I think we got some delay.
+Yeah. Actually, my internet was not connecting when I was starting the class, so that's why I started at 8-2 o'clock, so… Sorry for that. Now let's begin. So, guys, first of all, let me give you the quick recap from the previous classes
+And then basically let's start with the new topic.
+Okay.
+Sure, Tariq, I'll do that.
+Fine.
+Voice is not very low, I think it is fine now on
+I can clearly see people are able to hear me, and everyone is saying everything is perfect for them. So please check out from your end if you are facing any such issues.
+So guys, if you will look over the dashboard, so there, actually, we have already, completed our fine-tuning chapter. So all the sessions are listed over here. You can see. So I renamed all the session. Have you gone through with all the session of the fine tuning
+Tell me yes or no.
+Have you gone through with all the sessions of the fine tuning?
+Okay. That's great, guys. So if you have seen all the videos of the fine-tuning, then it is fine. If you haven't seen any sort of a video, then definitely you can go through with all the recorded session, and you can complete this particular module. Got it?
+Now guys, so I've given you one assignment also, related to this fine-tuning module, so have you gone through with that particular assignment?
+I already uploaded that assignment over the GitHub itself, so once you will go and check over the GitHub, you will find out that assignment. So, how many of you you started that assignment? Can I quickly get into the chat if you have started that assignment
+So this is the assignment, guys, which you will find out inside this folder. So I'm giving you the link of this assignment. If you haven't gone through with this assignment so far, please go through with this assignment, because it is very, very important.
+So, how to submit this assignment? I think you already know about it. I have given you each and everything, each and every information related to this assignment. So just open this docx file, and inside this file, you will get everything. Got it?
+So let me quickly show you this particular file, and then after, I will come to the new topic.
+So, where is the assignment? Here is the assignment, guys. This is the assignment, so just open this assignment
+Now, after opening this assignment, okay, so please scroll down till the end
+It is a very good assignment and very huge assignment as well, so that's why I given you two weeks of time, 50 days of time
+And guys, after that, I will have one demonstration session, okay? So there, actually, you can give the demonstration of this entire application, and then, based on that, we'll select the winner.
+Understood.
+So let me show you that. You can implement it using the onslaught, that is completely fine.
+So, here is all the instruction how to submit… where to submit, everything you will get over here. What is the submission date? So today is 4th of July, so by next week, okay? So, sorry, by this week, end of the week, actually, you have to submit this assignment
+So, demonstration day is the 12th of July, so there, basically, you will show your application. Now, whoever is going to be win that competition, right, whoever is going to be a winner, the top three winner, okay, so those folks are basically will get access of this particular course, the advanced route course
+Sunny
+20:18:03
+Understood.
+How much time we have for the demo? So, each person will only take 5 to 10 minutes, okay? Within 10 minutes, basically, they have to complete the demo
+That's it.
+What specifically expect in the demonstration, array, Saraji. Please go through with this assignment, na, everything have been mentioned over here, huh?
+You haven't opened this assignment at least one time, and you are asking. So first go through with this assignment and then if you have any sort of a doubt, you can ask me. Got it?
+So, if you are going to submit the assignment, those folks only can give the demonstration. I will get, I will get that, detail inside the Google sheet only. So, I will call out the name, and you can give the demonstration, and then, basically, you can select… we can select out the best, possible
+Best of basically demos, okay? And don't worry, don't worry guys, those solutions will be available with you, so anytime you can go with those solutions.
+Got it?
+You have to explain the solution and all, you know, right? AWS demo. Please write your exact name if you are writing any other name, guys, I will not be able to identify you. So please write the correct name while you are joining this session.
+No, let's, do one thing, guys. Let's, let me, come to the next module, next topic, which is going to be a RAG, okay? Can we increase the deadline? No, we are not going to increase the deadline. Deadline is clear. Next week only, we have a demonstration. Got it, Sovik?
+We will get a more assignment like this, yes. So you will get 5 to 10 more assignment like this going forward.
+Can you please answer Mary saying, will you accept a notebook as I am having issue with the mounting? Yes, you can, basically do it over the collab also. I don't have any issue. Wherever you are going to do it, whether it's a collab, your own server, your AWS, wherever you are doing that, do it, okay?
+If you have office deadline, then, what I can do in that case…
+You can, do it via Copilot, right, Vijay? So, what I can do
+Just take some leaves, right, some sick leave or casual leave.
+You can take that one or two days only. I think within 1 or 2 days, you can finish this assignment. I think it won't take more than that, actually, okay?
+Due date is, Indian time, ISD, okay? Indian Standard Time.
+Great. So, now, guys, let's do one thing. Let's start with the session. So guys, today we are going to be start a new chapter. The chapter name is going to be what the chapter name is going to be RAG retrieval argument generation. Okay, so guys, from here you can be serious because here basically we are going to be perform like more practical stuff and all
+And we are going to be understand the different, different concept of the RAG as well, okay? So, let me show you the complete RAG pipeline. Let me give you the complete demonstration of the RAG
+And then, basically, we'll start with the practical, okay? So let me revise all the thing, whatever we have done so far, and then, basically, I will come
+So, then only, basically, I will explain you, this RAG pipeline. So guys, when I started this particular course, right
+So let me write a topic name. So here I'm going to write that RAG so do you know the full form of the RAG? Do you have any idea about the RAG? Have you ever learned about the RAG
+Have you ever gone through with this RAG concept?
+RAG is a very, basically simple topic, but yeah, it is, like, very difficult while we are, implementing it in the real time, okay, in the productionized system, because there are so many moving variable inside the RAG, okay? So we'll understand the RAG, we'll do some project as well. Our project is going to be based on the RAG only
+And we'll understand the different concept inside the RAG. Okay, so I will take again, 8, 6 to 8 classes, or maybe 8 to 10 classes, for this RAG itself. So, 2 to 3 weeks, we'll have a, we'll do the discussion on top of the RAG itself, and even we'll discuss about the
+So when I started this course, can anyone tell me when I started this course, what was the date of that
+I think everyone knows, right? So we have started this course at 15th of March.
+So, there basically, I discussed about the, what, guys, I discuss about the encoding, embedding, and all, okay? So we've gone through with all those concept. Let me write over here
+Sunny
+20:23:09
+all those topics. So we discuss about what, guys, we discuss about the
+And coding
+Okay.
+We understood about the embedding
+Then, guys, we understood about the transformer architecture, what is the transformer architecture, and how does it work?
+Okay?
+Then, guys, we understood how we can access the different, different LLMs okay
+How we can access the different, different LLM. We have seen the different, different architecture based on the transformers, so various LLM architecture
+Right? Various LLM
+architecture.
+So we have gone through with that, right? Then, guys, we have seen the different, different LLM access APIs, okay? We understood how we can access those specific LLM
+Then I enter into the fine-tuning. I explain the different concept of the fine-tuning
+And here, we have a lot… we have spent a lot of time, right, around 8 to 10 classes
+And after I took 10 classes, guys, we understood how to perform the fine-tuning and whatever framework is required for this particular topic. So we spent around three months on top of this fundamental. So let me write over here, three months around we have spent on top of this fundamental
+Okay.
+So this, all the fundamental, actually, it comes inside the Gen AI, okay, inside the generative AI. Now we have very one more important concept of the Gen AI from their actually you will find out most of the practical implementation
+So, fine-tuning, we are not doing very frequently in the industry, okay? LLM Access API, so again, this is an important topic. Transformer again, it is an important topic for the fundamental encoding, embedding again, it is an important topic. So whatever topic we have learned so far, it was also the important topic
+Okay, so, definitely if you haven't seen those videos, recorded lectures are there over the dashboard. Now, the next concept inside the GenAI itself is called the RAG. Okay
+That is a retrieval argument generation. So, we'll understand what is a RAG and how we can implement the RAG, right? Now, this concept, actually, it is a little bit different. It is a little bit different from this fine-tuning. It is a little bit different of the… from the training. Because here, basically, the training is not required
+Okay, we are not going to be perform any sort of a training inside this particular chapter, right? So, inside this particular chapter, basically, we'll mainly focus over the
+A pipeline, the RAG pipeline, how to build that. Now, if we're talking about the RAG guys, so we have two main framework for implement the RAG. The first is called the LangChain, and second is called the LangRout
+Right? So, Langra will come later on, when we are going to be develop the advanced variant of the RAG that is called the Agentic RAG. But yeah, we'll use the LangChain as of now, okay? And whenever I'm seeing LangChain LangRap, so this will be used all together, right? Let's say if I'm going to build a RAG pipeline, so I can build it using the LangChain
+Let's say if I'm going to be built the Agentic RAG pipeline, or any Agentic kind of thing, or any orchestrated, basically, if I wanted to build, right? So there, I will use the length graph, right? And along with the Lang graph, I will use the LangChen for reading the model, and for the other sort of stuff
+Okay. So, we are going to be starter RAG, and again, guys, we are going to be spent around 6 to 8 classes on top of the RAG
+So, first of all, let me explain you about the RAG, that what is a RAG, what are the components we have inside the RAG and then step by step, one by one, we'll start with the practical, okay? So first, let's discuss some theoretical point
+So the idea and the agenda is clear. So, I'm assuming a 6 to 8 classes, and then again, we have one more bigger chapter, that is the Agentic AI. So this RAG and the Agentic AI is a two different chapter. Okay, so after the RAG guys will start the Agentic AI chapter
+And then we have the other concept also, like prompt engineering, evaluation, and then basically guardrails, MCP, and all, so that also we can understand. But yeah, these two chapters are the important one. First is the RAG and the second is the Agentic AI. So you need to be more focused on top of this
+Particular chapter, okay? Now, let now let's start now with talking about the Agentic AI guys so inside the Agentic AI again this two framework are the important one one is the Langchain and second is the land grab. So the Agentic the entire Agentic AI basically we can develop using this two framework only
+The first. So, whether we are talking about the RAG or Agentic AI, so we just required this two framework, okay?
+Now, guys, let's do one thing, let's understand about the RAG. So guys, the agenda is clear, the idea is clear, you can give me quick thumbs up if everything is fine so far.
+Sunny
+20:28:10
+Tell me.
+Yes, we have other framework also, but yeah, these frameworks are being used a lot, so you will see 95% markets are being captured by this framework only.
+95% market are being captured by this framework only. We have some other framework also, it is working in the same way. Now, again, guys, you just required at least one framework to understand the process, to understand the thing, then you can utilize any other framework. And again, guys, I would say
+Don't fall into this category, like, where you are going to be, explore the different, different framework, okay, the simultaneously are going to be explore 5 to 6 to 8 framework, okay? It's not at all necessary, it's not at all mandatory
+Please understand. Guys, see, I am an Agentic AI engineer, I am a data… sorry, this generative AI engineer. From past 3 years, from past 4 years, actively, I'm working into this particular domain, okay? I'm working with this particular technology. Guys, you won't believe I haven't used any other framework than this LangChain and LangGraph.
+Right? In one of my POCs, basically, I have used this, OpenAI SDK. Apart from that, I never touch this Crew AI and the other framework, okay? Other company, other startup and all, they might can… they might use, but again, guys, the concept is the same one.
+So, we have to focus on the fundamental. We have to understand about the concept, okay? So that's… that's where, guys, I would suggest you, please don't fall into the category where you are going to be… explore the multiple framework, but at the end, you are not going to be built anything
+Right? You have explored, like, 5 to 6 fam… no. Understand one framework, make your, understanding very clear with the one framework itself, develop some good application, okay? And the letter of simultaneously, you can explore the other framework also. What is the issue with that?
+What is the issue with that, right? So don't do, like, don't do this thing, guys, again. So, guys, sir, are we going to learn this? See, this is not at all required in the industry. I'm an example of it, and even you can ask to any one person
+Okay, guys, you won't believe I never ever touched the crew AI and the autogen framework. Even I don't know what… what is a class in the Crew EI, which of the class, but if you will give me the task, na, I can build the application using the Crew AI within a week itself, whether it's a production-grade application or any kind of application
+Because my fundamental is very strong related to the Agentic AI. I know the proper orchestration, I know the proper looping, I know the proper tool calling, okay? I know the proper memory management, state management. I have walk onto that side. So I can definitely build this Agentic AI application
+Getting my point. So this is a very, like, important advice to all of you, okay?
+No. So, let's, do one thing, guys. Let's, start, with the RAG itself
+So guys, if we're talking about the RAG, okay, so, is this diagram is visible to all of you?
+Is this, diagram is visible to all of you. So, what is a rack, guys? So, if we're talking about the rack, okay? So, the full form of the rack is going to be the retrieval argument generation, okay? So we'll decode this entire diagram that what is happening over here, what is the meaning of it
+each and every part will understand of this diagram, okay, so if we're talking about the RAG guys, okay, so inside the RAG basically you will find out 3 terms. Let me write over here
+We're talking about the RAG, so there, you will find out the three terms
+The first is going to be what? The first is going to be retrieval
+Okay. The second is going to be augmentation
+Right? And the third is going to be generation.
+So just pick the first word of this particular… the first character of this particular word
+So, here we have this R
+Now you can see the R
+Okay
+The second is going to be
+And the third is going to be G. So here we have this R
+The second is going to be A. The third is going to be G. So from here only you will find out this particular term that is called the RAG
+Got it, guys. Now, what is the meaning of it, what we are doing over here? Let's try to understand that one. So, guys, here you can see this particular architecture, and even I written something over here, over the blackboard. So RAG is what RAG basically
+Give the relevant context to the LLM before answering, okay? So this is the entire idea behind the RAG. If someone is going to be asking you that what is a RAG? So you can say, it gives the relevant context to the LLM before answering, okay? Now, if we're talking about the RAG guys, so this RAG, basically, we can divide into
+Sunny
+20:33:19
+two main pipe… two main part. The first is called the Ingestion and the indexing. The second is called the retrieval and the generation, okay? Now, we have three main component. I will discuss those components of the RAG, okay? But as of now, let's divide this particular pipeline into two main parts. The first is going to be ingestion
+And the second is going to be what retrieval in the generation. Now, inside this diagram, guys, can you see… so inside this particular diagram, guys, can you see the LLM
+Is the LLM visible to all of you? Tell me.
+So, inside this particular diagram, you can see the LLM. So here we have the LLM, okay? Here, basically what we have, we have the LLM. Now, guys, let's say this is my LLM. Let me take the LLM. This is what is my LLM
+Now, we can give the input to the LLM
+I can give any sort of input to the LLM, and we can generate the response
+Tell me yes or no
+We can give the input to the LLM, and we can generate the response out of the LLM.
+No, this is called the simple generation, or this is called the simple AI assistant. Now we're talking about the RAG guy. So inside the RAG basically we are giving a more context. We are giving a more context to the LLM. Now why we are giving that what is a like idea behind that okay why it is required, everything we are going to be discuss
+So guys, we can give the simple input to the LLM, okay, and we can generate the output. But guys, if we're talking about the RAG pipeline, so inside the RAG pipeline, we are not giving this input directly. So we are augmenting this particular input. We are augmenting this particular input
+Okay, I'll give menting. We are augmenting this particular input, okay? After the augmentation only, we are giving this input to where we are giving input to the LLM. Now, if I'm saying augmentation guys or augmenting the input. So what is the meaning of it? The meaning is very, very simple.
+So, we are adding more context to the import. Because my LLM basically it does not know everything
+It's not having each and every information, so that's why what we are doing, we are adding the more contacts inside the input. Now, this is what this is my input prompt, and then we are passing to the LLM, and then only the LLM is going to be generate the final response, okay?
+So here, guys, you can see. So we're talking about the RAG, okay? So I can write the three main component of the RAG over here. The first component of the RAG is going to be what
+The first component of the RAG is going to be
+Tell me, guys, what it is. It is called the data parsing
+Okay? It's very important component of the RAG that is called the data parsing. The second component of the RAG is called what guys it is called the data
+Ingestion
+Okay
+data Ingestion
+The third component of the RAG is going to be what? Retrieval
+Okay?
+Retrieval. And, see, guys, I… what I can do, I can write like this, so just a second
+So, I can write the data ingestion, and the data parsing, basically, it could be part of that, okay? So let me rewrite this one. So we're talking about the first component, so that is called what? That is called the data ingestion
+Right? Data ingestion. Now, if we're talking about the RAG guys, so this data ingestion, is one of the component, and here, guys, the very important concept comes, that is called the data parsing. So let me write what let me write this the extended one of it that is called the data parsing
+Okay, so here, basically, we are going to be parse the data, and then we are going to be stored it where? Inside the vector database. Now, we have to do one more thing over here, the data parsing, basically, it is also called the document AI.
+Okay, so we'll understand what is the document AI, and definitely we'll try to perform that. The second is called what guys. The second is called what? The second is called the retrieval. Okay
+Retrieval
+So here, basically, what we do, we retrieve the data, okay? And the third is called what? The third is called the generation, okay? Third is what, guys? Third is called the generation.
+So the first is called the data Ingestion. This data parsing document AI, actually it is a part of the data ingestion only where we are going to retrieve the data from the different, different document and we are going to be stored where inside the vector databases. So again, databases, vector databases, it is a part of the data ingestion only
+The second is called the retrieval. It is a very important part of the RAG, okay? And the third is called the generation. Now we're talking about the difficulty level. So this data parsing, basically, there's data parsing and the retrieval, basically, it is a difficult one
+Difficult one means what? If you are working in the production, guys, production system, and if we are working in the real-time project, so this thing we have to do very, very carefully, okay? Now, here, basically, we have to fetch the data
+Sunny
+20:38:20
+Okay, fetch the data, and after fetching the data, guys, what we have to do, we have to arrange the data, okay? So, fetching the data, arranging the data, it's a very typical task, right? We have very used data. If the data is very scalable, right? In that case, this task is going to be very, very typical, right?
+And, the second is called the retrieval. Again, to retrieve the correct information, okay, to retrieve the correct information, it's a very important thing. So the accuracy of the retrieval component is a very, very important. Generation side is not very difficult. So here we just have to be… here we just have to play with the prompt
+Okay? And then, basically, we just have to use the bets to best LLM. So we are going to be used the best-to-best LLM at this particular place, then my answer is going to be quite good, right? So if we're talking about the RAG guys, so inside the RAG, basically, you will find out difficulty at these two places
+The first is going to be a data passing that is called the document AI, or that is called the data ingestion. Okay, it is a part of the data ingestion only. The second is called what? The second is called the retrieval, okay? And the third is what, guys? Third is the generation. Now, if you will look into this particular diagram, guys, so instead of the diagram I have mentioned the same thing
+Okay, so is it visible to all of you? Now, tell me, guys, are you enjoying this RAG one? Is it clearly visible, or it is clearly understandable or not? Yes or no
+Now, guys, the next is going to be what, so let's understand, this particular diagram, okay? So what is indexing? What is this that okay everything we are going to be understand, don't worry about it. Even I will like show you the advanced pipeline where we are going to be integrated the memory caching
+Evaluation, guardrails, everything we will implement inside the same pipeline itself. But first, let's talk about the… first, let's talk of the classical pipeline of the RAG, okay? First, let's have a discussion onto this classical pipeline.
+So, guys, let's suppose we have a document, or we have a data. Okay, let's start from here. So we have a data, guys. Now, after that, what we do, we perform the chunking of the data, okay? What we do, guys, we perform the chunking of the data, and we perform the embedding of the data.
+Now, guys, this chunking, actually, it is an optional step, okay?
+Even you can skip this particular step, this particular step is not even required, this chunking step. Okay, so here we have a data, then we are going to collect the data. We are going to be store this data where after the embedding, guys, we are going to be store this data inside the vector databases
+So this particular database is actually, it's a special database, okay, which is designed for storing the embedding only. So we're going to use the different databases, okay? I'll show you how to use the vector database and how to store the data inside. Got it?
+So this is… this particular process is called what this particular process is called the data ingestion
+From where, from document, from data to the chunking, to the embedding, to the vector databases, right? Now, guys, after that, guys, what happens? See, whenever we are getting any sort of a query, so let's say here is my user, or whoever is writing that query, so we are not directly passing that query to the LLM
+Okay, so we are not directly passing that query where to the LLM
+No, instead of that, what we are doing, instead of that, basically, we are going to be past that particular query to where, to the vector database, okay? So we are going to be performing the embedding of that query, alright? And we are passing it to the vector database, where we'll perform the similarity search operation
+Right? And then we are going to be figure out the chunk
+Now, this particular process is called the retrieval, right? So this is called what this is called the retrieval. This is the retrieval process where basically we are going to be retrieve the data. Okay, so this is what guys is a retrieval process. Then after that, guys, what we are doing. So we are providing the prompt
+Okay, we are providing the context. Okay, means here, basically, we have the prompt, some additional instruction, the context, basically, which we are going to be retrieved from the database. Okay, let me write over here what we have over here, guys. So here we have a prompt, some additional instruction, the context, basically, which we are going to be retrieved from the database
+Okay? And then, the query, basically, right? So, we are going to be combine all this thing, and we are passing this particular information to the LLM, and then only LLM is going to be generate the final answer. So this particular process is called the generation. So how many process we have over here? The first process is called the data Ingestion
+The second is called what? The second is called the retrieval. This red one is called the retrieval, and the third is called what? Third is called the generation, okay? Now, guys, here, basically we have the vector database. Nowadays, maybe you are hearing the new term that is called the vectorless RAG, right?
+So you can, basically skip this vector database. Directly, you can retrieve the information from this document itself, right? So it is just a traditional way of retrieving the information. Now, again, guys, vectorless vectorless RAG is not a magic, right? It might work, it might not work. Okay, it might give you the good accuracy. It might give you the less accuracy
+Sunny
+20:43:31
+So you will have to test on that. I have read out the different, different blog, the different, different, basically, solution and all I have went through. So, I have figured out that vectorless RAG is not a magic, it is just a traditional technique where we are directly going to be retrieve the information from the document itself, based on the keyword, based on the
+Basically, BM25 retriever based on some other kind of sources, okay? And then directly, we are passing it to the LLM, that's it. That is just the classical way of building a RAG, okay? So you might get a good accuracy most of the time inside the vector database of via vector database, basically vector base RAG
+Instead of the vector less RAG, so vectorless RAG actually it might work in some of the use cases, but again, it is not a solution, okay, it is not a replacement of the vector-based RAG
+Got it. So even I will show you how you can perform the vector-less RAG also. I'll show you one solution around to that. Making sense to all of you? Tell me yes or no, is it getting clear
+Yes?
+Yes, we'll discuss each and everything, so here I capped all the use cases and everything, okay? So I just started Ramanath. Let me go through with this entire slide. Everything you will get over here, right?
+Now, why it is optional? Because the chunking is not required every time, okay? Chunking is not required every time. Now, what is the meaning of the indexing, guys? Indexing is nothing, so whenever we are going to be store our data inside the vector database, so that is only called the chunking. Sorry, that is only called the indexing, okay?
+So we are going to be store… we are going to be store the data inside the vector database in the form… in the form of indexing, okay, in the form of indexes. So when I will come to the practical guys in… at that time, you will understood that thing very, very clearly, okay
+So I will show you each and everything in terms of practical. Got it? Great. So guys, over here, see, if we're talking about the RAG, so what is the definition, the classical definition of the RAG
+So let's read out the classical definition of the RAGs. Here I mentioned RAG is a technique that helps an LLM answer question using the external data such as PDF, document, website, databases, or company knowledge base
+So, from wherever, from whichever place you can take a data, okay, from any place you can take the data, you can retrieve the contacts out of that data. You can provide that context to the LLM, and then behalf of that LLM can generate the answer.
+Okay, so guys, if we're talking about the RAG, so how we are going to be understand the RAG, let me, basically write all the points over here, just a second. So first, guys, we'll understand what is a RAG. I think most of the people are able to understand that what is a RAG okay
+I'll give you a couple of more examples, so the idea will be more clear. So the first thing is what, first thing is, what is our RAG
+Okay.
+The second thing basically why RAG why RAG is required
+Okay. The third, basically, third is what. Third is going to be RAG
+pipeline. So already I shown you the RAG pipeline. Again, I will discuss onto that, and each and everything I'll show you in the practical. So as we are going to be proceed, guys, so I will show you some advanced RAG pipeline also. Okay, so we'll see some advanced RAG pipeline also where we are going to be integrate everything
+Inside our RAG pipeline, whether it's a memory, okay, and the different other concept of the RAG
+And the different other concert, basically, which comes for the RAG, okay? Which comes under the RAG. Then guys, the fourth one is going to be what? The fourth is going to be RAG versus fine-tuning. So we'll discuss what is a RAG versus fine tuning. I already capped that thing
+Okay, RAG versus fine-tuning. So I will definitely discuss of this RAG versus fine-tuning. So these are the point basically which we are going to be discussed if we're talking about the introduction of the RAG
+And then, basically, we'll come to the first component of the practical implementation that is going to be a data parsing.
+Okay
+That is going to be what? That is going to be a data parsing. Now, this data parsing, basically, it is a part of what? It is a part of the data ingestion
+Okay, so it is a part of what? It is a part of the data ingestion. So first, we'll understand the data parsing inside the data ingestion. Let me write the one over here. Okay, so we'll discuss what is the data parsing, how to perform the data parsing. That is also called the document AI
+Okay, so I'll show you some model which is able to retrieve the data from the different, different document and all. Then after that, guys, we'll understand about what
+will understand about the, this one, vector databases, okay?
+Vector databases, how to keep the data inside a vector databases. Now, chunking and the embedding, actually, it is going to be part of that only. So chunking and embedding is going to be part of that only will understand about the vector database. So there's two main concept will be there with respect to the data with respect to the data ingestion
+Sunny
+20:48:33
+The first is going to be data passing and the second is going to be a vector databases, right? So in this particular flow, we are going, okay, so we'll follow this flow in the next three to four classes. The next concept will come that is called the retrieval pipeline
+So we'll work on the retrieval pipeline
+Okay.
+So we'll work on the retrieval pipeline. The different, different retrieval pipeline technique will focus. Okay, what is the similarity search and all, everything we'll see over here. Even though we have already learned it in our previous classes, but again, I'll show you that. And then, guys, the third is going to be what? The third is going to be a generation one
+So let me write over here. The third is going to be what? The third is going to be a generation. So here, basically, we'll definitely discuss about what we'll definitely discuss about the prompt technique and all. So I will show you that prompt chapter. I will discuss the prompting technique and all everything over here
+Okay, so likewise, guys, we are going to be proceeding inside the RAG pipeline, in the RAG chapter, and in this particular way only, in this particular manner only, we'll be discussing that
+Making sense to all of you, yes or no?
+Tell me
+Okay, so let's, discuss the first point that what is a RAG, okay
+So, guys, here, if we are talking about
+The RAG. Okay, what is a RAG, guys? Tell me.
+Can anyone tell me what is a RAG?
+RAG stands for RAG stands for what, RAG stands for retrieval argument generation, okay.
+Now, retrieval means what if we are talking about the retrieval guys, so the finding relevant information from the document. Okay, finding relevant information from the document that is called what that is that is called the retrieval, right? Now we're talking about the augmentation. So what is the augmentation guys
+Adding that retrieval information is an extra context to the user question. So whatever user is asking guys
+Okay? To that user question, what we are doing, we are going to be at the extra context, and this extra context is nothing. It is just that retrieve information, okay?
+It is just bought, it is just the retrieve information. Now, here I return the separate definition of the augmentation also, because here people are having some confusion. So, augmentation is nothing, it is a improving the LLM input, okay? Whatever input we are providing to the LLM, right? So, improving the LLM input by adding the retrieve context
+So that's the meaning of the augmentation. Now, the final one is going to be what final one is going to be a generation. So LLM generate the final answer using that particular context. So all these three terms are clear to all of you. Tell me yes or no
+I will show you more example, and after that, guys, everything is going to be clear, okay? So tell me, guys, if this part is clear to all of you, yes or no?
+Tamiyas.
+I want yes or no from everyone, if you are saying no, then if you have… if your answer is no, then please write no, okay?
+Great, guys. So, I hope everyone is able to understand that now
+Now over here, guys, see,
+This is the example, guys, right? So let's understand with this particular example, your… most of the part is going to be Kylia, right? So
+Here, guys, you can see
+Let's say user is asking some question. So let's say I have a question. What is a refund policy of our company
+Now, this, the LLM may not know this, because company policies are private data. Okay, so let's say we are using one Llm
+The LLM name is what? Let's say the LLM name is what?
+OpenAI
+Sorry, GPT-5, okay?
+So, I'm using this GPT-5.5 model
+Now, let's say I'm asking what is the refund policy of the what is the refund policy of our company, right? Let's say I'm asking about this Krishnayak Academy
+Now, tell me, guys, this GPT-5.
+It knows about this, it knows about this particular information, the refund policy and all
+So while they were training this particular data, while they were training this particular model, okay, maybe they haven't included this particular information, right? Now, if you will check with the chat GPT also, if you are asking to the chat GPT, so what this ChatGPT is doing, you know, it is doing a web search
+So, from where it is, picking the context
+From where it is picking the context, guys. So it is picking the context from where.
+Sunny
+20:53:37
+It is picking the context from the internet, okay?
+It is picking the concert from the internet, and then only it is answering. Let's say if you're asking to the ChatGPT, let's say if you're asking to the ChatGPT
+What is the current temperature in Bangalore? Okay?
+Current
+temperature
+In Bangalore
+Now, guys, ChatGPT is not trained on top of this… sorry, GPT model, which is being used inside the ChatGPT application. Now, first of all, you will have to understand this. ChatGPT is an application
+Okay. And guys, this,
+The model, basically, which is being used, the model basically which is being used inside the ChatGPT, right? So just a second.
+Okay. So… yeah. So the model, basically, which is being used inside the ChatGPT, right? This one. So that is what that is a GPT 5.5.
+And this is the transformer-based model
+This is what is the transformer-based model
+Which have been trained on some sort of a data, alright? That's why. So maybe it is not up-to-date with the latest information or the latest knowledge. So what it will do, guys, so here we're talking about we are asking to the chat GPT for the current temperature in the Bangalore. So it will do the web search
+It will do the web search to fetch out the actual information. And then it will retrieve the context from the web search only
+It's going to be retrieve the context, it's going to be… it's going to be, like, take that context from the web search, via web search, it's going to be take a real-time information from there
+Okay? And then only it's going to be generate the answer. Now, guys, let's see if we are going to build your application, your company's specific application. So this LLM don't know about LLM don't know basically about your refund policy. Okay, so here what it will do, so RAG what it does actually
+It serves the company's policy document. It retrieves the relevant refund policy section from there. It adds that retrieve section as an extra context to the user question
+And then it gives to the LLM, okay, context, question, and some additional prompt and all, right? Some additional instruction. Okay, so context question, everything is being provided to the LLM and then LLM generate the final answer based on the document, okay, based on that particular context
+Getting my point, guys, yes or no
+Is it getting clear? So this is the example, basically, which is being used by every sort of a company. So let me write over here context.
+So, based on that particular context, which we are retrieving from the document, it's going to be generate the correct answer. So let's say the user is asking a question. What is our refund policy? Now retrieve context is a refund are allowed within seven days of the purchase
+Okay, these are retrieved context based on this particular question. Now, this particular retrieve context we are getting from the similarity search
+Okay? Similarity search. Now, the similarity search is nothing is one of the mathematical operation
+I think you already know about it, what is the similarity search? I already discussed in my previous classes, right? It is a mathematical operation, so based on that, we are going to be fetch this retrieve context
+Then we are going to be augment the prompt. So here is my prompt. What is the refund policy? Along with that, we are adding this context, okay? Now this final thing is going to the LLM. This final thing we are passing it to the LLM.
+Okay? If I have to add some more instruction, then I can add those instruction also, okay? Some custom instruction I can provide to the LLM, and I'm passing it to the LLM, and then LLM is generating the final answer
+So this is only called the augmentation of the information.
+This is only what, guys? This is only called the augmentation of the information
+Is it getting clear or not?
+Is this part getting killer?
+So, to implement this entire practical, it is only called the RAG pipeline. This is only called the RAG pipeline
+whatever we are learning over here, this is only called the RAG pipeline. Now here, guys, you can see so this is the like in in short, I have written everything. LLM do not have access of the latest information. Okay
+We retrieve the relevant context from the document, from the databases, from the web, from wherever we can retrieve that information. We give the LLM context of the question, okay, to the LLM, and then LLM gives the final and the grounded answer, making sense to all of you. If this part is clear, then please let me know in the chat
+And the information we can retrieve from anywhere, we can retrieve from any of the places, okay?
+So if this part is clear, you can let me know in the chat so that I can proceed, guys, fast.
+Sunny
+20:58:41
+If we're getting it, then please let me know.
+Sunil, please wait, okay? Each and everything would be clear, because you are learning the RAG first timeline, it will take some time, right? So just give me half an hour, half an hour, everything will be clear. Got it?
+Everyone is able to understand now. Let's do 1 thing, guys, let's understand couple of more things. Now, why this RAG is required
+Okay, why the RAG is required? So we use a RAG. So here I return the clear cut detail. We use a RAG because normal LLM have some limitations
+So the first thing is basically the first problem with LLM is what here you can see the first problem. The first problem basically LLM do not have any private data.
+LLM is not have been trained on some private data. Private data means what? I can give you the better example. So let's say we have some XYZ company, right?
+Some XYZ company
+Now, let's suppose this is a pharma company
+Okay.
+This is a pharma company
+So, whatever data is being used inside the pharma company, whatever data they are keeping in some databases, wherever, basically, right? So this is the, guys, proprietary data, their proprietary data, okay? So this data site is not being used while they were training this GPT file
+Or any other model, let's say Claude model
+Or let's say Gemini model.
+Okay. Because this data, actually, it's a private data
+It's a RAD data.
+Okay, it's their proprietary data
+It's their proprietary data, okay? So, guys, this dataset is a private data, and LLM is not having the information, okay? LLM is not having the information from this particular data. So if I will ask any question related to this data inside this company, let's say
+Inside this particular company, I wanted to build one chatbot
+chatbot using this GPT-5 model
+And if I'm going to be asked any question related to this data, in that case, it will not be able to answer, because GPT-5 model is not being trained on top of this particular data
+So what we do, guys, we build the RAG pipeline
+We provide some additional context from this particular data to the model, to this GPT model. And then behalf of that particular context only, the LLM is going to be generate the answer. So this is the first thing
+But why we are going to be build this RAG pipeline, okay? Why the RAG is required.
+The second is what? The second is, again, the LLM may not have the latest data. Again, this is the course, this is, like, when the big concern, right? Llm is not having any latest data. Okay, Lm is not having the latest information in that case we are providing that latest information
+In the form of contacts, behalf on that only LLM is generating the final answer. The third thing is the very important thing. I think you have heard about this particular problem statement that is called the hallucinations. Okay
+Hallucination is a very big problem in the industry, okay, at anywhere, basically. And because of that also, we build this RAG, right? So what is the hallucination, guys? Let's understand about it.
+So here I written the definition of the hallucination. If someone is going to be asked in an interview, I think you can clearly explain about it what is a hallucination. So, hallucination is nothing. Hallucination means sometime LLM is going to be generate the confident when the wrong answer
+Okay.
+So this is what… this is called the hallucination.
+So RAG reduce the hallucination because the answer is based on the retrieve context. So we are going to be provide some additional context and because of that only RAG is reducing the hallucination.
+So let's look into the example. Let's say user is asking, what is the refund policy of the ABC company?
+Okay
+Guys, you are getting it, na, yes or no? Tell me
+Yes? Okay. So, here, guys, let's say user is asking, what is the refund policy of the ABC company? Now, without RAG, LLM is confidently saying what LLM is saying. Now, read it, read over here
+LLM is saying ABC company offer 30-day refund policy.
+But an actual company document, the policy says refund policy allowed only within seven days. Okay. So if LLM is giving the confident but the wrong answer, so that is what that is called the hallucination. And this is a very, this is a very like use problem
+In the industry, okay? LLM might give some hallucinated answer, and because of that only, what we do, guys, we use the RAG. I think many of you, you heard about this hallucination. Yes or no? Tell me
+Sunny
+21:03:44
+Right?
+Many of you, you know about these hallucinations, correct?
+Many of you, you know about this hallucination, and I think so. This is a very critical thing in the industry, okay?
+Now coming to the next part. So here guys, you can see the problem four. The problem four is a fine tuning means fine tuning is not always the right solution.
+Okay? We always cannot do the fine-tuning. So, for every new document, we cannot fine-tune the model again and again.
+And where the RAG is better when the data is changing very, very frequently. Right? If Hr. Policy change every month, every day, every week. So why should we do the fine tune of the model
+And fine-tuning is an expensive process also. So what we do, guys, we take the advantage of the reasoning capability of the LLM, and based on that only we are going to be generate some answer
+Because nowadays LLM are the enough intelligent one, correct? Nowadays, LLM are the enough intelligent one. So we take the advantage of the reasoning capability of the LLM. We provide some additional context to the LLM, and based on that only we are going to be generate the final answer
+So, the fourth one is going to be bought. What is the fourth point, guys? Tell me. The fourth point, basically
+This is the fourth point, guys, this one.
+So, problem fine-tuning is not always a right solution. And because of that
+what we do, guys, we do the RAG so if someone is going to ask you that why we have to create a RAG pipeline, why it is required. So will you be able to explain to that person? Tell me yes or no?
+Yes?
+So if someone is going to be asked you why the RAG is required, will you be able to answer
+Yes, I think you can easily answer that, correct? Now, guys, coming to the next one. So, we're talking about the RAG pipeline, so this is our complete RAG pipeline. Okay, so this is the complete RAG pipeline. I think already I have shown you this particular RAG pipeline.
+Okay, let me give you the quick recap of it. So guys, if we're talking about the RAG pipeline. So these are the important component of the RAG pipeline.
+The first is called the source document
+Or the source data
+The second is called the chunking. It is an optional one. We can skip this part. Then, embedding. Okay
+That word, guys, embedding is an important concept to the RAG pipeline. The third one is going to be a vector store.
+The next is going to be water retrieval. Then generation and then finally user means the final output, right? So we'll understand the type of the chunking each and everything guys will understand over here. Don't worry as we will progress
+Each and every part is going to be clear, so let me explain you this pipeline one more time.
+I can draw it over here
+So guys, let's suppose… okay, guys, again, I'm going to be draw that pipeline. Wait.
+We have the LLM
+Okay.
+Now, here is my user
+This is what is my user, guys.
+Right?
+User is asking a question to the LLM. User is giving some prompt to the LLM. User is trying to ask something to the LLM
+Okay.
+User is having a question
+And it won't answer from where? From the LLM. Okay
+The output
+Now, guys, tell me, this is what we are doing inside the RAG
+Yes or no?
+This is what we are doing inside the rack.
+No, guys. This is not… we are doing inside the rack.
+This is completely
+No
+Okay? No, we are not doing it. Not… we are not doing this inside the rack.
+So, how to design the RAG pipeline
+How to design the RAG pipeline.
+So, first, guys, this user question, whatever user question we have, right?
+This particular user question
+this particular user question
+We'll go where? Tell me, guys, this will go to the vector database.
+Okay.
+This particular user question is going where? To the vector database. Now, here we are going to be perform the embedding of this particular question.
+Sunny
+21:08:44
+Okay. Now, this is what is my vector database.
+Now, inside this vector database, we have already stored our data
+We have already stored our data in the form of what? In the form of vector
+Okay, so what we'll do, guys, will… this particular question is going into the vector database, okay? It's going to be connect… it's going to be interact with the vector database, and then it's going to be retrieve some information
+So this is what, guys, this is called the retrieval
+Now, this retrieval, actually, it is happening based on what? Based on the similarity search.
+Okay.
+this information. Now, this information is called what? This information is called the context.
+Right? So, guys, now what we have? We're talking about what we have. So we have 3 things. First is a user question
+Second is the context, that is my retrieve information.
+And the next, basically, we have some custom instruction that I can say as a prompt
+Or this is only the user prompt. Now, we can write some custom instruction also
+Custom instruction
+do this, do that, something like this. Okay, now this is only called what? This is only called the augmentation
+This is only called what? This is called the augmentation.
+Where we are enriching this user question
+Just by adding some context.
+Okay, and reaching this user question just by adding the context, right? Then, guys, this particular information, this particular information is going to the LLM
+This particular information is going where? This particular information is going to the LLM
+Okay. Now, LLM is generating a finder output
+Okay.
+So this is called what? This is called the generation
+This is called the augmentation. This is called the retrieval
+Okay. Now, guys, if we're talking about this vector database, so how we are going to be… how we are going to be initiate this vector databases. So this is the vector databases we are going to be initiate based on the data sources
+So, this is my raw data sources
+raw data sources.
+Now, these data sources could be anything. It could be my PDF document
+It could be my docx document
+It could be my internal DB
+It could be my… any sort of a DB, whatever DB, basically, we have. It could be vector web internet, it could be the
+Internal portal
+Internal portal
+It could be any cloud artifactory.
+Cloud Artifactory
+Okay.
+Whatever is coming in your mind, guys, you can think about that. It is a data source.
+Now, we are going to be extract the information from this data source
+This is called the data parsing
+Okay.
+This is called what, guys? This is called the data parsing, making sense or not, guys, tell me yes or no
+Now we are going to be retrieve the data. This is called what? This is called the data passing. Any kind of data it could be, it could be any unstructured data, audio, video, whatever, guys, whatever, right? Audio, images, video
+On whatever data you wanted to build a RAG, it could be the data source, right? So we're going to extract the data. Now here, guys, two more steps come see
+Here, guys, the chunking. Chunking means what? Chunking means
+To divide the data into the small pieces, I will discuss this thing, don't worry. So, chunking is nothing. Divide the data into small pieces, okay?
+data
+Into
+is small
+Pieces
+Okay. Then, guys, we are going to be stored this data inside where? Inside the vector database. Now, can you tell me, guys, can we directly store this data inside the vector databases, or I will have to convert this data into the embedding first?
+We'll have to convert this data into the embedding first. So this is called what this is called the embedding. Now, this particular process from data source to data parsing to chunking to the embedding, okay? This is called what this is called the data ingestation.
+Sunny
+21:13:47
+This is called the data Ingestion
+So this is what, guys, this is the complete RAG pipeline. You can take a picture of it, this is the complete RAG pipeline
+Right? So, is it getting clear to all of you? Tell me yes or no? Is this part clear
+We'll discuss the data parsing, you will get it.
+This idea will be more clear
+So, this is what, guys, this is the RAG pipeline
+So, how's the session so far? Did you understand everything about the RAG pipeline? Yes or no?
+I think we are finding this session, like, very interesting and all, right? If you are going to revise it, definitely will understand, okay, more from here
+No, guys, we have to discuss a couple of more things. So, here, guys, you can see, we'll discuss what is the differences between the RAG and the fine-tuning. So I capped couple of differences over here with respect to the RAG and fine-tuning.
+Then, guys, after that, guys, we'll enter into the data parsing. So that's going to be a first component of the data, okay? So I will show you the nature of the data, storage format, its structure, and then these are the library for parsing the data, okay? And I'll tell you guys what library we are going to be used for parsing the data
+for parsing the document. And I will show you how to parse each and every kind of data. Audio-video is not required, okay? On top of that data, we are not going to be builder RAG, but yeah, text, images, table, everything we are going to be discussed, and the different, different other document also. Got it, guys? Tell me yes or no.
+The web is very simple, Rajeshi. Nothing we have to do. Easily, we can scrap the data from the web.
+So don't worry about that. I can show you. Don't worry.
+So, well, then, basically enter into the data parsing and then basically we'll discuss how to store the data inside the vector databases. So two classes, two classes basically will spend on the data passing
+Because that is the important part. I'll show you metadata and all everything, okay? And guys, I will not repeat everything again and again, because, if I'm repeating, that breaks the flow, so I will
+Say once, twice, and then, guys, I will move forward, okay?
+So here you can see, I think the session is an interesting one. We'll discuss the RAG versus fine tuning and then I will
+Basically. Come to the practical part, okay?
+So let's take a break, and then we'll start again.
+Putting a timer, guys, okay? Putting a timer for 5 minutes
+Okay, you can ask the thing in the doubt session, Sushan, that's a good thing.
+Just note down all the questions, and then you can ask in a doubt session.
+Whether RAG is required if MCP is needed, right? See, Rahul. MCP is a
+Little different thing, right?
+Basically, whatever service is the data Ingestion and all, which I'm telling you, na, we can use it as an MCP connector also. So I will not MCP is a different thing. See, the pipeline would be same
+Oh, inside that pipeline, basically, this particular context, we can consume via MCP. So, it's not that fundamental concept, it's a way basically of utilizing these services, one of the connector
+Where I can add… where I can add the data sources to my pipeline.
+Getting my point.
+Mana aap sa bola, I told you, build an API. How you will create an API.
+We have several ways. Now, you will use a fast API for building the API. So, that is one of the way
+Basically, way of building the API. Okay, so in the same way, basically, we have these services, we have this fundamental, we have the data sources or anything, anything, right? We can convert it into the tool, and we can consume it via MCP connector
+That's it. So once you will understand that, that part will be clear
+Got it.
+Okay, guys, putting a timer, then I will start again. Thank you, guys. Let's take a dinner break.
+Why it is showing, this in minus
+Okay, fine. So guys, I'll see you after 20 minutes. Thank you.
+Sunny
+21:39:17
+Okay, guys, so let's start, let's begin with the session. I hope everyone is there
+Can you please give me quick confirmation so that we can start?
+Okay, guys, so let's okay. So, here till here, actually, we understood about the RAG pipeline. So, this part is clear. Is this slide clear or not? See, I given you the both architecture, even I drawn the architecture from my end and the architecture is present over here. So you can revise in the both way. Okay, so when you are going through with this particular nodes
+You can revise in the… in a both way. So, now guys, let's do one thing, let's understand the quick differences between the RAG versus fine-tuning. So here basically I append one very basic differences, right
+Bonamage, okay? So, just by reading these points, you will be able to understand, the differences between the RAG and the fine-tuning. So here, guys, let's say the first is going to go, first is going to be the main purpose
+So, main purpose, what is the main purpose, guys? The main purpose of the RAG is nothing. Give the model external knowledge or the context. So from the external data sources, we are going to be connect our LLM. Okay. And then only we are going to be generate the
+And so now if we're talking about a fine-tuning, so here in the fine-tuning, basically, we teach the model new behavior, style or format. So we are training the model only, we are retraining the model only, and we are teaching to the model the new behavior style of the format. Okay.
+Now, we're talking about the RAG, right? So inside the RAG, the model weights are going to be changed? No. The model weights are not going to be changed inside Via inside the RAG, okay? If we're talking about the fine-tuning, so here we are doing the training. So over here, the model weights are going to be changed
+Now, the cost, basically, so it is a very, like, usually you will get a lower cost
+If you are going to be create a RAG okay so but if you are performing the fine-tuning, if you are performing the training of the model, so there you will get usually higher cost. Now, data update, guys, so it is very easy. You just need to update the document, the data inside the vector database only
+You just need to be execute your data ingestion pipeline, that's it. That is one and only requirement of the RAG pipeline. On the other hand, we're talking about the fine-tuning there, the retraining is required. So, whenever the data is coming, the new data is coming, okay
+So, at that time only you will have to perform the retraining of your model to… up to date with the current knowledge. So if this difference is clear, tell me yes or no.
+Right? And you can even use the hybrid model also. First, you can fine-tune that model, okay, you can perform the supervised fine-tuning, preference tuning, whatever kind of fine-tuning you wanted to do, you can perform the fine-tuning, and then you can utilize that particular model inside your RAG pipeline
+Even I can give you the more clarity. So, if you will look in the previous pipeline. So, in the previous pipeline, you can see we have an LLM. This is what… this is my LLM. Tell me yes or no, guys?
+So this is about, guys, this is my LLM
+Right? Now, guys, this LLM could be anyone, anything, right? It can be your own LLM
+It could be OpenAI's LLM
+It could be Claude
+Okay? Your LLM means what?
+The fine-tuned LLM
+Any LLM you can keep over here. There is no such restriction
+Okay, there is no such restriction.
+Right? So, where, actually, you have to, at any cost, your company said, okay, you have to train your own model. The requirement will come from the company, from the management, that you have to host your own model, okay? After retraining, you have to host your own model. In that case, basically, you will have to perform the fine-tuning
+But, we just have to be get… if we are just going to be built a chatbot, if you're just going to be built a Q assistant, okay, in that case, we can simply do it via RAG itself
+Getting my point? So, any QA system, any chatbot system, okay, any generation system for that, basically the RAG pipeline is enough until and unless company specifically is not telling you, okay, now we have to host our own model, and at every places, whether it's a RAG pipeline or for the simple AI assistant also.
+We are going to use our own fine-tuned LLM, okay? Until unless companies not saying, okay, now let's retain our own model. You don't need to train your own model for basic Q&A, for any sort of a generation system, for any sort of a conversational AI
+Sunny
+21:44:27
+For any kind of chatbot system, the RAG system is enough. Making sense or not? Tell me.
+Great. So, I hope, guys, this part is clear. So, whatever theoretical point I have explained you so far, I hope that is clear. Now, I told you guys, whenever we are going to be start with a RAG, okay, so tell me guys, what is the first component of the RAG?
+Just by looking into this architecture, what you can understand… can you please write in the chat? Just by looking into this architecture, what you are able to understand
+So here, guys, the data ingestion, or the data parsing is required. So, we are going to be start this RAG, okay?
+Let me write over here. So, the first thing will focus over the data ingestion
+Right? So where we'll focus, guys, tell me. So, first we'll focus over the
+data
+Ingestion
+We'll understand about the data parsing
+Okay. We'll understand about the vector databases
+So today and tomorrow, guys, tomorrow, even tomorrow
+Today and tomorrow, okay? We'll discuss on to this, data passing, and then next class, next weekend, guys, we'll completely focus on the vector database.
+Next Saturday and Sunday, we'll completely focus over the vector database, and then we'll come to the retrieval side. So is this part clear or not? Tell me. So just by looking into this particular architecture, you can see we are the first priority is the data ingestion, right
+His RAG can follow the transformer. What kind of question it is, Amit Gupta.
+Is RAG follow transformer architecture, here we are using LLM, this LLM, na
+Understand. RAG is not a LLM. RAG is not a model. RAG is a pipeline, Sargi, pipeline
+Okay.
+They are the different, different components are there, like data parsing, data, back to database, where we do the ingestion of the data, then retrieval of the data. LLM is one of the component, and that LLM is being created using the transformer architecture only
+So your question, your ask is completely wrong
+RAG is not a model. RAG is not a model. RAG is not an LLM. It's a complete system.
+Okay
+Great. So, guys, I hope this part clear, this part is clear. Now, let's do one thing.
+So, we do not say… did we even perform the RAG at least one practical of the RAG? So how I can tell you the cost of that? Huh? Deepak?
+First, let's… let me perform some practical, then only you will get some idea, okay, where your cost might go.
+model, like, framework are going to be used
+Which is the paid one, which is not a paid one, then only we can estimate, no, something, correct?
+Okay.
+Here, OCR is a part of the data parsing only, from the, like, the scanned images, we can retrieve the data.
+Okay. How embedding LLM will generate context embedding will understand that. Ad will come as will come to that particular part, everything is going to be clear.
+Got it.
+No
+Guys, let's do one thing. Let's, deep dive into the data, okay? Data passing. So, guys, I hope this, particular image is clear. Tell me yes or no
+Is this clear or not?
+Yes? Okay. So, guys, whenever we're talking about the data, right? So, this tags, images, audio, and the video, actually, it is called the nature of the data, or it is called the data modality
+Right? So it is called the data modality. Tasks would be the… the images would be the
+The data could be in the form of audio, the data could be formed in the videos. But whenever we talk about the RAG or the RAG pipeline, we generally build on the text and the images pipeline
+Okay. Sorry, we generally build on the text and the images data, okay? That is this on this modality, actually. I think I already discussed this modality in my previous classes, correct? Now, where we are going to be store the data. So this data, actually, we can store in any file
+Right? So this is the file format, storage format. We can keep the data in the PDF, we can keep the data in the document… DocX, okay, document… sorry, in the Word document, in the CSV file, in the JSONL file, in the YAML file, in the HTML, okay? MP3, MP4. So this is what this is my storage format
+In this particular format, basically, we can store the data. Now, this is the data structure. Okay, how we can arrange the data. This is what is the arrangement of the data.
+Sunny
+21:49:34
+This is what guys tell me. There's an arrangement of the data
+Okay. This is what, guys, tell me, this is arrangement of the data. So we can, arrange the data in the table
+Right?
+And the table could be available anywhere
+The table can be available in the PDF, in the docx, or the table can be available in the form of CSV or in the form of Excel file. CSV is one of the way to arrange the data. SQL database is one of the way to arrange the data.
+Right? If we are talking about the semi-structure format, then JSON, YAML, HTML, these are semi-structured format for arranging our data
+Right? For the arrangement of the data. Unstructured format, PDF, images, audio, video… so these are what, guys, these are the unstructured images, audio, and a video. Mainly, this one is the unstructured one. Getting my point. So this is the arrangement of the data, how we are going to be arranging the data
+So, if this image is clear, I can, definitely proceed further. Tell me, guys, tell me yes or no.
+It is clear, right? Even I can, write over here, so that you will get a clear understanding. So let's say, what I have, guys, let's say I have some text
+Okay? The text is something like this, the text is I can write one sentence
+My
+name is
+Sunny, okay? This is what guys tell me, this is the text data.
+Now, I can have all images also, let's say this is my image
+Okay.
+So this is what… this is my image, guys, right?
+Let me draw something over here, let's say this is my image
+Okay.
+Here I can write image.
+Now, this is what… this is a text modality
+And there's what is the image modality.
+The nature of the data.
+Now, the stacks or images, can I keep in the PDF? Let's say here is my PDF
+In the PDF, I kept the text and images
+So this is what this
+File format
+Or data format.
+I can write over here the file format.
+Or the data form
+Okay.
+Yeah, is it clear, guys? Tell me yes or no.
+Now, even I can arrange my data in the table also. Okay, let's say I have a table
+I had one table.
+Inside the table, I arrange the data.
+Desmart table
+Okay, this table
+Let's say this table is available in the PDF
+Table can also be available in the PDF, no?
+Tell me yes or no. So, table is a way of structuring our data
+Right? Table is a way of structuring our data. Now, we have other file data format, let's a CSV format
+Comma separated format. TSV format, tab separated format
+let's say XLX
+Excel format
+So here, also, we are going to be stored data in the form of tables.
+This is the data format, the file format, basically
+Right?
+Let's say this is my data
+Now, inside this column, I can arrange anything. Let's say this column is for images, this column is for text. Now, this column basically for the numerical or categorical data. I can arrange any kind of data.
+Okay, we can structure our data over here.
+Understood, guys, yes or no? Tell me. So whenever we are going to be load the data from here.
+Again, we are going to be loading a tabular format
+So this is the file format. Here, basically, we are going to be arrange the data
+Okay? And then from this particular, arrangement, we are going to be load the data. Let's say we are going to be loading the Tableau format. Or we could have a table directly. Let's say there's a table.
+And this particular table is append inside the Pdf
+Now, this could be available inside the DocX.
+Okay. Now, to fetch the raw data from there, to fetch the raw data, this is my raw data, text.
+Images. Mainly the modality
+Sunny
+21:54:35
+We have to understand about what data parsing
+Okay.
+We have to understand what, guys, we have to understand about the data parsing. Now, see, this data, actually, whatever data we are talking about here, this data could be available, this data could be available via… this data could be available on the web
+Right?
+No matter how the data is arranged over the web, can anyone tell me
+How the data is arranged over the web
+It's available in the HTML one
+Alright.
+So the HTML, basically, we can append the image
+We can append the table
+We can append the text
+Right?
+So, this is my data format
+Of file format. The raw data will be, the raw data would be what images table and all. Sorry, images, text, and all
+Right? I hope this entire thing is clear. Now, if you wanted to get the data, if you wanted to get the data, so we have a several framework
+We are not going to be learn every framework, guys, that is not at all required. But yeah, if you know at least a couple of frameworks, I think that would be great for us. So here you can see we have couple of framework. I return a name
+One is called the Llama parser. Okay
+Second is called the doc link, Google Document AI from the Google, Amazon TestDirect from the Amazon, Python DocX, PyMew PDF, PDF number, parse.io, Unstructured.io, Azure Document Intelligence. So these are some
+framework
+Or you can say, library
+These are some framework library for what? For extracting a data
+Using this one, basically, what we can do, we can extract the data
+Getting my point, guys, yes or no? Tell me.
+So, I'll show you what I'll show you guys. I can discuss onto this docline. I can show you the practical with this doc link, even the Llama parser also, okay? I can show you Dock X, PyView, PDF, PDF number automatically being used in the backend in LangChan and all. I'll come to that. I'll show you that
+uninstructured.io, again, I can utilize this also. This is also open source framework, and again, it is available inside the LangChain ecosystem. We can utilize that. But guys, if you wanted to use this Azure document search Adi in most of the enterprise application, we are using it
+So, for that, we should have a paid account.
+And believe me, guys, it is very expensive. I have used it personally
+It's expensive, so we are not going to be use it inside our spectacle because everyone is not having this particular EDI and all. The same thing we can do with the Llama parser over the docling itself. Okay, same kind of thing.
+So Azure Document Intelligence, we are not going to be used unstructured.io till some point, it will work like ADI only
+Okay, so… we will not be using that. Even the Tesseract also, it is a paid one
+Even the document, Google Document AI is a paid one
+Okay.
+So we are not going to be user paid tool, so we are going to be user-free one, free tool, like the doc link
+Okay, like the Llama parcel. We have the other one, like, the unstructured IO. Okay, these are the free one
+Python DocX, PyMuPDF, PDF Plumber, this is also a free one, okay? Free tool. So we're going to be use that. Gordon, guys. Yes or no? Tell me
+Is it getting killer
+Tell me, is this part getting killer
+So, guys, I hope the RAG pipeline is getting clear to all of you.
+And what is the first component of the RAG pipeline? If someone is going to ask you that, what you would say?
+You would see the data parsing, okay? So, first, basically, we'll focus with the data parsing, over the data parsing
+So let's do some data parsing, let's perform some data parsing, okay? And then the next class next week basically will discuss onto the vector databases. We'll discuss onto that. Okay
+So, here, guys, I can write. So, the first component of the RAG basically is going to be what
+The data parsing.
+So we're talking about the data parsing, guys
+So, data parsing means nothing?
+To fetch our data
+Okay.
+To fetch the data.
+To store the data.
+Sorry, to fetch the data
+To arrange the data.
+Sunny
+21:59:36
+So that it can be pro… it can be, basically provide to the next stage, to the next component. Either directly I can provide it to the LLM, or direct I can keep the data inside some databases, middleware, right?
+So that is the main aim of the data parsing. Now, what are tools and technology I'm going to be used for the data parsing. I can show you the doc link. It's a very good open source library. It can do everything
+on astructure.io again basically I can show you, or if I will not show you, then, from your end also, you can explore, okay? But, whatever thing we are going to do via unstructured.io, the same thing we can do with the docling also.
+Right?
+Then, guys, we have other framework, like Llama Parser. I can show you the Lama parser, so docling and Llama parser, two via 21 I will show you.
+Llama parser, okay
+This we'll discuss. Other structure unstructured.io and the parser.io I can skip because it is doing the same kind of work. Whatever work, basically, we will be able to do via docling in the Lama parser, we can do using the unstructured.io on the parser.io also
+Okay
+So this thing will do. Now, some framework guys, it is like automatically when we would be using somewhere. So we're talking about the PI Mu PDF, a very important, very good library for dealing with a PDF. PDF plumber. Okay
+industry directly or indirectly are going to be used this library by MuPDF and the PDF Plumber. Python docx again
+It's one of the good library for extracting the data from the documents. Okay, so this library is for the PDF
+This is, again, for the PDF
+Okay.
+This library for the docx
+This docling Llama parser, basically it's for the OCR kind of stuff for the scan image for the PDF, for the docx
+For the PPTs
+Okay.
+OCR means what? Scan damage.
+Even for what… for the layout parsing
+Right? For the, scan image layout parsing, for arranging the metadata
+For arranging the tables, okay, for fetching the data from the tables and for arranging that, right?
+So, guys, this is the important one, getting my point. So, we are not going to be used on structure.io, parser.io, because every library is not required, I just written the name. Doc link in the Llama parser is enough, okay? And this particular library, automatically we are going to be used for the PDF and for the docx, okay?
+If we're going to use the LangChain wrapper, then indirectly it is using this library only in the back end. Then guys, the other one which we are using in the industry, because industry sometimes don't use the open source one. So we are going, so there basically will find out the ADI Azure Document Intelligence
+Then, some is from the Amazon, some in from the GCP, right?
+So these are the paid one guys
+If you wanted to explore it from your end, you can do. But again, the same kind of work, it can be done by the doc link and the Llama parser. I have seen at some places and some enterprises, some industry, people are using this library as an alternative, because it is very cost one. It is a… it will give you very, like, very good build, right? So the costing of this ADI and all is very high
+Okay.
+So costing of this ADI and all is very high. I have used it in most of the application, but the same kind of work basically we can do via docling and the Llama parser also. So we are not going to be use this library in our application because everyone is not having this account. I will be focusing on the doc link and the Llama parser
+Got it, guys, tell me yes or no. Is this part getting clear to all of you?
+Yes
+Not cost-effective, it's an expensive one. It's not a cost-effective
+It's an expensive one
+Okay
+expensive one.
+Is it getting clear? If it is getting clear, please let me know, so that we can proceed.
+Yes
+Okay, now guys, one more thing, what we can do. So, here, guys
+One more thing I would like to explain, see, we are talking about the LangChain
+Okay.
+So we are talking about what guys tell me, we were talking about the Langchain. Okay, now we're talking about the LangChain, guys. Now, tell me what is the LangChain
+What you understand, what you think with the LangChain
+Tell me, guys, what do you understand, what do you think with the LangChain? So, LangChain is a framework
+Lengchen is what? It is a
+framework
+Now, this Langchen actually is providing everything. Everything means what
+It's providing with a document
+Loader
+Sunny
+22:04:40
+It's providing the document parser
+Okay. It's providing you the method for the chunking
+Okay. It's providing you the access of the
+Vector databases
+The different, different vector databases
+Okay.
+It's providing you access of what? It's providing the access of the different, different databases, the vector databases. Okay
+Now, guys, this
+This, basically, LangChen is providing the integration with the different, different models
+But different, different LLMs with a different, different API.
+This LangChen is providing the integration with a different, different cloud
+It's providing the method for the memory management
+Okay.
+It's providing the method for what? It's providing the method for what? Providing the method of for the
+Memory
+management
+Okay.
+No, guys, this Langchen, actually
+It is providing you the access of what, guys? Tell me
+For the chaining and all, right? You can chain the multiple component. LCEL
+Okay.
+So, LangChain is providing you that… LangChain is a framework which is providing you with all sort of
+All sort of a services which is required for building one AI application
+AI application means what? The application which is built around the large language model.
+Okay.
+Now, one more thing, guys, if we're talking about the model API LLM. So Langchain
+is having
+On LangChain, it's just a wrapper
+Which is providing you the access from the different, different API. What do you think, guys? Tell me.
+Langchen is a wrapper
+Right? With that, you can access the model from the OpenAI
+You can access the model from the cloud
+Okay. You can access the model from the gyme
+From the hugging Face
+from the O Lama
+Right?
+Similar to that
+Langchen is provide you the parser
+Or it is just a wrapper on top of the other library? Tell me, guys.
+It is just the wrapper, guys. LangChain is not having its own parser
+Okay.
+LangChain
+is…
+Not
+having
+It's
+Own part, sir.
+It is providing you the wrapper on top of the different, different library, like what?
+Like PDF plumber
+Like
+Pi mu PDF
+Like
+Python docx
+Like, guys
+Unstructured IO
+And several other.
+So these are the actual packages
+Python, sorry, these are the actual library, this one
+And LangChain is just a wrapper, actually. LangChain is what, guys? LangChain is just a wrapper
+Making sense to all of you, tell me yes or no. Tell me, tell me, guys, fast, I'm just waiting for your reply.
+Okay
+So here I have already written, if you're going to be read it out
+If we are going to be read it out, guys, this one
+Lyncheon does not provide the document loader. Langchen does provide the document loader, but in most cases, LangChen is not doing the low-level parsing by itself. It may provide a common wrapper interface or over different parsing librarian services. Langchen, it itself is not primarily a parsing library
+Okay, LangChain provide document loader, but many of those loaders internally use the existing parsing library, such as PyMu, PDF, PyPDF, PDF Plumber, Python Docs, unstructured, Dockling, and the other one. So Langchen acts like a wrapper or integration layer that gives us the common document format
+Okay, this makes it easy to plug past documents into the RAG pipeline
+Sunny
+22:09:44
+Is this part clear to all of you? Tell me yes or no.
+Tell me. So, we're talking about the LangChen guys, why are LangChain, even you can access
+The ADIE, Azure Document Intelligence
+You can access the Google Document AI
+You can access the AWS Amazon Tesseract
+Okay.
+That's correct.
+So, you can basically access anything via LangChain
+You can access anything via LangChain, guys. So, LangChain actually… LangChain, actually, it is not a data parsing tool. LangChain is a framework which is providing you the plug and play button from every other framework, or from every other library
+Your understanding is clear or not? Tell me, yes or no?
+If your understanding is clear, you can let me know. Sadiq is saying no, I think everyone is saying yes
+Only this person is saying no.
+What is your doubt, Sadik? You can discuss with me in the doubt session, if you have any sort of a doubt, okay? We can, I can explain you. But you will have to wait a few more, you will have to basically wait for a few more classes, if you're fundamental and the understanding is not clear
+So, well, until and unless we are not going to be, basically explain to the practical side, maybe you will be confused. So, once I'll explain a couple of practical, then the idea will be more clear, okay? Same thing goes to the Swetha also. Got it, Swetha? Everything will be clear in the going forward classes.
+Got it.
+So fine guys, I hope just you like this theoretical session about the RAG and the other thing and all. So just give me the final confirmation so that I can proceed with some practical, okay? I can show you some data
+Parsing one, and then in tomorrow's session, I'll discuss in a very detail about the data parsing and all. I will explain each and everything of the data parsing, guys. There are so many things in the data parsing. See, let me tell you, what all thing are there, basically, which we can discuss
+So arrangement of the data we can discuss, okay? I can show you, basically, how to fetch the data
+How to arrange the data inside the .amd file, how to arrange the data inside the .json file, okay? So these are very important file, guys, whenever we are working in the industry. So we always keep our data into some intermediate file that is a MD or JSON
+So that going forward, we can utilize that, right? So, I'll show you basically how you can do the arrangement of the data. So let's say we have an image data, how to keep it there, if we have a text data, how to keep it that, how to handle the metadata, how to handle the layout
+Okay.
+Images, tags, metadata, layout, okay? And everything, guys, the document object and all, everything we are going to be discuss. Okay
+What is the purpose of the parsing? Parsing… see, we are… we have parsed the data. Now, that particular information will be giving to the LLM, okay? So after 3 to 4 classes, Anand Sing-ji, that part will be clear. Once we'll develop the entire pipeline of the RAG. Got it?
+Okay.
+So guys, I'm taking one minute of break, quick water break. Then basically we'll start with the practical. Okay
+So let me… and guys, now tell me one thing. So, for this type of practical, do we required Google Colab means GPU
+Or we can do in a local only.
+We can do in our local only, okay? GPU is not required for this one.
+Why tell me
+Because here, we are not doing the
+Training
+Okay
+RAG means… RAG means what, guys? RAG does not mean training.
+Okay, we are not doing a training. That's it of the… that's it. So, every sort of a practical we can do in the local itself, over our CPU. I am not denying that I cannot do the Google collab, I can do, but they are the GPU will not be required.
+Okay
+So fine, let me do one thing, guys, let me open the notebook. Guys, taking one minute of break, and then I'll perform the practical, okay? Give me one minute.
+Sunny
+22:15:45
+Okay, guys, can we start again?
+I hope everyone is there. What's the fifth point? Fifth point, I think it's a memory. Cloud. This is the cloud, okay? So, the cloud integration is also there
+So, let's do one thing, let me create a file, just a second
+I'm going to open my same folder. This is the folder.
+Let me open it inside the VS Code first.
+Code dot
+Okay, so… here is my complete,
+Practical and all everything
+Let me update it.
+Okay, guys, so here is the folder, the RAG Introduction, you will get the entire practical over here itself.
+So, I'll share the code, don't worry, I'll share after the session. Now, inside this one I have one file. Let me
+Remove this file from here. I will share the fresh note… fresh file, okay?
+So this is the older file. Let me remove it from here
+So, just a second
+Okay, so I'm going to be close all this file first
+This is a handwritten notes. I will again keep the
+fresh Notes because it's an older one. I'll basically keep the fresh okay
+So, now, guys, what I'm doing, see
+First of all, I have to install the Langchen-related libraries
+So, let me create one file
+My file name is what?
+data
+Parsing
+Data
+Percy
+Part 1.
+Blankchain
+Okay
+dot IPYNB. So this is my file
+Data parsing, Part 1, language. Now, here, basically, I'll write, print statement, so print all, okay.
+I'm just checking whether I'm able to run it or not
+So I'll select my environment first.
+Okay, so that's my environment. Environment 3.12, and even I have an environment with a 3.11 also. Anyone I can use, so yeah, it is working fine.
+Let me increase
+The appearance
+So, I hope it is clearly visible.
+Let me delete this file also
+I'll provide you the fresh notes, okay? Don't worry
+So, yeah, this is set now. Now, guys, I will open my requirement.txt. So, let me check whether this is working or not. Okay, so I will open my requirement.txt and here basically I'll keep the important packages
+The first package is going to be LangChain community, so it is not there, I'll keep it over here
+Langchen, the Langchen community, two packages required, so let me keep it Langchen and the LangChain community, okay?
+So, let me keep these two packages.
+Now, guys, what I'll do, I'll keep some other packages also, as I told you. Langchen is not having any parser, it is using the different other library for that.
+So, here, guys, what I'm doing, I'm going to be keep that different, different packages. So first is a PI PDF for handling the PDF. Second is a Python DocX for handling the docs pandas open Excel for handling the Excel file Real Kit file or CSV Replicate file then beautiful SOAP for doing the data parsing and all
+So these particular packages will be required to us, okay? If I wanted to do the data parsing using the LangChain
+Okay, and Langchen is using this particular library in the backend for fetching the data, right? Now, what I'll do, guys, I will quickly install the requirement.txt. So what I can do, I can change my environment over here
+Select another kernel, Python environment, and then I can utilize this ENV, okay?
+Now guys, here, basically what I'm doing, I'm going to be installed the library. So pip install hyphen R
+Requirement.txt.
+So once I run it, guys, so I will be able to install all the mentioned packages.
+Sunny
+22:20:50
+So let it install, and don't worry, guys, I'll give you the code base, so that you can run it.
+So, installing all the library… all the packages inside the environment folder
+Will wait for a few minutes, then I will write the code, okay?
+I hope everyone is getting everything.
+I will end the class within 10 minutes, miss, don't worry.
+Rakuten.txt here, Anuj Gupta. See, this is the Rakuten.txt
+I'll share the recoin.txt, don't worry.
+Also, saying, you'll be sync, UB sync is required when I am maintaining the file, okay? The TOML file and the other UB-related file. But as of now, I'm not doing that Adity. So that command is not required to me.
+It's a UV method only, Rena, so I hope it is clear.
+We can use 3.12 also, that is not, like, I'm not denying with that, Satish, you can utilize 3.12 also
+Any Python version than this 3.10, okay, more than 3.10, you can utilize
+Your application will work fine, even with 3.11 and 3.12 also.
+Okay
+It's taking some time, because these packages are the big one. New PDF, docs, Pandas, OpenXL, okay? It takes time.
+This required library, actually, it comes from the requirement, Rajesh. Okay?
+It's not like that I am, like, just waking up and, thinking, okay, not today, which library do I need to install inside my environment, okay?
+So it comes from the requirement. Let's say today I have to pass the PDF
+So you will search, okay, which library is good for the PDF, which library I have to use
+you came up, okay, by PDF is a liability, PDF plumber is a library. Then you will mention that particular require… inside the required TX, then you will install it.
+Got it? So, this requirement.txt, actually, it always comes from where? It always comes from the
+It always comes from our requirement. Got it?
+From our use cases, from our problem statement
+Right?
+Now, let's do one thing. Let's perform some practical
+So first of all, I'm going to be import couple of packages. So these are some packages, guys, which I have
+Which I kept, basically, in the other file, see
+Langchen is having this text loader, PyPDF loader, CSV loader, doc to text loader, unstructured HTML loader, and the JSON loader. So every kind of loader basically will get where inside the… you will get where, guys, you will get inside the LangChain
+Getting my point, yes or no
+So what we can do, guys, then we can, basically keep the document, okay? You can keep the, different, different files, whether it's a TXT file, PDF file, CSV file, docx file
+Or we can keep the HTML file, or any sort of a JSON file, we'll be able to read the data directly from that file, okay?
+So, where is those file? I think I capped in one of the folder, just a second, let me check it out.
+Where I cab those files
+Yes, we'll deploy the pipeline. We'll… in the project, basically, we'll do that, okay?
+So, for that, basically, we'll have to do some incremental loading of the data, right? So we can write some cron job, airflow jobs, and all, and we'll be able to do that or go. That's not a very difficult thing
+It's a day-to-day job of the data engineers and all, and then they can do that chunking, embedding, and then they can keep the data inside the any sort of repository or directory or in any sort of a data lake, okay, data storage.
+We can directly build it over the AWS also. We have several services over there, the Lambda, step function and all. We can directly build over there. Okay
+Sunny
+22:26:01
+Guys, where is that folder I kept? So, let's do one thing, guys, what you say, can we do it tomorrow, the entire practical of the data parsing
+Because I think data folder seems incomplete
+If you all agree, then I can do it tomorrow, because right now it's 10.30.
+So
+I can show you the complete practical, whatever I told, okay?
+Today you can revise the theory and all, so today I am living a little bit early, 10 to 15 minutes earlier.
+And I think we took 20 meter break, then I started 10 minutes late, so just a 2 hour of session today. No worries, some time happens. So tomorrow, what we'll do, guys, you know? We'll, do this entire practical, okay? I'll show you the entire practical, the data passing. So, I'm having two part of the data passing.
+One is a basic, one is the second is an advanced one, okay? So let me create one more file over here, the data parsing 2. So in that advanced data parsing, I'll show you the table parsing and all everything, how you can parse the table and all
+And then we'll understand about the databases. So, data
+Also, IPYNB
+So, advanced parsing also I'll discuss in the upcoming classes. Now, one more thing, guys, I can provide you this note so that you can go through with it, and you can basically revise all the theoretical stuff
+Got it.
+So, class 29
+And written notes, Jito for July
+2026 RAG Introduction, okay?
+So, this is the handwritten notes
+Guys, I'm providing you all the files and all everything, just a second.
+Even the requirement.txt will also be there.
+And guys, tomorrow we have to be installed some other advanced packages, okay, dockling and all, so that I will discuss.
+Committing the code, and then syncing it to the GitHub.
+We can, basically do some
+POC kind of experiment, okay? We can build some POCs and all to check out which parser is working good. Some experiment will have to be performed. Got it? Sohil.
+Yeah, yeah, we can complete the whole syllabus and all, so don't worry about the syllabus and all, guys, okay? See, this thing is the very important one. You need to be focused.
+Okay, because this is not going to be fade for next three to five year
+Right? So don't, like, say, sir, okay, so you completed syllabus one month late, or two months late, because that's just a matter of 2 to 3, next two to three years. So please understand that this fundamental, this agentic AI RAG, generative AI is very important.
+for your career guys okay so don't do that negotiation for one month or two months. Even though we are going to be completed like one month or two months late, that is also fine. But the understanding of the concept is also very important
+You won't believe, guys, I released one course 3 years back
+The generative AI course. Okay, I taught over there. Still, people are learning from those video, because that is still relevant.
+Getting my point. So this fundamental Agentic AI generative AI, this application cloud RAG data parsing, it's a very important one
+Got it? So we have to focus onto that side, how we… basically, you can leverage edge massage… as much as knowledge from this course, not, like, just to follow the timeline and all, okay? So this is my promise. We'll be completing everything in a timeline
+Okay, one month could be here and there, one or two months, but yeah, they're going to be complete everything within a timeline itself. Got it?
+Yeah.
+Okay, so I've given you all the notes and everything, you can directly take it from the GitHub itself, so just check out the GitHub, let me open that
+Yeah, that's what I'm saying, guys. What will happen? Tell me. Thomaine tulas sa jada jan lang palaga, right? Miri sakal doe na jada dehny palagi. But guys, the knowledge which you are acquiring from here, from this session, it's very important.
+I'm talking about the fresher, actually. Okay, mainly the fresher, and whoever is a fresher inside the generative AI
+With all the, like, IT experience.
+Got it
+Yeah.
+Sunny
+22:31:01
+So, just, take all the notes and all from here, and guys, rest of the thing we'll do in the next class, right? So if you don't have any doubt, you can drop the session. And guys, please focus on this assignment. This is very important. If you're going to do this assignment now, see your entire doubt and all everything will be clear related to the fine tuning
+So spend some time onto this assignment, and please do it. Next, weekend, we are having the demonstration of it. Okay? Yeah
+So fine, guys, if you don't have any doubt, you can drop the session. I'll see you again in the next class, that is tomorrow. And three are straightforward, 3R, we are going to focus on the data parsing only. So that's going to be a practical session completely, okay?
+Thank you guys, bye, take care. After 2 minutes, I will start the doubt session.
+So let me put the timer for the 2 minutes, and then I'll start. Thank you guys, thank you very much.
+Yeah, bye.

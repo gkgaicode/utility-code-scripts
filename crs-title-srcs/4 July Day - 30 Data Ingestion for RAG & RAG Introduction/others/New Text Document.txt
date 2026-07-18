@@ -1,0 +1,136 @@
+Chapter 1: The Free Google AI Tool Everyone's Sleeping On
+0:00There's a free Google tool that most people are seriously sleeping on, and the ones who do know it are barely using 1% of what it can do. Its recent updates
+0:088 secondsmade it genuinely powerful. It's gone agentic, which just means it now does the actual work for you instead of only answering questions. In this one video,
+0:1717 secondswe run 13 tricks and every single one is free. We start with a single file and turn it into a whole stack of finished work. Then turn any creator's entire
+0:2626 secondschannel into your own private mentor and even spin your sources into 60-second learning videos. But the biggest unlock is Claude. We plug notebook limb
+0:3434 secondsstraight into it. So instead of clicking through menus, you just tell Claude what you want and it runs the whole thing for you almost completely on its own. And
+0:4141 secondsobviously I'll share every prompt, the sample files and the setup link for the Claude part in my WhatsApp community staying ahead. You can find the link in the description so that you can build
+0:5050 secondsalong with me and end up mastering this tool. Now, let's get into it.
+Chapter 2: What NotebookLM Actually Is Now
+0:5959 secondsSo, here's what Notebook LM really is.
+1:011 minute, 1 secondGoogle now calls it your research and thinking partner. Earlier, it was basically a fancy PDF reader. You dump a document in and ask questions about it.
+1:091 minute, 9 secondsNow, it's a proper thinking partner running on Google's latest Geminy models. And here's the one thing that sets it apart. It answers only from what
+1:181 minute, 18 secondsyou give it. And it shows you exactly where every answer came from. People are using it to study from lecture recordings, textbooks, and YouTube
+1:261 minute, 26 secondsvideos to turn brainstorming notes into fresh ideas to prep talks. There's a lot in here. So, let's stop describing it
+Chapter 3: Create a Notebook & Add Any Source (YouTube, Web, Drive)
+1:331 minute, 33 secondsand start using it. Let's open it up and click create notebook. Once we're in, we can name it up top. Now, the important part, sources. This is the stuff
+1:421 minute, 42 secondsNotebook Lem reads before it answers you. And you're not stuck with PDFs. We can upload files, paste a website, drop
+1:491 minute, 49 secondsa YouTube link, pull from Google Drive, or just search the web and let it find sources for us. Watch. Let's paste a
+Chapter 4: Fast Research vs Deep Research
+1:561 minute, 56 secondsYouTube URL. Hit insert and it gets pulled straight in. Now, let's ask it something. Let's type in how does Netflix earn money and see this. It
+2:052 minutes, 5 secondsgives us two options, fast research and deep research. Fast research is the quick one. 10 to 20 seconds and it's done. Deep research takes a couple of
+2:142 minutes, 14 secondsminutes and reads through hundreds of sources. Let's go fast for now. You can see it out there reading websites and in a few seconds it comes back with 10
+2:232 minutes, 23 secondssources, a mix of different sites. We click import and all 10 get pulled in.
+2:282 minutes, 28 secondsNow our notebook has the context from every one of them. So now we just ask, let's type, how did Netflix disrupt traditional DVD rental and TV models?
+Chapter 5: Citations: See the Source Behind Every Answer
+2:372 minutes, 37 secondsAnd we get the full answer. But look at these little numbers sitting inside the answer. One, two. You know what those are? Those are citations. Click one and
+2:452 minutes, 45 secondsit jumps you straight to the exact source that line came from. That one was the YouTube video we added. So, you are never just trusting the answer. You can see the receipt behind every sentence.
+2:562 minutes, 56 secondsThat's the whole point of this thing.
+2:582 minutes, 58 secondsSubscribe if this is already saving you time. New AI breakdowns like this drop every single week. Let's ask, how has
+3:053 minutes, 5 secondsNetflix performed in the past 5 years financially? And this time, we click deep research, then continue. Instead of answering right away, it stops and
+3:133 minutes, 13 secondsplans. It works out exactly what data it needs. Then goes hunting across the whole web. This one takes a couple of minutes and here's what's coming when it
+3:213 minutes, 21 secondsfinishes. It doesn't read five articles the way you or I would. And when it's done, look, 32 sources found. It even splits them for us. 32 cited in the
+3:303 minutes, 30 secondsreport. 38 it read but didn't site. We hit import. Think about what we just built. That's basically a brain with
+3:373 minutes, 37 secondsdeep knowledge of Netflix pulled from all these sources sitting in one place.
+Chapter 6: Configure Chat to Control Every Answer
+3:423 minutes, 42 secondsThere's one setting worth knowing before we move on. Configure chat. Open it and you can point the whole notebook at a
+3:493 minutes, 49 secondsgoal. Do research. Help me learn. Show me different perspectives. Talk in a certain style. You can set it as a
+3:563 minutes, 56 secondslearning guide or write your own custom instruction. You can pick the answer length too. Shorter or longer. Let's keep it shorter. Now, when we ask for a
+4:054 minutes, 5 secondshighlevel overview of Netflix's business disruption, it pulls the answer from all those sources in the style we asked for.
+Chapter 7: Inside the Studio: Turn Sources Into Anything
+4:124 minutes, 12 secondsAnd here's a nice touch. You can get that same answer in different languages, too. Okay. Now, the part that made me sit up the studio. This is where the
+4:194 minutes, 19 secondsreading and answering turns into building. From this one pile of sources, it'll make an audio overview, a slide deck, a video overview, a mindm map,
+4:294 minutes, 29 secondsreports, flashcards, a quiz, infographics, a data table. Let's build some. Start with the audio overview.
+4:364 minutes, 36 secondsWhen we open it, there's a little arrow and under it are the formats. Brief, critique, debate, deep dive. Deep dive
+Chapter 8: Build an Audio & Video Overview
+4:444 minutes, 44 secondsis the full one. You can also choose which sources it uses. Let's give it a direction. analyze Netflix's shift from
+4:514 minutes, 51 secondschasing subscriber growth to squeezing more profit per user. Now the video overview is ready. So before we go anywhere, let's check that output first.
+5:005 minutesLet's actually play what it built and watch it together. It opens on the world's TV viewing time and points out that 5% of every minute humans spend watching TV belongs to Netflix alone.
+5:125 minutes, 12 seconds325 million subscribers, a market cap near $400 billion. Then it tells the blockbuster story, the giant that
+5:205 minutes, 20 secondslaughed Netflix out of the room and then filed for bankruptcy a few years later.
+5:255 minutes, 25 secondsIt even says Netflix itself nearly died in the com crash. All of that narrated over clean visuals and here's the number
+5:335 minutes, 33 secondsthat matters. It built a 4 and a half minute video for us. We can download it.
+5:385 minutes, 38 secondsWe can share it. So if you're making content for YouTube or Instagram and you want something that looks cinematic, this is a real place to start. Remember,
+Chapter 9: Generate a 25-Slide Deck (Export to Google Slides)
+5:465 minutes, 46 secondswe also asked it for a slide deck. Let's open that. And wait, look at this. It follows the exact brand guidelines we gave it. Paradigm shift, unparalleled
+5:555 minutes, 55 secondsglobal reach, proper headings, a detailed explanation on each slide, even diagrams built from our sources. It made
+6:036 minutes, 3 seconds25 slides and we're not trapped inside Notebook LM with them. We can download the whole thing as a PDF or as a
+6:106 minutes, 10 secondsPowerPoint or open it in Google Slides, hit import slides, pick the file we just downloaded, select all, import, and now
+6:186 minutes, 18 secondsevery slide is sitting in Google Slides ready for us to edit. That's the deck done. Same tool, next shape, and it moves faster now because you've got the
+Chapter 10: Make a LinkedIn Infographic in One Click
+6:266 minutes, 26 secondspattern. A deck lives on a screen. But what if you want something people scroll past and still get? That's the infographic. We pick from around 10
+6:356 minutes, 35 secondsstyles. Choose the language. Choose the orientation. Let's say portrait. Then a visual style. Let's go bento grid. We
+6:426 minutes, 42 secondsset the level of detail. Pick our sources. And type what we want. An infographic for LinkedIn. And here it is. Netflix. The great pivot to
+6:506 minutes, 50 secondsprofitability. The financial performance laid out. Clean enough to post as is. We hit download and it's ready to go straight up on LinkedIn. Good for
+Chapter 11: Auto-Create Flashcards & a Quiz
+6:596 minutes, 59 secondsposting. But what if you actually need to remember this stuff for an exam or to sound sharp in a meeting? That's flash cards and a quiz. For flash cards, we
+7:087 minutes, 8 secondschoose how many cards and the difficulty. Let's keep it medium and ask for recent Netflix releases. And there they are. Which 2021 dystopian thriller?
+7:177 minutes, 17 secondsFlip the card. Squid Game. What was Netflix's biggest movie launch as of late 2021? Red Notice. You could genuinely play this with friends on a
+7:257 minutes, 25 secondsnight in or use it to revise before an exam. The quiz works the same way. 10 questions. You can pull up hints. You can delete a question you don't like.
+7:347 minutes, 34 secondsMake a fresh notebook with your own study material and you've got an exam prep machine. That's revision sorted.
+Chapter 12: Build a Data Table & Send It to Sheets
+7:407 minutes, 40 secondsAnd the last one in the studio, the data table. We asked for a Netflix comparison and it builds the whole thing. Revenue,
+7:477 minutes, 47 secondsmargins, memberships, free cash flow, every number lined up in clean columns.
+7:527 minutes, 52 secondsBest part, one click sends it straight to Sheets, ready to fire off to anyone.
+7:577 minutes, 57 secondsSo, let's lock this in because it's the heart of the whole tool. You hand it one set of sources and out of that exact
+8:048 minutes, 4 secondssame pile, it builds a podcast, a video, a mindm map, a report, a slide deck, an infographic, a table, flashcards, and a
+8:138 minutes, 13 secondsquiz. Same information, nine different shapes. And that's only the studio.
+Chapter 13: Turn Any Creator Into Your Personal Mentor
+8:178 minutes, 17 secondsEverything so far has just reshaped what you gave it. Now, it goes further. It starts thinking like a specific expert, and then it does a job you'd normally
+8:268 minutes, 26 secondspay an analyst for. Here's something you can do with any creator or expert you actually learn from. For this one, we start Next Door in Gemini, Google's chat
+8:348 minutes, 34 secondsassistant, and anything it gives you drops straight into Notebook LM in a click. Let's use my own channel as the test. We type, can you explain prompt
+8:438 minutes, 43 secondsengineering the way Vibbuff Cicinti does on his channel? And we add from basic to advanced and send it. And look what it
+8:508 minutes, 50 secondshands back. the PRD method, the magic markdown format, then loop engineering and how to structure a system prompt
+8:578 minutes, 57 secondsright down to the takeaway. Treat the AI like an absolute specialist. And here's the bit that matters. It didn't build that from one video. It pulled from a
+9:059 minutes, 5 secondsbunch of them. Now, how do we keep it in the Gemini sidebar? We click create new notebook, which opens Notebook Lim. Then we go back, click the three dots on the
+9:149 minutes, 14 secondsanswer, choose add to notebook, and drop it into the empty one. Head over to Notebook Lim, and there it is. and notice it named itself. A Vebav Cicinti master class on systematic prompting.
+9:259 minutes, 25 secondsOne question and you've got a mentor sitting in its own notebook. But let's not stop at one answer. Back in ad sources, choose YouTube and type the
+9:339 minutes, 33 secondslatest 20 videos from Vib Cinti's channel. It needs the actual channel.
+9:379 minutes, 37 secondsSo, open a new tab, search Vib, grab the channel URL, and paste it back in. And see this, the Gemini chat from a minute
+9:459 minutes, 45 secondsago is already sitting inside as a source too. Hit import. and Notebook LM goes and fetches the whole channel. Give
+Chapter 14: New: 60-Second Short Videos From Your Sources
+9:529 minutes, 52 secondsit a second and the videos land in the sources list. Now for the part they just launched. Open customize video overview and where you used to only get cinematic
+10:0110 minutes, 1 secondand explainer, there's a new one called short. And this is real. Here's notebook's own post announcing it. Turn your most complex sources into 60-second
+10:1010 minutes, 10 secondsvertical videos rolling out for ultra and pro on mobile and web with free coming soon. So pick short. And out of
+10:1810 minutes, 18 secondsthese 11 sources, it read choose the suggested topic claude code secrets and hit generate. While it builds, here's why this is useful. When you want to
+10:2610 minutes, 26 secondslearn something, but you don't have time to search around, read the text, or sit through the full video, you come here, pick your topic, and get a shot out of
+10:3510 minutes, 35 secondsit. 60 minutes of learning in about 60 seconds. And it's not just channels. any creator, any author, drop in their books
+10:4310 minutes, 43 secondsor anything else and you can spin up a study guide or a guide for your own business in any niche you want. So, it's
+10:5010 minutes, 50 secondsready. A short called How Claude Code Builds apps. Let's play it. It walks through how these autonomous agents build a whole app from one plain English
+10:5910 minutes, 59 secondsline, something like build a dark mode job application tracker, and how the agent writes a proper plan first so it doesn't just make things up. Pause it
+11:0711 minutes, 7 secondsand look 1 minute 10 seconds with real motion graphics. Hit download. The MP4 comes down and it opens right up in
+11:1511 minutes, 15 secondsQuickTime and plays fine outside the tool. Isn't that insane? People used to pay thousands of rupees for a single video like this. Right now it's on the
+11:2411 minutes, 24 secondspro and ultra plans with free rolling out soon. And when you want to go deeper than the short, you just ask the notebook. Click give me five hacks for
+11:3211 minutes, 32 secondsClaude code and it answers. Then, how do I create a custom skill for a project?
+11:3811 minutes, 38 secondsAnd it lays it out step by step. Every answer built from all the sources you added. Quick one for the comments. Whose
+11:4511 minutes, 45 secondschannel would you turn into your own personal tutor? Drop it below.
+Chapter 15: NotebookLM Now Does the Work (Clean Messy Data)
+11:4911 minutes, 49 secondsEverything so far has been Notebook LM reading your stuff and reshaping it.
+11:5411 minutes, 54 secondsThis next part is different. The new Notebook LM actually does the work like an employee. Look at this spreadsheet.
+12:0012 minutesIt's a disaster. different currencies, empty rows, spelling mistakes, the kind of sales export from Shopify or Amazon
+12:0812 minutes, 8 secondsthat ruins your whole afternoon. The old way you open Excel and lose 2 hours cleaning it by hand. Here's what's
+12:1612 minutes, 16 secondsdifferent now. Every notebook comes with its own little computer in the cloud, so it can write and run real code by itself
+12:2312 minutes, 23 secondsto fix this. So instead, we upload the mess and type one plain line. Clean this data up, fix the currencies, and show me
+12:3012 minutes, 30 secondsmonthly sales as a chart. And here's the part that matters. It doesn't guess. It writes actual code and runs the real
+12:3712 minutes, 37 secondsmath on a real computer. You can watch it thinking, standardizing the currencies, working out exchange rates, checking the numbers. It's doing the job
+12:4612 minutes, 46 secondsof an analyst while you sat back and typed one sentence. And there's the result. a clean sales data file and the monthly chart we asked for January
+12:5412 minutes, 54 secondsthrough June built straight from the numbers. We can download both. It also comes with over a 100 built-in skills so it can hand you the finished work as a
+13:0313 minutes, 3 secondsPDF, a word doc, an Excel sheet or a PowerPoint, whatever you need. You can even publish it straight to files. The old notebook LM described your document.
+Chapter 16: The Big Unlock: Connect NotebookLM to Claude
+13:1213 minutes, 12 secondsThis one rolls up its sleeves and does the work. Last thing, and this is the power user move, you can connect Notebook LM to Claude. So you just talk
+13:1913 minutes, 19 secondsto it in plain English and it does all the notebook LM work for you and you will not touch a single line of code promise. First we make a folder call it
+13:2813 minutes, 28 secondsmy note then there's a ready-made connector someone already built for exactly this you just have to copy that link paste it into claude and type run
+13:3613 minutes, 36 secondsthis setup you give it permission to run so it's not asking you at every step and you let it work a minute later it's connected and now claude can drive
+13:4513 minutes, 45 secondsnotebook for you in plain English. So, let's test it. We ask Claude, "How many notebooks do we have?" It answers one,
+13:5213 minutes, 52 secondsthe Tesla one. We deleted another a minute ago and it knows that too. Then the real thing, we ask it to create a
+13:5913 minutes, 59 secondsnew notebook and research AI's impact on jobs, pull the latest research, the anthropic report, that 2027 report, and
+14:0714 minutes, 7 secondsfind what's common across them and what the job market looks like ahead. It kicks off a deep web research run and imports the sources on its own. Give it
+14:1614 minutes, 16 secondsa few minutes. Then we open the notebook. AI's impact on jobs research.
+14:2114 minutes, 21 secondsEvery source it found is in there. A full report written, notes made. And when we ask for a comparison chart across different sectors, it builds a
+14:3014 minutes, 30 secondsclean one. A full sector breakdown by risk, key figures, and near-term outlook. From there, one click and it'll turn the whole thing into a podcast.
+Chapter 17: 13 Tricks Done + Free Courses
+14:3914 minutes, 39 secondsThat's Claude and Notebook LM working as one. So, there it is. 13 tricks and you just went from barely touching notebook
+14:4614 minutes, 46 secondslimb to running the whole thing like a pro. Now, if you want to go deeper, we've got two free courses for you on our channel. One on Claude, one on every
+14:5414 minutes, 54 secondsfree Google tool out there. Both links are in the description and on your screen right now. Go watch them. If this finally made notebook click for you,
+15:0215 minutes, 2 secondssubscribe. I drop a fresh AI breakdown like this every week. And I'll see you in the next one.
+

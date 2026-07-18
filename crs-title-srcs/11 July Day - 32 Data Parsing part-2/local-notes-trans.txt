@@ -1,0 +1,1101 @@
+Yeah, tomorrow will be fully demonstration session only, correct. So, 2 to 3 hour of demonstration session
+And, whoever has completed their assignment, they will give their demonstration. Now, guys, likewise, I am preparing a couple of more assignments with respect to RAG, okay? For the RAG, actually, I have prepared the multiple assignment. Definitely, I'll provide you those assignments.
+And even for the Agentic, I also have multiple assignments, and I'll provide you that. And I hope you learned so many things in that assignment, and you revise all those things. Please post your work over the LinkedIn as well, that will give you… that will give you your profile, like, a little more boost, right, in terms of this AI generative AI
+You can see my recently podcast I have done with several people, okay, with several folks from the different domain, from the different technology, and the one common thing I have seen. So, if people are transitioning from one technology to another technology, so they're regularly active over the LinkedIn, and they're posting their work
+over the LinkedIn, okay? So that, it could be highlight, it could reach to the correct people, it could reach to the correct GenAI community and all. So that is important, guys, right? So, I'm not saying you should mention to me or to anyone else, right? Just post your work regularly, just showcase your skills and all over there
+And, keep posting over there, right? So whenever you are doing something, extra, right? Whenever you are building something from your end, then post that work. Showcase to the community. Okay, that is important one. Got it?
+Yeah.
+So, are you seeing those postcast on my YouTube channel, guys? So, I am bringing the different, different folks from the different, different experience actually so that you can also understand how they made a transition from one technology to another technology, actually.
+Right
+Yeah, great. So, now, without wasting your time, let's start with the session. So, submit the assignment, I won't be in the class tomorrow. Okay, no worries, many, if you have submitted the assignment, that is well and good. The end goal is, you should learn something, right, from those assignments
+That is my end goal, okay?
+Fine. Now, let's do one thing, guys. So, first of all, let me, quickly tell you that what all things we have discussed in the previous class, and what we are going to discuss in today's session, okay? So I will give you the quick recap of all those things. And today, guys, I am thinking to give you one more extra solution because what I am seeing
+Many of you, you are not able to visualize that way of which components are fitting. You understood that theoretically when I given you the theoretical explanation of the rag, but still, there is some practical gap, okay? So what I'll do, guys, so first I'll
+I'll show you the complete rack pipeline in terms of practical, and then only we'll explore each and every component of that, like data parsing and the other one. Even though I've explained the data parsing in my previous class, and we understood how we can pass the data, and a couple of things is remaining over there, like how to pass the data using the doc link and the other library, okay
+So, definitely, I'll show you those. I'm not going to skip that part, and I'll keep in the class, right? So, first, what I can do, guys, just a second, let me save this one, and I'm going to open my new sheet
+The notebook was failing, Mohamed, you can try out in the Google Colab notebook, okay? If it is failing inside your local. Otherwise, don't worry, I will again show you the DocLink solution, and it will be clear, right?
+So, what I'm doing, first of all, let me write over the blackboard that what all things we have completed so far, and what we are going to discuss in the upcoming, session. So the first thing, guys, we started the RAG chapter. Okay, so we are into the RAG right now
+So I explained the complete, theoretical terms behind the RAG, okay? So, we have seen the complete introduction of the RAG, and I hope so you have attended my session.
+So let me write over here, let me write the RAG.
+Okay.
+So we understood about the RAG and the complete, theoretical introduction is clear about the RAG
+And after that, guys, so we deep dive into where we deep dive into the data parsing concept, okay? So the first concept of the RAG is called the data Parsing. So theoretically, we understood all the concept of the RAG
+Okay.
+T H E O R Y, right? Theoretically
+We deep dive into each and every concept. Then, guys, the first component we picked, that is a data parser.
+So, I've shown you how you can pass the data
+Got it?
+I've shown you how you can pass the data, and here, basically, I discuss about what… I discuss about the length and loader and the parser.
+Sunny
+20:20:13
+Langchen
+Loader
+and the parser
+If you will go and check my previous session, there you will find out all the practical. Then, guys, we discussed some advanced parts and concepts also
+Some advanced Parsec concept also.
+So there we parse one PDF, which was containing the different, different type of data
+So the PDF, basically, it was containing the text
+It was containing the images
+It was containing the tables
+Right? So these, kind of data, basically, it was available in the PDF and the other kind of data, okay? Now, guys, here basically we have parts of using the
+We have passed this particular data, we have parsed this PDF data using the raw and the native library of the PDF, like Pypdf and all. Okay, so I have used the PI Mu PDF
+I've used up PDF plumber over there
+PDF
+plumber over there. And then, basically, I've shown you… what I've shown you, I've shown you the OCR also, Tesseract OCR, okay, so these many things we have seen. So this advanced parsing basically we have performed using this advanced parsing we have performed from scratch
+We haven't, used any built-in module for that as of now. In the previous class, with whatever I have shown you, right? And we were saving the data in the form of JSON, we were saving the data in the form of .md
+So, in this particular file format, we were saving the data. And this I have already shown in my previous class.
+Now, guys, the third thing, basically, I have to show you the different libraries, basically. So, we have some other built-in library, like DocLink is there, okay? Like, Llama Parser is there. So these are the library which we can utilize for parsing the
+Typical data, right? So, it's an inbuilt module. So it's what it's an inbuilt library. Okay, so these part is the remaining one inside where inside the data parsing so I have to show you, and definitely I'll show you that
+Okay, so we were here till in the data parsing. Now, the next concept which comes inside the rack that is called the vector database.
+So we'll understand about the vector database
+Okay. Then, guys, the next concept, which is called the retrieval. So we'll understand the different, different retrieval techniques
+Then, the next concept is called the prompting. So we'll understand how to write a prompt, okay, and how to give some additional instruction inside the RAG. And here only I will discuss the other concept of the prompt which I mentioned in the syllabus as well.
+Then guys, after the prompting, basically, the final part is called the generation
+Okay. Now, while we are generating our output, so there, basically, we need to understand couple of concept of the LangChain. The concept is called the chaining concept. Okay.
+The concept is called the chaining concept. The concept of the renable
+Okay. Runnable concert. So these are the concepts which we need to understand. These are the concepts, basically, which we need to understand in the generation. So, these are the remaining one, definitely, from our next 6 to 8 classes, we are going to cover all this thing
+So that our RAG module will be completed, okay? Then we'll focus more and more over the practical itself. Practical means, we'll build some advanced solution where we are going to get the memory side, caching site, right? So all those solutions, even the evaluation site, and even after learning the Agentic rack, I'll show you the, agent, how to design the Agentic rack
+Right? So these many things we are going to be discussing the upcoming session. So, guys, when I was discussing this theory, okay, so when I was discussing this theory at that time, you understood every sort of a component of the rack, right? So what is happening inside the rack? What needs to be done over there
+Everything you understood. So, what I'm thinking, guys, let me show you one practical implementation of it, okay? Let me quickly give you one practical glimpse of this entire theoretical pipeline, so that you will be able to visualize that where all this component is going to be lie, right?
+So where does all the components going to be fit, in that you will be understand. So once, I'll show you this practical. So before completing the remaining part of the passing and the other thing, like vector database, retrieval prompting and all, let me show you an end-to-end pipeline inside the notebook, okay?
+Keep that pipeline with you, right? And, going forward, in the upcoming session, we are going to be deep diving into those pipeline. Understood, guys? Yes or no? Is it getting clear to all of you? The garden and all, everything will be there, once, we'll complete that module, you will be able to understand
+Sunny
+20:25:20
+So let's do one thing, let's park this module for a couple of hours, okay? This data parsing 2. Again, I'll come back to this topic. Again, I'll come back to this docling and other library basically
+And I'll show you the parsing using those library. Okay, I'm just parking this topic for a couple of hour okay for one hour, one hour, two hour or maybe for one class. And so let me show you what I can show you guys. I can show you what I can show you the complete pipeline first, right
+So that you can visualize that where all the components are falling inside that pipeline, okay? Now, in the previous class, guys, I was not able to retrieve the data from the images. That OCR thing was not working, I believe, correct?
+If you remember, yes or no, at the end, basically, when I was executing the OCR thing, so I was extracting the data from using the PI Tesseract OCR, from the images, so that, it was not giving me the result, okay? So I installed the source… I installed that OCR here inside the local system, and now
+That OCR is working fine in my system, okay? So, let me show you, let me do one thing, guys. Let me show you that particular result, and after that, guys, I will move to the end-to-end pipeline. So this was my import statement. I think you know about it
+So here basically my OCR is installed. Okay, so if you're not aware how to install the OCR, you can check out the previous session. There I already discussed. This was my OCR, which I installed, which I downloaded, Tesseract OCR64 setup, right? So this is for the Windows and for the Linux, the command would be different one
+No, after that, guys, I have set the path of the OCR, okay? If it is not setting by default inside the Windows system. Now, after that, guys, what I'm doing, I'm just giving the image output, image path, okay? And after giving the image path, what is happening? See, this is my function. So, I'm passing my image, okay, and I'm passing this image here, I'm passing this image to the tesseract
+Right? So Tesseract, basically what it is doing, it is going to be find out the data from the images. It's going to be fetch the data from where? From the images, okay? So I already executed this pipeline, and I can show you the final output. The way this OCR data is being basically captured
+So, once we will go and check with our folder, this output folder, okay?
+Once you will go and check with this output folder, no, let me show you, PDF page images extract, yeah. So once you will go and check with this, with this particular folder, parse complex PDF output. Now, here you will get this image recordj.json and pageRecord.json
+So you can simply check out with this imagerecord.json. So, inside this one, basically, you will find out the image path, okay? And also, like, you will find out the OCR tags associated to this particular image. So you can open this image, and you will get the same text over there, means we are able to extract the data from the images as well
+So if you have images, and if you wanted to extract the data from those images, so these type of OCR is working well, okay? See, this is a very basic OCR, the PI Tech OCR. We have some advanced OCR also, and even we can utilize the LLM model also as an OCR. Okay, so that also I can show you in the upcoming session
+So that you will get the clear-cut idea. But yeah, this is one of the technique, where basically we are using one external OCR, okay, this Pytesirect OCR, and it is able to fetch the data from where, from the images itself. So you can open this image, page 7, image 1, let me open that
+So, here you can see the extracted images. This is my image, guys. This is my image. And now you are able to see, let me open the
+The result of the parsing, okay? So where it is just a second. So let me open the image. Sorry, let me open the
+result of the Parsing
+Where it went
+This one. ImageRecord.json. Now, here you can see, so it is exactly able to load
+It is exactly able to get the same data. Some of the points might miss, because this is not a perfect OCR, but yeah, still it is able to get the data from that particular… this particular image. So I hope you are clearly… I hope you are able to see this image and this output clearly, right?
+So we have this raw file, right? So then we have
+We have board, guys, so we have the embedding, chunking. I think most of the thing is it is able to it is able to retrieve from the images. But again, it is not a perfect OCR. We have so many other OCR also we can try out those OCR as well. Otherwise, we can use some inbuilt library and it is also using the
+And it is also using the OCR, okay? Those inbuilt libraries also using the OCR, so if you will use uninstructured.io, so that is using YOLO-based OCR, some LLM-based OCR, okay, in the backend
+So those are very heavy liability. If you will install any, basically, if you will install any, this, data parsing related library, na, so those are taking a lot of space in the local, okay? Those are very heavy library, like Llama parser
+Sunny
+20:30:30
+And even this dockling, unstructured.io, because they are using very heavy model in the back end for parsing the data, okay? So, yeah, those are the heavy library, and it will take a lot of space, and even it will take a lot of time while parsing any sort of a data
+Got it? So, guys, I hope this thing is clear to all of you. Now, again, I will come back to this part. First of all, let me create one more IPYNB file. There, let me give you the glimpse of the entire RAG pipeline, and then only basically I'll come again to this data parsing component. Okay
+So, just give me a quick thumbs up if you understood at least the basics of this data parsing. And, have you gone through with this entire solution which I have shown in my previous session, this one
+If yes, let me know then.
+So, let me create what? Just a second, guys, this is the notebook.
+Yeah, you can use the other also, na, Ramakash, any other framework also, it depends over the requirement, okay? So again, guys, this parsing also now, it's like depends on the requirement, okay? And it is, like, very subjective thing
+Right?
+This is a very subjective thing
+Actually, so what kind of parsing you are going to do? It completely depends on the data, it completely depends on the solution, what kind of solution you are going to be built. Got it? So, I have seen in many of the project, very heavy parsing is required, very accurate parsing is required
+In some of the solution, basically some basic parsing is required, okay? Not much, parse… not much, basically depth is required, okay? So again, it is a very subjective thing. But, you should be aware about this parsing concept, because, if you are working in a real time na, it might be, it might be what? It might be basically important or the useful
+But in the, like, enterprises, you might get the access of the Azure Document Intelligence, okay? If they are forcing you to use the other library like Llama Parser, or any other kind of library, you know, then utilize those libraries also. And nowadays, it is not very difficult to utilize those library, because easily we can easily
+Use the Copilot Claude Codex, right, for generating the code. I can show you, the example, so just give me a moment. Let me open my Claude, okay? So, this is my Claude app.
+And I can quickly show you, and then after I will come to the practical, okay?
+So, let me create a new folder. This is going to be my new folder. Class
+This is class 31 right
+So anyone can guess, like, how many classes I will take for completing this course
+11th July
+2026.
+Someone is saying, sir, 100 mega Centuri, yeah?
+Okay, class 31 where it went
+Today is 11th, July 2026
+Yeah, so this is the folder, guys, where I'll keep the code. So, here I can create one file
+Correct
+pipeline
+dot ip wine bay, okay?
+So, inside this particular file, I'll keep my code. So, let me select the kernel also.
+It's 33, is it? Okay, I'll check. I think it is 32, maybe, because,
+Here, I didn't mention the 31 in the previous one, right?
+So, just a second, guys, I can quickly show you wait.
+Once I'll show you the vectorless Ragna, at that time only, we can discuss about the graph, like, okay? So, graph rag, again, it is one of the way to arrange the data and to fetch the data, that's it. Nothing special in the graph reg also
+So, this is my cloth. And I hope, guys, you are using Claude, Claude skills a lot in your day-to-day development nowadays. So cloud skills are the important one and many enterprises are forcing us to use those things.
+Sunny
+20:35:42
+So instead of creating this RAG chatbot, okay, any kind of AI assistant system, right? So they are not basically willing to create a system from scratch nowadays. What they are doing, they are asking us to create some skills
+Inside the cloud itself, and they are utilizing those cloud only as a chat interface, okay? Chat bot. So, guys, learn about the cloud, it is important nowadays, and as much as depth, you can go with this cloud, go
+Because it is required. And companies are forcing us to utilize the cloud, okay? So, learn about the Claude skill, learn about the cloud artifact, learn about the Cloud plugins
+And don't worry, even I will show you that in the upcoming session. Got it? Codex again, codecs is just a cloud sorry it's just a coding assistant similar to the Copilot Claude code
+Okay, so you can configure the codecs also, and you can utilize that. So let's say if you are going… if you are writing over here, what you can write. So, give me a PDF Parsing code
+Using Llama Parsing, okay? So, simply, you can check out with a cloud, you can check out the Claude code and all. So, going forward, we are going to configure that in our local. Already I have in my VS Code and all, but as of now, I'm just showing you via chat interface
+Later on, we'll make a habit to use it via terminal or via VS Code, or via cursor and all, okay? Because there only we are going to do the actual development. But for that, at least, we'll have to enter into the real… sorry, we'll have to enter into the project, basically module
+So once we'll enter into the project module, at that time, basically, I'll show you the use of the codecs and this cloud codec a lot, okay? So, see, it has given us the very good code for the Llama parser, so you directly, you can utilize this code. You can tweak this code according to your requirement
+You can simply mention the API key of the Llama part, sir, okay? And then, you can perform the… you can vote, guys, you can perform the parsing of the PDF and all. So, here, simply, I can even ask for the specific requirement, let's say
+So, my PDF is…
+Okay, so let's provide the same PDF, basically, which we were using in the previous class. So, I'm just adding
+So what I'm doing, guys, I'm just adding one PDF over here
+So, adding the PDF from the previous class itself. So, this is the
+Complex PDF okay
+I want to… parts
+This PDF using
+Lama Parsa
+Please
+provide
+me a code for it.
+So simply, I give them the PDF, and now see it is, it will provide me the code for that
+So, even though we haven't learned the Llama parser so far, but yeah, I am able to show you the code here. So, likewise, basically, you can work. You can take a plan of the cloud, and you can take upgraded version of the cloud, okay? And you can use as much as with this
+PDF files and all, you can directly upload it, and you can ask for the solution. So see guys it has given me the solution from the Llama parser itself directly I can utilize it and even I can
+Ask about my specific requirement, okay? I can ask, okay, arrange the… arrange the file like this, save the output in the MD, save the output in the JSON, okay, scrap the images and keep in the separate folder
+Okay, take a snapshot of the table, and then keep it in the separate folder, something like that, right? According to my requirement, I can tweak the… according to my requirement, basically, I can tweak the output.
+So, it is just a clot chat, it is not a clot code. Got it. So I hope, guys, this entire thing is clear. Now, first of all, let me show you the quick pipeline of the
+Right, okay, and then again we'll resume this parsing part.
+So, guys, here I created a file. So, guys, are you ready for the spectacle? If you are ready, then let me know, I can proceed.
+Okay. Give me a moment, wait.
+Okay, guys, so let's, perform some practical. So first, let me load the environment file. I think you already know about the environment file. Tell me yes or no?
+Sunny
+20:40:51
+So, here is my environment file, where I kept all the keys
+Okay, so this is all the keys. Now, I can write over here, import OS, then
+I can write one more imported statement. So from dot env import load.env
+Okay, now what I'll do, guys, I will call this particular method
+Once I'll do that, guys, if I… if I'll get true, means I'm able to load all the environment variable from the .env file. Got it? Now, guys, what I'll do, guys, I'll load all the keys, okay? So what all keys basically I have. So I can use a Google API key, Grok API key.
+Okay, so the… using these key, basically what I'll do, I will load the model, I will load the embedding model, which I already showed you, because this is required for our RAG problem statement.
+So if you don't know about the rack, guys, I can, simply show you
+I think we already discussed that, let me open that particular, notes
+So, just a second, guys.
+Fine-tuning polish direction AI
+Right. Yeah, so this is the notes, basically, which are shown in the previous session. And if you remember, so this was the architecture which I discussed about the RAG. See, this was the architecture
+So let's implement the same architecture, okay? So I'm taking a snapshot of it, and then I'm keeping it inside the same notebook
+So let me copy it and let me keep inside the markdown format over here
+So, this is the markdown format and see here is the image. And now see the
+And now guys see the image inside the notebook itself. So first, guys, what we will do, will basically load the model, okay? Model and the embedding file is required to us. So, what I'm doing, guys, I am going to load the different environment key
+So, I'm calling this OS, os.getENV
+Now, here I'm mentioning my environment key. So, let's mention the Google API key. Using the Google API key, what I can do guys using the Google API key, basically I can load the Google related model. Okay
+Let me delete this, sir.
+And here I can write what Google underscore API key. So this API key I already capped where I already capped inside my dot env file okay
+So, here is the API key. Now, what I'll do, guys, I can use the other API key also, let's say Grok API key for loading the model
+So, Grow KPL, also I can load. So, if I will print this variable, na, this one, you will get the API key. Since this is my API key. If I will copy this variable and paste it over here now, you will get the API key. See, this is my grok API key. Got it?
+So let me delete it, and then I will utilize it later on. Now, after loading this API key, what I can do, I can set it as an environment variable. So temporarily for this particular session, I can set it as an environment variable. So that code is also pretty easy. That method is also pretty easy. I will write this
+OS.ny run, okay? I'll set it as an environment variable. Then I can set this also as an environment variable, this Grok API key also. So let me mention the grok API key.
+So this is my Grok API key and I'm setting as a environment variable. If you're not familiar with all those things, you can check my previous session there I already discussed.
+Now, guys, what I'll do, see
+We required what? We require the model. If you will look over here inside this particular architecture. So can you tell me what all two models we required
+Just let me know in the chat. World 2 model we required
+If you will look into this architecture, to implement the RAG, basically, we required what? We require the embedding model. Okay, so here what we are doing, we are doing an embedding. Now here also we are doing the embedding.
+So the first model which we require that is an embedding model
+Okay? Another second is what? Second is what? Tell me, guys, which model is required, the second one. The second is the LLM model.
+Okay. Now here, inside this particular… inside this particular architecture, you will see the second model is going to be the LLM model. Okay, so I can write over here, the second is the LLM model.
+So, to implement the RAG, we require two things. The first is the embedding model, and the second is what? Second is the LLM model.
+Okay, so let me load this two model first, and then I'll show you the implementation of that
+So, here, guys, what I'm doing
+I'm going to load the Google model, okay? So from LangChain, I hope you have already learned all this thing from my previous session. So, from LangChain
+Okay.
+From LangChain, underscore Google GenAI
+Sunny
+20:45:52
+I'm going to import what? Google
+Google Generative AI embedding. So, Google
+generative
+AI embedding, okay? So this is the class, guys, which I'm going to be load, which I'm going to be import, and with that, basically, I will be able to load the embedding model. Now, see, this is the embedding model, okay?
+So I can take this embedding model, and I can perform the embedding of my document.
+Now, guys, the second thing is what? The second thing is the LLM, okay? So, simply, I can check out the embedding model, whether it is working fine or not. So what I can do, guys, I can call one method on top of it, that is an embed query, okay? I can pass any sort of a query
+And if it is work… if it is able to load the model from the, Google server, okay, using that API, I will be getting the embedding of this particular sentence. So this is just basically testing
+Now, along with that, guys, along with that, what is required, we required a chat model also. So let me take the chat model, let me keep it over here. Now, I can show you whether it is working or not.
+If I'll write over here LLM.invoke, and if I will ask to it
+Hi
+How are you
+Right? So it will generate the response. Now, it is saying… see, what it is saying, guys? Error embedding content 404 found error model is not found, the API version. Okay, so maybe inside this API version, this model is not available. So what we can do directly, you can check out with that documentation of the
+Google. So just open the, what you can do, guys, just open the documentation of the Google
+Germany, API key.
+Okay? So directly, I'm checking with the documentation. Wait.
+So, here is a model part, all model
+Now, inside this, basically, you will get the embedding model and all everything
+So, just check out the water model are present over here
+And we can utilize those models. Audio models, their generative model is there.
+Then, embedding model will also be over here.
+Okay? So, see, Jiminy embedding 2. So, let's check out with this particular model whether I can utilize it or not.
+Okay, so instead of this particular model, I am passing this one
+Let me run it.
+Okay, let me perform the embedding. So, yeah, this model is working fine, right?
+And let me check out the chat model also. So which model I can utilize
+Let's check out with the chat model, so I can go with the all model, and then stable is the flash, flashlight, nano banana
+So, let's say, use this flashlight, let's see whether it is able to
+Give the response or not, okay? So, I'm passing this model over here, and if I'm running it, now let's see
+What I can do, see, it is able to generate the response, okay? So I can directly take the response from the content itself
+Now, let me call the content
+And see, it is saying type, text, and extra. So if I'm calling the extra from here, sorry, text from here.
+dot text, then I will get my response. Okay?
+So, what it is getting
+Text? Okay, so I can get the text.
+Just a second, guys, so let me fetch the text
+So see, it is giving me the text. Means my both models are working fine
+And it is a free model only, I haven't paid anything for this particular model. Now, just by looking into this architecture, tell me one thing. Are we able to get the embedding model and the LLM model?
+To me yes or no?
+Are people to get the embedding model and the LLM model
+Okay.
+So we are able to get the embedding and the LLM model. Now, what I'll do, guys, after that, first I'll show you what I'll show you the
+AI assistant means how, basically, we can make a chat with this model, okay? So for that, what I'm doing, I'm simply creating a see I'm simply creating one file while loop
+So, here I'm writing while. Okay, now here what I'll write, I'll write true
+And then, guys, see, this is the entire code, means it is giving me the entire code, basically, so I can just print tab. And what I'm getting is see here, it is giving me the so it has given me the code, basically the AI assistant because by default I have
+Sunny
+20:50:54
+The different extension, okay, in my VS Code, and it is giving me some suggestion for generating this code, right? So let me execute it, let me see, whether I'm able to chat with my model or not. So this is not a RAG as of now, it is just a simple AI assistant
+Okay, so just a second, let me execute it.
+Okay, so it is asking to write something, okay? So what I'm doing, guys, I'm writing my message, hi.
+So AI is saying how hello, how I can help you? Now, I can write one more message over here. What are you doing? What are you doing? Okay, so I'm just doing a chatting with my model, right? So this is a simple AI assistant as of now
+I don't have any rag over here, okay? I don't have any RAG architecture. Now, I can write over here what is our
+stock price of Nvidia, okay? And VDR
+So, see, it is giving me the answer. This is the answer from the AI. As of now, the recent close
+closing price is this one and all. Now, this… here's the input bar, see, on top of, basically, you can see the input bar. Now, if I wanted to quit this chat, I can simply write the exit, and then I can quit the chat. Now, see
+It is giving the exact chat goodbye. So, how this while loop is working, you can see. First, it is taking the user input, means my question. Now, it is checking whether the user input is containing this adjust or quit. Okay, quit. If it is containing this two word, in that case, it is printing the existing
+It is saying goodbye, okay? So it is saying goodbye, okay? And it is breaking the loop
+Otherwise, what it is doing, it is passing the message to the LLM and LLM is generating a response, okay? And then it is printing the response. So this loop is very simple, right? It is just very simple loop. Now I can write over here
+It is a simple
+It is a
+Simple
+AI assistant.
+Okay.
+It is a simple AI assistant without rack pipeline.
+Without rack pipeline. So guys, tell me, did we connected this LLM model? Did we connected this particular LLM model with any of the external data sources
+Did we connected this LLM model with any of the external data sources?
+No, we haven't… we have not connected this particular LLM with the additional data sources, okay? So we are simply chatting with our model itself. So, let me do one thing, let me
+Zoom in, okay?
+Now, if you will look into the architecture, so this is our architecture. So over here, guys, my user query
+If you will look over here, my user query, basically, it's going into the vector database right now
+Or it is directly going through the LLM currently
+Where it is going
+So my, user query basically is directly going to the LLM and we are generating an answer. Now let's do one thing. Let's pass this query to the vector database. Now retrieve some context from there
+And then pass the same context to the LLM, along with all the prompt and the instruction and all, and then LLM will generate the answer. Now, why this thing is required, if you will look into this answer, the next answer, the third answer, so you will find out that I asked LLM to generate the
+Current, to give the current stock price of the NVIDIA. But guys, it is giving me the stock price of the 2024. Means it is not the latest information. So, RTM is not having the latest information, so what we'll do, we'll fetch the latest information from somewhere
+And we'll provide that particular context to the LLM, and behave on that particular context only the Llm is going to generate the answer making sense that why this rag is required.
+Tell me, guys.
+Yes or no?
+Yes? Okay.
+So, I hope this thing is getting clear to all of you
+Now, let's do one thing. See, we can even create a tool, we can even create our MCP, okay, we can standardize that tool calling and all using the MCP. Everything is possible, so going forward, basically, we'll look into those particular… we'll look into those particular
+basically architecture also, where we are going to be integrate the tool, MCP and all everything. Got it? So, first of all, guys, what we have to do, see, we are going to be load the data even.
+So I can load some data. So, just a second, what I can do, guys, I can simply import something. So data basically we can load from the multiple places, okay?
+So, we can load the data from the, from where, guys, from the PDF, we can load the data from the text document, okay? We can load the data from where even from the web right from anywhere, we can load the data
+Sunny
+20:55:55
+So, just a second, let me show you, from where, basically, we are going to be load the data, okay?
+Yeah. So, this is the method which I'm going to be right over here. See, what we have. So we have a text loader, or the directly loader. Okay, so directly, basically, we can load the text file, we can load the directory basically or else what we can do. So guys, even we can directly load the data from the web also
+So this is also, I have shown in my previous class. See, there is one more imported statement, web-based loader. Okay, this one. And even we can load the data from where even we can load the data from the PDF also. So that is also possible. Okay
+So PDF loader is also possible, and even I can show you, that particular class also. Now, see, guys, this is the PDF loader. So from any of the places you can load the data. And even I have shown you the other different connector also in the previous class
+If your data is residing at any of the place in the real time, Notion, a SharePoint, okay, Databricks, any cloud, so you can import those as well. You can write those, you can even get those classes also, and you can make a connectivity with your Gmail, with your
+this outlook, okay, with your notion, or with your Slack, from anywhere, you can load the data. In the real time, most of the data basically will get over the SharePoint, right, or their own specific databases. Even, companies are giving contract to some other third-party
+vendors to manage their data, or they are using their tool, basically, right, in my company also, we are using some third-party tools to manage their… document the data, okay? So, they are giving the subscription to the company, and the company is keeping the entire data over there, they're organizing the entire data over there
+And they're giving all the security terms and all everything, right? So this is very common practice in the company. So let's do one thing, let's build up, let's
+Build one
+RAG system on the PDF, basically. So, what I'm doing is, I'm just going to be download one PDF from the Google itself. So, on which PDF I can do it, I can write anything, let's say
+I can write over here. DeepSeek research paper, right? So, DeepSeek research paper. You know, right, what is a DeepSeek? It is a model
+It is a model from the deepseek.ai. So it is having so many different model. Let's see which model it is giving to me. So this is a DeepSeek V three
+Okay? So, on top of this particular, PDF, what I can do, I can build my solution. See, here is a PDF. Now what I can do, guys, I can simply download it
+And then I can keep it where… I can keep it inside my directory. Okay, so in front of you only, I'm taking a PDF, so let me close… let me cut the PDF from here, and let me keep it here inside my
+Folder, okay? So, this is my folder, just a second.
+I'm keeping the data over here itself. So this is my data, guys, okay? Now I can write over here deep seek B3 PDF.
+DeepSeek
+V3
+Okay? Model. So, this is all about this DeepSeek V3 model. If you will ask anything to our Gemini model, maybe it will not be able to answer around to this particular model, okay? So let's do one thing, guys. Let's open this PDF first and let's ask some question to our model
+So, here is the…
+Basically abstract of the DeepSeek, V3 model. So, let's ask about this particular
+Let's ask about this particular model, okay? So I'm going back to my notebook and I'm opening my sim I'm running the simple AI assistant and I'm asking to the simple AI assistant just a second, guys
+What is that?
+What is
+DeepSeek B3 model. And how does it work? Okay? How does it work?
+So guys, I asked to this particular model, okay? My model name is what? My model name is Gemini 3.5 Flashlight. Now, it is generating some response. See, this is the response, guys.
+Relating the late 24. Okay, so it has given me the response, let me check when the model see… it is saying, this model was released in the 24
+But in the actual research paper, I can see it is released in the 25 itself, okay? So maybe it is hallucinating. What it is, guys? Tell me. So, it is a hallucination, okay? So, hallucination means what it is giving the information
+confidently, but that information is the wrong one. So we have to correct this hallucination, and for that also, for that only, basically, what we do, we use the RAG system, okay? It's confidently telling the wrong answer, that is a concept, that is a, like, meaning of the hallucination
+Sunny
+21:01:02
+No, maybe this particular answer is not correct. Some of the thing is the correct one, some of the thing is not correct. So, let me ask one more question to this.
+So, where I'm writing this query, so this, VS Code, basically, it will give you one pop-up at the top of this VS Code, where you can write the query. So I'm asking to this simple AI assistant
+Can you tell me
+In which year
+In which it is
+DeepSeek P3 model was introduced
+Okay.
+So, I ask one more query, and let's see what it is being generating. So you will get the answer over here. Now see, so deep seek B 3 was officially introduced in 2024. Okay, so something like that is saying
+It might be correct or might be not correct, okay? So, let's verify that later on. Once we build up the rack pipeline on top of this particular data, right?
+Now, here, guys, what we can do, we can even check whether some latest other research paper. So, even you can tell me the other, latest research paper which you know, okay? Even I can check behalf on that as well. So, do you know any of the research paper, the latest one?
+If you know I can even build the rag on top of that, okay? So, just a second, basically. DeepSeek is having so many
+Models, right? So, I can check out over here, in the GRPO, I mentioned those name, okay? So, let's take any latest one.
+So, here, guys, this is the notes. Just a second, I'm taking the latest model. So, DeepSeek V4 preview. So, see, this model, basically, it was launched in the 2026. It is a current one. So what I'm doing is I'm searching DeepSeek before preview
+Okay, so just give me a second, let me write over here, DeepSeek
+B4
+Preview research paper.
+DeepSeek before review, review research
+paper
+So this is the latest research paper, and let's see the date of it.
+So here, what we have
+Let's see the publishing date of it, just a second.
+So this research paper, I think it's the latest one, and it was published in the 26th itself, this one. So let me download this PDF
+Okay.
+And let's build a rag on top of it. So, DeepSeek, B4
+V4
+2026.
+So I'm just taking this particular PDF
+Okay.
+And then I'm keeping it over here
+So, this is my folder, guys, and I'm keeping it over here. This. So, let's
+Load this PDF, okay? First, I can ask something about this particular model. So what is this
+So let me ask about this particular model, okay?
+So…
+Let's see what it is generating.
+So when this
+DeepSeek before model was released.
+Simple question I'm asking to my simple AI assistant
+And let's see what it is answering now.
+Okay, so this is the answer, guys. So, what it is saying…
+As of now… see, guys, can you see the latest answer?
+Is it visible to all of you? It is saying, as of now
+As of now, as of right now, this DeepSeek before not have been released. The current Star Wars series is the DeepSeek B3 family, which was released at 24.
+Okay. But guys, this particular model, it is in a preview stage, right? So it is not able to provide any sort of information about this particular model. So let's do one thing guys
+Let's try to build a RAG on top of this data. Is it clear? Tell me yes or no.
+Is this part clear or not? When to build the rag, and for which particular problem statement we can build a rag
+Okay. If it is getting clear, I think we are good to go. Now let's do one thing, guys. Let's read the PDF and all. Let's read every kind of data, okay? And then I'll show you the chunking and all everything. So, can we take a quick break? So let's take a
+Guys, dinner break, and after that only, I will implement it.
+Okay, we'll load the data and all everything.
+But first, let's take a break, and then I'll show you that.
+So, this particular model is not having the latest information, and then only we are going to build the rack.
+Sunny
+21:06:08
+So, putting a quick timer, and then, basically we'll start this particular practical implementation.
+So, giving you the break of the 20 minutes, so you can have your dinner, and then only will start. Thank you, guys.
+Sunny
+21:29:41
+Okay, guys, so can we start with the session again? If everyone is back?
+Okay, so let's begin, let's start.
+I think everyone is back, correct?
+Okay.
+So, guys, I think I was talking about the PDF, so we are able to keep the PDF inside the folder.
+So, everyone is able to see this PDF, DeepSeek B3 2026 PDF
+Okay. So first, guys, let's do one thing, let's load this data. So, here I'm creating one variable
+file
+Underscore path.
+So, here I'm giving the file path. Let me do the right click, and let me copy the path.
+Let me keep it over here.
+Okay.
+So this is the file path, okay? Now, guys, what I'll do, so I will provide this particular path to the PDF loader.
+Now here, I will give this part to the PDF loader
+And I'll call the load.
+So, once I'll call the load guys, now see.
+Can you see this data?
+Is it visible to everyone? Yes or no?
+So, I hope you are able to see this particular data.
+So, how it is, able to load the data?
+Tell me, guys, how it is able to load this data
+So, guys, it is able to load the data page-wise. So it is page-wise, actually, it is loading our data.
+So if I can show you the length of this data, so just a second. Let me keep it inside the variable.
+Pages, okay
+So here I can run it. Now see, if I'll show you the length of the pages
+No, see you guys.
+So, how many pages we have
+58 pages. Okay, and even you can check with a PDF also.
+Now, see, how many pages we have
+How many pages we have here?
+58 pages. Okay, now here, see guys, how many pages? 58 pages. So the conclusion is, this PyPDF loader, actually, it is loading the PDF page-wise
+Okay, so what I can do, guys, I can show you that, means I can keep this particular data ware inside the variable. Okay, so I already kept let me show you this data pages
+I'll see.
+So, as of now, it is available inside the list
+Right? It is available, we are available inside the list. Now, what I'll do, guys, I will be chunking this data, okay? Chunking, again, it is an optional step
+Now, over here, if you will see, so let me show you the diagram. Now, inside the diagram, you can see
+What's the next step after loading our data? This is the data, guys, this one.
+Okay, so from where we are loading our data, please let me know in the chat.
+So we are loading our data from the document, okay, from the PDF
+Now, after that, guys, what we are doing
+After that, basically, we are doing the chunking, okay? Now, chunking, it is a very subjective thing
+Okay, so, see, I can explain you that thing, just a second.
+If we're talking about the chunking, na?
+Okay, so you guys, if we're talking about the chunking, so chunking, actually, it's an optional thing
+Always this chunking is not required.
+Always. It is
+Not
+required, right? So, see, why it is required, what is the use of it, we can understand, right? Even I will take one specific session going forward.
+Okay, I'll take what? I'll take one specific session
+specific session
+On different, different technique of the chunking, okay?
+On different, different technique of what? On different, different technique of the chunking. Got it, guys?
+So maybe, after the vector database, I'll discuss that.
+So, before this, sorry, after the data parsing, we'll discuss that.
+Sunny
+21:34:43
+Okay, so in between, we'll discuss these two things.
+Right? We'll discuss about the chunking, basically.
+Now, guys, see, I can explain you any very layman example with that, you can make an idea that why this chunking might be required.
+You remember, you know guys, we have a mobile number, right? If we have a phone number
+Phone number, right? How many digits are there in the phone number? Let's say if I'm writing any phone number
+Alright, so this is the phone number, correct?
+So I returned the phone number. Now, tell me, guys, how many digits are there in the phone number?
+10 dessert
+Okay.
+Now, let's say if someone is asking you
+Someone
+Asking you
+Your phone number
+So, how you are telling your phone number?
+How you are saying your phone number, how you are giving your phone number
+Are you giving all the 10 character in the one single go? No
+You are sewing like this. You are saying right like this. See, if someone is asking my number, so first I say, 8770203258.
+Right? Or let's say someone is saying 877
+7… sorry, 020, right? Then, 3258, something like this.
+So someone is saying in two character, in two desert
+Someone is staying in the 3 dessert
+So, how people are processing the number
+How people are saying the number. So, they are saying the number in the form of chunk
+Whenever someone asks to my number, na, I always say the 2-2 character.
+Okay, 2-2 character
+If someone is asking your number, I don't know how you are saying your number, correct? So, this is what, guys, this is the, like, way of saying the… this is just a way of processing the information
+So, in the same way, let's say we're talking about the PDF
+In the PDF, let's say we have lots of data
+Okay.
+Lots of data means. Lots of data means what?
+Yeah. So the PDF, let's suppose we have lots of data, okay? So, lots of data means what? Lots of data means, we have, let's say, 50 pages, or 55 pages
+Right?
+So the first thing, basically, we cannot provide all pages
+to LLM
+Right?
+We cannot provide all pages in a single GoToLLM
+Okay. Because LLM is having some context length
+Okay, so let's say my LLM is having some context line that is 4096 character
+So, it can only process this much of data, of 4096 tokens
+Okay
+tokens
+So, it can only process this much of data. Let's say if we are giving a huge, like, that huge data, right, too much data in single go
+Too much data in single go.
+In that case
+In that case, LLM might not process the data.
+Okay. LLM basically might not process the data. Now, the second way is what? The second way, basically, we can provide the 1-1 pages. Okay, then first page, then second page, the third page, something like this. We can keep the data, okay?
+Something like this, basically, we can arrange our data. One page, two page, three page, something like this. Okay, but again, see, this also could be one of the approach. This is also fine
+Or else what we can do, even we can
+Customize the data, okay? Customization means what? We can
+Create a custom chunk.
+Custom chunk
+Okay. So, we can create some random chunk
+Based on some special character, we can create a chunk
+Okay, based on the semantic meaning
+We can create a chunk
+Semantic meaning of the paragraph, we can create a chunk. Okay? And even we can have the custom
+some custom requirement
+Okay, we can have some custom requirement, and according to that custom requirement also, we can create a chunk. So, what I will do, guys, I will take one specific session going forward, there I will discuss those chunking and all, okay, in one single session. So, here, basically, I'm able to load the data
+Sunny
+21:39:55
+Basically, pages-wise, okay? Now, further, I can also do the chunking. So, for the chunking, guys, this recursive character test splatter is one of the method.
+Okay, it is there inside? Where? Inside the lang chain. So I will show you this, I will explain you how it is splitting the data going forward, we'll discuss that. Okay, as of now, I'm just keeping the data into the different event chunks.
+Now, over here, guys, I'm going to be initialize the class. Okay, I'm going to create a object of this particular class.
+Okay.
+Now, what I'm doing, guys, I'm just giving the chunk size, that how many characters should be there inside my data, okay? So let's say inside my, basically chunk, there should be 500 character, okay? And 200 character is going to
+overlap to each other. If you're not able to understand this overlap meaning and all, so just wait for some time, I will explain you going forward.
+Okay, so let me define my object. So here, basically what I'm doing, I'm just going to be define my splitter or chunker, right? So let me write over here. This is what is my chunker. Now what it will do, it will divide the data. It will split the data. Okay, so split chunking both are the same thing.
+Okay? Now, what I'm doing, guys, here, basically, I'm taking my chanka
+Now I will call one method
+Okay. My method name is going to be what? A split document. And here, I will be passing my pages. Now, guys, here, I can keep the data inside the variable, chunked
+Underscore data
+Okay.
+This one. Now, I see if I will show you this chunk data, you will see I'm able to chunk the data according to this given parameter. Now, if I will check the length of this particular document
+If I check the length of this particular document, now you will find out we have 588 document. Means this data, basically, this particular pages, I'm able to divide into 580 different, different chunks
+Making sense, yes or no?
+Getting my point, guys. So this thing will discuss later on, okay? So in the next class, basically, in the chunking specific class, I will discuss this chunk overlap chunk size. What is the meaning of it, everything we are going to be discussed. So this
+parameter
+Value will discuss
+In the upcoming session.
+Got it, guys, so I will take one, basically, I will take what? I will take one specific session for the chunking. There, we'll discuss all this thing. Got it? Okay. Now, guys, here you can see. So we are able to get the chunk. Now you can see the chunk data
+So this is your chunk data. Now, after the chunking guys, what I will do see this is the chunking. Now you can see the one chunk. Okay.
+I can show you the one chunk. So if you will write 0 over here, you will get the first chunk. Now, you can check the metadata around to this particular chunk
+Alright? Meta data. Now, see, this is the metadata from where this information is coming, and then you can check the actual chunk, okay? You can check what actual chunk. So let me check the well variable
+We're actually just keeping the data inside which variable, so I think it is a content, basically, right? What is the variable name?
+The variable name is
+Just a second, guys.
+Here, basically, I can see
+It's a complete metadata and all everything. This is the metadata, creation date, author.
+And here, what we have… let me, let me show you guys, just a second. Here only I can show you. This is our chunk, basically
+So, you must be getting the page content over here. Source is this one
+See, guys, this is the data, okay? This is the actual chunk, page content
+Now, let me check out the page content, this one. So see, this is the actual chunk, basically.
+Okay, this is the actual chunk which you are getting.
+Understood, yes or no? Is it getting clear to all of you?
+Are you getting my point, guys? Yes or no? Tell me. Now, what is the next step after this one? Now, if you will look into the diagram, see, this is the diagram, guys.
+Can you tell me what is the next step?
+Inside this diagram
+The next step, basically, is the embedding of the data, okay? Let's do one thing, guys. First, let's initiate the vector database. So again, guys, for the vector database, I will take one specific session and there will discuss the vector database. Okay, so what I'm doing, guys, here I'm going to write
+Here I'm going to be import the vector database. So as of now for the vector store, for the vector database, I'm using the files. Okay, so let me do one thing, guys. Let me import the files
+Sunny
+21:45:06
+So, just a second, I can import the files, okay?
+And they're only, basically, I'm going to be store all the different, different dates, all the chunks, basically, okay, in the form of embedding. So, this is the import statement for the files. Let me keep the import statement for the files. See, I have a files. Then, files from the LangChain, okay? This is the class from the LangChain, and then
+In memory, dock is stored. So this thing also we'll discuss in the upcoming classes. So we'll take
+specific session
+For the vector database
+Okay, so I will take one specific session for the vector database, and even the retrieval part also will discuss over there. Got it, guys. So I hope this part is also clear. Now let me do one thing. Let me
+initialize the files. So if I'm going to be running, guys, see, you will get the error. FISE is not there. So, first of all, I will install the files inside my current virtual environment.
+So, let me write over here UB
+Pip
+install
+PIs, FAISS CPU, okay? Now, guys, once I will install it, see, my files is getting installed. It will take some time
+If you know about at least one vector database, na, you can understand the other also. So, no need to learn all the database
+Okay, vector database. Just learn at least one or two vector database, that would be the enough one, right?
+how we are chunking images. We cannot chunk the images, na, Yugesh, how you will chunk the image, huh?
+You can only chunk the text data, that's it.
+images table… it's not a chunkable data, correct?
+Okay. So guys, over here, you can see we are able to install the files. Now, let me run it again, so that you will be able to get it.
+When will learn about the multimodal Ragnar? At that time, you will be getting how the image and all everything is being basically stored, how we are maintaining the relationship and all. Got it, Yogesh?
+Because that's a different topic, right? So, now what we are doing, guys, we are going to be create an index for the files. So here is the files. Now, what I'll do, I'll create an index.
+Okay, now inside this particular index, guys, my data will be stored, okay?
+So, here is my index, index flesh, flat L2, right? So, I will discuss all this index going forward. What is this index in the files?
+So once I'll discuss the vector database, at that time, it will be clear. So here I am writing the dimension size. What will be the dimension of the embedding? So the 384 dimension data is going to be stored inside the files. Now this is what guys, this is my vector store. So let me write over here vector
+Underscore store. Okay
+So, now, guys, what I'll do… see, this is my vector store. Sorry, this is my index, basically, it's not my vector store. So let me create the index. See, this is my index. Now what I will do is I will create a vector store. So I'll take this class, this wise class, okay? Now here, basically what I'll be doing, I'll be passing what I'll be passing my embedding model
+Okay.
+embedding underscore function
+So let me pass the embedding underscore function that is going to be my embedding model. Got it. Now after that, guys, what I will do, I will
+basically pass my index, okay, so this is going to my index. Now, there's going to be an in-memory vector store. And then, guys, what I'm going to do, see, I'm going to be create what I'm going to be create my vector store. Okay, so let me create my vector store just a second
+So, this is what? This is my vector store. And here, basically, I'll be storing what I'll be storing my data, okay? I'll be storing what I'll be storing my embedding
+So, I'm going to be keep this one inside the variable that is going to be vector underscore store, okay? These are in-memory vector store
+This is what guide is an in-memory vector store. Now, it is saying embedding function. Okay, maybe the spelling is not correct, so let me write a correct spelling of that. If I'm going to be executed, so you will be able to see we are able to create that.
+Notice 3 missing one was index to dock store ID. Okay, so this parameter is also mandatory, we need to mention this particular parameter also. All the parameter we are going to be discussing, guys, don't worry, okay? Now, as of now, I'm keeping it empty only. I'm not going to be mentioned any index to dock store ID
+Okay? Ba means custom one, we are not going to be mentioned. By default, the ID will be created, okay? So this thing also will be understand in the going forward session. So my vector store is ready. Now, what I'll do, guys, I will be adding the data inside this vector store
+Sunny
+21:50:09
+Okay, so let me do one thing, guys. Let me add the data over here. Now, how to add the data? So I will just take the vector store, this particular vector store. Now, what I'll do, guys, I will call the add, okay, add document, and inside this one, I'm passing what I'm passing
+chunk data, right? So once I run it, guys, now you will be able to see we are able to store all the chunks inside where inside the vector is stored
+Okay, so it will take some time, and it will store the data. Now, just giving me one error, let me check what is the error embedding content exhausting may you exceed. Okay, so guys, it is saying you exceed your current quota
+I think this model is not workable right now in my current quota
+So… what I can do, guys, I can change the model name. I think this particular model is not working
+The embedding model is not working right now. It is giving me the error. So let me change that model, okay? So just a second
+Let me check whether it is working or not
+I think it is working for one or two queries, but maybe it is not working for 584 chunks.
+So, let me do one thing, guys, let me take a different model, okay? Just a second.
+I'm checking with a different other model, which all model are available.
+And then I can take those models, okay
+So…
+This one is the one
+Okay, let's use this model, Jimny, embedding 001.
+Zimney embedding 001. So I'm going to use this particular model, Zimney embedding 001. Okay, so I'm removing this model from here. Let's see whether this model is working or not.
+So, this is fine.
+Now
+Let's see…
+Okay, so this is working, guys. Let's see whether it is able to, give me the embedding of all the 584 chunks, right?
+So, just a second, let me again execute it. So index is fine vector store is there. Then basically what I can do, I can chunk that data. Okay, sorry, I can store the data inside the vector store
+So…
+Again, okay, just a second, guys, this is fine. This is fine. This is fine embeddings
+It's the same model, no? Embedding, embedding, embedding, just a second.
+It's the same model. I think it is not working with 584 chunk data. Maybe… it is giving the issue with that
+584 chunks are too much, 588 around, right?
+So, let me check with this model again. Okay, this is fine.
+Now, again, guys, I'm going to be create an object of it, okay? So, this is my vector store embedding is fine
+Alright, see. If it is not working, guys, in that case, I will have to use any other model. So, what is the error it is giving me? It is giving me the same error resource adjusted
+It's giving me the same error, guys. Resource exhausted. So, what I can do, I can take some other model, I think I have the paid version of the, paid version of bot, paid version of the OpenAI also. So, let's just a second, let me take what, let me take the
+model of the OpenAI. I think somewhere I discussed those things.
+So, let me open that particular notebook. LLM access via API, okay?
+So this is the notebook, basically, which I created earlier
+And here, did I discuss the OpenAI base model
+So, chat OpenAI is there.
+Claw text to image
+Okay, let me check the embedding class. I think there I discussed encoding embedding
+Suta transformer embedding-based method. So, this is the file, I think.
+Okay, so guys, just a second, I am, going to
+Use the
+OpenAI based model. Okay
+Because there, basically, I can do that.
+Guys, if you're getting this kind of error now, then change the model, use some different model, test out with a different model. So this is fine. Now what I'll do guys
+I will use the different model
+So, time bidding, transformer is there, sentence transformer is there. Even you can, basically create a mode… sorry, the small number of chunks, okay? Increase the chunks, size, then this model might be work in that case, okay?
+So I have this particular model right now, so just a second
+I can keep it inside the same variable, embeddings
+Then I have to import the embedding from the OpenAI. So, just a second, let me import it. Guys, see, this is the benefit of creating a notebook now, so that easily you can get the code, okay?
+Sunny
+21:55:17
+While you're getting stuck somewhere, then easily you can take that particular code. Now, this is fine, and I think embedding model is there. Even I can quickly check it. So embedding
+dot mbitquery
+See, if I have money inside my, OpenAI account, then it will be working fine. Okay?
+So, just a second, let it complete.
+Even we can use a small model also, that will also be fine.
+Instead of the large model, you can use the small model also.
+So here is my large model, even I can use this small model also. So just a second, guys, let me keep the small model over here
+This is going to be my small model. Okay?
+So, delete it, and then run it.
+I'm betting.embed query, it is giving me the authentication error.
+Incorrect API key provided.
+Okay, this is the incorrect API key. Maybe I change the API key
+Let me do one thing, let me run it again.
+Okay, the API key is not correct, guys, just a sec, let me take a correct API key. Maybe I capped in my Google Colab Pro. I'm just taking from there itself, okay? So give me a moment, I'm taking a correct API key.
+So, where is the not ENV? This is the Env.
+No, this is my API key, so UA
+And this is the WA. Yeah, guys, so the API key is not correct, let me keep the correct API key here.
+So, just a second, this is the
+Wrong one.
+Okay, this is the correct one. So, here is the correct one.
+Okay, so guys, I changed the API key now, let me restart the notebook. Now, after the restarting, what I'll do, again, I will be loading this particular key.
+Right
+Later on, we'll understand how to choose a correct embedding model and all. See, it's very easy, nothing is there. I think I already discussed this in the previous embedding classes, you can check out over there.
+Okay, I have shown you all the different leaderboard and all everything. Okay, so please check out over there, you will be getting
+Load ENB. Now, see, this is true, this is fine
+Now, here, this is required.
+Okay, this is fine, this is fine, this is clear.
+Notice the OpenAI embedding. I can take the small model
+Okay. Now, let's see whether it is working or not.
+Yeah, guys, so this is working. Now let's use the same embedding function over there. So this is my LLM model, LLM invoke
+This is why an LLM invoke is fine. Now what I'll do guys, I will be storing the data. Okay. Okay, so this is my PDF path
+Length of the PDF pages. Okay, this is the chunking, basically
+Okay.
+And now, this is my… all the data
+Let me delete it first
+The cell is not required to us
+Then, there's no metadata, there's the page content, okay? Now, there's the vector store
+Notice the index, now this is the vector store, okay? Now let me add the data inside the vector database. So guys, this process is called the ingestion. So here what I'm doing guys, I'm going to be ingest a data
+Oh, it is giving me some other error. What is the error, guys?
+This is saying, add document chunk data.
+not been implemented. Okay, just a second, guys, let me check what is this issue.
+Is it related to the ingestion embedding? Just a second, let me check the size of the embedding of this particular
+Model, okay?
+So if I'm going to check the length of it, length of it
+I think it is about the mismatching of the length. Maybe I'm using the different length here.
+So, what is the length of this model? 1536. And what I mentioned over here, 3 at 4. Yeah, this is the issue, guys, so just a second
+Let me correct it.
+And even Claude is saying same, so let me initialize it again. So this is done and let me store the data. And I think this time it will be working.
+Okay, so guys, the data ingestion is working. I'm able to store the data, okay?
+And in this time, it won't give me any sort of error, it will be working.
+Sunny
+22:00:25
+Where is this data stored? Actually, it is storing in the RAM as of now. So, going forward, I will show you the other type of vector databases also.
+See, guys, the data is being stored, and you can see over here, it has given me each and every, basically, ID, okay?
+So, you can see the
+UUID with respect to each and every record, just to identify the record as a unique one. So it has given what? It has given me the unique identifier. Got it, guys? Yes or no?
+Is this part clear to all of you?
+If there's part clear, I think we are good to go. So, we are able to load the data, okay?
+We are able to vote, guys, we are able to load the data inside the vector database. Now, after that, what I'll do, guys, tell me
+Yeah, there's an index ID, okay? Which is going to be provided to the… each and every record. Now, on top of it, on top of this vector store, I will call one more method. So it will be working as a retriever
+Okay, so I'm writing over here as a retriever
+Now, over here, I'm passing the K value, so let's say K value is 3. So whatever query I will be providing, so regarding to that particular query, it is going to provide me what? It is going to provide me 3 records, okay? Three similar record based on the similarity search
+So I'll take this retriever
+I'll invoke it.
+And I'll write the query. So I'll write a query, what query I can write?
+What is
+What is
+this
+DeepSeek
+V4 PDF about, okay? Or model about. Let me write over here the model. So, guys, what it is doing is going to be find out the data from where, from the retriever, from the vector database.
+So this providing me 3 chunk
+It is providing me what, guys? It is providing me the 3 chunk, okay?
+Is it clear to all of you? Tell me, guys, this part is clear.
+So we are able to reach where, if you will see, so we are able to reach till here.
+Just look into the diagram.
+So we are able to reach till here. Tell me, guys, till which part we have completed
+So, did we complete the document loading? Chunking, embedding? Yes or no? This vector data part is also clear. Now here, guys, you can see
+We are passing the query
+This query actually is going to the vector database and it is providing a topkit chunk
+So, we are done till here. Till this part
+Till the retriever part.
+Okay.
+till this part, it is done. Now, what I'll do, guys, I will provide this data prompt and the user question to the LLM
+for generating the final response
+Okay, so let me provide it to the LLM so that we can generate the final response. So just a second, guys, let me do one thing. Let me provide this particular data to the LLM
+So, for that
+I'm going to be
+Yeah.
+So, for that, guys, I'm going to be define the prompt template. So let me create the prompt template. So here, basically, I'm going to be write a simple prompt template as of now.
+So here, what I'll be having, I'll be having the template variable. I'm going to be write a simple prompt, okay?
+See, this is my simple prompt, which I have written, this one.
+Right? So, answer the question based on the following context, that's it. Now, what I'm doing, guys, I'm just going to be define my prompt template
+Okay, so prompt template from
+From template, okay? From underscore template. So, let me call it from template, and I'll be providing the template over here
+Now, guys, this is what, guys, this is my final prompt, which I will be… which I will be providing to where, which I will be providing to the, basically
+to my LLM. So there's no additional instruction, this is the context, and this is what is the question, okay? Now, what I'm doing, guys, I'm just going to be import the prompt template. So just a second, let me import the prompt template from the LangChain. So this is the prompt template
+Okay, so if I'm going to be executed, now see, it is saying, prompt template is not there.
+Let me check the correct imported statement, I think we have to import from somewhere else, just a second. Maybe this has changed
+It is a luncheon core, maybe. Lanchen underscore.
+Okay, langshore underscore.com. So, from here only we have to import it. Let me run it.
+And then, this is the prompt, guys. So here is my prompt guide, this is my final prompt.
+This one
+This particular prompt, actually, it is going where this particular prompt actually is going to the LLM. Now here basically I'll be having the context and the user question. These two things. Got it? This is my input variable which I will be getting on runtime
+Sunny
+22:05:38
+Now, we have to understand one more important thing that is going to be what that is going to be a chaining
+Okay, so let me change the component. So here, guys, what I'm doing, I'm going to be changing the component. So tell me guys, the first thing, what is required here? I'm going to build the rack chain.
+Okay, rack chain. So this, first, what is required, guys, tell me.
+Prompt is required.
+Now, along with the prompt, guys, what is required? Tell me model is required. Where this model is where this prompt is going.
+to the model, okay? Now, one more thing is required, that is the output parser. So what this output parser will do, output parser, basically, it will give me the final output, okay? STR in the STR form
+Now, guys, before that, now tell me guys, here you can see the output parser. So, first of all, we'll have to import this output parser. So this output parser, what it will do, it will give the output in the string format, okay? And now, basically, we require the model also. So let me check where is the model, where we have loaded the model
+If you will look into the previous cell, so there basically we have loaded the model. So let me show you the model as well. Where is the model
+Okay, so see, this is the model guide. This is the model LLM. Now just see over here how we are going to build that how we are going to build the rack chain. So first we are passing the prompt. Now this prompt basically we are passing to the LLM. And now this LLM, whatever output we are generating, it is passing to the STR output parser
+Okay
+So this is what guys tell me. This is my rag chain. Now, are we missing something over here
+Are we missing something over here?
+So we are missing the retrieved data over here, okay? So we'll have to add on the retrieved data also. So let me add the retrieved data. Now, how we are going to be at the retrieved data? Now, tell me, guys, what we have in the retrieved data. The first key is called
+Chunk.
+Okay
+First… sorry, first key is called the context. Now, tell me, guys, from where this context will come. This context will come from the retriever. This is the first thing.
+Right?
+This contacts will come from where? From the retriever, and then it is going where? It is going to our custom function that's going to be a format document, format document, okay, so we'll be writing this particular function, I'll show you that
+Now, guys, we have a second key also
+So let me write the second key, that is going to be a quotient
+Now, from where this question will come, so this question will come on the runtime from the runable. So, I will explain you this runable and all in the going forward class. What is this? Now, over here, guys.
+You can see this is my complete chain. Now, this is my custom method. This, format method, let me write over here dev format. Now, it will take the page content from the document, from the retrieved data, okay? This one.
+Got it. Now, we have the renable parser also, so let me, take the runnable pass through, so it will take a question in the runtime
+Okay, so it will take a question in the runtime. So we have format document, then we have output parser, then we have a runnable pass through. Now this is what this is my complete rack chain. This one
+Okay, so if you will look into the prompt, guys, so in the prompt, what we are doing, we are passing the context, means whatever data we are retrieving from the vector database. This is my question
+Okay, and there's my additional instruction, this one. So let me create a rack chain
+Okay, now what I'll do is, I will invoke it. So here I will write the same question which I asked to my
+Which I asked to my Jimny model. So, if I can show you the previous question, let me take the previous question.
+So, what was my previous question, guys? Here I ask, na. It is about the model, okay?
+So, this is not the one, let me check where it is. Okay, what I can do, guys, just a second.
+You can ask any sort of a question, right? So I'm asking any question regarding this particular PDF, regarding this particular PDF, DeepSeek B42406. So I'm asking the question
+What is the release date?
+Deep Sea
+B4
+Before
+Research
+paper.
+Okay.
+So I asked this question to the model, let's see what it is going to be generated. So, so you guys, this is the answer.
+This is the answer, basically, from the
+Tell me, guys, this is the answer from where, from the…
+Tell me, guys, from where we are getting this answer. Tell me fast.
+From the simple AI assistant, okay?
+So let me keep this answer over here
+Let me keep this answer over here
+So, here is the answer.
+Answer
+From the
+Simple
+AI assistant.
+Okay? This one. Now, guys, let's do one thing, let's ask the same question. So, what was the question, guys?
+Sunny
+22:10:44
+What is a
+release date
+DeepSeek
+V4
+Model.
+Okay.
+DeepSeek before research paper, right? I written the research paper, is it, guys?
+So, this is the question. Now, let's see what it is going to be generate. If I will show you the answer, the final answer
+Pricing argument text dict object is not an instance of STR
+So, what is the issue over here?
+A retriever is there, rentable pass-through
+And prompt LLM is their output.
+What is the issue, guys? Just a second, let me debug it.
+Here, here, here, this is fine.
+We are getting the output of the retriever, okay?
+So, let me take the output of the retriever
+This is a document
+Okay, just a second, let me add something
+This is the output of the retriever, no?
+So, I think this is fine. I can check the page content
+Yeah, this is fine, guys.
+See, this one is getting a store inside the in-memory right now, okay? We are using the in-memory vector store, got it?
+Just a second, guys, let me check out the server. I think it is all about the string formation and all. Maybe something we are formatting the wrong way, that's why we are getting it. So let me debug it.
+Something we are not formatting correct, no? That's why we are getting it.
+Oh, okay, question is here
+Then…
+Okay, I think, guys, we should not pass what we are there. Quotient is there, na?
+cautioned
+Okay, just a second, guys. I think we… no need to provide the question over here, just a second. I'm passing it without the question.
+I'm passing it without the question here. Let me run it.
+Okay.
+So, guys, over here, you can see it is saying, based on the provide context, the release date of the DeepSeek before research paper is not mentioned.
+Means it is not able to give me a correct response, right, so let's do one thing, guys, just a second. So let's ask the same question to our retriever, okay?
+So, let's ask the same question to our retrieval. Let's see what it is providing to us. So, this is the, like, question which I'm providing to the retriever, and let's see what kind of context we are getting from there
+So if you will look into the contacts… so this is the context, guys, okay? So, let me check out the first one. You will have to check the context, right, what we are getting from the basically this one vector store
+So this is the first one.
+Okay, let's check out with the second one, second context. So this is the second context. This one.
+Okay, somewhere, basically, if it is not giving the… if it is not giving the date, okay?
+So, see, it is telling about what? It's telling about the
+Researcher, okay? Now, let me check out the third one. So, can you even tell me how many documents we are going to be retrieved from the vector database?
+So, it is saying DeepSeek KI
+P3 technical report 2024
+Okay, 24. It's giving me some URL, but yeah, not the proper one. So here, basically, we are retrieving the top 3 chunks. Now, instead of the top 3, let's say if I'm going to be retrieving top 10K chunks, okay? This one. So, let me retrieve top 10 chunks
+And let's see
+Whether I'm able to retrieve this particular result or not, okay, so this time, guys, what I'm doing, I'm going to be retrieving top 10 chunks
+Right? I'm giving more context to the LLM. Let's see what will be happening. So template will be same. This is fine. Now everything would be same. There's my format document SDR output parser rack chain is going to be same. Now again, I'm going to be generate the answer
+Okay, so here also it is saying with the provider, there is no mention of the release date for the DeepSeek B4 research paper
+I think it is not able to match the contact. The context is not matching at all. So what we can do, guys, we can ask the question in a different way, okay? We can check out with the research paper also that what have been mentioned over there, whether they have mentioned about it or not
+Sunny
+22:15:58
+Whether we have done the correct parsing or not.
+See, the model have mentioned like this.
+Let me take a correct model name, okay? And in that particular manner, we can ask… see, guys, this is
+That's why, guys, RAG is very… we have to be, like, work on a different, different component of… with respect to the rag, okay? The retriever component, okay, what we are going to be retrieved from the vector database, something like this. Now, guys, let's try to mention this particular model name before
+So, if I'm going to be mentioned this, DeepSeek B4, let's see
+Okay, it is Singh, it is not mentioned. Just a second, guys, let me check whether we are going to be read the correct PDF or not.
+This is our PDF
+Whether we are able to read the correct… this is the PDF, right? B4 PDF
+Okay, this is our PDF, na? Let me run it one more time, this is fine.
+This is fine, this is fine. Recursive keratitis, but now this time, guys, I'm creating 1,000 chunk. Okay, now I'm keeping the overlap around
+300 over here. Okay.
+Or let's keep it 400. This one. So this is the hyperparameter which you can change. Later on, I will talk about it. So there's a chunk data. Now, let me see how many chunks we are able to create right now
+So this time we have 283 chunks, okay? Earlier we were having the 588 chunks around
+So let me check the metadata, this is fine. This is also fine
+Okay, now what I can do, guys, I can store it inside the vector database
+So this is perfect. This is also good
+No, I'm going to be store it again, okay? So, guys, that data is being stored inside the vector database, just a second.
+So, data is stored again. Now, let me check how many rows are there. I think it is around… okay, so this is stored. Now what I can do, I can basically create a retriever on top of that. And then again, I can invoke it. So this is the result which I'm getting
+I believe, guys, the result is not same
+Okay, for everything. Now, here I can ask what is our release date
+Maybe this time, I might… I might get some information, okay?
+So let's see
+What is the information I'm getting?
+Okay, so guys, I am retrieving 10 document now, okay? So, this is the template, this is the prompt template, this is fine, this is also fine. Format doc ester, enable pass through rack chain
+And then again, I'm going to be invoked
+Guys, why it is not providing, there's no information regarding the release date. Okay, let's ask some other question. What else I can ask?
+with what I can check…
+I think, see, the date is not there, maybe. The date is not there, maybe, because of that, it is saying like that. Okay? So let's, ask some other question, what I can do, guys, just a second.
+I can check with a different question.
+mixture of expert. DP for one service, like a
+Okay, let's ask guys this one. DeepSeeks Pro, how many parameter was there in the DeepSeeks Pro, okay? So this is the question, basically, I'm going to be asked. Wait, guys, okay? I'm going to change the question
+How many parameter was there inside deep seek
+1.6 trillion per… 1. Sorry, how many parameter was there inside the B4 model, B4 Pro model? So, this is going to be my question. I'm asking with my rack chain
+Okay.
+So, DeepSeek Pro. What is the number of parameter
+How many parameter… how many
+Parameters are there
+In the
+DeepSeek B4 Pro model
+Guys, this is… this is fine, guys, tell me yes or no. Is this question fine? Can I… can we check out with this particular question? Okay, let's see with this particular question what we are getting. So otherwise, guys, I'll change the model. I'll use a different model in that case. Okay?
+So, we'll be using a different model then.
+So, let's see how many parameter
+Okay, guys, see, here it is able to pick that
+It is saying 1.6 trillion total parameter of 419 billion. 419… 49 billion are active for the East token. It is able to pick it, guys. Now, let's do one thing, let's try to ask the same question to our normal LLM.
+Okay, then compare it
+Then compare it, guys, okay? So here, what I'm doing, I'm just going to be provide the same quotient to our normal simple assistant
+Give me a moment, I'm just checking. So, this is the normal single assist… simple assistant, and I'm passing the same question over here
+Sunny
+22:20:59
+And let's see the answer. See, this is the answer, guys, which is being provided
+By the normal AI assistant. So, I'm comparing the both answer. Now you will see the differences over here. Okay. See guys, this is the both answer.
+So, what this normal AI assistant is saying, there is no such model. Guys, can you see the clear difference
+So, can you see the clear difference between this answer and this answer?
+Yes or no, tell me.
+So this is a benefit of the RAG
+This is what, guys, this is the benefit of the rag. This is the unpaid model, this is the free model which we are using from the Google
+Okay.
+You can ask some other question also. Let's try to ask some other question. So what I'm doing is, what question I can ask? Let's ask something else, guys. Okay, so here
+I am going to take a different question from the DeepSeek paper itself. Just check out the DeepSeek paper.
+Okay.
+reasoning model, V4 flush
+Okay, let's ask about this one. DeepSeek V4 Flash. How many parameter was there?
+So, I'm just checking with this particular
+DeepSeek before flash model
+Okay, guys, see, if it is giving the correct answer means our RAG pipeline is correct. Means our rack pipeline is working. See, in front of you only, I developed the entire rack pipeline, okay? I haven't pre-prepared this code.
+So this is fine now, let's see.
+Based on particular, 284 total billing parameter with 30 million active. 284 is saying. Let's see what it is, what we are having inside the PDF.
+So, yeah, guys, it is able to capture
+Tell me, guys, is it getting killer to all of you?
+Means our Rehak pipeline is working fine. At the end, it is working, huh?
+Okay.
+Or, give me, like, a typical one, then I… then I'll ask, okay? Just let's ask something else from here.
+What I can ask.
+Like, what parameter B4
+So, this policy optimization
+Okay, so it is saying GRPU have been applied. Now let's ask about this one.
+Let's ask about this. So, this is the… another question.
+Which
+RLHF
+is used inside the DeepSeek B4 model, okay?
+So guys, they are… they are saying that they have used the
+Which one, guys? They have used the, with that, GRPO one, right?
+So, if it is able to capture, maybe it will be… it will give the current answer.
+So, it is saying, let's see, guys, what it is saying
+does not provide tech, there is no enforcement from the human method is used in the deep CPU. The contact model reduced length of penalty, RL model. Let's specify the RL itself. Okay, so what is the exact thing?
+Sft
+I think it is not with respect to this, the post-pipeline default series feature the two-stage paradigm, independent cultivative, domain special, followed by the unified consolidation via on-policy distillation. Initially, for each target domain, such as mathematics, coding agents
+A server train independent first
+The base model for high-quality stabilizer reinforcement learning is applied, okay?
+So reinforcement learning, let's write this word only
+Don't write that RLHF. I think the RLHF was not there
+reinforcement learning
+So, guys, you will have to, like, keep this thing in your mind, right? Which thing you are providing, exact the correct word or not, right? So, or else, in that manner, you will have to provide the context to the prompt. You will have to write a very extensive prompt in that case.
+Okay
+I think our relationship was not there, no, that's why it haven't picked. Oh, great guy, so it is able to pick now, see.
+It's able to pick. So, based on the provided, tags, the DeepSeek B4 user, GRPO as a reinforcement learning method during the post-training pipeline
+Okay, guys, we are able to build that pipeline very clearly.
+Now tell me how many people are… how many people have understood this entire solution of the RAG
+Sunny
+22:26:04
+Because RLH award was not mentioned inside the prompt… inside the paper.
+explicitly will have to define that inside the prompt in that case, okay?
+Then define inside the prompt, no. You will have to identify that what is correct, what is not correct, what you need to provide based on the given data and all, okay?
+See, Rajinis, you will have to mention some word in that case. You spell explicitly, you will have to define inside the prompt. If you are identifying such scenario, you will have to do that.
+This model is not well and good, and see, you can use the other OpenAI based model, the cloud-based model, if you want more good reasoning in terms of the model and all getting my point
+Yeah.
+Okay. So guys, just go through with the solution, you will be getting everything. Now, let me do one thing, let me give you the quick revision.
+Okay, so just, like, let me give you the quick revision, and then, guys, from next class onwards, again, we'll start from the main component of the RAG, that is a data parsing, okay? I'll discuss a couple of more thing related to that. So guys, let's take a two minute break, quick water break. Then I'll explain you over the blackboard, give you the quick revision, and then I'll
+close the session. Is it fine?
+Okay, so you, you like the solution, guys, this entire solution. So, guys, going forward, you can utilize this solution as a
+Basically what… as a boilerplate for the rag. So everything we can add on inside this only, and so many things we can add over here, the memory, different vector database, different retrieval technique and all everything
+Okay, inside this only. And we can build it on any sort of a database, okay? Great. So let's put… let me put timer for the 2 minutes, then we'll start, guys, okay? Let me put it for the… yeah, 2 minutes.
+So thank you guys, I'm taking a quick water break, and then basically we'll revise the solution. Thank you.
+Sunny
+22:33:40
+Okay, guys, can we, again, revise the session? Tell me, if everyone is back, then I think we can start. I'll just take, 5 more minutes, and then rest of the thing we are going to discuss in the next class, okay?
+So, you understood the entire process, and why I have… see, why I have shown you this entire solution, so that you can imagine whatever pipeline we have discussed in our previous class in terms of theory, so that you can understand that what is happening in the practical
+Actually, right? So we have implemented the entire pipeline in the LangChain, okay? And, I hope for this entire thing is clear. Now, let's do one thing, just a second. So, whatever reaction we have created over here.
+If you will scroll down, okay? So I'm scrolling a little fast, let me reach to the last cell
+So, whatever,
+Basically, peraction we have created now this one
+Let me copy the RAG chain, let me keep it over the blackboard
+Let me explain you that, okay? So this is our complete reaction, guys, which we have created. Now, what is happening over here, see?
+So
+First, I'll ask to you, and then I'll explain you. Now, just focus over here, see this one.
+Now, tell me, guys, from where this, context is coming, from where this context is coming
+And what is the meaning of this format docs, okay? What is this question?
+Right, this one. Now, everything we are passing it to the prompt. Then everything is being passed to the LLM. And then finally we are going to be generate the output. Okay, so if you will look over here
+If you will look over here, the context, basically. So, this context actually is coming from the vector database
+Okay? Vector database. Now, format document means what? So, whatever context we are retrieving, it is a document object
+So this is what, guys, this is a document object. Now, from this document object, what we are doing. So from this document object, actually, we are going to be extract the page content
+Okay.
+We are going to be extract the page content, that's the meaning of the format document. Now here we what we have, we have a user question. Let's say I'm asking how many parameter was there
+How many parameter
+Was there inside the
+V4 model
+Okay, so this will go… this question, basically, it will go where? It will go to the retriever. It will get the necessary context, okay, the necessary context will come over here
+Then everything, this particular information, everything will go inside the prompt, so my final prompt will be formatted over here
+Final prompt will be formatted over here. Now, the entire information will be going to the LLM
+Okay? And then, Wolder LLM is going to be generated. Again, it is going to be an output object.
+Output object.
+Now from this output object, what we have to do, we have to capture the string
+Okay? We just have to capture the final output, that is a string, R string, and for that only, we are using this string output parser
+Giving my point, guys, if you want to convert that particular output into the JSON, then I will be using the JSON parser. If I wanted to convert that particular output in the HTML, into the YAML, so I'll be using that particular parser, okay? As of now, I wanted to show you that output in the final, string format, okay, in the final, basically
+Text, okay? So that's where I'm using this STR output parser. So this is the complete rack chain, okay? Now, guys, this is the LCL method. In the LCL, what we do, we use this pipe operator in the lang chain, and we are going to be connect all the component of the RAG
+Okay? Now, before that, basically, we are having the specific chaining method, sequential chaining, parallel chaining, okay? Different, different chaining method was there in the previous LangChain version, but now in the updated version, basically, we just have this LCL method. Everything working in the backend. Okay
+Okay, the next… this is called the Langchen Expression Language. We are using this pipe operator. Actually, we can connect the multiple component of the rack. Okay? Now, if you will see the rag guys, so rag seems very simple.
+Okay. It is from my experience also, see. Rag seams
+Very simple.
+But guys, if you will see the rag now, so there are so many moving components in the rag
+So many
+moving component in the rack.
+Okay. Now, what is this moving component? What is the meaning of it? So many variable thing.
+The first, basically, our output, it completely depends on the data parsing how we are going to be parse the data. Tell me yes or no
+Sunny
+22:38:45
+Now, after the data parsing, my output is completely depend on the chunking. Whether do be required or not, whether we have to perform it or not, okay? Then guys, this particular data, we are going to be
+embed, correct? So, again, we have a different, different kind of embedding model. Now, which embedding model we have to use, right? Which embedding model is a suitable? What should be the dimension of the embedding model? All this thing, we have to be decide. Okay?
+So data parsing, then chunking, whether we have to do it or not, on which pitch basis we have to do the chunking, or which embedding model we can use, correct? If you don't know anything, and if you want a good accuracy, in that case, you can simply use the OpenAI or the Anthropic-based model or the paid Gemini based model that will be working
+Very accurately, and it will provide you the very good result, okay? So these are the first thing, basically. So tell me, guys, when I started with this rack, did I start with the data parsing only? Tell me yes or no
+Now, if you will look into the today's solution… So, the today's solution, basically, directly, we are going to be load the data using the… from the PDF.
+Again, simple, we are using the simple LangChan loader over here, we're loading the data right within the real time, in the real scenario, this data Parsing could be more subjective or could be more typical
+Okay? According to your requirement, you will have to perform that. Now, guys, the second thing comes the vector database. So, if we're talking about the RAG, guys, so we can build a 3 type of RAG, okay?
+The first type of RAG is called the vector DB base RAG
+Okay? The second is called the vectorless rack.
+Okay. And the third is called the graph base rack
+graph-based drag
+So, guys, if you're saying… if we are talking about the vector DB base rack, so it is completely depend on the embedding, embedding operation
+Okay. It is completely depend on the embedding, it is completely dependent on the vector operation
+vector operation.
+Now, we're talking about the vectorless rack, guys, so it is not depend on the vector, embeddings, okay? It is depend on some, similarity search, right? The key… basically, it is depend on some keyword search, okay? It is dependent on the metadata search
+So we are going to retrieve the data, right? Something like that, but it is not completely depend on the embedding. It is not depend on the embedding. Now, if we're talking about the graph-based RAG, so here, basically, we are going to be arrange our data into the entity form
+Right? Entity, and we are going to be defined a relationship between that particular entity, okay? Relationship between that particular entity, that's the meaning of graph. So we can arrange our data, we can arrange our data into this three form, and on top of it, basically, what we can do, we can
+build a retriever actually what we can do, we can build our retriever. Now, guys, this vector-based solution is a very famous solution and to be honest guys it is working quite well in most of the cases okay vectorless RAG again, it is not a magic guys it is not a new method
+It is an old method only
+It is an old method of retrieving the information, so don't think that vector less gets some magic, or it's a new thing, no.
+None of the research paper you will find out around this vector layer. If you will find out some research paper, there also, they have given them more weightage to this vector-based system only. In some cases, in the small document, basically, it is working well with respect… in some small document, okay, it is working like a little well, okay
+Compared to the vector database solution, but it's not completely a magic, and it's an old strategy only to retrieve the information, right? Now, the other concept is called the graph-based rack. Again, it is a subjective, means you will have to perform several POCs to check whether this is working well or not.
+Because it will provide a little complex solution, okay? So if you are able to identify the entity, relationship, or the different, different, basically, entity inside your data, right, in that case, basically, you can go ahead with this particular approach. Otherwise, again, it is not a mandatory one. Okay
+Now, guys, the vector database itself, DB-based approach, it's a database-based approach. Now, guys, this database we can host in a three-way, in a three manner. The first is called the
+First is called the local one
+Okay? And the second is called the cloud one.
+Right? Cloud 1. Okay, and over the cloud also, you will find out the managed data, managed databases, okay? So guys, if we're talking about the local vector databases.
+Right? So there is, again, two-way of it. The first is called the in-memory database
+And the second is called the on-disk database
+There's no persistent deserve database, and there's a trans… there's one more term against the persistent, right? Transient, right? So, that is, in memory, basically, it's a volatile one. So, if you are going to be stop the server, in that case, this data is going to be vanished, right?
+Sunny
+22:43:50
+So, local… in the local, basically in the 2 way you can store the data in the vector database. The first is called the in-memory, and the second is called the on-disk, okay? Now, another one is called the cloud one. So, over the cloud also, you will find out
+Tooth 1, the first you will find out, you will find out the third-party one
+Okay? And the second… you will find the cloud-specific database.
+Cloud-specific database. Now, we're talking about the third-party one, so Pinecone is a best example of that
+Okay? Coordinate is the best example of that, right?
+Maybe it is a best example of that, okay? Now, if you are talking about the cloud specific, so here Amazon OpenSearch is a
+Best example of that
+Okay. Azure AI Search is a best example of that. Azure AI Search
+Okay? Now, this database, actually, it's a managed database. Managed database means what? So, you know need to manage everything in terms of programming, setup, and all this cloud and the third-party services will manage all this thing. You just need to be push your data over there
+You just need to be push your data over the vector database. Now, one question I'm going to be asking to everyone, in today's solution, what kind of database we have used, it's a on-disk, it's an in-memory, it's a third-party cloud-based, or it's a cloud-specific
+Tell me, guys. So, here we have used the phase
+In a memory database
+Okay? Now, going forward, I'll show you the on-disk as well, and then we'll discuss about the cloud-specific also, okay? Now, guys, if we're talking about a vector database, so the vector, the vector database, I think everyone is clear. So we have a data
+And this particular data we are going to be embed
+And then we are going to be stored inside the vector database
+Okay. Now, guys, we have a data
+If we are not going to be embed this data, directly we are going to be retrieve this data based on some rules
+Okay? So this is called the vector less database. Vectorless system. Okay, vector less system
+Vector.
+Less system. Let's say we have a data
+If we are going to be arrange this data into the
+node and edges format
+Okay.
+Node and edges format, so this is called the graph rag
+This is called the graph. Graph
+Okay, this is called the graph, guys, okay? Now, guys, if we're talking about the vector database, so we have two type of vector database. The first is called the local one
+And the second is called the cloud one.
+In the local also, we have two types. First is called the in-memory
+Okay. In memory
+in memory. And second is called the on-disk
+This is good for the POC purpose.
+We are going to be build a real solution in that case, we are going to be using the cloud one. So we have a third party
+And then another one is called the cloud native
+Cloud net
+Got it, guys. Now, these rules, actually, we can define these rules for retrieving the information from the data. Okay, so this is called the vector less like till here everything is fine. Everything is clear. Guys, tell me yes or no
+Right now, guys, see, we have stored the data, we cap the data. Now, what we will be doing, we will be retrieving the data
+So, retrieval will be there. Now, we have a different, different type of retriever. Then, guys, we are going to be past the entire information, okay? So we're going to be past the instruction, our custom instruction
+Custom instruction.
+Plus question
+Okay, plus what? Plus, basically, context. So this is called our complete prompt
+This is what, guys, this is our complete prompt
+Okay. Now, prompt and this retriever again, two more moving component. And then finally we are going to be pass this data to the LLM
+Now, if you are going to be calculate the moving component inside the rag, okay, so you will find out just a sec, let me show you. So the first moving component is a data parcel.
+The second moving component, okay, the first moving component is the data parsing
+Right? The second moving amount is the chunking, and which embedding model we can use, right? This is the first one.
+Then guys, we will find out the vector database, vector loss, and the graph DB base approach. This is again one of the moving component.
+Okay? This is again one of the moving components. Now, guys, you will find out couple of more moving components. See, we are going to use the vector DB-based solution, then a retriever. Even in the vector-less solution also, the retriever, again, it's one more moving component, okay? Means
+Sunny
+22:49:02
+What is a moving component here? The moving component are those components on that are result, the end result is heavily depending
+Those is called the moving component, okay? And then how to manage the prompt
+Management of the prompt also, in the real time, it is, again, a challenge
+This one. Management of the… management of the prompt also, again, it is a challenge, right? So, this is all… this is also we can understand, right? So, guys, if we're talking about the end result of the LLM, end result of the
+drag
+So, it's going to be depend on many moving components
+Right? Many moving component. Now, what is a moving component, guys? Moving component means
+Moving component means
+Those component, okay, component
+Which is affecting to the end result, okay? Component, which is
+Affecting to the end result.
+Okay? So, data parsing, parsing… okay.
+chunking
+embedding
+Right?
+Right? Then, vector DB-based solution
+Then, fifth one is a vector less solution, then sixth one is a graph rack-based solution
+Okay, then retriever
+Retriever.
+Okay. Then, guys, the prompt management
+prompt management
+Okay. Then, guys, which LLM
+Right? Which LLM actually
+Which LLM. And then the tenth one is going to be what the output
+Parsing
+Alright? So our entire RAG result, actually, it is going to be depend on all these component. Tell me, guys, is it getting clear or not?
+Is it getting clear? Now, did you understand this RAG pipeline in a broader way, in a broader term? What is this RAG, actually? So this solution we can utilize as a boilerplate, and on top of it only, we can add on many more things going forward, okay? So, I'll take one more class for the data parsing, where we are going to be discussing the other different library
+Then I'll take one more class, one or two more classes for the vector database, okay? And then I'll discuss the different, different retrieval strategy. Okay, vectorless solution also, and the graph-based solution also. We can discuss that, okay? So after that only, guys, we will be moving to the agents, right? After discussing these many things inside the rack
+So tell me guys, now everything is clear with respect to this entire solution and, the theory and all everything.
+So, did you like the session? Did you like the entire explanation?
+If you haven't, like, if you haven't understand, then again, go through with this particular video. If you have any particular doubt… if you have any doubt, right, then please ask me in the next class. Got it? But guys, yeah, this is a very good notebook. You can go through with it. It will give you the very good understanding
+Okay, this one
+Fine, fine, guys, I think we can conclude the session now. So, thank you for joining. If you don't have any sort of a doubt, you can drop the session. Okay
+Now rest of the thing we'll discuss in the next class. So tomorrow, guys, we have a demonstration of the fine-tuning, basically assignment. So let me show you that assignment
+So, this was our assignment, I think I given in the previous class itself
+I'm giving you all the notes and all, everything, guys, don't worry.
+Yeah, but if you don't have any sort of a doubt, you can
+Drop the session, okay?
+code updated. Now, guys, I am syncing the changes. So, guys, you will find out all the changes over the
+Basically, GitHub only. Please take it from there.
+No, tomorrow, no rack, guys, tomorrow we have a discussion on top of this particular assignment.
+Okay.
+This is assignment, assignment 4, which I given in the previous class
+Previous to previous class, I think
+So, tomorrow we'll discuss that. Okay
+Next week, guys, we'll continue our RAG chapter only. So, couple of more classes for the RAG, and then we'll move to the agent part.
+See, this is a complete, assignment
+Sunny
+22:54:05
+So, tomorrow I'll, give you the chance, guys, where you can discuss all this thing… means you can discuss your solution about this assignment, okay?
+Fine, thank you guys, thank you very much for joining the session. Let's discuss in the next class. Let's connect in the next class and we'll

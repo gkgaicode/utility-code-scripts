@@ -1,0 +1,4 @@
+Class starts : 
+RAG_Pipeline, Data Loader, Embeddings model, LLM : 00:28:30 - 00:55:00
+Break : 00:55:00 - 01:17:00
+End : 02:42:00

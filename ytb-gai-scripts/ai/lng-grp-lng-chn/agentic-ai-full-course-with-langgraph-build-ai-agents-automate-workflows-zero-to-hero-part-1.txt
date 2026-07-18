@@ -1,0 +1,19 @@
+Yes, this video is a comprehensive **11-hour and 35-minute** course titled "Agentic AI Full Course with LangGraph: Build AI Agents & Automate Workflows (Zero to Hero) - Part 1." It serves as a deep dive into building AI agents, starting from the evolution of LLMs and moving through to complex workflow orchestration using *LangGraph* and *LangChain*.
+
+**Key sections of this extensive course include:**
+
+* **Foundations of Agentic AI:** Understanding the evolution from traditional LLMs to autonomous AI agents (0:08:33 - 0:41:26).
+* **Technical Prerequisites:** Coverage of asynchronous programming, *Pydantic* for data validation (2:07:25), and building single/multi-agent systems with *LangChain* (3:27:06 - 4:49:35).
+* **Mastering LangGraph:** A dedicated transition to *LangGraph* to handle more complex, stateful workflows compared to *LangChain* (6:29:37 - 7:44:42).
+* **Advanced Workflow Implementation:**
+    * **Sequential Workflows** (8:29:07)
+    * **Parallel Workflows** (9:19:05)
+    * **Conditional Workflows** (10:15:26)
+    * **Iterative Workflows** (11:06:04)
+
+The video is designed for developers and AI engineers who want to go from zero to building production-ready, automated AI agent workflows.
+
+**Foundations of Agentic AI:**
+The evolution of artificial intelligence has shifted from basic large language models to more advanced agentic systems. Previously, the development focus was primarily on LLM-based and RAG-based applications, but now, AI agents have become crucial for modern application development. These agents are significantly more powerful because they enable automated workflows. Users simply provide a prompt, and the agent interprets the goal, breaks it down into multiple tasks, and completes those tasks by selecting and using the appropriate tools. This autonomy allows the system to make decisions on which tool is best suited for a specific task, making it far superior to traditional generative AI applications. An AI agent is essentially a type of artificial intelligence that takes a goal from a user and works toward completing it with minimal human guidance. It plans, takes actions, adapts to changes, and seeks help only when necessary. This is clearly visible in tools like VS Code, Cursor, and various cloud desktop environments. For instance, when a user asks a simple question like 'tell me about Python,' traditional LLMs rely on their training data up to a specific knowledge cutoff. However, agentic AI goes further by maintaining context awareness, memory, and the ability to interact with external environments. These agents are defined by characteristics such as autonomy, reasoning, planning, and memory integration. The architecture typically consists of a 'brain' (the LLM), an 'orchestrator' (the framework managing the workflow), 'tools' for external interaction, 'memory' for context, and 'supervisors' for human-in-the-loop oversight. This shift from simple chatbots to autonomous agents marks a significant transition in how we build and interact with intelligent systems, allowing for more complex, task-oriented, and reliable automated workflows.
+
+**Technical Prerequisites:**

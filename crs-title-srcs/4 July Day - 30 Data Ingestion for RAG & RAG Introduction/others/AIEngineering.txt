@@ -1,0 +1,1086 @@
+0:00 AI engineering is one of the most in
+0:02 demand skills in 2026 and one of the
+0:05 best books that I've read on this topic
+0:08 is called AI engineering by Chip Huan
+0:11 and this is all about building
+0:12 applications with foundation models and
+0:15 we're going to dive deep into the book.
+0:17 I'm going to share with you a lot of the
+0:19 sections that are within the book and I
+0:21 will give you my own take into it. We're
+0:23 going to dive into the theory. I'm going
+0:25 to give you lots of examples. So, grab a
+0:27 cup of coffee and let's dive into it.
+0:29 Section one, the big picture. We're
+0:32 going to start with the big idea of the
+0:34 book. AI engineering turns foundation
+0:37 models into useful, safe, fast, and
+0:40 reliable products. And what do we mean
+0:42 by foundation models? We basically mean
+0:45 language models. The large language
+0:47 models that we use every day, whether
+0:49 you use Chad GPT, Gemini, Claude, Lama,
+0:52 etc. Those are the foundation models.
+0:54 And there are four main things that we
+0:56 focus on. Is the quality? Is the output
+0:59 accurate and useful? If it wasn't, you
+1:02 won't be using those foundation models.
+1:04 The safety, is it harmful for the user?
+1:07 Is it risky to use? How can we ensure
+1:10 that our data is private and secure?
+1:14 Speed and cost because no one wants to
+1:16 wait 5 minutes to get a small response.
+1:18 So that's very important. But also speed
+1:21 and cost, they come together. If you
+1:23 want something to work faster, it will
+1:25 cost more. So that's also something to
+1:27 keep in mind, especially when you start
+1:28 building AI application. And the
+1:30 feedback, of course, you need to learn,
+1:33 improve over time because when you build
+1:35 something once, you still need to keep
+1:37 refreshing it and iterating over time.
+1:39 So the book is about moving from a
+1:41 simple demo to a real product and that's
+1:43 what AI engineering is. So why AI
+1:45 engineering exists now? So for three
+1:48 main things, better model capability
+1:51 because nowadays we have really powerful
+1:54 language models that can do so many cool
+1:56 things that we're going to dive into in
+1:57 this video. So modern models can write,
+2:00 reason, summarize, code, and work across
+2:02 many tasks. And we now even have agents
+2:05 that can collaborate with each other to
+2:06 perform really crazy tasks that usually
+2:09 takes a few people to do. It also has
+2:10 easy access through APIs with MCPs, etc.
+2:14 So it's easy to use external tools and
+2:16 lower time to build. Have you noticed
+2:19 how quickly now we can build websites or
+2:21 applications using tools like Replet,
+2:23 Lovable, things like this? Of course, it
+2:25 might not be perfect, but to get
+2:27 started, it's insanely fast and that's
+2:30 that's just mesmerizing to me. So more
+2:32 demand plus lower barrier to entry
+2:35 equals a new engineering discipline. But
+2:38 AI engineering is more than just
+2:40 building demos. And that's what we need
+2:42 to understand. demos is one prompt,
+2:44 manual testing, one model call, low
+2:47 stakes, no monitoring. It looks cool. It
+2:50 runs on your computer. You can show it
+2:52 to a few friends, but it cannot sustain
+2:55 hundreds of users, getting quick
+2:57 responses, managing costs, monitoring,
+3:00 debugging, etc., which is what we see in
+3:02 production. We see system design,
+3:05 evaluation pipelines, context tools,
+3:07 routing of different language models,
+3:10 guardrails and reliability, monitoring
+3:13 and feedback loop. And we're going to
+3:14 dive into all these topics in this
+3:16 video. Let me walk you through the full
+3:18 AI engineering life cycle in a simple
+3:22 way. So first we have the use case. What
+3:25 problem are we trying to solve? Because
+3:27 of course we're only going to build an
+3:28 AI system if we have a problem to solve
+3:30 in the first place. Then what's the
+3:33 model that we're going to choose? Is it
+3:36 open AI like GPT? Are we going to use
+3:39 cloud, Opus, Sonet, Gemini, etc. What
+3:42 are the models that we choose? Then we
+3:44 have evaluation. And here by evaluation
+3:47 we mean what is the success metric that
+3:51 we're trying to optimize for? What is
+3:52 the problem that we're trying to solve?
+3:54 But also how do we measure the success
+3:56 of this AI application? Basically, what
+3:58 are we trying to optimize overall? Then
+4:01 we have four where we see the prompts,
+4:04 retrieval, augmented generation, agents,
+4:06 fine-tuning. This is basically the stuff
+4:08 that a lot of people jump into directly.
+4:10 But there's much more to it. And that is
+4:12 just to improve the quality of the
+4:14 output, the retrieval, etc. That those
+4:17 things have their purpose because they
+4:20 help us improve the system overall.
+4:22 Then we have the production architecture.
+4:24 This is to make it reliable, usable at
+4:27 scale for the end user. We also have
+4:30 monitoring and this is where we track
+4:33 failures, costs, latency. This is where
+4:36 we improve the system. And for those
+4:39 that come from a machine learning
+4:41 background, this is the MLOps part where
+4:44 we try to keep things flowing for the
+4:46 end user without breaking consistently.
+4:49 And lastly, we have the feedback loop.
+4:51 This is to keep improving the system.
+4:53 Never consider a system done once and
+4:56 finished. There's always things to
+4:58 improve. Things change, model change,
+5:01 and you need to be aware of that.
+5:02 Section two is foundation models. So, we
+5:05 got to try and explain what they are.
+5:06 So, what is a foundation model? A
+5:08 foundation model is a generalpurpose
+5:10 model that can be adapted to different
+5:12 tasks. Think about it as CHP. It is
+5:16 adapted to help you answer general
+5:19 purpose questions, do research and etc.
+5:22 It is able to take on text, audio,
+5:25 video, images, infographics, all these
+5:28 things which makes it multimodel. So
+5:30 when you hear multimodel, it just means
+5:32 that the language model is able to use
+5:36 images, audio, text etc. and also output
+5:39 the same ones and it is also adaptable.
+5:42 So when we build retrieval augmented
+5:45 generation systems, we are injecting our
+5:49 own data, our own context so that the
+5:52 LLM uses those as context to better
+5:55 respond to our queries. We also have
+5:58 fine-tuning which is where we adapt the
+6:01 language model so that it responds to
+6:03 the way we want and of course we adapt
+6:06 it to our own use cases. So examples
+6:08 here are GPT, Claw, Gemini, Lama and all
+6:11 the foundation models that we see
+6:12 nowadays. So from language models to
+6:15 foundation models and here we basically
+6:17 just see like the evolution. We have the
+6:20 language models, the learn patterns from
+6:22 text. We have large language models
+6:25 which is the same but at scale. It
+6:27 scales the data. They compute the
+6:30 parameters. That's why you hear that
+6:32 there is a model that has 7 billion
+6:34 parameter. another one that has 120
+6:36 billion par parameters etc. So they're
+6:39 just bigger heavier and therefore they
+6:41 can answer more nuanced questions. From
+6:44 there we have foundation models and
+6:45 these are usually general purpose and
+6:47 often multimodel when you start GP or
+6:50 cloud these are multimodel foundation
+6:53 models. Then we have AI applications and
+6:56 that's what you're going to be building
+6:57 on top of those foundation models. So
+7:00 they are built by adapting the model to
+7:02 a real use case. So you use these
+7:04 foundation models, you tailor them into
+7:07 whatever application you want to build
+7:09 to try and solve a business problem. So
+7:12 scale plus postraining plus better in
+7:15 interfaces make modern AI applications
+7:18 possible. Here we're just briefly going
+7:20 to look into tokens and
+7:21 self-supervision. So tokens basically is
+7:24 how language models understand what we
+7:27 give them. So basically every word or
+7:29 every fraction of the word is a token.
+7:32 For example, here just to simplify, AI
+7:34 is a token, engineering is a token,
+7:37 turns is a token, etc. Each one of these
+7:39 is a token that goes into the language
+7:41 model to be processed. They're basically
+7:43 a unit a model reads and predicts.
+7:46 Self-supervision is the predicted next
+7:49 token. And remember that language models
+7:52 are just predicting machines. They
+7:55 always try to predict the next token
+7:56 based on probabilities. It's very
+7:59 advanced and it looks very smart but
+8:01 they are probabilistic not
+8:02 deterministic. So that's why every time
+8:04 you run charg for the same query you
+8:07 might get a different response. So the
+8:09 model here learns by predicting the next
+8:11 token from massive unlabeled text.
+8:14 Something very important to understand
+8:15 is why AI outputs change because the
+8:18 model generates tokens probabilistically
+8:20 as we said. So the same prompts can
+8:23 produce different valid answers. So the
+8:26 key factors that we need to remember
+8:27 here is that there are a few parameters
+8:30 that makes it that the AI or the
+8:33 foundation models ends up generating
+8:35 answers differently every time. There
+8:37 might be the same result. For example,
+8:39 if it's a mathematical formula, but then
+8:41 the way they process it and the way they
+8:43 answer it and the words that they use
+8:46 will differ. And this is because of the
+8:48 temperature which controls randomness.
+8:51 So when we're close to zero is when we
+8:53 want it to be as factual as possible and
+8:56 when it's closer to one is when we want
+8:58 it to be as creative as possible. We
+9:00 have top P which limits choices to the
+9:03 most likely mass. Top K which limits
+9:06 choices to the top K tokens. We also
+9:09 have presence or frequency penalties
+9:12 which reduce repetition. And we also
+9:14 have the system load and nondeterminism
+9:17 can cause variation. So there are quite
+9:19 a few factors that make it that every
+9:22 time we might get a different response.
+9:24 We can see here on the right side that
+9:26 the next token probability distribution
+9:28 it's just a probability and the model is
+9:31 going to go and get the highest
+9:33 probability to predict the next token.
+9:36 And that's why different foundation
+9:37 models when you compare clo or chipt
+9:40 will certainly give you different
+9:41 opinions and different answers because
+9:43 they were trained differently. they have
+9:45 a different algorithm and therefore the
+9:47 responses will be different. That's why
+9:49 we have this conversation that clo is
+9:51 better than chpt for coding. Charge is
+9:54 better than cloth for designing or
+9:56 whatever. So these things is because
+9:57 they were trained differently. So
+9:59 sampling is why the outputs are not
+10:02 fully deterministic. So if we want
+10:04 something deterministic, we can just
+10:05 write a Python code logic or a function.
+10:08 But when you use foundation models, it's
+10:11 probabilistic. And that's something to
+10:13 be aware of. And that's why we get into
+10:14 this hallucination. What is
+10:17 hallucination? It's when the foundation
+10:19 model just makes up something and sounds
+10:22 very confident, but it's not true. You
+10:24 ask a question, as we can see here on
+10:26 the right side, who won the 2024 Mars
+10:29 Cup as if this cup even exists. And the
+10:32 model will hallucinate, Orion FC won the
+10:34 2024 Mars Cup in a thrilling final, but
+10:38 no such event exists. And this happens
+10:40 more than we want to admit because we
+10:42 often think that these models have
+10:44 answers to everything and they're
+10:46 trained to try and answer everything.
+10:48 Unless you put guard rails in place to
+10:50 tell them only research facts and if you
+10:52 don't know return that you don't know,
+10:55 they might made up something and that
+10:57 can be very harmful especially when the
+11:00 work that you provide is very sensitive.
+11:02 So why does the model hallucinate? There
+11:05 are a few different reasons. There's a
+11:06 knowledge gap. Think about it. For
+11:08 example, Chad GPT, they released the
+11:10 last model at some point in 2025. So
+11:13 let's say May 2025. I don't have the
+11:15 exact date. I'm just making something
+11:17 up. So everything after May 2025,
+11:20 technically the model wasn't trained on.
+11:23 And therefore, if you ask about a
+11:24 question in early 2026, it couldn't
+11:27 answer that question without searching
+11:29 the internet. So sometimes you have to
+11:31 prompt it to search the internet to go
+11:32 and get the newest value. Otherwise, it
+11:35 might hallucinate and give you something
+11:37 because it just wants to answer. Other
+11:39 reasons for hallucination, we have
+11:41 pattern completion and probabilistic
+11:43 generation. And I'm regrouping this
+11:45 together because um as we said, the
+11:48 foundation model is just probabilistic
+11:49 and tries to predict the next token. And
+11:51 sometimes it just fills the gap with
+11:53 something that might sound good and
+11:54 probabilistically high, but it doesn't
+11:57 necessarily answer that specific query
+11:59 of the user. So sometimes the most
+12:01 likely next token is not always the true
+12:04 one and language models they don't know
+12:06 that unless you give them context. Also
+12:10 there is weak grounding because as I
+12:12 said if they don't have a good context
+12:15 the answer might drift into something
+12:17 that is completely random and that can
+12:20 harm the results that you get. So
+12:22 hallucinations are reduced with better
+12:24 context evaluation and guardrails. And
+12:27 we're going to dive even deeper into
+12:28 each one of these things in this video.
+12:30 Section three, evaluation. We measure
+12:33 what matters. Good evaluation is the
+12:36 foundation of reliable improving AI
+12:38 system. So why evaluation is the core
+12:41 skill? Because you can't improve what
+12:44 you don't measure. And this works for a
+12:46 lot of different disciplines, but even
+12:49 more in AI. Evaluation turns AI
+12:51 development from guesswork into
+12:53 engineering. Remember that without good
+12:56 evaluation, you're just hoping. And
+12:58 that's a core skill when building AI
+13:01 system. Good evaluation helps you
+13:04 measure progress, compare models and
+13:06 approaches, catch regressions early,
+13:08 align with business goals, and build
+13:11 user trust. Evaluation is the feedback
+13:13 system for AI quality. So if you cannot
+13:16 evaluate the responses that you get, the
+13:19 latency, the cost, everything that you
+13:22 have in the system, you're just flying
+13:24 blind and therefore you might get a
+13:26 serious impact in the way the user
+13:28 perceives the AI system. Why AI
+13:30 evaluation is hard? Yes. So this is the
+13:34 real deal because it's harder with AI
+13:36 system because unlike traditional
+13:38 machine learning, AI outputs are
+13:39 open-ended and often subjective. As we
+13:43 said that foundation models are
+13:45 probabilistic not deterministic and
+13:48 therefore the responses might be
+13:50 completely inaccurate or can be missing
+13:53 context etc and that's why evaluating
+13:55 those responses because most of them
+13:57 they sound good but they might not be
+14:00 accurate and that's something that AI
+14:02 evaluation deals with and that is
+14:05 important for you to understand. So I
+14:06 have a few things in here that I want to
+14:08 look into. So what makes AI evaluation
+14:11 hot? First is open-ended outputs. Many
+14:14 valid answers can exist. So sometimes a
+14:18 response might be a few different
+14:19 things, not just one. Subjective
+14:22 quality, for example, helpfulness,
+14:23 clarity, and safety are hard to score
+14:25 automatically. How can you score the
+14:28 quality of the output of a certain
+14:31 query? It can be very tricky, especially
+14:33 if you don't have the context. Context
+14:35 dependent. Good answers depend on task,
+14:38 user intent, and domain. If someone even
+14:40 didn't phrase their request properly,
+14:42 the response might not be that accurate
+14:45 as they expected. But of course, there
+14:47 are techniques to deal with each and
+14:48 every one of these things.
+14:49 Multi-dimensional quality, safety, cost
+14:53 and latency all matter otherwise thing
+14:55 can become very slow, very clunky,
+14:58 costly, etc. AI quality is not a single
+15:01 metric. It's a lot of things combined.
+15:04 So there are two broad families of
+15:05 evaluation methods. We have the exact
+15:07 evaluation and we have the subjective
+15:10 evaluation. So let's look into each one
+15:12 of them. Exact evaluation which is the
+15:14 objective one is deterministic or
+15:17 verifiable outcomes can be checked
+15:20 programmatically. Example code test,
+15:23 math answer, schema validation. These
+15:26 are to measure correctness and
+15:28 functional performance. So these are
+15:29 things that we can go and evaluate by
+15:31 ourselves by testing. Regarding the
+15:34 subjective evaluation, quality is judged
+15:36 by humans or AI judges. And we're going
+15:39 to dive into AI judges later, but we
+15:42 assess the quality of a response by a
+15:44 human that understands the context. Or
+15:47 we use another foundation model to
+15:49 analyze the response based on the
+15:51 context given in the query to see if the
+15:53 response makes sense. Many good answers
+15:56 may exist which can make it confusing.
+15:58 examples, helpfulness, tone, creativity,
+16:02 explanation, quality. The goal here is
+16:04 to measure user experience and nuanced
+16:06 quality. The nuanced part is what makes
+16:08 this evaluation subjective. Now, we're
+16:10 going to talk about AI as a judge, also
+16:13 called LLM as a judge. So, these terms
+16:15 are interchangeable. You can use either
+16:17 or. One model can evaluate another
+16:19 model's output using a rubric or
+16:21 sideby-side comparison. So, how it works
+16:23 in very simple terms, it defines a
+16:26 rubric and examples. It generates
+16:28 candidate output. It asks a judge model
+16:31 to score and rank them. It aggregates
+16:33 the scores and compares results. So
+16:35 let's look on the right side. We have
+16:37 output A and output B. It's got the both
+16:39 of them are going to go through a judge
+16:41 LLM. And by judge, it's just another
+16:44 foundation model or LLM. It's going to
+16:46 judge those outputs and the context
+16:48 given to them. And then you're going to
+16:50 score them and tell us okay output A
+16:53 gives me a score of 90% output B gives
+16:56 me a score of 75%. Therefore output A is
+16:59 the winner and that's the one that is
+17:01 going to be chosen as a response for the
+17:03 user. But as you can imagine it's not
+17:05 because you use AI as a judge that it
+17:07 means that there is no bias. There are a
+17:09 few limitations like biases,
+17:12 inconsistencies or model specific
+17:14 preferences and these are things to be
+17:16 aware of. Let's look at evaluation
+17:18 system design. And here we have a
+17:20 general pipeline for evaluating AI
+17:22 system. We start with testing the data
+17:25 which is the questions, the tasks.
+17:27 Basically, we are still here trying to
+17:30 figure out the benefits for building the
+17:32 system in the first place. Then we have
+17:34 the model which is the system under
+17:36 test, the foundation models in action
+17:38 here. Then the evaluator, the human or
+17:41 AI as a judge to evaluate the output
+17:44 given by the model. And we here we're
+17:46 abstracting a lot of the things that are
+17:48 happening in between each one of these
+17:50 layers. Then we have scores and metrics.
+17:52 So we score the results that we get from
+17:55 the human or the AI judge per criteria.
+17:58 And then we can make informed decisions
+18:00 whether we ship or we improve. And this
+18:03 is like an iterative loop that goes back
+18:06 into testing, modeling, evaluating,
+18:08 scoring and making decisions. Model
+18:10 selection is not just leaderboards.
+18:12 Public leaderboards are useful but they
+18:14 rarely reflect your exact use case.
+18:17 Why leaderboards fall short? Because
+18:18 different data sets, tasks and metrics.
+18:21 So there is complexity. There is nuance.
+18:23 It may not match your domain or language
+18:26 which might be important for your
+18:27 organization. It doesn't capture cost,
+18:30 latency or UX choices. It changes
+18:33 quickly over time and the data
+18:35 distribution is unique which in reality
+18:38 it might not be. So what to do instead?
+18:40 Define your use case and success
+18:42 criteria. And this is literally the step
+18:44 number one that you need to focus on.
+18:46 Build a private evaluation set which is
+18:50 going to be referenced later on to
+18:52 improve the quality of the output. Run
+18:54 sidebyside benchmarks. Spending time on
+18:57 these things might not seem very
+18:59 exciting, but that's what gives you a
+19:01 better quality output that you can trust
+19:03 and the users can trust as well.
+19:05 Evaluate quality, safety, cost and
+19:08 latency because cost can quickly
+19:11 increase and latency can also quickly
+19:13 dramatically increase and you might
+19:15 start losing users because of that and
+19:17 make datadriven decisions so that you
+19:19 can improve the system over time. Let's
+19:21 look at the evaluation pipeline for
+19:23 production. So now we're talking serious
+19:25 stuff. We have the first one is test set
+19:27 the tasks, the prompts, the edge cases
+19:30 etc. We move into the system version
+19:32 where we have the model, the prompt, the
+19:35 tools, retrieval, augmented generation.
+19:37 This is the basis of the system. Then we
+19:39 have the evaluator. Is it human
+19:41 evaluating or AI is a judge evaluator.
+19:44 Then we have the score for the quality,
+19:47 safety, cost, latency. Then step five,
+19:50 we make decisions. We ship, we hold or
+19:52 improve. So here we we make a decision
+19:54 on is there anything to improve or are
+19:57 we going to ship that model? And then of
+19:59 course we have the monitoring that will
+20:00 track the production behavior because
+20:02 things will drift, things will change
+20:04 and we always need to keep improving the
+20:06 system over time. So evaluate after
+20:08 prompt changes, model changes, data
+20:11 changes and tool changes. So after every
+20:13 change you need to be able to evaluate
+20:15 so that you know if anything broke or if
+20:17 anything changed your system
+20:19 drastically. Section four improving
+20:21 quality prompts, context and guardrails.
+20:24 Prompt engineering is the first lever.
+20:26 It is the fastest way to change model
+20:28 behavior without changing the model
+20:30 itself. Why does it matter? Because it's
+20:32 fast to test and iterate. Changing a
+20:34 prompt is as easy as just replacing the
+20:36 prompt that you had before. It's low
+20:38 cost compared to fine-tuning, which
+20:40 we're going to talk about briefly later.
+20:42 Useful for format, tone, and
+20:44 instructions. We can write in the prompt
+20:46 what format we want, the tone, the
+20:48 instructions, everything within the
+20:49 prompt itself. It's often the best first
+20:52 step before bigger changes. It's cheap.
+20:54 You don't need retraining. It's
+20:56 flexible, easy to adapt per task, and
+20:59 it's practical. It's great for early
+21:01 iterations. And also, one tip is try to
+21:04 version your prompts. So, if you change
+21:06 your prompts over time, try to keep a
+21:08 copy or a version of the previous
+21:10 prompts in case you want to revert back
+21:12 or compare the output of them. So, start
+21:14 with prompts, then move to rag, then
+21:16 agents or fine-tuning if needed. Let's
+21:19 look into the anatomy of a good prompt.
+21:21 Strong prompts combine clear
+21:22 instructions, useful context and a
+21:25 target output format. So first one we
+21:27 give it a role or a system. So we set
+21:30 the behavior and the rules. We can say
+21:32 it's something like act as an
+21:33 experienced data scientist or act as an
+21:36 experienced SEO manager or things like
+21:38 this. So you give it a role. Then you
+21:41 state the tasks. State exactly what to
+21:43 do exactly. You have to be precise. Then
+21:46 give it the context. So provide facts
+21:48 and background. Then give it examples to
+21:51 show the pattern that you want. And
+21:53 finally explain the output format that
+21:55 you want. Do you want it in JSON? Do you
+21:58 want in HTML? Do you want me in
+22:00 markdown? Explain exactly how you want
+22:03 it to be. So we have a small example
+22:05 here. You are an expert assistant.
+22:07 Summarize the report. Use the notes
+22:09 below. Return three bullets and one
+22:12 action item. Of course, this is small
+22:14 and summarized, but you get the idea.
+22:16 Clarity always beats cleverness. Let's
+22:19 look at prompt engineering system
+22:20 design. Prompting in production is more
+22:22 than a text box. So we have the user
+22:24 input. So the user input is the query.
+22:27 What is the user asking for? Then we
+22:29 have the system prompt. The system
+22:31 prompt is that detailed prompt that
+22:33 explains to your AI system, what it is,
+22:37 what is it doing, what's the purpose,
+22:38 etc. So that's a system prompt. It's
+22:41 always used every time there is a query.
+22:43 The system prompt is always the first
+22:45 thing that our AI system goes through.
+22:47 Third, we have the retrieved context. So
+22:49 in order to answer the user input, we
+22:51 need to get the correct context for it.
+22:54 That's why we're going to retrieve it.
+22:55 That's usually something that is done in
+22:56 ra retrieval augmented generation where
+22:59 we do have a knowledge base and we
+23:01 retrieve the correct context to answer
+23:03 the user input. Then we have a few short
+23:06 examples which is where we give via a
+23:09 prompt a few examples of how we want the
+23:12 response to be. We call that a few short
+23:14 examples. that is usually tested with
+23:17 evaluations. Then number five, we have
+23:19 the prompt builder. So basically what
+23:21 happens, we have the user query, we have
+23:23 the system prompt, we have the retrieved
+23:25 context with a few short examples. All
+23:28 these are built into a prompt given then
+23:31 to number six the foundation model to be
+23:33 able to answer us the way we want. It's
+23:36 going to go through the output parser
+23:38 and validator. So it is going to
+23:40 validate the structured output. For
+23:42 example, we said that we want it to be
+23:44 in JSON format to then give us a
+23:46 response. Can you see all the things
+23:48 that it goes through when it's put like
+23:50 this? It's very simplified. So, always
+23:53 think about it from the user side. The
+23:55 user gives the query, but the AI system
+23:58 has a system prompt. Then the our
+24:01 retrieval augmented generation system is
+24:03 going to retrieve the context needed to
+24:06 answer that user query. So, there is
+24:08 chunking, indexing, there are a few
+24:09 things that go into there. is going to
+24:11 also look into the few short examples
+24:13 given so that it gets inspiration from
+24:15 them and all that is going to be passed
+24:17 into a prompt builder that's going to be
+24:20 used by the foundation model before
+24:22 being able to answer us. So production
+24:24 prompting needs structure testing and
+24:27 output control. A very important topic
+24:29 is prompt attacks and prompt injections
+24:31 and trusted inputs can try to override
+24:33 your intended system behavior. So common
+24:36 attacks that we see ignore previous
+24:38 instructions, reveal the hidden prompts,
+24:40 follow malicious content from retrieved
+24:42 documents, trick the model into unsafe
+24:45 tools. And this is stuff that we see a
+24:47 lot because anyone can inject any sort
+24:49 of information or make the language
+24:52 model behave in a certain way because
+24:54 it's so some hidden text or some
+24:56 injected content within it. So that's
+24:58 something to be aware of. So the
+24:59 defenses here is to keep the instruction
+25:02 hierarchy clear, treat retreat content
+25:05 as untrusted, restrict tools with allow
+25:08 lists and permissions, check outputs
+25:11 before they reach the user. And that's
+25:12 very important. Prompt injection often
+25:15 enters through user input files, web
+25:18 pages, and retrieved contexts. And
+25:20 that's why we need guardrails system
+25:22 design in place that can be placed
+25:24 around the full AI workflow to help us
+25:27 keep this system as secure as possible.
+25:31 And here we're going to see that in this
+25:32 system here we have a few guardrails in
+25:35 place. So we have the user input that is
+25:37 going to go through the input check. So
+25:40 it's going to be checked as well. Then
+25:41 we have the context retrieval checks. So
+25:44 we're going to check and validate the
+25:46 context retrieved as well if it's
+25:48 usable. Then we have the tool permission
+25:50 layer. Are we even allowed to use those
+25:52 certain tools? Then we have the model
+25:54 and we're going to look into the output
+25:57 check. So the final result is also going
+25:59 to go through a check before getting
+26:01 into the user or the human review. And
+26:03 we have a few things in here like the
+26:05 policy filters, prompt injection checks,
+26:08 schema validation, and escalates with a
+26:12 human to review or an LLM as a judge to
+26:14 review when uncertain. So guardrails
+26:17 reduce risk before, during and after
+26:20 generation. So guardrails is not just
+26:22 before the output, but they can be along
+26:24 the way. A very important part of AI
+26:26 systems is context. And many AI failures
+26:30 happen because the model does not have
+26:32 the right information. Without context,
+26:34 the answers are generic. They can
+26:36 hallucinate, weak personalization, and
+26:39 misses current or domain facts. That's
+26:41 reality. Because as we said, foundation
+26:43 models are probabilistic. the foundation
+26:45 models stopped their training at a
+26:47 certain point in time. So they they
+26:49 don't have the newest information and
+26:52 they're not personalized to you. They
+26:53 are personalized to everyone on the
+26:55 internet. But when you give it context,
+26:57 the answers are more relevant. It gives
+26:59 you better factual grounding, stronger
+27:02 domain performance and more useful user
+27:04 experience. And it's also adapted to
+27:06 you, to your tone, to your style, to the
+27:08 output that you ask it. So context
+27:11 matters extremely in AI systems. So the
+27:14 context can come from retrieve
+27:16 documents, user data, tools, structure,
+27:19 system states, prompts, etc. Let's look
+27:22 at a basic rag system design. We have a
+27:24 user query. Then we have the retriever.
+27:26 The retriever retrieves the data or the
+27:29 chunks from a vector store or a document
+27:32 corpus. So think about it this way. We
+27:35 have a knowledge base that is stored in
+27:36 a database. Let's say a SQL database. We
+27:39 have a lot of documents, PDFs, etc.
+27:42 those ones will need to be chunked which
+27:44 means that we're going to take
+27:45 paragraphs or we're going to take number
+27:46 of characters because putting in into a
+27:49 vector store huge PDFs at once is not
+27:52 optimal because when we try to retrieve
+27:55 some of it to answer the user query
+27:57 bringing whole PDF to answer a small
+27:59 question is not relevant we might need a
+28:01 section a paragraph a page etc we're
+28:03 going to chunk that data from our
+28:04 database our SQL database and put it in
+28:07 a vector store or put it in a document
+28:10 corpus to so that we and use it for
+28:12 retrieval. We're going to take the user
+28:14 query, put it in the same vector space
+28:16 as the retrieved chunk. Then we're going
+28:19 to find similarity and then we're going
+28:21 to pick the relevant chunks and logs
+28:24 prompt with the context. Now that we
+28:26 have the relevant chunks and the user
+28:28 query, we're going to add those into the
+28:30 prompt as context that the LLM is going
+28:33 to use to give us a grounded answer. And
+28:35 this is the whole basis of rag in a very
+28:37 simplified way. we retrieve make sure
+28:40 that we have the context to be able to
+28:42 generate a good output. So the rag helps
+28:45 when the model needs facts it did not
+28:47 memorize or that change over time. Think
+28:50 about it. If you have sensitive data
+28:52 that only your business is aware of. How
+28:54 could a foundation model answer that
+28:56 question for you? It's literally
+28:58 impossible. It doesn't have the context.
+29:01 But when you give it access to your
+29:03 database, you chunk the information that
+29:05 you have a database into smaller pieces
+29:07 so that it's easier to be able to answer
+29:09 questions. Then you're giving the
+29:11 foundation model enough context to be
+29:14 able to answer you in a grounded way.
+29:16 Let's dive a little bit deeper into the
+29:17 racket data pipeline. And this is very
+29:19 interesting. We have two different
+29:20 segments. We have the offline indexing
+29:22 segment and we have the online query
+29:24 time segment. So think about them into
+29:26 two things that go in separate ways. The
+29:29 offline one is what we have as we said
+29:31 the document sources our database that
+29:33 that data is cleaned and passed to be
+29:36 able to be chunked and stored later on
+29:39 into a vector store. So think about it.
+29:40 We have a few PDFs. Those PDFs are our
+29:43 document source. We're going to clean
+29:44 them and pass them. In PDFs we usually
+29:47 have the abstract, we have paragraphs,
+29:49 we have sections, titles, references,
+29:52 etc. Okay? We're going to clean the
+29:54 things that we need, we don't need. Then
+29:55 we're going to chunk them. We chunk them
+29:57 by section, by characters, by pages.
+30:00 We're going to need to find out which
+30:02 chunking method is best for our data
+30:04 because there's no one chunking method
+30:06 that works for everything. We're going
+30:07 to use an embedding model to turn that
+30:09 content into a vector that is going to
+30:12 be stored in a vector store or index. In
+30:15 the online and query time segment, this
+30:17 is the part where the user is going to
+30:19 ask a query and then we're going to
+30:21 retrieve the relevant chunks from our
+30:24 vector store. We're going to use
+30:26 something like a reranker or a filter to
+30:28 be able to to pick and choose what are
+30:31 the best chunks to be able to answer the
+30:34 user query. Then we're going to inject
+30:36 that context into the prompt so that the
+30:38 LLM is able to answer. So a good rag
+30:41 starts with clean documents, strong
+30:43 chunks, and a reliable indexing. And
+30:45 these are things that you will
+30:47 experiment with because there's not just
+30:49 one chunking method. There is not just
+30:52 one embedding model. There's not just
+30:54 one vector store and sometimes you're
+30:56 going to combine a hybrid approach where
+30:58 you look into keywords as they are and
+31:00 also the semantic meaning via
+31:03 embeddings. So this comes with practice.
+31:05 A very important layer of rag systems is
+31:08 the retrieval methods. Here we're going
+31:10 to talk about the keyword search, the
+31:13 semantic search and the hybrid approach.
+31:15 So we have the BM25 or the keyword
+31:18 search method is when we look at exact
+31:21 words. This is strong for rare terms and
+31:24 simple baselines. Let's say I'm looking
+31:26 into the keyword specifically AI
+31:28 engineering. I'm looking into this
+31:30 keyword and I want the response to be
+31:33 able to look into that keyword as it is.
+31:36 I'm going to use a keyword search. But
+31:38 in the embeddings and semantic search
+31:41 layer, it understands the meaning of the
+31:44 search, not just the exact keywords.
+31:47 This is better for paraphrases and
+31:49 useful when wording differs. Let's say
+31:51 that my query talks about AI systems and
+31:54 it didn't mention anything about rag for
+31:56 example and I ask a query about can you
+31:59 tell me more about different AI systems
+32:01 that I should be aware of and the first
+32:04 one the keyword search will go and look
+32:06 into AI systems as it is and try and
+32:09 find in all the documents that you have
+32:11 what is the best possible answer for it
+32:13 but the semantic search is going to
+32:16 understand the meaning it's going to
+32:17 understand okay that AI systems can talk
+32:19 about agency can talk about fine-tuning,
+32:21 it can talk about rug, and it can maybe
+32:23 give you a few chunks that are a bit
+32:25 broader that might answer your request
+32:27 even better. So, the keyword search is
+32:29 best for exact match. Let's say you have
+32:31 some reference ID, you have a specific
+32:33 book title, things like this, you want
+32:35 an exact match. But if you use a
+32:38 semantic, it's best for the meaning
+32:40 where the wording doesn't matter as much
+32:41 as the context. We also have the hybrid
+32:44 search, and this combines keyword and
+32:46 semantic, and it's usually often the
+32:48 strongest one in practice. is better for
+32:50 recall and precision and then there's
+32:52 there's an ability to get both results
+32:55 and try to score them and choose the
+32:57 ones that rank better overall. So using
+33:00 a hybrid approach usually is best
+33:02 overall in many application. Start
+33:04 simple then test BM25 semantic and
+33:08 hybrid on your own data. Let's talk
+33:10 about improving rag quality. Most rack
+33:13 gains come from improving retrieval and
+33:16 context quality because if you feed your
+33:19 language model poor context then you can
+33:23 imagine the output is going to be quite
+33:24 poor as well. So when we have better
+33:26 chunking that's the first step it's the
+33:29 better chunking. So we've split content
+33:31 into useful units and that really
+33:33 depends on the type of data that you
+33:34 have. If it's research paper, if it's a
+33:37 book, if it's Excel sheets, it really
+33:40 depends what what's the data that you're
+33:42 trying to chunk in the first place
+33:44 because not one method will work for
+33:46 everything. Then there is query
+33:47 rewriting where we turn vague questions
+33:50 into stronger searches. For example, if
+33:52 the user wrote a query, the user might
+33:54 make a few spelling mistakes or the
+33:56 context wasn't really clear, there's a
+33:59 query rewriting just to make it a little
+34:01 bit better. We also leverage metadata
+34:04 and that's very important. Let's say you
+34:07 looking into authors and books. You have
+34:09 a lot of books or research papers. Then
+34:11 the metadata of the author name or the
+34:14 country or the publishing company. All
+34:17 these things can be used as filters so
+34:19 that we can narrow down quickly to the
+34:21 responses that we aim for. Let's say for
+34:23 example the user query is to know the
+34:26 last 20 American authors in the data. We
+34:30 can quickly filter by the country of the
+34:32 authors just with the metadata instead
+34:35 of scanning through all the documents to
+34:37 get that information. We also go through
+34:39 a phase of reranking where we reorder
+34:41 results by relevance when we have lots
+34:43 of results. Of course, we need to pick
+34:46 and choose the relevant chunks for it.
+34:48 Then we have the evaluation loops where
+34:50 we measure what helps. Evaluation is
+34:52 always part of a rag system so that we
+34:55 can get the best possible context for
+34:58 the LLM to give us grounded answers
+35:00 because it got the right context. So
+35:02 treat rag as a system to optimize not
+35:05 just a vector search add-on. A few
+35:07 different rag failure modes to be aware
+35:09 of. One is missing documents. The source
+35:11 is not in the corpus. So if it's missing
+35:13 documents, how can you even answer? Two
+35:15 is bad chunks. chunks are either too
+35:17 large or too small or poorly split or
+35:20 you lose meaning along the way. Weak
+35:22 retrieval. The right content is not
+35:24 returned. So the retrieval is a
+35:26 massively important layer because if you
+35:28 cannot retrieve the right context, then
+35:30 the response will be really bad. Next is
+35:32 poor ranking. Relevant content is buried
+35:34 below weaker results. Ranking helps us
+35:37 choose the best chunks so that we're
+35:39 able to feed the language model with the
+35:41 best ones. Then we have stale knowledge.
+35:43 Documents are outdated. documents
+35:46 haven't been updated and that could be
+35:48 problematic in future generations.
+35:50 Unsupported answer when the model says
+35:53 more than the context supports. Rag
+35:55 reduces hallucination but only when
+35:57 retrieval and grounding are strong. And
+36:00 the whole point of rag is to give us
+36:02 more grounded trustworthy answers and
+36:05 reduce hallucination. Let's look into
+36:07 the nuance here and the difference
+36:08 between rag and agents. Rag retrieves
+36:11 information to be able to answer user
+36:13 query in a more grounded way while
+36:16 agents go further. They can plan. They
+36:18 can use tools. They can have access to
+36:20 memory. I can they can take multiple
+36:22 steps. So if we look at rag in a
+36:24 simplified way, we have a user question.
+36:27 We have a retrieval mechanism. We give
+36:29 context to the LLM and we get an answer.
+36:32 So that's the rag in a very basic way.
+36:34 If we just simplify it. Whilst the agent
+36:36 we is given a task, he can plan through
+36:39 it. It can call tools. It can observe
+36:41 the results. It can decide the next
+36:43 steps and give us a final answer. So it
+36:46 really depends on the mechanism that we
+36:48 create for the agents. But they are more
+36:50 powerful. They're given some sort of
+36:52 autonomy that we allow it. We give it
+36:54 tools. We even allow it to review its
+36:58 own work and reason through it. We can
+37:01 even add other agents that can go in
+37:04 between certain tasks to be able to
+37:06 evaluate along the way and make sure
+37:09 that the responses are correct. But we
+37:12 shouldn't necessarily default to agents
+37:14 for any AI system project. And that's
+37:16 where we need to understand are we just
+37:17 trying to answer queries from a grounded
+37:19 source or are we trying to create
+37:21 something like an agent that can really
+37:23 take some sort of actions, use tools,
+37:25 have memory and reason along the way. So
+37:28 rag is best for grounded answering
+37:30 singlestep retrieval plus generation.
+37:32 That's it. And we have agents that are
+37:34 best for multi-step tasks and actions.
+37:36 They can plan, act, observe, and
+37:38 iterate. So agents extend rag by adding
+37:42 planning and tool use. You can always
+37:44 have rack systems that have agents
+37:46 incorporated in them. Let's look at an
+37:48 agent system design. An agent loops
+37:50 through planning, acting, observing
+37:52 until the task is done. We start with
+37:54 the user goal. Then we go through the
+37:56 planning and reasoning. So we try to
+37:58 understand what is the user query. Then
+38:00 the agent is going to select the tools
+38:03 relevant to answer that query. It's
+38:05 going to call the tool via MCP for
+38:07 example. It's going to observe the
+38:10 result that it gets. It going to update
+38:12 the memory with the newest result
+38:14 because it can go back and see what
+38:16 happened before. So it has a memory that
+38:18 we give it and it's then able to take
+38:20 the next action. If that next action is
+38:23 enough context to be able to answer the
+38:26 query, it's going to just answer. If
+38:28 not, it's going to revert back into the
+38:30 planning, reasoning, look at the tools
+38:32 needed, observe, update the memory, etc.
+38:34 It's an iterative process. And there's
+38:36 always a human in the loop handoff if
+38:39 needed, if that's something that you
+38:40 built in in the tool selection because
+38:42 you can give it the tools that it can
+38:44 have access to the observation as well.
+38:46 See if the tools that they were used
+38:49 were correct. And the next action if you
+38:51 see that it gets the right context and
+38:53 it's reasoning properly. Think about
+38:55 agents as workflows with feedback not
+38:57 just one model call. They are workflows.
+39:00 You set up each one of these steps by
+39:03 yourself. That's where we get the
+39:05 intelligence part of the agents but
+39:07 overall they are just intelligence
+39:09 workflows. Let's look into agent tools
+39:11 and permissions. Tools make agents
+39:13 useful but permissions keep them safe.
+39:16 So tools is the ability for the agents
+39:19 to perform certain tasks. If the agent
+39:21 doesn't have a search tool, it won't be
+39:23 able to search the internet. If the
+39:25 agent doesn't have the ability to access
+39:26 your database, it won't be able to query
+39:28 it. If the agent doesn't have access to
+39:31 some external APIs, therefore it won't
+39:33 be able to access them. So agents is not
+39:35 because we call them AI agents that
+39:37 they're able to do anything in the
+39:38 world. We give them those tools. We give
+39:40 them access to those tools. for example,
+39:42 search, database, code execution,
+39:44 external APIs, but we should also put in
+39:48 permission layers as well. And that's
+39:50 the things that we want to control that
+39:53 AI agent. We want to have some allow
+39:55 list, what things that he can do, what
+39:56 things he cannot do, the scope, what is
+39:59 the things that he needs to to perform,
+40:01 the rate limits, stop at a certain
+40:03 points when we bring in some sort of
+40:06 threshold, approval, audit logs, etc.
+40:09 least privilege. Give the agent only the
+40:12 tools and access it truly needs. And
+40:14 it's even better when you create an
+40:15 agent for a specific thing and another
+40:18 agent for another thing. You don't want
+40:19 an agent to be able to access 25 tools
+40:22 and perform 15 different tasks. It's
+40:25 confusing. The memory will blow up and
+40:28 most likely the results are going to be
+40:29 very weak. Remember that useful agents
+40:31 need tools. Safe agents need strict
+40:34 permissions as well. An important layers
+40:36 of agentic systems is the memory. The
+40:39 memory helps agents stay coherent across
+40:41 longer tasks. We have shortterm context
+40:45 where recent messages and immediate
+40:46 conversation context. So this is
+40:48 short-term context. We have task state,
+40:51 the current goals progress and
+40:53 intermediate results. We have the
+40:55 long-term memory which is the stored
+40:57 knowledge preferences and facts over
+40:59 time. We have the interaction history,
+41:02 past interactions and decisions for
+41:04 continuity. But there are risks. Stale
+41:07 memory, privacy issues, and growing
+41:09 context costs. If you've used code,
+41:11 you've hit context limits many times.
+41:14 And that's because if you want the
+41:15 memory to keep long historical context
+41:18 between you and the foundation model or
+41:21 in this case, the agent, it's going to
+41:23 keep adding up and adding up and adding
+41:24 up and adding up. And at some point,
+41:26 every small request is going to go
+41:28 through a massive amount of information
+41:30 to be able to answer. And you don't want
+41:32 that. You either want to refresh the
+41:34 memory, clean it after a certain point,
+41:36 remove certain historical information
+41:39 after a few days. So you need to keep
+41:41 that memory fresh. Otherwise, the
+41:43 context is going to become more
+41:45 cluttered and you're going to risk
+41:46 introducing some privacy issues and and
+41:49 costs as well. So store only what helps
+41:51 the task and forget what is not needed.
