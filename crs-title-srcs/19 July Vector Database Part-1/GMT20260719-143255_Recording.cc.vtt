@@ -1,0 +1,5195 @@
+WEBVTT
+
+00:08:02.000 --> 00:08:06.000
+Hello, everyone, I'm Audible. Can we start with the class?
+
+00:08:06.000 --> 00:08:12.000
+Give me quick confirmation if everyone is there, then we can start.
+
+00:08:12.000 --> 00:08:17.000
+Yeah, good evening to all of you. Let's, start with the session.
+
+00:08:17.000 --> 00:08:22.000
+I hope I am visible, and even my skin is also visible
+
+00:08:22.000 --> 00:08:40.000
+So, just give me a quick confirmation, guys, so that we can start.
+
+00:08:40.000 --> 00:08:46.000
+Okay, so guys, give me a moment, let me check whether my previous class is upgraded or not.
+
+00:08:46.000 --> 00:08:51.000
+So
+
+00:08:51.000 --> 00:09:20.000
+Let me check out the dashboard, okay? But…
+
+00:09:20.000 --> 00:09:28.000
+Fine, so guys, video is updated, and even the resources are also available. You can directly go and check out with the dashboard. Okay?
+
+00:09:28.000 --> 00:09:45.000
+Now, guys, today we are going to start with the new topic that is going to be a vector database. So, in the previous class, we have completed the data parsing. Now, we'll understand about the Vector Database if
+
+00:09:45.000 --> 00:09:50.000
+Everyone is there, if you are ready, then I think we can start with the session.
+
+00:09:50.000 --> 00:09:57.000
+My voice is low, I don't think so, Jyati, please check out, because my mic is perfectly fine.
+
+00:09:57.000 --> 00:10:01.000
+And I hope so my voice is also clear.
+
+00:10:01.000 --> 00:10:07.000
+It is clear, right, guys? My voice is clear. Okay.
+
+00:10:07.000 --> 00:10:23.000
+So, first of all, guys, what we will do… so, first, guys, I will give you the complete, theoretical idea about the Vector Database and all, and then, basically we'll start with the practical, okay? So, I hope you have gone through with my
+
+00:10:23.000 --> 00:10:39.000
+I have, sorry, you have gone through with my… this data passing material, whatever code and all everything I have uploaded. So if you haven't checked so far, please go and check over here. Okay, so all the code and all everything is there, with the different, different library. So whatever is required to us
+
+00:10:39.000 --> 00:10:52.000
+So, I have uploaded everything inside this, folder, okay? And going forward also, guys, we are going to utilize this code base in our end-to-end system, in our end-to-end rack
+
+00:10:52.000 --> 00:10:56.000
+Got it? So, first, let's do one thing. Let me
+
+00:10:56.000 --> 00:11:07.000
+So let me come… let me explain to you the theoretical concept behind the Vector databases, and then only we'll start. Got it? Good.
+
+00:11:07.000 --> 00:11:24.000
+Sir, I'm not able to log in into the hackathon portal using my mail other than Google. Yes, you will not be able to log in. You can only log in via Google itself, and with the same mail ID. With that, you have enrolled inside this course, okay?
+
+00:11:24.000 --> 00:11:28.000
+You will have to use the same bill ID.
+
+00:11:28.000 --> 00:11:43.000
+Sir, please let me know when we can get access to the course, which is a reward. Yes, Jyoti. So, I have given your name, and the 3 more others people named to the team. By this week, you will get the access, okay? I will inform you in the, community chat. Got it?
+
+00:11:43.000 --> 00:12:02.000
+So just give us 2-3 days, because the team was busy with this, batch launch. Today, we have a batch launch, so the team was busy with this batch launch and all. So after launching this batch, no? So, first class is usually free, right? So you can go and check out from over the YouTube. From next week onwards, the actual classes will be started of the advanced route
+
+00:12:02.000 --> 00:12:09.000
+So, in this week, in the upcoming week only, we'll provide you the access, okay? Got it? Great.
+
+00:12:09.000 --> 00:12:25.000
+So, please, provide some samples for the experience. Okay, Ashish, I'll do that. I think I uploaded a couple of resumes, I'm not sure which resume I uploaded over here. So…
+
+00:12:25.000 --> 00:12:32.000
+Okay, only one resume is there, no? I will upload couple of more resumes. Don't worry.
+
+00:12:32.000 --> 00:12:49.000
+If you're not able to access the hackathon, using the registered mail ID, in that case, you can basically write in the committee chat, okay? So our team will look over there, and they will pass this message to the developer, okay? They will look into the portal. Don't worry, guys
+
+00:12:49.000 --> 00:12:58.000
+So, if you're not able to access whatever error and all you are getting, just put it in the community chat.
+
+00:12:58.000 --> 00:13:06.000
+Yeah, there is no option, login apart from the Google API. Yeah, you will have to log in via Google only, Gumar. As of now, it's Google only.
+
+00:13:06.000 --> 00:13:20.000
+And when you are registering for the hackathon, then you need to provide your mobile number. Got it?
+
+00:13:20.000 --> 00:13:31.000
+With whatever mail you have purchased this code, the registered maid ID, use the same mail ID while you are logging to the hackathon portal. Got it? Parth
+
+00:13:31.000 --> 00:13:38.000
+Okay, guys, so let's start with the session. I think we can quickly start with the Vector Database
+
+00:13:38.000 --> 00:13:52.000
+Then, basically will come to the practical side of that. So, can we get the solution already? I have uploaded Ashwini. Please check out the resource section, already, we have uploaded all the GitHub link and all, everything regarding the solution.
+
+00:13:52.000 --> 00:13:54.000
+Got it.
+
+00:13:54.000 --> 00:14:09.000
+Okay, so please see your profile. Yeah, I will definitely put it… I will definitely upload it, don't worry.
+
+00:14:09.000 --> 00:14:21.000
+Yeah, I will ex… I will basically share more assignment, don't worry. Last… in the last class only, I said I will be sharing more assignment, okay? Don't worry.
+
+00:14:21.000 --> 00:14:27.000
+If you want the hackathon link, right now, just a second…
+
+00:14:27.000 --> 00:14:39.000
+I can provide you that link
+
+00:14:39.000 --> 00:14:44.000
+Even you can navigate from the, main website also
+
+00:14:44.000 --> 00:14:46.000
+This is the link
+
+00:14:46.000 --> 00:14:59.000
+Okay.
+
+00:14:59.000 --> 00:15:16.000
+You can check out with a Chris or YouTube channel, it is over there. It is, getting live there, okay? Aruna?
+
+00:15:16.000 --> 00:15:30.000
+Yeah, you can put your contact number, Sovik, will, basically share with our team, right? So, they will connect with you. Okay, guys, I think we can start now. I addressed the enough amount of doubts and all
+
+00:15:30.000 --> 00:15:39.000
+So let's quickly start with the session. So first guys, let me do one thing. Let me open the
+
+00:15:39.000 --> 00:15:41.000
+VS Code
+
+00:15:41.000 --> 00:15:58.000
+Now, inside this VS Code, I created one more new folder. The folder name is the folder name is Vector Database okay so inside this one, guys, I'm going to create a multiple folder because we are going to be discuss the multiple database. Okay. Yes, we'll target the deployment also
+
+00:15:58.000 --> 00:16:08.000
+Okay, we'll see the deployment and all everything. So, guys, what I'm doing over here, I'm just going to be create a couple of more folders. The first folder is going to be files, okay?
+
+00:16:08.000 --> 00:16:15.000
+So we'll discuss about the phase Vector Database then we'll discuss about one more Vector Database that is Chroma DB okay
+
+00:16:15.000 --> 00:16:18.000
+Chroma DB
+
+00:16:18.000 --> 00:16:34.000
+Then guys, we are going to discuss one more vector database. So, let me create a folder over here that is going to be a quadrant. Okay, if I'm not wrong, quadrant d r a n-
+
+00:16:34.000 --> 00:16:49.000
+Now guys, we'll discuss one more Vector database that's going to be Pinecone, right? I will discuss what all the differences we have between these databases, and if you are going to be use any cloud native solution, cloud provider solution, okay, even you can use that also
+
+00:16:49.000 --> 00:17:05.000
+And most of the application, basically, in the real-time application, the enterprise-level application, we are preferring the AWS OpenSearch or Azure AI Search, mainly in the enterprises. So if you know about these databases, right, even you can utilize those databases also. That
+
+00:17:05.000 --> 00:17:09.000
+Completely fine. That is completely, like, easy, okay?
+
+00:17:09.000 --> 00:17:22.000
+Now, what I'm doing, guys… so, these four databases we are going to be discussed, okay? So let me create a file over here, ipynv file. So here I can create a file, FAISS.
+
+00:17:22.000 --> 00:17:29.000
+P, Y, and B, right? Then here inside the ChromaDB also, I can create the
+
+00:17:29.000 --> 00:17:30.000
+Chroma
+
+00:17:30.000 --> 00:17:32.000
+DB
+
+00:17:32.000 --> 00:17:35.000
+Underscore db.ipy nv file
+
+00:17:35.000 --> 00:17:42.000
+Now, inside the pine cone also, we can create one more file, so… pine
+
+00:17:42.000 --> 00:17:57.000
+Cone.ipy and b, okay? Then the quadrant also, I can create one file that's going to be quadrant.ipy-nv, right? So every sort of thing, guys, I capped over here in that… in terms of the theoretical point. We'll discuss each and everything
+
+00:17:57.000 --> 00:18:08.000
+Okay? You will get everything, basically, with respect to the vector database. So if you are learning this concept first time, then you will clearly understand what is a Vector Database okay
+
+00:18:08.000 --> 00:18:25.000
+So, these are many Vector databases we are going to discuss. We have other one also like miles, we have Bayv8, right? So no need to learn every database if you are… if you know about a couple of databases, then you can utilize any sort of a database. Okay, so that's why I selected this four database
+
+00:18:25.000 --> 00:18:33.000
+If you have knowledge of any of these databases, you can basically learn any database, okay? You can utilize any database. Got it?
+
+00:18:33.000 --> 00:18:45.000
+So, what I'm doing, guys, now I'm going to be start. I hope my screen is visible. Couple of people are saying it is not visible. Tell me, guys, it is visible or not. I think my
+
+00:18:45.000 --> 00:18:48.000
+The screen is visible, right?
+
+00:18:48.000 --> 00:18:52.000
+Yeah, everyone is able to see
+
+00:18:52.000 --> 00:18:54.000
+Hmm, okay
+
+00:18:54.000 --> 00:19:05.000
+Fine, guys. So let's begin, let's start. So, first of all, I can provide you this particular folder, and inside, this only will keep the Vector Database and all related code
+
+00:19:05.000 --> 00:19:11.000
+So, what I'm doing, guys, just a second, let me mention the date also. Let me rename the folder
+
+00:19:11.000 --> 00:19:16.000
+So class 33, and the date is going to be 19th of July
+
+00:19:16.000 --> 00:19:29.000
+Okay, I hope everything is clear now, so let me give you this particular folder
+
+00:19:29.000 --> 00:19:47.000
+Now, committing the changes and then pushing it.
+
+00:19:47.000 --> 00:19:54.000
+Your tax splitter and chunking will also come over here, no? Naresh?
+
+00:19:54.000 --> 00:20:11.000
+Yeah. So guys, let's do one thing, let's understand the theoretical concept first, and then, basically we'll come to this, practical side, okay? The practical part of the vector database. Got it, guys. So let me do one thing. Let me open my blackboard and there only
+
+00:20:11.000 --> 00:20:20.000
+Basically, I kept all the concept, the theoretical concept and all. So let's discuss those concepts one by one.
+
+00:20:20.000 --> 00:20:32.000
+Okay, so here, guys, I capped the definition of the Vector database. As you can see. So, what is the Vector Database guys? Have you ever learned about the Vector Databases?
+
+00:20:32.000 --> 00:20:47.000
+Have you ever gone through with a vector databases? If you haven't gone through with those vector databases, if it is new, then, we can understand it from scratch. Now, guys, if we're talking about the Vector databases, right, so this is a clear-cut definition of it
+
+00:20:47.000 --> 00:20:57.000
+So Vector Database store data as a numerical vector, which is called the embedding. And retrieve the most similar vector using the similarity search
+
+00:20:57.000 --> 00:21:07.000
+Getting my point, guys. So this is, like, the very basic definition of the Vector database. So let me do one thing. Let me write over here what is
+
+00:21:07.000 --> 00:21:09.000
+Okay
+
+00:21:09.000 --> 00:21:13.000
+Vector Database. Got it?
+
+00:21:13.000 --> 00:21:16.000
+So guys, here you can see
+
+00:21:16.000 --> 00:21:19.000
+I return what is a Vector Database
+
+00:21:19.000 --> 00:21:20.000
+Let me…
+
+00:21:20.000 --> 00:21:37.000
+Change the color of this text, okay? And this is the… another one. So just focus on this particular text, what I have written. So I have written Vector Database store the data as a numerical vector. I think everyone knows what is the meaning of the numerical vector
+
+00:21:37.000 --> 00:21:52.000
+Right? In the previous classes, we understood about the numerical vector, okay? We understood about what we understood about the numerical vector that what is a numerical vector, which is called what, which is called the embedding also right
+
+00:21:52.000 --> 00:22:11.000
+So this Vector databases we use for store the embedding actually or which is also called what is also called the numerical vector. It retrieves the most similar vectors using what using the similarity search technique. So we have a different, different similarity search technique and using those similarity search technique
+
+00:22:11.000 --> 00:22:26.000
+We are going to be retrieve the data from the Vector database. Now, why we are using this Vector Database so Vector database we are using for merely the semantic search. Okay, for basically rag based system right for the recommendation system
+
+00:22:26.000 --> 00:22:34.000
+Okay, for the image search, where the result found by meaning rather than the exact keyword matching
+
+00:22:34.000 --> 00:22:36.000
+So here, what we are doing, we are doing the vector-based operation
+
+00:22:36.000 --> 00:22:43.000
+Okay, and inside those vector-based operation, we are going to be perform the exact search, sorry
+
+00:22:43.000 --> 00:22:59.000
+Exact, we are going to be, like, retrieve the result based on the meaning, okay? So if two vectors are near to each other, then those vector we are going to be retrieved, right? If the vector are not near to each other, the information is not similar to each other
+
+00:22:59.000 --> 00:23:14.000
+We are not going to retrieve that particular data. So this is the easiest definition of what, this is the easier definition of the Vector database. Now, if you wanted to see all the things in the form of visualization, I will definitely draw that
+
+00:23:14.000 --> 00:23:30.000
+Okay. Now, guys, here is another term… sorry, here is another question. What is a basically index inside the vector database. Okay, so just read out this particular definition, you will get a clear-cut idea. Let me highlight over here what is
+
+00:23:30.000 --> 00:23:33.000
+Vector Index
+
+00:23:33.000 --> 00:23:54.000
+Okay? Somewhere it is called the index, somewhere it is called the namespaces. There is a different, different term, basically, right? But index is a most common term, right? So here you can see, guys, the next definition is what what is a vector index? So vector index is a data structure that organize embedding, so vector database can find Vector quickly without comparing the
+
+00:23:54.000 --> 00:24:03.000
+Query with every sorted vector. Okay, so vector index is nothing, basically, it is just a way of organizing the embedding
+
+00:24:03.000 --> 00:24:23.000
+It is just a way of organizing the embedding, okay? So let's say we have a different, different kind of indexes inside the vector database, flat index, IBF index, HNSW index. So these are some common index, okay? Some common index, particularly some popular index inside where inside the Vector Database
+
+00:24:23.000 --> 00:24:38.000
+Now, Vector Database Store Vector, the Vector Index makes searching those vectors faster, right? So whenever we are going to be store the data, whenever we are going to be organized the data inside the Vector database, we are going to be organized it in the form of index only. Understood, guys?
+
+00:24:38.000 --> 00:24:53.000
+Right? So this is the simplest definition of what, this is the simplest definition of the index. You just need to be remember this particular line. This is the important one. A Vector Index data is structured at organize embedding. Where inside the vector database
+
+00:24:53.000 --> 00:25:01.000
+Now, there is one more thing, guys. There is one more question. So, what is a similarity search, right? So here let me highlight
+
+00:25:01.000 --> 00:25:05.000
+What is a similarity
+
+00:25:05.000 --> 00:25:07.000
+similarity
+
+00:25:07.000 --> 00:25:09.000
+Such
+
+00:25:09.000 --> 00:25:20.000
+Okay, so what is a similarity? REA or CH? What is a similarity, Sarge? Now, guys, this is also very important concept with respect to the vector database, and we have to understood it.
+
+00:25:20.000 --> 00:25:35.000
+So, let me change the color of it. So, whenever we're talking about similarities, similarity search is a process of finding a store vector that are close or most similar to the query vector, okay? This one.
+
+00:25:35.000 --> 00:25:40.000
+I hope it is visible to all of you, this particular definition, this one.
+
+00:25:40.000 --> 00:25:57.000
+Now, guys, it compares Vector using metrics, such as cosine similarity, Euclidean distance, okay, or the dot product. So these are the famous similarity such metrics, similarity such method, which we generally use, right? So here is an example, let's say search for how I can recover my account.
+
+00:25:57.000 --> 00:26:06.000
+So, it may retrieve step to reset your password, because both have similar meaning, even though the words are different. So, we have to focus onto this similarity such metrics
+
+00:26:06.000 --> 00:26:16.000
+Sorry, similar to such methods. One is a cosine similarity, second is a Euclidean distance, and third is a dot product. Getting my point, guys? Yes or no?
+
+00:26:16.000 --> 00:26:31.000
+So these three definitions are getting clear to all of you. If you're not getting clear, we'll understand it again, okay? We'll definitely go through with this definition one more time. Now, whenever we are talking about the Vector Database guys, so there are so many vector database, you will find out
+
+00:26:31.000 --> 00:26:42.000
+Right? So these are a couple of example which we are generally using, okay? And most of the time we are using this particular database. So let me write the question over here
+
+00:26:42.000 --> 00:26:44.000
+Example
+
+00:26:44.000 --> 00:26:46.000
+Oh
+
+00:26:46.000 --> 00:26:49.000
+A Vector databases, okay?
+
+00:26:49.000 --> 00:26:54.000
+or most used
+
+00:26:54.000 --> 00:26:57.000
+Vector Database
+
+00:26:57.000 --> 00:26:58.000
+across
+
+00:26:58.000 --> 00:27:02.000
+the industry
+
+00:27:02.000 --> 00:27:03.000
+solution.
+
+00:27:03.000 --> 00:27:17.000
+Right? So guys, these are some Vector Database where you can take a mastery, right? And, then basically, you can deal with any sort of a Vector database, okay? Any sort of a Vector database or vector store
+
+00:27:17.000 --> 00:27:37.000
+So we'll understand what all… what is a Vector store and what is a vector database. I will give you even that difference also. Okay, it's pretty easy. Nothing is there. So whenever we're talking about the Vector Database or Vector store, right? So there's files and chroma, basically, it is one of the choice for any sort of a POC. We can definitely utilize that
+
+00:27:37.000 --> 00:27:52.000
+If you are going to be master this Wise Vector Database all the concept of the vector database, the algorithm, the index behind the vector database means the vector is stored, it is going to be clear, right? Then the ChromaDB, again, one of the Vector database, okay?
+
+00:27:52.000 --> 00:28:08.000
+Then pine cone, basically, it is again one of the vector database. It is a managed database. Mill bus and the quadrant, okay, this is again widely using in the industry. Many companies are using this particular databases, okay? Then again, one more database, that is a PZ vector.
+
+00:28:08.000 --> 00:28:25.000
+Right, along with the PostgreSQL. There's one more database is being used. Now, we're talking about the cloud provider, then, cloud basically providing us this AWS OpenSearch, which is built on top of the OpenSearch and Azure AI Search, okay? Then again, we have one more, that is Google Document
+
+00:28:25.000 --> 00:28:41.000
+such. I think that is a name. I'm not sure, you can check out. Google is also providing that. So if you are working over the Google, then that is one of the Vector database. Now, guys, if you want to master the fundamental of the Vector Database, all the indexing and all everything, in that case, you can master this to one
+
+00:28:41.000 --> 00:28:49.000
+Let me highlight over here which one you can master. The first is the PHIS, okay? You can master this PHIS
+
+00:28:49.000 --> 00:28:51.000
+The second is the OpenSearch
+
+00:28:51.000 --> 00:28:54.000
+Okay, you can master this open search
+
+00:28:54.000 --> 00:29:13.000
+If you're going to be master this two-vector store, there's two phase and the open search, I think you will be able to understand all the fundamental behind the vector database, okay, all the concept, index and all everything, right? From scratch, basically, everything is going to be clear. One is twice, and the second is the open search
+
+00:29:13.000 --> 00:29:16.000
+Then again, ChromaDB, Pinecone
+
+00:29:16.000 --> 00:29:31.000
+mil-burst quadrant, PG Vector. Okay, again, it is a vector database where, this, the different, index mechanism or the different algorithm is being used for storing the data and for retrieving the data from the vector databases, okay?
+
+00:29:31.000 --> 00:29:49.000
+And all the native, concept is being defined inside these files and inside the OpenSearch. Pinecone, most of the things are the abstract one over here. Quadant, it is just providing you some little configuration, okay? Most of the thing, again, abstract over here. And similar, same thing goes with the other managed database also.
+
+00:29:49.000 --> 00:30:05.000
+But if you wanted to understand everything from scratch, then OpenSearch and Fires is a good choice, okay? Now, guys, whenever we're talking about the Vector databases, so these databases, actually, we can categorize into this four category, okay
+
+00:30:05.000 --> 00:30:20.000
+So, if you want… if we are talking about the management of the Vector Database, management of the vector, basically, so we can categorize into this four category. The first is called the in-memory, okay? The second is called the local persistent
+
+00:30:20.000 --> 00:30:37.000
+Okay, the third is called the vendor West, vendor Menace Software as a service, that is, again, VectorDB. And the third is… fourth is called the Cloud Provider, right? Now, there is one more term that is called the self-hosted. So, yes, many of the Vector Database you can host on your server
+
+00:30:37.000 --> 00:30:53.000
+You can manage everything with respect to that. So this is a… there is a difference between the vendor-managed databases, cloud provider managed database, and self-hosted one, okay? Self-hosted means any Vector database which you can configure on your server. That's a simple meaning of it.
+
+00:30:53.000 --> 00:31:00.000
+So, guys, if we're talking about the in-memory, so PHIS is a good choice for that
+
+00:31:00.000 --> 00:31:06.000
+Okay. And even this Chroma DB is also a good choice for that.
+
+00:31:06.000 --> 00:31:15.000
+Okay? Now, we're talking about the local persistent, local persistent, or over the local disk, okay? Over the local server
+
+00:31:15.000 --> 00:31:21.000
+Then guys, again, we can utilize the files, we can utilize the chroma
+
+00:31:21.000 --> 00:31:23.000
+Okay.
+
+00:31:23.000 --> 00:31:30.000
+Even we can talk… we can utilize… we can utilize this quadrant also. Okay, Milwass also.
+
+00:31:30.000 --> 00:31:38.000
+So this particular databases we can utilize in our local vendor managed one. So again, we have couple of choices, like pinecone
+
+00:31:38.000 --> 00:31:41.000
+Okay, then quadrant
+
+00:31:41.000 --> 00:31:44.000
+Then again, mil was
+
+00:31:44.000 --> 00:31:48.000
+Right? Then we be at
+
+00:31:48.000 --> 00:32:02.000
+So these are the couple of choices, for what… for the vendor management says. Now, we're talking about the cloud provider, guys, so cloud also providing us Wave 8. I think that's the correct spelling, Way B8, right?
+
+00:32:02.000 --> 00:32:06.000
+So, guys, if we're talking about the cloud provider, so…
+
+00:32:06.000 --> 00:32:07.000
+Just a second
+
+00:32:07.000 --> 00:32:17.000
+So, guys, if we're talking about the cloud provider, okay? So, in that case, we have a couple of choices. The first is called the Azure AI Search
+
+00:32:17.000 --> 00:32:21.000
+Right? The second is called the AWS OpenSearch
+
+00:32:21.000 --> 00:32:23.000
+Right?
+
+00:32:23.000 --> 00:32:28.000
+Then the third is called the Google Document AI
+
+00:32:28.000 --> 00:32:44.000
+I'm not sure what is the correct name, let me check out the correct name, okay? Just give me a moment.
+
+00:32:44.000 --> 00:32:58.000
+Yeah, Google is also providing that. So Google is also providing us… there is a couple of names, basically, that is Vertex AI. Okay, you can even say the different other ones. So, Google is providing you 2231, actually
+
+00:32:58.000 --> 00:33:04.000
+Okay, Google is providing what? Google is providing the 2 to 3, different one.
+
+00:33:04.000 --> 00:33:20.000
+Okay, they have built up on top of the elastic, okay, even over the… open the… over the open search also, right? So, some of the different thing which is being provided by the Google also. Google Document AI, I think, is one of the service to deal with the documents, basically.
+
+00:33:20.000 --> 00:33:27.000
+So I think this is an order correct term over here. Yeah, even Oracle is also providing every database is providing you that
+
+00:33:27.000 --> 00:33:45.000
+If you are going to be master and you want Vector Database, you can understand any other database, guys, right? So, no need to be panicked, sir, this, that, this, that, right? Don't do that like that. Don't do that, okay, guys? If you're going to be master at least one vector database, then you can understand the other Vector databases also
+
+00:33:45.000 --> 00:34:02.000
+And whatever name I have written over here, these are the, like, very highly being used in the industry, okay? Now, yeah, if we're talking about the Google guys. So Google is also providing you couple of name. So one is also called one is also called what one is also called the vertex
+
+00:34:02.000 --> 00:34:09.000
+AI Vector Search. Let me write the name over here. Vertex AI Vector Search
+
+00:34:09.000 --> 00:34:16.000
+Okay. Then, there is one more, from the Google, that is called the BigQuery Vector Search, okay?
+
+00:34:16.000 --> 00:34:19.000
+Again, it is from the Google only.
+
+00:34:19.000 --> 00:34:36.000
+BigQuery, Vector Search. Okay? Then again, from the Google, basically, that is called the AlloyDB, okay? If you will check out with a Google documentation, you will get it over there. But yeah, I think these two name are the sufficient one. So guys, these are some cloud provider one
+
+00:34:36.000 --> 00:34:43.000
+Which is being provided by some big clouds, okay? So, which is being provided by the AWS
+
+00:34:43.000 --> 00:34:45.000
+How's your
+
+00:34:45.000 --> 00:35:00.000
+And the Google one. Now, vendor manage means what? So, it is being provided by some different SaaS platform. So, Pinecone is a different company, Quadrant is a different company, Milbuzz, BabyEd are the different companies, basically, right? There are other different, different companies, right?
+
+00:35:00.000 --> 00:35:04.000
+I hope this part is also clear. Now, guys
+
+00:35:04.000 --> 00:35:18.000
+We need to understand a couple of concept with respect to this vector database. So we're talking about this vector database, okay? So there is 2 main similarity search type. The first is called the exact nearest neighbor search
+
+00:35:18.000 --> 00:35:25.000
+Okay? Here you can see. And the second is called the approximized nearest neighbor search
+
+00:35:25.000 --> 00:35:43.000
+Getting my point, guys. So, if we're talking about the approximate nearest search, in that case, we create an index in a different way, HNSW IBF index. If we're talking about the exact search, in that case, we are talking about the flat index. Okay, so we'll discuss about it. What is the exact meaning of it? You will understand
+
+00:35:43.000 --> 00:35:58.000
+Now, guys, here is couple of more things. So, what are the differences between the SQL Database, NoSQL Database in the Vector Database so even I capped those differences so we can understand about these differences. So SQL, basically PostgreSQL, MySQL, Oracle
+
+00:35:58.000 --> 00:36:03.000
+Right? These are the SQL-based database. NoSQL, MongoDB, DynamoDB, Cassandra
+
+00:36:03.000 --> 00:36:15.000
+Okay, now Vector DB, Pinecone, Quaden, Millburst, and VB8, these are the Vector DB, right? Now, guys, there is a couple of more things. So, how we arrange the data inside the Vector Database
+
+00:36:15.000 --> 00:36:18.000
+Can you see this one?
+
+00:36:18.000 --> 00:36:22.000
+Is it visible?
+
+00:36:22.000 --> 00:36:40.000
+So, we store the data inside the Vector database like this. So even we'll discuss about this storage part also. So, in which manner, basically, we can store the data inside the Vector database. Then, guys, metadata filtering, CRUD operation in the Vector database, okay?
+
+00:36:40.000 --> 00:36:55.000
+Now, index is having some other different name, right? Now, Vector dimension, vector database evaluation, that we'll see later on. Then guys, this is a different concept. So these many things we are going to be discussed related to water related to the vector database
+
+00:36:55.000 --> 00:37:12.000
+Now, tell me, guys, at least did you understand the… at least did you understand some basic definition of this vector database as of now?
+
+00:37:12.000 --> 00:37:14.000
+Yes?
+
+00:37:14.000 --> 00:37:30.000
+If you understood some basic definitions, so I can explain you the working of the vector database, okay? Then again, we'll come to this vector again we'll come to this definition and all everything you will be able to get. So what I'm doing, guys, I'm going to be design,
+
+00:37:30.000 --> 00:37:36.000
+over here, just a second, let me do one thing
+
+00:37:36.000 --> 00:37:43.000
+So, I'm going to be design one Vector Database over here
+
+00:37:43.000 --> 00:37:55.000
+Okay.
+
+00:37:55.000 --> 00:38:05.000
+Now, guys, let's suppose what we have, we have a… we have text. Okay, so here what I'm writing, I'm writing text.
+
+00:38:05.000 --> 00:38:07.000
+Okay.
+
+00:38:07.000 --> 00:38:15.000
+Now, let's say we have an image also
+
+00:38:15.000 --> 00:38:25.000
+Okay.
+
+00:38:25.000 --> 00:38:29.000
+Now, let's say the tax is… what I can write, I can write anything, I can write.
+
+00:38:29.000 --> 00:38:33.000
+My name is Sunny. This is a simple
+
+00:38:33.000 --> 00:38:36.000
+Sentence.
+
+00:38:36.000 --> 00:38:44.000
+Now, if we're talking about the images, so there is an image, right?
+
+00:38:44.000 --> 00:38:59.000
+So I can draw one image also, let's say this is what, this is my image
+
+00:38:59.000 --> 00:39:10.000
+Okay. Now, guys, let's say we have an audio, video, two different, different kind of data we have
+
+00:39:10.000 --> 00:39:19.000
+Audio is there. Then, we have a video, right?
+
+00:39:19.000 --> 00:39:20.000
+Okay.
+
+00:39:20.000 --> 00:39:32.000
+So, whatever kind of data we have… now, tell me, guys, that data, ultimately, we can convert into the embeddings
+
+00:39:32.000 --> 00:39:42.000
+Okay? Now, ultimately, this particular data we can convert where we can convert into the embeddings, yes or no?
+
+00:39:42.000 --> 00:39:45.000
+Right?
+
+00:39:45.000 --> 00:39:57.000
+So we have a different, different model, and definitely what we can do, we can convert this data into the embedded. So let's say what I have, I have an embedding
+
+00:39:57.000 --> 00:40:03.000
+It is also called what? It is also called the vector.
+
+00:40:03.000 --> 00:40:08.000
+Okay. It is also called the
+
+00:40:08.000 --> 00:40:16.000
+Numerical representation of the data. Understood, guys? Tell me yes or no.
+
+00:40:16.000 --> 00:40:27.000
+Okay? Now, let's say we have to arrange this particular data ware inside the Vector database. So just imagine, this is my vector DV
+
+00:40:27.000 --> 00:40:31.000
+This is what? This is my Vector DB. This one
+
+00:40:31.000 --> 00:40:35.000
+So, inside this Vector DB, we are going to be store what we are going to be stored the
+
+00:40:35.000 --> 00:40:44.000
+Data. Okay? So, first, what we do, guys, we create the index inside this vector database. If I'm saying
+
+00:40:44.000 --> 00:40:54.000
+If I'm going to be stored the data inside the Vector database, let's say there's what, this is my Vector database
+
+00:40:54.000 --> 00:41:11.000
+Okay, so what we are doing, guys, so here, basically, we are going to create an index, actually, right? So first, what we do, what we will do, we will create an index.
+
+00:41:11.000 --> 00:41:18.000
+Got it. Now, this particular index, actually, we can categorize into two categories.
+
+00:41:18.000 --> 00:41:29.000
+One, basically, based on the exact match.
+
+00:41:29.000 --> 00:41:32.000
+Second, based on the
+
+00:41:32.000 --> 00:41:42.000
+Approximate match.
+
+00:41:42.000 --> 00:41:44.000
+Okay.
+
+00:41:44.000 --> 00:41:52.000
+Approximate match. Now, if I'm seeing exact match, guys, so there, basically, we create a flat index
+
+00:41:52.000 --> 00:41:53.000
+Right?
+
+00:41:53.000 --> 00:41:59.000
+Now, if we're talking about the approximate match, so there, basically, we create what?
+
+00:41:59.000 --> 00:42:02.000
+IPF index
+
+00:42:02.000 --> 00:42:09.000
+Or
+
+00:42:09.000 --> 00:42:17.000
+This HNSW index, okay? Now, inside the index only, we store the data
+
+00:42:17.000 --> 00:42:25.000
+Now, in the index only, let me write over here.
+
+00:42:25.000 --> 00:42:30.000
+In the index only
+
+00:42:30.000 --> 00:42:32.000
+We store
+
+00:42:32.000 --> 00:42:37.000
+that data
+
+00:42:37.000 --> 00:42:40.000
+Now, we're talking about the data, guys.
+
+00:42:40.000 --> 00:42:41.000
+This data.
+
+00:42:41.000 --> 00:42:47.000
+So, in the data, what all things we can store?
+
+00:42:47.000 --> 00:42:49.000
+So we can store the
+
+00:42:49.000 --> 00:42:55.000
+actual data
+
+00:42:55.000 --> 00:43:00.000
+Corresponding embedding
+
+00:43:00.000 --> 00:43:03.000
+Okay.
+
+00:43:03.000 --> 00:43:06.000
+embedding of that data
+
+00:43:06.000 --> 00:43:14.000
+And we can store the metadata.
+
+00:43:14.000 --> 00:43:20.000
+Getting my point, guys, yes or no? Tell me. Is it getting clear to all of you?
+
+00:43:20.000 --> 00:43:26.000
+So this is called the original data
+
+00:43:26.000 --> 00:43:27.000
+Original
+
+00:43:27.000 --> 00:43:29.000
+date.
+
+00:43:29.000 --> 00:43:46.000
+So these many things we can store there inside the vector database. These data we can store inside where, inside the Vector Database is it getting clear to all of you? Tell me guys, yes or no
+
+00:43:46.000 --> 00:43:52.000
+Yes?
+
+00:43:52.000 --> 00:44:07.000
+Yes or no? Okay? Now, many people are asking, what is a full form of the IBM, or what is a full form of the HNSW? So we're talking about the IBM, so this is also called the inverted file index
+
+00:44:07.000 --> 00:44:11.000
+Inverted
+
+00:44:11.000 --> 00:44:13.000
+File index.
+
+00:44:13.000 --> 00:44:16.000
+Are we talking about the HNSW, so it is called the
+
+00:44:16.000 --> 00:44:18.000
+Hierarchical
+
+00:44:18.000 --> 00:44:23.000
+Hierarchical, navy gable
+
+00:44:23.000 --> 00:44:25.000
+Small world
+
+00:44:25.000 --> 00:44:27.000
+Okay?
+
+00:44:27.000 --> 00:44:29.000
+hierarchical, navigable
+
+00:44:29.000 --> 00:44:33.000
+is small work.
+
+00:44:33.000 --> 00:44:39.000
+So this is a clustering-based technique
+
+00:44:39.000 --> 00:44:47.000
+And this is what is the graph-based technique, actually.
+
+00:44:47.000 --> 00:44:51.000
+So this is the graph-based technique, and this is the
+
+00:44:51.000 --> 00:44:59.000
+clustering-based technique. So, I hope guys still here, everything is fine, everything is getting clear, and people are able to understand this image
+
+00:44:59.000 --> 00:45:04.000
+Tell me, guys, are you able to understand this image or not?
+
+00:45:04.000 --> 00:45:10.000
+Okay, so let's do one thing, let's try to insert some data, okay?
+
+00:45:10.000 --> 00:45:26.000
+Let's try to insert some data. So, let's suppose, guys, we have this sentence
+
+00:45:26.000 --> 00:45:30.000
+So the data, basically, let's say we have 3 sentences. The first is
+
+00:45:30.000 --> 00:45:34.000
+Let's say here I'm writing
+
+00:45:34.000 --> 00:45:37.000
+AI is
+
+00:45:37.000 --> 00:45:39.000
+future
+
+00:45:39.000 --> 00:45:40.000
+Okay.
+
+00:45:40.000 --> 00:45:43.000
+The second is what?
+
+00:45:43.000 --> 00:45:46.000
+Second, I am writing
+
+00:45:46.000 --> 00:45:48.000
+Vive coding
+
+00:45:48.000 --> 00:45:52.000
+Is
+
+00:45:52.000 --> 00:45:55.000
+Useful
+
+00:45:55.000 --> 00:45:57.000
+Okay.
+
+00:45:57.000 --> 00:46:01.000
+The third is writing.
+
+00:46:01.000 --> 00:46:04.000
+System design
+
+00:46:04.000 --> 00:46:07.000
+is important.
+
+00:46:07.000 --> 00:46:11.000
+Now, first, guys, what I will do…
+
+00:46:11.000 --> 00:46:16.000
+I will convert this particular data into the embedding
+
+00:46:16.000 --> 00:46:20.000
+convert it
+
+00:46:20.000 --> 00:46:23.000
+into
+
+00:46:23.000 --> 00:46:27.000
+embedding.
+
+00:46:27.000 --> 00:46:31.000
+So let's say we have 3 sentences
+
+00:46:31.000 --> 00:46:35.000
+Which I converted into the embedding. So this is the first sentence
+
+00:46:35.000 --> 00:46:40.000
+To the second sentence, and this is the fourth third sentence
+
+00:46:40.000 --> 00:46:41.000
+Right?
+
+00:46:41.000 --> 00:46:47.000
+So let's say this is the first sentence. 1 to… I'm writing a random number, 3, 4, 5…
+
+00:46:47.000 --> 00:46:53.000
+6, 7, 8, 9… 9… 2…
+
+00:46:53.000 --> 00:46:58.000
+Okay, guys, I'm writing a random number over here, 268910
+
+00:46:58.000 --> 00:47:00.000
+13, 14, 15.
+
+00:47:00.000 --> 00:47:05.000
+Here I'm writing 6, 8, 9, 10…
+
+00:47:05.000 --> 00:47:07.000
+12, 13
+
+00:47:07.000 --> 00:47:21.000
+1470, something like this. So this is my 3 embedding. This is for the first sentence, document 1. This is for the second sentence that we call document 2, and this is for the third sentence, document 3
+
+00:47:21.000 --> 00:47:30.000
+Okay, now guys, what I'm doing, I'm going to be create an index inside the Vector database. So let's say this is my Vector database
+
+00:47:30.000 --> 00:47:32.000
+Okay.
+
+00:47:32.000 --> 00:47:36.000
+This one
+
+00:47:36.000 --> 00:47:39.000
+Or it is also called the Vector Store.
+
+00:47:39.000 --> 00:47:40.000
+Right?
+
+00:47:40.000 --> 00:47:45.000
+So this is what… this is my Vector database
+
+00:47:45.000 --> 00:47:47.000
+Now, inside this, what I
+
+00:47:47.000 --> 00:47:51.000
+Inside this, I'm going to be creator
+
+00:47:51.000 --> 00:47:59.000
+index. Okay, so let's I created an index inside this Vector Database this is my index
+
+00:47:59.000 --> 00:48:05.000
+Now, this time, what I have done, I have created a flat index
+
+00:48:05.000 --> 00:48:06.000
+Okay.
+
+00:48:06.000 --> 00:48:10.000
+So here I can write what I can write this word is my flat index
+
+00:48:10.000 --> 00:48:12.000
+flat
+
+00:48:12.000 --> 00:48:15.000
+index
+
+00:48:15.000 --> 00:48:20.000
+Okay. Now, I have stored the data.
+
+00:48:20.000 --> 00:48:23.000
+So, let's say this is my first data point, D1.
+
+00:48:23.000 --> 00:48:44.000
+That's the second data point, D2, and the third one, D3. Got it, guys? Tell you how everything is fine
+
+00:48:44.000 --> 00:48:50.000
+Yes or no, tell me. Now, guys, what I will do, I will store the data
+
+00:48:50.000 --> 00:48:55.000
+So, what I'll do, guys, I will store the data. So, let's say this is my first data. So what I'll do, I will keep the three thing over here.
+
+00:48:55.000 --> 00:49:02.000
+The first is the actual data
+
+00:49:02.000 --> 00:49:09.000
+The second is embedded data.
+
+00:49:09.000 --> 00:49:15.000
+And the third is what? Metadata.
+
+00:49:15.000 --> 00:49:16.000
+Okay?
+
+00:49:16.000 --> 00:49:25.000
+Now, related to the second document also, related to the third document also. So actual data
+
+00:49:25.000 --> 00:49:27.000
+embedded data
+
+00:49:27.000 --> 00:49:32.000
+And metadata.
+
+00:49:32.000 --> 00:49:35.000
+Here also, actual data
+
+00:49:35.000 --> 00:49:40.000
+embedded data, and metadata
+
+00:49:40.000 --> 00:49:41.000
+Okay
+
+00:49:41.000 --> 00:49:46.000
+So what is the actual data, guys? Actual data is this one. This text
+
+00:49:46.000 --> 00:49:47.000
+this particular text
+
+00:49:47.000 --> 00:49:53.000
+Right? AI is the future. Let me write over here, this is the actual data. AI
+
+00:49:53.000 --> 00:49:55.000
+is
+
+00:49:55.000 --> 00:49:57.000
+Future
+
+00:49:57.000 --> 00:50:14.000
+Okay, so this is the embedding of the actual data. So, embedding is what? 1229. This is the embedding. 1, 2… 9. This is the metadata. Metadata, basically, with what I'm saying. So this data actually belong to what? The data is belong to the data file
+
+00:50:14.000 --> 00:50:18.000
+Something like this. Okay, so this is the metadata.
+
+00:50:18.000 --> 00:50:26.000
+Okay, now guys, here also I will keep 3 things. Actual data, so actual data is what? Vive coding is useful.
+
+00:50:26.000 --> 00:50:28.000
+So, wife
+
+00:50:28.000 --> 00:50:30.000
+coding
+
+00:50:30.000 --> 00:50:32.000
+is
+
+00:50:32.000 --> 00:50:46.000
+useful. Okay? This is the embedding. Embedding is what? 2, 6… 15, right? Now, here is what, here is the metadata, okay? The data is belong to the data file
+
+00:50:46.000 --> 00:50:50.000
+Got it, guys? Is it getting clear to all of you
+
+00:50:50.000 --> 00:50:53.000
+Now, guys, what is the next one?
+
+00:50:53.000 --> 00:50:55.000
+So here, let me keep the next also
+
+00:50:55.000 --> 00:51:00.000
+Metadata means data about the data. You can keep any sort of information over there, right?
+
+00:51:00.000 --> 00:51:06.000
+Don't ask this silly question, what is the metadata and all? I think, see, you should not ask this kind of question.
+
+00:51:06.000 --> 00:51:17.000
+Metadata could be anything, right? It is the information about the actual data. That is called the metadata, as simple as that. Getting my point
+
+00:51:17.000 --> 00:51:25.000
+So, actual data
+
+00:51:25.000 --> 00:51:33.000
+System design is important
+
+00:51:33.000 --> 00:51:38.000
+Then, embedded data
+
+00:51:38.000 --> 00:51:41.000
+Okay, this is my embedding
+
+00:51:41.000 --> 00:51:45.000
+than the metadata.
+
+00:51:45.000 --> 00:51:51.000
+So this data actually belong to this data file.
+
+00:51:51.000 --> 00:51:52.000
+Okay.
+
+00:51:52.000 --> 00:52:05.000
+So, here is 6, 8… 70. Now, tell me, guys, till here, everything is fine, everything is clear, are you able to understand this one?
+
+00:52:05.000 --> 00:52:10.000
+Tell me, is this part killer to all of you?
+
+00:52:10.000 --> 00:52:13.000
+Yes or no?
+
+00:52:13.000 --> 00:52:22.000
+Alright, what is the data about data? Data about Database what? The information about the data.
+
+00:52:22.000 --> 00:52:27.000
+Have you not gone through with the previous sessions? Let's say this is my data
+
+00:52:27.000 --> 00:52:30.000
+This is my data
+
+00:52:30.000 --> 00:52:34.000
+Where is the data? This one
+
+00:52:34.000 --> 00:52:45.000
+This file, okay? So this is my actual data. Now what is the metadata? PDF name, PDF path. Okay, PDF size. This is the metadata.
+
+00:52:45.000 --> 00:52:56.000
+Getting my point, guys, right? So please, guys, understand this fundamental at least. If you're not able to understand this fundamental, then how basically you can build the database and all
+
+00:52:56.000 --> 00:52:57.000
+Hmm?
+
+00:52:57.000 --> 00:53:03.000
+Data about data is a metadata simple, as simple as that.
+
+00:53:03.000 --> 00:53:08.000
+Now, guys, I hope, this is clear to all of you. Now, guys, see
+
+00:53:08.000 --> 00:53:18.000
+What we are doing, so we have to retrieve the data, we have to retrieve the data from this vector database. So for retrieving the data from this Vector database, what we will do
+
+00:53:18.000 --> 00:53:21.000
+We are going to be used some similarity search method
+
+00:53:21.000 --> 00:53:27.000
+Okay, so let's say, on top of this data, we can perform some similarity search
+
+00:53:27.000 --> 00:53:40.000
+So we can perform the different, different type of similarity search, right? What are type of similarity search we can perform on top of this data? We have three different types of similarity search
+
+00:53:40.000 --> 00:53:45.000
+The first is called
+
+00:53:45.000 --> 00:53:52.000
+cosine similarity
+
+00:53:52.000 --> 00:53:55.000
+The second is called
+
+00:53:55.000 --> 00:53:58.000
+Dot product
+
+00:53:58.000 --> 00:53:59.000
+Third is called
+
+00:53:59.000 --> 00:54:01.000
+Euclidean
+
+00:54:01.000 --> 00:54:05.000
+You will gain distance
+
+00:54:05.000 --> 00:54:07.000
+Okay?
+
+00:54:07.000 --> 00:54:11.000
+So either you can perform this
+
+00:54:11.000 --> 00:54:15.000
+Or you can perform this dot product, or you can perform this
+
+00:54:15.000 --> 00:54:22.000
+You clear distance. Getting my point, guys? Yes or no? It is getting clear to all of you. Tell me, yes or no
+
+00:54:22.000 --> 00:54:28.000
+So guys, if we are going to create the flat index, in that case, we can perform the exact search
+
+00:54:28.000 --> 00:54:30.000
+Okay.
+
+00:54:30.000 --> 00:54:33.000
+We can perform the
+
+00:54:33.000 --> 00:54:36.000
+Exact search.
+
+00:54:36.000 --> 00:54:43.000
+But guys, if you are going to be create, the other type of index, let's say IBF index
+
+00:54:43.000 --> 00:54:50.000
+Or
+
+00:54:50.000 --> 00:54:53.000
+H&SW index
+
+00:54:53.000 --> 00:54:56.000
+Okay. So, we can perform what?
+
+00:54:56.000 --> 00:54:59.000
+We can perform the
+
+00:54:59.000 --> 00:55:08.000
+In an approximate search
+
+00:55:08.000 --> 00:55:11.000
+Approximate search
+
+00:55:11.000 --> 00:55:14.000
+Now, tell me, guys, is this part clear or not?
+
+00:55:14.000 --> 00:55:22.000
+Is this image clear or not to all of you
+
+00:55:22.000 --> 00:55:23.000
+Okay?
+
+00:55:23.000 --> 00:55:28.000
+So, now, let's do one thing, let's understand with one query.
+
+00:55:28.000 --> 00:55:35.000
+Let's understand with one query. So, let's understand… let's, suppose, guys, here is one query
+
+00:55:35.000 --> 00:55:40.000
+My query is what? My query is
+
+00:55:40.000 --> 00:55:43.000
+I'm going to be right one query. My query is
+
+00:55:43.000 --> 00:55:45.000
+ML
+
+00:55:45.000 --> 00:55:46.000
+Is…
+
+00:55:46.000 --> 00:55:50.000
+Future
+
+00:55:50.000 --> 00:55:57.000
+Okay? So, first, what I will do, tell me
+
+00:55:57.000 --> 00:56:03.000
+First, what I'll do, guys, I will convert this particular query into the embedding
+
+00:56:03.000 --> 00:56:13.000
+Okay? So let's say this is my embedding, 5, 6, 7
+
+00:56:13.000 --> 00:56:15.000
+8, 9, 10…
+
+00:56:15.000 --> 00:56:25.000
+60 55, right? So this is my embedding. Now, what I'll do, guys, I will perform the similarity search
+
+00:56:25.000 --> 00:56:28.000
+Either using this technique
+
+00:56:28.000 --> 00:56:33.000
+Or this technique, or this technique. We have 3 different technique.
+
+00:56:33.000 --> 00:56:42.000
+to perform the similar T-search.
+
+00:56:42.000 --> 00:56:45.000
+Okay.
+
+00:56:45.000 --> 00:56:52.000
+We'll perform the similarity search using these 3 different technique.
+
+00:56:52.000 --> 00:56:55.000
+Let's say we are using this cosine similarity.
+
+00:56:55.000 --> 00:57:00.000
+And let's suppose, guys, we have created this flat index.
+
+00:57:00.000 --> 00:57:03.000
+There, we can perform the exact search.
+
+00:57:03.000 --> 00:57:05.000
+Okay.
+
+00:57:05.000 --> 00:57:15.000
+So, what will happen, guys, in that case, this query, this query embedding, basically, this is my query embedding, this one.
+
+00:57:15.000 --> 00:57:22.000
+Okay, query embedding. This one.
+
+00:57:22.000 --> 00:57:25.000
+Query
+
+00:57:25.000 --> 00:57:33.000
+Okay? Let me draw the one only.
+
+00:57:33.000 --> 00:57:36.000
+Okay, so what I have, I have a query embedding
+
+00:57:36.000 --> 00:57:40.000
+This is my query number.
+
+00:57:40.000 --> 00:57:42.000
+So, 567
+
+00:57:42.000 --> 00:57:49.000
+5… 6… tuck tuck, 55. So this is going to be
+
+00:57:49.000 --> 00:57:54.000
+This is going to be, basically, check the similarity with every document
+
+00:57:54.000 --> 00:57:57.000
+Aware in the exact search
+
+00:57:57.000 --> 00:58:02.000
+Means where? Inside the flat index.
+
+00:58:02.000 --> 00:58:07.000
+Okay, so one by one, it will iterate on every document. This one
+
+00:58:07.000 --> 00:58:10.000
+This one, and this one
+
+00:58:10.000 --> 00:58:18.000
+And what it will do, it will try to interact, it will try to interact with this embedding, this embedding
+
+00:58:18.000 --> 00:58:24.000
+It will perform the similarity search using this embedding
+
+00:58:24.000 --> 00:58:30.000
+Okay, this one. And it will find out the best match
+
+00:58:30.000 --> 00:58:34.000
+Best possible
+
+00:58:34.000 --> 00:58:36.000
+match
+
+00:58:36.000 --> 00:58:42.000
+With similarity score, right? Best possible match. How? Using that cosine similarity.
+
+00:58:42.000 --> 00:58:52.000
+cosine similarity, okay? Using what cosine similarity? Minus 1 to plus 1, right? This is the range of what? This is the range of the cosine similarity, this one.
+
+00:58:52.000 --> 00:59:00.000
+Now, guys, let's suppose… okay, now tell me guys, according to this particular sentence, what do you think? Which is a most similar sentence over here?
+
+00:59:00.000 --> 00:59:08.000
+So, let's say it is giving some score, let's say, to this one, the score is 0.9. To this one, the score is 0.
+
+00:59:08.000 --> 00:59:21.000
+For this one, the score is what? 0.7. And for this one, the score is 0.2. So, which is a most similar sentence over here? Which is the most similar document? So, it will fetch out the document 1 over here
+
+00:59:21.000 --> 00:59:26.000
+So, if it will fetch out the document one, the 3 things will be… we will be getting over here
+
+00:59:26.000 --> 00:59:29.000
+Okay, what you'll be getting?
+
+00:59:29.000 --> 00:59:33.000
+You'll be getting the actual data
+
+00:59:33.000 --> 00:59:36.000
+embedded data
+
+00:59:36.000 --> 00:59:41.000
+And the third is going to be what? Third is going to be a metadata.
+
+00:59:41.000 --> 00:59:46.000
+So this particular data will be getting with respect to what? With respect to this particular query
+
+00:59:46.000 --> 00:59:50.000
+And further, this actual data
+
+00:59:50.000 --> 00:59:52.000
+We are passing to our LLM
+
+00:59:52.000 --> 00:59:56.000
+As a context
+
+00:59:56.000 --> 01:00:01.000
+Getting clear to all of you guys, tell me yes or no.
+
+01:00:01.000 --> 01:00:10.000
+Why one? You can fetch 3, 4, 5 for explanation, I'm just using one Asuth G.
+
+01:00:10.000 --> 01:00:12.000
+At least
+
+01:00:12.000 --> 01:00:21.000
+This much common sense you should have, correct? You can keep k is equal to 510. I'll come to those example also. Don't worry.
+
+01:00:21.000 --> 01:00:33.000
+Right? But just for the explanation, I used… I took the one only. If you want to pass the metadata to the LLM, you can pass one. Who is stopping you? I'm stopping to you or someone else is stopping to you
+
+01:00:33.000 --> 01:00:35.000
+Okay
+
+01:00:35.000 --> 01:00:40.000
+I hope everyone is able to get, right? So, now over here, guys, there is one more thing. See?
+
+01:00:40.000 --> 01:00:53.000
+Now, we're talking about… now we're talking about this approximate search, okay? Now, in the approximate search, let's say we have an IVF index
+
+01:00:53.000 --> 01:00:59.000
+Or, let's say we have HNSW index
+
+01:00:59.000 --> 01:01:06.000
+So, in that case, we don't iterate on every row
+
+01:01:06.000 --> 01:01:09.000
+We don't iterate
+
+01:01:09.000 --> 01:01:15.000
+We don't iterate on
+
+01:01:15.000 --> 01:01:18.000
+Every row
+
+01:01:18.000 --> 01:01:27.000
+Okay. In the IBF index, basically, we use the cluster-based approach
+
+01:01:27.000 --> 01:01:31.000
+And in the HNSW index, we use the graph-based approach
+
+01:01:31.000 --> 01:01:42.000
+This is called the approximation
+
+01:01:42.000 --> 01:01:47.000
+Tell me, guys, is it getting clear to all of you? Are you able to understand?
+
+01:01:47.000 --> 01:02:01.000
+Are you able to understand it or not? Tell me this part. I will again explain you, don't worry, guys. But first of all, tell me if this image is clear or not, this one.
+
+01:02:01.000 --> 01:02:11.000
+If this image is clear, I think many things are clear to all of you, and we can easily understand, the practical of the Vector database, okay?
+
+01:02:11.000 --> 01:02:14.000
+We can easily understand the
+
+01:02:14.000 --> 01:02:17.000
+Practical of the Vector database, right?
+
+01:02:17.000 --> 01:02:42.000
+So, let me explain you about the cluster base or the graph-based also. Okay, let's talk about that. But first of all, tell me how many people are able to understand this image
+
+01:02:42.000 --> 01:02:47.000
+I think everyone, able to understand that. If you're not able to understand,
+
+01:02:47.000 --> 01:02:55.000
+Again, I will come to that. Okay? So, guys, if we're talking about the cluster base and all, let's understand over here, see
+
+01:02:55.000 --> 01:02:57.000
+Let's say
+
+01:02:57.000 --> 01:03:07.000
+We have a vector database, okay? Let's suppose we have a vector database.
+
+01:03:07.000 --> 01:03:16.000
+Now, inside the Vector database, we are going to be store how many records. Guys
+
+01:03:16.000 --> 01:03:22.000
+Inside Vector Database
+
+01:03:22.000 --> 01:03:25.000
+We are going to be sold, let's say
+
+01:03:25.000 --> 01:03:30.000
+1 million record
+
+01:03:30.000 --> 01:03:36.000
+That is… 10 lakh.
+
+01:03:36.000 --> 01:03:37.000
+Okay.
+
+01:03:37.000 --> 01:03:42.000
+No, guys, just suppose, let's say we have 10 million records
+
+01:03:42.000 --> 01:03:49.000
+So we are going to be stored data. How we will store the data, we'll create an index
+
+01:03:49.000 --> 01:03:56.000
+So, let's say this is what… this is my index
+
+01:03:56.000 --> 01:03:58.000
+Okay?
+
+01:03:58.000 --> 01:04:02.000
+Now, inside this vector database, I have stood 10 million record.
+
+01:04:02.000 --> 01:04:04.000
+1, 2,
+
+01:04:04.000 --> 01:04:06.000
+3…
+
+01:04:06.000 --> 01:04:07.000
+For
+
+01:04:07.000 --> 01:04:13.000
+5, and then, 10 lakh.
+
+01:04:13.000 --> 01:04:20.000
+Understood, guys? Tell me yes or no.
+
+01:04:20.000 --> 01:04:30.000
+Yes? Is it getting clear? Now, guys, let's say I have created the flat index.
+
+01:04:30.000 --> 01:04:32.000
+Now, this flat index, actually.
+
+01:04:32.000 --> 01:04:34.000
+It works on the
+
+01:04:34.000 --> 01:04:40.000
+Exact match
+
+01:04:40.000 --> 01:04:49.000
+Exact match. What is the meaning of the exact match? Let's say the query is coming
+
+01:04:49.000 --> 01:04:57.000
+Okay? So query will interact with all the 10 million rows
+
+01:04:57.000 --> 01:05:05.000
+Query one by one will go to all the 10 million rows
+
+01:05:05.000 --> 01:05:08.000
+So, it will perform what? It will perform the…
+
+01:05:08.000 --> 01:05:13.000
+Linear search
+
+01:05:13.000 --> 01:05:14.000
+Okay.
+
+01:05:14.000 --> 01:05:21.000
+It will go through
+
+01:05:21.000 --> 01:05:22.000
+Two
+
+01:05:22.000 --> 01:05:25.000
+All
+
+01:05:25.000 --> 01:05:28.000
+Rose.
+
+01:05:28.000 --> 01:05:36.000
+Now, tell me, guys, is it a time-consuming?
+
+01:05:36.000 --> 01:05:38.000
+time-consuming
+
+01:05:38.000 --> 01:05:41.000
+Right?
+
+01:05:41.000 --> 01:05:43.000
+So, what we do, guys…
+
+01:05:43.000 --> 01:05:50.000
+We don't use the flat search, flat index, so the exact match, actually
+
+01:05:50.000 --> 01:05:53.000
+We don't use exact match with the
+
+01:05:53.000 --> 01:05:55.000
+With the
+
+01:05:55.000 --> 01:06:00.000
+Use data
+
+01:06:00.000 --> 01:06:02.000
+Okay?
+
+01:06:02.000 --> 01:06:05.000
+We have some other techniques like
+
+01:06:05.000 --> 01:06:07.000
+IVF index
+
+01:06:07.000 --> 01:06:09.000
+Or
+
+01:06:09.000 --> 01:06:12.000
+HNSW index
+
+01:06:12.000 --> 01:06:22.000
+Okay? So, we're talking about this IBF index
+
+01:06:22.000 --> 01:06:29.000
+Okay? Or, HNSW index
+
+01:06:29.000 --> 01:06:32.000
+So, it perform the
+
+01:06:32.000 --> 01:06:40.000
+Approximate search
+
+01:06:40.000 --> 01:06:43.000
+approximate search
+
+01:06:43.000 --> 01:06:51.000
+Which is also called the non-linear search
+
+01:06:51.000 --> 01:07:00.000
+Now, this IBF index concept is based on the clustering
+
+01:07:00.000 --> 01:07:03.000
+And this HNSW, it is based on the graph
+
+01:07:03.000 --> 01:07:07.000
+traversal
+
+01:07:07.000 --> 01:07:14.000
+Getting my point, guys, tell me. Is it getting clear to all of you?
+
+01:07:14.000 --> 01:07:21.000
+Tell me, yes? So, let's say… let's suppose, guys, let's suppose we have
+
+01:07:21.000 --> 01:07:32.000
+We have 10 million rows, okay? Let's suppose we have 10 million rows
+
+01:07:32.000 --> 01:07:37.000
+Okay. Let's suppose we have 10 million rows
+
+01:07:37.000 --> 01:07:42.000
+So, what we are doing, let's say we are going to be create an IVF index
+
+01:07:42.000 --> 01:07:51.000
+So, internally, it is using the clustering algorithm. So it's going to be create a cluster out of the document, means it is going to be keep a
+
+01:07:51.000 --> 01:08:05.000
+Similar document in one of the bunch. Okay, let's say there's a cluster one, cluster 2, cluster 3. Okay, something like that. This is my cluster one
+
+01:08:05.000 --> 01:08:07.000
+That's my cluster, too
+
+01:08:07.000 --> 01:08:10.000
+This is my Cluster 3
+
+01:08:10.000 --> 01:08:12.000
+Okay.
+
+01:08:12.000 --> 01:08:20.000
+Now, guys, whenever my query will come
+
+01:08:20.000 --> 01:08:23.000
+So, instead of going through each and every record
+
+01:08:23.000 --> 01:08:29.000
+Instead of performing the linear search
+
+01:08:29.000 --> 01:08:39.000
+Okay, it will not perform the linear search. Instead of that, it will check the cluster-wise. This one, this one, this one. Let's say my query found, okay.
+
+01:08:39.000 --> 01:08:48.000
+My query, between my query and this cluster, the distance is the minimum one, not this one, not this one. Between this one, the distance is the minimum one, this one.
+
+01:08:48.000 --> 01:08:53.000
+So, it will check out the relevant document inside this cluster only
+
+01:08:53.000 --> 01:08:55.000
+It will check out the
+
+01:08:55.000 --> 01:09:01.000
+Relevant document inside this cluster only.
+
+01:09:01.000 --> 01:09:03.000
+So, this is what
+
+01:09:03.000 --> 01:09:12.000
+This is the arrangement of the data.
+
+01:09:12.000 --> 01:09:15.000
+Okay.
+
+01:09:15.000 --> 01:09:21.000
+Now, guys, let's say we are going to be… let's say we are going to be… arrange the data in the form of graphs, like this
+
+01:09:21.000 --> 01:09:24.000
+Okay, like this.
+
+01:09:24.000 --> 01:09:32.000
+So this, we can do, this we can do where inside the HNSW index
+
+01:09:32.000 --> 01:09:36.000
+Agent as the blue index.
+
+01:09:36.000 --> 01:09:41.000
+Okay, so whenever the… whenever query will come
+
+01:09:41.000 --> 01:09:44.000
+So, it will follow one specific path
+
+01:09:44.000 --> 01:09:46.000
+Okay
+
+01:09:46.000 --> 01:09:49.000
+It will follow one specific path
+
+01:09:49.000 --> 01:09:58.000
+And based on that, it will try to find out the relevant result instead of going through the each and every record.
+
+01:09:58.000 --> 01:10:05.000
+Tell me, is it getting killer to all of you? Tell me, yes or no.
+
+01:10:05.000 --> 01:10:09.000
+If this part is clear, I think we are good to go
+
+01:10:09.000 --> 01:10:20.000
+And we are able to understand the fundamental of the vector database. So now, guys, what I'll do, I'll show you something in terms of practical and we'll discuss a couple of more thing over here
+
+01:10:20.000 --> 01:10:25.000
+You will be able to understand. No need to go through with the detail of this HNSW, IBF, and on, no, nothing.
+
+01:10:25.000 --> 01:10:36.000
+Okay, not… no one is going to be asking you, okay? You just have to be explain how the HNSW arranged the data and how the IBF arranged the data. That's it. Okay
+
+01:10:36.000 --> 01:10:43.000
+For the HNSW, I think I written over here, you haven't checked, see? Hierarchical navigable, small world, this one
+
+01:10:43.000 --> 01:10:47.000
+And IBF means inverted file index, okay?
+
+01:10:47.000 --> 01:10:52.000
+Yes, correct.
+
+01:10:52.000 --> 01:10:58.000
+Okay, guys, so I think, we can take a quick break. So, tell me, how's, like,
+
+01:10:58.000 --> 01:11:06.000
+How's the explanation so far?
+
+01:11:06.000 --> 01:11:07.000
+Okay.
+
+01:11:07.000 --> 01:11:37.000
+So, I'm putting a timer, will it start after 21. Thank you, everyone.
+
+01:34:35.000 --> 01:34:49.000
+Okay, guys, I think we can start with the class. I hope everyone is there. So just give me a quick confirmation.
+
+01:34:49.000 --> 01:34:56.000
+Okay, so you understood the fundamental of the Vector Database, and you understood, like, how the data is being,
+
+01:34:56.000 --> 01:34:58.000
+Captain side, right
+
+01:34:58.000 --> 01:35:19.000
+And basically, how the data is being retrieved, okay? So once I will show you the practical and all in that case, the understanding would be more clear right so I can show you the database Vector Database. Okay, how the data is being stored over there
+
+01:35:19.000 --> 01:35:28.000
+We can everything, we can everything visualize, Bala, going forward, I'll show you, okay, once we'll enter into the practical. Got it?
+
+01:35:28.000 --> 01:35:37.000
+Great. Now, how… see, we're talking about this IBF or the other one, right? So I can give you the high-level overview of that
+
+01:35:37.000 --> 01:35:43.000
+Let's discuss with one more example, so I can give you one more example
+
+01:35:43.000 --> 01:35:55.000
+So that your understanding would be more clear, okay? I hope this blackboard is visible. Just give me a quick confirmation, guys, if it is visible then
+
+01:35:55.000 --> 01:36:01.000
+Okay, so let's understand about the IBM, how the IBF would be working.
+
+01:36:01.000 --> 01:36:04.000
+You know, guys,
+
+01:36:04.000 --> 01:36:08.000
+We are storing your data inside the Vector database.
+
+01:36:08.000 --> 01:36:12.000
+Okay.
+
+01:36:12.000 --> 01:36:15.000
+We are storing our data inside the Vector database. Let's say we have
+
+01:36:15.000 --> 01:36:19.000
+Vector inside the Vector database.
+
+01:36:19.000 --> 01:36:25.000
+Okay, so I'm giving a specific name to that, that is called the all vector, right?
+
+01:36:25.000 --> 01:36:29.000
+Now, what we will do, we will create a cluster out of the vector
+
+01:36:29.000 --> 01:36:31.000
+Okay.
+
+01:36:31.000 --> 01:36:35.000
+What we will do, guys, we will create a cluster
+
+01:36:35.000 --> 01:36:43.000
+Cluster, what is the meaning of the cluster? Cluster is nothing, it is a grouping of the data.
+
+01:36:43.000 --> 01:36:45.000
+Okay.
+
+01:36:45.000 --> 01:36:50.000
+Grouping means what?
+
+01:36:50.000 --> 01:36:53.000
+similar kind of… similar kind of vector
+
+01:36:53.000 --> 01:36:59.000
+Similar kind of data
+
+01:36:59.000 --> 01:37:06.000
+Would be available
+
+01:37:06.000 --> 01:37:14.000
+in one cluster
+
+01:37:14.000 --> 01:37:16.000
+Okay.
+
+01:37:16.000 --> 01:37:23.000
+So, let's say we have several… we have several clusters
+
+01:37:23.000 --> 01:37:28.000
+Cluster 1, then cluster…
+
+01:37:28.000 --> 01:37:32.000
+Then cluster…
+
+01:37:32.000 --> 01:37:33.000
+3
+
+01:37:33.000 --> 01:37:43.000
+Okay? Something like this, lecture cluster N. So we have n cluster
+
+01:37:43.000 --> 01:37:45.000
+Got it, guys.
+
+01:37:45.000 --> 01:37:46.000
+Okay.
+
+01:37:46.000 --> 01:37:53.000
+So this is my all data, this is my this is my entire data. Now let's suppose, guys, this cluster one
+
+01:37:53.000 --> 01:37:56.000
+It is belonging to some specific data
+
+01:37:56.000 --> 01:38:01.000
+Right? Let's say this is belonging to the
+
+01:38:01.000 --> 01:38:02.000
+AI
+
+01:38:02.000 --> 01:38:05.000
+The related data
+
+01:38:05.000 --> 01:38:09.000
+Now, this cluster 2 is belonging to the
+
+01:38:09.000 --> 01:38:15.000
+RL-related data, reinforcement learning related data
+
+01:38:15.000 --> 01:38:16.000
+Okay.
+
+01:38:16.000 --> 01:38:23.000
+Now, this cluster 3, it is based on what, let's say… I'm just taking example, okay? Let's say
+
+01:38:23.000 --> 01:38:27.000
+data engineering-related data, okay? D-related data
+
+01:38:27.000 --> 01:38:31.000
+Take something like this. Getting my point, guys, yes or no.
+
+01:38:31.000 --> 01:38:36.000
+Yes or no? So, how the date… how the query will be processed, let's say
+
+01:38:36.000 --> 01:38:40.000
+We have a query
+
+01:38:40.000 --> 01:38:47.000
+This query will be converted into the
+
+01:38:47.000 --> 01:38:49.000
+embedding
+
+01:38:49.000 --> 01:38:52.000
+Now, this is called what? This is called the
+
+01:38:52.000 --> 01:38:54.000
+Vector
+
+01:38:54.000 --> 01:38:55.000
+Okay.
+
+01:38:55.000 --> 01:39:01.000
+So, it will try to find out the nearest cluster
+
+01:39:01.000 --> 01:39:04.000
+It will
+
+01:39:04.000 --> 01:39:07.000
+try to find
+
+01:39:07.000 --> 01:39:10.000
+It will try to find
+
+01:39:10.000 --> 01:39:16.000
+nearest cluster
+
+01:39:16.000 --> 01:39:20.000
+Okay? It will try to find out the nearest cluster
+
+01:39:20.000 --> 01:39:24.000
+So, let's say my query is related to
+
+01:39:24.000 --> 01:39:26.000
+AI
+
+01:39:26.000 --> 01:39:36.000
+Related, okay? Artificial intelligence related. So we have several cluster. Now, tell me guys, did you try to find out the nearest cluster, which will be the nearest cluster
+
+01:39:36.000 --> 01:39:38.000
+This cluster
+
+01:39:38.000 --> 01:39:42.000
+Or this cluster, or this cluster.
+
+01:39:42.000 --> 01:39:44.000
+If my cluster is
+
+01:39:44.000 --> 01:39:52.000
+AI-related. The query is AI related. Okay? So this cluster would be the nearest one, no
+
+01:39:52.000 --> 01:39:55.000
+So we are going to be skip this data
+
+01:39:55.000 --> 01:40:01.000
+So we are going to be skip this data and we are trying to find out a top result
+
+01:40:01.000 --> 01:40:05.000
+We are trying to find out the top care result
+
+01:40:05.000 --> 01:40:08.000
+We'll try to find out the top care result
+
+01:40:08.000 --> 01:40:10.000
+Okay
+
+01:40:10.000 --> 01:40:13.000
+We'll select
+
+01:40:13.000 --> 01:40:18.000
+Top key result
+
+01:40:18.000 --> 01:40:21.000
+From
+
+01:40:21.000 --> 01:40:22.000
+This
+
+01:40:22.000 --> 01:40:24.000
+cluster
+
+01:40:24.000 --> 01:40:26.000
+Only
+
+01:40:26.000 --> 01:40:31.000
+Now, what is the advantage of it? The advantage of it is very simple
+
+01:40:31.000 --> 01:40:36.000
+Our search space is reducing
+
+01:40:36.000 --> 01:40:41.000
+Our search space is reducing.
+
+01:40:41.000 --> 01:40:43.000
+Okay.
+
+01:40:43.000 --> 01:40:48.000
+will get a faster result
+
+01:40:48.000 --> 01:40:52.000
+We'll get a faster result
+
+01:40:52.000 --> 01:40:59.000
+So, this is the overall idea behind what, behind the IBF
+
+01:40:59.000 --> 01:41:06.000
+Understood? Is it getting clear to all of you? Yes or no?
+
+01:41:06.000 --> 01:41:13.000
+Okay, so from here only, we are going to find out what, we are going to be finding out the top care result
+
+01:41:13.000 --> 01:41:22.000
+Top game is K could be anything. It could be 5, it could be 10, it could be 15, something like this, right?
+
+01:41:22.000 --> 01:41:34.000
+You no need to cluster the data, algorithm will automatically do that, okay, in the back end and all, every code have been written. You just need to be used that particular configuration with respect to that vector database
+
+01:41:34.000 --> 01:41:38.000
+Okay. Now, we're talking about
+
+01:41:38.000 --> 01:41:40.000
+Now, we're talking about this one.
+
+01:41:40.000 --> 01:41:46.000
+HNSW. Okay, so HNSW, it's a little different one
+
+01:41:46.000 --> 01:42:03.000
+Right? How to find out the nearest cluster. Similarity search, you know? It will perform the similarity search, it will take an average of average and all. If you wanted to understand this thing, you can go with the k means clustering algorithm. Just go and check with the k means clustering algorithm and understand how does it work
+
+01:42:03.000 --> 01:42:06.000
+Got it?
+
+01:42:06.000 --> 01:42:08.000
+Okay.
+
+01:42:08.000 --> 01:42:11.000
+No, guys, if we're talking about the HNSW
+
+01:42:11.000 --> 01:42:13.000
+If I'm saying
+
+01:42:13.000 --> 01:42:15.000
+HNSW.
+
+01:42:15.000 --> 01:42:20.000
+So, the full form of the HNSW is
+
+01:42:20.000 --> 01:42:26.000
+Hi, Rhikal.
+
+01:42:26.000 --> 01:42:32.000
+Navigable
+
+01:42:32.000 --> 01:42:36.000
+Small world
+
+01:42:36.000 --> 01:42:39.000
+Okay.
+
+01:42:39.000 --> 01:42:42.000
+A small world. So, this is the full form of the
+
+01:42:42.000 --> 01:42:45.000
+HNSW
+
+01:42:45.000 --> 01:42:55.000
+Okay. Now, guys, how does HNSW is working? So, HNSW actually is trying to create a graph actually
+
+01:42:55.000 --> 01:43:00.000
+Okay. It's trying to create a graph, actually. So, let's say
+
+01:43:00.000 --> 01:43:03.000
+What we have, we have a top layer.
+
+01:43:03.000 --> 01:43:07.000
+Inside that, what will be having… we will be having a notes, actually.
+
+01:43:07.000 --> 01:43:15.000
+Right? It's trying to create a graph like this, this one.
+
+01:43:15.000 --> 01:43:19.000
+This, like this.
+
+01:43:19.000 --> 01:43:21.000
+Okay.
+
+01:43:21.000 --> 01:43:25.000
+is trying to create a graph like this
+
+01:43:25.000 --> 01:43:27.000
+Okay.
+
+01:43:27.000 --> 01:43:28.000
+Now, over here, see
+
+01:43:28.000 --> 01:43:30.000
+If we're talking about the graph
+
+01:43:30.000 --> 01:43:33.000
+So, how it will traverse
+
+01:43:33.000 --> 01:43:38.000
+So, first of all, we'll be having a query
+
+01:43:38.000 --> 01:43:44.000
+Okay, now what it will do, it will try to find out the approximation over the
+
+01:43:44.000 --> 01:43:47.000
+top layer, okay?
+
+01:43:47.000 --> 01:43:49.000
+Fine.
+
+01:43:49.000 --> 01:43:53.000
+Approximation
+
+01:43:53.000 --> 01:43:57.000
+Or the top layer.
+
+01:43:57.000 --> 01:44:01.000
+Or the top layer means what
+
+01:44:01.000 --> 01:44:06.000
+It is a common sense, right? So, if we are going to be start from here.
+
+01:44:06.000 --> 01:44:11.000
+Then this is going to be a next layer. So it's trying to check the next layer
+
+01:44:11.000 --> 01:44:14.000
+This is the layer 0, this is the layer one
+
+01:44:14.000 --> 01:44:24.000
+Okay? Then it will move to the closest layer, right? So let's say it's going to be move over here. Let's say it's coming over here. Then from here it's going over here, then it's coming
+
+01:44:24.000 --> 01:44:27.000
+So we are skipping this data
+
+01:44:27.000 --> 01:44:29.000
+We are skipping this data
+
+01:44:29.000 --> 01:44:34.000
+We are just choosing this particular data
+
+01:44:34.000 --> 01:44:39.000
+Getting my point, guys, yes or no. So, this is the overall approach behind the HNSW.
+
+01:44:39.000 --> 01:44:42.000
+Again, we no need to
+
+01:44:42.000 --> 01:44:45.000
+like, go inside the depth of it.
+
+01:44:45.000 --> 01:44:50.000
+If we understand how does it working, that is fine. Okay?
+
+01:44:50.000 --> 01:45:01.000
+In interview, no one will ask you. They will just ask you, like, how the data is being arranged. If they are asking you, then nothing. In that case, okay, if someone is asking in the interview, then
+
+01:45:01.000 --> 01:45:09.000
+You can look into this, particular algorithm and all, okay, how it is working, but that is, like, one case out of 100.
+
+01:45:09.000 --> 01:45:21.000
+Okay, most of the people will not ask, the in-depth mathematics of the HNSW and all, right? It will just ask you what are different type of index we have and how does it work? That's it
+
+01:45:21.000 --> 01:45:23.000
+Okay?
+
+01:45:23.000 --> 01:45:29.000
+So now I hope this part is also clear. So let's do one thing, guys. Let's try to go through with more
+
+01:45:29.000 --> 01:45:33.000
+Basically…
+
+01:45:33.000 --> 01:45:35.000
+theoretical points
+
+01:45:35.000 --> 01:45:41.000
+So tell me, guys, is this definition Kalia? Whatever definition I had written over here
+
+01:45:41.000 --> 01:45:45.000
+This one
+
+01:45:45.000 --> 01:45:55.000
+Yeah, product quantization is one of the, like, enhancement, okay, with the IVF, or with this HNSW Adit. Got it?
+
+01:45:55.000 --> 01:46:03.000
+I hope everyone is able to understand it. So, these are some, well-known vector database we can utilize this vector database
+
+01:46:03.000 --> 01:46:06.000
+To understand, like, how does it work?
+
+01:46:06.000 --> 01:46:09.000
+No, after that, guys, you can see
+
+01:46:09.000 --> 01:46:13.000
+There's one more thing which I mentioned
+
+01:46:13.000 --> 01:46:15.000
+This is about the
+
+01:46:15.000 --> 01:46:21.000
+Nearest, exact nearest neighbor search and approximate nearest neighbor search.
+
+01:46:21.000 --> 01:46:34.000
+I hope you understood. Basically, how does it work? And, which one we have to use when. So, exact search, check all the query against every stored vector, and return the nearest true match.
+
+01:46:34.000 --> 01:46:38.000
+Is this definition clear about the exact search?
+
+01:46:38.000 --> 01:46:50.000
+Now, ENN, basically, it's an approximate nearest search, only a selected part of the index, okay? Index will return very close match, faster, but it may occasionally miss the exact best result.
+
+01:46:50.000 --> 01:46:53.000
+Accuracy-wise, this is good.
+
+01:46:53.000 --> 01:46:54.000
+And speed-wise, this is good.
+
+01:46:54.000 --> 01:47:03.000
+Okay. So, here you can see method, accuracy, speed, and best 4. So, exact search, it'd give you the 100% accuracy
+
+01:47:03.000 --> 01:47:06.000
+Okay, but the speed is a little slower.
+
+01:47:06.000 --> 01:47:09.000
+On the last data set
+
+01:47:09.000 --> 01:47:21.000
+It is very, like, slow over the last dataset. It is very obvious, right? We are going to navigate all the record, then definitely it would be slow. And best for… it is best for the small data set, right?
+
+01:47:21.000 --> 01:47:29.000
+Are we talking about the ANN search, so it is approximate search. It gives you the much faster result
+
+01:47:29.000 --> 01:47:36.000
+And it is a large-scale production search. So yeah, if it… if you have so many data, and on top of that, if you want to build the index
+
+01:47:36.000 --> 01:47:51.000
+Okay? You can negotiate some sort of accuracy. In that case, you can go with this approximate nearest search. You can create the IBF index or HNSW index in that case
+
+01:47:51.000 --> 01:47:53.000
+Okay.
+
+01:47:53.000 --> 01:47:57.000
+Now, over here, guys, you can see
+
+01:47:57.000 --> 01:47:59.000
+So I kept a couple of more things
+
+01:47:59.000 --> 01:48:12.000
+Now, we're talking about the differences between the SQL data, NoSQL data Vector Database. Differences are very simple. Just try to read it out.
+
+01:48:12.000 --> 01:48:19.000
+So over here, guys, I return some differences. See, primary purpose is what the primary purpose basically to structure
+
+01:48:19.000 --> 01:48:26.000
+Relational data, okay? So here we are going to be stored the data in the form of table rows, and column
+
+01:48:26.000 --> 01:48:31.000
+And what is going… how the schema is going to be predefined schema
+
+01:48:31.000 --> 01:48:38.000
+table or schema, right? So we design the schema, and inside that schema only, we are going to restore the data.
+
+01:48:38.000 --> 01:48:43.000
+If we're talking about the NoSQL database, it's a flexible data
+
+01:48:43.000 --> 01:48:46.000
+Okay, we have a different, different type of the NoSQL database
+
+01:48:46.000 --> 01:48:56.000
+document key value PR graph database and here we have a flexible and we can change that scheme on the runtime right
+
+01:48:56.000 --> 01:48:58.000
+So here, the schema is the flexible
+
+01:48:58.000 --> 01:49:04.000
+Are we talking about the Vector Database guys? So there we are mainly using it for the embedding storage.
+
+01:49:04.000 --> 01:49:08.000
+Vector ID, original content, and metadata would be there
+
+01:49:08.000 --> 01:49:15.000
+So fixed vector dimension with a flexible metadata we can store inside the Vector Database
+
+01:49:15.000 --> 01:49:22.000
+Okay. Now, we're talking about the SQL database, so we do the exact match. We can write the where condition and all with that, we can do the exact match
+
+01:49:22.000 --> 01:49:26.000
+This is not that exact match which we are learning
+
+01:49:26.000 --> 01:49:35.000
+With the embedding and all, okay? It's an exact match with that wear condition and all. Now, NoSQL Database again based on some sort of a condition, we can filter out the data
+
+01:49:35.000 --> 01:49:41.000
+We're talking about the Vector database, so based on the similarity search, okay, we can filter out the data
+
+01:49:41.000 --> 01:49:48.000
+Query type joins, range, aggregation, okay? Different, different type of query we can run over the SQL database.
+
+01:49:48.000 --> 01:50:04.000
+NoSQL Database again, different, different query for everything we can run. And over the Vector database, we can perform the similar T search. The different different kind of basically index we can create where we can do the exact search and the approximation search okay
+
+01:50:04.000 --> 01:50:08.000
+But I'm talking in terms of the similar teachers, the embedding operations, okay
+
+01:50:08.000 --> 01:50:15.000
+Now, typical, we are using it everywhere, the SQL database for structuring our data
+
+01:50:15.000 --> 01:50:26.000
+Again, this NoSQL Database is also being used everywhere for keeping the structure as well as the non-structured data. Now we're talking about the Vector Database we are using inside the rack system recommendation system
+
+01:50:26.000 --> 01:50:30.000
+In the semantic system, in the image search system. Okay
+
+01:50:30.000 --> 01:50:36.000
+So, at this particular place, we are going to be using. So we cannot use the SQL database
+
+01:50:36.000 --> 01:50:51.000
+In place of the Vector database. We can use the SQL Database if we are doing the exact matching means we are going to be filter out the data, okay, the structured data specifically, not the text data, and based on the embedding
+
+01:50:51.000 --> 01:51:07.000
+If we are going to perform the embedding-based operation, and if we just want to store the embedding in that case, we'll have to use the Vector data only. Getting my point? So this is a primary difference. And nowadays, with every Vector database, sorry, nowadays with every SQL or NoSQL database
+
+01:51:07.000 --> 01:51:12.000
+You will find out the respective vector store also
+
+01:51:12.000 --> 01:51:18.000
+Okay, so with the PostgreSQL PG vector is there.
+
+01:51:18.000 --> 01:51:24.000
+With the Oracle also, you will find out their own Vector store. MongoDB is also providing that
+
+01:51:24.000 --> 01:51:30.000
+Facility. Okay, every Vector database is providing that, even S3 is also providing you that
+
+01:51:30.000 --> 01:51:37.000
+Sorry, every NoSQL SQL storage is providing you that facility. So these are some dedicated vector store
+
+01:51:37.000 --> 01:51:41.000
+dedicated
+
+01:51:41.000 --> 01:51:46.000
+Vector
+
+01:51:46.000 --> 01:51:49.000
+Database
+
+01:51:49.000 --> 01:51:52.000
+Or you can say
+
+01:51:52.000 --> 01:51:55.000
+Vector store.
+
+01:51:55.000 --> 01:52:05.000
+Getting my point. Now, there is two term. One is a Vector Database and second is a Vector Store
+
+01:52:05.000 --> 01:52:07.000
+Okay.
+
+01:52:07.000 --> 01:52:11.000
+Vector store
+
+01:52:11.000 --> 01:52:15.000
+Both seems same, right?
+
+01:52:15.000 --> 01:52:20.000
+Both sounds seems.
+
+01:52:20.000 --> 01:52:23.000
+But
+
+01:52:23.000 --> 01:52:26.000
+There is little difference
+
+01:52:26.000 --> 01:52:28.000
+There is
+
+01:52:28.000 --> 01:52:30.000
+little
+
+01:52:30.000 --> 01:52:37.000
+technical difference.
+
+01:52:37.000 --> 01:52:46.000
+So this vector is stored, this term actually generally we utilize for the in-memory store
+
+01:52:46.000 --> 01:52:49.000
+In memory store
+
+01:52:49.000 --> 01:52:55.000
+Persistent store.
+
+01:52:55.000 --> 01:52:59.000
+Where we cannot do the database-related thing. Means
+
+01:52:59.000 --> 01:53:05.000
+Database, actually, it is a proper system
+
+01:53:05.000 --> 01:53:06.000
+Okay.
+
+01:53:06.000 --> 01:53:11.000
+Where we can do the distribution
+
+01:53:11.000 --> 01:53:15.000
+We can do the shading
+
+01:53:15.000 --> 01:53:20.000
+Okay? The database-related operations.
+
+01:53:20.000 --> 01:53:22.000
+Okay, it's a complete system.
+
+01:53:22.000 --> 01:53:28.000
+Right? Vector store, basically, generally in-memory and persistent, where these
+
+01:53:28.000 --> 01:53:31.000
+Options are not available.
+
+01:53:31.000 --> 01:53:35.000
+Sharing, distribution and all. Okay, this one.
+
+01:53:35.000 --> 01:53:39.000
+So both are same
+
+01:53:39.000 --> 01:53:41.000
+This is correct.
+
+01:53:41.000 --> 01:53:46.000
+But Vector Database actually it's
+
+01:53:46.000 --> 01:53:55.000
+Complete system
+
+01:53:55.000 --> 01:54:02.000
+Okay? And this Vector Store, actually, it's a simple
+
+01:54:02.000 --> 01:54:03.000
+store.
+
+01:54:03.000 --> 01:54:05.000
+Okay
+
+01:54:05.000 --> 01:54:15.000
+It's a, like, simple, what I can say, what I can say. It's a simple store, right? It's a simple DB without this complete system.
+
+01:54:15.000 --> 01:54:25.000
+Okay. Getting my point, guys, yes or no? Tell me, is it getting clear to all of you? So, this is the primary difference. No need to be, like,
+
+01:54:25.000 --> 01:54:26.000
+Confused with this term
+
+01:54:26.000 --> 01:54:30.000
+Right? So, generally, there's five
+
+01:54:30.000 --> 01:54:33.000
+Okay, ChromaDB
+
+01:54:33.000 --> 01:54:43.000
+ChromaDB is also providing the cloud-hosted databases cloud support. Okay, but generally we are using this Vector stored this term
+
+01:54:43.000 --> 01:54:49.000
+And with respect to this particular databases, okay?
+
+01:54:49.000 --> 01:54:53.000
+Is it clear to all of you guys? Tell me yes or no
+
+01:54:53.000 --> 01:55:01.000
+Are you liking this session?
+
+01:55:01.000 --> 01:55:06.000
+Okay?
+
+01:55:06.000 --> 01:55:24.000
+So, what is the use of the Vector Database RJ uses, basically, to create a simple prototype, simple system, and all. But if you are going to create a real production-grade system, in that case, you will use the full managed Vector DB, na, correct, na
+
+01:55:24.000 --> 01:55:27.000
+Right?
+
+01:55:27.000 --> 01:55:29.000
+Okay.
+
+01:55:29.000 --> 01:55:39.000
+I hope it is clear. Now, what is the sharding? Sharding is nothing. You see, sharding means it's a process of splitting a large database into the smaller part. That is called a shard
+
+01:55:39.000 --> 01:55:45.000
+Okay. So if you're going to be stored data across the multiple server, that is a sharding.
+
+01:55:45.000 --> 01:55:48.000
+Okay? That is called the starting.
+
+01:55:48.000 --> 01:55:49.000
+Right?
+
+01:55:49.000 --> 01:55:57.000
+I hope, this is clear. So, distribution, siding, this, all the thing, basically, we can do under one system
+
+01:55:57.000 --> 01:56:03.000
+Simply, we can set it's a vector database. Vector store means there we cannot perform all this thing.
+
+01:56:03.000 --> 01:56:11.000
+Which is not working as a complete system, which is a normal vector store. So generally, for any basic prototype
+
+01:56:11.000 --> 01:56:14.000
+Okay.
+
+01:56:14.000 --> 01:56:20.000
+prototype for any POC, for any MVP
+
+01:56:20.000 --> 01:56:28.000
+We can utilize the normal Vector Store and all. We are going to create a full scale
+
+01:56:28.000 --> 01:56:33.000
+Okay, full-scale solution, full-scale, production-grade solution
+
+01:56:33.000 --> 01:56:35.000
+There we prefer the
+
+01:56:35.000 --> 01:56:38.000
+Complete system.
+
+01:56:38.000 --> 01:56:40.000
+Okay.
+
+01:56:40.000 --> 01:56:42.000
+We can perform the CRUD operation also. I'll come to that
+
+01:56:42.000 --> 01:56:51.000
+Now, guys, I hope this part is clear, and I hope so you are able to understand every sort of a concept with respect to the database and all. Now, coming to the next part.
+
+01:56:51.000 --> 01:56:55.000
+So, like this, we are going to be stored data inside the Vector Database
+
+01:56:55.000 --> 01:56:56.000
+Okay.
+
+01:56:56.000 --> 01:56:59.000
+This one
+
+01:56:59.000 --> 01:57:05.000
+So, ID, Vector Embedding, original text, metadata, everything, okay, we can store. I will show you.
+
+01:57:05.000 --> 01:57:13.000
+Then guys, metadata filtering. So, yes, to retrieve the data from the Vector database, even we can rely on the metadata filtering.
+
+01:57:13.000 --> 01:57:18.000
+So, as of now, we just discussed about what
+
+01:57:18.000 --> 01:57:23.000
+Let's say we have embedding
+
+01:57:23.000 --> 01:57:24.000
+Okay.
+
+01:57:24.000 --> 01:57:29.000
+There's aquarium building
+
+01:57:29.000 --> 01:57:37.000
+And let's say we have our embedding inside the Vector database.
+
+01:57:37.000 --> 01:57:47.000
+embedding inside the Vector database. Embedding 1, embedding 2, embedding 3, embedding 4. So we can perform what? We can perform the similarity search
+
+01:57:47.000 --> 01:57:51.000
+similarities such
+
+01:57:51.000 --> 01:57:53.000
+Cosine similar t
+
+01:57:53.000 --> 01:57:57.000
+altitude distance, dot product
+
+01:57:57.000 --> 01:57:59.000
+Okay.
+
+01:57:59.000 --> 01:58:03.000
+this many options we have
+
+01:58:03.000 --> 01:58:04.000
+Right?
+
+01:58:04.000 --> 01:58:11.000
+But this is one thing. There's a vector-based operation
+
+01:58:11.000 --> 01:58:14.000
+Vector-based operation
+
+01:58:14.000 --> 01:58:24.000
+But apart from this one, guys, we can retrieve the information with the metadata filtering also.
+
+01:58:24.000 --> 01:58:35.000
+So, as I told you, when we are going to store the data inside this vector database, so here the metadata will also be available. Yes or no?
+
+01:58:35.000 --> 01:58:40.000
+So, based on this metadata also, we can do some
+
+01:58:40.000 --> 01:58:43.000
+filtering of the data.
+
+01:58:43.000 --> 01:58:45.000
+Okay.
+
+01:58:45.000 --> 01:58:50.000
+This is also possible, and generally we do it inside the real-time system
+
+01:58:50.000 --> 01:59:00.000
+Okay, so this is also possible. And this is what, basically, I have written over here. So, metadata filtering is also possible. Now, CRUD operation, yes
+
+01:59:00.000 --> 01:59:15.000
+We can create a vectors, we can read the data, we can update the vector, we can delete the data, okay? Everything is possible inside the vector database. The CRUD operation is possible inside the Vector Database or Vector store, right?
+
+01:59:15.000 --> 01:59:23.000
+If I'm saying Vector Database or vector… if I'm just saying Vector Database na, guys, so just see, think in terms of the vector store also. Okay?
+
+01:59:23.000 --> 01:59:35.000
+Think in terms of the Vector store also. If I'm saying Vector Database so yeah, same kind of operation, we can perform all the Vector store also, because both are same Database is just a complete system. That's it.
+
+01:59:35.000 --> 01:59:41.000
+Okay, I think somewhere I explained that Part C. Database is what's a complete system, that's it.
+
+01:59:41.000 --> 01:59:46.000
+Right? But the core fundamental, it would be same.
+
+01:59:46.000 --> 01:59:47.000
+I hope it is getting clear.
+
+01:59:47.000 --> 02:00:00.000
+So these are the important point. Now, this is one of the things. See, we're talking about the index, so index 1 and not only the thing. So we have our other different term also. So in quadrant actually the index is called the collection
+
+02:00:00.000 --> 02:00:03.000
+In Pinecone, it is called the index plus namespace
+
+02:00:03.000 --> 02:00:04.000
+Okay
+
+02:00:04.000 --> 02:00:20.000
+Different database user, different name, like collection, index, and namespace. So if someone is saying index, this is a widely used term.
+
+02:00:20.000 --> 02:00:21.000
+Okay.
+
+02:00:21.000 --> 02:00:27.000
+But in the different, different database, guys, this term could be changed. It could be the collection
+
+02:00:27.000 --> 02:00:32.000
+It could be the namespace, something like that.
+
+02:00:32.000 --> 02:00:38.000
+Only term is going to be changed, the concept would be same.
+
+02:00:38.000 --> 02:00:39.000
+concept
+
+02:00:39.000 --> 02:00:48.000
+What we say
+
+02:00:48.000 --> 02:00:53.000
+Getting my point, guys, yes or no, is it getting clear to all of you?
+
+02:00:53.000 --> 02:00:56.000
+Tell me yes or no.
+
+02:00:56.000 --> 02:00:58.000
+Yes?
+
+02:00:58.000 --> 02:00:59.000
+Okay.
+
+02:00:59.000 --> 02:01:04.000
+So, I hope this part is also clear now. This is a very important concept
+
+02:01:04.000 --> 02:01:07.000
+So, guys, here
+
+02:01:07.000 --> 02:01:15.000
+If we're talking about the vector dimensions, this plays a very important role. So every embedding model produce a fixed size vector
+
+02:01:15.000 --> 02:01:26.000
+Okay? That's a model A is having this dimension, model B is having this dimension, model C is having this dimension, right? The important concept is the model, the Vector Database collection or that Vector Database Index
+
+02:01:26.000 --> 02:01:30.000
+Dimension must match embedding model output dimension.
+
+02:01:30.000 --> 02:01:36.000
+So whatever index we are going to be create
+
+02:01:36.000 --> 02:01:42.000
+Let's say if you are going to be define the dimension of it, 7, 68
+
+02:01:42.000 --> 02:01:48.000
+So you will have to use this model only.
+
+02:01:48.000 --> 02:01:50.000
+Understood, guys.
+
+02:01:50.000 --> 02:01:57.000
+If we're going to be used a different model, like this model or this model, you will get an error in that case
+
+02:01:57.000 --> 02:02:07.000
+So, this is a pretty common issue which we generally have. I think we were also getting the same error while we were implementing the end-to-end rack pipeline, right?
+
+02:02:07.000 --> 02:02:17.000
+Now, how we can evaluate the vector database. So these are some terms and terminology. I will discuss it in the upcoming session in the evaluation chapter
+
+02:02:17.000 --> 02:02:20.000
+I can explain you that. Okay?
+
+02:02:20.000 --> 02:02:33.000
+Now, guys, this is a chunking-related thing, so we'll discuss about it, chunking and all, right? So, I'll come to that, maybe in the next class, I'll be discussing about the chunking, right? So one more class, relate to Vector Database. In the next class, we are going to be complete.
+
+02:02:33.000 --> 02:02:41.000
+So tell me, guys, how's the session so far?
+
+02:02:41.000 --> 02:02:44.000
+I hope everything is going well
+
+02:02:44.000 --> 02:02:49.000
+And, everyone is able to understand the fundamental of the Vector Database
+
+02:02:49.000 --> 02:03:03.000
+And, re-ranking, ranking, and all that comes in the retrieval, when we retrieve the data from the Vector database. So that will be the next part, okay? As of now, we have understood how to store the data inside the Vector database
+
+02:03:03.000 --> 02:03:12.000
+Okay, keep this term in your mind… this picture in your mind. This is, like, very important, this one.
+
+02:03:12.000 --> 02:03:14.000
+Okay.
+
+02:03:14.000 --> 02:03:28.000
+Now, let's, do one thing, guys. Let me come to the practical, let's perform some practical. So, I'm going to be open my file, and there, we'll do the practical. So, are you ready for the practical, guys? So first we'll start with the files, and then we'll go for the other database.
+
+02:03:28.000 --> 02:03:58.000
+So I'm taking one minute of break, guys, quick water break, then we'll start with a practical.
+
+02:05:21.000 --> 02:05:27.000
+Okay, guys, I think, we can, quickly start with the practical. I hope everyone is back.
+
+02:05:27.000 --> 02:05:30.000
+And first of all, let me show you what
+
+02:05:30.000 --> 02:05:36.000
+how to basically store the data inside the Vector database, okay? So let's start from the files itself.
+
+02:05:36.000 --> 02:05:44.000
+So, what I'll do, guys, let me write some code, and let me keep some data, first of all
+
+02:05:44.000 --> 02:05:59.000
+Then I will show you the actual document, okay?
+
+02:05:59.000 --> 02:06:14.000
+Okay, so guys, what I'll do, I… first, I require the embedding model for the… for what? For the vector database. So let me load the environment variable
+
+02:06:14.000 --> 02:06:17.000
+So, from
+
+02:06:17.000 --> 02:06:21.000
+dot ENB
+
+02:06:21.000 --> 02:06:23.000
+Okay.
+
+02:06:23.000 --> 02:06:32.000
+From .enb, I'm going to be import the load underscore enb.
+
+02:06:32.000 --> 02:06:35.000
+Now, guys, what I'll do, I'll import the OS also, then I'll create a
+
+02:06:35.000 --> 02:06:38.000
+object of this load.enb
+
+02:06:38.000 --> 02:06:43.000
+And then I will write os.nviron
+
+02:06:43.000 --> 02:06:49.000
+Okay, now here, basically, I'm going to be used the Google API key
+
+02:06:49.000 --> 02:06:54.000
+So, instead of this one, basically, I'll be using Google
+
+02:06:54.000 --> 02:06:55.000
+API
+
+02:06:55.000 --> 02:07:02.000
+Okay, Google underscore API
+
+02:07:02.000 --> 02:07:03.000
+Underscore key, okay?
+
+02:07:03.000 --> 02:07:13.000
+So yeah, we are able to load the environment variable, and we are able to set it as a… sorry, we are able to load the environment variable, and we are able to set this key as an environment variable. Okay.
+
+02:07:13.000 --> 02:07:21.000
+Now, guys, what I'll do, from the LangChain itself, I'll be loading the embedding model. So, from LangChain…
+
+02:07:21.000 --> 02:07:24.000
+dot
+
+02:07:24.000 --> 02:07:26.000
+Google
+
+02:07:26.000 --> 02:07:30.000
+underscore Genai dot
+
+02:07:30.000 --> 02:07:34.000
+import, okay?
+
+02:07:34.000 --> 02:07:37.000
+Google Generative
+
+02:07:37.000 --> 02:07:39.000
+AI
+
+02:07:39.000 --> 02:07:40.000
+embedding
+
+02:07:40.000 --> 02:07:43.000
+So this is the class, guys. Now, what I'll do
+
+02:07:43.000 --> 02:07:49.000
+So, LangChain Google underscore GenAI
+
+02:07:49.000 --> 02:08:04.000
+It is not correct. Okay, LangChain underscored, sorry guys. This is the class. Now, after that, guys, what I'll be doing, so here, I'm going to be create an object of this class.
+
+02:08:04.000 --> 02:08:09.000
+So, I'm passing the models over here
+
+02:08:09.000 --> 02:08:13.000
+So my model is going to be what? One is going to be this one. Models
+
+02:08:13.000 --> 02:08:14.000
+Slush
+
+02:08:14.000 --> 02:08:17.000
+embeddings
+
+02:08:17.000 --> 02:08:32.000
+001. Okay?
+
+02:08:32.000 --> 02:08:44.000
+It's giving me some error. Okay, fine, fine, guys. I think, the spelling is not correct. Maybe the spelling is wrong. Let me write the correct spelling. Yeah, fine, guys, I think I got it.
+
+02:08:44.000 --> 02:08:48.000
+The spelling is not correct, let me write a correct spelling over here
+
+02:08:48.000 --> 02:08:53.000
+So this is the correct spelling, and I think we can even load the
+
+02:08:53.000 --> 02:09:03.000
+Model also, okay? So embedding model is required to us, and yes, the model is there. Now I can keep it inside the variable.
+
+02:09:03.000 --> 02:09:12.000
+So this is what… this is my embedding model. Okay, now I can quickly check it out that so I can take this embedding model. I can run the what embed query right?
+
+02:09:12.000 --> 02:09:20.000
+And here, basically, I can check whether the model is working fine or not. So it's, giving some error
+
+02:09:20.000 --> 02:09:26.000
+I think model is not found. I think we were using some different model in our previous class
+
+02:09:26.000 --> 02:09:30.000
+Let me check which model we were using. So…
+
+02:09:30.000 --> 02:09:33.000
+GPT fine-tuning, data parsing
+
+02:09:33.000 --> 02:09:39.000
+The model name was what?
+
+02:09:39.000 --> 02:09:44.000
+Wait, guys, let me take the model from here itself. I think the model is already there.
+
+02:09:44.000 --> 02:09:51.000
+Yeah, this was the model.
+
+02:09:51.000 --> 02:09:56.000
+Okay, so here, guys, I'm just going to be initiate the model one more time
+
+02:09:56.000 --> 02:10:12.000
+And now let me execute, let me check. So yes, we are able to load the model as well. Now, what I'll do, guys, first let me show you some sort of operations. From SQLN, basically I'm going to be import the cosine similarly
+
+02:10:12.000 --> 02:10:13.000
+Okay.
+
+02:10:13.000 --> 02:10:17.000
+skloan.matrices
+
+02:10:17.000 --> 02:10:22.000
+And then cosine similarity. Now, what I'll do, guys, so I'll be keeping some documents first
+
+02:10:22.000 --> 02:10:31.000
+So let me keep some document, and then, basically, I'll check whether the cosine similarity is working fine or not. So, this is a cosine similarity one
+
+02:10:31.000 --> 02:10:35.000
+I'll be keeping some document. Document is nothing, just a data, okay?
+
+02:10:35.000 --> 02:10:45.000
+Now, here, basically, I'm just keeping some document. So, in the document, basically, I can keep some sentence. Let me keep it over here
+
+02:10:45.000 --> 02:10:57.000
+Just a second, guys. So, this is the data. So, here's a copy… what is the capital of the USA, what is the president of the USA, or who is the prime minister of India? So this is what is my query, right?
+
+02:10:57.000 --> 02:11:05.000
+Let me write the correct term. Now, here is the India. Now, what I'll do, guys, I will write my query, so let me write my query
+
+02:11:05.000 --> 02:11:09.000
+So, here is my query
+
+02:11:09.000 --> 02:11:11.000
+Okay
+
+02:11:11.000 --> 02:11:17.000
+So, what I can write… I can write something
+
+02:11:17.000 --> 02:11:24.000
+Narendra Modi is a prime minister of India, okay? So this is what, this is what, this is my
+
+02:11:24.000 --> 02:11:25.000
+query
+
+02:11:25.000 --> 02:11:27.000
+Or I can write,
+
+02:11:27.000 --> 02:11:33.000
+Basically, I can write this thing in a document, and then I can ask as a query, okay? Both is fine.
+
+02:11:33.000 --> 02:11:37.000
+So it's my query, Naren was prime of India. Now let's see the similarity basically
+
+02:11:37.000 --> 02:11:41.000
+So, first, what I'll do, I'll perform the query embedding
+
+02:11:41.000 --> 02:11:46.000
+So, for that, I'll take the embedding model
+
+02:11:46.000 --> 02:11:51.000
+So, this is my embedding dog, this is my embedding query. Now, both are ready.
+
+02:11:51.000 --> 02:11:57.000
+Now, after that, guys, what I will do, I will find out the cosine similarity. So, both I am passing, so cosine similarity is here
+
+02:11:57.000 --> 02:12:01.000
+I'm passing what I'm passing the embedding query
+
+02:12:01.000 --> 02:12:10.000
+As well as what? This document embedding. Okay, now let me check the score guys. So if I'm checking the score now you will find out the score
+
+02:12:10.000 --> 02:12:13.000
+It's giving me the error, so let me do one thing, guys.
+
+02:12:13.000 --> 02:12:17.000
+Let me keep it as a list
+
+02:12:17.000 --> 02:12:18.000
+Okay.
+
+02:12:18.000 --> 02:12:21.000
+If I'm going to be check the score, not see the score
+
+02:12:21.000 --> 02:12:26.000
+Now, tell me, guys, which one is the highest one?
+
+02:12:26.000 --> 02:12:30.000
+Which one is the highest one?
+
+02:12:30.000 --> 02:12:36.000
+So, the third one is actually the highest one, okay? So this particular document is matching to this query
+
+02:12:36.000 --> 02:12:45.000
+this query. Or you can keep this data over here, that is also fine, so you can change your documents. I don't have any issue, something like that you can write
+
+02:12:45.000 --> 02:12:48.000
+Sid Narendra Modi is a Prime Minister of India
+
+02:12:48.000 --> 02:12:53.000
+Then do not… you can write about the Donald Trump, okay?
+
+02:12:53.000 --> 02:12:56.000
+Let me write over here
+
+02:12:56.000 --> 02:13:00.000
+Sotonel
+
+02:13:00.000 --> 02:13:03.000
+Trump is a president of USA
+
+02:13:03.000 --> 02:13:05.000
+And…
+
+02:13:05.000 --> 02:13:08.000
+Washington, D.C.
+
+02:13:08.000 --> 02:13:12.000
+Washington, D.C.
+
+02:13:12.000 --> 02:13:14.000
+is a capital of
+
+02:13:14.000 --> 02:13:21.000
+Washington, D.C. is the capital of USA, right? Then you can ask the query over here
+
+02:13:21.000 --> 02:13:24.000
+So, you can simply write, who is a prime minister of
+
+02:13:24.000 --> 02:13:26.000
+India, right?
+
+02:13:26.000 --> 02:13:28.000
+So, who is
+
+02:13:28.000 --> 02:13:37.000
+President of USA, just the query. I think now it is fine, the document looks fine, and we can simply check out the score, okay?
+
+02:13:37.000 --> 02:13:46.000
+means my cosine similarity is working fine. If you're not familiar with the cosine similarity and all, you can check out my previous session. There I already discussed those things.
+
+02:13:46.000 --> 02:13:53.000
+So, tell me, guys, is this thing clear? So, which is the highest score over here?
+
+02:13:53.000 --> 02:13:56.000
+So, highest score is this one
+
+02:13:56.000 --> 02:13:57.000
+Okay.
+
+02:13:57.000 --> 02:14:11.000
+No, even I can check the Euclidean distance. So, how I can check the Euclidean distance? See, this is the, like, class the function for the Euclan distance from the skeleton only, we can import it.
+
+02:14:11.000 --> 02:14:19.000
+And the Euclidean distance also, we can pass it, we can pass what, we can pass the embed query, and we can pass the
+
+02:14:19.000 --> 02:14:24.000
+Embed document, okay? So it will also provide me the score. See?
+
+02:14:24.000 --> 02:14:40.000
+It is also providing me the score. Now, inside this, you can understand, you can see, it's providing the more… okay, it's providing this as a less one. Now, tell me, guys, is it a correct one, this one?
+
+02:14:40.000 --> 02:14:41.000
+It is the correct one
+
+02:14:41.000 --> 02:14:43.000
+Tell me, guys
+
+02:14:43.000 --> 02:14:55.000
+These scores are the correct one. Yes, this is the correct one, because between this… between this query and the top match document, the distance would be the less one
+
+02:14:55.000 --> 02:14:56.000
+Okay
+
+02:14:56.000 --> 02:15:01.000
+The distance would be the last one.
+
+02:15:01.000 --> 02:15:14.000
+So, I hope this part is clear to all of you. Now let's do one thing. Let's try to store the data where inside the Vector database. Okay, so first guys what I'll do, I will import the files over here. So import
+
+02:15:14.000 --> 02:15:18.000
+Twice.
+
+02:15:18.000 --> 02:15:22.000
+Now, along with that, what I'll do, guys, along with that, basically, I'll be importing what
+
+02:15:22.000 --> 02:15:24.000
+I'll be importing this,
+
+02:15:24.000 --> 02:15:37.000
+Vector store, and the in-memory dock store, right? Sorry, files, and the in-memory dock store. This both thing also will be, importing from the LangChen itself. So let me write over here.
+
+02:15:37.000 --> 02:15:40.000
+From LangChain.
+
+02:15:40.000 --> 02:15:43.000
+Community
+
+02:15:43.000 --> 02:15:47.000
+Okay. Now, here from LangChain
+
+02:15:47.000 --> 02:15:52.000
+We are going to be import this in memory talks. As of now, we are going to be store it in memory.
+
+02:15:52.000 --> 02:16:01.000
+So, here I can write blank chain underscore community
+
+02:16:01.000 --> 02:16:04.000
+the dog store
+
+02:16:04.000 --> 02:16:09.000
+Now, here I'll call this in memory
+
+02:16:09.000 --> 02:16:10.000
+Okay.
+
+02:16:10.000 --> 02:16:12.000
+And then
+
+02:16:12.000 --> 02:16:16.000
+in-memory dock
+
+02:16:16.000 --> 02:16:27.000
+Just a second. M-E-M-O-R-Y, in memory doc, right? So I hope, guys, this entire thing is clear. Now, what I'll do, first, I will install the files
+
+02:16:27.000 --> 02:16:28.000
+Okay?
+
+02:16:28.000 --> 02:16:32.000
+So let me install the files, because the files is not there. What I'll do, I will open my terminal
+
+02:16:32.000 --> 02:16:35.000
+And from the terminal, basically, I will write the
+
+02:16:35.000 --> 02:16:38.000
+UB, Pip install
+
+02:16:38.000 --> 02:16:41.000
+5 CPU
+
+02:16:41.000 --> 02:16:49.000
+Okay, so 5 CPUs there, now I think so it can execute. So, let me run it and see. We are able to do it.
+
+02:16:49.000 --> 02:16:56.000
+I hope this part is clear. Now, guys, first what I'll do, I will create an index, okay?
+
+02:16:56.000 --> 02:17:00.000
+So, let me take this price.
+
+02:17:00.000 --> 02:17:06.000
+Let me call the index on top of it
+
+02:17:06.000 --> 02:17:21.000
+Okay. Now, we are going to create a flat index. So here, I'm going to create a flat index. Now, what is the dimension? So let's say, first of all, we'll have to check the dimension of this embedding vector
+
+02:17:21.000 --> 02:17:28.000
+Okay, so what I'm doing, guys, I'm going to check the dimension of this embedding vector
+
+02:17:28.000 --> 02:17:36.000
+So, it's coming. Let's say 768, or whatever, right? So, that particular number, I will have to keep over here.
+
+02:17:36.000 --> 02:17:44.000
+So it's 3072. So that particular number I will have to keep over here, okay? 3072.
+
+02:17:44.000 --> 02:17:54.000
+So this particular number, basically, I will have to keep over here when I'm going to create an index. Now, where the data is going to be stored, tell me, guys, so the data is going to be stored inside the index only
+
+02:17:54.000 --> 02:18:04.000
+Okay? Now, guys, what I will do, I will create a phase store, okay? Phys Vector store. So for that I will be taking this phase
+
+02:18:04.000 --> 02:18:08.000
+Now here, what I'll be doing, I will be defining the embedding model
+
+02:18:08.000 --> 02:18:11.000
+So, this is my embedding model.
+
+02:18:11.000 --> 02:18:20.000
+Okay. Then, guys, here I will be providing my embedding, then I'll be providing my index. Now, what kind of storage this is. So this is the in-memory storage.
+
+02:18:20.000 --> 02:18:24.000
+So, I will be keeping the in-memory over here
+
+02:18:24.000 --> 02:18:26.000
+And then, guys
+
+02:18:26.000 --> 02:18:29.000
+Now, here I will be passing one more thing
+
+02:18:29.000 --> 02:18:33.000
+That's going to be what? Index to dock store ID.
+
+02:18:33.000 --> 02:18:34.000
+Okay
+
+02:18:34.000 --> 02:18:44.000
+So, to every document, it is going to be assigned one sort of ID. By default, only it will be doing that. So this is what this is my Vector store
+
+02:18:44.000 --> 02:18:46.000
+Okay.
+
+02:18:46.000 --> 02:18:49.000
+So this is
+
+02:18:49.000 --> 02:18:53.000
+My Vector Store
+
+02:18:53.000 --> 02:18:57.000
+And…
+
+02:18:57.000 --> 02:19:03.000
+Inside this Vector Store
+
+02:19:03.000 --> 02:19:04.000
+Vector
+
+02:19:04.000 --> 02:19:07.000
+store
+
+02:19:07.000 --> 02:19:10.000
+The data
+
+02:19:10.000 --> 02:19:11.000
+is
+
+02:19:11.000 --> 02:19:15.000
+BIN store
+
+02:19:15.000 --> 02:19:18.000
+Inside the dock
+
+02:19:18.000 --> 02:19:19.000
+Index
+
+02:19:19.000 --> 02:19:20.000
+Okay?
+
+02:19:20.000 --> 02:19:23.000
+As of now
+
+02:19:23.000 --> 02:19:26.000
+As of now
+
+02:19:26.000 --> 02:19:31.000
+It is
+
+02:19:31.000 --> 02:19:34.000
+In a memory store.
+
+02:19:34.000 --> 02:19:36.000
+Okay.
+
+02:19:36.000 --> 02:19:44.000
+As of now, it is what? It is a in-memory store. Now, guys, what I'm doing, I'm going to be create my Vector store
+
+02:19:44.000 --> 02:19:45.000
+Okay.
+
+02:19:45.000 --> 02:19:56.000
+So this is my Vector store. Now, I think it is clear. So what I'll do, guys, I will add the text over here. Let me add the text. Okay?
+
+02:19:56.000 --> 02:19:59.000
+So, I'm going to be right over here at
+
+02:19:59.000 --> 02:20:01.000
+underscore
+
+02:20:01.000 --> 02:20:03.000
+text
+
+02:20:03.000 --> 02:20:11.000
+Now, I can store the documents over here, whatever documents we have created. This particular document
+
+02:20:11.000 --> 02:20:17.000
+So, let me take the document, let me keep it over here. Okay, I'm going to be stored this one.
+
+02:20:17.000 --> 02:20:24.000
+So I'm able to store the documents where? Inside the database, inside the Vector database.
+
+02:20:24.000 --> 02:20:30.000
+So it's saying… okay, what it is doing
+
+02:20:30.000 --> 02:20:36.000
+It is giving me error. I think it is add text, if I'm not wrong.
+
+02:20:36.000 --> 02:20:50.000
+Fine. So, guys, tell me how many data we are going to be, how many documents we are going to be stored inside the Vector Store. Tell me fast
+
+02:20:50.000 --> 02:21:00.000
+So we are going to be store the 3 document, right? If I wanted to check the index to dock store ID, so simply what I can do, I can
+
+02:21:00.000 --> 02:21:06.000
+Call this one, and see. You will be getting the ID with respect to every sort of a document.
+
+02:21:06.000 --> 02:21:11.000
+With a first document, with the second document with the third document. Okay
+
+02:21:11.000 --> 02:21:14.000
+Now, over here, guys, what we are doing
+
+02:21:14.000 --> 02:21:20.000
+See? So, we have FICE index ID. Let me keep the FIS index ID, that is 1.
+
+02:21:20.000 --> 02:21:25.000
+Okay? One. Now, what I can do, I can
+
+02:21:25.000 --> 02:21:28.000
+Get the detail. Let's say this, my Vector store
+
+02:21:28.000 --> 02:21:31.000
+I can call index
+
+02:21:31.000 --> 02:21:39.000
+Dock store ID, and I can pass the file index ID, that is one, okay? This record, this particular record. If I'm going to be run it
+
+02:21:39.000 --> 02:21:50.000
+Right? If I'm going to be executed, guys, so see what I'm getting, I'm getting this particular ID. Okay. So this is what guys, this is my ID. So I can keep the ID inside the variable doc is stored
+
+02:21:50.000 --> 02:21:53.000
+ID. Okay?
+
+02:21:53.000 --> 02:21:56.000
+Now, guys, what I can do, I can call
+
+02:21:56.000 --> 02:21:59.000
+See, using the Vector store
+
+02:21:59.000 --> 02:22:03.000
+I can call
+
+02:22:03.000 --> 02:22:08.000
+One method, dockstore.search, and I can pass the dock store ID. Now see, what I'm getting guys
+
+02:22:08.000 --> 02:22:14.000
+Am I getting that particular document?
+
+02:22:14.000 --> 02:22:15.000
+Am I getting that particular document?
+
+02:22:15.000 --> 02:22:20.000
+Now, you can get the page content
+
+02:22:20.000 --> 02:22:28.000
+Okay, so this was a document, and if I'm going to be extract the metadata
+
+02:22:28.000 --> 02:22:31.000
+metadata
+
+02:22:31.000 --> 02:22:35.000
+Meta underscore data. So, metadata is empty right now
+
+02:22:35.000 --> 02:22:42.000
+Now, tell me, guys, are we able to store the data, and are we able to fetch the data? As of now, with the document ID
+
+02:22:42.000 --> 02:22:44.000
+Yes or no?
+
+02:22:44.000 --> 02:22:47.000
+So we can see that specific record
+
+02:22:47.000 --> 02:22:57.000
+We can visualize that specific record. I think someone was asking how to visualize that specific record. We can do that. As of now, data in memory, so we can directly check in our console itself.
+
+02:22:57.000 --> 02:23:03.000
+Okay.
+
+02:23:03.000 --> 02:23:08.000
+Okay. Now, guys, what I'm doing, so here, basically
+
+02:23:08.000 --> 02:23:11.000
+I'm going to be
+
+02:23:11.000 --> 02:23:14.000
+Call the similarity search
+
+02:23:14.000 --> 02:23:25.000
+Okay? Now, here I am writing who is the president of the USA. This is what, guys, this is my question. The same question, basically, I was trying to ask over here.
+
+02:23:25.000 --> 02:23:26.000
+This one
+
+02:23:26.000 --> 02:23:31.000
+Who is the president of the USA, okay? But it was without Vector Store.
+
+02:23:31.000 --> 02:23:39.000
+Now we have arranged the data inside the Vector Store and I'm going to be asked, let's see what answer I'll be getting.
+
+02:23:39.000 --> 02:23:43.000
+So, say you guys, here is giving me Donald Trump is a
+
+02:23:43.000 --> 02:23:46.000
+Duran Tripp is the president of the USA.
+
+02:23:46.000 --> 02:23:58.000
+Is it getting clear to all of you? So, as of now, it is performing the similarity search. The similarity search is what the similarity search basically it's a cosine similarity. We can define the similarity and all that is fine.
+
+02:23:58.000 --> 02:23:59.000
+Right
+
+02:23:59.000 --> 02:24:08.000
+We can define the similarity and all, that is fine. Means, which similarity search we wanted to use, we can do that, we can define that.
+
+02:24:08.000 --> 02:24:19.000
+So, till here, everything is fine. If everything is fine, please let me know, guys.
+
+02:24:19.000 --> 02:24:28.000
+Yes? Now, what is this k is equal to 1? K means how many document we are going to be fetch. Let's if I'm writing 2 over here.
+
+02:24:28.000 --> 02:24:32.000
+So it will provide me two similar document.
+
+02:24:32.000 --> 02:24:34.000
+Okay.
+
+02:24:34.000 --> 02:24:35.000
+Two similar document
+
+02:24:35.000 --> 02:24:42.000
+So, Donald Trump is the president of the USA, Washington is the capital of the USA. So these two is a relevant of this question.
+
+02:24:42.000 --> 02:24:50.000
+If I'm writing, k is equal to 3, it will provide me 3. If I'm writing 4, then it will provide me 4, something like that.
+
+02:24:50.000 --> 02:24:52.000
+Getting my point.
+
+02:24:52.000 --> 02:24:54.000
+Yes or no?
+
+02:24:54.000 --> 02:24:55.000
+Okay.
+
+02:24:55.000 --> 02:25:04.000
+So I hope this part is clear. Now, can we see the embedding over here? I'm not sure. Let me check out. Can we see or not?
+
+02:25:04.000 --> 02:25:11.000
+So, document… the document search, doc store search, we can check the doc page ID
+
+02:25:11.000 --> 02:25:20.000
+Now, with the Vector Store. Just a second, guys, let me check whether… can we see the embedding or not? So, Vector store.index
+
+02:25:20.000 --> 02:25:25.000
+Okay, so… there is a method that is called the reconstruct. Now, if I'm passing the
+
+02:25:25.000 --> 02:25:31.000
+ID over here
+
+02:25:31.000 --> 02:25:34.000
+So, this is the
+
+02:25:34.000 --> 02:25:38.000
+FIS index IT. Yeah, guys, so we can see the embedding also
+
+02:25:38.000 --> 02:25:44.000
+This is possible. See, we can see the embedding also with respect to that particular
+
+02:25:44.000 --> 02:25:51.000
+With respect to that particular document. Getting my point, is it getting clear to all of you guys? Tell me
+
+02:25:51.000 --> 02:25:53.000
+Okay.
+
+02:25:53.000 --> 02:26:00.000
+So you can see the embedding also. You just need to be passed… you just need to be passed to this reconstruct method.
+
+02:26:00.000 --> 02:26:15.000
+And you will be able to see the embedding also. And even you can check the length of the embedding. Now, tell me guys, what is the length of the embedding? If I'm going to be called the shape on top of it, oh, see, this is the shape of the embedding 3072.
+
+02:26:15.000 --> 02:26:23.000
+Okay, so I hope, guys, this is clear to all of you. Tell me yes or no.
+
+02:26:23.000 --> 02:26:30.000
+So, how's the session so far?
+
+02:26:30.000 --> 02:26:34.000
+Do you like the session? Are you able to understand everything from scratch?
+
+02:26:34.000 --> 02:26:43.000
+Related to the spies and everything. Once you will revise it, no, you will be able to understand many more things, okay?
+
+02:26:43.000 --> 02:26:49.000
+Now, guys, if you would like to mention the similarity search method, even you can mention that also over here.
+
+02:26:49.000 --> 02:26:57.000
+Right? Inside the similarity search, that is also fine.
+
+02:26:57.000 --> 02:27:06.000
+So, there is one parameter I'm not sure, let me check out. Query is there, K is there, okay, then filter is there.
+
+02:27:06.000 --> 02:27:11.000
+Fetch is there, KWRGS is there. I think filter would be there. Okay, filter is about the metadata
+
+02:27:11.000 --> 02:27:16.000
+Fetch K… how many document before filtering
+
+02:27:16.000 --> 02:27:30.000
+Okay. We'll see, guys. I think somewhere I can pass the similarity search also, which on which, basically, which similarity method we can utilize over here, that is also possible. I'll show you that, okay? Don't worry.
+
+02:27:30.000 --> 02:27:33.000
+So I hope till here everything is fine. Now, let's say
+
+02:27:33.000 --> 02:27:38.000
+Okay, now is one thing. So whenever we are talking about the LangChain
+
+02:27:38.000 --> 02:27:45.000
+Okay, so if we are going to be, like, we are going to be patch any data using the LangChain loader
+
+02:27:45.000 --> 02:27:55.000
+Or if you are going to be performing the chunking using this lang chain, right? So it's going to be written a document object. Is it… is it true or not? Tell me, guys.
+
+02:27:55.000 --> 02:28:01.000
+So it's going to be written what? It's going to be written the document object.
+
+02:28:01.000 --> 02:28:06.000
+So whenever we are going to be used the language and guys, so everything would be the LangChain document.
+
+02:28:06.000 --> 02:28:08.000
+Okay.
+
+02:28:08.000 --> 02:28:12.000
+If you're going to be using LangChain, so everything would be what?
+
+02:28:12.000 --> 02:28:15.000
+Everything would be the
+
+02:28:15.000 --> 02:28:17.000
+LangChain
+
+02:28:17.000 --> 02:28:21.000
+document.
+
+02:28:21.000 --> 02:28:22.000
+Okay.
+
+02:28:22.000 --> 02:28:26.000
+Everything would be what? Everything would be the LangChain document.
+
+02:28:26.000 --> 02:28:30.000
+So now, let me do one thing, let me create some document
+
+02:28:30.000 --> 02:28:31.000
+Okay.
+
+02:28:31.000 --> 02:28:41.000
+Let me create what? Let me create some document. So, guys, here, what I'm doing… so, just a second, let me define some documents. See
+
+02:28:41.000 --> 02:28:47.000
+So, this is the document, basically, which I created. This is a document object, which I created on my side
+
+02:28:47.000 --> 02:28:56.000
+So, this is the document first, there's a document second, there's the document third, there's a document four. Now, here you can see inside the document, basically, I define some metadata also.
+
+02:28:56.000 --> 02:28:59.000
+Can you see?
+
+02:28:59.000 --> 02:29:06.000
+Is it visible to all of you?
+
+02:29:06.000 --> 02:29:22.000
+Tell me, guys, if it is visible to all of you, let me know. So this is a document. So, as of now, I created by myself, but yeah, later on I'll show you the example also, how this document would be created, okay? Going forward, I'll show you even I shown you shown you in my previous class
+
+02:29:22.000 --> 02:29:28.000
+If I will look into this particular session, you will get that.
+
+02:29:28.000 --> 02:29:32.000
+We are guys inside this one. Data parsing for RAG
+
+02:29:32.000 --> 02:29:36.000
+Okay, here I discuss that.
+
+02:29:36.000 --> 02:29:40.000
+So, this is the document, basically, which I created by myself. This is a document object.
+
+02:29:40.000 --> 02:29:48.000
+Okay. Now, guys, what I'm doing, I'm going to be ins… I'm going to be, like, store this particular document where
+
+02:29:48.000 --> 02:29:52.000
+Inside the Vector Store.
+
+02:29:52.000 --> 02:29:58.000
+Okay, so let me run it, and here what I'll be doing. I'm going to be, keep it inside the list
+
+02:29:58.000 --> 02:30:08.000
+And see, this is what is my list. Okay, list of document. Now, I'm going to be stored where inside the Vector Store. Okay, so see, we are able to store this document inside the Vector Store
+
+02:30:08.000 --> 02:30:19.000
+So there is 10 document, and we are able to store that. Okay, so let's say if I'm going to be asked any sort of a query over here from if I'm going to be asked any sort of a query. Okay.
+
+02:30:19.000 --> 02:30:22.000
+So I'll be able to get a similar document
+
+02:30:22.000 --> 02:30:25.000
+So, what I'm doing, guys, I'm just going to use this Vector Store
+
+02:30:25.000 --> 02:30:28.000
+dot
+
+02:30:28.000 --> 02:30:30.000
+I'm calling the similarity search
+
+02:30:30.000 --> 02:30:37.000
+Okay, now I'm going to be write a query, let's say this is my query
+
+02:30:37.000 --> 02:30:42.000
+Right? That's my query. Now, tell me, guys, how many documents I'll be able to fetch?
+
+02:30:42.000 --> 02:30:45.000
+How many documents I'll be able to fetch over here
+
+02:30:45.000 --> 02:30:53.000
+to document I'll be able to fetch. Two similar documents. So let me run it and see, guys, how many documents we are able to fetch?
+
+02:30:53.000 --> 02:30:59.000
+Yeah, we are able to fetch the two document, okay? Let's say if I'm writing three
+
+02:30:59.000 --> 02:31:02.000
+If I'm writing 5
+
+02:31:02.000 --> 02:31:04.000
+So, how many documents I'll be able to fetch?
+
+02:31:04.000 --> 02:31:17.000
+I'm able to fetch 5 documents. Is it getting clear to all of you?
+
+02:31:17.000 --> 02:31:22.000
+Tell me, guys, is it getting killer to all of you? Now, let's do one thing. See.
+
+02:31:22.000 --> 02:31:25.000
+Here you can see
+
+02:31:25.000 --> 02:31:33.000
+We have a content from the 28, we have a content from the news. But let's say if I wanted to apply the metadata filtering. So how I can do that?
+
+02:31:33.000 --> 02:31:37.000
+So over here, basically, I can pass one more parameter that's going to be a filter.
+
+02:31:37.000 --> 02:31:44.000
+Okay, so let's have filter source is equal to 28. Now, if I will execute it, so you will get what, guys?
+
+02:31:44.000 --> 02:31:49.000
+You will just get the result from the tweet itself
+
+02:31:49.000 --> 02:31:52.000
+You will just get a result from the tweet itself.
+
+02:31:52.000 --> 02:32:00.000
+You will not get a result from where? You will not get a result from the… any other places. You will just get a result from the tweet only.
+
+02:32:00.000 --> 02:32:09.000
+Getting my point, tell me yes or no
+
+02:32:09.000 --> 02:32:20.000
+Yes, top K, it's a… so I will explain the retrieval side also. Going forward, I'll discuss the retrieval and all everything. There, this part will be more clear, okay? This top K and all, this one.
+
+02:32:20.000 --> 02:32:22.000
+So, I'll explain that
+
+02:32:22.000 --> 02:32:25.000
+So this is from where, this is from the,
+
+02:32:25.000 --> 02:32:43.000
+Tweet only, okay?
+
+02:32:43.000 --> 02:32:49.000
+Tell me, guys, is it getting clear to all of you? This part is clear. How to perform the metadata?
+
+02:32:49.000 --> 02:32:57.000
+How to perform the metadata over here. I hope this part is getting clear. Now, you can mention k equal to 3, k is equal to 2, any number
+
+02:32:57.000 --> 02:33:04.000
+Okay, how many top documents you wanted to fetch? Now let's see if we are going to be right news over here
+
+02:33:04.000 --> 02:33:10.000
+Okay, so it will just fetch the result from the news metadata
+
+02:33:10.000 --> 02:33:14.000
+So you will just get the result from the news metadata
+
+02:33:14.000 --> 02:33:23.000
+See? News, news, news. But this answer should not be correct. It basically, it can be wrong also, okay?
+
+02:33:23.000 --> 02:33:27.000
+So if you're going to be past the metadata, pass very carefully, actually.
+
+02:33:27.000 --> 02:33:32.000
+Okay. Pass very, very carefully. If you're passing the metadata filtering.
+
+02:33:32.000 --> 02:33:36.000
+If… until if you're not sure that which metadata need to be passed, don't pass that.
+
+02:33:36.000 --> 02:33:37.000
+Right?
+
+02:33:37.000 --> 02:33:44.000
+Because, see, with respect to this query, if I'm passing this metadata value, it is giving the wrong result
+
+02:33:44.000 --> 02:33:53.000
+So metadata need to be passed very, very basically what I can say with a very careful filters.
+
+02:33:53.000 --> 02:33:56.000
+If you don't know about that, then don't pass it.
+
+02:33:56.000 --> 02:34:01.000
+So, tell me, guys, how's the session so far? Are you able to understand this entire thing?
+
+02:34:01.000 --> 02:34:18.000
+I hope you are able to get it. Now, let's say this Vector store. Now, as of now, guys, you can see this Vector is stored inside the in memory. Now, if I wanted to store this vector store over the disk right, I wanted to save it on my server. How I can do that I can simply call the save local method
+
+02:34:18.000 --> 02:34:21.000
+And then I can pass the FIS index over here.
+
+02:34:21.000 --> 02:34:26.000
+Okay? I can pass what? I can pass the files index, so let me do one thing
+
+02:34:26.000 --> 02:34:32.000
+Let me basically pass… it's a 5… let me write over here the FIS index
+
+02:34:32.000 --> 02:34:37.000
+Okay? Now, once I will execute it, guys, see. Can you see this database over here
+
+02:34:37.000 --> 02:34:40.000
+Can you see the 5 index over here?
+
+02:34:40.000 --> 02:34:48.000
+On the left-hand side, we are able to persist over the mem… over the disk, okay? So this is called the disk persistence
+
+02:34:48.000 --> 02:34:52.000
+This persistence of the Vector Store
+
+02:34:52.000 --> 02:34:56.000
+Got it, guys. Now, can we load this
+
+02:34:56.000 --> 02:35:01.000
+load this FICE index. So for that, I just need to call this vice, then load local
+
+02:35:01.000 --> 02:35:07.000
+Okay, then I just need to provide the price index embedding model
+
+02:35:07.000 --> 02:35:12.000
+And I need to pass one more parameter. That's going to be what?
+
+02:35:12.000 --> 02:35:24.000
+Allow dangerous deserialization, and then I'll be able to lower the index. See, we are able to load the Vector store
+
+02:35:24.000 --> 02:35:30.000
+So, is it getting clear to all of you guys? Tell me yes or no
+
+02:35:30.000 --> 02:35:31.000
+Okay.
+
+02:35:31.000 --> 02:35:41.000
+So if we're going to be basically save this file index over the local, then again, see, if I'm going to be stopped this notebook, if I'm going to restart this notebook
+
+02:35:41.000 --> 02:35:44.000
+In memory, all the embedding is going to be vanished.
+
+02:35:44.000 --> 02:35:56.000
+From the memory, all the data is going to be delete. But if you are going to be keep the data with this vector store over here in the disk itself, then the data will not be removed. Okay?
+
+02:35:56.000 --> 02:36:03.000
+We can load it, actually.
+
+02:36:03.000 --> 02:36:16.000
+So, if you are good till here, I think we are able to understand everything. Now, in the next class, guys, I will explain the chunking concept, and then we are going to be stored the different, different data inside this phase chroma DB, Pinecone quadrant
+
+02:36:16.000 --> 02:36:25.000
+We are going to be see everything, guys, okay, in the upcoming session. So yeah, this is it for this session, guys. I'm not going to be discussing any more thing now
+
+02:36:25.000 --> 02:36:29.000
+Now, tell me, how the session? Did you understand everything over here?
+
+02:36:29.000 --> 02:36:32.000
+The entire concept is clear or not?
+
+02:36:32.000 --> 02:36:37.000
+If it is clear, we are good to go, okay?
+
+02:36:37.000 --> 02:36:47.000
+So, whatever I explain you, theoretically, we are able to do practically also. And, even I will explain the other indexes also, don't worry.
+
+02:36:47.000 --> 02:36:52.000
+Right
+
+02:36:52.000 --> 02:37:00.000
+So, fine, guys, if you don't have any doubt, you can drop the session. I am giving you this entire notes and all everything, so that you can follow.
+
+02:37:00.000 --> 02:37:03.000
+So, let me export as a PDF
+
+02:37:03.000 --> 02:37:33.000
+Just give me a second.
+
+02:37:37.000 --> 02:37:40.000
+Okay.
+
+02:37:40.000 --> 02:37:47.000
+So, guys, I've given you the notes as well, you can check out the notes from the GitHub directly. I can give you this entire, notes and all everything.
+
+02:37:47.000 --> 02:38:02.000
+So I'm pushing it over the GitHub, okay?
+
+02:38:02.000 --> 02:38:07.000
+Fine, so guys, I've given you all the notes and all, over the GitHub. You can download it from there itself.
+
+02:38:07.000 --> 02:38:14.000
+So thank you guys, thank you very much, and I'll see you in the next class. Until thank you, bye. Take care.
+
+02:38:14.000 --> 02:38:34.000
+I will start a doubt session after 3 minutes. If you don't have any doubt, you can top the session, okay? So, in the next class, guys, again, we are going to be discussing the database, Vector database. It will take one or two more class, and after that guys, we are going to be discussing the retrieval. Then we are going to be build a very good rag, okay? And then we are going to see some other miscellaneous concept with respect to RAG
+
+02:38:34.000 --> 02:39:04.000
+And then we'll finish this module, okay? We'll enter into the next module, right? So thank you guys, bye, take care. Thank you very much.
+
+02:42:44.000 --> 02:42:50.000
+Okay, guys, let's start with the doubt session. If you have any doubt, guys, you can raise the hand.
+
+02:42:50.000 --> 02:42:57.000
+Handwritten notes is also already there, Sami. From the previous class, there was no handwritten notes, okay?
+
+02:42:57.000 --> 02:43:10.000
+I didn't discuss so many things in the… over the blackboard, so there was only one, simple slide, okay? That I just given the topic name, that's it. Got it, Samir?
+
+02:43:10.000 --> 02:43:17.000
+Okay. If you have any sort of a doubt, guys, please raise the hand, and you can,
+
+02:43:17.000 --> 02:43:31.000
+basically clarify your doubts. So, yeah, VK, what's your doubt, please go ahead.
+
+02:43:31.000 --> 02:43:44.000
+Yeah, VK, do you have any doubt? If you have any doubt, you can go ahead.
+
+02:43:44.000 --> 02:43:49.000
+Okay, Shobhik, what's your doubt
+
+02:43:49.000 --> 02:43:52.000
+Yeah, so, hello, am I audible?
+
+02:43:52.000 --> 02:43:54.000
+Yeah, you are audible.
+
+02:43:54.000 --> 02:44:06.000
+Okay, okay, firstly, I just want to thank you, because, recently I told that I didn't, couldn't participate in your assignment because of a hackathon was going on.
+
+02:44:06.000 --> 02:44:21.000
+And we ranked very well in that hackathon. The hackathon was led by me, and the last three, four months that I have learned from you, that helped me to guide the IT folks that how to
+
+02:44:21.000 --> 02:44:35.000
+to the AI infrastructure and all. This was an AI-enabled network intelligence and recommendation engine. Our prototype was accepted, and we ranked as well very well. So now we are going to
+
+02:44:35.000 --> 02:44:36.000
+Congratulations.
+
+02:44:36.000 --> 02:44:47.000
+Productionalize that. So, sorry that I couldn't come participate in the assignment, I will definitely do that, but this was the reason, and thank you for that, firstly. So, secondly.
+
+02:44:47.000 --> 02:44:49.000
+Thank you, sir, thank you. Congratulations to you.
+
+02:44:49.000 --> 02:45:11.000
+Yeah, yeah, thank you, thank you. It was a great achievement, means it's coming from the top level, like, head of investigations and all, they have, like, consumed, they are the customer of that network analysis, so they also want to have now a team also that we can go for production
+
+02:45:11.000 --> 02:45:12.000
+Okay.
+
+02:45:12.000 --> 02:45:24.000
+So, thank you, thank you very much. Okay, so now coming to my question from today's session
+
+02:45:24.000 --> 02:45:25.000
+Hmm.
+
+02:45:25.000 --> 02:45:37.000
+So when we are… so basically first question is that we are selecting an embedding model, and when we are storing the… storing into Vector Store, automatically it is creating the embedding within that, right? We using that model
+
+02:45:37.000 --> 02:45:38.000
+Is my understanding correct?
+
+02:45:38.000 --> 02:45:39.000
+Yeah, it will take care of that. Correct.
+
+02:45:39.000 --> 02:45:53.000
+Oh, okay. Now, coming to my second question, when we are providing the query for the similarity search, then also it is calculating the embedding automatically
+
+02:45:53.000 --> 02:45:54.000
+using that model
+
+02:45:54.000 --> 02:45:57.000
+It will calculate that. The entire code and program have been written in the backend
+
+02:45:57.000 --> 02:45:58.000
+Okay.
+
+02:45:58.000 --> 02:46:02.000
+Okay, so you no need to write it down from scratch. Got it?
+
+02:46:02.000 --> 02:46:03.000
+Yeah
+
+02:46:03.000 --> 02:46:07.000
+Okay, thank you. That question is that when we are saving it to local
+
+02:46:07.000 --> 02:46:14.000
+And then, again, loading it, okay? So, when loading it, it is again pulling in the memory, right?
+
+02:46:14.000 --> 02:46:16.000
+Yeah, correct.
+
+02:46:16.000 --> 02:46:21.000
+Okay, so now, suppose, for example.
+
+02:46:21.000 --> 02:46:32.000
+If we have a… if we have given a knowledge base, and that knowledge base we have stored locally, let's say, for example, when I am deploying, I have
+
+02:46:32.000 --> 02:46:36.000
+Save the knowledge base in the GitHub repo
+
+02:46:36.000 --> 02:46:55.000
+And then when I will return, suppose, for example, user has asked some query. So I will connect with that knowledge base and on memory, I will load and then retrieve from that, right?
+
+02:46:55.000 --> 02:46:56.000
+Okay.
+
+02:46:56.000 --> 02:47:04.000
+every processing running in the RAM already, no? On disk, basically, whatever vector store you created, it will be processed over the disk, so it will not be losing whenever you are going to be shut down your server, okay?
+
+02:47:04.000 --> 02:47:05.000
+Yeah.
+
+02:47:05.000 --> 02:47:08.000
+Got it. Okay, now, last question I would ask. That,
+
+02:47:08.000 --> 02:47:12.000
+Suppose, for example, I have a data, transaction data, okay?
+
+02:47:12.000 --> 02:47:13.000
+Hmm,
+
+02:47:13.000 --> 02:47:23.000
+Where I am doing the networking and everything, so now, the… when I am a user of that Rack-based application.
+
+02:47:23.000 --> 02:47:42.000
+I am giving a button for the… the developer is giving a button for me to add some policy document. Now, this policy document, along with this transaction data, which right now resides in a CSV file
+
+02:47:42.000 --> 02:47:48.000
+These two documents will create my knowledge base. From that, the answer will be retrieved. Is it possible?
+
+02:47:48.000 --> 02:47:52.000
+Yeah, yeah, yeah, it is possible. You can create that.
+
+02:47:52.000 --> 02:47:55.000
+So… so then I have to, like
+
+02:47:55.000 --> 02:48:12.000
+two embeddings… two documents, like, you have, appended 8 documents, so I need to create the documents from transaction data separately, and create documents from the policy document that whatever they will add
+
+02:48:12.000 --> 02:48:15.000
+Separately, and then append into the Vector Store, right?
+
+02:48:15.000 --> 02:48:24.000
+Correct, correct. You will have to create the document object if you are going to be using the LangChain ecosystem, and then you can store it inside the Vector database.
+
+02:48:24.000 --> 02:48:40.000
+Cool. Now, last question is VectorDB that you are talking about, which is more structured one. So when Vector Store, you have shown from scratch, like we are creating a vector store now for vector DB there are already some
+
+02:48:40.000 --> 02:48:50.000
+Document is that Vector DB, or when we are creating, it means when we are using that Vector DB, that is coming empty, and we are appending some document.
+
+02:48:50.000 --> 02:48:53.000
+Boy, would be there some documents, sir?
+
+02:48:53.000 --> 02:48:57.000
+Okay, so Vector DB is there, that means these both Vector Store and Vector DB are just a placeholder
+
+02:48:57.000 --> 02:49:04.000
+And sir, see, Vector DB… Vector DB or Vector Store both are same only, sir.
+
+02:49:04.000 --> 02:49:05.000
+Okay.
+
+02:49:05.000 --> 02:49:16.000
+Same. JB, this is also Vector DB, that is also Vector DB. But the difference, see, why people confuse with this term? Because
+
+02:49:16.000 --> 02:49:17.000
+Hmm.
+
+02:49:17.000 --> 02:49:19.000
+Someone is explaining some different way. Okay, I've given you very minute difference. I'm saying Vector DB means the full-fledged system.
+
+02:49:19.000 --> 02:49:20.000
+Hmm.
+
+02:49:20.000 --> 02:49:23.000
+Now, if I'm saying, okay, scale this price
+
+02:49:23.000 --> 02:49:24.000
+Hmm.
+
+02:49:24.000 --> 02:49:28.000
+Let's say I have 10 million record. Scale this price, how you will do that?
+
+02:49:28.000 --> 02:49:37.000
+You cannot do that, okay? Because this is just a library which you are using just to showcase some POC with some small data and all. Okay, it is also a vector database, but
+
+02:49:37.000 --> 02:49:51.000
+It is not having the DB property database kick property kya hai.
+
+02:49:51.000 --> 02:49:52.000
+Got it.
+
+02:49:52.000 --> 02:49:53.000
+Us could distribute and manage kar sa teing kar sake hai, us may alagalak tari ke orbi scalable operations o sak teh, right? So that is a vector DV, that's it. This is also a vector DV
+
+02:49:53.000 --> 02:49:54.000
+Got it?
+
+02:49:54.000 --> 02:50:03.000
+My main question, yeah, I got it. Main question is that both the term, they are basically the placeholder we are inputting data onto it
+
+02:50:03.000 --> 02:50:08.000
+Correct, correct. We are creating an index from scratch, and we are putting the data there.
+
+02:50:08.000 --> 02:50:10.000
+Right, right. Thank you. Got it.
+
+02:50:10.000 --> 02:50:11.000
+Yeah.
+
+02:50:11.000 --> 02:50:12.000
+Thank you for the question.
+
+02:50:12.000 --> 02:50:24.000
+Yeah, thank you.
+
+02:50:24.000 --> 02:50:38.000
+Guys, give me a second, okay, bro.
+
+02:50:38.000 --> 02:50:57.000
+Okay, next out, Rajendra, what's your doubt?
+
+02:50:57.000 --> 02:51:02.000
+Yeah, Bhagavan Das, Swati, anyone is there, please go ahead.
+
+02:51:02.000 --> 02:51:05.000
+Yeah, hi, this Bhagavan here.
+
+02:51:05.000 --> 02:51:06.000
+Okay.
+
+02:51:06.000 --> 02:51:07.000
+Hello, I may order?
+
+02:51:07.000 --> 02:51:10.000
+Yeah, yeah, you're audible.
+
+02:51:10.000 --> 02:51:24.000
+So, we were discussing the various data, what you can say, Vector DBs, right? Like, OpenSearch, okay, and all. So, is there a couple of questions, okay? Is there a specific recommendation, like, I mean
+
+02:51:24.000 --> 02:51:41.000
+For these kind of use cases, these databases is more preferable. Something like if you… in a new SQL world, we have something called a document for all documents, we choose Mongo and for any key value-based search, we have
+
+02:51:41.000 --> 02:52:00.000
+Right, otherwise, we have a calendar. Do we have any preference choice? And, second thing that I wanted to understand is, I mean, so, like, do Vector databases also do follow the parallel or cap theorem, or is it which is independent of that, actually?
+
+02:52:00.000 --> 02:52:14.000
+And, how does this mean and second… that last question, okay? Like, because I believe Vector DB is also distributed, so how do they coordinate between all the nodes in the network?
+
+02:52:14.000 --> 02:52:18.000
+In a specific given AZ or a region
+
+02:52:18.000 --> 02:52:19.000
+How does this work?
+
+02:52:19.000 --> 02:52:27.000
+So, let me show you the different database first, okay? Let me give you the comparison of the
+
+02:52:27.000 --> 02:52:29.000
+Different database. Just, just give me a sec.
+
+02:52:29.000 --> 02:52:35.000
+Okay.
+
+02:52:35.000 --> 02:52:37.000
+Okay.
+
+02:52:37.000 --> 02:52:41.000
+So, I can show you over the
+
+02:52:41.000 --> 02:52:48.000
+Google itself, just a second.
+
+02:52:48.000 --> 02:52:55.000
+Okay,
+
+02:52:55.000 --> 02:53:02.000
+Yeah, just give me a second, I can write over here what I can write
+
+02:53:02.000 --> 02:53:10.000
+Different Vector Database. There is one link, actually, that you will get so many
+
+02:53:10.000 --> 02:53:14.000
+Database actually. If I want the link, we are
+
+02:53:14.000 --> 02:53:25.000
+But whatever you mentioned, right, already, the FaaS, OpenSearch, the ChromaDB, you can give those references, at least you'll give us thoughts
+
+02:53:25.000 --> 02:53:26.000
+Okay.
+
+02:53:26.000 --> 02:53:29.000
+Yeah, no, I'm just… I'm sharing for everyone, right? So, they're actually all the database names are listed
+
+02:53:29.000 --> 02:53:41.000
+I forgot that… give me a moment, let me search that, okay, wait.
+
+02:53:41.000 --> 02:53:47.000
+So, GP comparison
+
+02:53:47.000 --> 02:53:51.000
+Oh, this, this link, actually, this Vector DB
+
+02:53:51.000 --> 02:53:54.000
+comparison, no?
+
+02:53:54.000 --> 02:54:02.000
+So just go with this link, see, here you will find out all the link… all the Vector Database. I forgot to showcase in the… in today's class
+
+02:54:02.000 --> 02:54:06.000
+I'll show in the next class, see.
+
+02:54:06.000 --> 02:54:12.000
+or whatever Vector database are there, no? Everything is listed over here with their capability.
+
+02:54:12.000 --> 02:54:13.000
+Okay.
+
+02:54:13.000 --> 02:54:14.000
+All the names you will get it.
+
+02:54:14.000 --> 02:54:35.000
+No, this is about the capability, but, like, let us say if I'm building a… what you can say, recommendation engine, okay? And I'm trying to store the databases, like a medical recommendation engine, like a word filling or something, okay? So, which kind of database, if I'm preparing a question-answer page for a banker documentation, right? Like, when you approach a bank
+
+02:54:35.000 --> 02:54:36.000
+Hmm.
+
+02:54:36.000 --> 02:54:52.000
+Okay, you'll ask for, I want to take a home loan, they will have to search for all the processes and all. So, in that case, there could be, maybe, okay, that we might need a different database. So, is there a specific use case, specific samples, at least, like, these databases work more better
+
+02:54:52.000 --> 02:54:54.000
+In terms of the other.
+
+02:54:54.000 --> 02:55:12.000
+Yeah, so, see, actually, whatever name I've given, na, in today's session, correct? Let's say my solution is hosted over the AWS, so I can use the AWS OpenSearch over there. Okay, let's say my… basically, this solution is hosted over the Azure
+
+02:55:12.000 --> 02:55:27.000
+I can directly use the Azure AI search. So, whatever features you want, basically, right, like metadata filtering, okay, you have to work with respect to latency, okay, how many vector counts you have, keyword search, hybrid search, okay.
+
+02:55:27.000 --> 02:55:36.000
+Optation frequency, okay, scalability, security compliances, everything this platform can manage, actually. Getting my point
+
+02:55:36.000 --> 02:55:56.000
+Right? So, whether you are going to deploy the finance solution or whether it's a medical, right, it's not like that. Okay, so you will go with this database in this solution, you will go with that database, that solution. No, it's not like that, right? If you're working with a cloud provider database, then AWS OpenSearch and Azure AI Search is a good one, good choice
+
+02:55:56.000 --> 02:56:11.000
+Other than that, you can use the cordant and pine cone. Pinecone, we have also used in our… one of the application in Akrashnayak.in, website, we have created one, rag-based system, okay, that is
+
+02:56:11.000 --> 02:56:37.000
+I think we have already shown in our previous, like, couple of videos, right? So that, product, basically, it was, giving the responses based on the documents and all, okay? So, in the real time, basically, we are managing the pine cone vector database over there
+
+02:56:37.000 --> 02:56:38.000
+Okay.
+
+02:56:38.000 --> 02:56:49.000
+Okay, so we can utilize that. You just need to be focused over the vector ecosystem, right? What will feature this product is providing to us, whether it is able to match our security, scalability
+
+02:56:49.000 --> 02:56:50.000
+Okay.
+
+02:56:50.000 --> 02:56:55.000
+Okay, or the… or all kind of, basically this, searching technique, latencies, okay? And if it is able to match to our budget also. So those factors you need to check
+
+02:56:55.000 --> 02:56:57.000
+Okay.
+
+02:56:57.000 --> 02:57:00.000
+Okay. And if you're talking about the cap, yes
+
+02:57:00.000 --> 02:57:04.000
+Cap term applies when the Vector Database is distributed
+
+02:57:04.000 --> 02:57:08.000
+Okay.
+
+02:57:08.000 --> 02:57:10.000
+Right.
+
+02:57:10.000 --> 02:57:11.000
+Yep.
+
+02:57:11.000 --> 02:57:15.000
+Okay. Cap means what? Consistency, availability, partition tolerance, right? There's a cap, actually, right? So, cap behavior means what? So,
+
+02:57:15.000 --> 02:57:28.000
+Cab behavior, basically, during the network partitioning, distributed system, right? So we have to, like, follow the consistency across the system, actually, right? The availability should be there simultaneously.
+
+02:57:28.000 --> 02:57:30.000
+Okay, so this trade-off is there
+
+02:57:30.000 --> 02:57:46.000
+If the Vector data is distributed one, it is there. You will not be able to get inside the local setup, in the local single node, like PHIs or local chroma setup and all, okay, there is no distributed network partition. But whenever you are going to be… work with a quad-end, MLBUS and all.
+
+02:57:46.000 --> 02:57:51.000
+So you will get that particular thing over there, okay?
+
+02:57:51.000 --> 02:57:52.000
+And, the last question, I think,
+
+02:57:52.000 --> 02:57:55.000
+Got it. You can configure that over there, okay?
+
+02:57:55.000 --> 02:58:02.000
+Okay, I think we have a last question, right?
+
+02:58:02.000 --> 02:58:03.000
+Yeah.
+
+02:58:03.000 --> 02:58:09.000
+So distributed Vector Database, actually, right? So, see, if we're talking about that, so there are so many concepts
+
+02:58:09.000 --> 02:58:17.000
+Okay, so let's say we have a client, so for that, actually, we'll have to understand the sharding, replication, routing
+
+02:58:17.000 --> 02:58:18.000
+Okay, okay.
+
+02:58:18.000 --> 02:58:34.000
+Okay, so these concepts are the important one. Let's the client query is coming. So it's going to be coordinate with the main node, main server. Now, wherever we have shared our database, wherever we have made a distribution, like shard 1, Shard2, shard 3, and it is across the node, node 1, node 2, node 3, right
+
+02:58:34.000 --> 02:58:44.000
+So, that coordinate node, basically, it will check the query, and it will pass it to the respective node. Okay, and from there itself, we are going to be fetch the top K result
+
+02:58:44.000 --> 02:58:49.000
+Okay? So, system-wise, it is possible we can do that. We can shard our database. Got it?
+
+02:58:49.000 --> 02:58:50.000
+Okay.
+
+02:58:50.000 --> 02:58:51.000
+Yeah.
+
+02:58:51.000 --> 02:59:00.000
+Yeah, that sounds nice. I mean, at least we have known that when you have to… there are different definitive criteria is there when we choose a database, in that case.
+
+02:59:00.000 --> 02:59:18.000
+Yeah. So, in our system also, we have done that. So, Pinecone… that's why I include the pinecone, because we have used in a real-time system. Azure AI search, I'm using in my current project, okay? Azure OpenSearch, I have used in my previous to previous project. So, whatever database name I had written over there.
+
+02:59:18.000 --> 02:59:21.000
+I have used it somewhere in the real time. That's why I written those names. Got it?
+
+02:59:21.000 --> 02:59:25.000
+Okay.
+
+02:59:25.000 --> 02:59:26.000
+Yeah
+
+02:59:26.000 --> 02:59:27.000
+Sounds good.
+
+02:59:27.000 --> 02:59:29.000
+Thank you. Thank you for all the classes that you have planned.
+
+02:59:29.000 --> 02:59:31.000
+Yeah, thank you, sir. Thank you.
+
+02:59:31.000 --> 02:59:33.000
+Quick question, I have… can I go ahead
+
+02:59:33.000 --> 02:59:35.000
+Yes, Sati, you can go.
+
+02:59:35.000 --> 02:59:45.000
+Okay. What happens when RAG and LLM is having a contradictory information?
+
+02:59:45.000 --> 02:59:51.000
+Which one it goes for?
+
+02:59:51.000 --> 02:59:53.000
+Sorry, I didn't get, ma'am, what you are asking.
+
+02:59:53.000 --> 03:00:02.000
+Okay. What happens in case LLM itself is and RAG is having the contradictory information
+
+03:00:02.000 --> 03:00:04.000
+Okay.
+
+03:00:04.000 --> 03:00:12.000
+Ma'am, LLM is a part of the RAG pipeline. How it could be the different one?
+
+03:00:12.000 --> 03:00:14.000
+Okay.
+
+03:00:14.000 --> 03:00:19.000
+I'm saying if the Vector Database is
+
+03:00:19.000 --> 03:00:20.000
+Correct, correct, yeah, correct, yes.
+
+03:00:20.000 --> 03:00:25.000
+Means you are saying… you are saying LLMK pass bipo information, or rack pipeline keubi hamusko pass ke rein LLM ko. Yeah, no, right? Ha, to, it will… it will prefer the context, actually.
+
+03:00:25.000 --> 03:00:31.000
+Okay, just a map quick example, though. App ChatGPT used Kartha.
+
+03:00:31.000 --> 03:00:33.000
+Hmm, yeah.
+
+03:00:33.000 --> 03:00:37.000
+ChatGPTK Pass model, GPT model kit passap na information hai auske pass, right?
+
+03:00:37.000 --> 03:00:38.000
+Right?
+
+03:00:38.000 --> 03:00:45.000
+Hagarap, GPT model kopolo, kit chica, yellow letters information, joby answer karo, merko is ke pesaspekarna.
+
+03:00:45.000 --> 03:00:46.000
+Hmm
+
+03:00:46.000 --> 03:00:53.000
+So, GPT model correct, wahni training value information ko us ni karega, wahya aapis ko context diho ske ap koansa provide karega.
+
+03:00:53.000 --> 03:00:54.000
+Perfect, yeah, that's what I wanted to know.
+
+03:00:54.000 --> 03:01:05.000
+So, as I say, mota, rack pay prime me, osko overlook kerdega apne yo training wali information, kocho contact sa boldre osko eat karnek, osuke pesas poansar deja. Alright?
+
+03:01:05.000 --> 03:01:10.000
+Okay, got it. Yeah. Thank you so much, today's session was really nice. Thank you.
+
+03:01:10.000 --> 03:01:17.000
+Yeah. Thank you, ma'am. Thank you.
+
+03:01:17.000 --> 03:01:21.000
+Okay, next, question.
+
+03:01:21.000 --> 03:01:24.000
+KR wheelchecker
+
+03:01:24.000 --> 03:01:25.000
+Bala.
+
+03:01:25.000 --> 03:01:28.000
+Charles Raghu
+
+03:01:28.000 --> 03:01:30.000
+Shankar… guys, anyone having any question, go ahead.
+
+03:01:30.000 --> 03:01:31.000
+Hi, Shirley
+
+03:01:31.000 --> 03:01:34.000
+Hi Sunny. Can I go
+
+03:01:34.000 --> 03:01:37.000
+Yeah.
+
+03:01:37.000 --> 03:01:38.000
+Thank you so much
+
+03:01:38.000 --> 03:01:39.000
+You can go. Who's there
+
+03:01:39.000 --> 03:01:40.000
+Bala here.
+
+03:01:40.000 --> 03:01:41.000
+Yeah, Bala, you can
+
+03:01:41.000 --> 03:01:44.000
+Thank you, sir.
+
+03:01:44.000 --> 03:01:48.000
+So, I have a really quick question, sir
+
+03:01:48.000 --> 03:02:02.000
+So, regarding the, selecting a good Vector database for the production use, yeah, you answered the last, when you were explaining, like, depending on your requirements, security requirements, yeah, I got it, sir. So, the next question
+
+03:02:02.000 --> 03:02:12.000
+So, which is the best open source library to, you know, OCR my document in a multi-language to get accurate results
+
+03:02:12.000 --> 03:02:19.000
+You know, let's say if it is a, let's say I'm in Telugus or Telugu background, okay, Telugu language
+
+03:02:19.000 --> 03:02:21.000
+So
+
+03:02:21.000 --> 03:02:26.000
+If I go for extract a Telugu language information and store it in Vector Database
+
+03:02:26.000 --> 03:02:32.000
+So, which is the best OCR, and how LLM is going to… So
+
+03:02:32.000 --> 03:02:46.000
+So, can you please suggest me, like, language, pipeline kind of things, or, like, how it's going to work? So, English is fine, actually. English LLM can understand, but no need of translation, anything. But when it comes to, you know translating into another language
+
+03:02:46.000 --> 03:02:53.000
+So, how it's, how you're going to approach these problems? I mean, the problem of language in black
+
+03:02:53.000 --> 03:03:04.000
+So, for… you can… what you can do now, see, there are so many OCR, multilingual OCR, like paddle OCR, Tesseract OCR, Easy OCR
+
+03:03:04.000 --> 03:03:18.000
+You can check out with this OCR. Okay, it will be working. But apart from that, I would give you one more, basically suggestion. You can use LLM as an OCR also
+
+03:03:18.000 --> 03:03:19.000
+Okay.
+
+03:03:19.000 --> 03:03:21.000
+So
+
+03:03:21.000 --> 03:03:22.000
+But how
+
+03:03:22.000 --> 03:03:23.000
+You can use the LLM as an OCR also.
+
+03:03:23.000 --> 03:03:37.000
+But, let's say, sorry, I want to develop a rack pipeline on my language, sir, like, okay, Telugu language, I have Telugu full document so RAG pipeline. So how similarity works in the language
+
+03:03:37.000 --> 03:03:39.000
+the RAG pipelines
+
+03:03:39.000 --> 03:03:40.000
+how it's going to understand
+
+03:03:40.000 --> 03:03:52.000
+Same… and it will work. You can use those embedding models, which can understand this Telugu language, and according to that, it can create the embedding, like OpenAI large embedding model and all. Okay, it will be working well. Got it?
+
+03:03:52.000 --> 03:03:58.000
+So, we have a… okay, Telugu language embedding models also, like, whatever, Hindi or English, or if you want to go for
+
+03:03:58.000 --> 03:04:04.000
+Tell you a specific model, or this, or OpenAI embedding model, it is, created a vast amount of,
+
+03:04:04.000 --> 03:04:12.000
+It is created in the vast amount of… sorry, it is straight in the vast amount of data. Even the telgo is included over there.
+
+03:04:12.000 --> 03:04:22.000
+Okay.
+
+03:04:22.000 --> 03:04:23.000
+Hmm.
+
+03:04:23.000 --> 03:04:27.000
+Yeah, so… but, if I want to go for, you know, completely free kind of approach, I cannot go, right? So OCR, with Tesla SCR, I can go for
+
+03:04:27.000 --> 03:04:33.000
+But I… actually, I tried Tesseract Tossier, sir, but, you know, when I… in my system, it was, it was… it was not able to
+
+03:04:33.000 --> 03:04:38.000
+I was getting out of memory insufficient errors I'm getting actually
+
+03:04:38.000 --> 03:04:45.000
+And also, if I tried in Ghulkol, I'm also saying we are getting, when I'm trying to load OCR
+
+03:04:45.000 --> 03:04:46.000
+So
+
+03:04:46.000 --> 03:04:54.000
+You… you are trying to say… you are trying to suggest cloud-based, right, sir? Like, cloud-based OCS is a good one
+
+03:04:54.000 --> 03:04:58.000
+If you want to, but it's going to have a cost for that, right, sir?
+
+03:04:58.000 --> 03:05:03.000
+Yes, yes, it would be having the cost.
+
+03:05:03.000 --> 03:05:06.000
+Okay.
+
+03:05:06.000 --> 03:05:07.000
+So.
+
+03:05:07.000 --> 03:05:19.000
+You can check with the hugging Face, there are so many open source models, I think you will find out some multilingual model, okay? Which can deal with the Telugu language also.
+
+03:05:19.000 --> 03:05:20.000
+Yeah…
+
+03:05:20.000 --> 03:05:21.000
+Okay, sir.
+
+03:05:21.000 --> 03:05:27.000
+OCRYC, just configure it on a good server. Otherwise, you will get a memory error and all
+
+03:05:27.000 --> 03:05:29.000
+Yeah, that's what
+
+03:05:29.000 --> 03:05:30.000
+Yeah
+
+03:05:30.000 --> 03:05:35.000
+I would suggest you… just do one thing, purchase a… this, what I can say.
+
+03:05:35.000 --> 03:05:41.000
+This one. Enterprise version of the collab, and work it over there, okay?
+
+03:05:41.000 --> 03:05:42.000
+Okay, sir.
+
+03:05:42.000 --> 03:05:45.000
+You can work over there, over the Enterprise version of the collab
+
+03:05:45.000 --> 03:05:47.000
+Sorry
+
+03:05:47.000 --> 03:05:48.000
+Yeah
+
+03:05:48.000 --> 03:05:50.000
+Okay. So, yeah, this is my personal project, I was doing something, so… okay, yeah
+
+03:05:50.000 --> 03:05:52.000
+You can do that.
+
+03:05:52.000 --> 03:06:06.000
+I would just, you know, you're explaining the algorithms or the similarities, and one more ecludesian and dot product. But how language and understand so English will easily correlate the understand the context
+
+03:06:06.000 --> 03:06:11.000
+But when it comes to language things, so how it's going to… it has to be translated to in Telugu or Hindi
+
+03:06:11.000 --> 03:06:16.000
+And yet it has to go faster, so that I was not able to clarity, yeah, so yeah
+
+03:06:16.000 --> 03:06:17.000
+So that will be taken care.
+
+03:06:17.000 --> 03:06:21.000
+No worries, sir. As the classes will go ahead, no? You will get everything, right? So, don't worry.
+
+03:06:21.000 --> 03:06:22.000
+Okay.
+
+03:06:22.000 --> 03:06:34.000
+Sunny, there are two, Terugu language model, embedding model. One is Vyakarth, one is L3Q-pune.
+
+03:06:34.000 --> 03:06:38.000
+Oh, there… those are open source?
+
+03:06:38.000 --> 03:06:40.000
+That you need to check.
+
+03:06:40.000 --> 03:06:41.000
+Okay.
+
+03:06:41.000 --> 03:06:54.000
+Likewise, you can, likewise, you can check. Okay, so you can check with a Claude ChatGPT. You can enable that web search plugin over the ChatGPT, it will figure out the model from the
+
+03:06:54.000 --> 03:07:01.000
+Hugging Face, or from the internet, and it will provide you, okay?
+
+03:07:01.000 --> 03:07:05.000
+Yeah, thank you.
+
+03:07:05.000 --> 03:07:06.000
+Yeah, yeah, yeah, sure.
+
+03:07:06.000 --> 03:07:10.000
+Okay, sir. I'll try to connect sometime, sir, if I know, maybe. I'll just explain my, you know, the… so, I mean, my idea, actually. So, is it… yeah, okay. Thank you, sir.
+
+03:07:10.000 --> 03:07:15.000
+So
+
+03:07:15.000 --> 03:07:16.000
+Yeah, hi, Sunny.
+
+03:07:16.000 --> 03:07:46.000
+Okay, next out. Guys, just give me a minute, okay? Just, just give me a minute, okay, wait.
+
+03:10:05.000 --> 03:10:06.000
+Yeah, hi, Sen
+
+03:10:06.000 --> 03:10:08.000
+Okay, guys, we can start again. Sorry, yeah, Rajan, Sankar, Charles, anyone is there, go ahead, yeah.
+
+03:10:08.000 --> 03:10:24.000
+Yeah, hi, Sunny. So I have two questions. So, one is, when we are using the indexes, so, like, can we decide like what sources? I mean, let's say I have 20 documents, PDF documents. So
+
+03:10:24.000 --> 03:10:39.000
+Can I decide on how many documents should go into one specific index? Something like that? Like, can I choose that, or each document will become one particular index? So and also
+
+03:10:39.000 --> 03:10:46.000
+Like, when we are giving, doing the search, like,
+
+03:10:46.000 --> 03:11:10.000
+Can this be based upon… I mean, can we target it to only one particular index, rather than on all indexes, or all index numbers, something like that? Is that… like, yeah, just want to know about both
+
+03:11:10.000 --> 03:11:11.000
+Yeah.
+
+03:11:11.000 --> 03:11:13.000
+Yeah, you are right. You can create a multiple indexes. It's not mandatory that for one document, it will be one index. No, not like that. In one index, there could be multiple document, okay? And you can create a separate, separate index, so many index
+
+03:11:13.000 --> 03:11:19.000
+Okay? And for one particular query, you can target to one index. That is possible. Got it?
+
+03:11:19.000 --> 03:11:25.000
+Okay, so whichever the subset of indexes I can target for a query, I can decide on that.
+
+03:11:25.000 --> 03:11:33.000
+Sure, yeah, you can mention that index name specifically while you are firing the query. It will hit to that specific index only, okay?
+
+03:11:33.000 --> 03:11:49.000
+Okay, okay. Yeah, and one more question. So, related to this, like, the indirect, I mean, the, the, the flat index as well as the other two index, the inverse index and all that you have mentioned. So
+
+03:11:49.000 --> 03:11:59.000
+Which were, like, can we, like, can we always generate a flat index, or the indirect indexes, like the pro… for the approximate search?
+
+03:11:59.000 --> 03:12:18.000
+Yeah, some database, see, this Vector Store gave us, options, okay? Low-level configuration options, this Vector Store, this PHIS Vector Store. In Chroma, also, you will get to some extent. In OpenSearch, you will get. But whenever you're going to be using managed services, like Pinecone, in Pinecone, you will not get that configuration
+
+03:12:18.000 --> 03:12:22.000
+Okay. You cannot select the index and all from your end.
+
+03:12:22.000 --> 03:12:25.000
+Automatically, it will take in a backend.
+
+03:12:25.000 --> 03:12:26.000
+Okay.
+
+03:12:26.000 --> 03:12:31.000
+Okay. In a quadrant, you will get till some extent. You can select some index and all. You can create the index by yourself
+
+03:12:31.000 --> 03:12:45.000
+Again, in Azure AI Search also, you can create. So, some database gives, some managed database, some managed platform gives that feasibility where you can do the low-level configuration. Some Vector database does not give that, okay?
+
+03:12:45.000 --> 03:12:55.000
+Okay, so we can create on the same data, we can create both the flat index as well as the index, all of all the types of indexes right on the same data
+
+03:12:55.000 --> 03:12:58.000
+You can… you can
+
+03:12:58.000 --> 03:13:21.000
+Okay, okay. And one last thing, so related to the credit operations that you said that Vector Database will support, right? So this will support all the deletions as well as updations, everything like so how, what is the primary key when we are using that like doing this updations and deletion, those kind of things
+
+03:13:21.000 --> 03:13:22.000
+Or is it,
+
+03:13:22.000 --> 03:13:25.000
+Document ID, document ID is a primary key. Okay.
+
+03:13:25.000 --> 03:13:26.000
+Okay, okay, okay, okay.
+
+03:13:26.000 --> 03:13:39.000
+We can discuss that. As of now, see, this is just the first class of the Vector DB, no? Give me one or two more classes, and the other concept will also be clear, got it?
+
+03:13:39.000 --> 03:13:40.000
+Yeah.
+
+03:13:40.000 --> 03:13:42.000
+Yeah, person. Yeah, thanks for your… the session. This was really special
+
+03:13:42.000 --> 03:13:44.000
+Thank you, sir.
+
+03:13:44.000 --> 03:13:47.000
+Your next doubt is
+
+03:13:47.000 --> 03:13:50.000
+Charles, what is your dog, Charles?
+
+03:13:50.000 --> 03:14:01.000
+Yes, I was just in line with what he was saying. I just wanted to know whether an index, one document, when you're talking about one document, what is the volume of one document
+
+03:14:01.000 --> 03:14:06.000
+That can carry in
+
+03:14:06.000 --> 03:14:07.000
+As big as one document we were talking about
+
+03:14:07.000 --> 03:14:14.000
+Volume of the one document could be anything. See, one document size could be in the MBs, right?
+
+03:14:14.000 --> 03:14:18.000
+Okay
+
+03:14:18.000 --> 03:14:19.000
+Not a GB
+
+03:14:19.000 --> 03:14:22.000
+Not GVs, basically. We have multiple such documents. So, in one document, we could have as much as data. Got it?
+
+03:14:22.000 --> 03:14:23.000
+Okay
+
+03:14:23.000 --> 03:14:24.000
+Yeah.
+
+03:14:24.000 --> 03:14:34.000
+Then I wanted to find out about the cause that's going on because I wanted to enroll. It seems to be carrying on the same time we are supposed to be supposed to be here
+
+03:14:34.000 --> 03:14:37.000
+So I think it's needless to
+
+03:14:37.000 --> 03:14:39.000
+To go for it because it's the same thing, same time
+
+03:14:39.000 --> 03:14:42.000
+You are asking about the different batch
+
+03:14:42.000 --> 03:14:45.000
+The different batch, the badge that
+
+03:14:45.000 --> 03:14:46.000
+Starting today
+
+03:14:46.000 --> 03:15:00.000
+Yeah, so, actually, the timing is same currently. So what you can do, you can watch out the recording of any of the class. Let's say if you're attending this as a live one, you can watch out the recording of that class, okay? Or vice versa, you can do
+
+03:15:00.000 --> 03:15:01.000
+Got it
+
+03:15:01.000 --> 03:15:12.000
+Yes, then I got a recommendation about the resource that we have last time. Maybe I'm not thinking right. Stand to be corrected
+
+03:15:12.000 --> 03:15:16.000
+The person who took first.
+
+03:15:16.000 --> 03:15:17.000
+The software he brought in
+
+03:15:17.000 --> 03:15:21.000
+For me, it was out of the topic because we did not know
+
+03:15:21.000 --> 03:15:25.000
+A novice, we don't know what it is. He's a professional
+
+03:15:25.000 --> 03:15:36.000
+So, the software he brought in was quite good, but was not in the context of which we were bidding for.
+
+03:15:36.000 --> 03:15:41.000
+So for me, he was not supposed to be
+
+03:15:41.000 --> 03:15:50.000
+great at first because he brought something that we never saw it, and we saw it. I, for one never saw it. I saw it the same day
+
+03:15:50.000 --> 03:15:55.000
+He took the lead. He was like a professional
+
+03:15:55.000 --> 03:16:00.000
+But what we were vying for is what you taught us that we were supposed to
+
+03:16:00.000 --> 03:16:06.000
+Do what you told us to like an example of what you told us to show that we are
+
+03:16:06.000 --> 03:16:11.000
+capable of understanding, oh, we understood what you've been teaching
+
+03:16:11.000 --> 03:16:14.000
+That's what I think about it
+
+03:16:14.000 --> 03:16:16.000
+I don't know whether somebody thought of it
+
+03:16:16.000 --> 03:16:20.000
+Because there was somebody… there was another guy that
+
+03:16:20.000 --> 03:16:26.000
+Came out with narrative that I thought he was supposed to be
+
+03:16:26.000 --> 03:16:27.000
+Yeah, but since they said
+
+03:16:27.000 --> 03:16:35.000
+Sorry, I did not get clearly… can you please speak a little loudly, Charles? Your voice is a little low for me. Guys, for everyone, or for me only?
+
+03:16:35.000 --> 03:16:38.000
+Okay, I don't know. Is it clear now? Is it clear?
+
+03:16:38.000 --> 03:16:40.000
+Yeah, it is clearly up.
+
+03:16:40.000 --> 03:16:45.000
+Okay, because maybe the microphone was a little bit far. Yes, I'm saying that
+
+03:16:45.000 --> 03:16:49.000
+Concerning the result of last class, the last week
+
+03:16:49.000 --> 03:16:52.000
+The guy who took the lead
+
+03:16:52.000 --> 03:16:57.000
+came in with a software that we never understood like a novice
+
+03:16:57.000 --> 03:16:59.000
+On this profile
+
+03:16:59.000 --> 03:17:00.000
+Okay.
+
+03:17:00.000 --> 03:17:02.000
+He came like a professional
+
+03:17:02.000 --> 03:17:09.000
+Would that software that was very excellent. I can't take that from him. That's excellent
+
+03:17:09.000 --> 03:17:10.000
+The results
+
+03:17:10.000 --> 03:17:11.000
+So, you're talking about that, fine-tuning demonstration, right?
+
+03:17:11.000 --> 03:17:12.000
+Yes, yes
+
+03:17:12.000 --> 03:17:13.000
+So
+
+03:17:13.000 --> 03:17:27.000
+Yeah, so regarding that, you can ask in the committee chat, okay, to the respective person you can mention. I think he will, or she will reply, okay? Whatever doubt you have related to that specific, demo, okay?
+
+03:17:27.000 --> 03:17:31.000
+I'm saying that he was not supposed to be greeted first
+
+03:17:31.000 --> 03:17:41.000
+Because he brought a software that we are trying to… what you brought us was like a test in a class for us to demonstrate what you have been teaching
+
+03:17:41.000 --> 03:17:52.000
+to know that, to show that we understood what you have been teaching. But he brought the software, though he was demonstrating what you have been teaching, but we do not understand the software
+
+03:17:52.000 --> 03:18:01.000
+And he was graded first. That thing, for me was like out of topic, you
+
+03:18:01.000 --> 03:18:03.000
+Okay.
+
+03:18:03.000 --> 03:18:04.000
+So I was saying that there was another guy.
+
+03:18:04.000 --> 03:18:14.000
+So, what… so what kind of… no, no, no, what… what I'm… what I'm understanding… do you have any specific query related to that, one
+
+03:18:14.000 --> 03:18:15.000
+Or
+
+03:18:15.000 --> 03:18:24.000
+No, I'm talking about the software he brought in. The software he brought in was good. I don't take it out from him. I wanted the… I've tried to get the software, I couldn't get it.
+
+03:18:24.000 --> 03:18:30.000
+I've tried to get it, it was quite good, it was simple and easy to understand.
+
+03:18:30.000 --> 03:18:35.000
+But I'm saying that on the context of the test that you were testing us
+
+03:18:35.000 --> 03:18:40.000
+It was not proper for us to take him like that was the best.
+
+03:18:40.000 --> 03:18:47.000
+There was another guy that I think came that he demonstrated. He looked young in the face. I don't know his name
+
+03:18:47.000 --> 03:18:51.000
+You look very young in the face. He was this one where I thought he was supposed to be
+
+03:18:51.000 --> 03:18:52.000
+He was supposed to
+
+03:18:52.000 --> 03:19:05.000
+Yeah, yeah, see, this… that's what I'm saying, na, Charles, see this… I'm… I'm not having any restriction while anyone giving the demonstration and all, right? So they can come up with any sort of a, like, software or any sort of, basically, whatever extra they are doing around to that assignment.
+
+03:19:05.000 --> 03:19:06.000
+Okay.
+
+03:19:06.000 --> 03:19:11.000
+Okay.
+
+03:19:11.000 --> 03:19:12.000
+Yeah.
+
+03:19:12.000 --> 03:19:27.000
+getting my point. So, I'm not putting a restriction over there. Got it? And the going forward classes also, this thing would be there if any assignment demonstration are there. So many people are giving a demonstration around to that assignment, but many people are building some beyond level thing, okay?
+
+03:19:27.000 --> 03:19:28.000
+Okay.
+
+03:19:28.000 --> 03:19:29.000
+So that is completely accept acceptable for us, for me as well, okay? There is no such issue with that. Got it?
+
+03:19:29.000 --> 03:19:30.000
+Okay.
+
+03:19:30.000 --> 03:19:31.000
+Yeah.
+
+03:19:31.000 --> 03:19:37.000
+Okay, next dot next query, whoever is having doubt, please go ahead, guys.
+
+03:19:37.000 --> 03:19:40.000
+Hi, Sunny.
+
+03:19:40.000 --> 03:19:42.000
+Yeah
+
+03:19:42.000 --> 03:19:43.000
+Ramchandra…
+
+03:19:43.000 --> 03:19:44.000
+How can I find out with…
+
+03:19:44.000 --> 03:19:45.000
+I'll go
+
+03:19:45.000 --> 03:19:47.000
+Who's asking the question
+
+03:19:47.000 --> 03:19:48.000
+Am I audible, Sunny?
+
+03:19:48.000 --> 03:19:49.000
+Yeah, you are audible, Raghu.
+
+03:19:49.000 --> 03:19:59.000
+Sunny, how can I find out which vector index algorithm I am using in the Vector DB? How to find out that?
+
+03:19:59.000 --> 03:20:00.000
+Rachel
+
+03:20:00.000 --> 03:20:01.000
+Sorry?
+
+03:20:01.000 --> 03:20:09.000
+Vector indexing algorithm. Like, for example, is it HN, SW, or IVFLAT? Which one I was using in the Vector DB? How to find out that one?
+
+03:20:09.000 --> 03:20:16.000
+You can create that index manually, no, see, I created today flat index, right? Likewise, you can create the other kind of index also, okay?
+
+03:20:16.000 --> 03:20:27.000
+Okay, and also another question is, like, what is the difference, like, you were, telling something about collection index and namespaces.
+
+03:20:27.000 --> 03:20:28.000
+I'm not able to understand
+
+03:20:28.000 --> 03:20:32.000
+So these are just… these are just different names, actually, of the index, that's it, okay?
+
+03:20:32.000 --> 03:20:36.000
+Okay, Sunny, okay.
+
+03:20:36.000 --> 03:20:40.000
+Synonyms of the index, that's it.
+
+03:20:40.000 --> 03:20:41.000
+Yeah.
+
+03:20:41.000 --> 03:20:42.000
+Oh, okay, sorry. Thank you.
+
+03:20:42.000 --> 03:20:43.000
+Hey, Sunny
+
+03:20:43.000 --> 03:20:44.000
+Okay, next out
+
+03:20:44.000 --> 03:20:46.000
+Hi, Sunny, can you hear me?
+
+03:20:46.000 --> 03:20:49.000
+Yeah, Krish, yeah, please go ahead.
+
+03:20:49.000 --> 03:21:05.000
+Yeah, thanks, Anik. Again, great session today. So my question is, we are building a healthcare kind of application and a lot of this data is sitting within the medical database, like commonly known as EHR
+
+03:21:05.000 --> 03:21:22.000
+Right? And what we are trying to do is building the AI intelligence around that and enabling the patient to kind of understand their own healthcare trends, like, you know, what is the impact of the medication on their ongoing health issues or for that matter
+
+03:21:22.000 --> 03:21:28.000
+Any of the lab results, you know, the impact on their health trends and other stuff.
+
+03:21:28.000 --> 03:21:45.000
+So the way I understood RAG is it's mostly like you have this static kind of information that is coming in, then you can fire a few questions, queries, and then it's going to give you a bunch of answers. But it's a little bit complicated on the healthcare side because of privacy and other stuff
+
+03:21:45.000 --> 03:22:02.000
+So we are kind of a little bit struggling to understand how RAC can be used in this instance because the data is in the medical EHR systems, you know, we need to bring that, obviously not to compromise on privacy
+
+03:22:02.000 --> 03:22:13.000
+And then run through that through an LLM to kind of connect all these different components and collectively give that intelligence to the patient. I'm just curious, like, you know, how
+
+03:22:13.000 --> 03:22:21.000
+I should be thinking about RAG in this scenario, and any recommendations that you might have
+
+03:22:21.000 --> 03:22:37.000
+You can build a rack also, in the same way, actually, so… See, more than rack, there is, like, this agent, right? So, you will have to understand the entire orchestration, MCPs and all, and this rag knowledge
+
+03:22:37.000 --> 03:22:52.000
+After combining all this thing, only you can build that kind of solution. Got it? So, I would suggest you please wait for some more time until you're not going to be understand the Agentic orchestration and all. Okay, once you will have understanding of the land graph kind of framework, then you can build
+
+03:22:52.000 --> 03:22:59.000
+Will, this kind of solution. Okay?
+
+03:22:59.000 --> 03:23:00.000
+Yeah.
+
+03:23:00.000 --> 03:23:05.000
+Okay, okay, alright, we'll hold it on that. I might just send you an email, just to have some other questions, is it okay?
+
+03:23:05.000 --> 03:23:07.000
+Yeah, yeah, sure.
+
+03:23:07.000 --> 03:23:08.000
+Okay, thank you.
+
+03:23:08.000 --> 03:23:16.000
+Yeah.
+
+03:23:16.000 --> 03:23:19.000
+Okay, next out
+
+03:23:19.000 --> 03:23:22.000
+Hello, Sunny, I'm Virsec speaking. Hope I am already
+
+03:23:22.000 --> 03:23:23.000
+Yeah, you're audible.
+
+03:23:23.000 --> 03:23:39.000
+Yeah, so, yeah, for the previous one, PDF-based, you know, first session on RAG, we discussed. So, as part of that, you advised to implement multiple Pdf uploads for implementing RAG on multiple Pdf files.
+
+03:23:39.000 --> 03:23:56.000
+Yeah, so I have done few enhancements for multiple PDF files, and Streamlit user interface I have developed and all. So, that complete RAG application is developed using chromaDB as a vector database. And you know Gemini-based models, including LLM
+
+03:23:56.000 --> 03:24:00.000
+And, this one, Embraing model.
+
+03:24:00.000 --> 03:24:05.000
+Today you use Mbring 001. The same I have used
+
+03:24:05.000 --> 03:24:11.000
+Yeah, but I have… those are fully proprietary things. Instead, I have
+
+03:24:11.000 --> 03:24:24.000
+But choosing Hugging Face to… sorry, Hugging Face-based models, including LLM and embedding model. As embedding model, I'm using all mini LM-L6v2.
+
+03:24:24.000 --> 03:24:32.000
+So, but my LLM inference was failed. I'm using Hugging Face free tier, in fact
+
+03:24:32.000 --> 03:24:47.000
+So, is it going to cause any obstacle while I… I mean, while we are using free tire-based model and inferencing an LLM cause an issue? I have spent nearly one and a half daytime to fix… faced multiple issues
+
+03:24:47.000 --> 03:25:03.000
+And, you know, this is the predominant one, or inferencing LLM model. And I come to know from ChatGPT that hugging Face is redirecting my inference to the real platform providers behind scenes
+
+03:25:03.000 --> 03:25:13.000
+So, how far this is correct and, you know, like, NVIDIA and others are also having other providers, I'm saying, LLM providers
+
+03:25:13.000 --> 03:25:20.000
+So, when we are having this kind of, you know, obstacle while using
+
+03:25:20.000 --> 03:25:35.000
+This free tier-based one while inferencing LLM model. So, what is the use of Hugging Face, then, in such a case? Is it only for, you know downloading to local machine using olama
+
+03:25:35.000 --> 03:25:41.000
+And implement this RAG… I mean, not only for RAG, leveraging open source AI
+
+03:25:41.000 --> 03:25:42.000
+So, that is what
+
+03:25:42.000 --> 03:25:49.000
+See, sir, for the demo and all, free one is acceptable
+
+03:25:49.000 --> 03:25:50.000
+Yeah, I'm listening, go ahead, please, yeah.
+
+03:25:50.000 --> 03:25:56.000
+Okay. Right, but for the MVPs and for the other regular users and all, free tire is not acceptable
+
+03:25:56.000 --> 03:25:57.000
+Okay. Yeah, makes sense, yeah.
+
+03:25:57.000 --> 03:26:03.000
+Got it. So, maybe the failure is likely related to the Hugging Face free tire inferencing
+
+03:26:03.000 --> 03:26:04.000
+Yes.
+
+03:26:04.000 --> 03:26:12.000
+Okay, so what you can do, you can basically, create a self-hosted system, right?
+
+03:26:12.000 --> 03:26:13.000
+Yeah, mine is a GPU-based
+
+03:26:13.000 --> 03:26:19.000
+Okay. Free inferencing is suitable for the testing, I'm not denying that. Whatever thing I have shown you, it is fine.
+
+03:26:19.000 --> 03:26:34.000
+And otherwise, what you can do, you can purchase some LLM gateway from the open router. That will cost you less as well, and it will basically redirect your query to the different other model. Just explore the concept of the LLM gateway. It is like a very reliable thing nowadays
+
+03:26:34.000 --> 03:26:47.000
+And many companies are using that. Instead of relying on one LLM in a backend, the query is routing to the multiple LLM in a backend. Open router kind of companies are providing that thing.
+
+03:26:47.000 --> 03:26:48.000
+Okay, yeah.
+
+03:26:48.000 --> 03:27:01.000
+Okay. Otherwise, for you, if you are doing more than this practice and all the self-hosted LLM are the good one. Just use the Ollama or Hugging Face, keep the model local, okay?
+
+03:27:01.000 --> 03:27:02.000
+implement RAM
+
+03:27:02.000 --> 03:27:04.000
+load that and basically, do the inferencing and all, yeah, implement the RAG.
+
+03:27:04.000 --> 03:27:05.000
+That's it.
+
+03:27:05.000 --> 03:27:17.000
+Yeah, yeah. Yeah. So that is my next target, because I'm experimenting on multiple aspects, initially, so that is what, proprietary Gemini over. Next one was Hugging Face, and then next one would be Olama
+
+03:27:17.000 --> 03:27:29.000
+I'm having good configuration machine, and locally I installed this Ollama and explored multiple things, even instead of, I mean, Windows-based one, this one, my machine is
+
+03:27:29.000 --> 03:27:47.000
+So I have configured, customized the location for Olama also on this platform, instead of default serial-based one. So all these are done, but experimenting myself on these concepts because predominantly rag is having 2 components. One is the data ingestion pipeline and retrieval
+
+03:27:47.000 --> 03:27:53.000
+One-time operation is this ingestion is one-time operation, and retrieval is frequent one
+
+03:27:53.000 --> 03:28:04.000
+So, that is what I'm thinking, and various components we are having in these pipelines, like chunking all. So various chunking strategies we are having. I am understanding
+
+03:28:04.000 --> 03:28:15.000
+you know, how these chunking strategies and embeddings works individually before we take leverage of them for implementing, you know, the real RAG
+
+03:28:15.000 --> 03:28:33.000
+So, here I experimented this recursive rag and a semantic rag also I have implemented and how the output has been displayed to my console. Here you are using notebook for demonstration, but I'm not using them. I'm implementing this stuff in
+
+03:28:33.000 --> 03:28:50.000
+python files py. I'm following production grade kind of development myself. Yeah, besides your one also. So yeah, so these are all my experimental. But I take your advice, like, oh, gateways, and just note it down while you are explaining
+
+03:28:50.000 --> 03:29:02.000
+Yeah, yeah. Thank you. Yeah, that is all. And are we going to cover various other ragging strategies we are having, like CRAG and Agentic rag, because we have not stepped into that
+
+03:29:02.000 --> 03:29:05.000
+Yeah, so…
+
+03:29:05.000 --> 03:29:06.000
+Okay.
+
+03:29:06.000 --> 03:29:08.000
+Yeah, yeah, we can, learn those as well. The going forward session, we'll show you.
+
+03:29:08.000 --> 03:29:25.000
+Yeah, yeah. And another thing, sir, PDF is having, the simple one, just, I have noted on multiple questions on my book and recapping, bear with me a moment. Yeah, yesterday session, as our PDF files having variety of data
+
+03:29:25.000 --> 03:29:35.000
+In different format, in different formats. Not only text images, plain text data, table and even complex tables are also having, and markdown.
+
+03:29:35.000 --> 03:29:52.000
+So, individually, to extract this kind of data, like markdown data, for example, and for example, next example is table data. So we have written multiple blocks of code in multiple notebook cells. Is my understanding correct, sir, or not?
+
+03:29:52.000 --> 03:29:57.000
+No, just want to
+
+03:29:57.000 --> 03:29:58.000
+Yeah
+
+03:29:58.000 --> 03:29:59.000
+Individually extract… what, sorry? Individually extract the kind of… sorry, what you said?
+
+03:29:59.000 --> 03:30:01.000
+Oh, yeah, yeah. So, first we are having text data.
+
+03:30:01.000 --> 03:30:02.000
+Hmm.
+
+03:30:02.000 --> 03:30:10.000
+Another one is, having, let us say, image we are also having in our Pdf file what we have been using for demonstration.
+
+03:30:10.000 --> 03:30:19.000
+Another one is a table kind of data and a markdown. So these four kinds of data in our knowledge base PDF we are having
+
+03:30:19.000 --> 03:30:21.000
+Yeah, till this
+
+03:30:21.000 --> 03:30:30.000
+No, it's not a correct, understanding. We are arranging our data, actually, so we can arrange the data in a TXT, we can arrange the data in a markdown
+
+03:30:30.000 --> 03:30:41.000
+Different modality, like text, images, and tables, we have that set, okay? So, in any way, we can arrange the data. JSON. Don't extract as Imd, remove the Md. No one is asking that. Okay
+
+03:30:41.000 --> 03:30:49.000
+You keep the complete data and the JSON only, or don't keep the data in the JSON, don't keep the MD, just keep it in the TXT, that's it, okay?
+
+03:30:49.000 --> 03:30:57.000
+Yeah, yeah. So, I understand, sir. So, these are all various forms of data. A PDF knowledge base can have
+
+03:30:57.000 --> 03:31:05.000
+So, to extract these forms of data, we have to write individual piece of code. Is my understanding correct, sir, or not?
+
+03:31:05.000 --> 03:31:06.000
+Yeah, yeah, it is correct.
+
+03:31:06.000 --> 03:31:17.000
+Okay. Because we have written multiple blocks, one is for extracting markdown data, another one is for extracting table kind of data, and table is also printed and also saved to local
+
+03:31:17.000 --> 03:31:21.000
+Multiple code blocks will have to be right for that, okay, for the different functionality.
+
+03:31:21.000 --> 03:31:33.000
+Right, right. So that is what… yeah. Because each, type of data, I mean, data format, or data form of knowledge base is different. Hence, we have to take care of
+
+03:31:33.000 --> 03:31:39.000
+Handling each form of data. So that's why we have written multiple blocks of code. Is my understanding correct?
+
+03:31:39.000 --> 03:31:42.000
+Yeah, yeah, your understanding is correct, right
+
+03:31:42.000 --> 03:31:55.000
+Okay. Yeah, and another question, sir, expand drag implementation issues with open source AI stack. Yes, so you suggested… ChatGPT suggested me to leverage Grok instead of GameFacer
+
+03:31:55.000 --> 03:32:12.000
+So, to reference the models, and together AI and others are also, at present, I'm implementing partial implementation is over for that. And would like to in real time, how we usually deploy the cursor? How can we interact with this rank using some
+
+03:32:12.000 --> 03:32:24.000
+Web user interface only, or instead of this standalone AI assistant, you have demonstrated on 11th of July session, that is first session
+
+03:32:24.000 --> 03:32:25.000
+Yeah.
+
+03:32:25.000 --> 03:32:26.000
+Yeah, we can create the UI interface, actually, okay.
+
+03:32:26.000 --> 03:32:27.000
+View interface, okay.
+
+03:32:27.000 --> 03:32:29.000
+Yeah.
+
+03:32:29.000 --> 03:32:39.000
+Right. Yeah, thank you, sir. So, because ChatGPT AI assistant also giving the same, I just want to confirm, being a real-time person, so from your end, yeah
+
+03:32:39.000 --> 03:32:40.000
+Yeah.
+
+03:32:40.000 --> 03:32:55.000
+So, sorry, another suggestion come from the same is notebook, sorry, notebooks we are using, right? In that is ideal for development, but for production, you know, modularized code, because I am a data engineer
+
+03:32:55.000 --> 03:33:00.000
+Yeah, so we used to develop the same modularized code and deploy to production
+
+03:33:00.000 --> 03:33:04.000
+Yeah, so the same way
+
+03:33:04.000 --> 03:33:12.000
+For example, for POC or prototyping, if we use this notebook, and later on how can we convert the same
+
+03:33:12.000 --> 03:33:19.000
+notebook code to, you know, modularized code that is, complaints for production
+
+03:33:19.000 --> 03:33:25.000
+Production grade application. Or do we need to build production grade application from scratch, sir?
+
+03:33:25.000 --> 03:33:39.000
+We do the experiment in the notebook, and then, basically, we can write the modularized code, okay? So we'll learn how to create a modularized application going forward, okay?
+
+03:33:39.000 --> 03:33:40.000
+Got it.
+
+03:33:40.000 --> 03:33:47.000
+Okay, yeah, that depends on Python packages and modules concept, right? Underscore init, yeah? All right. I'm following the same standards, sir. Yeah, thank you for time. Thank you.
+
+03:33:47.000 --> 03:33:48.000
+Oh, thank you.
+
+03:33:48.000 --> 03:33:50.000
+Hi, Shaneer, Aldi said.
+
+03:33:50.000 --> 03:33:52.000
+Yeah, alright, please go ahead.
+
+03:33:52.000 --> 03:34:00.000
+So, basically, my question is, in the previous session, we converted multiple files, like Markdown files
+
+03:34:00.000 --> 03:34:06.000
+And the PDF files and the other JSON file, which containing the reference of all the data.
+
+03:34:06.000 --> 03:34:14.000
+So now, today, we store the document in the Vector DB, right? And later, we… later we…
+
+03:34:14.000 --> 03:34:16.000
+You're retrieving that data.
+
+03:34:16.000 --> 03:34:22.000
+So, for the data which we converted in the markdown, and the other format
+
+03:34:22.000 --> 03:34:29.000
+How we can store them into the Vector DB, or do we really require to store that in the Vector DB?
+
+03:34:29.000 --> 03:34:34.000
+Bilkur required itself. Angi classma padding, ya? In the next class, I'll show you, okay?
+
+03:34:34.000 --> 03:34:36.000
+Okay.
+
+03:34:36.000 --> 03:34:37.000
+Thank you.
+
+03:34:37.000 --> 03:34:39.000
+Okay, okay. Okay, thank you
+
+03:34:39.000 --> 03:34:50.000
+Any more doubt, guys?
+
+03:34:50.000 --> 03:34:57.000
+Okay, no doubt. Fine, guys, I'll see you in the next class. Thank you, bye, guys, take care, good night. Yeah.
+

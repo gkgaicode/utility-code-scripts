@@ -1,0 +1,3875 @@
+WEBVTT
+
+00:09:57.000 --> 00:10:07.000
+Hey, hello everyone, I'm Odipul. Can you hear me
+
+00:10:07.000 --> 00:10:23.000
+Okay, guys, so let's start with the class. If you can hear me
+
+00:10:23.000 --> 00:10:31.000
+Hello, everyone, can you hear me?
+
+00:10:31.000 --> 00:10:39.000
+Okay, guys, fine. I think you can.
+
+00:10:39.000 --> 00:10:42.000
+Sorry, your chat was not visible.
+
+00:10:42.000 --> 00:10:52.000
+Are you writing something? Because I cannot see, guys
+
+00:10:52.000 --> 00:10:56.000
+Oh, now it is visible. Now it is visible.
+
+00:10:56.000 --> 00:11:03.000
+So, people were writing, yes, yes, yes, but I was not able to see. That's why I was asking again and again, and
+
+00:11:03.000 --> 00:11:05.000
+I think now it is visible
+
+00:11:05.000 --> 00:11:18.000
+Great. So, good evening to all of you. Let's begin with the class. Let's start with the session. So guys, in the previous session, I think we had a discussion regarding the demos and all.
+
+00:11:18.000 --> 00:11:29.000
+So, have you gone through that session? Have you, basically looked into those demos, solution and all everything
+
+00:11:29.000 --> 00:11:37.000
+Yeah, hi, good morning, Renjan
+
+00:11:37.000 --> 00:11:40.000
+Yeah, good evening, Anil.
+
+00:11:40.000 --> 00:11:51.000
+Great. So, let it open. First, let me check that water, like, all the solutions are updated or not over the dashboard, then only I will start with the class
+
+00:11:51.000 --> 00:12:08.000
+So, wait
+
+00:12:08.000 --> 00:12:10.000
+A demo link is already there, no, mate.
+
+00:12:10.000 --> 00:12:14.000
+The session is recorded one, correct?
+
+00:12:14.000 --> 00:12:26.000
+So the recording is available related to the demo
+
+00:12:26.000 --> 00:12:32.000
+34 sessions are completed, and we are into the rag right now
+
+00:12:32.000 --> 00:12:41.000
+Yeah, guys, so I think the recording is updated, and along with the recording, you will find out all the resources also. So, are you able to see all the resources?
+
+00:12:41.000 --> 00:12:55.000
+Whoever is demonstrated their solution, so all those code base and all, everything are available over here, you can directly download from here itself. Got it?
+
+00:12:55.000 --> 00:13:17.000
+Okay, so I updated all the code base, so whoever is given, whoever is given the demonstration, right, at that day, so all the solution and all everything, you will find out over here. So if you are able to see, just give me quick confirmation in the chat, so that we can start with the session
+
+00:13:17.000 --> 00:13:32.000
+Okay, great. Now, guys, let's do one thing, let's complete our remaining, data parsing concept, okay? One or two more library I have to show you with respect to the data parsing and all, and then basically we'll move to the vector database
+
+00:13:32.000 --> 00:13:37.000
+So, let me open the blackboard, and there itself I can write.
+
+00:13:37.000 --> 00:13:45.000
+So guys, in the previous class, basically in the previous, previous to previous class, I was talking about what
+
+00:13:45.000 --> 00:13:48.000
+I was talking about the
+
+00:13:48.000 --> 00:13:52.000
+Data Parsing, okay? So let me write everything over here.
+
+00:13:52.000 --> 00:14:01.000
+So I started with the data parsing and along with the data parsing even I shown you the RAG pipeline also
+
+00:14:01.000 --> 00:14:06.000
+So, have you gone through the rack pipeline, the end-to-end rack pipeline which we have created?
+
+00:14:06.000 --> 00:14:08.000
+Have you gone through with that code
+
+00:14:08.000 --> 00:14:26.000
+Okay, so that code, basically, you can keep it as a reference, and whenever we are going to build a rag, so inside that pipeline only, you can make our changes, okay? Now, guys, we're talking about the data parsing, so we have seen how we can perform the data parsing using the LangChain
+
+00:14:26.000 --> 00:14:42.000
+So, LangChain is providing us the different, different document loader. We can load the document, we can load the data, and we can perform the data parsing. Now, along with the document, guys, so we can use some native library also for parsing the data
+
+00:14:42.000 --> 00:14:51.000
+So, I've shown you one example, so I use some library like PyMew PDF. I have used the PDF plumber directly
+
+00:14:51.000 --> 00:15:04.000
+Okay, I have used this particular library, and what I've shown you guys, I've shown you the PDF Parsing, right? So I shown you from scratch like how you can basically parse the data
+
+00:15:04.000 --> 00:15:16.000
+Now, apart from this one, you will find out some other different library, okay, which is, like, quite useful. You can utilize it while you are creating a RAG-based application. So the Parsing name is a docling
+
+00:15:16.000 --> 00:15:22.000
+Okay. The, the library name is the Llama Parser
+
+00:15:22.000 --> 00:15:26.000
+Right? Lama Parser is also one of the library
+
+00:15:26.000 --> 00:15:43.000
+Okay, so this library also we can utilize, and it is free to use. So, in today's session, guys, I will discuss about these library, and I'll show you the solution about this library. Now, apart from this one guys like there is one more thing that is a vector database
+
+00:15:43.000 --> 00:15:59.000
+So, probably today, by end of the, like, class, or tomorrow I will start with a vector database. So, I will show you how you can keep your data inside the vector database, and then on top of that, finally, we are going to build our retriever pipeline
+
+00:15:59.000 --> 00:16:01.000
+Got it, guys.
+
+00:16:01.000 --> 00:16:17.000
+On top of that, we are going to build a retrieval pipeline, then we'll see the retrieval. So, 4 to 5 more class I will take, regarding this rack concept, and then we are going to complete, we are going to be finished this rack concept, okay? Then, we'll enter into the
+
+00:16:17.000 --> 00:16:18.000
+Agentic part
+
+00:16:18.000 --> 00:16:20.000
+Got it, guys.
+
+00:16:20.000 --> 00:16:36.000
+Okay? So I will give you a couple of assignments also. I have designed 3-4 assignment with respect to this rack, so I will provide you that assignment from the next week onwards. So let me complete at least this retrieval site, okay? After that only I will provide you some assignment, okay?
+
+00:16:36.000 --> 00:16:42.000
+So, let's, do one thing, guys. So, first, what we are going to do
+
+00:16:42.000 --> 00:16:50.000
+So, after completing this, Agentic concept only, we can enter into the Agentic Ragna, right, Harish?
+
+00:16:50.000 --> 00:16:54.000
+You are saying Agentic rack, and
+
+00:16:54.000 --> 00:16:59.000
+For understanding this Agentic rag, at least we'll have to understand the concept of the agents
+
+00:16:59.000 --> 00:17:05.000
+Okay? Then only you can build it, no? Then only you can do that orchestration, right?
+
+00:17:05.000 --> 00:17:17.000
+Okay. So, now let's do one thing, guys. Let me explain the previous code base. So the code base is already available over the GitHub. Just check out the GitHub. Let me open the GitHub
+
+00:17:17.000 --> 00:17:28.000
+Okay, and then guys, what I will do, I will write the code, okay, the new code, basically. So, once we will go and check out inside the repository, this is the repository
+
+00:17:28.000 --> 00:17:47.000
+So, class-wise, all the notes and all, everything is available over here. So just go and check out with my previous to previous class, this was a class, right? So this is the code guys. See this one data Parsing one data Parsing 2. Okay, so let me provide the link of this repository so that you can open this code
+
+00:17:47.000 --> 00:17:54.000
+And I will provide you the latest code as well. Don't worry, so that you can also execute that inside your system. Got it?
+
+00:17:54.000 --> 00:18:00.000
+So, give me a moment, guys. I am going to…
+
+00:18:00.000 --> 00:18:04.000
+Perform everything from scratch, so that you will get some understanding, okay?
+
+00:18:04.000 --> 00:18:11.000
+So, just give me a moment, wait.
+
+00:18:11.000 --> 00:18:41.000
+Until you can open this repository and check out with the previous code.
+
+00:18:47.000 --> 00:18:57.000
+Okay, so this is the one. Now, let me do one thing.
+
+00:18:57.000 --> 00:19:15.000
+Okay, guys, so now my code base is ready, I can show you that.
+
+00:19:15.000 --> 00:19:23.000
+Okay, VS Code is visible to all of you. Can you please give me quick confirmation if the VS Code is visible?
+
+00:19:23.000 --> 00:19:26.000
+Great. Now, so you guys, this is the previous code
+
+00:19:26.000 --> 00:19:28.000
+This one is the previous one.
+
+00:19:28.000 --> 00:19:33.000
+So here you will find out all the loader related to the LangChain. Got it? This one
+
+00:19:33.000 --> 00:19:47.000
+The second is the data parsing Part 2. So inside this particular file, you will get the code related to the PIMU PDF and the PDF number. Got it? Then guys, here what I'm doing. So see inside the data folder, you will get all the data file
+
+00:19:47.000 --> 00:19:49.000
+On which we have done the testing
+
+00:19:49.000 --> 00:19:55.000
+Got it? So, we were using this particular PDF, the complex PDF, this one
+
+00:19:55.000 --> 00:20:07.000
+So, to parse the data, right? And on top of this PDF only, I'm going to test the docling as well as the Llama parser. And then according to your requirement, you can perform the data parsing going forward.
+
+00:20:07.000 --> 00:20:25.000
+Understood. So, now what I am doing, guys, here only, I'm going to be create a couple of more files. So the next file is going to be data Parsing
+
+00:20:25.000 --> 00:20:27.000
+data
+
+00:20:27.000 --> 00:20:29.000
+Parsing
+
+00:20:29.000 --> 00:20:33.000
+Part 3
+
+00:20:33.000 --> 00:20:36.000
+So, here we'll discuss about a dockling.
+
+00:20:36.000 --> 00:20:38.000
+Okay, dockling dot, IPYNB
+
+00:20:38.000 --> 00:20:44.000
+Now, guys, the next file is going to be. Let me create the next file also
+
+00:20:44.000 --> 00:20:48.000
+So, next file is going to be data Parsing
+
+00:20:48.000 --> 00:20:50.000
+Lama Parcell.
+
+00:20:50.000 --> 00:20:52.000
+Okay?
+
+00:20:52.000 --> 00:20:58.000
+Data Parsing Part 3, Llama.
+
+00:20:58.000 --> 00:20:59.000
+Parsing
+
+00:20:59.000 --> 00:21:06.000
+dot ipny. Okay? So, inside this file, I will write a code related to the doc link
+
+00:21:06.000 --> 00:21:11.000
+And inside the next file, we'll write a code related to the
+
+00:21:11.000 --> 00:21:14.000
+Llama parts, sir. Okay?
+
+00:21:14.000 --> 00:21:19.000
+Insert this file, I will write a code related to the Llama parser.
+
+00:21:19.000 --> 00:21:29.000
+So I hope this part is clear. If it is clear, guys, just let me know in the chat so that we can proceed further, okay? So both file is ready, and we can, definitely
+
+00:21:29.000 --> 00:21:35.000
+Look into that, okay?
+
+00:21:35.000 --> 00:21:37.000
+Kirill?
+
+00:21:37.000 --> 00:21:42.000
+Great. So, I can provide you this, file even. I'll provide you this file
+
+00:21:42.000 --> 00:21:44.000
+Okay.
+
+00:21:44.000 --> 00:21:53.000
+Get… download, Git for the Windows. Okay, the Git is not there, is it?
+
+00:21:53.000 --> 00:21:54.000
+I think I had the git, na?
+
+00:21:54.000 --> 00:21:58.000
+What is the issue?
+
+00:21:58.000 --> 00:22:00.000
+get
+
+00:22:00.000 --> 00:22:05.000
+Oh, it is sync it is not there.
+
+00:22:05.000 --> 00:22:13.000
+So, get 4 windows…
+
+00:22:13.000 --> 00:22:15.000
+Just give me a moment, guys, I think,
+
+00:22:15.000 --> 00:22:21.000
+My git is installed. I think it was asking some update, day before yesterday, I did that
+
+00:22:21.000 --> 00:22:34.000
+Maybe it has removed the gate
+
+00:22:34.000 --> 00:22:40.000
+Okay, later on I can, download that, and then basically I'll
+
+00:22:40.000 --> 00:22:43.000
+But I will push the code, okay, over the GitHub
+
+00:22:43.000 --> 00:22:48.000
+But it is required right now also. So, just give me a moment, guys, okay?
+
+00:22:48.000 --> 00:23:11.000
+I'm installing it freshly
+
+00:23:11.000 --> 00:23:26.000
+Okay, so let it download, I will do the setup in the break itself, okay? Later on, I'll do the setup, and I'll provide you the code and all. Fine, I think we can start. Let's do one thing, guys. Let's start from the dock link itself, okay?
+
+00:23:26.000 --> 00:23:36.000
+So, if you will look into the previous code, so this was the code, basically where I performed the Parsing using the pibu PDF and the PDF plumber.
+
+00:23:36.000 --> 00:23:50.000
+And I hope this code is clear to all of you. So it was pretty straightforward code. If you have gone through with this code easily, you will understand that what is happening over here, right? Now, even my Tesseract is also working, right? So I have installed my Tesseract
+
+00:23:50.000 --> 00:24:07.000
+And I have, configured the test, right? Okay. TestRec, basically, it is for the performing the OCR. So now, after setting up the test react, okay, this Python Tesseract, if you will execute it inside the local, you will get the output from the images also. So once you will look into the data folder
+
+00:24:07.000 --> 00:24:23.000
+Now, inside the data folder, this is the output folder, okay? Now, just open that output folder, and here, just check out this image one, okay? ImageRecord.json. Now, inside the imagerecord.json, you can see it is able to locate out my image, and it is able to give the
+
+00:24:23.000 --> 00:24:43.000
+Data related to the images also, okay, so you can basically test out this code inside the local. If you're not able to test out this code inside the local, what you can do, guys, you can do it inside the Colab also, okay? If you don't have the sufficient RAM in your local system
+
+00:24:43.000 --> 00:24:56.000
+Then you can, simply test this entire notebook and all over the collab also, right? Because everyone, system is not supporting the… all the installation related to this doc link and this
+
+00:24:56.000 --> 00:25:10.000
+Tesseractinol, because it is a heavy library disease, and it takes lots of ramps and all. So, if your system is getting stuck, then feel free to test out over the collab itself. Got it? So, this was working fine, and I hope so. It is, this is working fine, guys.
+
+00:25:10.000 --> 00:25:28.000
+Now, let's do one thing. Let's look into some other solution also. So first of all, guys, what I'll do, I'll open the docling B and there itself I will import couple of statement, okay, for using what for using the doc link.
+
+00:25:28.000 --> 00:25:41.000
+Now, docling also is going to do the same thing, whatever we have done using what? Whatever, basically, we have done for what? Whatever we have done for the basically this PDF, okay, using this PyMu PDF and the PDF plumber.
+
+00:25:41.000 --> 00:25:59.000
+Now, we have several different, different library for parsing the same kind of thing, okay? So according to the requirement, we can utilize. So, dockling, it is an open source one. This one, DocLink. Okay, and we can definitely utilize it if our enterprise is allowing this docling uses.
+
+00:25:59.000 --> 00:26:02.000
+Otherwise, you can ask about the Azure AI search
+
+00:26:02.000 --> 00:26:18.000
+Right? Azure AI Search. So, Azure AI Search is also, sorry, not Azure AI Search, what it is called? Azure Document Intelligence. So, Azure Document Intelligence also is one of the good framework for parsing the data, and in many enterprises, it is being used
+
+00:26:18.000 --> 00:26:33.000
+But let's say if we don't have access of the Azure Document Intelligence, and if still we wanted to do that level of parsing, so this llama parser will help to us. Got it? So for using this Llama parser, you will have to use the API key
+
+00:26:33.000 --> 00:26:51.000
+Okay, so in the local, you cannot install the Llama parser. It is not a library for the local. You will have to install the Llama Cloud package to interact with the Llama Cloud server. So, all the processing and all, everything will happen over there itself. You just required one API key to utilize this Llama parser
+
+00:26:51.000 --> 00:27:06.000
+Okay, so I will show you the setup of this Llama Parser, how you can do that. It is very easy. Let me show you that, see. So, this is the Llama Parser dashboard. Okay, you can go through with this particular dashboard, and you can generate the API key over here. Now, it will provide you some free credit
+
+00:27:06.000 --> 00:27:07.000
+Okay.
+
+00:27:07.000 --> 00:27:25.000
+So it will provide you some 10,000 free credit. With this 10,000 free credit, you can perform some parsing and all, and you can utilize it for your project as well. And, basically, you can utilize this particular credit for your practice as well, okay?
+
+00:27:25.000 --> 00:27:39.000
+So if you don't have Azure Document Intelligence, in that case, you can utilize this Llama parser. It will give you the same kind of feel, and it is also a pretty good framework, okay? It is also a pretty good it is also a pretty good basically platform for performing the data parsing
+
+00:27:39.000 --> 00:27:54.000
+So, if you will look over here, so I will show you how you can perform the parsing using the Llama parser. Now, apart from this one, guys, if you will look into this .env file, so inside this .env file, I kept the Llama Cloud API key also
+
+00:27:54.000 --> 00:28:10.000
+So, if you wanted to use the Llama parser, in that case, you will have to utilize… you will have to generate this Llama Cloud API key. Okay, and then you will have to keep it inside the dot env file and from here itself you are going to be loaded making sense to all of you. Tell me yes or no
+
+00:28:10.000 --> 00:28:15.000
+Is this idea clear? So let's do one thing, let's start from the doc link first
+
+00:28:15.000 --> 00:28:24.000
+So, let me show you how we can perform the parsing using the docling. So first of all, guys, we required some import statement
+
+00:28:24.000 --> 00:28:41.000
+Okay. First of all, guys, what we required, we required the import statement. Now, let me show you some order, like, in which order, basically, we are going to be performing the parsing. So, in this particular order, we are going to be performing the parsing. Now, see, guys, what we are doing
+
+00:28:41.000 --> 00:28:56.000
+So, we have an input PDF, then what we will do, we will do the DockLink configuration. Okay, we'll perform the OCR parsing layout analysis, table detection, and all everything over here. Then, guys, what I'll do, I will do the… I will use the document… dockling document class
+
+00:28:56.000 --> 00:29:07.000
+From there, we can extract the text, heading, table, picture, page information, reading order, and all everything. And then we can arrange this particular data inside the respective file in the folder
+
+00:29:07.000 --> 00:29:15.000
+So this pipeline is clear to all of you. Please let me know in the chat if you are able to understand this particular pipeline.
+
+00:29:15.000 --> 00:29:29.000
+If it is clear, we can proceed. Okay, it is very simple pipeline and definitely, once I will write the code, you will get that, okay? If you have attended my previous session, related to what? Related to this,
+
+00:29:29.000 --> 00:29:35.000
+Basically data parsing and all, easily you can understand. Okay?
+
+00:29:35.000 --> 00:29:51.000
+So, let's do one thing. Let me write some import statement. I already prepared some sort of a code, so I can directly keep it over here. So, before that, guys, what you require, you required some packages. So let me write those packages name over here. So these are the packages, basically, which you required
+
+00:29:51.000 --> 00:30:06.000
+for using the doc link. The first package name is what? Docling. The second package name is the Blanchen dockling, and the third package name is the tabulate, okay? So these particular package is required, before using bot, before using the doc link
+
+00:30:06.000 --> 00:30:26.000
+Okay? So, LangChain… via LangChain also, you can use this doc link. I'll show you how you can do that. I have kept some sort of a function, you will get some clarity, right? So let me give you some idea about the dockling and the Llama Parser. Means, let me give you a quick overview
+
+00:30:26.000 --> 00:30:41.000
+So, I hope, guys, this is clear or not. Sorry, I hope this black board is visible to all of you. Tell me yes or no. Now, if we're talking about the dockling, I see. See, dockling, you are going to be installed on your local server
+
+00:30:41.000 --> 00:30:46.000
+Okay? Dock link, it is an open source library
+
+00:30:46.000 --> 00:30:54.000
+It is a open source library for what, guys, tell me? This is an open source library for the data parsing
+
+00:30:54.000 --> 00:31:00.000
+Now, what is the meaning of the data parsing data Parsing is nothing. It is the extraction of the data
+
+00:31:00.000 --> 00:31:01.000
+Okay
+
+00:31:01.000 --> 00:31:08.000
+from the different, different document
+
+00:31:08.000 --> 00:31:16.000
+Okay? Data extraction. Then after the data extraction, we are doing the arrangement of the data
+
+00:31:16.000 --> 00:31:20.000
+Arrangement of the return means what? We can arrange that particular data
+
+00:31:20.000 --> 00:31:36.000
+inside the different, different files. So we can arrange the data inside the JSON file, we can arrange the data inside the MD file. Okay, we can arrange the data inside the HTML file, okay? In any sort of a file, we can arrange the data in whatever file you want it to do that
+
+00:31:36.000 --> 00:31:53.000
+So, guys, Docklink is not one and only framework. We have several other framework, okay? Every company is trying to provide some free resources for the data parsing, and even I given you some name inside my previous class. You can go and check out over there. DocLink is a more capable
+
+00:31:53.000 --> 00:31:59.000
+And, it will really give you the good result, so you can utilize this dockling as an open source one.
+
+00:31:59.000 --> 00:32:07.000
+Now, there is one more library that is a Llama parser.
+
+00:32:07.000 --> 00:32:13.000
+So, Lama Parza, basically, you cannot download it locally.
+
+00:32:13.000 --> 00:32:14.000
+Okay?
+
+00:32:14.000 --> 00:32:22.000
+Locally, you cannot download. The Slama Parser you can utilize through the Llama Cloud.
+
+00:32:22.000 --> 00:32:30.000
+Okay? So, Lama Parser, you can utilize through the Llama Cloud, and it will, basically provide you some free credits
+
+00:32:30.000 --> 00:32:35.000
+For utilizing the Salama cloud
+
+00:32:35.000 --> 00:32:49.000
+So it will provide you some 10,000 free credit. You can utilize this Llama Cloud for what, guys, for the same data Parsing, okay? You can parse the data, means you can extract the data from the different, different document, and you can arrange the data according to your requirement.
+
+00:32:49.000 --> 00:32:59.000
+Getting my point, guys, yes or no, it is getting clear to all of you.
+
+00:32:59.000 --> 00:33:06.000
+If this part is clear, you can give me a quick thumbs up, so that I can proceed, right?
+
+00:33:06.000 --> 00:33:17.000
+Now, let's do one thing, guys. Let's try to import some statement related to what… related to the docline. So these are the import statement which we required
+
+00:33:17.000 --> 00:33:32.000
+The first one is what? The first one is the JSON and the path lib. Okay, I think you already know about it. I think you already know about it, why we are using this particular important statement to deal with a JSON file and to deal with a path, okay?
+
+00:33:32.000 --> 00:33:49.000
+Then, guys, we have the dockling. From the docklink.data model, from the base model, we are importing this input format, okay? Then from the doc link, okay, again, from the data model and from pipeline option, we are importing this PDF pipeline option table structure option
+
+00:33:49.000 --> 00:34:06.000
+And Tesseract option, okay? So, using this one, basically, we can do the parsing on a different, different level. Then, guys, from the dockling only, we are going to be using this document converter and the PDF format option, right? Then, guys, from the doc link itself, we are going to be import this image reference mode
+
+00:34:06.000 --> 00:34:27.000
+picture item and the table item, okay? So you will get to know why we are using this particular import statement. In some time, you will get the idea. Once I will show you the further code. So let me execute it, and let me import this particular statement
+
+00:34:27.000 --> 00:34:42.000
+It will take some time, if you are doing it first time, okay?
+
+00:34:42.000 --> 00:34:49.000
+You can check out that, right? So, no one can answer Kamal for these kind of question until they are not
+
+00:34:49.000 --> 00:34:52.000
+Or testing, okay.
+
+00:34:52.000 --> 00:35:06.000
+So, Llama Parcel is better. I think both are good. Something is being provided by someone else, something is being provided by someone else. So, according to your problem statement, you can utilize both and check which library is performing well.
+
+00:35:06.000 --> 00:35:10.000
+Okay? Understood.
+
+00:35:10.000 --> 00:35:15.000
+Yeah, so you can do the multi-modal data parsing using the dock link, that is completely correct
+
+00:35:15.000 --> 00:35:20.000
+Now, a docking similar to the LangChain document loader, it is more than that per now
+
+00:35:20.000 --> 00:35:22.000
+It is more than that
+
+00:35:22.000 --> 00:35:31.000
+It is not only for the loader. We can do the several in-depth parsing using the dock link.
+
+00:35:31.000 --> 00:35:41.000
+Right? So, on the on-premises, you can configure this dockling, and you can utilize that. This one, it is very good library for the on-premises solutions.
+
+00:35:41.000 --> 00:35:48.000
+Now, guys, let's do one thing, let's try to basically do some configuration.
+
+00:35:48.000 --> 00:36:08.000
+So this is the configuration, guys. I hope this is visible to all of you. So, here basically is my directory. So, from this particular directory, we are going to be load the data. Then this is my output directory. So here, basically, I will keep my output data. Okay, so I'm going to be create some extra folder inside my output directly, like page images, extract picture and the extract table
+
+00:36:08.000 --> 00:36:25.000
+So here, basically, I'll be keeping my data. Okay, then I'm creating the directory, and I'm checking the path whether the PDF is available or not. So this is the quick configuration which I'm doing before performing the practical. So let me execute it after executing this one, what you will get, you will get some folder
+
+00:36:25.000 --> 00:36:27.000
+Inside your
+
+00:36:27.000 --> 00:36:42.000
+Inside your… this folder, okay? So just check out the data folder. Now, here you will get the docling parts output, this new folder, and inside this particular folder, you will get this child folder, extract picture, extract table, and then you are going to be extract the
+
+00:36:42.000 --> 00:36:45.000
+page also as an image
+
+00:36:45.000 --> 00:36:49.000
+Got it, guys? Is this self-clear to all of you? Tell me.
+
+00:36:49.000 --> 00:36:52.000
+No, it is not required, the GPU
+
+00:36:52.000 --> 00:36:59.000
+Any of the library is not required the GPU. You can… see, this might require the GPU if you are going to be using the Tesseract
+
+00:36:59.000 --> 00:37:15.000
+True, right? So this might require the GPU if you are going to be used that… if you are going to be use the OCR model basically on your own premises, because the OCR model, actually, it is a deep learning based model. So using that, we are doing the inferencing. So this is the correct statement
+
+00:37:15.000 --> 00:37:30.000
+Where every time we are not going to be used the GPU. But yeah, if we are going to be used any sort of an OCR technique, in that case, we can… we are going to be use the GPU in the back end, because OCR model are nothing, it is just a deep learning based model. Understood? Great.
+
+00:37:30.000 --> 00:37:31.000
+So
+
+00:37:31.000 --> 00:37:46.000
+Not always here, guys, what I'm doing. So, after performing this, sorry, after importing this particular, sorry, after configuring this path and all, so I'm going to be, I'm going to be, like, write some more configuration.
+
+00:37:46.000 --> 00:38:04.000
+So first, guys, I'm going to be right, I'm going to create an object of this, PDF pipeline option. So this is the object of that. Okay, now I'm making this parameter true, do OCR true. Then guys, what I'm doing. So here I am passing the tesseract path. Okay, I already have a tesseract in my system
+
+00:38:04.000 --> 00:38:18.000
+So I'm going to use the same Tesseract over here. You can basically use the inbuilt tesseract of the dockling, or basically you can configure your own Tesseract. Then what I'm doing, so for the do structure table also, I'm keeping it true. Then here, basically
+
+00:38:18.000 --> 00:38:26.000
+Again, some configuration related to the table, and these are some more parameter. Okay, with respect to the images
+
+00:38:26.000 --> 00:38:43.000
+Getting my point? So let me run it, let me execute it, and after that, guys, what I will do, I will create an object of the I will create an object of the document converter. So let me take that particular code and let me keep it over here. See, I have a code, the document converter. Sorry, I have a class document converter
+
+00:38:43.000 --> 00:38:49.000
+Now, here I am passing my format option, that is my PDF formation. Okay, this one.
+
+00:38:49.000 --> 00:39:04.000
+Right? So I'm going to create my converter. Now, to this particular converter only, I'm going to provide my PDF path, okay? So what I'm doing, guys, I'm going to be providing my PDF path to this particular converter only, and it will do the entire Parsing
+
+00:39:04.000 --> 00:39:16.000
+So, converter.convert, now I'm passing the PDF path, right? So once the… once it will start the parsing, okay, after that, the result would be visible to me. So let me execute it, let it complete
+
+00:39:16.000 --> 00:39:25.000
+See, Parsing of the PDF with DocLink, so we have started that. It is very easy to perform with a doc link, because most of the things are the abstract.
+
+00:39:25.000 --> 00:39:27.000
+Okay
+
+00:39:27.000 --> 00:39:38.000
+Most of the things are the abstract in the doc link. So if you're doing it first time, it might take some time, and even it might take your GPU power. Sorry, the CPU power and the GPU power also.
+
+00:39:38.000 --> 00:40:00.000
+If you don't have the GPU, in that case, it will be running over the CPU itself. Got it?
+
+00:40:00.000 --> 00:40:15.000
+I will provide you the center code, so even you can test out inside your system. So, here you can see we are… So it is completed, right? So we are able to extract the data, we are able to extract the data from where, we are able to extract the data from the
+
+00:40:15.000 --> 00:40:30.000
+Pdf itself, okay? So you can see over here the number of images, the number of pages, the number of table, everything it is able to capture. Now, this particular data we can utilize for building our RAG system
+
+00:40:30.000 --> 00:40:49.000
+Getting my point, guys, I hope everyone is able to understand why we are doing that, because I already shown you the pipeline, right? I will explain you what is the meaning of this function, what is the meaning of the function, right? So we can even understand that. But let me do one thing. Let me
+
+00:40:49.000 --> 00:41:04.000
+Basically, save the result, okay? Let me save the result before proceeding. So, as of now, we just have parsed the data. We haven't saved the result. So, first, I'm going to be save the result as a JSON file. So, here, basically, I'm writing a further code for that
+
+00:41:04.000 --> 00:41:21.000
+So this is the code, guys. We have a JSON file. Okay, inside the JSON file only, we are going to be keep the entire data. So once I will execute it, guys, so inside this particular folder, okay, now you will get what you will get one JSON file. Now, just investigate this JSON file, it is having the
+
+00:41:21.000 --> 00:41:37.000
+complete data. It's a very used file, and it is able to extract everything from your it is able to extract everything from where from your PDF itself. Now, if you haven't seen the PDF guy, so this is the PDF, and it's a very complex PDF
+
+00:41:37.000 --> 00:41:56.000
+And even the real time also, you might get this kind of data, okay? I have provided you this PDF via GitHub. You can directly download it from there and you can check it out. This I have already shown you in the previous class and even we have passed this particular data. If you haven't attended that particular session in the last session, right
+
+00:41:56.000 --> 00:42:13.000
+You can go and check, right? Even you will get the code by a PDF number, and even the PIMU PDF. Now, guys, you can see, so we are able to save the entire data, parse data, in the form of JSON. Now, once we will investigate to this, once you will investigate to the JSON,
+
+00:42:13.000 --> 00:42:21.000
+You will get what? You will get the entire data. Okay, so let me show you the data. See, this is the entire data. Every sort of a thing you will get over here.
+
+00:42:21.000 --> 00:42:36.000
+even you will get the exact location of what, exact location of the table, okay? At which coordinate this table is available, okay? And it is a very huge JSON, if you will, check the length of this JSON
+
+00:42:36.000 --> 00:42:57.000
+So, it is having a round wall, it is having around 33,000 lines. It's having around 33,000 line, guys, and it is a very huge JSON. Because this JSON, actually, it is having the entire data, entire PDF data. Okay, now whatever could be passed from the JSON, whatever could be passed from the PDF, we are able to do that
+
+00:42:57.000 --> 00:43:14.000
+But guys, generally, we'll have to clean the data from this kind of, basically JSON file, okay? So let me save some clean data so that you can see some visible output. So what I'm doing, guys, I'm going to be save some visible output for all of you. So let me save the data in the form of markdown also
+
+00:43:14.000 --> 00:43:30.000
+So here, guys, this is my markdown file. So inside the markdown file, what I'll do, I will save the for the data. Okay, so let me save what? Let me save the data in the markdown file. Now you will see some result over here as well. So where you have to check, you just have to open the this
+
+00:43:30.000 --> 00:43:46.000
+folder okay or this one guys yeah this folder now go inside the data data one and here just check out this MD file right so inside the MD file basically you will get the you will get everything now here basically mainly what we are going to
+
+00:43:46.000 --> 00:44:05.000
+capture, we are going to be capture the table, right? In a previous class also, I have shown you this thing, that how we can capture the table over here, right? Inside the MD file. And along with that, you will find out some text related to this particular table, okay? So each and every table, we are able to capture, but it's still the images are not there. So images would be there
+
+00:44:05.000 --> 00:44:16.000
+Okay? So, images would also be there. Let me show you the images, how basically you will take the image-related data. So, what I'm doing, guys, I'm going to be save the output
+
+00:44:16.000 --> 00:44:32.000
+In the TXT file also. So in the multiple files, basically, you can keep the output, and further, you can utilize that. So let me show you the TXT output also. So once I will open the data, and inside the data, basically, once I will show you the txt file, now see this txt file is also having the output
+
+00:44:32.000 --> 00:44:37.000
+Okay? Even you can match this particular output with your
+
+00:44:37.000 --> 00:44:53.000
+PDF, that what you are able to capture, what we are not able to capture. You can simply open the PDF, let me open in front of you. So, here is a PDF guy, this one, which we are parsing. If you're going to be checked from the first page, you will be able to get that we are able to parse the exact data
+
+00:44:53.000 --> 00:45:09.000
+So just check out from here. So, synthetic, this is done, and this is done in Storyline. Now over here, you can see we are able to extract the table and all everything. Now, once you will scroll down, see, this is the… this is again what the first paragraph. Then again, this is the table. Now, guys, where the image went
+
+00:45:09.000 --> 00:45:25.000
+So here is the image, guys, for where the image went. So images are images are over here. So once you will check out the extract picture, okay, extract table and parse image, basically inside this particular folder, you will be getting the images, right? So let me execute the further one
+
+00:45:25.000 --> 00:45:42.000
+And after executing the further cell, you will be even getting the images inside this respective folder, okay? So these are the images, basically, which we are able to capture each and every images. Now, see the first image, this one. Now you can check out the second image also. Okay, now here you can see the second image
+
+00:45:42.000 --> 00:45:58.000
+This one, this is the second image. Now you can see the third image, okay? This is what guide, this is the third image. So, this one is the third image, this one, okay? Now, how you will extract the data of this particular image is, let me show you that also. So, I'm going to be close this
+
+00:45:58.000 --> 00:46:15.000
+Particular PDF, this TXT also. Let me get back to the code itself. So where is the code, guys? Just a second. Here is the code. Now what I'll do, guys, after saving the data in the form of TXT, let me save the images also. So inside the respective folder, basically, you will get the images. Let me execute it
+
+00:46:15.000 --> 00:46:31.000
+And see, guys, once I will execute this particular code cell, you will be getting the images also, okay? I will again give you the quick revision of this entire code, so that you can understand that what is happening using which function. So just check out with this docklink parse output. Now, inside this, you can see
+
+00:46:31.000 --> 00:46:46.000
+This one. Page images, right? So, we are able to capture each and every page as an image also. So, we can use this also, this as well, okay? We can directly provide this particular data to our, to our bot, to our
+
+00:46:46.000 --> 00:47:03.000
+are basically LLMs, right? Because Llm is capable enough, capable to read out the data from the images, right? So this particular data also we can utilize going forward. Okay, just like it is just about the arrangement of the data, like how you are going to be arrange the data, that's it.
+
+00:47:03.000 --> 00:47:11.000
+If it is not required to you, you can even skip this particular part. Getting my point, guys? Now, guys, let me do one thing
+
+00:47:11.000 --> 00:47:29.000
+Let me, basically save the tables, okay, as a CSV file also. So this is also very important. Many of us, I think, we require the table as a CSV file, okay? So once I'll be executing this code offline, so you'll be able to… we will be able to save the table as a CSV
+
+00:47:29.000 --> 00:47:47.000
+We already save as a markdown in the image, right? So, yeah, we can get the table as a CSV also. So if I'm going to be executed, let me show you the result, okay? So what kind of result, basically, you will be getting with respect to your tables. So this is the folder, data folder. Now, inside the data folder, you can see the doc link parse output.
+
+00:47:47.000 --> 00:48:02.000
+Now, inside this doc link parse output, you can see this extract table. Now, inside this extract table, basically, you will get each and every table in the CSV format as MD format, and say, see, this is the PNG. Now, see, this is the CSV. Now this is the MD, and this is the PNG, okay?
+
+00:48:02.000 --> 00:48:19.000
+This is a CSV format, there's an MD format, and there's a PNG format. So at any level, basically, at any level, basically, you can parse the data, okay? There is no such restriction with respect to this parsing and all from any level, basically, you can parse the data according to what, according to
+
+00:48:19.000 --> 00:48:25.000
+Your requirement. It is making sense to all of you, tell me yes or no.
+
+00:48:25.000 --> 00:48:26.000
+Are you able to get it, guys?
+
+00:48:26.000 --> 00:48:41.000
+If you're able to get it, I hope we are going good. So, now, see, guys, we are able to save the data. Okay, now what is the next thing? Now we can even save the extracted image also. So this is the code for saving the extracted image.
+
+00:48:41.000 --> 00:48:59.000
+Now, I'm showing you each and everything, guys, so that… till what… at whatever level you require the data parsing, you can do that. Now, if I can show you this extracted images, now see the extracted images is also over here. Whatever images was there inside the PDF, we are able to extract. Even my image was also there inside the PDF.
+
+00:48:59.000 --> 00:49:12.000
+If you will check out the PDF now, I kept my image also, see. At the end of the PDF, I kept my image. See, this was my image. So even it is able to extract that particular image from the PDF, okay?
+
+00:49:12.000 --> 00:49:19.000
+I hope, guys, everyone is able to understand it. So, tell me, did you understand the parsing with the dockling? It is clear.
+
+00:49:19.000 --> 00:49:35.000
+Nothing you have to do, we just require this much of knowledge, this much of information, okay, for this dock link parsing. And basically, at any level, you can perform it, okay? Again, guys, I will give you the… again, I will give you the, the entire
+
+00:49:35.000 --> 00:49:50.000
+A revision of the code, right? So, how we are going to perform this particular parsing whatever function we are going to be used for this particular parsing. As of now, I just shown you the result. Basically, we are able to accept the result, and I just shown you the result.
+
+00:49:50.000 --> 00:49:54.000
+So, I hope, guys, this thing is clear, and I think we are good to go
+
+00:49:54.000 --> 00:49:59.000
+So, just give me a second, my camera is flicker
+
+00:49:59.000 --> 00:50:08.000
+Okay, not stable. Fine, so I hope we are able to… we are able to extract the
+
+00:50:08.000 --> 00:50:21.000
+data, okay, from where? From the, basically PDF itself, okay? So let me close it, and let me open this particular file. So I will share this entire codebase and all, so that definitely you can go through with it.
+
+00:50:21.000 --> 00:50:39.000
+Okay? And, yeah, going forward, I will show you how you can utilize this type of data, how you can utilize this type of data inside your RAG system. So, on top of the same PDF, basically, we are going to build a RAG, and that's going to be our multi-model RAG. You know, guys, multimodal RAG, tell me yes or no
+
+00:50:39.000 --> 00:51:00.000
+I think many of us know about that particular term, but maybe very few of us we have built up that multimodal right system. So on top of the same PDF, I will show you going forward how you can build the multimodal rack system. Got it? Now, let me… okay, I think this part is clear. Now I will show you the data parsing using this Llama parser. Okay.
+
+00:51:00.000 --> 00:51:12.000
+I will show you the setup and all, everything about the Llama Parsing and then we'll definitely discuss. Now, before that, guys, we have a quick announcement for all of you. So, let me share one link.
+
+00:51:12.000 --> 00:51:19.000
+Just a second, guys.
+
+00:51:19.000 --> 00:51:34.000
+So guys, we have launched one hackathon platform for our community. Okay, so over the website, Krishnayak.in website, you will get that. So let me quickly show you that, how you can access that hackathon platform
+
+00:51:34.000 --> 00:51:53.000
+And over there, basically, you will find out the, different, different problem statement, along with the timeline, okay? And then, some prizes also. So, as of now, it is in a beta phase, so first we are launching it for our student, okay? So, whoever is there in our batches, so first we are launching for those folks only.
+
+00:51:53.000 --> 00:52:08.000
+So what you have to do, guys, I'm sharing a link inside the chat, so you just have to go through with this particular link, and you have to sign up, okay? So do the sign-up with the same mail ID. With that, you have enroll. Getting my point? So, let me click on this continue with Google
+
+00:52:08.000 --> 00:52:25.000
+So, I have a course access on my this email ID. See, I have a multiple email ID, but I have a course access onto this mail ID. Okay, so once I'll click onto this mail ID, I will be able to access this particular platform, okay? So, guys, are you able to see this platform after signing with the Google
+
+00:52:25.000 --> 00:52:28.000
+If you're able to do it, please give me a quick thumbs up.
+
+00:52:28.000 --> 00:52:39.000
+Here's a quick announcement in between, guys, I'll just take 5 minutes, so that you could be familiar with our hackathon platform, okay? So this is our hackathon platform, guys. Now.
+
+00:52:39.000 --> 00:52:58.000
+Here, guys, you can see Vue Hackathon. Okay, so this is the option. Now, once we will click on this View Hackathon, okay, so the hackathon page would be open, right? So, we just, released this one for our, student only as of now
+
+00:52:58.000 --> 00:53:13.000
+So that they can participate, over here, and even we can test our platform, whether it is working fine or not. And then, going forward, basically, we are going to be launchers… we are going to be launch so many hackathons. And even, see, guys, over here, you will get the prizes, okay
+
+00:53:13.000 --> 00:53:30.000
+Whoever is going to be win this hackathon, they can even win up to 50,000 to 1 lakh rupees, so that kind of prizes will be keeping over here, right? And apart from that, basically, we'll be keeping some other amazing prizes, right? So you will get a trip and all, right
+
+00:53:30.000 --> 00:53:46.000
+from… to that different cities and the… not country, basically, right now, so you will get a trip to the North India, or to the Goa, or to the other cities and also these kind of planning also we are doing. But yeah, like, after releasing this for all the people, we'll be having some cash prizes and all, okay?
+
+00:53:46.000 --> 00:54:05.000
+over this hackathon problem statement. So, guys, here you can see this, entire page. Now you will find out the overview, right? Overview of the entire problem statement. So, there is one problem statement as of now. So, the ones you will click over here, you will be able to see the entire problem statement. And this is the real problem statement, which is designed by
+
+00:54:05.000 --> 00:54:24.000
+Which is designed by our team only, right? So, this is the real problem statement. Even I have also contributed inside this problem statement. I have actively worked with a pharma and with the healthcare system, okay, in my previous enterprise system. So even I kept that particular experience inside this particular… inside this problem statement
+
+00:54:24.000 --> 00:54:42.000
+So just go through with this problem statement. If you are willing to do it, please do it, okay? And then submit your problem statement, okay? So, just go through with this entire problem statement. It's a very good Agentic project, right? So, yeah, I think you can go through with it, and you can check out this entire problem statement.
+
+00:54:42.000 --> 00:54:53.000
+And even you can showcase this project as a real project, okay? In the next interview, in your current organization, you can showcase as a work
+
+00:54:53.000 --> 00:55:08.000
+Right, you can mention inside the resume, okay, you can discuss inside the interviews and all. And around to this problem statement, basically you can create your real project as well. So let's say someone is preparing for the GenAI interview
+
+00:55:08.000 --> 00:55:29.000
+So they can pick up the same problem statement, they can build the solution, and they can talk around to this. Getting my point. So, likewise, you can demonstrate this particular problem statement as a real-time solution also. So, guys, here is basically some sort of an instruction, how basically you have to
+
+00:55:29.000 --> 00:55:44.000
+Submit this particular assignment, okay? Or this particular hackathon assignment. So, what you can do, you can read out this entire structure, I can give you the quick walkthrough of that. So, from where you will start, guys, you will start from this particular point, right?
+
+00:55:44.000 --> 00:56:03.000
+So, just read out everything about the problem statement, scroll down, down, down, this is the entire problem statement, and then come over here, right? So once you will come into this particular section, you will get, like, how to submit this problem statement, okay? So, for submitting this problem statement, you have to follow all this instruction
+
+00:56:03.000 --> 00:56:23.000
+Right? Now, after following this instruction, see, there is some more tab where you have to click. So, let me show you where you can click, see my submission. So, for that, basically, first you will have to register yourself. So this is the option, register yourself, okay? So just once you will click over here, you just need to provide your phone number, and you will be able to register. Let me show you
+
+00:56:23.000 --> 00:56:30.000
+So, let me provide my phone number over here, and then confirm registration. Okay, so I will
+
+00:56:30.000 --> 00:56:45.000
+See, now I'm able to register. So here, guys, you will be getting some token and all after the registration, and you have to utilize this particular token for what for the submission, basically, right? Now, here are some prizes and the sponsors. So, as of now, this feature is not enabled
+
+00:56:45.000 --> 00:56:58.000
+So this will be enabled going forward, and even basically you can navigate over here from the krishnayak.in as well. So just write krishnayak.in and open it inside your browser.
+
+00:56:58.000 --> 00:57:02.000
+Let me see, whether I'm able to navigate it from that
+
+00:57:02.000 --> 00:57:10.000
+Like, the main web, from the main website or not, because the option is visible over there. See, this is the hackathon platform
+
+00:57:10.000 --> 00:57:12.000
+And here
+
+00:57:12.000 --> 00:57:14.000
+Resume Builder is there.
+
+00:57:14.000 --> 00:57:20.000
+Okay, we can build the resume
+
+00:57:20.000 --> 00:57:24.000
+Okay, now here is a hackathon, guys.
+
+00:57:24.000 --> 00:57:42.000
+Yeah. So, yes, from the website also, I'm able to navigate to this hackathon platform, right? So, guys, it is pretty easy. First of all, you have to, just log into this particular portal, the hackathon one. Then you have to do the registration. After that, you just have to go through with the problem statement
+
+00:57:42.000 --> 00:57:58.000
+And there is an instruction for the submission. You just need to follow those particular instructions for the submission. And don't forget, the registration, right? Because after the registration, only this token will be enabled, and this token you are going to be utilize it for the submission itself.
+
+00:57:58.000 --> 00:58:04.000
+Making sense to all of you, tell me yes or no. Is it getting clear? Yes
+
+00:58:04.000 --> 00:58:17.000
+So, please do it, guys, please, solve this problem statement. Do the wife coding and all, anything, okay? It doesn't matter. But just, solve this problem statement, and submit your solution.
+
+00:58:17.000 --> 00:58:26.000
+And then going forward, then going forward, basically, we are bringing so many, different companies, hackathon, so many different sponsors, and the different, different prizes also would be there.
+
+00:58:26.000 --> 00:58:35.000
+And it is an Agentic problem statement. This one is completely right, yes. It is an agentic problem statement, okay?
+
+00:58:35.000 --> 00:59:01.000
+Okay, fine, I hope, this is clear to all of you. Any doubt, anything, guys? If you have any sort of a doubt, you can let me know, so that I can clarify. Then I'll give you the break, okay?
+
+00:59:01.000 --> 00:59:07.000
+Timeline is here, this is the timeline you can submit till this dates.
+
+00:59:07.000 --> 00:59:11.000
+Registration, submission, and then result it. Okay?
+
+00:59:11.000 --> 00:59:19.000
+Your wife coding is allowed, you can do the wipe coding
+
+00:59:19.000 --> 00:59:22.000
+Yeah, your question also visible, Swati.
+
+00:59:22.000 --> 00:59:26.000
+Don't worry about that, okay?
+
+00:59:26.000 --> 00:59:33.000
+Yeah, Manikanta, this is the complete process you have to follow this particular process. In order to submit your solution
+
+00:59:33.000 --> 00:59:49.000
+So it is pretty straightforward. First of all, you need to download this workflow, then add into your GitHub repository whatever repository are going to be create for submitting this solution. Then add the submission token inside your GitHub secret. And then push the commit
+
+00:59:49.000 --> 01:00:01.000
+The checks will run automatically, means no need to do anything. These are the simple steps, the 4 steps you need to follow. You should be a little bit familiar with the GitHub, and I think you can simply follow this instruction just by reading it.
+
+01:00:01.000 --> 01:00:19.000
+Download this file, once you will click over here, the file will be downloaded automatically inside your system. It is just a YAML file, basically, where we have written some predefined test cases just to like filter out the solutions, okay? So these are some test cases, basically, with respect to the hackathon and all. Let me open it
+
+01:00:19.000 --> 01:00:39.000
+See, these are some, basically test cases, okay? Now, here you can see this one. So this file is mandatory. You have to keep this particular file where you have to keep this particular file inside your GitHub repository. Then basically you have to like add the secret, the submission token inside your secrets
+
+01:00:39.000 --> 01:00:50.000
+I think you know where the secret is visible inside the GitHub. Okay, if you're not… if you don't know about it, you just need to go inside the setting
+
+01:00:50.000 --> 01:00:51.000
+Okay?
+
+01:00:51.000 --> 01:00:54.000
+Then, inside the setting, guys, you will get the option
+
+01:00:54.000 --> 01:00:57.000
+Of this one, secret.
+
+01:00:57.000 --> 01:01:00.000
+Okay, so here only you can add on your secrets
+
+01:01:00.000 --> 01:01:04.000
+This one
+
+01:01:04.000 --> 01:01:12.000
+Okay, now you can add on your secrets, and which secret, which token you have to add on over here? So this is the token, guys, this one.
+
+01:01:12.000 --> 01:01:19.000
+Where it went, just a second.
+
+01:01:19.000 --> 01:01:23.000
+Yeah, so this is the token basically you have to
+
+01:01:23.000 --> 01:01:26.000
+Add over there.
+
+01:01:26.000 --> 01:01:28.000
+This one.
+
+01:01:28.000 --> 01:01:34.000
+Got it.
+
+01:01:34.000 --> 01:01:39.000
+I'm sharing the link again, please check out over here.
+
+01:01:39.000 --> 01:01:50.000
+If it is clear, guys, just give me a quick thumbs up so that I can proceed.
+
+01:01:50.000 --> 01:01:54.000
+So, I hope you like this initiative,
+
+01:01:54.000 --> 01:01:56.000
+Now, I provide you the link as well.
+
+01:01:56.000 --> 01:02:00.000
+Just go through with this link. You will get everything.
+
+01:02:00.000 --> 01:02:06.000
+Every instruction is mentioned now, Sharano. Do I need to, like, repeat everything again and again,
+
+01:02:06.000 --> 01:02:15.000
+Here you can see all the instruction, pretty straightforward, this one
+
+01:02:15.000 --> 01:02:20.000
+Okay? Just read it out. If you have any sort of a doubt, you can even ask me in a doubt session.
+
+01:02:20.000 --> 01:02:25.000
+Fine, thank you guys, so let's take a break, and then only we'll start.
+
+01:02:25.000 --> 01:02:32.000
+After the break. So I'm putting a timer for 20 minutes. Thank you, guys.
+
+01:02:32.000 --> 01:02:35.000
+Thank you. We'll start off with the break. Thank you, everyone.
+
+01:02:35.000 --> 01:03:05.000
+Don't leave the session, guys, it is very important. Basically, because we'll see how we can pass the data using the Llama Parser, okay
+
+01:25:02.000 --> 01:25:19.000
+Okay, guys, can we start again? If everyone is there, please let me know in the chat.
+
+01:25:19.000 --> 01:25:26.000
+Okay. So, guys, if you have any sort of a query related to this portal and all, correct? So you can,
+
+01:25:26.000 --> 01:25:38.000
+Directly ping us in the group, in the community chat. Our team will pick it from there itself. And there is one suggestion. Please sign up with the same mail ID. With that, you have enrolled
+
+01:25:38.000 --> 01:25:42.000
+So while enrolling now, you have, sign up over the platform, correct?
+
+01:25:42.000 --> 01:25:54.000
+And you share the same mail ID to our counseling team and all. With whatever mail ID you have enrolled, you just have to share the… sorry, you just have to use the same mail ID over here while you are logging in over this platform.
+
+01:25:54.000 --> 01:25:58.000
+Gering my point? Is it getting clear?
+
+01:25:58.000 --> 01:26:11.000
+Okay. If you're not able to sign in, in that case, you can, mention the problem along with the screenshot inside the group community chat. So, our team will directly pick it from there itself
+
+01:26:11.000 --> 01:26:12.000
+Okay
+
+01:26:12.000 --> 01:26:28.000
+Great, guys. So now, let's move to our topic. I think we had enough discussion around to that. So, we have done the data parsing using the dockling. Using this dockling only, right? Now, basically, we are going to be perform the data parsing using the Llama
+
+01:26:28.000 --> 01:26:43.000
+parser.ipineb. So, using the Llama parser… for the Llama parser, basically, we require the API key, okay? Directly, we cannot utilize this Llama parser. So, first of all, let me show you how you can, generate the
+
+01:26:43.000 --> 01:26:52.000
+Key for the Llama parser, and then I'll show you the code of that. Got it
+
+01:26:52.000 --> 01:27:09.000
+So, first of all, guys, what you have to do, you just have to write the Llama cloud. Okay, Llama Cloud API key, or directly you can write the Llama index, okay? Once you will write it over the Google Llama Cloud API key, so I can give you this particular name inside the chat
+
+01:27:09.000 --> 01:27:15.000
+Or you can directly write what? You can directly write the Llama index. Okay, Llama index, parser or llama parts are whatever.
+
+01:27:15.000 --> 01:27:25.000
+So, once we will do that, guys, you will be getting this particular website. Now, over this website only, you will get the… you will get the entire instruction for generating the API key.
+
+01:27:25.000 --> 01:27:33.000
+So, just click over here, just click onto this Llama Cloud. Now, once you will click on this Llama Cloud, guys, you will directly redirecting to this page
+
+01:27:33.000 --> 01:27:37.000
+Now here, you can see the option generate new key.
+
+01:27:37.000 --> 01:27:40.000
+Are you able to see this option, generate new key?
+
+01:27:40.000 --> 01:27:52.000
+Just click on the generate new key option, and then you will be able to get your key. If you are able to get it, then please give me quick thumbs up in the chat
+
+01:27:52.000 --> 01:28:00.000
+Okay? So, using this key, basically, you can interact with the Llama Cloud. This one, this is the key.
+
+01:28:00.000 --> 01:28:15.000
+Okay, so just to utilize this key to interact with the Llama Cloud, and directly you can perform all the parsing and all… everything from here itself. So let me show you the code. The code is also going to be very straightforward, very simple. So first of all, guys, what I'll do, I will import couple of things
+
+01:28:15.000 --> 01:28:16.000
+Okay.
+
+01:28:16.000 --> 01:28:29.000
+The import statement is also simple. So I think you already know about the OS, IO, RE JSON. Okay, path, any. So now the important one is what this llama cloud
+
+01:28:29.000 --> 01:28:44.000
+Okay, so you have to import this Llama Cloud from the Llama Cloud itself, and after importing this Llama Cloud, okay, you will have to create an object of this Llama Cloud, and you will have to pass the parser, or you will have to pass the API key inside.
+
+01:28:44.000 --> 01:28:50.000
+Right, so let me show you how you will do that. So, first of all, guys, import all this statement
+
+01:28:50.000 --> 01:29:07.000
+Okay? Then, after that, guys, create some configuration. So I'm going to be create some configuration, basically. So inside the configuration, you can see this is a path of the PDF. This is a path, basically of the output, okay? Now I'm going to be extract the images
+
+01:29:07.000 --> 01:29:09.000
+Then screenshot.
+
+01:29:09.000 --> 01:29:21.000
+Embedded image, layout, okay? And any other image directory. Then everything, basically, we are going to be keep it where inside this output folder.
+
+01:29:21.000 --> 01:29:37.000
+Now, here this is a table directory. I will give the tables inside this particular folder, okay? And then let me create all the directory. So, you will get all the directory inside this folder only. So let me show you the folder, guys, where is the folder? This is the folder
+
+01:29:37.000 --> 01:29:51.000
+Yeah, this is the folder, guys. So inside this particular folder, you will get your… all the child folder, okay, where, basically, we have to save the output. Getting my point, guys? Yes or no? I hope this thing is pretty clear.
+
+01:29:51.000 --> 01:29:56.000
+Now, what I'll do, so first of all, guys, I will load the environment… I will load the key
+
+01:29:56.000 --> 01:30:07.000
+And I will keep that key over here, inside the .env file. So just look into my .env file. See, I created this Llama Cloud API key variable
+
+01:30:07.000 --> 01:30:08.000
+Okay.
+
+01:30:08.000 --> 01:30:29.000
+And after that, guys, what I have done, I have pasted the key, whatever key I generated from the platform. Now, what I'm doing, guys, I'm just keeping the key inside this particular class, okay? Now, here I'm just checking whether I'm able to get the key or not. Let me execute it.
+
+01:30:29.000 --> 01:30:49.000
+Now, guys, our key is ready. Sorry, our client is ready. Now we… basically, we can utilize this particular client for what? We can utilize this particular client for the parsing, okay?
+
+01:30:49.000 --> 01:31:00.000
+Now, guys, here you can see, so we have what? We have the helper function. So these are some helper function, basically, which I'm going to be used for the save file name, okay?
+
+01:31:00.000 --> 01:31:15.000
+which is going to be removed some unnecessary character from the file name. Then, guys, we are going to be, convert our SDK pine tag object into the dictionary, right? So I'll show you from where this output will come. Then, what do we have? We have a file, okay?
+
+01:31:15.000 --> 01:31:33.000
+So, we required a file and that file, basically, we are putting where we are putting it over the Llama cloud, okay? So this is someone else server. This is not our server, basically. So, definitely, there is a restriction from the company's end. If we are going to use this platform
+
+01:31:33.000 --> 01:31:48.000
+So, if they are going to provide you the access of this platform, then only you can utilize it. Otherwise, you cannot do it, okay? You cannot keep your sensitive data over the Llama parser. Sorry, over the Lama cloud. If you are going to keep it, then it could be the complained issue
+
+01:31:48.000 --> 01:32:05.000
+Right? So, you have to be very careful if you are working in your company. So, first, take up permission from your management, and then only you can utilize this Llama parser. Or if they are providing you, then only you have to do it, okay? So let me execute it, guys. I hope this is clear. Now, what I'll do, guys.
+
+01:32:05.000 --> 01:32:22.000
+I will upload a PDF over there, over the Llama cloud, okay? Llama Index Cloud. So I just have to call this method create.file. Sorry, client.file.create. Now here is my PDF path, and then my purpose is a parsing
+
+01:32:22.000 --> 01:32:31.000
+Once I'll do it, guys, so my PDF will be uploaded over the Llama parser, and my parsing would be started. Then I can extract anything from there
+
+01:32:31.000 --> 01:32:46.000
+So let me give you that code as well. So over here, guys, you can see we are able to upload the PDF over here over the Llama Cloud, okay? Now, what I'll do, I will basically parse that PDF. So, for parsing that PDF, again, we have to call some, like, some method
+
+01:32:46.000 --> 01:33:05.000
+So, first of all, guys, we have to give the file ID over here, okay? Then, basically, the output option where we are going to be save the output. What other thing we are going to be extract, okay? And guys, over here you can see the processing option, that is a OCR1, means we are going to be extract the data from the images also, okay?
+
+01:33:05.000 --> 01:33:20.000
+Now, basically, what all thing we are going to be extract, okay? And, basically how we are going to be keep that particular data. So, everything we are going to be configured over here inside this method, inside the parse method. Now, once I will be executing that, so the parsing would be started
+
+01:33:20.000 --> 01:33:34.000
+It might take some time. Now, after that, guys, what we can do, we can save that data inside our respective file. So this is our, like, file, okay, where we can save our data, llama parser, result, raw result.json.
+
+01:33:34.000 --> 01:33:49.000
+Okay, now here basically inside the JSON file only, we are going to be save the entire result. So once we will look into this llama parser output, okay, now here you will get one JSON file. Now again, it is the same kind of file basically which we have generated from where from the docling itself. Okay
+
+01:33:49.000 --> 01:34:04.000
+So inside this file, basically, you will get the complete data, all the data, and then basically we can take the data according to our requirement from here itself. Okay, this one. So I hope this entire thing is clear. Even it is giving you the images location also
+
+01:34:04.000 --> 01:34:20.000
+So once you will click over here, maybe you will get your images. Okay, so see the images there? You can simply download that and the images will be available. So we can simply extract that images, and we can keep it inside the folder itself. So let me do one thing, guys. Let me keep the
+
+01:34:20.000 --> 01:34:35.000
+data, okay? So, let me keep the… let me arrange the data inside a different, different files and folder. So, first guys what I'm doing, I'm going to be save the data inside the txt file and inside the markdown file, okay? So this is the code for that. I'm going to be save the data inside the MD file
+
+01:34:35.000 --> 01:34:47.000
+And inside a txt file. Inside this to file. Okay, so first let me show you the result, guys. Then only I will come to the explanation, or I will give you the quick revision of that. Now, in between, let me do one thing
+
+01:34:47.000 --> 01:35:03.000
+Let me, basically, create one more job, output directories here. Okay, so job would be available over here. I'll show you guys what we have inside this particular job, okay? First, let me execute it. Let me show you the result. Then only I will come to the explanation of it
+
+01:35:03.000 --> 01:35:19.000
+Okay, so if I'm going to be executed, guys, so here, inside this folder, llama parser output folder, you will get what you will get the MD file, okay? So see, guys, this is the MD file where inside this folder. So just let me open it
+
+01:35:19.000 --> 01:35:35.000
+See, this is the complete MD file. So you will get everything over here, table and all, everything, basically. And the table, it is available in the form of the… in the form of HTML, right? Now, here you can see the extracted text. See, this is the complete text, the table and everything is there
+
+01:35:35.000 --> 01:35:52.000
+So we are able to save our data in the form of MD and in the form of TXT. Okay, in both format, we are able to save our data. Got it, guys. Now, what we can do, so we can create the pagewise record. Okay, so that is also possible. So let me do one thing. Let me create the
+
+01:35:52.000 --> 01:36:07.000
+page-wise, record also over here. So this is the code for that. So what it will do, it will create a page-wise record, okay? So let me execute it, guys, and let me show you the output. First of all, let me show you the output, then only, I will again come to this particular code, and I'll show you that, okay?
+
+01:36:07.000 --> 01:36:25.000
+So over here you can see page-wise record, we are able to say where, inside this particular JSON file. This is the JSON file. So, it is able to save the pagewise record, okay? So in every JSON object, you will get the pagewise record that whatever we have inside, there's a specific page. So we have a text markdown, okay, then footer
+
+01:36:25.000 --> 01:36:40.000
+Everything we are able to get over here, right? Once I will create a rag on top of this data, you will get a good understanding that how we can utilize this particular data, okay? Now, we can even save the table also. So here is a code for what for the table as well.
+
+01:36:40.000 --> 01:36:57.000
+So let me give you the quote for the table also, guys. I'll quickly explain the code, don't worry, don't worry about the code and all, okay? Everything I'll explain you. So, let me execute this particular code, and then you will find out the result, right? So see, we are able to save the table also inside this particular location
+
+01:36:57.000 --> 01:37:12.000
+So, we are able to get that table, okay? So this is the entire table in the form of JSON, right? So in any way we can, capture it. So see, the CSV file is also there, marked down in a markdown format is also there, okay? HTML is also there. So in any way, basically, we can
+
+01:37:12.000 --> 01:37:30.000
+capture our data, okay? And this particular data, we can utilize further forward, guys? For our rack pipeline. Okay. Now, if we wanted to extract the images, let's say if we wanted to extract the images, let me show you that also. If I'm going to be run this particular code, guys, so what it will do
+
+01:37:30.000 --> 01:37:40.000
+It will extract the images, okay? It will extract the images from where? From the PDF itself. So let me execute it, guys. Now, here you can see total images is 7
+
+01:37:40.000 --> 01:37:44.000
+Okay, and then it is going to be save those images
+
+01:37:44.000 --> 01:38:01.000
+See, along with that image, the PDF page images will also be there. Okay, so everything is going to be saved as an image. So that is also possible. We can definitely pass our PDF and we can get the images using the Lama parser also see it is generating
+
+01:38:01.000 --> 01:38:17.000
+It might take some time, guys, because it is quite slow, I think, compared to the other one.
+
+01:38:17.000 --> 01:38:34.000
+Okay, so the images being extracting. Again, I will give you the quick revision of this entire code, guys, don't worry, everything is going to be clear, okay?
+
+01:38:34.000 --> 01:39:00.000
+This is not running in my system, this is running over the Llama parser system, okay? Over their cloud. It is not running on my server.
+
+01:39:00.000 --> 01:39:16.000
+Okay, so the image is being extracted until what I can do, guys, I can give you the other code also, right? So this llama parser, basically, it can give you the output in the form of Excel file also. Means whatever tables and all we have, na, we can generate it as a CSV or Excel
+
+01:39:16.000 --> 01:39:30.000
+Okay, so let me execute this one after this. So you will get all the extracted table inside the Excel file. So inside the output folder itself, I will get what I will be getting the
+
+01:39:30.000 --> 01:39:38.000
+Tables, okay?
+
+01:39:38.000 --> 01:39:53.000
+Your part JSON file will be saved in my system only, correct?
+
+01:39:53.000 --> 01:40:13.000
+Okay, it is taking time, guys, because it is not in my hand, it is running over the Llama cloud. I don't know why it is taking time. Maybe there is a tactics, behind this free server and the paid one, actually. So they are providing very low computation over the free server
+
+01:40:13.000 --> 01:40:21.000
+And because of that, it is running from the long time
+
+01:40:21.000 --> 01:40:35.000
+Okay, guys, now it is done
+
+01:40:35.000 --> 01:40:52.000
+Okay, guys, so we are able to extract the images also, and you will get the images over here. See, guys, image record.json are there, and inside this one, basically, the images are available. But still, we have not exact what we have not extract the
+
+01:40:52.000 --> 01:41:08.000
+Data from the images, okay? So let me do that also over here. So, first of all, guys, let me execute this particular one, and using this one now, what I'll be getting, I'll be getting my tables, okay? I think it is done. Now, over here, you can see in the CSV file, basically, you'll be getting the tables, okay?
+
+01:41:08.000 --> 01:41:22.000
+So see, every table sits there inside the Excel file. So, whether we can extract it as a CSV, or we can keep the table where, we can keep the table inside the Excel. I hope this part is also clear. So we can directly utilize this data for our RAG building. Okay.
+
+01:41:22.000 --> 01:41:37.000
+Now, what is the next thing, guys? The next thing, basically, we can extract the description item from where, from the images itself, okay? So let me do one thing, let me execute it. So you will get the figure record. So see, using this one, basically, you
+
+01:41:37.000 --> 01:41:41.000
+Can generate what? Just a second.
+
+01:41:41.000 --> 01:41:43.000
+Figure record,
+
+01:41:43.000 --> 01:42:00.000
+Are we not getting anything? Okay, I'll check this one, guys, just a second, let me check. Now, guys, what I'm doing, see, this is all about the Llama parser, okay? Now, what you can do, you can basically create a document object also. As of now, maybe you are not familiar with the document object.
+
+01:42:00.000 --> 01:42:03.000
+So the next class, whenever I'm going to be
+
+01:42:03.000 --> 01:42:20.000
+Explain you, the vector database and all. At that time, this entire thing would be clear, right? So what I'm doing, guys, I'm providing you this entire code. After that, half an hour, I'll give you the complete revision of this entire code. Because maybe you are not able to understand this code, and
+
+01:42:20.000 --> 01:42:36.000
+Maybe you are not able to understand that what is happening, why it is happening, okay? So just a quick execution of the code, right? And now I will provide you this code, and after that, basically, we'll do the detailed revision of it, okay? And even I will explain you everything over the blackboard itself. Got it?
+
+01:42:36.000 --> 01:42:55.000
+So, what I'm doing, guys, so first of all, I'm giving you this entire code and all everything, so just give me a moment. Let me download the Git. Basically, I lost the git from my system. Wait
+
+01:42:55.000 --> 01:43:20.000
+So, I can install the Git
+
+01:43:20.000 --> 01:43:35.000
+Okay, so guys, it will take some time, let it install. Then I will, first I will provide you this entire code and all everything, then I'll come to the quick revision of it, okay?
+
+01:43:35.000 --> 01:43:54.000
+You can use this one, DocLink in that case
+
+01:43:54.000 --> 01:44:01.000
+Okay, so Git is done, now let me do one thing, let me close this, and
+
+01:44:01.000 --> 01:44:04.000
+I can quickly check whether the Git is there or not.
+
+01:44:04.000 --> 01:44:06.000
+So…
+
+01:44:06.000 --> 01:44:09.000
+Let me open the terminal, and here I can write
+
+01:44:09.000 --> 01:44:16.000
+Good.
+
+01:44:16.000 --> 01:44:46.000
+Okay, think I will have to restart it, maybe.
+
+01:44:56.000 --> 01:45:02.000
+I can see the git graph over here, just a second, guys.
+
+01:45:02.000 --> 01:45:08.000
+So, let me add all the thing
+
+01:45:08.000 --> 01:45:13.000
+And now I can write the code, code updated.
+
+01:45:13.000 --> 01:45:23.000
+Commit it, and then sync the changes.
+
+01:45:23.000 --> 01:45:30.000
+I will show you, Arti. Once I will show you, then only you will get it, no? So don't ask the futuristic question.
+
+01:45:30.000 --> 01:45:39.000
+It will be clear in the upcoming sessions. Okay
+
+01:45:39.000 --> 01:45:45.000
+So I can check whether the code is updated or not.
+
+01:45:45.000 --> 01:45:55.000
+Fine, so here is the GitHub
+
+01:45:55.000 --> 01:46:00.000
+So guys, I'm giving you 2 minutes of time. Please take this entire code inside your system, this one.
+
+01:46:00.000 --> 01:46:03.000
+Data Parsing one.
+
+01:46:03.000 --> 01:46:14.000
+Please take it inside your system. Do it fast.
+
+01:46:14.000 --> 01:46:15.000
+Okay.
+
+01:46:15.000 --> 01:46:18.000
+See, inside this one only, you will find out all the parts data, this one
+
+01:46:18.000 --> 01:46:35.000
+Docker link data, Llama parser data, every data, you will get it over here. Now, once you are done, please let me know so that I can proceed with the entire revision. Okay
+
+01:46:35.000 --> 01:46:46.000
+Please check out the entire code, guys. At least open it once and go through with it once. Please do it, guys. It's a request.
+
+01:46:46.000 --> 01:47:00.000
+Yes, Alan, you can do later, but let's do the other folks, okay? Please.
+
+01:47:00.000 --> 01:47:14.000
+Guys, please open the code, and please go through with that file at least once. Please check out, please, like, check out all the data, sorry, all the output data and all, everything, and check out the IPYNV file also, okay? Do it, please.
+
+01:47:14.000 --> 01:47:18.000
+So that it will be in your mind and
+
+01:47:18.000 --> 01:47:48.000
+You can understand.
+
+01:48:36.000 --> 01:48:42.000
+Okay, guys, can we start? Have you checked with the code and all everything?
+
+01:48:42.000 --> 01:48:48.000
+Where is the PDF? PDF is also there now.
+
+01:48:48.000 --> 01:48:59.000
+Inside the data, you will get that. See, this is the PDF.
+
+01:48:59.000 --> 01:49:03.000
+Okay.
+
+01:49:03.000 --> 01:49:08.000
+So, first, let's understand with the dockling itself
+
+01:49:08.000 --> 01:49:10.000
+So, I'm going to open the blackboard, and there
+
+01:49:10.000 --> 01:49:34.000
+First, I'll explain you what we are doing, okay?
+
+01:49:34.000 --> 01:49:38.000
+Okay, guys, so see, whenever we are talking about
+
+01:49:38.000 --> 01:49:40.000
+the data parsing, right?
+
+01:49:40.000 --> 01:49:42.000
+So the data parsing
+
+01:49:42.000 --> 01:49:52.000
+2 thing is very important
+
+01:49:52.000 --> 01:50:05.000
+The first is going to be extraction of the data
+
+01:50:05.000 --> 01:50:13.000
+And second thing is going to be arrangement of the data
+
+01:50:13.000 --> 01:50:14.000
+Okay.
+
+01:50:14.000 --> 01:50:28.000
+extraction of the data, and arrangement of the data. Now, this is very subjective thing. Subjective means what? How you are going to arrange your data, it's completely depend on you, right? Where you are going to be arrange your data, it is completely dependent on you.
+
+01:50:28.000 --> 01:50:34.000
+But still, there are some way you can learn, and you can arrange your data
+
+01:50:34.000 --> 01:50:44.000
+The first one, basically, what you can do, see, for the arrangement of a data, what you can do, you can use the JSON file.
+
+01:50:44.000 --> 01:50:48.000
+You can use the MD file
+
+01:50:48.000 --> 01:50:49.000
+Okay.
+
+01:50:49.000 --> 01:50:52.000
+You can use a text file
+
+01:50:52.000 --> 01:50:55.000
+You can use the CSV file
+
+01:50:55.000 --> 01:50:58.000
+Excel file
+
+01:50:58.000 --> 01:51:02.000
+Okay, you can use the images
+
+01:51:02.000 --> 01:51:03.000
+Format, right.
+
+01:51:03.000 --> 01:51:06.000
+This one, JPG
+
+01:51:06.000 --> 01:51:08.000
+PNG
+
+01:51:08.000 --> 01:51:15.000
+Whatever different images format are there. Getting my point, guys, yes or no.
+
+01:51:15.000 --> 01:51:17.000
+Tell me, guys, is this part getting killer?
+
+01:51:17.000 --> 01:51:18.000
+To all of you.
+
+01:51:18.000 --> 01:51:22.000
+So data arrangement is very important thing. Now
+
+01:51:22.000 --> 01:51:25.000
+Whenever we are talking about the extraction
+
+01:51:25.000 --> 01:51:34.000
+So extraction is pretty straightforward, means we can extract the data from any of the document
+
+01:51:34.000 --> 01:51:35.000
+Okay.
+
+01:51:35.000 --> 01:51:38.000
+From any document, we can extract the data.
+
+01:51:38.000 --> 01:51:45.000
+Whether it's a PDF, DocX, and all. But let's say we have any complex parsing. Let's say we have a complex Pdf.
+
+01:51:45.000 --> 01:51:49.000
+So, we'll have to… first, we'll have to be understand the PDF
+
+01:51:49.000 --> 01:52:03.000
+The layout of that PDF, okay? What kind of text is there
+
+01:52:03.000 --> 01:52:25.000
+Guys, just give me a moment, okay, wait.
+
+01:52:25.000 --> 01:52:30.000
+Okay, so guys, in the PDF, basically, what kind of text we have, what kind of heading we have
+
+01:52:30.000 --> 01:52:42.000
+The tables we have, okay. Then pictures we have. So, everything basically will have to be identified. What kind of data we have, right? What kind of layout we have
+
+01:52:42.000 --> 01:52:46.000
+So, we have to be understand that part first. Got it?
+
+01:52:46.000 --> 01:52:59.000
+Then only we can further proceed with the data extraction, okay? So guys, here, if we're talking about the doc link
+
+01:52:59.000 --> 01:53:06.000
+You can simply configure this dockling on your own premises.
+
+01:53:06.000 --> 01:53:07.000
+Okay.
+
+01:53:07.000 --> 01:53:11.000
+on-premises means you can configure this dock link on your own server
+
+01:53:11.000 --> 01:53:13.000
+Right
+
+01:53:13.000 --> 01:53:17.000
+On your own server, you can simply configure this dock link.
+
+01:53:17.000 --> 01:53:21.000
+Means this doc link, basically, it is working in your local
+
+01:53:21.000 --> 01:53:24.000
+Okay.
+
+01:53:24.000 --> 01:53:27.000
+Now here also someone is defined different different classes
+
+01:53:27.000 --> 01:53:31.000
+A different, different objects
+
+01:53:31.000 --> 01:53:34.000
+Sorry, different classes, different, different attribute functions
+
+01:53:34.000 --> 01:53:37.000
+Okay, different, different attributes.
+
+01:53:37.000 --> 01:53:46.000
+Now, how you will get the knowledge of it? You will get the knowledge of it from the documentation.
+
+01:53:46.000 --> 01:53:54.000
+So you need to go through with the documentation of the dockling, you need to understand that what are class A's function or attribute is provided by the docling creators
+
+01:53:54.000 --> 01:54:05.000
+And then, basically, you can use it effectively. Got it. So you can simply search over the Google, just write over the Google Doc link
+
+01:54:05.000 --> 01:54:11.000
+GitHub. So once you will write the docling GitHub, guys, you will get the DocLink GitHub
+
+01:54:11.000 --> 01:54:13.000
+Okay.
+
+01:54:13.000 --> 01:54:16.000
+So, here is the GitHub of the doc. Now, see over here
+
+01:54:16.000 --> 01:54:19.000
+You will find out the complete detail of it
+
+01:54:19.000 --> 01:54:26.000
+Not there, also, they are providing… here also they are providing the link of the documentation. So just go through with the documentation link
+
+01:54:26.000 --> 01:54:30.000
+And, then basically, you can
+
+01:54:30.000 --> 01:54:33.000
+Understand the uses of the dockling. Okay
+
+01:54:33.000 --> 01:54:41.000
+So just check out with the code, documentation and all, you will understand what all thing is being provided by the docling itself
+
+01:54:41.000 --> 01:54:56.000
+Got it, guys? Is it getting clear? I hope it is clear. Now, what I have done, so just to explain you this entire thing, entire pipeline, I have written one sort of a code, okay? It's pretty straightforward and pretty simple. Let me explain you
+
+01:54:56.000 --> 01:54:57.000
+From scratch
+
+01:54:57.000 --> 01:55:05.000
+So, if you will look into this code, so first what we have guys first we have this import JSON and pathlib
+
+01:55:05.000 --> 01:55:09.000
+So, why this is required, guys? Import JSON and pathlet.
+
+01:55:09.000 --> 01:55:24.000
+So whatever data we are going to be whatever data we are going to be extract, so we can store it in the form of JSON. Okay, so JSON is required for the JSON operations. Now, why this path is required? So this path is required for our
+
+01:55:24.000 --> 01:55:31.000
+Like, safely load of the path, okay? So if I wanted to safely handle the path
+
+01:55:31.000 --> 01:55:42.000
+In that case, we can utilize this path function. Understood this for this path. So if we are talking about the Linux in the Linux basically we have a path like this.
+
+01:55:42.000 --> 01:55:57.000
+This one, okay? If we're talking about Windows into window, basically, we have a backslash, like this, okay? So either you are going to be mentioned this or this, if you're passing both kind of part to this Pyth library, automatically it will take care of that.
+
+01:55:57.000 --> 01:56:05.000
+Right? So, for handling paths safely, you can utilize this path. In some path, we have double slash
+
+01:56:05.000 --> 01:56:08.000
+Double slash, like this.
+
+01:56:08.000 --> 01:56:10.000
+Yes or no, guys, tell me.
+
+01:56:10.000 --> 01:56:17.000
+Or we can write like this, let's say, at multiple… at multiple places, we are writing like this. Out port
+
+01:56:17.000 --> 01:56:23.000
+directory, then here we are giving, like, this see
+
+01:56:23.000 --> 01:56:28.000
+File JSON
+
+01:56:28.000 --> 01:56:33.000
+So, to handle all this situation related to the path, we have this path
+
+01:56:33.000 --> 01:56:35.000
+Function.
+
+01:56:35.000 --> 01:56:42.000
+Making sense to all of you, tell me yes or no. If it is getting clear, please write it down in the chat so that we can proceed, okay?
+
+01:56:42.000 --> 01:56:47.000
+Now, after that, guys, what we have, see, we have this input format
+
+01:56:47.000 --> 01:56:50.000
+Okay? So why this is required
+
+01:56:50.000 --> 01:56:57.000
+Why this is required. So this is required, basically, to tell you what kind of input we are going to be passed to the docling. This one
+
+01:56:57.000 --> 01:57:05.000
+Okay, so if you will check out with our code, so inside the code, basically, we are going to be past this input.pdf.
+
+01:57:05.000 --> 01:57:17.000
+Yes or no? What kind of file we are going to be passed? We are going to be passed this particular file, input.inputFormat.pdf. So it's just telling to the doc link that what kind of file we are going to be passed.
+
+01:57:17.000 --> 01:57:19.000
+Okay?
+
+01:57:19.000 --> 01:57:26.000
+Now, what are the next thing, guys? So, we have the next thing that is up this one, pipeline options
+
+01:57:26.000 --> 01:57:42.000
+Okay, so here, guys, if we're talking about the pipeline option, so inside that, we have a different, different function, this one. PDF pipeline option, table structure option, and Tesseract, Tesseract, basically, clip, sorry, Tesseract, Tesseract
+
+01:57:42.000 --> 01:57:58.000
+Click of OCR option, okay? Sorry, Tesseract CLI OCR operation. This is the full form of it. Sorry, this is the complete name of it you can check out. I think it's a little confusing while we are reading it. So, Tesseract CLI OCR options, right? This is the complete name of it
+
+01:57:58.000 --> 01:58:06.000
+Now, can anyone tell me what is the meaning of it and why we are using it?
+
+01:58:06.000 --> 01:58:18.000
+So, if we're talking about this one, PDF, pipeline line option, so this is being used for complete PDF parts, PDF Parsing pipeline
+
+01:58:18.000 --> 01:58:24.000
+Okay. For configuring this complete PDF Parsing pipeline for this one
+
+01:58:24.000 --> 01:58:35.000
+Okay. Now, if we're talking about a table, table structure operation, or table structure options. So this one basically we are using for what? For the table extraction, right?
+
+01:58:35.000 --> 01:58:42.000
+Whatever table extraction behavior we have, let me write over here. For the table extraction behavior
+
+01:58:42.000 --> 01:58:44.000
+For the
+
+01:58:44.000 --> 01:58:48.000
+table extraction, behavior configuration.
+
+01:58:48.000 --> 01:58:57.000
+So we are using this one for the table extension behavior configuration, okay?
+
+01:58:57.000 --> 01:58:58.000
+Got it.
+
+01:58:58.000 --> 01:59:07.000
+No, guys, if we're talking about the next one, the Tesseract CLI OCR option, so this is for what, guys? This is for the Tesseract OCR
+
+01:59:07.000 --> 01:59:15.000
+Okay? This is for Tesseract OCR
+
+01:59:15.000 --> 01:59:17.000
+For Tesseract OCR
+
+01:59:17.000 --> 01:59:21.000
+For fetching the data
+
+01:59:21.000 --> 01:59:23.000
+From the
+
+01:59:23.000 --> 01:59:25.000
+Images
+
+01:59:25.000 --> 01:59:32.000
+Got it. So, I hope this thing is clear to all of you. Is it clear, guys?
+
+01:59:32.000 --> 01:59:46.000
+Tell me. Now, we have some other function. Sorry, other classes, let me define those classes also. So these are the other classes, okay? Document converter. Now, this is a main parser or main converter
+
+01:59:46.000 --> 01:59:52.000
+Okay? It's taking the PDF, and then basically it is giving the output, the structure output to us.
+
+01:59:52.000 --> 01:59:58.000
+Okay, so this is the main dockling parser converter. So let me keep it over here.
+
+01:59:58.000 --> 02:00:14.000
+This is what is the main dockling, parser and converter. Now we're talking about the PDF formation. So why for PDF format operation. So why we are using that so that we can basically what we can do guys
+
+02:00:14.000 --> 02:00:21.000
+Let's say whatever pipeline we are going to be convert, okay? Sorry, whatever pipeline, basically, we are going to be create
+
+02:00:21.000 --> 02:00:31.000
+Right? So we can convert that. Okay, we can convert that, we can connect that. So for that only, we are going to be use this PDF format operation okay
+
+02:00:31.000 --> 02:00:48.000
+So, it is little tricky to understand, but yeah, once the code will come, I will explain you. Now, we have the other one, basically this one, image reference mode picture item and the table item and all. Okay, so even we can understand about it. Now here, guys, you can see this image reference mode
+
+02:00:48.000 --> 02:00:55.000
+Okay, so how we are going to be representing the image inside the markdown. Got it?
+
+02:00:55.000 --> 02:01:03.000
+Now, picture item. So, here guys, whatever element, okay, the actual element we have inside the picture
+
+02:01:03.000 --> 02:01:19.000
+Okay, so we are going to be identified that using this picture item. Now, what is this table item? So through identifying the element inside the table, we are using this table item. Got it? So these are what these are the sum like more
+
+02:01:19.000 --> 02:01:20.000
+classes, basically
+
+02:01:20.000 --> 02:01:27.000
+Which we can use. So, I hope this thing is clear to all of you. Tell me, guys, is it getting clear?
+
+02:01:27.000 --> 02:01:33.000
+Once you will, give me a quick thumbs up, guys, so, I can proceed, okay?
+
+02:01:33.000 --> 02:01:51.000
+Just let me know, just give me a quick thumbs up, so that I can proceed, okay?
+
+02:01:51.000 --> 02:01:53.000
+Okay, great.
+
+02:01:53.000 --> 02:02:06.000
+Great, guys. So, many people are able to understand it. Now, once we will go through with it now, you will be able to understand it, why we are using it. So that's why I've given you the code. I think I no need to explain you this particular code because it is already, like, self-explanatory.
+
+02:02:06.000 --> 02:02:11.000
+So, you can go through with it, okay? What we are doing over here. Let's start from here.
+
+02:02:11.000 --> 02:02:13.000
+Okay, let's start from here
+
+02:02:13.000 --> 02:02:22.000
+So now guys, what we are doing, tell me
+
+02:02:22.000 --> 02:02:33.000
+Now, guys, if you will look into this particular course, so you will find out that what we are doing. So, simply, we are going to be create an object of what, simply we are going to be create an object of this
+
+02:02:33.000 --> 02:02:36.000
+PDF pipeline option
+
+02:02:36.000 --> 02:02:39.000
+Right? Simply, basically, we are going to be create a
+
+02:02:39.000 --> 02:02:44.000
+Simply, basically, we are going to create an object of the PDF pipeline
+
+02:02:44.000 --> 02:02:52.000
+options, okay? So what I can do, guys, I can keep it inside the different cell. Let me keep it over here inside a different cell
+
+02:02:52.000 --> 02:03:03.000
+Now, after that, guys, what we are doing, tell me, we are enabling the OCR. Now, what is the meaning of that? So this tells DocLink perform OCR on images based on
+
+02:03:03.000 --> 02:03:22.000
+perform OCR on the image, okay, or the scan images, which we have extracted from the PDF. Now, OCR is useful, basically, when the PDF does not contain the selectable text whenever we are talking about the images, right? So inside the images, we don't have a selectable text
+
+02:03:22.000 --> 02:03:29.000
+Or in the pages, basically, we don't have the selectable text. In that case, the user is a useful one. Got it, guys? Is it getting clear to all of you?
+
+02:03:29.000 --> 02:03:36.000
+Now, after that, what we are doing, we are configuring the Tesseract OCR over here, this one
+
+02:03:36.000 --> 02:03:44.000
+So, I already have our OCR, I'm just going to be configure that, okay
+
+02:03:44.000 --> 02:03:48.000
+Now, what is the use of this one? This command?
+
+02:03:48.000 --> 02:03:52.000
+What is the use of this particular command, guys? Tell me.
+
+02:03:52.000 --> 02:03:55.000
+The use of this particular command is very easy
+
+02:03:55.000 --> 02:04:04.000
+So here we are telling to the docling that do not extract table only as a plain text. Also understand their rows and columns
+
+02:04:04.000 --> 02:04:19.000
+Right? Okay, this one. So do understand the table structure. I hope this line is also clear. Now, guys, coming to the next one. So over here you can see, guys, what we are doing. So we are just going to be create an object of this table structure
+
+02:04:19.000 --> 02:04:21.000
+Options.
+
+02:04:21.000 --> 02:04:23.000
+Okay
+
+02:04:23.000 --> 02:04:35.000
+So here, basically, we have a one parameter, do cell matching true. So what it is doing, guys, it's trying to match the detected text with the correct row or column cell
+
+02:04:35.000 --> 02:04:38.000
+Getting clear, guys? Tell me yes or no.
+
+02:04:38.000 --> 02:04:43.000
+till here, everything is fine, everything is clear.
+
+02:04:43.000 --> 02:04:45.000
+Yes?
+
+02:04:45.000 --> 02:04:49.000
+Okay. Now, this is the configuration related to the images
+
+02:04:49.000 --> 02:04:54.000
+This is the configuration of what, this is the configuration related to the images
+
+02:04:54.000 --> 02:05:06.000
+Okay, so in which resolution we are going to be save the images, we're just telling that to our docling. That's it. Nothing else.
+
+02:05:06.000 --> 02:05:23.000
+Okay, so here, guys, what we are saying, we are telling… we are telling, basically, to our dockling in which resolution you have to be save the images, okay? Generate PDF page images true, generate PD picture images true, okay, all the thing, all the attribute we are setting as a true
+
+02:05:23.000 --> 02:05:39.000
+Right? Now, we're talking about this one, this particular example, do cell matching. What is the meaning of that? Let me explain you. So let's say we have two rows and columns, okay? So these are two rows and column. Now, over here, guys, we are doing the cell mapping
+
+02:05:39.000 --> 02:05:45.000
+Like this, see
+
+02:05:45.000 --> 02:05:50.000
+Is it clear now what I'm trying to explain you? This one?
+
+02:05:50.000 --> 02:05:56.000
+How to sell map… how we are doing the cell mapping.
+
+02:05:56.000 --> 02:06:00.000
+Okay, so this is about the cell mapping, actually.
+
+02:06:00.000 --> 02:06:11.000
+Okay. Now, after that, guys, what we are going to do, we are simply, basically, passing this PDF part to this converter
+
+02:06:11.000 --> 02:06:12.000
+Okay.
+
+02:06:12.000 --> 02:06:16.000
+Now, after that, guys, what will happen? So, I'll be getting the result
+
+02:06:16.000 --> 02:06:20.000
+Okay, and that particular result, I'm going to be represent over here.
+
+02:06:20.000 --> 02:06:41.000
+So till here, everything is fine, everything is clear, just give me a quick thumbs up, guys. Fast.
+
+02:06:41.000 --> 02:06:52.000
+Great, so I think everyone is able to understand, what, basically, we are doing using the DocLink, okay? So DocLink client extract the images table, right? What test track does extra?
+
+02:06:52.000 --> 02:07:09.000
+Dock link is just a framework, na, just a coded framework. Behind that, basically, we require the model for extracting the images from, like, for extracting the data from the images and all. And for that, the test track is required.
+
+02:07:09.000 --> 02:07:16.000
+Got it, Binut. So, test rate is providing you the actual model, actually.
+
+02:07:16.000 --> 02:07:20.000
+Okay
+
+02:07:20.000 --> 02:07:26.000
+Good. Now, guys, what we are doing… so after that, guys, we are going to be save the result
+
+02:07:26.000 --> 02:07:37.000
+So, let me show… tell you how, basically, we are going to be save the result, okay? So, saving the result also is very, very easy. So for that, this is the path
+
+02:07:37.000 --> 02:07:49.000
+Where we are going to be save our JSON-specific result, okay? The complete JSON, basically format of the document will be available over here. So once the JSON is available, we can do anything with that
+
+02:07:49.000 --> 02:07:58.000
+We can do anything with that. Once the JSON is available, we can do anything with that… we can do anything, basically, right, with this particular data
+
+02:07:58.000 --> 02:08:07.000
+Okay
+
+02:08:07.000 --> 02:08:08.000
+Cool one
+
+02:08:08.000 --> 02:08:09.000
+Now, here, guys, you can see we have a next one. That is what, that is a MD one. Okay, so this MD
+
+02:08:09.000 --> 02:08:21.000
+Because AMD, basically, it's a quite useful one. So what we are telling over here, so we are telling to see if the data is at MD
+
+02:08:21.000 --> 02:08:25.000
+Okay? And this is all the parameter inside this save as a markdown
+
+02:08:25.000 --> 02:08:40.000
+method. So, this is my path, and here is what, here is my image reference.referenced. Now, what is the meaning of it? The meaning, basically, we are going to be save the complete structured data as a markdown one.
+
+02:08:40.000 --> 02:08:46.000
+Okay. Now, this parameter is saying the image will not be stored as a binary data.
+
+02:08:46.000 --> 02:08:49.000
+It's going to be stored as an actual data.
+
+02:08:49.000 --> 02:08:54.000
+Okay? So, is it clear?
+
+02:08:54.000 --> 02:08:58.000
+Is it clear to all of you? This one?
+
+02:08:58.000 --> 02:09:02.000
+Okay, so here, basically, you will find out the image reference name
+
+02:09:02.000 --> 02:09:15.000
+Like, picture 001, Picture002, something like that. The images would be available. Now, we are going to be save the data as a TXT also, so see, we are able to save the data as a TXT also
+
+02:09:15.000 --> 02:09:22.000
+Okay, so this is also possible to save the data as a TXT. So this is just a path
+
+02:09:22.000 --> 02:09:31.000
+Okay, which we are providing via the txt file will be available, then these are the parameters. We have so many parameters inside, but we are going to use this particular parameter.
+
+02:09:31.000 --> 02:09:36.000
+And I think you are able to understand what is the meaning of it.
+
+02:09:36.000 --> 02:09:42.000
+Okay. Strict tax is equal to true means what? The function is technically a markdown exporter.
+
+02:09:42.000 --> 02:09:48.000
+But strict tax is equal to true. It can make the output more text oriented.
+
+02:09:48.000 --> 02:09:56.000
+But the exact behavior may depend on the installing dockling policy. Whenever we are going to be exported data, actually, we are exporting as a MD file
+
+02:09:56.000 --> 02:10:03.000
+Okay. Now, that particular MD file we can convert into the text. TXT file
+
+02:10:03.000 --> 02:10:16.000
+Right? That particular data we can convert into the TXT file. So this is what we are doing. We have a markdown data, and we are just going to be converted into the TXT. So this is… this is this kind of functionality they have provided inside the doc link.
+
+02:10:16.000 --> 02:10:18.000
+Got it?
+
+02:10:18.000 --> 02:10:24.000
+Okay, now what we are doing, guys, we are going to be save the images also. Now see
+
+02:10:24.000 --> 02:10:26.000
+The images
+
+02:10:26.000 --> 02:10:29.000
+This is the basic code for the images.
+
+02:10:29.000 --> 02:10:46.000
+We can simply call out this doc link, document.pages. From here, basically, we are going to iterate over the pages. We are going to be save basically page also as image, and then whatever image is there inside the PDF, we are going to be saved that also.
+
+02:10:46.000 --> 02:10:50.000
+Okay? Is it getting clear to all of you?
+
+02:10:50.000 --> 02:10:57.000
+I hope this part is also clear. Now, guys, what we are doing… so, see, inside this particular code, we are going to be save our data
+
+02:10:57.000 --> 02:11:11.000
+this table data in the CSV, okay, markdown, and then images, okay? So this is important, guys, whoever is having a concern about the data, that table data, basically, so this is pretty important for them. Now see
+
+02:11:11.000 --> 02:11:15.000
+We are going to be saving every sort of a format over here.
+
+02:11:15.000 --> 02:11:21.000
+Getting clear, tell me yes or no.
+
+02:11:21.000 --> 02:11:23.000
+It is getting killer.
+
+02:11:23.000 --> 02:11:25.000
+So, if someone having a doubt
+
+02:11:25.000 --> 02:11:30.000
+About the table, then definitely you can check out over here. Right
+
+02:11:30.000 --> 02:11:34.000
+Yes, ma'am.
+
+02:11:34.000 --> 02:11:40.000
+Okay. I hope, guys, this is pretty straightforward, particularly. Now, this is about what picture count
+
+02:11:40.000 --> 02:11:46.000
+So we are going to be save the picture. Where we are going to be save the picture, we are going to be save the picture inside the picture directory
+
+02:11:46.000 --> 02:11:52.000
+Okay, so here inside this particular directly, the picture have been saved, all the pictures.
+
+02:11:52.000 --> 02:12:16.000
+Now, tell me, guys, do I need to explain anything inside this particular code, or is it just a self-explanatory? Once we will go through with this file, everything you will be able to understand how we are going to be extract the data, and how we are going to be arrange that.
+
+02:12:16.000 --> 02:12:19.000
+It's a self-explanatory code, right?
+
+02:12:19.000 --> 02:12:34.000
+So, nothing we have to, like, worried about the code and all, just go through with this entire file, you will be able to understand. And just keep this file as a reference one, and whenever someone is asking you in an interview which parser you have used, how did you arrange the data and all
+
+02:12:34.000 --> 02:12:41.000
+You can explain this. Guys, believe me, these are real-time process. In a real time, we are all following like this only
+
+02:12:41.000 --> 02:12:46.000
+Got it. We are going to arrange our data in this way only.
+
+02:12:46.000 --> 02:12:48.000
+Okay.
+
+02:12:48.000 --> 02:12:55.000
+So now let's go with the Llama parser. Just look into their code and then we'll start with the Llama parser.
+
+02:12:55.000 --> 02:13:24.000
+I'm giving you one minute of time, guys. Quick water break, and then I will come to the Llama parser, okay?
+
+02:13:24.000 --> 02:13:54.000
+Please, guys, please go through with this file, it is a request to everyone. Then what I'll do, guys, I will, again, explain you this entire code, the Llama parser one, and then we can move to the vector database and all, and then we are going to be build the RAG on top of this data, okay?
+
+02:14:38.000 --> 02:14:43.000
+Okay, guys, can we start again? If everyone is there, I think we can start with the llama.
+
+02:14:43.000 --> 02:14:50.000
+Parser, also. So, what we are doing, see, first of all, let's understand the complete flow of the Llama parser
+
+02:14:50.000 --> 02:14:54.000
+So here is the complete flow that what we are doing. See this one.
+
+02:14:54.000 --> 02:14:58.000
+Just a second.
+
+02:14:58.000 --> 02:15:01.000
+This is the flow, guys.
+
+02:15:01.000 --> 02:15:06.000
+This is the flow of the Lama parser. I hope it is visible to everyone
+
+02:15:06.000 --> 02:15:11.000
+Now, just let's see what we are doing inside the Llama parser.
+
+02:15:11.000 --> 02:15:19.000
+So, PDF, we have a… we are going to be upload this PDF over the Llama Cloud. Then, Llama parser process the PDF
+
+02:15:19.000 --> 02:15:28.000
+It is going to be performed the OCR text extraction, layout analysis, table detection, image detection, and then it is reading the complete order, right?
+
+02:15:28.000 --> 02:15:40.000
+Then, parse result, it is going to be kept inside the markdown, plain text, pagewise record, table, images, Excel workbook, JSON, and the LangChain document. As a LangChain document also we can keep. So, in the next upcoming session, I'll show you that
+
+02:15:40.000 --> 02:15:42.000
+Okay.
+
+02:15:42.000 --> 02:15:59.000
+How basically you can convert into the LangChain document. So I hope this is clear. Now let's do one thing. Let's understand about the code.
+
+02:15:59.000 --> 02:16:14.000
+Okay. So guys, if you will look into this particular import statement, so we have a different, different import statement. The first, basically, it's an OS one. So it is just basically connecting with the OS related functionality and all. Okay
+
+02:16:14.000 --> 02:16:27.000
+Like, environment creation, environment variable setting and all. So for that, basically, we are going to be using. Then guys, what we have, we have the IO. So, I.O. for what, guys? This IO, basically, it is for the
+
+02:16:27.000 --> 02:16:36.000
+in-memory operations, okay? So if we wanted to perform the in-memory operation, for that, we can utilize this IO
+
+02:16:36.000 --> 02:16:52.000
+Okay, then I think Ari, everyone know about this Ari, that is our regular expression, right? Then basically we have a JSON. I think you already know path you already know typing any. So this is this type type from this typing basically we are going to be import this any
+
+02:16:52.000 --> 02:17:01.000
+So this is for what, guys. So this is going to be accept any type of object, okay? And it can return any type of object.
+
+02:17:01.000 --> 02:17:21.000
+Okay. Means my function can, take any sort of a data, and it can return any sort of a data. For that only, we have this any. Got it, guys? Tell me, is it getting clear? All this library
+
+02:17:21.000 --> 02:17:36.000
+Okay. Now, guys, after that, what we have, this is, like, some, again, basic library, everyone can understand. Now, this is our main library, this one, llama Cloud. And there's a LangChain document we are not using right now. We'll use it in the next class.
+
+02:17:36.000 --> 02:17:39.000
+So, next class, I will explain you this
+
+02:17:39.000 --> 02:17:48.000
+Okay. So, I hope this all the libraries are clear. It is very easy to understand, nothing is there, it's all our self-explanatory library.
+
+02:17:48.000 --> 02:18:00.000
+That this is the configuration related to the path and all, wherever we are going to be save the data. Okay, so this is the quick configuration about it. Now what I'll do guys, so here I'm going to be configure the API key of the Llama Cloud
+
+02:18:00.000 --> 02:18:11.000
+Okay, so I hope this part is also clear. Just give me a quick thumbs up. If this cell is clear
+
+02:18:11.000 --> 02:18:12.000
+Okay.
+
+02:18:12.000 --> 02:18:22.000
+So, I hope everyone is able to understand this particular cell also. Now, after that, what we are doing, we are going to be create some helper function
+
+02:18:22.000 --> 02:18:28.000
+Okay. Now, this helper function is also very, very easy. So, save file name means what?
+
+02:18:28.000 --> 02:18:37.000
+Save file means, basically, fine is going to be contained any sort of unnecessary character. Remove that character from the file name. That's it.
+
+02:18:37.000 --> 02:18:38.000
+Okay
+
+02:18:38.000 --> 02:18:46.000
+Now, after that, guys, object to detect. Can anyone tell me what is the meaning of this one?
+
+02:18:46.000 --> 02:18:51.000
+What we are trying to do, anyone, anyone having any idea
+
+02:18:51.000 --> 02:19:00.000
+So, guys, whenever we are going to interact with any sort of a SDK, okay, so that SDK is going to be written some responses
+
+02:19:00.000 --> 02:19:13.000
+In the form of some object. So we are going to be convert that particular object into the Python structure, normal Python structure. This is what we are doing over here.
+
+02:19:13.000 --> 02:19:19.000
+Understood. Is it getting clear to all of you, this one
+
+02:19:19.000 --> 02:19:28.000
+Now, if we're talking about the next method, download files. Can anyone tell me what is the meaning of it? Download file
+
+02:19:28.000 --> 02:19:31.000
+What we are doing over here
+
+02:19:31.000 --> 02:19:44.000
+So it's going to be take a URL, okay, output path, where we need to be download the data, okay, maximum request in a second means for how many how much time we have to make a request
+
+02:19:44.000 --> 02:19:50.000
+For downloading any sort of a data, okay? So this is just for downloading the file
+
+02:19:50.000 --> 02:19:52.000
+Now, what is this get image output directory
+
+02:19:52.000 --> 02:19:58.000
+What is the meaning of this particular function? Tell me, guys.
+
+02:19:58.000 --> 02:20:06.000
+I think I already discussed, right? So this function, choose the correct output folder based on the image category.
+
+02:20:06.000 --> 02:20:12.000
+Okay, so whatever, basically image category we have, it's going to be select the folder according to that.
+
+02:20:12.000 --> 02:20:22.000
+So once this particular method will be used inside the code base, you will be getting a good understanding. So this is my
+
+02:20:22.000 --> 02:20:25.000
+Directory, basically. Image-related directory.
+
+02:20:25.000 --> 02:20:39.000
+Okay, so is this clear?
+
+02:20:39.000 --> 02:20:47.000
+Is this part clear or not? Very, very clear. Okay, great. Now, after that, guys, what we are doing, we are going to be upload the data over the
+
+02:20:47.000 --> 02:20:56.000
+Llama, okay? Llama Cloud. Is this part clear how we are going to be uploading the data over the Llama Cloud? Very easy to understand.
+
+02:20:56.000 --> 02:21:03.000
+Just by reading this particular code, you can understand, okay? Read the code. Even I given you the code, you will be getting that.
+
+02:21:03.000 --> 02:21:18.000
+Okay. Now, after that, guys, this is the main function. So, here, basically, our parsing would be started. Okay, so this is what guys is the main function where your parsing is going to be what is going to be started. Now just read out all the thing, whatever we have
+
+02:21:18.000 --> 02:21:34.000
+So, we are going to be provide the file ID, okay? Now, here is my tire, this is the Agentic one. So it's suitable for the complex document containing table images, okay? And the mixed layout, basically. Then version, latest version, I'm going to be used
+
+02:21:34.000 --> 02:21:50.000
+output option, markdown, table as a spreadsheet, image to save. So this particular option, we have to be… we have for the saving for saving the data. Now, processing images. Yes, we are going to be use the OCR, and this expanded, basically, this is for what, guys, this expanded
+
+02:21:50.000 --> 02:22:01.000
+Can anyone guess for what we are going to be using this expended
+
+02:22:01.000 --> 02:22:07.000
+So the expanded list, basically, it is specified which detailed results section should be written
+
+02:22:07.000 --> 02:22:15.000
+So, without expansion, basically, some API responses may return only basic job information, or just some metadata.
+
+02:22:15.000 --> 02:22:20.000
+So, this is just the format of returning a data, this one
+
+02:22:20.000 --> 02:22:27.000
+Okay? Now, once I'll execute this particular function, so my parsing is going to be started.
+
+02:22:27.000 --> 02:22:28.000
+This one.
+
+02:22:28.000 --> 02:22:32.000
+Right? Now, later on, we are just going to be arrange the data.
+
+02:22:32.000 --> 02:22:39.000
+So this is all about the arrangement of the data, that's it. So why we are going to be using this particular function, can anyone tell me?
+
+02:22:39.000 --> 02:22:50.000
+Just by reading it, why we are going to be use it
+
+02:22:50.000 --> 02:22:53.000
+I think in the dockling also, I've shown you that
+
+02:22:53.000 --> 02:23:01.000
+Tell me why.
+
+02:23:01.000 --> 02:23:06.000
+So we are going to be save the entire document into the JSON format. Okay
+
+02:23:06.000 --> 02:23:16.000
+I hope this is clear. It's very easy to understand, guys. Again, I'm saying, just by reading the code only, you can understand that why we are using it.
+
+02:23:16.000 --> 02:23:18.000
+Okay.
+
+02:23:18.000 --> 02:23:31.000
+Just by reading the code only, you can understand why we are using it. Now, what we have, guys, we have the other function also, so just try to read those function as well. So we have this particular function where we are going to be save the detail as a markdown
+
+02:23:31.000 --> 02:23:42.000
+Okay? As a markdown in the TXT using this particular function, we are going to be save the detail as a markdown on the txt. Now tell me guys why this function, this one
+
+02:23:42.000 --> 02:23:47.000
+Why this particular code
+
+02:23:47.000 --> 02:23:52.000
+So this particular code is for war, just to save the detail as a pagewise.
+
+02:23:52.000 --> 02:23:58.000
+Okay, so we are going to be save the detail page-wise using this particular function
+
+02:23:58.000 --> 02:24:09.000
+So, text by page, metadata by page, page record, okay? Everything we are going to be stored inside this particular list, and then we are going to be save it as a JSON
+
+02:24:09.000 --> 02:24:10.000
+This one
+
+02:24:10.000 --> 02:24:26.000
+So this is again one more, basically a way of arranging a data page-wise. Okay, you can go through with it, and you will be able to understand. Nothing is there, very simple. Now, this is about the table Parsing guys. So how we are going to be parse the table data
+
+02:24:26.000 --> 02:24:34.000
+Everything you will get it over here inside this particular function, okay? So inside this particular cell. So what we are doing over here
+
+02:24:34.000 --> 02:24:36.000
+If you are going to read it
+
+02:24:36.000 --> 02:24:42.000
+Okay, so you will clearly understand that we are just going to be extracting the table.
+
+02:24:42.000 --> 02:25:01.000
+Okay, so table recorder, table counter. We are going to be iterate over the pages, we are getting a page number. Okay, then, basically, from here, we are going to be iterate, we are going to be, like, iterate over the page, basically. Item index and item. From the item, basically, we are going to be extract the table, and then we are creating a complete detail of the table
+
+02:25:01.000 --> 02:25:14.000
+Sorry, we are going to be, like, storing the table, okay, in which format, with whatever format we want to be stored. Now, this is my table record, okay? Now we are going to be stored as a CSV, MD, and HTML, and
+
+02:25:14.000 --> 02:25:29.000
+And here, guys, you can see we are going to be saved the entire result. That's it, guys. So this is all about the table, how we are going to be save the table data. You will get inside this cell itself. Very, very easy to understand. Just go through with this particular function by yourself, right?
+
+02:25:29.000 --> 02:25:44.000
+Now we have the next one. So this is the image one, image record. So inside this one, what we are doing now see image record, we are iterating over the image data, image metadata, okay? So the image metadata is there means if image metadata is there, we are saying the complete count
+
+02:25:44.000 --> 02:25:50.000
+Right? After that, basically, we are iterating over the images. Now we are getting the image file
+
+02:25:50.000 --> 02:26:06.000
+Then what we are doing, we are going to be save it inside the directory, okay? Now, here you can see the URL and the image record, okay? Image index, file name, category, and the complete detail of the images, the images, complete detail of the image, basically. And then we are going to be save it.
+
+02:26:06.000 --> 02:26:16.000
+That's it, guys. So here, you can see we are going to create an object. Sorry, the JSON, we are going to be appended inside the list as a JSON object, and then we are going to be save it as a JSON file
+
+02:26:16.000 --> 02:26:19.000
+Okay, and this is the code for saving the data, that's it.
+
+02:26:19.000 --> 02:26:24.000
+So, I hope this part is also going to be clear
+
+02:26:24.000 --> 02:26:28.000
+Tell me, guys, is it getting killer?
+
+02:26:28.000 --> 02:26:29.000
+Tell me.
+
+02:26:29.000 --> 02:26:38.000
+If this part is getting clear, I hope, everyone is able to understand that what we are doing, it is a self-explanatory thing. We don't need to deep dive much over here.
+
+02:26:38.000 --> 02:26:54.000
+Okay, we can take a help of the co-pilot and the cloud and all. It can easily explain to us, and it can easily, basically even generate the code, right? Now, guys, what we are doing, so now the next one basically find the metadata download URL
+
+02:26:54.000 --> 02:26:59.000
+So what's the meaning of it?
+
+02:26:59.000 --> 02:27:05.000
+What's the meaning of it? Can anyone tell me what we are doing over here?
+
+02:27:05.000 --> 02:27:15.000
+So here, basically, we are going to be download the data from the… from where? From the Slama cloud only
+
+02:27:15.000 --> 02:27:19.000
+Okay. We are going to be download the data from there itself.
+
+02:27:19.000 --> 02:27:28.000
+Okay, so whatever metadata we have with respect to the table and all, we are going to be download that particular data in the Excel format
+
+02:27:28.000 --> 02:27:30.000
+Okay.
+
+02:27:30.000 --> 02:27:35.000
+We are going to be downloading the data in the Excel format from the Llama Cloud.
+
+02:27:35.000 --> 02:27:48.000
+So is it clear, guys? Tell me yes or no?
+
+02:27:48.000 --> 02:27:53.000
+It is this… it is this particular data, this one. Let me show you the Excel file.
+
+02:27:53.000 --> 02:27:58.000
+So, if you will look into the Excel file of the Llama Parser folder, you will get that.
+
+02:27:58.000 --> 02:28:01.000
+This one.
+
+02:28:01.000 --> 02:28:07.000
+This is the Excel file, guys.
+
+02:28:07.000 --> 02:28:09.000
+This one
+
+02:28:09.000 --> 02:28:14.000
+Okay? So we are going to download this data from where? From the
+
+02:28:14.000 --> 02:28:21.000
+From where, guys, tell me, we are going to download this particular data from the Llama Cloud only.
+
+02:28:21.000 --> 02:28:24.000
+No, it is not a safe one.
+
+02:28:24.000 --> 02:28:30.000
+If your organization is providing the access of the Llama Parser, then only you can use it, otherwise you cannot.
+
+02:28:30.000 --> 02:28:32.000
+Okay.
+
+02:28:32.000 --> 02:28:42.000
+So I hope, guys, this entire code is clear. You can run this code, and you can check out the result and all. Now, this function basically is not required to us
+
+02:28:42.000 --> 02:28:52.000
+Because it is just checking the failed page. Okay, so what it is doing, let me explain that also. So we are extracting the figure and the images, item description, okay?
+
+02:28:52.000 --> 02:29:09.000
+So here, guys, what we have, we have an empty list, right? Then what we are doing, we are checking whether the structure item exist or not. Okay, result dot item. Now from here, basically what we are doing, we are going to be loop over the pages, item pages. Okay
+
+02:29:09.000 --> 02:29:17.000
+And we are skipping the failed pages over here, so here you can see whatever failed pages are there. We are just going to be skip it inside this particular
+
+02:29:17.000 --> 02:29:33.000
+condition, this one, right? Then what we are doing, guys, we are going to be iterate over the each page item, okay, each page item. Then after that, what we are doing so over here, if it is not equal to images, okay, process only item which type is the
+
+02:29:33.000 --> 02:29:34.000
+Whose type is the image
+
+02:29:34.000 --> 02:29:45.000
+Okay, so here we are going to iterate over the image itself. Now over here, see what we are doing. So now we are going to be append that particular result. We are inside this figure record
+
+02:29:45.000 --> 02:30:01.000
+Okay, page number, item index, and then this is the markdown specific thing, and this is the complete object. Okay now after that, what we are doing is after that, you can see over here, we are saving the figure record. We are saving the figure record over here
+
+02:30:01.000 --> 02:30:08.000
+Inside this JSON. This is what, basically, we are doing over here. Okay
+
+02:30:08.000 --> 02:30:12.000
+I don't know why it is not detecting
+
+02:30:12.000 --> 02:30:30.000
+It's not detecting the number of figure items. Something is there. I will have to check it, guys, so as of now, I'm just commenting it out. That's it. Later on, I'll check, basically what is a… why it is not detecting, because we are still able to extract all the images and all, everything from this PDF
+
+02:30:30.000 --> 02:30:49.000
+Okay? So that is completely fine. So, yeah, this is it, guys, for the data parsing. You can go through with this entire code and all. Nothing is there. And, now the next class is going to be important, where we'll understand how to arrange this data inside the vector database. Okay, so the next class only I will explain you how you can arrange this particular data inside the vector database
+
+02:30:49.000 --> 02:31:07.000
+And then only we'll proceed with the retrieval part. Got it, guys? Tell me yes or no.
+
+02:31:07.000 --> 02:31:26.000
+So, guys, in the next class only, we'll understand how to basically keep this particular data inside the vector database, and then we are going to be run the retrieval on top of that. So I'm passing this to both file over the GitHub. Please take it from there
+
+02:31:26.000 --> 02:31:49.000
+As of now, just do the practice, and take a participation in the hackathon, and try to solve that project also.
+
+02:31:49.000 --> 02:31:59.000
+Chanking also will discuss, na, Ratnakar, once I'll come to the database. If it is required, then only we do the chunking, na. Every time chunking is not required, sir
+
+02:31:59.000 --> 02:32:07.000
+See, I work on a multiple solution, hardly in one or two, like, solution, I did the chunking and all
+
+02:32:07.000 --> 02:32:15.000
+Okay, so every time chunking is not required to arrange this kind of data inside the vector database, chunking is not required at all.
+
+02:32:15.000 --> 02:32:34.000
+If you will ask me to keep this data inside the vector database, I will not do the chunking over here. I'll just take the pagewise information. I'll keep inside the metadata and then I'll create an embedding pagewise embedding, basically. So likewise, I'll store the data
+
+02:32:34.000 --> 02:32:41.000
+Okay, so guys, in the next class, we'll discuss, the data vector database
+
+02:32:41.000 --> 02:32:49.000
+And from there itself will understand how to store the data and all inside there, right?
+
+02:32:49.000 --> 02:32:56.000
+RAG is completed? No, RAG is not completed. It's still four to five classes are there.
+
+02:32:56.000 --> 02:33:05.000
+4 to 5 classes are still there. Okay, related to the RAG. So, I have provided you the code, guys. Please go through with this entire code
+
+02:33:05.000 --> 02:33:10.000
+And, understand this code, guys, just a second, let me give you that.
+
+02:33:10.000 --> 02:33:11.000
+This one
+
+02:33:11.000 --> 02:33:16.000
+Okay, so here only you will get it.
+
+02:33:16.000 --> 02:33:22.000
+I can rename the folder name, I think I need to rename the folder name, just a second.
+
+02:33:22.000 --> 02:33:29.000
+So, what I can do, guys, I can rename this folder
+
+02:33:29.000 --> 02:33:59.000
+So, data parsing… okay, guys, let me do one thing, let me create a new folder over here.
+
+02:34:02.000 --> 02:34:03.000
+Okay.
+
+02:34:03.000 --> 02:34:22.000
+Now, let me do one thing, guys, let me give you this folder
+
+02:34:22.000 --> 02:34:29.000
+Now, this file, and this two file will also be there.
+
+02:34:29.000 --> 02:34:33.000
+And this file
+
+02:34:33.000 --> 02:34:41.000
+I think, now you can go through with this folder, new folder, and the latest updated code, you will get it over here.
+
+02:34:41.000 --> 02:34:47.000
+Okay, so I can copy this one
+
+02:34:47.000 --> 02:35:09.000
+paste the data folder over here also. Now, at the both places, data folder is there, and even the data folder is over here also.
+
+02:35:09.000 --> 02:35:22.000
+Guys, you can check out the latest GitHub now, you will get the folder with the date, okay?
+
+02:35:22.000 --> 02:35:32.000
+Yeah, the code is pushed over there. Please check out.
+
+02:35:32.000 --> 02:35:48.000
+So, fine, guys, I think you can drop now, if you have any sort of a doubt, I will be taking it out after 3 minutes. So, thank you everyone for joining this session. I'll be starting the doubt session after 3 minutes. Thank you, everyone.
+
+02:35:48.000 --> 02:36:18.000
+You can drop off, guys, okay? Yeah.
+
+02:40:22.000 --> 02:40:30.000
+Okay, guys, so let's start with the doubt session. If you have doubt, you can raise the hand.
+
+02:40:30.000 --> 02:40:39.000
+Just… just give me a moment, guys.
+
+02:40:39.000 --> 02:40:53.000
+Yeah, Ganind, please go ahead with the doubt.
+
+02:40:53.000 --> 02:41:02.000
+Yeah, Karen, please go ahead with the doubt.
+
+02:41:02.000 --> 02:41:10.000
+Yeah, Pranav, please go ahead with the doubt.
+
+02:41:10.000 --> 02:41:25.000
+Hi, Shani, good evening. Will you hear me? Shani, I just have a simple question, maybe I had asked on the chat. So, I mean, the LangChin document loader, right? I mean, it's loading the document, and we can use any
+
+02:41:25.000 --> 02:41:38.000
+Spector to chunk it and push it to VectorDB. I mean, talking also, I mean, how does it, you know, help? I mean, from
+
+02:41:38.000 --> 02:41:42.000
+Langchain document, understandable, not able to connect the dots
+
+02:41:42.000 --> 02:41:50.000
+Lanction document loader, it's going to be parse the data, okay, from the PDF and from the other places
+
+02:41:50.000 --> 02:41:51.000
+And it's giving you the data as a language and document.
+
+02:41:51.000 --> 02:41:52.000
+Correct.
+
+02:41:52.000 --> 02:41:54.000
+Okay.
+
+02:41:54.000 --> 02:42:02.000
+But let's suppose you have some complex parsing which you're not able to do via Langchen loader, so you will be using this kind of library.
+
+02:42:02.000 --> 02:42:09.000
+So, when you say complex patching means you are referring to the stables, images, and all, is it?
+
+02:42:09.000 --> 02:42:25.000
+Correct. Table images and all, you have to arrange your data according to your requirement. In that case, you will be using these kind of parts, sir, okay?
+
+02:42:25.000 --> 02:42:26.000
+Mmm.
+
+02:42:26.000 --> 02:42:33.000
+Okay. So, I mean, mostly you told currently in the production grade, you are using Docklink. I mean, all the map pasta, this kind of pastures we're using, correct? Now, I mean, you have saved, you know, in different, different format text, or JSON
+
+02:42:33.000 --> 02:42:34.000
+Hmm.
+
+02:42:34.000 --> 02:42:35.000
+Mark Gavin.
+
+02:42:35.000 --> 02:42:38.000
+We used to have chunking, right, and
+
+02:42:38.000 --> 02:42:51.000
+traditional track. So, you told you will be doing the page-wise chunking and sending it, so you are going to send all these, you know, to embedding and going to saving vector DB. Is that correct?
+
+02:42:51.000 --> 02:42:53.000
+Correct, correct, correct.
+
+02:42:53.000 --> 02:42:58.000
+In the next class, you will get the idea. Let me complete couple of more classes, okay?
+
+02:42:58.000 --> 02:43:06.000
+Okay, okay, got it. I think that's one thing. One more, maybe the basic question I was revising old concept regarding
+
+02:43:06.000 --> 02:43:24.000
+tokenization, embedding and you know you had these two concepts, right? In my in my project, what they are doing, I you know just in the beginning phase. So we are trying to lose a token I mean, and we're using the embedding model to embed it
+
+02:43:24.000 --> 02:43:27.000
+So embedding is nothing but
+
+02:43:27.000 --> 02:43:44.000
+We're storing in the vector dimension, that's it. And when you say reduce a token means what we're trying to do from here, in the response, they are trying to reduce some tokens. I'm just trying to know that, but maybe you had already shown a light, but I was a little confused on it
+
+02:43:44.000 --> 02:43:46.000
+In the embedding and tokenization.
+
+02:43:46.000 --> 02:43:51.000
+Vector I already explained, na, right, in the previous classes. Have you gone through those classes?
+
+02:43:51.000 --> 02:44:14.000
+Yes, yes, I actually had gone through the RM finding and all. There, I understood tokenization, you were tokenizing it and doing it. Then, I was… when I was going through the embedding in the RAG pipeline, then I got confused, okay? We are doing the embedding, then we have tokenization, I mean, that part I got confused where exactly this tokenization fit in the Jack pipeline
+
+02:44:14.000 --> 02:44:19.000
+Tokenization will not be over here, because that is a work of the model, actually.
+
+02:44:19.000 --> 02:44:20.000
+Okay.
+
+02:44:20.000 --> 02:44:27.000
+Okay, it is automatically being happened in the backend whenever we are passing our data to any model for the embedding. Got it?
+
+02:44:27.000 --> 02:44:37.000
+But when we… because of cost, when we try to reduce the token, then how do we do? I mean, because it's not a part of, you know, our rank type
+
+02:44:37.000 --> 02:44:41.000
+That token, this token is different, sir.
+
+02:44:41.000 --> 02:44:42.000
+Okay.
+
+02:44:42.000 --> 02:44:48.000
+The token is related to the generation, actually. Every sort of output is being calculated as a single token.
+
+02:44:48.000 --> 02:44:49.000
+Okay.
+
+02:44:49.000 --> 02:44:53.000
+Okay. That output is different. Got it?
+
+02:44:53.000 --> 02:45:01.000
+Okay, so the tokenization that we have learned till now, and that is different, but this token that I'm referring to, that's a different token
+
+02:45:01.000 --> 02:45:08.000
+Huh. Tokenization, basically, we can… we use in two terms. One, basically, we are training the model
+
+02:45:08.000 --> 02:45:09.000
+Correct, that I understood.
+
+02:45:09.000 --> 02:45:17.000
+Second, basically, when we are generating the output from the model
+
+02:45:17.000 --> 02:45:18.000
+Okay.
+
+02:45:18.000 --> 02:45:28.000
+Yes. So, they… okay, okay, maybe I am, you know, going in overweight, I mean, the future one, because we have some token limits while we're prompting or doing some kind of short in the LLM model. We have some token
+
+02:45:28.000 --> 02:45:31.000
+So that is related to the generation, actually.
+
+02:45:31.000 --> 02:45:33.000
+Okay.
+
+02:45:33.000 --> 02:45:43.000
+Okay, so it's not something… so, one simple, maybe, just my understanding what I have observed. LLM understand everything in terms of token, right?
+
+02:45:43.000 --> 02:45:45.000
+Got it.
+
+02:45:45.000 --> 02:45:49.000
+So, whatever date I was giving, it will
+
+02:45:49.000 --> 02:45:56.000
+thinking in terms of token and give in terms of token. This is how where your cost comes in, is it?
+
+02:45:56.000 --> 02:46:01.000
+Hmm, yeah, right, you are right.
+
+02:46:01.000 --> 02:46:02.000
+Yeah.
+
+02:46:02.000 --> 02:46:06.000
+Okay, okay, got it, got it then, yeah, thanks, sir.
+
+02:46:06.000 --> 02:46:12.000
+Okay, printout is done. Now, Subic, what's a doubt?
+
+02:46:12.000 --> 02:46:15.000
+Hi, am I audible?
+
+02:46:15.000 --> 02:46:17.000
+Yeah, you're audible.
+
+02:46:17.000 --> 02:46:26.000
+Yeah, so, Sally, if you go to the, Tesseract, configuration in the toppling part in your code
+
+02:46:26.000 --> 02:46:31.000
+Just go through if you share your screen
+
+02:46:31.000 --> 02:46:35.000
+One second
+
+02:46:35.000 --> 02:46:41.000
+Just where you are, calling the .exe site
+
+02:46:41.000 --> 02:46:48.000
+The top link
+
+02:46:48.000 --> 02:46:49.000
+Yes, ma'am.
+
+02:46:49.000 --> 02:46:54.000
+Yeah, yeah, yeah. So, so, if I am doing in collab.
+
+02:46:54.000 --> 02:46:58.000
+How to revise means what to do for this part
+
+02:46:58.000 --> 02:47:08.000
+So, you just need to install the Tesseract according to the Linux command. It will be automatically installed inside the Colab server
+
+02:47:08.000 --> 02:47:14.000
+And then you can, utilize that, okay? So for that, the process is different, actually.
+
+02:47:14.000 --> 02:47:21.000
+Okay, so if I, copy this and ask Claude to give me a revised quote for Colab, will you give it
+
+02:47:21.000 --> 02:47:25.000
+Yeah, yeah, it can give you easily
+
+02:47:25.000 --> 02:47:26.000
+Okay.
+
+02:47:26.000 --> 02:47:41.000
+Okay, fine. Second thing, second thing, just a moment, I have… you have talked about the 10,000 free credit of Lama, I think Lama, right? So now, just can you tell me one thing that whether,
+
+02:47:41.000 --> 02:47:48.000
+This, Lama Edit Reset Monthly, or how happens? How it happens?
+
+02:47:48.000 --> 02:47:51.000
+10,000 credit for the lifetime.
+
+02:47:51.000 --> 02:47:52.000
+Lifetime. So, if I have, like, so for
+
+02:47:52.000 --> 02:47:57.000
+For one… for one, for one, this one, mail ID.
+
+02:47:57.000 --> 02:47:58.000
+So
+
+02:47:58.000 --> 02:47:59.000
+On May 9, for lifetime, it is 10,000.
+
+02:47:59.000 --> 02:48:01.000
+Correct. So, let's
+
+02:48:01.000 --> 02:48:03.000
+It doesn't reset
+
+02:48:03.000 --> 02:48:04.000
+No.
+
+02:48:04.000 --> 02:48:07.000
+So if I'm going to show you this, Nasi
+
+02:48:07.000 --> 02:48:09.000
+It is
+
+02:48:09.000 --> 02:48:10.000
+4
+
+02:48:10.000 --> 02:48:15.000
+In the last 14 days, it is saying. It's my free credit for last 14 days.
+
+02:48:15.000 --> 02:48:19.000
+It's around 2.40. Today only I created this API key.
+
+02:48:19.000 --> 02:48:20.000
+Okay.
+
+02:48:20.000 --> 02:48:25.000
+So I can use it for lifetime, or I think last 14 days.
+
+02:48:25.000 --> 02:48:32.000
+I think some time restriction would be there, just check it out over here, okay? But at this 10,000 credit would be there with you.
+
+02:48:32.000 --> 02:48:42.000
+Means, if I exhaust 10,000, then, after 10,000, it will not reset, let's say, after 1 month, after 2 months, that will not happen
+
+02:48:42.000 --> 02:48:46.000
+No, sir, it is a free usage. Now, why it will reset for you?
+
+02:48:46.000 --> 02:48:48.000
+GICP happens, happens that got clot happens, resetting the thing
+
+02:48:48.000 --> 02:48:54.000
+Here, it will not happen. If you are on a paid plan, I think, then only it will, maybe.
+
+02:48:54.000 --> 02:48:55.000
+Okay.
+
+02:48:55.000 --> 02:48:57.000
+It is one of… you are in the free plan right now, no, customer.
+
+02:48:57.000 --> 02:49:16.000
+Okay, third question is on the… that you are launching a new course, right? AI production, great AI Agentic AI course from tomorrow. So, now, my question is that I have gone through the course material
+
+02:49:16.000 --> 02:49:25.000
+Now, my question is, it is scheduled in the same time, so even if I am subscribing for that, how I will manage?
+
+02:49:25.000 --> 02:49:32.000
+In that case, any of the batch, you will have to, like, what I can say
+
+02:49:32.000 --> 02:49:34.000
+You will have to check a recording
+
+02:49:34.000 --> 02:49:49.000
+Or probably the revised question is, how can I mean, smoothly transit from this course to that course? Means, I'm saying that something
+
+02:49:49.000 --> 02:50:08.000
+which that course will take for, let's say, for example, first two months, that already has been covered in this course, so I am, let's say, 50% on this course, 50% on that course. How do smoothly… because you are covering now rack, and they will cover RAG in their
+
+02:50:08.000 --> 02:50:23.000
+later module, right? So now, RAG, Agentic, so how you will, what is your proposal, how to, because that will go until 8 months, right? 8-9 months. So, I want to, it is… I…
+
+02:50:23.000 --> 02:50:33.000
+I like that course material. So how you guide me to smoothly complete this and transit to that
+
+02:50:33.000 --> 02:50:37.000
+Yes, so if you have completed this, fine-tuning site, na
+
+02:50:37.000 --> 02:50:48.000
+Okay, so you can still join, you can still attend, because after the… see, there, basically, again, the fine-tuning part would be there, so this would be your kind of revision.
+
+02:50:48.000 --> 02:50:51.000
+Until we are completing the other part of this batch, okay?
+
+02:50:51.000 --> 02:50:53.000
+Okay.
+
+02:50:53.000 --> 02:50:55.000
+Yeah
+
+02:50:55.000 --> 02:50:58.000
+Okay. So, so,
+
+02:50:58.000 --> 02:50:59.000
+Means,
+
+02:50:59.000 --> 02:51:17.000
+Okay, got it. Okay, and another… can you tell me another thing? You have another product, like, annual subscription, then everything we will be getting, something like that. So, what is the annual subscription, so that I don't need to subscribe for
+
+02:51:17.000 --> 02:51:23.000
+Individual, individual courses
+
+02:51:23.000 --> 02:51:24.000
+Yeah, great.
+
+02:51:24.000 --> 02:51:33.000
+Yeah, annual subscription means it's a AI Pro subscription, so whatever course we are launching, it comes under that subscription. So, you don't need to purchase any code, just purchase that subscription, everything will be covered over there. Okay
+
+02:51:33.000 --> 02:51:36.000
+Yeah, so what is the price for that?
+
+02:51:36.000 --> 02:51:53.000
+Price you can check out with the counseling team, so after maybe some discount and all, like, you can, even you enroll in this course, so you can, adjust this price, and then you can purchase that, something like that, okay? Just check out the team, you… they will give you the better idea, okay?
+
+02:51:53.000 --> 02:51:54.000
+Yeah
+
+02:51:54.000 --> 02:51:59.000
+Okay, thank you. No other
+
+02:51:59.000 --> 02:52:02.000
+Okay, so week is done now, Shankar.
+
+02:52:02.000 --> 02:52:10.000
+Amit
+
+02:52:10.000 --> 02:52:14.000
+Yeah, could you hear me?
+
+02:52:14.000 --> 02:52:15.000
+Yeah, I can hear you, Shankar.
+
+02:52:15.000 --> 02:52:29.000
+Yeah, so I have, two questions, actually. So, first thing is like the dockling and the Llama parser and all these things that you're covering
+
+02:52:29.000 --> 02:52:48.000
+So, in a real production-grade pipeline, like, the data sources and the contents of the data keep changing, right? So in that situation, what is the best strategy to actually synchronize all this like the data up to date? Like, some data might be deleted, some data might be added
+
+02:52:48.000 --> 02:53:00.000
+It's not just an append only source systems, right? So is there any like project or anything like that that actually helps us handle those kind of scenarios?
+
+02:53:00.000 --> 02:53:12.000
+So, it depends, sir, how frequently you're getting our data, right? Where you are managing our data. The data pipeline is altogether a separate pipeline, actually
+
+02:53:12.000 --> 02:53:19.000
+Okay. So, vector database, it is one part of that pipeline, it's a letter-on part of that, this parsing and the vector database
+
+02:53:19.000 --> 02:53:23.000
+The one pipeline would be the beyond to this one
+
+02:53:23.000 --> 02:53:36.000
+Okay, so let's say, in your real time, the data is coming on a regular basis. You have multiple folder inside those folders. Regularly PDF is being updated.
+
+02:53:36.000 --> 02:53:39.000
+Yes.
+
+02:53:39.000 --> 02:53:40.000
+Yes.
+
+02:53:40.000 --> 02:53:47.000
+Some PDF is being deleted. Some existing PDF is getting updated, correct? So, you will have to be identified that, actually.
+
+02:53:47.000 --> 02:53:48.000
+Yeah.
+
+02:53:48.000 --> 02:53:58.000
+Okay, let's say you are keeping the data ware, let's say you're keeping the data over the Databricks. You are building the pipeline using Databricks, you are building that pipeline using the Amazon. See, this AWS, basically, right? AWS RDS or S3, wherever, basically, whatever
+
+02:53:58.000 --> 02:54:12.000
+The database you're going to be used, right? So, accordingly will have to be managed that. Let's say data is coming, you are detecting the files and folder. Now, after detecting the file and folder, you will write a script like that. There is going to be pick only those folder which is changing
+
+02:54:12.000 --> 02:54:25.000
+And that data only you're fitting into your further pipeline, like data parsing and this vector back, and then you are storing inside the vector database, like this, okay? So it's all about the coding, scripting, and all that stuff, sir. You can manage it very easily, okay?
+
+02:54:25.000 --> 02:54:26.000
+This is called the incremental pipeline
+
+02:54:26.000 --> 02:54:28.000
+Like,
+
+02:54:28.000 --> 02:54:47.000
+Yeah, incremental pipeline, I understand, but see, some of these, like, tokens or the, like, which was already done, which was already there in the vector database, so those should be modified, right? So do we have like either the vector database that we're using or the
+
+02:54:47.000 --> 02:54:49.000
+or this parsing that we're using, does it have any automatic mechanism?
+
+02:54:49.000 --> 02:54:53.000
+Modified means what? Sorry?
+
+02:54:53.000 --> 02:54:56.000
+So some chunks, like, let's say PDF is there, like, let's say
+
+02:54:56.000 --> 02:55:06.000
+No, sir, see, the… every mechanism… see, every mechanism is there, na. See, your thinking is not onto that level, where you are able to imagine the vector database work and all.
+
+02:55:06.000 --> 02:55:07.000
+Okay.
+
+02:55:07.000 --> 02:55:11.000
+Have you ever worked with a vector database?
+
+02:55:11.000 --> 02:55:20.000
+Like, yeah, I mean, I implemented a basic RAG where I used the FAIC vector database
+
+02:55:20.000 --> 02:55:21.000
+Yes.
+
+02:55:21.000 --> 02:55:31.000
+Huh, you just executed one notebook with the files, right? But you're not able to achieve the potential of the vector database, right, and the actual design of that. We can deprecate the previous index, we can delete the earlier index, or we can update even the same index, we can keep the sub metadata
+
+02:55:31.000 --> 02:55:39.000
+Everything is possible there. Once we deeply study those vector database and all. Because many pipeline is running
+
+02:55:39.000 --> 02:55:40.000
+Yes, yes, yes.
+
+02:55:40.000 --> 02:55:44.000
+Right? So, let me come to that part. Automatically, you will be able to understand, okay?
+
+02:55:44.000 --> 02:55:58.000
+Okay, so, like, but is there any, like, a function like a synchronize or something like that, some function, which actually for which we provide the input path, so that it automatically, like, make sure that the source is in sync with the… all the embeddings? Is there any such
+
+02:55:58.000 --> 02:56:03.000
+Every… in every database SDK, you will find out these kind of functions, okay?
+
+02:56:03.000 --> 02:56:19.000
+Oh, okay, okay. Yeah, and one more thing. So, the second question. So, like, whatever the input paths that you are giving, it's actually the local paths, right? So, let's say we get… we need to get data everything from the cloud, like, all the PDFs or anything like that
+
+02:56:19.000 --> 02:56:30.000
+So, like, will you have any project where we will actually, like, implement, I mean, develop this rack system directly taken from the cloud, and also writing it to the cloud?
+
+02:56:30.000 --> 02:56:36.000
+Completely corn cloud
+
+02:56:36.000 --> 02:56:37.000
+Some AWS, or
+
+02:56:37.000 --> 02:56:39.000
+Completely from the… means you are saying, or the cloud vector database, how we can store the data, is it?
+
+02:56:39.000 --> 02:57:03.000
+No, actually, like, see, our sources, like, the PDF sources that we have worked on in this class, so let's say that is not there in our local file system, but it's there in the cloud, like somewhere in the Amazon or Microsoft, anywhere, something like that. So do we have any project where everything is actually in the cloud, the sources
+
+02:57:03.000 --> 02:57:04.000
+Okay.
+
+02:57:04.000 --> 02:57:08.000
+Project? No, I don't think so, because a spec… project would be the complete use case. Maybe in the project subscription, there would be something like that, okay? You can check out over there.
+
+02:57:08.000 --> 02:57:12.000
+So, see, sir, that is again very not difficult thing.
+
+02:57:12.000 --> 02:57:17.000
+That is not, again, very difficult thing. See, if you are
+
+02:57:17.000 --> 02:57:22.000
+Not still getting just a second, let me tell you that.
+
+02:57:22.000 --> 02:57:23.000
+Yeah, sure.
+
+02:57:23.000 --> 02:57:28.000
+You just have to be, like, open the cloud and ChatGPT, and easily it can give you those function functionalities, very easy
+
+02:57:28.000 --> 02:57:29.000
+Okay.
+
+02:57:29.000 --> 02:57:30.000
+Okay, okay.
+
+02:57:30.000 --> 02:57:31.000
+So, let's say
+
+02:57:31.000 --> 02:57:40.000
+I can show you
+
+02:57:40.000 --> 02:57:47.000
+Because in cloud, we can use some authentication path tokens, like those many things will be there in real
+
+02:57:47.000 --> 02:57:48.000
+Okay, got it, good.
+
+02:57:48.000 --> 02:57:58.000
+Also, that is not a big deal, sir. See, we can use that, so we can simply, like, configure it through the CLI or from the notebook, or from the PyScript itself. So, if you are writing this thing, let's say you are asking
+
+02:57:58.000 --> 02:58:01.000
+Can you give me a code
+
+02:58:01.000 --> 02:58:03.000
+Where
+
+02:58:03.000 --> 02:58:04.000
+my data
+
+02:58:04.000 --> 02:58:07.000
+is residing
+
+02:58:07.000 --> 02:58:09.000
+Over the
+
+02:58:09.000 --> 02:58:11.000
+AWS
+
+02:58:11.000 --> 02:58:14.000
+And using this data
+
+02:58:14.000 --> 02:58:17.000
+Using that data
+
+02:58:17.000 --> 02:58:21.000
+I wanted to
+
+02:58:21.000 --> 02:58:23.000
+do the data parsing
+
+02:58:23.000 --> 02:58:28.000
+using TalkLink. It is a…
+
+02:58:28.000 --> 02:58:29.000
+Yeah.
+
+02:58:29.000 --> 02:58:32.000
+PDF data into the multiple folder
+
+02:58:32.000 --> 02:58:37.000
+Okay. So, even you can give your code also.
+
+02:58:37.000 --> 02:58:38.000
+Okay.
+
+02:58:38.000 --> 02:58:48.000
+You can give this code also, this… your code. Okay, and ask to it, like, okay, so this keeps the pipeline same, and just give the data connectivity from the S3. It is possible.
+
+02:58:48.000 --> 02:58:49.000
+Getting my point.
+
+02:58:49.000 --> 02:59:00.000
+The only… yeah, yeah, the only thing is that VPC and all these things should be, like, we should be in the same virtual private.
+
+02:59:00.000 --> 02:59:01.000
+Yeah.
+
+02:59:01.000 --> 02:59:04.000
+Huh, you just need to make… see, on whatever server you're executing, let's say you are running on my… in local server, open the CMD, configure the AWS credential over here
+
+02:59:04.000 --> 02:59:11.000
+Yeah.
+
+02:59:11.000 --> 02:59:12.000
+Yeah.
+
+02:59:12.000 --> 02:59:21.000
+Okay, over here. Yeah, API, the secret variable or whatever, right? The AWS credential is there. Then, your local will be connected with your AWS, and easily you can work, whether it's an AWS, Databricks, Azure, you know, day-to-day job, we are doing that
+
+02:59:21.000 --> 02:59:24.000
+Okay, I work on a multiple project, and we are doing the same thing
+
+02:59:24.000 --> 02:59:25.000
+Got it, got it.
+
+02:59:25.000 --> 02:59:35.000
+We have a data in the Databricks catalog. We have connected the… we have connected the database catalog with the Databricks CLI, and we are able to work in a local itself
+
+02:59:35.000 --> 02:59:36.000
+Got it, got it. Sure, yeah. Yep.
+
+02:59:36.000 --> 02:59:46.000
+Okay. Yeah. So, that's very easy. Now, see, it is thinking, and it will give you the core. So, use the AI for this kind of curiosity, or if you're getting any kind of question.
+
+02:59:46.000 --> 02:59:47.000
+Yeah.
+
+02:59:47.000 --> 02:59:56.000
+And again, learning AI is important. Building AI application is important as much as same basically if you are able to use the AI in the right way
+
+02:59:56.000 --> 02:59:57.000
+Yep.
+
+02:59:57.000 --> 03:00:15.000
+Okay. Again, I'm saying, guys, to everyone, please use the AI, please use the copilot, whatever thing, whatever thoughts coming in your mind, give it to the ChatGPT Cloud, generate the code, and work, like, around to that, okay?
+
+03:00:15.000 --> 03:00:16.000
+Okay.
+
+03:00:16.000 --> 03:00:17.000
+Yeah, yeah, sure. Yeah, thank you. Thanks for the
+
+03:00:17.000 --> 03:00:24.000
+Yeah. See, it is able to give the complete code, maybe, from the S3 itself, so you just need to use the Boto3 SDK
+
+03:00:24.000 --> 03:00:30.000
+See, make a connectivity simply from there. Just few line of code, okay
+
+03:00:30.000 --> 03:00:33.000
+Yeah
+
+03:00:33.000 --> 03:00:34.000
+Thank you.
+
+03:00:34.000 --> 03:00:35.000
+Yeah, you got it, got it. Yes, sure. Thank you.
+
+03:00:35.000 --> 03:00:41.000
+Okay, now the next question is Naveen, okay, Sovik is already done
+
+03:00:41.000 --> 03:00:45.000
+Sankar is done, and Naveen is there.
+
+03:00:45.000 --> 03:00:48.000
+Naga is there.
+
+03:00:48.000 --> 03:00:49.000
+Yeah, hello? Hello?
+
+03:00:49.000 --> 03:00:51.000
+Weight is there, Suresh Amit. Guys, please go ahead if you have any doubt.
+
+03:00:51.000 --> 03:00:53.000
+Yeah, hi, Sani.
+
+03:00:53.000 --> 03:00:56.000
+Hi, this is Vaid
+
+03:00:56.000 --> 03:00:57.000
+Hi, Sunny. Am I audible?
+
+03:00:57.000 --> 03:00:59.000
+Wait, wait, wait, I'll come to you. Yeah, Naveen, Naveen, first you go.
+
+03:00:59.000 --> 03:01:16.000
+Yeah, yeah. So, thanks, Hani. You're too detailed explaining. I just want to give a quick feedback and maybe an upcoming session, what is the plan. I was there from all the meetings
+
+03:01:16.000 --> 03:01:34.000
+But one thing I see, like, I mean, it's very detailed, actually, so you are taking a lot of time in explaining very minute details, that is very good. But at times, the experienced persons feel like
+
+03:01:34.000 --> 03:01:53.000
+It was little lagging. So… and sometimes, I mean, I'm not criticizing this, but just want to understand what else I can learn, or what else I can do to complete this in a faster way
+
+03:01:53.000 --> 03:02:00.000
+So… can you help me… so, what I need to do, basically, to engage more,
+
+03:02:00.000 --> 03:02:17.000
+With the session. So, because I feel like, the things are a little bit, because I'm a Python developer from my beginning, so I see the code and all is a little bit easier for me, so I'm just stuck over there, actually. So could you please help me, like, how do I
+
+03:02:17.000 --> 03:02:18.000
+Move forward, yeah.
+
+03:02:18.000 --> 03:02:30.000
+Yeah, yeah, yeah, sure. See, for… what we can do… so, I can give you the assignment, okay? Some industry-grade assignment. So, after every session, basically, you can spend the time onto that, okay?
+
+03:02:30.000 --> 03:02:31.000
+Yeah
+
+03:02:31.000 --> 03:02:48.000
+So, whatever you are learning in the session, that's fine. If you know this much of thing, okay, that is also fine. But yeah, after that, basically, you can spend some time onto those, good assignment, okay? So that will keep you intact with the live classes, and you will be able to spend some your… of your knowledge, some your
+
+03:02:48.000 --> 03:02:50.000
+Some of your self-study
+
+03:02:50.000 --> 03:02:57.000
+Okay? So, I think that would be the great thing. Got it?
+
+03:02:57.000 --> 03:03:07.000
+Yeah, yeah, so it'll take a few more months, right, to complete everything, right?
+
+03:03:07.000 --> 03:03:08.000
+Okay.
+
+03:03:08.000 --> 03:03:16.000
+No, no, I will give you the assignment after every class, don't worry, so I'll keep the assignment, don't worry, okay? So I will not wait for completing any module or one month, two months, something like that. So, I'll try to give you every
+
+03:03:16.000 --> 03:03:17.000
+Oh.
+
+03:03:17.000 --> 03:03:21.000
+Yeah, maybe more assignment, more engagement, that'll help me at least. So, if you give more assignments
+
+03:03:21.000 --> 03:03:22.000
+Yeah.
+
+03:03:22.000 --> 03:03:34.000
+Correct, correct, correct. I understood, many of you… yeah, many of you, like, want, actually, because, everyone is not on the same page. Some of you can understand very quickly, and some of you basically require more time, okay?
+
+03:03:34.000 --> 03:03:46.000
+So, I understand that. So, whoever knows everything, already, and having some good idea of the coding and all. So, for those folks, I can give you the assignment, they can solve it, okay, after every class.
+
+03:03:46.000 --> 03:03:47.000
+Yeah.
+
+03:03:47.000 --> 03:03:48.000
+Yeah, yeah, that will help, that'll help.
+
+03:03:48.000 --> 03:03:49.000
+Hi, Sandy
+
+03:03:49.000 --> 03:03:50.000
+No.
+
+03:03:50.000 --> 03:03:51.000
+Thank you.
+
+03:03:51.000 --> 03:03:52.000
+Yes, Sunny Amity Side
+
+03:03:52.000 --> 03:03:53.000
+So
+
+03:03:53.000 --> 03:03:57.000
+Yeah, wait a minute, wait, please go ahead.
+
+03:03:57.000 --> 03:04:00.000
+Yeah, hi. How are you doing, son?
+
+03:04:00.000 --> 03:04:02.000
+Yeah, yeah, doing good with
+
+03:04:02.000 --> 03:04:03.000
+What about you?
+
+03:04:03.000 --> 03:04:15.000
+Good, thanks. So I just want… thank you. Thank you. I'm doing good. Thank you very much for asking. I have a question about the parsing side of
+
+03:04:15.000 --> 03:04:16.000
+So
+
+03:04:16.000 --> 03:04:22.000
+Which library do you suggest? Or is there any free library which can help me
+
+03:04:22.000 --> 03:04:24.000
+to parse the
+
+03:04:24.000 --> 03:04:37.000
+technical documents correctly, like, not cut a table in the middle, or take half the picture kind of scenarios.
+
+03:04:37.000 --> 03:04:46.000
+Which library, basically, I will suggest you, I would suggest you this Llama Pass and DocLink, okay? You can deep dive into this tool library. It is a pretty good one.
+
+03:04:46.000 --> 03:04:56.000
+Okay, you can do most of your work with this library
+
+03:04:56.000 --> 03:04:57.000
+Okay.
+
+03:04:57.000 --> 03:05:08.000
+If you have a subscription of the Azure Document Intelligence, even you can utilize those as well. You can utilize this ADI also, as a document intelligence. I have used that, I have a good experience with the ADI, but again, it is expensive. If you are using it in any company, basically, let's say if,
+
+03:05:08.000 --> 03:05:09.000
+A company is sponsoring that
+
+03:05:09.000 --> 03:05:16.000
+Yeah, my question was regarding that only
+
+03:05:16.000 --> 03:05:17.000
+Okay.
+
+03:05:17.000 --> 03:05:27.000
+Then in that case, I think you can use the ADI, okay? Or else ask them to provide you the Llama parser at least, okay? Otherwise, if they are not agreeing for any anything like llama parts or adi, then use start using this doc link
+
+03:05:27.000 --> 03:05:32.000
+Okay, okay. Okay, thank you. Thank you, sir. Have a nice one.
+
+03:05:32.000 --> 03:05:33.000
+Yeah
+
+03:05:33.000 --> 03:05:34.000
+Thank you.
+
+03:05:34.000 --> 03:05:35.000
+Yeah, Amit… Amit, you go ahead.
+
+03:05:35.000 --> 03:05:37.000
+Yeah, yesterday. Can I… yeah
+
+03:05:37.000 --> 03:05:54.000
+Yeah, yeah. So, Sunny, actually, in one of the… my project, I want to utilize RAG, okay? The project is basically the initial… I have a chatbot, the chatbot applications, okay? That solve the general purpose queries
+
+03:05:54.000 --> 03:06:06.000
+But the know is that there is a multiple agents, which has the MD file is around 2 page, 3 page, and around 5 to 6 agents who are there.
+
+03:06:06.000 --> 03:06:16.000
+So, for the initial, when we calling the LLM to intent classifier, we need to give all the agents
+
+03:06:16.000 --> 03:06:25.000
+definition MD file to LLM to intent classifier. So, in that context, can we use any way in the RAG
+
+03:06:25.000 --> 03:06:30.000
+to some kind of, you can say, the intent
+
+03:06:30.000 --> 03:06:46.000
+sort our intent to provide the… or you can say the sorter definition to provide the agent to reduce the input token cost
+
+03:06:46.000 --> 03:06:47.000
+Do you get my question?
+
+03:06:47.000 --> 03:06:49.000
+Which LLM you are using?
+
+03:06:49.000 --> 03:06:51.000
+Germany.
+
+03:06:51.000 --> 03:06:52.000
+For intent classifier
+
+03:06:52.000 --> 03:06:55.000
+Okay.
+
+03:06:55.000 --> 03:07:01.000
+You are using Germany. So, how many… 52 you have, 5 to 6 agents, right?
+
+03:07:01.000 --> 03:07:14.000
+5 to 6 agents, and each agent contain around 4 to 5 pieces, definition, empty files of that. So if we're giving the… even it is not scalable
+
+03:07:14.000 --> 03:07:26.000
+If the agent is again coming, then the… at the first point, we give the, all the files definitions and all those things in the prompt
+
+03:07:26.000 --> 03:07:27.000
+And then…
+
+03:07:27.000 --> 03:07:33.000
+See, what I can understand now, with your question, your orchestration should be very clear
+
+03:07:33.000 --> 03:07:34.000
+Yeah.
+
+03:07:34.000 --> 03:07:36.000
+Okay. Means, let's say, first you're getting user query.
+
+03:07:36.000 --> 03:07:37.000
+Correct.
+
+03:07:37.000 --> 03:07:40.000
+Now, it is retrieving the most relevant agent definition
+
+03:07:40.000 --> 03:07:41.000
+Right.
+
+03:07:41.000 --> 03:07:44.000
+Okay. Now, let's say it is selecting 2 to 3 candidate
+
+03:07:44.000 --> 03:07:45.000
+Correct.
+
+03:07:45.000 --> 03:07:51.000
+Okay. Now, LLM intend classify as choosing one agent
+
+03:07:51.000 --> 03:07:58.000
+And then, one single agent is handling that request. So, your this, basically
+
+03:07:58.000 --> 03:08:00.000
+Orchestration should be good over here.
+
+03:08:00.000 --> 03:08:17.000
+No, no, no. So, I'm saying in the first call, when we select the agent on the basis of user query, we… we are going to select either… we select the… one of the agent, or we select the previous, what were the normal direct LLM call
+
+03:08:17.000 --> 03:08:32.000
+Okay, so on the basis of that… so first we give the prompt to the LLM. These are… I have an agent, the definition is this, and it is a normal, then normal call the LLM
+
+03:08:32.000 --> 03:08:36.000
+So this kind of first, the query which is given to LLM, it is a huge data
+
+03:08:36.000 --> 03:08:42.000
+Do one thing. See, have you used… are you building it using the land graph?
+
+03:08:42.000 --> 03:08:43.000
+Landroff, right
+
+03:08:43.000 --> 03:08:54.000
+So, do one thing, just export the image flow from there, and show me in tomorrow's session, okay?
+
+03:08:54.000 --> 03:08:58.000
+Oh, actually, I cannot show it is in my laptop, official laptop
+
+03:08:58.000 --> 03:08:59.000
+So, this is a problem
+
+03:08:59.000 --> 03:09:05.000
+Just take a picture in the phone and show me that.
+
+03:09:05.000 --> 03:09:07.000
+Okay.
+
+03:09:07.000 --> 03:09:08.000
+So.
+
+03:09:08.000 --> 03:09:15.000
+Okay, means, see, I'm not saying the exact one, let's say whatever image, whatever that flow you have, just take an image of that.
+
+03:09:15.000 --> 03:09:23.000
+And generate some nearby image using the ChatGPT and show me that that's it, okay?
+
+03:09:23.000 --> 03:09:24.000
+Okay.
+
+03:09:24.000 --> 03:09:31.000
+Okay, okay, okay, fine. Actually, I thought some way, if I'm using the rag at an initial point
+
+03:09:31.000 --> 03:09:32.000
+Then my input token will be reduced
+
+03:09:32.000 --> 03:09:42.000
+You can use, I just told you, na, in the initial of the answer only. Use the… retrieve the most relevant agent definition, okay? That's it.
+
+03:09:42.000 --> 03:09:44.000
+Okay
+
+03:09:44.000 --> 03:09:47.000
+Okay, okay, thank you. Okay.
+
+03:09:47.000 --> 03:09:48.000
+Thank you.
+
+03:09:48.000 --> 03:09:49.000
+Okay, sir.
+
+03:09:49.000 --> 03:09:50.000
+Hey, hi, Sunny, Vivek here
+
+03:09:50.000 --> 03:10:20.000
+Yeah, Vivek, Manish, give me a minute, okay, wait.
+
+03:11:42.000 --> 03:11:45.000
+Yeah, Vivek Manish, guys, you can go ahead.
+
+03:11:45.000 --> 03:11:48.000
+Yeah
+
+03:11:48.000 --> 03:12:05.000
+So basically, actually, my first question is, basically, so, from the code, like, this one, data parsing part for Llama part 1, so here, actually, I've seen that this typically converts an SDK pattern that
+
+03:12:05.000 --> 03:12:16.000
+It is the instance, like, one… so… so, in… practically, so, when this code, this kind of code be… be right, definitely
+
+03:12:16.000 --> 03:12:22.000
+So, this is another, see, whenever we are going to be parse the data, na? So, it is coming into some objects
+
+03:12:22.000 --> 03:12:33.000
+Okay, okay.
+
+03:12:33.000 --> 03:12:34.000
+Okay.
+
+03:12:34.000 --> 03:12:41.000
+Okay. So, we have to be convert that object into the Python native data structure, that's it. So, for that, we are using the specific code. Again, it depends, like, library to library, so in the documentation only, they have suggested like that, so we are you doing that said. Just execute that specific cell, you will understand, okay?
+
+03:12:41.000 --> 03:12:42.000
+Okay, okay.
+
+03:12:42.000 --> 03:12:48.000
+And, one more question is, like, suppose
+
+03:12:48.000 --> 03:13:06.000
+If… if we have… I'm asking a question from… not from this… this part, but from the agent. Like, suppose if you have multiple agents, like 5, 6, 10 agents are there, and if suppose one person is communicating to all the agent, like, in a sequential manner
+
+03:13:06.000 --> 03:13:22.000
+So, like, suppose, in case of, like, HR agent, like, for the job application, suppose there are 5, 10 agents are there, so suppose first day he's spoken with one agent, and there is some dependencies, then second on the… to the other agent. So, is it counted as a one session, or
+
+03:13:22.000 --> 03:13:27.000
+Or it should be counted in multiple sessions.
+
+03:13:27.000 --> 03:13:30.000
+So, I'll get you my question.
+
+03:13:30.000 --> 03:13:31.000
+So, suppose there are
+
+03:13:31.000 --> 03:13:33.000
+No, I didn't, I didn't get
+
+03:13:33.000 --> 03:13:45.000
+So, basically, suppose, like, there are, for any job requisition, or any kind of, HR-related thing, like, suppose if you're hiring any
+
+03:13:45.000 --> 03:14:00.000
+Suppose there is journey which led to that hiring request, like, for interview scheduling, then job at then… then there are multiple agents which are involved, right?
+
+03:14:00.000 --> 03:14:14.000
+So, suppose if… if there are multiple agents are involved, so if a person is… if a person is interacting with the multiple agents, like, first agent has, so then agent has interacted with other agents
+
+03:14:14.000 --> 03:14:17.000
+So there are multiple chats, right?
+
+03:14:17.000 --> 03:14:21.000
+So, is that the… if that… there is a multiple chat, so is that a single session?
+
+03:14:21.000 --> 03:14:23.000
+And a
+
+03:14:23.000 --> 03:14:25.000
+Meeting our class
+
+03:14:25.000 --> 03:14:28.000
+Guys, please mute yourself. Yeah, Manish.
+
+03:14:28.000 --> 03:14:37.000
+So, is it would be a single session, or it would be multiple sessions
+
+03:14:37.000 --> 03:14:41.000
+See if all the agents share the same session ID.
+
+03:14:41.000 --> 03:14:47.000
+Okay, use a conver- use a contact conversation history or shared memory or state, right?
+
+03:14:47.000 --> 03:14:51.000
+Then the complete interaction can be treated as a one session only.
+
+03:14:51.000 --> 03:14:52.000
+Okay, but it would be… yeah
+
+03:14:52.000 --> 03:14:55.000
+Okay, even though multiple agents are involved here
+
+03:14:55.000 --> 03:15:16.000
+Okay, okay. But it would be, like, very long journey there, right? That interaction has… is… that workflow is required to have interaction with multiple
+
+03:15:16.000 --> 03:15:17.000
+Hmm.
+
+03:15:17.000 --> 03:15:26.000
+10 agent, like, suppose if in a single day, or if there's any approval is also involved. So in that case, also, if any human in the loop also, so in that case also, it would be a
+
+03:15:26.000 --> 03:15:31.000
+Finger session, or it would be… it can be multiple session also.
+
+03:15:31.000 --> 03:15:36.000
+Sir, it depends, actually, Matlov, how you are designing that, how I can say, actually
+
+03:15:36.000 --> 03:15:38.000
+Okay…
+
+03:15:38.000 --> 03:15:54.000
+Okay, so let's say HR agent, one session, or let's say you are going to be design one system, HR system, right? So, we are basically what you have. You have HR agent session, you have verification agent session, scheduling agent session
+
+03:15:54.000 --> 03:15:58.000
+So, through every session also, you can define 111 session
+
+03:15:58.000 --> 03:16:04.000
+Okay, or under one ID also, you can, handle the multiple thing
+
+03:16:04.000 --> 03:16:05.000
+But, yeah, but
+
+03:16:05.000 --> 03:16:07.000
+Getting my point. So, both… both is possible.
+
+03:16:07.000 --> 03:16:28.000
+Yeah, but there are multiple sessions if the multiple sessions are there, so how… how this information would you pass to the other agent? Like, if… in case, if it is one session, then I can understand that the… if it is a state… stateful kind of thing, it's a line graph, and it's a stateful agent
+
+03:16:28.000 --> 03:16:46.000
+So, then the information can be passed to the other agent, then the business context can be sent. But if it were different session, like, everyone agent would be, would be in a different session, so how this knowledge, how this, this business context will be sent to the other agent
+
+03:16:46.000 --> 03:16:50.000
+I think, sir, will share the estate only, in that case.
+
+03:16:50.000 --> 03:16:52.000
+Okay.
+
+03:16:52.000 --> 03:16:54.000
+Okay.
+
+03:16:54.000 --> 03:17:01.000
+See, automatically to an email, will automatically will not be there. If you will check out
+
+03:17:01.000 --> 03:17:04.000
+This length of now, so there is one hand… hands-off mechanism
+
+03:17:04.000 --> 03:17:05.000
+Okay.
+
+03:17:05.000 --> 03:17:11.000
+Okay, lunch and hands off… I think will also be covered that hands-off part.
+
+03:17:11.000 --> 03:17:17.000
+So there, we can provide the information from one agent to the another agent, okay?
+
+03:17:17.000 --> 03:17:32.000
+But, yeah, so… so is it… is it used… is it required to use, like, persistence memory also for this, session memory, and also for the long-term memory also, for this kind of
+
+03:17:32.000 --> 03:17:34.000
+product with your building, or if it's a…
+
+03:17:34.000 --> 03:17:38.000
+Persistent memory would be required, sir, in that case.
+
+03:17:38.000 --> 03:17:39.000
+For both
+
+03:17:39.000 --> 03:17:42.000
+If you wanted to be sustained the information for the longer run, you will have.
+
+03:17:42.000 --> 03:17:52.000
+Yeah, for both, like, for the session also, and, session only, right? Session that will come into short term, and also that
+
+03:17:52.000 --> 03:17:57.000
+into the long term also, right? Yeah, yeah.
+
+03:17:57.000 --> 03:17:59.000
+Okay, fine.
+
+03:17:59.000 --> 03:18:01.000
+Thank you
+
+03:18:01.000 --> 03:18:02.000
+Okay, thank you.
+
+03:18:02.000 --> 03:18:03.000
+Hey, Sunny.
+
+03:18:03.000 --> 03:18:06.000
+Maybe here
+
+03:18:06.000 --> 03:18:16.000
+like, I have credit related to that overall, that rag-like pipeline. So, like, what were the pipeline we are defining, like,
+
+03:18:16.000 --> 03:18:28.000
+Parsing, chunking, embedding, and all. So, these are the, like, kind of, like, sequence of the pipeline at the one time, or it's like
+
+03:18:28.000 --> 03:18:31.000
+recurring kind of things, like, every time it will execute. Like, whenever
+
+03:18:31.000 --> 03:18:35.000
+It's a recurring, sir. It's a recurring
+
+03:18:35.000 --> 03:18:39.000
+Okay, so whenever we are deploying in broad, so
+
+03:18:39.000 --> 03:18:47.000
+The data will come, so every time it will parse and, chunk and
+
+03:18:47.000 --> 03:18:48.000
+In bed like that.
+
+03:18:48.000 --> 03:18:51.000
+Whenever the new data will come, na, then only it will be.
+
+03:18:51.000 --> 03:18:56.000
+And if it is, like, aesthetic, so it, like, one-time activity.
+
+03:18:56.000 --> 03:18:57.000
+If data is, like, in, like, your policy and all
+
+03:18:57.000 --> 03:19:07.000
+Yeah, correct, correct. If data is static, then it is one time, right.
+
+03:19:07.000 --> 03:19:12.000
+Yeah, okay, fine. Thank you.
+
+03:19:12.000 --> 03:19:13.000
+Hi, Sunny.
+
+03:19:13.000 --> 03:19:14.000
+Hi, Shaninga. Raul is
+
+03:19:14.000 --> 03:19:15.000
+Yeah.
+
+03:19:15.000 --> 03:19:17.000
+Yeah, yeah, Nagarah, who… anyone is there, please go ahead.
+
+03:19:17.000 --> 03:19:20.000
+Yeah, I just wanted to know about the graph rag.
+
+03:19:20.000 --> 03:19:23.000
+Is it same or different?
+
+03:19:23.000 --> 03:19:25.000
+The process.
+
+03:19:25.000 --> 03:19:29.000
+Just a different way of arranging your data, that's it.
+
+03:19:29.000 --> 03:19:32.000
+Okay, this will also cover in this course, right?
+
+03:19:32.000 --> 03:19:35.000
+I can show you one use case, okay?
+
+03:19:35.000 --> 03:19:36.000
+Yeah.
+
+03:19:36.000 --> 03:19:38.000
+Okay, thank you.
+
+03:19:38.000 --> 03:19:53.000
+Sunny, I have only one small, very, very small question. So, the hackathon that you have shown is not showing in the portal. I already put it in the chat, but could you help… could you also check with the technical team whether it is available?
+
+03:19:53.000 --> 03:19:54.000
+I'm from USA, though.
+
+03:19:54.000 --> 03:19:59.000
+Yeah, yeah, whatever, issues you are facing, just put it over there, our developer will see over there, okay?
+
+03:19:59.000 --> 03:20:10.000
+Yeah, because the messages are… keep on pouring, right? So, it's difficult to track in each and every message. So if they can help us in the back end, maybe it'll help you out
+
+03:20:10.000 --> 03:20:16.000
+No, see some common issues would be there, don't worry, we'll check it out there. Just put it over there, okay? Don't worry, sir.
+
+03:20:16.000 --> 03:20:18.000
+Okay, sure. Thank you so much, Sunny. Bye.
+
+03:20:18.000 --> 03:20:20.000
+Yeah, thank you.
+
+03:20:20.000 --> 03:20:24.000
+Hey, Sunny, this is Suresh.
+
+03:20:24.000 --> 03:20:38.000
+Yeah, I wanted to ask about, the hackathon, thing. Like, I'm going through the documentation, like, I didn't understand what is meant by this,
+
+03:20:38.000 --> 03:20:47.000
+Enabling the automated checks. Download the workflow file, that is YAML file. I need to add it to the
+
+03:20:47.000 --> 03:20:50.000
+GitHub workflow under that folder structure.
+
+03:20:50.000 --> 03:20:54.000
+No, for submission, you just have to do that thing.
+
+03:20:54.000 --> 03:20:55.000
+Pardon?
+
+03:20:55.000 --> 03:20:58.000
+Okay. Let's say you created one GitHub
+
+03:20:58.000 --> 03:20:59.000
+Okay.
+
+03:20:59.000 --> 03:21:00.000
+Correct?
+
+03:21:00.000 --> 03:21:01.000
+Okay
+
+03:21:01.000 --> 03:21:02.000
+For submission, you will create a GitHub, na, correct, na?
+
+03:21:02.000 --> 03:21:07.000
+Yeah, I have the GitHub repo
+
+03:21:07.000 --> 03:21:08.000
+So I will
+
+03:21:08.000 --> 03:21:12.000
+Which GitHub? No, I'm saying for project submission, you will create a GitHub, correct?
+
+03:21:12.000 --> 03:21:14.000
+Yeah, yeah, correct, correct.
+
+03:21:14.000 --> 03:21:19.000
+On our GitHub repo. So, inside that GitHub repo, actually, you have to keep the YAML file, that's it.
+
+03:21:19.000 --> 03:21:21.000
+Okay
+
+03:21:21.000 --> 03:21:22.000
+Yeah.
+
+03:21:22.000 --> 03:21:23.000
+Oh, okay. What is that purpose?
+
+03:21:23.000 --> 03:21:31.000
+The purpose, basically, will check out based on those test cases. We have written some common test cases over there, okay?
+
+03:21:31.000 --> 03:21:32.000
+Okay, okay.
+
+03:21:32.000 --> 03:21:33.000
+Yeah.
+
+03:21:33.000 --> 03:21:41.000
+So, can I just opened, opened that YAML file, it talks about
+
+03:21:41.000 --> 03:21:59.000
+Like, how we can place the token, blah blah, some authorization where a token. So, is that my token, if I'm using any open API key token, I need to place it over there, and the submission token, I need to place there, or
+
+03:21:59.000 --> 03:22:01.000
+Have you seen any other model
+
+03:22:01.000 --> 03:22:06.000
+Only you… see, for submission purpose, you just need to be keep the submission token inside the secret
+
+03:22:06.000 --> 03:22:07.000
+Okay.
+
+03:22:07.000 --> 03:22:11.000
+Okay, and keep this YAML file, so that we can track your solution. Got it?
+
+03:22:11.000 --> 03:22:13.000
+Oh, okay, I got it, got it.
+
+03:22:13.000 --> 03:22:14.000
+So this is just a workflow
+
+03:22:14.000 --> 03:22:19.000
+Yeah, so that… whatever… see, see, let me explain. I think… are you familiar with the CICD and all, everything?
+
+03:22:19.000 --> 03:22:21.000
+Yeah, yeah.
+
+03:22:21.000 --> 03:22:23.000
+I have family right now.
+
+03:22:23.000 --> 03:22:24.000
+Yeah, yeah.
+
+03:22:24.000 --> 03:22:27.000
+Okay, so see what is happening, actually?
+
+03:22:27.000 --> 03:22:30.000
+We are providing you this YAML
+
+03:22:30.000 --> 03:22:40.000
+Inside that, we have already written some test cases, so whenever you will integrate a solution over the GitHub, automatically, these test cases will be executed over the GitHub action
+
+03:22:40.000 --> 03:22:41.000
+Okay. Okay.
+
+03:22:41.000 --> 03:22:50.000
+Okay, and with that token, basically, it will be reflecting to our server also. Because to every candidate, we are going to be provide that unique token. Getting my point? Yes or no?
+
+03:22:50.000 --> 03:22:51.000
+Okay. Okay, yeah
+
+03:22:51.000 --> 03:22:53.000
+So that's the main intention of it.
+
+03:22:53.000 --> 03:22:55.000
+I hope you understood.
+
+03:22:55.000 --> 03:23:02.000
+Yeah, yeah, sure. So, like, when I finish completely, then I can push it, instead of, you know
+
+03:23:02.000 --> 03:23:04.000
+If I start today, like, in
+
+03:23:04.000 --> 03:23:11.000
+No, you can keep any time, automatically the pipeline will be running. See, if you are familiar with the CICD, I think you can understand, actually.
+
+03:23:11.000 --> 03:23:12.000
+Yeah.
+
+03:23:12.000 --> 03:23:13.000
+Okay, yeah, okay, I understand. Thank you.
+
+03:23:13.000 --> 03:23:21.000
+Yeah
+
+03:23:21.000 --> 03:23:27.000
+Okay, next doubt is, anyone having any doubt?
+
+03:23:27.000 --> 03:23:31.000
+Yes, Romki, what's a doubt
+
+03:23:31.000 --> 03:23:33.000
+Hi Sunique.
+
+03:23:33.000 --> 03:23:49.000
+So, actually, you are saying, like, using the off-link Wisc, right? We fetch the data from the image, right? So I see that the image is being placed into image folder. Okay so
+
+03:23:49.000 --> 03:24:04.000
+From the PDF document. So again, that image is going to be, like, extracted. I mean, the data from that image also going to be extracted, because finally, whatever the parsing we have done right, we have to embed and put it into vector DB, right?
+
+03:24:04.000 --> 03:24:14.000
+So… so, are we, like, whatever that image we extracted from the Pdf again we extract the data from the image for the embedding.
+
+03:24:14.000 --> 03:24:20.000
+We have already done that. Now, if you will check out the solution, you will get the OCR result also there.
+
+03:24:20.000 --> 03:24:30.000
+Okay. I saw, like, in Versia, using Versier, from the PDF you extracted, like, table, image, and everything, I'll put it in the separate folder.
+
+03:24:30.000 --> 03:24:31.000
+Again
+
+03:24:31.000 --> 03:24:36.000
+Hmm. In the JSON… in the JSON also, you will find out the OCR-related output, that is data from the text image itself, okay?
+
+03:24:36.000 --> 03:24:40.000
+Okay, okay, alright, got it.
+
+03:24:40.000 --> 03:24:47.000
+And one more thing, Asuni. So, we are having many kind of, like,
+
+03:24:47.000 --> 03:25:03.000
+document parsing, right? So, at Enterprise level, if we prefer, like, open source thing, so, Docklink is one of the best one, right? So, do we have any kind of, like, other open source which we can actually prioritize to use it
+
+03:25:03.000 --> 03:25:11.000
+So I understand agile development is there, but it's kind of, like, expensive and paid version. So I'm just looking for open source ones. So, other than
+
+03:25:11.000 --> 03:25:15.000
+You can utilize that, unstructured.io also
+
+03:25:15.000 --> 03:25:17.000
+Okay.
+
+03:25:17.000 --> 03:25:25.000
+So if we compare all open source, right, what are the best three which you can actually like recommend
+
+03:25:25.000 --> 03:25:29.000
+Sir, which is the best on how I can say
+
+03:25:29.000 --> 03:25:49.000
+I mean, like, it's at least, like, not best, at least we can prefer to, like, choose, maybe, like, we can do kind of PVOCs, then what we can actually prefer as per the class, I can see, like, toffling, and also you said, should I go. Do you also, like, mention any other couple of free, like, open source one
+
+03:25:49.000 --> 03:25:55.000
+So, I would suggest you just check out the different, different forum and, they're, basically
+
+03:25:55.000 --> 03:25:57.000
+reviews, okay?
+
+03:25:57.000 --> 03:26:09.000
+So many developers are writing about that unstructured Iowa Llama index on many different platforms, people are writing. So, what I've found
+
+03:26:09.000 --> 03:26:14.000
+Dockling, Lama Parser, unstructured.io, those 3 are the good one
+
+03:26:14.000 --> 03:26:15.000
+Alright, okay.
+
+03:26:15.000 --> 03:26:20.000
+Okay. If you want… if you wanted to keep at the first one, then Dock Link.
+
+03:26:20.000 --> 03:26:25.000
+Okay, because it's local, open source one, structured PDF Parsing
+
+03:26:25.000 --> 03:26:28.000
+Even it can pass very heavy document
+
+03:26:28.000 --> 03:26:34.000
+llama parts, again, very complex PDF scan table, chart, everything it can pass
+
+03:26:34.000 --> 03:26:46.000
+parts, basically. Okay? If you have an unstructured, then a structure also can do the same thing. But again, it's a little heavy and takes more time. So I would suggest use dockling and Llama parts, so that's why I selected this too.
+
+03:26:46.000 --> 03:26:48.000
+For the class also.
+
+03:26:48.000 --> 03:26:57.000
+Okay, but Lama Parcel, we are having some 10,000 credits, right? So I don't think, in enterprise level,
+
+03:26:57.000 --> 03:26:58.000
+Would be preferable.
+
+03:26:58.000 --> 03:27:05.000
+No, in the enterprise level, you no need to log in with your personal mail ID, no, there, or any, like, personal… your company mail ID
+
+03:27:05.000 --> 03:27:08.000
+Your IT team will only provide you, you know, that
+
+03:27:08.000 --> 03:27:09.000
+Okay.
+
+03:27:09.000 --> 03:27:10.000
+Okay.
+
+03:27:10.000 --> 03:27:12.000
+So, we need to generate that API key again, like,
+
+03:27:12.000 --> 03:27:22.000
+Got it.
+
+03:27:22.000 --> 03:27:23.000
+Correct, correct, correct.
+
+03:27:23.000 --> 03:27:25.000
+But, the PDF document, which are any input document which we are going to upload, again, it will go to that cloud, correct? So that's what
+
+03:27:25.000 --> 03:27:31.000
+Bit hesitant to, like, prefer to do viewership on that llama
+
+03:27:31.000 --> 03:27:42.000
+Yeah, I'll let I can
+
+03:27:42.000 --> 03:27:43.000
+Yeah.
+
+03:27:43.000 --> 03:27:49.000
+Also, directly you don't do such things, sir. First, you connect with your team, you take the insurity of your data, right? And then only you do such activity. Otherwise, see, sir, if someone is doing a billion dollar business, okay, with their data, like, how… why they will provide the
+
+03:27:49.000 --> 03:27:50.000
+Yeah, loud, correct
+
+03:27:50.000 --> 03:27:53.000
+their data to any other company, or to any other platform, correct?
+
+03:27:53.000 --> 03:28:06.000
+Let's say I am a big research company where I'm doing a research on medicine and all, and I have a billion-dollar research, okay, with that, I can change the future of the, basically this humanity
+
+03:28:06.000 --> 03:28:11.000
+So while that kind of research, and I'll put that kind of data on any other platform, okay?
+
+03:28:11.000 --> 03:28:19.000
+For that, we have so many NOCs, science NOCs, and we are using very restricted platform for those things, right?
+
+03:28:19.000 --> 03:28:27.000
+Understand, thank you.
+
+03:28:27.000 --> 03:28:33.000
+Okay, guys, I think we are done, fine, thank you guys, bye-bye, take care, I'll see you in the next class. Bye.
+
