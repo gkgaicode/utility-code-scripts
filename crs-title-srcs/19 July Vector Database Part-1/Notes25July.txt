@@ -1,0 +1,1039 @@
+Transcript
+Start : 20:16:23
+Okay, now it is available. So, guys, you will find out the notes of today's session also. You can directly take out the quote from here, okay? ChromaDB, Pinecone, and the quad end code is also updated. You can directly take this code from here, and alongside, you can practice.
+Now, Rahul is saying, transcript is updated, let me check out whether it is updated or not, give me a moment
+Let me check out with our lecture itself, okay? Wait.
+So, where is the transcript
+This is the patch
+Guys, the transcript is updated, you can go and check out the resource section. I think in every resource section, you will get that.
+Got it?
+So just give me the quick confirmation, if you are able to see that, then I think we can go ahead, okay?
+Yes, registration is closed for the hackathon. Whenever we'll launch the new hackathon, you will… you will be able to enroll over there. Got it?
+We are checking about the transcript, right?
+I send the video, upload in the Europe Vectorless DV, and to implement
+No, it is not related to the batch, Arti, it is a separate video. Got it? So, in batch, again, we'll discuss that part.
+Fine. So, let's, do one thing, guys. First of all, let me, write the topic over the blackboard itself
+Then only will discuss, okay? So I hope it is visible to all of you. So, see you guys. What all thing we have discussed so far. So, in the RAG, actually, we have seen the complete RAG pipeline
+We discuss the complete rack pipeline, how does it work
+Okay. We have seen the data parsing concept, like, how the data parsing works, right?
+Data parsing means what? Data parsing means extraction of the data.
+arrangement of the data, okay? So, extraction of the data, actually, that is called the data passing. Now we are into the Vector database
+Okay. So, right now, we are covering this particular part
+Right now, we are talking about this particular part. Now, after that, guys, we'll talk about the retrieval.
+We'll discuss the different, different retrieval technique, and how many way you can retrieve the data from the, vector database. Now, one more technique is remaining, that is a chunking one. So that also I need to discuss
+chunking strategy, the different, different chunking concept, okay? So this chunking also I will discuss in one of the classes
+Now, apart from this one, prompting is also required, okay?
+So I'll discuss about the prompting also.
+So I will discuss about the prompting, how you can, basically write a good prompt, and, you know, how many way you can configure the prompt, okay?
+Then, guys, we'll see the… again, we'll develop an end-to-end RAG
+So I will, build one end-to-end rack, okay?
+And inside this ride bicycle tab will cover most of the part, like, how to handle the text
+How to handle the tables
+How to handle the images
+So this is going to be complete multi-model ride
+Okay, then
+Finally, I'll give you one.
+Mega assignment.
+Okay?
+Then again, I will give you 1 mega assignment, so this is going to be first reg assignment
+Then, guys, we'll enter into the agent
+Okay? And then we'll discuss the Agentic flow, Agentic rack flow
+Multi-agentic system
+multi-agentic system, okay?
+And the other different concept, and then directly we'll jump to the end-to-end project. Got it, guys?
+So this is going to be what? This is going to be a complete flow for the upcoming session. I hope this is clear. Now, in between, I'm thinking to cover one more part
+So, I'm thinking to cover, one, I'm thinking to cover the updated LangChain part, okay?
+Updated Langchen part
+Sunny Savita
+20:21:24
+So, I will take one session on top of the language chain
+Okay, updated language in one. And there only, I can discuss about the Vectorless approach
+Okay, how to build the Vectorless database… Vectorless rack. It is very easy to build, nothing is there, right?
+Not MCP and all, we will discuss inside the Agentic chapter only, after the Agentic chapter. So, after this multi-agentic system only, we'll discuss the MCP, we'll discuss the evaluation stuff
+Okay.
+We'll discuss about the guardrails
+So, all this concept, actually, it will come over here, this one. Got it, guys? Great. Cloud code and all we'll discuss later on, right?
+Okay. So, Langraph and not all this framework will be covered over here inside the Agentic only, right?
+I hope, this part is clear. Now, N8N Cloud and all, this will discuss later on.
+First of all, let's cover the development side of the generative AI. Then there's no code AI, Claude and all, okay? This is not directly related to the development. So this part I will cover in the this part I will cover after the end-to-end project. Got it?
+Is it clear to all of you? Tell me yes or no.
+Yeah, inside this retriever and all only, this hybrid rack and all, everything comes, right? It is just a terms and terminology, if you are able to understand this Vectorless RAG retrieval approaches, okay? This end-to-end RAG process, easily you can understand the hybrid RAG and all, right?
+I hope this is clear. Now, guys, let's do one thing. Okay, let me tell you one more thing, guys. So next weekend, actually,
+On Saturday, I might not be available, because I have to travel, guys, okay?
+On Saturday now. Next Saturday, basically, I have to travel. So, on 1st of August
+So, guys, can I schedule this session on next Wednesday?
+Can I take this session on next Wednesday?
+This one
+On Wednesday, I can schedule it, because next Saturday, actually, I might not be available, I have to travel, for something. So, I think I can take it on Wednesday.
+See, I will schedule it for 9 o'clock, 9 to 11 or 12, okay?
+So, after 9 o'clock only will be taking, I will take that
+Yeah, it is working days, I understand, but just, like, guys, adjust it for one session only, no?
+Okay, for Saturday only.
+Week of no, I will not, give the week off, guys, because, there are so many topics which I need to discuss, and I will not give you the, like, this one. Leave, okay? So…
+What we'll do, guys, I'll let you know tomorrow, so let me discuss with the team, okay? So only one session is there, you can compensate it with the recording if you are not able to see because of something, okay? So you can compensate it with the recording itself.
+Got it, guys? Okay. So, there is one session, guys, okay? One session. So, Wednesday or Thursday, tomorrow, I will confirm that. Got it?
+Good. So, fine, I think, this is clear. Now, let's do one thing, guys. Let's start with the class. So, here is the code for the files. So, first of all, guys, let me discuss the remaining part of the files, okay?
+So, something was remaining inside the file's code itself. So, I discussed till where, I discussed till the basic… I discussed basically till the fundamental concept of the PHIS
+Okay? If you will check out with this notebook now, you will be getting that. Now, what we are going to do, guys, so, now, we are going to be, like, store the real data inside the files, okay? We are going to be vector, vectorize the data, and we are going to be stored inside the files
+Okay? And then I'll show you how you can retrieve it from there. Got it? So, let's do one thing, guys. Let's do one thing, guys. Let's understand that part. So, over here, guys, I already kept the code and all. Definitely you can check out, over the… from the GitHub itself.
+Now, let me configure the, OpenAI model, because when I executed it with the Jimny model, right, so it was giving me this resource adjust error. So let me do one thing, guys, let me run it with the OpenAI embedding model, okay?
+Yeah, now it is clear.
+So, here, somewhere, actually, I kept the code for the OpenAI embedding also. Just give me a moment.
+Sunny Savita
+20:26:27
+-H
+What to buy condition, what to bag, transform embedding method, yes.
+So…
+Here, basically, you will get the code. So, guys, I already created this notebook and all, you can directly utilize this notebook, okay, as a boilerplate code
+You can take the quote from here, and then you can utilize that. Got it?
+Okay, so let me take this
+OS.gen, getENV. Let me keep it over here. So, I'm going to be initialized one more embedded model
+And with that, I think it will be working fine. Okay?
+So, this is going to be my code, and…
+Yeah, I think this is fine.
+Now, let me delete this cell
+Okay, perfect.
+So this is my OpenAI. I'm going to be load the OpenAI key just a second.
+Great, guys, so I'm able to load the OpenAI key, now let me take the model also.
+So, I can search about the OpenAI
+Yeah, so this is the OpenAI embedding. I can take this model, let me keep it over here.
+And what is the model name? The model name is this one.
+Okay.
+And then I can quickly
+test this model, whether it is working fine or not. So, from here, I can test it.
+Okay, so let me check out, guys, whether this model is working fine or not.
+It's running, running, running, it's more than 20 seconds
+-H
+Okay, fine, guys. So I think this model is working.
+I can utilize that. So, let me keep it inside the same variable
+The variable name is this embedding only, no? So, this is going to be a model
+Fine, guys, I think this is fine, this is perfect. Now, let me show you the example, okay? So, how to load the data and how to store it inside the FIS Vector TV. So first of all, tell me guys, whatever I discussed in the previous class, I hope that part is clear to all of you
+Yes or no?
+I already discussed those things, Pooja Goyal. I don't know whether you have seen my previous classes or not. If you haven't seen that, please go and check over there, okay?
+So, I already discussed this concept as well, the PHIS concept as well, how to keep the data inside the PHIS, right? Now, let me show you with respect to the document, okay? So, guys, whenever we're talking about the files now, we can create a different, different kind of indexes. So, may I know, guys,
+How many different kind of indexes we can create
+Please, let me know in the chat if you are aware about that, how many different kind of indexes we can create
+We can create 3 different kind of indexes, okay?
+So, we have a couple of more, terms also, like product quantization, okay, and some other different concepts. So.
+Yeah, definitely you can explore it from the FIS documentation, right?
+So, this is the import statement, let me import it one more time, and this time, guys, I'm not going to be use the embedding this Google Gemini model. So let me comment out this quota, let me delete it. It is not required, okay? So here guys what I will do
+So, this is important, right? So, I have to check with the dimension of the model. The embedding model which I'm using. Okay.
+So let me check the dimension of that particular model. So let me execute it, and then, guys, it will print the dimension. Can anyone guess what will be the dimension of this model
+This is a bigger model, right? So the dimension of this model is going to be 3072, right? I think many of you are able to give the correct answer, because you have joined my previous classes, right? Because of that only.
+No, let's, do one thing, guys.
+Let me, basically… just a second. And one more thing, whoever is win that completion, right, won that competition, the competition, the assignment which I given you, right, with respect to the fine-tuning
+So please share your mail ID. I think I mentioned inside the chat as well, so that we can provide you the access of this latest course, okay? Because as a winner, I think I asked you to give this latest batch access
+Sunny Savita
+20:31:38
+So, see, I mentioned the name Jyoti Gaurav, Anil and Smith. So, guys, provide your mail ID so that, we can give you the access. I think Jyoti has given Anil has also given. I got the ID from the Gaurab also. Ismith, okay, Smith has also given. Fine is Smith, thank you
+I think I got all the mail ID guys, so don't worry. Today, by end of the day, actually, you will, get the access of that course, okay? It is only for the winners. Whoever has won that competition, that fine-tuning competition. And for the rack competition, na, I will bring one more interesting gift for all of you guys
+Okay? So, I will, provide you something different, right, in that, assignment.
+So, be ready for that. So, yeah, iPhone 17 Pro. No, I think 18 is going to be launched, so I'll provide you iPhone 18, okay?
+So be ready for that. Be ready for the iPhone 80.
+Okay, fine. So, guys, let's do one thing. Let me read the PDF also.
+So, here, guys, you can see we have a data, so this is the data. Okay, so inside the data folder, I kept the data, that is Llama2 researchpaper.pdf, okay? So this particular data, basically, I'm going to be used, okay? This, this particular data for building a RAG, okay
+I'll just chunk the data, and then we'll keep it inside the Vector database. So for that, I'm using this PyPDF loader, okay, and then I'll be loading the data.
+So let me load the data
+And this data is available over the GitHub. Got it?
+Okay, so guys, here you can see we are able to, get the pages also, the total pages, how many pages are there inside the, PDF, okay? So, if you will look into this data now, so you will find out the number of pages, that is, 77, okay? The total 77 pages are there
+Now, guys, what I'm going to do, I'm going to be split that data. So, if we're talking about the splitter, or we're talking about the chunker, right? So, we have a different, different kind of chunker
+Okay? What we have, guys, we have a different kind of chunkar. Now, here I'm using this recursive character text splitter. So, what all different, different kind of chunker we have, right? And, which one we have to use when
+So, I will take one extra session for that. Here, I mentioned, chunking, I will discuss. In that case, in that session, you will understand when to use, what kind of chunking. Got it, guys? So here I'm going to initialize the recursive character transistor. I am keeping the chunk sizes
+1,000 character, 200 character is going to be overlapped. Okay, this is the separator. So wherever it will find out this separator, behalf on that only, it's going to be chunk my data
+So, double sledgement, double line, okay, paragraph, single sledgement, single line. This is the full stop, this is the empty string, okay? So this is like blank, right?
+So, here, guys, you can see based on this particular separator only, it's going to be separate, the data
+So, I will provide my pages to this spread document, and I will be able to get a chunk. So, let me check how many chunks we are able to get
+So, if you will see over here, we have 343 chunks, right? Total 77 pages are there inside this PDF, and we are able to get the 343 chunks. Let me increase the size of this chunk so that we will be getting a less chunk, okay?
+So if I'm keeping 2,000, then I'm getting 175 chunks, right?
+Now, guys, what I'm going to do… so here, guys, I'm going to initiate the different kind of index. Now, if you will see, that what kind of index it is, please let me know in the chat if you are able to see, if you are able to understand what kind of index it is
+So this is, guys, this is the HNSW index okay this is HNSW index. Now guys tell me this HNSW index is doing approximate search or it's doing the exact search? What kind of search it is doing this one.
+Sword is doing a… it is doing the approximate search, okay?
+Now, if you will hover the mouse on top of it, you will get the complete detail, okay? What you will get, guys, you will get the complete detail, right? So, here we have two to three parameters. The one is this D, these dimension, next one is the M, okay?
+And then, files, matrix L2. Now, can anyone tell me what is the meaning of it? What is the meaning of this particular parameter? What you are able to understand with this particular parameter?
+Okay, what you understand with the AM, guys? Yes, correct. AM is representing to the hierarchy. You are absolutely right. D, basically, dimension V is what? It is a dimension of the vector.
+Sunny Savita
+20:36:42
+Okay, so this is the dimension of the vector, which is M3072. Now, we're talking about this M, what is this AM? It is a hierarchy of the graph
+Right? It is a hierarchy of the graph. So, every vector, like, with how many neighbor vector is going to, is going to be connect, okay? So that's the simplest meaning of the AMP, right? So it is just to define the hierarchy. Now, what is the meaning of this particular value?
+This metric L2.
+What you understand with this metric L2 guys
+Metric L2 is distance, right. So, I told you, we have an L2 distance, this is called the Euclidean distance, okay? So we will find out the vector similarity and that we are going to be find out using this L2 distance. That is a Euclidean distance, right? You can utilize the cosine similarity, you can utilize a dot product
+Right? So those kind of metrics you can use. Now, we have some other configuration also, so we have two more parameter over here.
+So, first is this EF construction. Now, what is the meaning of the EF construction?
+And the second, basically, it's going to be EF Search. Again, basically, this particular parameter is related to the graph only. The graph, basically, which is going to be built in the backend, right?
+So, we have 200, and then 64. So let me, initialize it, and let me create the
+Let me create what, guys, let me create the, vector store. Now, over here, guys, we are going to be create a Vector store, so let me keep it as just a separate cell. So we are passing the embedding model, we are passing the file syndrice
+We are keeping it data in memory, okay? Then, to every document, the ID is going to be assigned, and normalized L2 is going to be false. Means we are not going to be normalized that particular vector, okay? While we are going to be calculating similarity, at that time, we are not going to be normalized those particular vector
+Okay
+Now, I hope, guys, this Vector Store is also clear. So, let me, remove this part, and then let me store the data inside this Vector store. And once I will store the data, guys, tell me how many vector I'm storing inside this vector store
+5 syntax is not clear. In that case, I think you can check out with a previous session, Vivek. I already discussed this FIS index. So we are going to create a FICE index, and then this is the LangChain wrapper, okay? So using the LangChain wrapper, basically, we are going to create a files index for storing the Vector Database
+Got it?
+So we are able to store the document inside the Vector Store. Now, what is the next thing, guys? What we can do over here?
+This one?
+What we… what we can do over here, guys, tell me.
+So here, basically, we can create a retriever on top of it. So we are going to be create a retriever, and then once I'll run it, guys, okay? So, according to prompt, I will be able to get the context, right? Now, we are going to be create a prompt. So this is the prompt, guys. Okay, this is the formatting of the prompt
+Now, here I define the Grok LLM also, okay? So see, this is the Grok LLM. Not Grok LLM, it's a Google Gemini flash, right? Even I can use a Grok as well. Both is fine, right? So this is my LLM. Now over here, guys, what we have tell me
+So here, basically, we have the rack chain. Okay, so already we have discussed this rack chain, and then finally, what we have, we have this answer, right? We can basically
+generate the answer. Now, one more thing, guys, can we persist this index? Can we persist this index over the disk also
+So, the previous class I, purchased one index over the desk. Now, anytime I can, anytime I can load this index, can we persist this index also over the disk
+Yes, so we can create as many as index with respect to as many as document, and we can persist that particular index over the disk also. Getting my point, guys? So now let me test out my RAG pipeline. Now, here my retriever is ready. Now, guys, if I'm going to be write any kind of question to this retriever
+So, tell me, guys, what it will do.
+Tell me, guys, what it will do. If I'm going to be asked any kind of question to my retriever.
+Then it will bring the five documents from the Vector Databasement from the Vector database. So it is searching against what? It is searching against the PDF. Got it?
+Now, is here you can see, we have the prompt template. So, this context we are going to be provide over here. Then here, my query would be there, okay, and then I'm going to be format
+So, here my query would be there, guys, this one. Let me keep the prompt template in the
+Different cell. Okay, this is my prompt template, guys, which is a separate thing. Now, this is my format method, so what it will do, guys, it will just take the page content and the metadata
+That's going to be returned that, okay? As a single string, that's it. Now, here is my LLM, let me define my LLM. Okay. Now what I'll do, guys, so this is my rack chain. We are providing the retriever, then format dog
+Sunny Savita
+20:41:54
+Now, here miss my question. So, my entire prompt is going to be filled out, then bottle would be there, then STR output parser, right? So already I discussed this rack chain, even I will discuss in a more detail in the upcoming class, when I will discuss the… when I will discuss some more concept of the language chain, okay?
+So, let me run it, guys, let me execute it, and if I'm going to be asked any sort of a question, now this question, basically, it's coming from where? It's coming from the LLM.
+Sorry, this answer, basically, it's coming from where? From the LLM. This answer, basically, it is going to behave on what? It's going to be behalf of the PDF. Okay
+I hope this part is also clear. Then, how to create the HNSW index, and how to create a RAG on top of it. If I wanted to like save this particular index, okay, inside my folder, can I do it
+Yes, I can do that. So let me do one thing, let me execute this cell.
+Okay, so if I'm going to be execute this cell, guys, now you can see one more index I have with respect to my latest data. So the index name is what? Phys Index Llama2.
+Is this part clear or not, guys? Tell me.
+Yeah, you can do that, definitely you can do that.
+Anything, you can do that, okay? Krish, as
+So, fine. I hope, guys, this file syntax is clear. If you don't know about the 5 one, then you can check out my previous class. I already discussed that FIS index in a detail in the previous session, okay? So that's why I'm not going to be, so that's why I haven't explained you this FIS index from scratch
+Because already I discussed this FICE index in my previous class. Now, in today's session, guys, we'll more focus on the other databases, like ChromaDB, and then Gordent and the Pinecone, okay? So let me show you the configure of this ChromaDB, Pinecone, and the Quadant.
+So, let me open the ChromaDB. First, I will start from where. First, I'll start from the ChromaDB, okay? So even I kept some theoretical point also, so just to make your, understanding clear, you can read out this theoretical points as well, okay? It will give you the very good understanding of the
+FIS versus Chrome RDP, okay? ChromaDB, basically, it is a database, right? It is a vector database, so even you will find out the cloud variant of this, even you will find out the cloud variant of this chroma, okay?
+Once you will search it over the Google, you will get that. So, let me do one thing, guys, let me show you the… let me show you the practical of this ChromaDB also. So first, I'm going to select the kernel over here
+Let me check out which kernel I was using over here.
+Let me select the same one.
+So, after selecting a kernel, guys, what I will do, I'll follow the same thing, let it select
+So here, guys, I'm going to be import the statement, okay?
+So let me import the statement, and see, guys, this is the variant of the cloud, okay? So this is the, like, cloud variant of the ChromaDB. Now just click over here, and you will get that.
+So guys, see, this is a cloud variant of the ChromaDB. You can even keep the data over here, over the ChromaDB cloud. You just need to be, like, click on the start free cloud, and then, go with the Google login
+Okay, and after that, basically, you can log in over here, you can create a collection, and inside the collection, basically, you can keep your data and all, right? So everything is possible. You can explore this Chroma DB, okay, the cloud variant of the Chroma DB. As of now, I'm just telling you the local uses of the chroma DB, okay
+Because in the… because in this one, na
+Because in the POC and in the MVPs, right? So we use this ChromaDB a lot
+Right, so in the Chrome, we use this Chroma DB a lot in the POCs, in the MEPs, and yeah, later on we can migrate our solution to anywhere, to OpenSearch, to Azure AI Search, to Cloud and Pinecode anywhere, right?
+For the MVPs and the POC for the small, small, basically, practicals and all, we use that. Got it?
+Okay, now guys, let me execute it, and here you can see it is saying LangChain Chroma is not available. So first, let me install this LangChain Chroma.
+Okay, so just give me a moment, let me install this Langchen Chroma
+So, UB, Pip install
+And then, LangChain Chroma.
+Now I can mention it inside the requan.txt also
+Over here. Got it?
+So, fine guys, it is getting installed, now what I can do until… Okay, let it installed, then only I will execute it.
+Sunny Savita
+20:46:54
+Yeah, Chroma Cloud is a paid service. Got it?
+Okay, so guys, we are able to install the LangChain Chroma
+I think now we can use the LangChain. I think we can use the Chroma now. So, first, let me import it
+So, yes, this import is working fine
+Okay? Now, for the embedding, again, I'm going to use the OpenAI model only. So I will not be using this particular model for what for the embedding. Okay.
+So code is already available. This code is not very difficult. That's why I have kept inside the notebook, okay? You can easily understand just by reading this code, right? Because most of the things are the similar one over here
+Now, let me load the embedding model from the FIS IPvinB itself
+I just loaded over here this embedding model
+Okay, so we are going to be used this particular model. Let me keep it over here.
+So, here, guys, we are going to be using the OpenAI base model
+Okay, so this is my model, guys. Let me load it
+And then, I will be using this one. Now, first, I'll load the PDF, then I'll perform the chunking. So, this particular step, again, is going to be same. So let me perform it over here
+And then I will come to the Chroma DB, then how to create a vector storage inside the Chroma DB, okay? So this step is going to be same, and for this one, guys, for this chunking, sorry, for the data loading for this one, and for the chunking, what I have to do, guys, I have to use the data, right? So the data should be available inside the folder
+So, what I'm doing, guys, I'm going to keep the same data, okay? I'm copying the folder from here, and I'm pasting over here, right? So the data will be available. Now let me execute it. So after the execution, guys, what I'll be getting, I'll be getting my data, okay?
+So this step is going to be same. Again, I'm repeating, I'm not explaining much about this step, because already we have seen the data parsing, right? Now, let me chunk this data. If you don't know about the chunking, guys, so we'll… we can discuss the chunking. Chunking is very simple concept
+You just have to divide the data into the multiple pieces, okay? For that, we can consider some strategy, so that we can understand in the next class, okay?
+Let me complete this vector database part, then I can discuss about it, okay?
+So, here guys, my chunking would be there. So, again, I'll be get my chunk
+So, it's saying pages are not there. So let me check what is the issue over here.
+So, data is not a valid URL, is it? I don't think so, it is a valid URL, data is there, no?
+So, where we are running… okay, I think now, guys, I need to…
+use the parent directory, maybe. So, let me do one thing.
+Let me put the double dot over here. So, now I think we are able to load it. So, double dot means what parent directory, okay? Dot means what current directory. Now, here, let me split the data. So, again, I'm going to convert into the 2,000 chunks. Let me convert into the 2,000 chunks, okay?
+So here, my chunks are ready, this one. So, 175 chunks are there. So, till here, all the steps are same. Now, the differences will come over here. So let me talk about these differences, and let me talk about the chroma DB also, right? So here, guys, inside the notebook
+Only I kept all the, I kept all what… I kept all the differences and all everything, so you will be able to understand very, very clearly. But still, let me explain to you that part. So, what I'm doing, guys, I'm going to be start from here itself, okay?
+So, here, what I'm doing, guys, just a second, let me open the blackboard, and over the blackboard also, I can give you the quick idea. Got it?
+So, here, what I'll do, guys, here
+Let me write chroma
+DB.
+So, ChromaDB is what? It is a vector database, right?
+It is not a simple vector store
+It is not a simple vector store, it is a vector database.
+Sunny Savita
+20:51:59
+Okay, so if I'm saying vector database means what? It can do a lot of thing
+It can able to do the lot of things, and even we can utilize this in the real-time application also
+Okay? We can utilize it, no, real-time application also. If we're talking about the FIS guys, so FIS, actually
+We're talking about the files, right?
+Suffice, it is a library.
+Okay.
+Which is being provided by the meta
+Does FICE
+is being provided by what? By the meta only.
+Okay.
+So, on top of it, on top of the spies, na
+On top of the SPICE
+We are using the LangChain files wrapper
+LangChain, FIS
+wrapper
+Okay.
+We are using this LangChain files wrapper to convert it into, or to convert it into the Vector Store
+Originally, this file can only contain the embedding
+But if you are using this LangChain wrapper, this FICE LangChain wrapper.
+In that case, along with the embedding
+We can store the metadata
+Okay. We can store the document ID
+Different, different other thing we can store as a vector store. Got it, guys?
+Now, if we're talking about the Chroma DB, so Chroma DB is not like that.
+ChromaDB is not a library
+Okay.
+ChromaDB is not a simple vector store, it is behaving like a full-fledged Vector DB
+If we are doing it in a local
+Then
+We can have some limitation in the local
+Okay.
+T-A-T-I-O-N, right? But if you are using the cloud variant of the ChromaDB
+cloud variant of the Chroma DB
+So, it will be working as a full-fledged solution
+Full flush solution.
+Got it, guys.
+Is it getting clear to all of you? That'll be yes or no?
+So, let's do one thing, let's look into the differences. So, if we're talking about the files, so there we can create the flat index in ChromaDB, directly we cannot create
+IPF, we can create it, we can not create. Okay, HNSW, we can create, we can create. PQ, we can create, we cannot create. Manual index selection, we are… it is possible in the files library, but it is not possible inside the chroma database
+Okay, this one. Metadata filtering, limited. We can do a lot of metadata filtering. It is persistent, yes, it is persistent, okay? Langchain integration, yes, LangChain integration is possible.
+So what… Pq means, what PQ means is a product quantization
+It is another one kind of indexing technique, okay? Product quantization, again, it is one more important indexing technique, right? I haven't discussed that, because in the previous class, basically I was talking about the IBF HNSW only right
+But,
+This PQ, basically, it is working, along with what? Along with this flat index, IVF index, and HNSW index, right? This PQ index.
+The meaning of it, it's called the product quantization, okay?
+Now, in the product quantization, what we do, we just compress the vector
+Right? We just compress the vector size, so if we have a large vector dataset, okay, if you wanted to store it inside the memory, okay, and for the faster similarity search, for the faster similarity search, if we wanted to compress that vector
+If we wanted to compress that Vector right so we use this product quantization, okay, so we have a high dimensional vector
+Right? So, high dimensional vector is taking lots of memory. Instead of that, what we are doing, we are going to be convert into the quantized variant, and then only we are going to be stored into the memory
+So, product quantization is an important one. If we are going to be dealing with a huge amount of data, okay? If we have very huge amount of data, in that case, we are going to be use this product quantization. Got it, guys?
+So we have the 10 million data, 1 million data, 5 million data. In that case, we are going to be used that
+Now, manual, we don't have so many manual control inside the Chroma DB, so that's why, guys, lots of cross you will get over here.
+Okay? Now, we are talking about the files, so here you can see files, it is a vector index, okay? It's a search engine.
+Sunny Savita
+20:56:59
+So you can manually manage the index type, dimension, metric, talk store, ID mapping, persistent, and all. Now, on the other hand, we are talking about the Chroma DB, okay? So, ChromaDB itself is going to be managed what itself is going to be managed the vector, document, metadata, IDs, collection, index, persistence, store, and all everything
+So, no need to manage it from your end. So, this Chroma DB only will manage everything for you. Got it, guys?
+Okay. So, let me execute it, and I think so it is clear.
+Now, here you can read out the complete detail about the files and the Chroma DBI cap, right? And here is a more detail. Here is a more detail basically about the files in the Chroma DB, right? Okay now guys in the files basically we are going to be using Langchen wrapper
+On top of the 5 syntax, and we are going to be create the Vector Store. On the other hand, on the other hand, we're talking about the Chroma DB, so ChromaDB is not like that.
+It's working as a full-fledged DB, okay? So there, first, we are not going to be create an index, and we are not going to be using Langchen wrapper on top of it, okay? For making a proper vector store. It is a complete vector store itself, right? So let me show you how to utilize that
+So, I hope this part is clear. This is also clear. Now, you can see what we are doing. We are going to be create a chroma Vector Store. So we are passing the collection name. This is my embedding model. Now, where I'm going to be process the directory, and what kind of, basically.
+index I'm going to be used, okay? And which similarity technique I'll be using over there. So, see over here, we are able to create the Vector Store, okay? And here we are not going to be using any LangChain wrapper to make it complete full-fledged Vector Store, no
+Because ChromaDB itself is a vector store. Got it, guys? So let me execute it, let me run it, and see, guys, once I will execute it, you will be able to get the Vector DB over here, okay?
+You will be able to get what? You will be able to get the Vector DB over here. Where, guys, you will be get it over here, inside the chroma DB. Now, once I will store the data, then only you will get it with this particular name, okay? So here I can show you how to store the data
+The storing of the data is, same, so for that, guys, what I'm going to do… so here, I'm going to keep my documents, right? So, I'm going to be… pass my document. This is the chunks only. And once I will run it, guys, I will be able to store my document inside the Vector DB
+Okay? And you will be able to see this index also.
+So, see, guys, now the index has created. Now, inside this particular index, you will find out Chroma, SQLite 3, okay? And here you will find out some other detail, okay, about it. So Chroma SQLite 3, inside this particular one, the index have been created
+And it is a full text… full search text index, okay? You can perform the similarity search on top of this data, and it is created using the ChromaDB. So guys, now I can create a retriever on top of it. Let me create a retriever. So guys, here, what I'll do, see
+what I mentioned, Vector is 2.as retriever. Now, here is a similarity. So, based on the similarity search only, we are going to retrieve the data. K is equal to 5 means what? 5 top result, we are going to be retrieved, okay? Now, once I will check, once, I'll invoke this retriever.
+So, what I'll be getting, I'll be getting top 5 query. So, for that, retriever.invoke, I'm passing the query, and here you can see the result. Okay, so we are iterating over the result, and we are printing that. Let me run it, let me execute it, guys, so you can see the result from the Vector database.
+So, is it clear to all of you guys, this part is clear? How to basically create this ChromaDB
+Yes or no
+Tell me, guys, yes or no
+I hope everyone is able to understand, right?
+So, you can either utilize the Chroma DB, or you can utilize the files. FISE, basically, it's for the limited operation, but yeah, over the ChromaDB, basically, you can store the huge data, and you can perform as much as operation, okay? Metadata filtering and all, like, it is supporting a rich metadata filtering
+You can explore more about it. Okay, so as we will enter into the project, at that time, basically, you will get a more understanding. So, I will discuss about this MMR, okay, this similarity score threshold and all. So, in the retrieval chapter now, we are going to be discussing all this thing
+So, as of now, we just kept the simple similarity, but guys, this MMR similarity score threshold, again, this is the, like, very, good metrics we can utilize it for retrieving the, good amount of data, okay? The, basically.
+Sunny Savita
+21:02:05
+What I can say. A very rich data we can extract with respect to the particular query using this particular… using this search type, okay? So the going forward class and the retrieval technique… in the retrieval chapter, I will discuss about it. Got it, guys?
+So, as of now, I'm just telling you how to do the data configuration.
+Right? Now, let's do one thing, guys. See? See, if someone is going to be asking you what is a Chroma DB, so you can simply say, ChromaDB is an open source vector database, right? Open source vector database designed for what is storing, managing, and retrieving the embedding
+Okay? Where it is being used, guys, so it is being generally used inside the rack pipeline. It is generally being used for the normal semantic search also, okay? Inside the recommendation system and all, we can utilize that, right? So what ChromaDB can store
+ChromaDB can store the embedding, original document, okay, it can store the metadata and the unique ID. All these things can be stored by what? It can store by the ChromaDB. Got it? So if you wanted to see the normal record, how the data is being stored, which data is being stored
+So this is the data, guys. The data will look like this only
+Getting my point, guys, yes or no? Is it getting clear to all of you?
+How the data will look like inside the Chroma DB. This is one of the example you can refer
+And now the data, basically, it will be available in the form of what? It will be available in the form of collection. So, see, this is the ChromaDB
+And here you can see the Chroma DB. Okay, now once you will open this SQLite, right? So, you can see the complete detail inside
+Okay? You can see the complete detail inside. So, we have created our own one, so you will be able to see it over here.
+So, just a second, let me show you where it is.
+So, this is all the table which has created
+Collection, yes, so this is the collection, guys. See? Llama 2 collection is there, dimension, size, and all, everything. Now, I think it is not clickable over here
+It is not clickable
+Collection metadata, this is fine.
+Okay.
+Okay, guys, this is not clickable, but I think you can see this detail over here.
+This one, inside this, only my data is available.
+Okay. Inside this only, my data is available. Now, what is the files, guys? So, PHI is, basically, it is just the Facebook AI similar… it is a, like, simple open-source library, okay? It is the full form of the files is Facebook AI similarity search
+Right? So it's going to be store vector database inside the index, right?
+So, we are going to be create a Vector store on top of that index using the LangChain wrapper.
+Getting my point, guys, what I'm trying to say over here. So we can create a different, different kind of indexes, flat index, IBF, HNSW, product quantization, right? So that kind of indexes we can create inside the files.
+So, in the ChromaDB, actually, we are not getting that much of low level. We are not getting that much of low-level authority inside the chroma degree.
+Right? If someone is going to be asking you the differences between the files and the ChromaDB, you can say, PHIS, basically, it is a vector search or vector search library, okay, indexing library
+On the other hand, ChromaDB is a vector database
+What is the main purpose of the ChromaDB? To manage document, metadata, embedding, everything, guys, right? Now, what is the, like, main purpose of the files? Just to utilize in the simple POC to perform the efficient nearest neighbor search, that's it.
+So, files is going to be store a vector, yes, even, ChromaDB is also going to be store a vector, but original document metadata, metadata filtering and all, everything is possible over the ChromaDB, directly over the files, it is not possible. It is possible
+Along with a Pfizer effort, okay, the LangChain Pfizer mapper. Got it, guys? Current operation, we can do it inside the ChromaDB, but inside the files, it is limited one, right?
+Then you can discuss on to different, different points, whatever I mentioned over here. You can read out this theoretical point. It will give you the so many details related to files and the ChromaDB. Got it, guys?
+Is it getting clear to all of you? Tell me yes or no.
+Now, inside the ChromaDB, actually, it is going to be create a full text search index, okay? It is not that SQL DB. SQLite3 is a SQL DB, but there actually we can create the full search text index, okay?
+Sunny Savita
+21:07:08
+So, fine, guys, I hope this part is clear. Now we will discuss the cloud-based solution. That's going to be what, that's going to be this, pine cone in the quad end, okay? So, I will show you the configuration of the pine cone and the quad end, basically. After the break, we will discuss that
+So, I hope this Chroma DB is clear. So, once we will develop the project, at that time, you will get a more clarity, right? And re-ranking different, different searching… searching mechanism, okay, hype, and this different retrieval technique and all, so we'll discuss in the next class, next to next class, we will discuss that
+Okay? So you will understand how efficiently retrieve our data from the Vector Store. As of now, we are just seeing the configuration of the vector databases of the vector store in the upcoming session once, I will discuss about the different retrieving technique, na, you will get a more clarity how to retrieve a data from the Vector Database
+Got it?
+Yeah.
+Right, so, guys, putting a timer for 20 minutes, let's quickly take a dinner break. Then, basically I will start again.
+So till here, everything is fine, just give me a quick confirmation.
+Yes?
+Okay, great.
+So thank you guys, let me take a break, then again we'll start the session. Thank you very much.
+Sunny Savita
+21:30:57
+Okay, guys, I think, we can start with the class. Sorry, I was having dinner, so got a little late.
+Now, let's begin
+Can you hear me now?
+Fine. So, guys, so far we have discussed about the 5s and the ChromaDB. Now, let's do one thing, guys. Let's see the code of the Pinecone also. So I'm going to be close all the file
+And let me open the pine cone one.
+Data and all, everything is available in the GitHub. I am going to give you the latest changes, okay? I am pushing the latest changes, so let me…
+Add the latest changes to the GitHub. Just a second, guys.
+Yeah, so I'm giving you the latest changes via GitHub.
+Okay. You can directly take it from the get-dom only. Just pull it, you will get that.
+Cloud Chroma is not required, instead of that, we are going to discuss about the Pinecore and the Quadant, okay? So that is important, that is being used at the multiple places
+If you know how to use at least one cloud-related database, you can use any other one also. Got it? Maniganda.
+Okay. So, let's open the SpineCone one. So, this is the file of the pinecone. I even capped some differences between the files, chroma and the pinecone, okay?
+Here you can check out the complete detail. So, most of the things are the managed one inside the Pinecode, so we cannot, like, configure that from our end, okay? So, we don't have that, access.
+Because it's a managed vector database, we can just configure a couple of things, right? And I'll show you how to create an index and all everything over there, and how to keep the data inside the Pinecone. Got it, guys?
+So, before, using the pine cone, guys, we'll have to generate the Pinecone API key.
+So, just open the Google Colab, okay, so just open the Google Colab. Sorry, not Google Colab, guys, just open the Google
+I think the Instagram was open. Yeah, sorry. So, just open the Google, and then write the pine cone over there, okay? So once you will write the pine cone, guys,
+You will get that website. Now, what you can do, guys, you can, simply log in over here, and after the login, what you will do
+After the login, basically, you can click on this free trial. Because Pinecone is a paid one, and I think we'll have to pay, okay, for using this Pinecone. So, better to use the free trial only, for this, demonstration purpose, okay? Or for this practice purpose.
+So I've given you the link in the chat, please open the pine cone. Do it, guys, fast.
+Yeah, you can use the PostgreSQL pg vector also. Even you can use the Oracle DB also, both is fine, okay? Any of them you can use, that is completely fine. Got it?
+So, I hope, guys, you are able to open the spine cone. Now, just click on this start for free.
+Now, once you will click onto the start for free
+You will have to log in, okay?
+So it is asking you to log in
+Now, you can choose GitHub, you can choose the Microsoft ID, and you can even choose the Google, right?
+So, just choose any of the ID. Now, here I'm, logging with my Gmail ID
+So let me log in. Now, let me provide some permission, which can take the username, password… sorry, username and the profile name and all
+That's it.
+Yeah, you one, you can use the Atlas MongoDB also, that is also fine, Kishore. But again, it depends company to company.
+Which Vector Database they are going to be used, depend on that only. Got it? So if you are a solution architect, then you are going to decide over there, then which database you will be using.
+Understood? Is it clear?
+Okay. Now, guys, here you can see I already created some sort of an index, so see? Blanchen intest index, default language chain test index 2.
+Some of the indexes created by me over here. Now, you can simply go with this API key. Now, once you will go with the API key, guys, here you will get an option to generate the API key, okay?
+So, here is the option to generate the API key. Now, I already created one API key, let me delete this API key.
+Sunny Savita
+21:36:02
+Okay, now after deleting this API key, I can generate the new API key. Got it?
+Now, what I'll do, guys, I'll click on the API key.
+And, I will write the name of that. Let's test our
+Gen AI Bootcamp
+With this name, I can generate the API key, okay? And then I can keep all the permissions, and then create an API key, that's it.
+Now, this is my API key, guys. I can simply look into this API key, or I can copy it directly, okay? So, it is saying that after generating the API key, then immediately copy, otherwise, you will not be able to see it again, okay?
+So let me copy the API key, and then I'm going to be keep it where… I'm going to be keep it inside the
+ENB file. So, here is my ENV file.
+Now, there, I'm, just copying my API key, okay?
+Pinecone.
+underscore API
+Underscore key. Okay?
+So this is my API, you know, Pinecone API key, no, let me keep the value.
+So, did you generate the API key? Yes or no?
+I already discussed that, Sameer, I think you're not following the previous sessions, so just look into the session transformer-based embedding. There I discuss all the free embedding methods and all everything.
+Okay? Please check over here.
+Fine. Now, guys, I hope, this is done now. Let's do one thing, let me open the
+Pine Gone 1. So, there is a code of the pine cone. Insert this folder, we have a code of the pine cone.
+Okay. Now, guys, what is a pine code? Tell me.
+Tell me, guys, what is a pine cone?
+It is a vector DB, or it's a cloud-managed vector DB.
+or it's a vendor-managed Vector DB.
+It's a vendor-managed Vector DB, right? So we can say Cloud Pinecone is nothing, it's a fully managed cloud vector database
+Okay, which is going to be used to store, manage, and search vector embedding.
+And, one more thing, guys, at scale, you can use this one. You can use this pine cone. Means
+The spine cone, actually, you can use it till any skill, right?
+For bigger project, guys, this pine cone is being used in a real time, okay?
+So, why we are using this pine cone again for the retrieval argument generation, for the semantic search, okay?
+Even for the recommendation system, we can utilize that. Now, what it is going to be stored, it is going to be stored the document and the corresponding embedding
+Got it, guys.
+Maybe it also you can use, it will be working in the same way. Waybeat also will be working in the same way
+Got it?
+Now, in the pine cone, what you are going to create in the pine con basically are going to be create an index
+Okay. You're going to be create what? You are going to be create the index. Now, whatever data you're going to be stored in the pinecone, that is called the record
+What it is called, guys. It is called the record.
+Okay? Now, inside the record, what you will be having, you will be having the ID, the corresponding back… you will be having the document, the corresponding vector, and the metadata, right?
+So that is called the record, okay? Now, guys, what you can do
+So, you can do the sharding and all, right? Everything, see, you don't need to do anything from your end. It is a managed vector database, so if your, this distribution is going to be in… if your, basically scale is going to be increased, in that case, automatically it will handle the distribution and all
+Okay.
+I hope this part is clear. So, what we can do, now we can store the database, sorry, we can store the document inside the pine cone. Let me show you how to do that.
+So, first of all, guys, to execute this particular code now, we'll have to select it… we'll have to select the kernel, okay? Without kernel, it's not going to be execute.
+So, select the kernel, all the code file… sorry, all the code cell is going to be initiated automatically. Got it?
+Now, what you will do, guys, after that, let me show you the code where it is
+Okay, I think I capped it as a markdown. Just a second, guys, let me keep that code, this particular code
+This code, actually, I kept it as a markdown one. Let me keep it inside the code cell, okay?
+Sunny Savita
+21:41:06
+So I hope it is clearly visible.
+So what I'll do, guys, first of all, I will import necessary package. Okay, so let me import the necessary packages
+So, these are the necessary package, guys. Now, you can see it is saying Pinecone is not there.
+Right? So, what you will have to do, first you will have to be install the pine cone.
+Now, how to install the pine cone? Simple.
+Use the UV package manager, right? So just write ubpip install Pinecore
+Okay.
+So, Pinecone is getting installed. Now, you can mention the same, but, library inside the recommend.txt also.
+So let me keep it inside. We are inside the requirement.txt also. Okay
+So, I have the pine cone. Now, guys, what I will do… so, see, pinecone is installed. Now, after installing the pine cone, again, I will execute it, and you can see here, we are able to load the Pinecone.
+Okay.
+Now it is saying Langchen Pinecone is also not there, so let's install this package also.
+So I'm writing over here, UB
+You'll be
+Pip install
+Langchain, Pinecore.
+Okay? Now, let me mention it inside the requirement.txt.
+This one.
+Because we are going to be using LangChain, no, for this, entire system… sorry, for this entire application and all, right?
+So, this is required. Now, guys, it is saying pinecone.async client is also not there, so I think we'll have to install the Pinecone client also.
+So let me check out, what is our correct name of the package
+If it is not there, maybe, we'll have to use a different version, actually.
+Okay, just a second.
+Wait, guys, okay, let me check with the correct version.
+Okay, so it is saying I will have to be install it, and will have to be installed the upgraded version. So, just a second, guys. UB Pip install
+Then
+Pinecone, pinecone client in the Langchen. Just 3 things, I will have to be installed.
+Okay.
+So it's saying, right, why buy? Okay, sorry, dash dash
+Now, what I will have to do
+Unexpected, uninstall
+Is it not required? This… why is not required?
+Why has a value… okay, I think we'll have to pass it like this. Sorry, my bad.
+I would have to put double dash, maybe.
+Okay…
+Just a second, guys. Let me, again, write it.
+Now, these packages are uninstalled. Now, what I'll do, guys, I will write
+UB, pip install
+upgrade
+G R A T E
+Ubp install, sorry, install, upgrade
+Now here, Pinecone and the Langchen Pinecone. This two things is required.
+Like, train
+Underscore pine cone, okay? Wait, guys.
+So, it is installing again. It will take some time, guys, let it install.
+Sunny Savita
+21:46:11
+Guys, if you are facing this issue now, you can even also follow the same step. Got it?
+Not until let me restart the kernel, restarting will be required.
+Okay, guys, so this package are installed. Now, let me reload the window. So, view, command palette, reload window
+You know, what I can do, guys, I can even select the kernel, okay? So, let me select the kernel also.
+It's taking time. Just a second.
+Okay, now it is done, guys. So, kernel is there, I think it was able to detect that.
+Python environment
+Yeah, now it is there. So, what I can do, guys, again, I can check it out that… wait, let me import it
+So, it is running, let's see whether we are able to get… whether we are able to run it or not, or are we getting the same issue? Wait.
+Okay, fine guys, so we are able to load it. Now, it is working fine. Understood? Yes or no?
+So, what is the next thing, guys? So, first, we are going to be import the Pinecone and the Google API key. So, we are not going to be using the Google model, Google embedding model. Instead of that, we'll be using the OpenAI embedding model, okay?
+Open emitting models are the free one, but several other models are the… Sorry, paid one, actually. Several other models are the free one, you can check out my previous session, you will understand.
+So, instead of this one, I need to write the OpenAI API key
+Now, here also, OpenAPI key
+Okay?
+So this is done.
+Now, instead of this one, I just need to use the
+For different,
+Class, okay? So, here I'm initializing the Google Genetic Embedding class
+I need to use a different class. So, just a second, guys, let me import that code. I think I kept it inside my ChromaDB also
+Okay?
+So, here is the code.
+And don't worry, guys, you will understand everything, in the end-to-end projects. We are to utilize this Vector database and how to store the different, different kind of data. So this is just a boilerplate code which I'm providing you, so that you can utilize it anytime, okay?
+So, let me do one thing, guys, just a second. Yeah, this is fine. So, here, I'm going to be open the Pinecone now here, I required what? I required the OpenAI model
+So let me run it, let me check.
+Whether it is working or not. So, see, guys, we are able to load the embedding model also. I think everything is working fine now
+So, that's my environment variable, this is my embedding model. Now, guys, what I will do, I will initialize the pinecone client. Okay
+Now, inside the Pinecone client, what I'll do… so over here, guys, I will write the index name. Okay, this is my index name
+So here, you cannot, basically configure so many things, whatever thing is being provided by the pinecone, those only you can configure, okay? So, see API key host, proxy URL, SSL, CS certificate, verification and all, you can configure, okay?
+While you're defining the Pinecone client
+So let me define the Pinecone client over here
+And this is my index name, where my data will be available
+Okay? Langchen Llama Index, okay? Let me change the name of it.
+Okay. Now, what I'm doing, guys, I'm going to be create an index, so this is the code for creating an index.
+Sunny Savita
+21:51:17
+Pinecone index
+Let me create a pine cone index. So, pinecone create index, here I am passing the index name, dimension of this one, embedding cosine similarity, okay, which similarity search mechanism will be used. It is a serverless there I am mentioning the cloud details and all
+You can check out with this great index, whatever, like, whatever parameter they have given, you can configure those many parameter. Got it?
+So let me create an index, guys. If the index is not there, it will be created.
+Now, guys, one more thing.
+Now tell me here, if we're talking about this pine cone, right? So this pine cone also is being created somewhere on top of the AWS, Azure, and all
+Now, you don't need to manage that. That vendor will be managed, means Pinecone Company will be managed, okay? Serverless means what? Serverless means you don't need to do any sort of a configuration specification, right? Nothing. Everything will be managed by the vendor only, you just need to provide a
+detail of the cloud
+Got it.
+On which cloud you wanted to host that, right? Now, here, guys, what I'm doing, guys, I'm checking whether the index is ready or not. So, here I'm checking whether the index is ready or not.
+There's a simple check whether the index is ready. Okay, so… if it is ready, guys, it will break, right? Means the status is ready. You can simply check out like this, just do one thing, just write this code over here
+So, it is a simple loop which I return, see, you will get what? You will be getting the true
+If it is true, then it will break the loop
+Okay
+Now, let me do one thing, guys. Let me take the index, and inside this index only, I'm going to be store my data
+So, this is my index, and inside this index only, I'll be storing my data.
+Right? Now, here is my pencone Vector store. I'll be providing the index, embedding, and the namespace. Now, what is the namespace, guys? What do you think with the namespace
+Tell me, guys.
+What is the namespace?
+Name expense means where the data is going to be stored, the vector data is going to be stored, okay?
+Where the vector data is going to be is stored. So, see.
+What is going to be a hierarchy? Let me tell you the hierarchy
+See?
+We have what? We have a pone index. Let me write over here
+fine cone index.
+Okay.
+Now, inside this pinecone index
+We would be having a namespace
+Okay?
+Alerts and name is Space 1.
+namespace.
+Inside the namespace only.
+The actual vector is going to be reside
+Vector
+Vector 2, Vector 3. Now, here also
+several vectors would be there
+So, is it… is it clear to all of you, tell me, guys, yes or no?
+So insert the index also, you can create a different, different sections.
+So, inside what, guys? Inside the…
+namespace also. Sorry, inside the index also, you can create the different, different index.
+Now, whenever the data is going to be searched, it's going to be searched inside the specific namespace, whatever namespace you are going to be defined
+Got it?
+So whatever namespace you are going to be defined, let's say you are going to be just defined one namespace, it's going to be search over there. You are going to be defined that both namespace, it's going to be searched inside the both namespace.
+Okay.
+So, the same analogy, actually, you will find out inside the SQL databases also
+Got it?
+So let me define the Vector Store. This is my Vector DB Vector store, okay
+So, here is what this is my Vector DB
+I'm going to be initiate
+Sunny Savita
+21:56:17
+Now here is my document, so you can have the actual document
+You can take that PDF, you can chunk that PDF, and you can store that. As of now, I just have the
+Basically, dummy document, just to showcase you, okay?
+So, let me keep it over here, this one
+So let me define the document. I think you already know how to take this document and all. Let me add the document.
+So once I'll add the document
+You will be able to get the document inside the pine cone, okay? This one
+So we are going to insert the document. We just need to recall this add document, and
+And my data will be available over here, over there, okay? Now then, guys, what we can do, we can perform the similarity search on top of this Vector Store
+Means we can perform the retrieval operation, right? So this is, like, a similarity such operation with the metadata filtering
+Now here, if you wanted to convert into the retriever
+To utilize it inside the vector, inside a rack pipeline. So this is the code for that. Okay, this one.
+Now, after that, guys, what you can do, you can delete that storage.
+You can delete that document, even you can delete the namespace, you can delete that index also. Everything is possible.
+So, tell me, guys, is it getting clear to all of you? Is this part clear?
+Now, if you will look into Via, if you will look into the pine cone, so here is a pine cone, guys, this one
+Now, inside the pine cone, guys, what I have done, I have created the… I have a database, right? Langchain.
+So, what is my database name?
+So, what is my database name, guys? Let me check it out over here.
+So my database name is what? So, sorry, my index name is what?
+My index name is Langchen Llama Index, okay? So, Langchen Llama Index, this is the one. So, if I will open it, guys, so here, I will be able to get all my data.
+Okay, so see, this is all the data.
+Is it getting killer to all of you? Tell me, guys.
+So, inside this demo document namespace, you can see all the data, whatever data we have kept over there. Now, if you will open it, guys
+Just open the record, and inside this particular record, you will be getting the embedding also.
+So this is the embedding volume, this is the metadata, this is the text, this is the ID, and where it is available inside… this is available inside this demo document space
+Getting clear to all of you, tell me, guys, yes or no?
+We can do this thing without the lanction also, that is also possible.
+Okay.
+Now, how many people are able to understand how to store the data inside the pinecone Vector Store
+namespace configuration, everything you can see. This is a complete Menace system, so just a deep dive into that
+Okay, just look into the documentation, you will be able to understand what is
+But you can configure it over here, right?
+You can create as many as namespace inside the index
+It is all about the segregation of the data, Munind. You will have to think how many space your namespace you are going to be create, okay?
+So, this part is clear, and now, tell me, guys, this is a… this is being provided by the pinecone, but actually, Pinecone is hosting the data, or… Pinecone is hosting the server over the AWS.
+Okay.
+Pinecone is hosting the server over the AWS. Now, guys, what I can do, I can simply retrieve the data, so let me show you the retrieval part also.
+So, likewise, I can perform the similar research, and I can check what all data is being retrieved. And here, basically, I can utilize this vector store as a retriever, okay? So if I'm going to be use it as a retriever, so I can mention the threshold filter and all everything. So this part we are going to be discussing inside the retrieval chapter
+Okay, next class, we'll discuss that
+So, see, it is going to be connected with the pine cone, and it is able to filter the data from there.
+Okay? Now I can utilize this Vector Store as a retriever, as a retriever. There's a certain configuration of that. Now, I can retrieve the data
+So, is this part clear? The pine cone part is clear to all of you? Tell me yes or no.
+How many people are able to understand this Pinecone configuration? I hope it is easy to understand, and everyone is able to get it.
+Got it.
+Can we move to the cord end?
+Can we move to the quaden?
+Okay.
+So, you can, basically follow this table, just to get a differences between the 5 Chroma DB and the Pinecone
+Sunny Savita
+22:01:20
+are very easy to understand, nothing is there. If you will do some research from your end also now, you will be able to get that. Right?
+So, Yash is with me in the back end, guys. If you have any doubt, meanwhile, so you can write in the chat, okay? He will reply that.
+So, fine, I hope this part is clear. Now, let's do one thing, guys. Let's understand the quadrant also.
+Let's see how we can configure the quadrant, okay?
+Can we start with the cordon? Tell me yes or no.
+Okay, let's take, one minute of break, guys. Quick water break, and then we'll start, okay? So…
+Putting a timer for 2 minutes, just a quick water break, then we'll start, okay?
+Okay, guys, I think, we can start. So, let's, start with the quadrant now, okay? Let me show you how to configure the quadrant.
+So I'm selecting the kernel first, and here, guys, you can see, I kept a couple of detail, right? So, how this quadrant is going to be is store the data
+Okay, so you can just read it out this detail, and you will clearly understand
+How it's going to be stored the data, okay? So this is the entire code for the quad end, so we'll have to be installed a couple of library, okay, in order to use this quadrant. So let me import some packages first.
+So, just a second, guys, let me import some packages.
+So, here is all the packages. If I'm going to be executed, it will give me the error.
+The quadrant is not there, right? So for using the quadrant, guys, I will have to install their SDK.
+So, instead of that, it is giving me some other error, numpy rate tip size main binary incompatibility
+Sunny Savita
+22:06:23
+Okay, why it is so
+Luncheon community
+Why I'm getting this error, guys…
+Just a second, let me check it out, why I'm getting this error.
+I think I was using the same package, no, throughout this…
+Practical, right?
+Okay, I'll check that. Let… until let me install this one.
+So, this is going to be fine, and it is giving the issue… okay, lengthen quadrant is not there.
+So I'm going to be installed the LangChain quadrant. Let me mention it inside the Recon.txt also
+And then I'm going to be install it inside the virtual environment, okay?
+So, here is my virtual environment, let me write CLS, and then
+UVP install, and then package name. This one
+Now, guys, what is a quadrant? So, again, quadrant is a managed Vector Database
+Okay.
+So, current is water, again, it is a managed vector database. Now, this quadrant, actually, we can use it for a very huge amount of data, and it will work very fast, because it has created on top of the Rust language
+Okay, so the entire SDK of this quadrant, actually, it has created on top of the Rust SDK.
+Okay, so it is an open source vector database. You will… you will get the code of that if you are going to be search it
+Okay? So, it helps us quickly find semantic… semantic, similar information. It is working very fast, actually, right? And that's why most of the people are using this quadrant inside there solution.
+Right? So rust that Rust is our language, is a programming language. On top of that, it is created
+Got it, guys.
+So, where the data is going to be stored inside the quadrant
+So the data is going to be stored inside the quadrant inside the collection
+So it's going to be create a collection. Inside that, it's going to be create a multiple point
+Okay? And inside the point only, it's going to be keyboard, it's going to be keep the payload. Got it, guys? So, first, we'll have to create a collection. Inside that, we'll have to create a point, and inside the point only, the data will be available.
+Now, locally is also possible, but here I will show you the cloud variant of the quadrant, okay?
+Lokri also, you can set it up, but in Windows, you will not be able to set it up very easily. It will give you lots of issue, so what we can do, guys, we can store it, we can use it via Docker only
+If you wanted to use it in a local, then use it via Docker
+Okay.
+So, here, guys, what is required? See, I installed the Langchen quadrant, so the Langchen is… LangChain wrapper is there
+Okay, Langchen wrapper is installed.
+Now, if I… if I'm going to be run it, guys
+I will be able to run it.
+So, it is saying what? It is saying Langchen current is not there. Let me restart the kernel
+Let's see whether I'm able to get this package or not.
+I think I have installed this package in some other environment, as you can see, guys. I think this is my mistake
+I installed this package in 3.12, okay? And which environment I'm using? I'm using 3.11 over here.
+So let me do one thing, guys, let me, basically select the different kernel
+And… I think so, that's why I was getting the issue
+Okay, so, yeah, now guys, it is fine.
+Actually, I have installed this particular package inside this environment, and I was using the different environment, okay? So, let me do one thing, guys, let me remove this Hugging Face embedding. It is not required as of now
+Quarant Vector Store is fine. Langchain text splitter
+It will be working… okay. Recursive character tax splitter is fine.
+Now, guys, what I will do, I will be installing that. UB pip install, because it is not there inside this 3.12 environment, okay?
+So, let me do one thing. This is fine. So, this is also working fine, quadrant and all, everything is there.
+Now, again, let me execute it and see, this is also working. Now, let me install the LangChain community also over here, so ubpip install LangChain community, okay?
+So, either of the environment you can use, whether it's a 3.11 or 12, but guys, the package should be there, okay? The package should be installed inside those environments.
+Right? So, this is done, and
+This is also done
+Sunny Savita
+22:11:24
+I think some issue is there. What is the issue
+5 PDF loader integral being censor, no longer actively maintained
+This is fine, this is a warning, right?
+What I'm… why I'm getting this error.
+This annotation is not required, maybe?
+No, it is not because of that.
+If I'm going to be used 3.11 in that case
+I am getting this error, huh?
+I'm getting this error, this error, this error, why I'm getting this error. I think this is, again, because of some incompatibility, guys.
+Whenever we install any package, na? So that might incompatible with another package, okay?
+So, let me do one thing, guys, let me check out why I'm getting this error.
+And again, for using this quadrant now, you will have to generate the key.
+You can directly check out with a co-pilot. Let me open the co-pilot. Let me give this notebook. Now I can ask him.
+So, it will suggest you the correct version
+Okay.
+It is enough… it is at the free plan right now, so that's why, this Copilot actually… it might not give the correct answer
+Let's see.
+Pine cone, let me…
+Quote, quadrant, quadrant
+Everything is fine, I don't know why it is giving me this issue
+Oh, it is saying unstable the Sipai and the numpy. Now I can write over here, I am using UV package manager.
+Then restart the kernel
+This error was not there in the other
+file, na? I was not getting this error.
+So, what it is saying, you have Python
+So, UB run Python
+Okay, UV sync
+I think I can check out with this command, guys, wait.
+pre-install
+Just a second, guys, okay?
+No module name UV, why it is showing like this.
+I think, guys, I'm using it at the multiple places, na?
+Because of that, also, it might give me this kind of error, this kind of issues
+Let me give me… let me try one more time, okay? If it is not working, I will again recreate the environment.
+Sunny Savita
+22:17:04
+-H
+I think it is because of this UV, it is not able to point it out. Just give me a second, guys
+Otherwise, now, I will delete this environment and will create a new one.
+Pip, actually, it works very, very slow, and I don't think Pip,
+Will work for this one.
+Okay, this is fine, recursive character tax is better, chunking is there
+Okay, I think this will not be required.
+Okay, just give me a moment, okay? Let me correct it. It will be working
+Embedding model is there, so… this is fine.
+We just require this data.
+No, see, Pip is running it for one, like, from past 1 minute, right? So.
+Pip is very, very slow, actually.
+Okay, let me do one thing, just a second, guys. Just a second.
+I'm going to be delete this environment
+And even… let me delete this also, it is not required to me
+Now, what is the requirement of TXT? This is the requirement of txt
+So many things are there, na
+MTP pillows and all
+So, guys, what I can do, as of now, I can only take the required packages, okay?
+So, just a second, guys.
+Let me take the required packages
+And here I'm going to create one more requirement.txt.
+Governments
+Andro's code
+requirement underscore Vector.txt. Okay, Vector DB.txt.
+Now, inside this one, I will be only keeping
+The
+Necessary packages. Okay, these packages. The sentence transformer is also not required
+This is not required for the embedding.
+Okay, so this is also deleted number, cycle, this is fine, langchain, LangChain, okay, this is also perfect. Great.
+Now, let me do one thing, guys, let me…
+Delete this ENV first
+So, this ENB is not required
+Sunny Savita
+22:22:09
+Okay.
+So, this is done now, let me open it inside the
+VS Code, okay? Just give me a second, guys, I was facing the issue, that's why I am following this step.
+Now, here what I can do, I can write UB
+Python list
+So, I can use Python 3.11 again for creating a virtual environment, okay?
+3.11. This is there
+3.11 is there, right? This one
+Now, what I'll do, guys, I'll create a virtual environment, so you'll be
+Cls… UBVENVENB hyphen hyphen, Python
+And this is mine.
+Environment, okay?
+Let me activate the environment, and… now, guys, I can write pip install
+requirement, EQUI Vector db.txt, okay?
+Fine, sorry, I need to use the UV command before that. So, here is the UV.
+And even R would be required, so let me close it, let me write the CLS, this is fine
+R would be required.
+Fine, so guys, let it install, and then only I can utilize the same environment, okay?
+If you are getting such issue, na, delete the environment, create it from scratch.
+Otherwise, it will take too much time to debug the entire thing.
+Okay
+This is fine, this is done now
+I think this is completed.
+So, here is my cordant
+Close all, now where is my cordon?
+This is my cordon.
+Okay.
+This file is getting open. IPY kernel is required, okay? If you are not going to install the IPY kernel, this notebook will not be executed.
+Yeah, so this is fine, now let me select the kernel
+And
+This is Mike Colonel. Got it, guys?
+Restart the notebook, and now
+Let's execute it one more time
+It should resolve. If it is not going to be resolve… okay, guys. Now, guys, we are able to execute it, see?
+Actually, it was a version mismatch issue. What happened now, when we install some other library, so sometimes it is not resolved, sometimes it is not able to resolve the versions, okay? And because of that, it gives this kind of issues.
+Now, it is working fine, let me delete all this cell. This is not at all required, just for the
+For the debugging and all, and Quadrant is also working fine.
+So, yeah, this is my data.
+So, data is available over here.
+Just a second, guys.
+So, PDF coordinate data, okay? So, actually, the data is available inside the data folder only.
+And this is available inside the root directory, okay?
+So, current path is fine, this is the collection name where my data will be available
+Right? Now, after that, guys, I'm checking the path. If the PDF path is not going to be adjust, then we are raising the issue.
+So it is saying PDF path is not available.
+Gordon, it is finding out where
+This is my PDF path
+quadrant path. Okay, guys, just a second, let me do one thing.
+Let me take the relative path of this data, okay? Great.
+So, here is a relative path.
+And I'm just keeping it over here
+That's it, guys, right?
+So, this is the
+But
+What is the file name? Llama2 Research PDF, okay? So I'm going to take the same, file
+Which I was using
+So this is the file path, okay?
+According path is not required
+Let me check. PDF path, collection name
+And now it is there. So…
+You're just saying
+What it is saying, guys, class of cordon
+Sunny Savita
+22:27:13
+Okay, I think it is taking
+Just a second, guys. Let me remove this part, then.
+Okay, this is fine, this is fine.
+And
+This is our
+A stir up not just…
+Okay, fine. So, I think this is not required, guys. Directly, we can read this PDF, okay? That's fine.
+So, just a second. I think we'll be able to lead the PDF. This SDR even is not required, because that is a STR path, right?
+So, what it is saying, file path, class, data
+is not a valid file URL. Is it?
+Okay…
+Now, let me do one thing, guys. Let me remove all this thing, just a second.
+So I'm going to be part this entire path
+And it will be working. Okay?
+Okay, fine. So it is working. You can delete this particular
+variable, okay? So we have a collection name, there my data is going to be stored, and this is what, guys, this is my PDF data, right, which we are going to be stored, okay? Sorry, which we are going to be used
+Now, after that, this, again, this step is going to be same. I just need to show you how to configure the quad end, right? That's it.
+So, tax splitter and all, we'll discuss in the next class, so don't worry about that.
+So, again, this step is going to be same. You can increase the chunk size
+The character inside the single chunk, so the total chunk size is going to be reduced, okay? So 174 total chunks are there, 174 total chunks.
+Now, here you can see, so what you have
+You have a PDF path. You can, hard-coded that PDF name as of now, so what you can do, you can write the
+Llama 2 Research
+paper PDF, okay? So this is what… this is your useful metadata, which we are going to be using.
+Alright, so let me keep it over here
+Let me execute it
+So guys, from the chunks, basically what we are getting, we are getting the chunk index, okay? And then file name, basically, it's a Llama 2 research PDF, right? So this is going to be become what is going to become my metadata, okay?
+Now, I hope this part is clear, so let me do one thing, let me show you the next one.
+Here, we are going to be using the LangChain OpenAI embedding. So, I think this is not installed inside the current virtual environment
+So I just… I'm just going to be installed inside the current virtual environment, so it will give me the error that LangChain OpenAI is not there, okay?
+So, here I can write UV pip install
+Line chain, OpenAI. So it's going to be installed, and it's done. Let me close it
+And then, it is working fine.
+Okay, guys
+I hope you are enjoying this real-life session with me, all that debugging and all
+So
+You can work like this. Okay, so this is the size of the embedding.
+Now, here is the quadrant path. So…
+This is the client. Now, what will happen, guys?
+You can
+Give the quadrant path, okay?
+So, where the quadrant data will be available. So, let me do one thing, guys. Let me create one fold… specific folder for that
+Just a second.
+Okay. So, first of all, guys, what you will have to do, you will have to create the variable also, right? So just create one variable where inside the .env folder
+So just open the .env file, and here write the quadrant API key.
+So, quadrant API key. Now, just go with the… just open the Google
+And right over here, the quadrant, okay? So once you will write the quadrant, guys, right, see, let me show you from a sketch. See, once you will write the quadrant, again, it will ask you the login.
+Okay, quadrant, login. So, once you will write the quadrant login
+So this is the official website of it.
+Now, after that, log in with your mail ID, log in with your Google, or with your GitHub
+Now, what you can do, you can basically log in right here. You will get this kind of interface. So it is asking you to create one cluster, right? So it is asking you to create one cluster. It's a free cluster, basically, see over here
+Sunny Savita
+22:32:17
+So you can write the cluster name, GenAI
+Bootcamp.
+So this is a free configuration which is providing to you. Now you can select the provider, and you can select the location, okay? Let's keep everything by default and create a free cluster.
+My cluster is created, and this is the API key, okay? So I can, copy the API key, and this is what, this is my cluster endpoint also. So let me keep both things where, let me keep both things inside this
+environment file, okay?
+So I capped it inside the environment file, so just a second, guys.
+This is done.
+Now, over here, guys, what I will be doing, I'm going to be create one more variable, that is quadrant, cluster endpoint. Okay
+So this will also be required
+current cluster endpoint
+So, this particular variable will also be required, so let me keep the correct value of it.
+Okay.
+So, just open that same page, and you will get that, this one.
+Where it went, this one. Okay, so just copy this value and keep it inside your .env. So these two are the important one
+And I hope so this is clear.
+Now, guys, what I will do, see here, basically what we have done. So, we can basically keep the quadrant data and the local also, okay? But guys, we are not going to be user, because I am showing you this with the end-to-end project perspective, okay?
+So, local one, we can use the fries or any other one. So, I will be showing you the quadrant client, the actual client, okay? So here, guys, I'm going to be create a client, and then the quadrant client will be there, and there only I need to pass what I need to pass the
+API can, that URL, okay? So just see over here, you have the different, different variable, actually. So, URL and the API key. Okay, there's two things you need to be passed. So, first is going to be what? API underscore key, okay? So, pass the API key. Now, over here.
+This API key, basically, are going to be read from where?
+So, you are going to be read this API key from the
+Just a second.
+API key… okay. Here, the code is not there. Let me take it from the… from this particular file.
+So, just a second, guys. Load ENB, then this is the code, okay?
+So, guys, I'm just going to take this code, and here
+We required what? We required the
+Import OS
+And then from.en will load .env, right?
+Then we required what did we require the quadrant API key
+Okay.
+And then we required what? We required this, quadrant
+client URL, okay?
+So…
+Cordant cluster endpoint. So this two things are required. Now, let me
+Write the correct name of it, so this is the API key, this is the cordon cluster endpoint, okay? So these two values are there. Now, what I will do, guys, I will be keeping the
+Two things, okay? The first is going to be quadrant API key, the second is going to be cluster endpoint. So let me keep the current variable
+And then my client is ready, okay? So, using this client only, we are going to be create what… we are going to be keyboard, we are going to be keep the data, okay? At this client only, we are going to be using this client only, we are going to be store the data
+Let me execute it. So, here you will see
+Pocket is saying URL parameter. It is saying the URL parameter, so this is fine. So my client is created, now I'm going to create an index.
+So I'm checking whether the index is there or not. If the index is not there, I will be creating that, okay?
+So let me create the index also, and see inside… sorry, the index, actually it is called the collection over here, okay? Now this is the Vector configuration. So I'm going to be executed. So see the index have been created. I can simply check out with the quadrant itself, so let me keep and continue
+And go to the cluster overview, how your cluster will look like
+So, see, GenAI bootcamp, this is your cluster. Inside your cluster, only the collection will be available.
+Okay.
+So you can open this cluster, where the collection will be available
+Cluster alert
+Sunny Savita
+22:37:18
+So, this is the…
+I think we can see the cluster… we can see the collection. Once we'll push the data over here, okay?
+So, let me do one thing, guys. Let me push the data. So, here is what, guys, here we are going to be create a vector store
+So, this is what… this is my Vector store, means we are using the LangChain wrapper
+And then, I'm going to be
+store the data, okay?
+So, this is what? So, see, I have a client, collection name in the embedding, so my Vector Store is there. Now, using the Vector Store only, I will be adding the data. So this is my chunk ID, so to every chunk, basically, I'm going to be assigned one ID, okay? And now, finally, I'm going to be add the data
+So this is the code for adding the data
+If everything is fine, we'll be able to add the data.
+So, if everything works fine, guys, we will be able to add the data. So, insert at 174th chunk. Now, if you wanted to do the query, so yes, we can do the query, and if you wanted to create a retriever, then we can create a retriever also.
+Okay, so this is the code for the retriever. Now, where we will check the data, guys, so we can check out the data over the
+cluster itself. So, let me…
+So, refresh it, and once you will refresh it, guys, you will be able to see the cluster, okay? I have used it in my… one of the projects, even in one batch also I have taught it, but after that, I think they have changed the
+UI and all, maybe so.
+So… the example, okay. No, it is not required.
+Right in a managed cluster, this is… okay, Managed Collection is over here
+Let me check it over… let me check it inside this one, manage collection. I think we'll get it over here, okay?
+It is also very easy in our project. Basically, we are going to be utilize it.
+In our project, basically, we are going to be utilize it
+So, yeah, this is the collection, guys, and inside this particular collection, you will be getting your data, see.
+Can you see, guys, the data?
+So this is our data which we are able to store inside this collection, okay?
+embedding size and all, everything is available. Even you can open the graph, you can find the similarity and all, everything is possible.
+So, tell me, guys, how is the… like, session so far?
+Are you able to understand all the configuration and all?
+Let me give you this entire code… code base, first of all, the updated one, okay? Wait.
+Let me committed and seeing the changes.
+Okay, we can do that. It's not very difficult, Abhi, okay? So I think I showed you each and every loader
+You can load the data from web and all anywhere, and you can do the chunking, and you can store it over here. Got it?
+So, guys, now my Vector Database is also ready, so in our end-to-end project, we are going to be use that
+Okay, so the next class is going to be about the retriever. So I will discuss about the retriever, so let me write over here
+Class 35 is going to be about the… sorry, first I'll discuss the chunking, guys.
+So, let me write over here, chunking.
+Okay. And then we'll discuss about the retriever.
+So, class 35, which is on 26th of July
+2026, this is about the chunking and the retriever, okay? So tomorrow we'll discuss about it
+Now, this is… this class is about the
+Extended
+Database, okay? So…
+Here, basically, we have discussed about the ChromaDB
+Pinecone
+And the quadrant
+Got it?
+So tomorrow, I will give you one assignment also, so that, you will be very familiar with all this
+Database and all, okay? It's going to be a quick short assignment
+Okay
+You can go and check with the recording, Charles, right? In live session, sometimes it happens. We are not, if we are getting any error, then
+In the live session only, I have to take care of it, right? And in that case, there might be lots… there might be, like, some back and forth. Got it?
+Okay, fine. Guys, I think, we can conclude the session, so…
+Sunny Savita
+22:42:20
+I hope you liked this session, right?
+Okay, great. Yeah, sure, Tarik, I'll do that.
+Now, tell me, guys, should I keep the class on Wednesday? Because, next Saturday
+My schedule is tentative, I might be traveling, so
+Next Saturday, guys
+Let me write over here
+class will be rescheduled
+on
+upcoming
+Wednesday, okay?
+So, just to manage it for one class, and if you are able to attend, attend it, otherwise, you can,
+Otherwise, you can go ahead with the recording, okay?
+So, only for one class, guys. Let me write over here, only for
+one class. That's it, right? Date, so next Saturday, the date is… what would be the date?
+It's 1st of August. Let me write over here, 1st of August
+And upcoming Wednesday would be… let me check what would be the date for the upcoming Wednesday.
+The date is going to be 29th of August.
+29th of
+July.
+Okay.
+This one
+Yeah, we can keep it on Thursday also, so tell me when you are comfortable, Thursday or Wednesday. I can keep at that day, okay? Don't worry.
+For this small thing, I think pole is not required, huh? Why two unnecessary launch the pole
+Thursday, Thursday, Thursday, Wednesday… I think it's a mixed answer, Wednesday is fine. I think Wednesday is fine. We can manage it on Wednesday, then take rest on Thursday, Friday, okay?
+Just one class, one, class, basically, okay? The timing would be 8.30. I'll schedule it 8.30 to 11.30, okay?
+So there's going to be timing. Got it, guys? Is it clear?
+So let me write over here, I might be travel
+For some personal work
+So
+Because of that, guys
+Next Saturday, class will be reshed in the upcoming Wednesday. Okay?
+Fine, thank you, guys, bye-bye, take care. Let's start with the doubt session. So, after 2 minutes, I'll start the doubt session.
+If you're not able to register for the hackathon, guys, don't worry. Once the next hackathon will be released
+I will announce that. Got it? Prometha. Don't worry.
+Okay, guys, see you, bye-bye, take care. Let me put the 2 minutes of timer, then we'll start. Thank you very much.
