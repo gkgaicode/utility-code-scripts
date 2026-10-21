@@ -15,3 +15,9 @@ Requirements:
 10. Provide the actual generated Markdown file when file creation is available.
 
 **Quality requirement:** Prepare comprehensive study notes that allow someone who missed the class to understand the session without watching the full recording. Prioritize complete coverage and accuracy over a short summary.
+
+
+
+---
+Prepare comprehensive study notes using the missed-class-notes instructions. Verify coverage against the complete available transcript and generate a UTF-8 Markdown file suitable for GitHub and VS Code.
+---
